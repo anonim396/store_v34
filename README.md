@@ -10,8 +10,8 @@
     "store"
     {
             "driver"                        "mysql"
-            "host"				            "localhost"
+            "host"			    "localhost"
             "database"                      "store"
-            "user"		            		"root"
-		    "pass"			            	""
+            "user"		            "root"
+	    "pass"			    ""
     }
