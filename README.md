@@ -13,5 +13,5 @@
             "host"                        "localhost"
             "database"                    "store"
             "user"                        "root"
-	    "pass"                        ""
+            "pass"                        ""
     }
