@@ -1,12 +1,16 @@
 В databases.cfg
 
-"store"
-
 {
+
+    "store"
+
+    {
 
     "driver"                        "sqlite"
 
     "database"                      "store"
 
+
+    }
 
 }
