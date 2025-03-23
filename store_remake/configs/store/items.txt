@@ -1,0 +1,26 @@
+"Store"
+{
+	"Main Info Panel"
+	{
+		"Shop Toplists"
+		{
+			"type"							"link"
+			"command"						"sm_toplists" // put the top list command here. This is a command executed via store menu.
+			"unique_id"						"uid_toplists_toplists"
+		}
+	}
+	
+	"Player Skins"
+	{
+		"skin"
+		{
+			"model" "models/player/ct_sas.mdl"
+			"arms" ""
+			"team" "4" // (For CSGO and CSS: Ts = 2 , CT = 3, both = 4) (For L4D2: Survivor = 2; Infected = 3; Both = 4)
+			"type" "playerskin"
+			"preview" "1" // Enable the preview for this item, only item that support preview can use this feature
+			"unique_id" "uid_model_skin" // You must have "unique_id" 
+			"price" "0"
+		}
+	}	
+}
