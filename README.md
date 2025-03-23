@@ -3,14 +3,10 @@
 {
 
     "store"
-
     {
+            "driver"                        "sqlite"
 
-    "driver"                        "sqlite"
-
-    "database"                      "store"
-
-
+            "database"                      "store"
     }
 
 }
