@@ -3,6 +3,5 @@
     "store"
     {
             "driver"                        "sqlite"
-
             "database"                      "store"
     }
