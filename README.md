@@ -9,9 +9,9 @@
 
     "store"
     {
-            "driver"                        "mysql"
+            "driver"                      "mysql"
             "host"                        "localhost"
-            "database"                        "store"
+            "database"                    "store"
             "user"                        "root"
 	    "pass"                        ""
     }
