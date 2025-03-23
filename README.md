@@ -1,4 +1,5 @@
 В databases.cfg
+
 "store"
 {
     "driver"                        "sqlite"
