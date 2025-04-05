@@ -10,17 +10,32 @@
 		}
 	}
 	
-	"Player Skins"
+	"Скины"
 	{
-		"skin"
+		"Тест скин"
 		{
 			"model" "models/player/ct_sas.mdl"
 			"arms" ""
 			"team" "4" // (For CSGO and CSS: Ts = 2 , CT = 3, both = 4) (For L4D2: Survivor = 2; Infected = 3; Both = 4)
 			"type" "playerskin"
 			"preview" "1" // Enable the preview for this item, only item that support preview can use this feature
-			"unique_id" "uid_model_skin" // You must have "unique_id" 
+			"unique_id" "uid_model_1" // You must have "unique_id" 
 			"price" "0"
 		}
-	}	
+	}
+	
+	"Шляпы"
+	{
+		"Тест шляпа"
+		{	
+			"model" "models/player/t_leet.mdl"
+			"position" "0.0 -1.0 12.1" // I can't help much at this config. You need to identify the config by yourself
+			"angles" "0.0 0.0 0.0" // I can't help much at this config. You need to identify the config by yourself
+			"type" "hat"
+			"unique_id" "uid_model_2"
+			"preview" "1"
+			"slot" "1" // Same as custom_model module. Only 5 slot available at the same time (0->5). You can only equip 5 types at the same times (wings, hats, facemarks, ... etc)
+			"price" "0"
+		}
+	}
 }
