@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"vi"		"Hủy bỏ giao dịch"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"vi"		"Bạn có muốn đề nghị {1} {2} của mình không?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"vi"		"Bạn có muốn đổi {1} {2} của mình không?"
+	}
+	"Offer"
+	{
+		"vi"		"Đề nghị một vật phẩm"
+	}
+	"Offer item"
+	{
+		"vi"		"Đề nghị vật phẩm này"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Đối tác của bạn đề nghị {1} tín dụng"
+	}
+	"Partner Item Offer"
+	{
+		"vi"		"Đối tác của bạn đề nghị các vật phẩm sau:"
+	}
+	"Partner Not Ready"
+	{
+		"vi"		"Đối tác của bạn vẫn chưa sẵn sàng."
+	}
+	"Partner Ready"
+	{
+		"vi"		"Đối tác của bạn đã sẵn sàng."
+	}
+	"Player Left"
+	{
+		"vi"		"Người chơi bạn muốn giao dịch đã rời khỏi trò chơi."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Sẵn sàng [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Giao dịch sẽ kết thúc trong {1} giây..."
+	}
+	"Trade Active"
+	{
+		"vi"		"Bạn đã bắt đầu giao dịch."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"vi"		"Bạn có muốn giao dịch với {1} không?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"vi"		"Bạn có muốn hủy giao dịch không?"
+	}
+	"Trade Cooldown"
+	{
+		"vi"		"Vui lòng đợi vài phút trước khi giao dịch lại."
+	}
+	"Trade Menu"
+	{
+		"vi"		"Để mở lại menu giao dịch, hãy gõ !trade."
+	}
+	"Trade Not Active"
+	{
+		"vi"		"Bạn chưa thực hiện giao dịch."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"vi"		"Đối tác của bạn đã hủy giao dịch."
+	}
+	"Trade Select Player"
+	{
+		"vi"		"Chọn người chơi để giao dịch"
+	}
+	"Trade Successful"
+	{
+		"vi"		"Giao dịch đã hoàn tất thành công."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"vi"		"Bạn đang giao dịch với {1}\n-----------------------------\nĐể đề nghị tín dụng, nhập !offer <amount>\nBạn đã đề nghị {2} tín dụng"
+	}
+	"Trade item"
+	{
+		"vi"		"Giao dịch vật phẩm này"
+	}
+	"Waiting for confirmation"
+	{
+		"vi"		"Vui lòng chờ câu trả lời từ người chơi đã chọn."
+	}
+}

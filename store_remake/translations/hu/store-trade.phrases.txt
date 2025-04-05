@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"hu"		"Mégse a cserét"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"hu"		"Szeretnéd felajánlani a {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"hu"		"Szeretnéd kicserélni a {1} {2}-t?"
+	}
+	"Offer"
+	{
+		"hu"		"Ajánlj egy tárgyat"
+	}
+	"Offer item"
+	{
+		"hu"		"Ezt az elemet ajánlja fel"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A partnered {1} hitelt ajánl"
+	}
+	"Partner Item Offer"
+	{
+		"hu"		"A partnered az alábbi tárgyakat kínálja:"
+	}
+	"Partner Not Ready"
+	{
+		"hu"		"A partnered még nincs kész."
+	}
+	"Partner Ready"
+	{
+		"hu"		"A partnered készen áll."
+	}
+	"Player Left"
+	{
+		"hu"		"A játékos, akivel cserélni szerettél volna, elhagyta a játékot."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Kész [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A csere {1} másodperc múlva véget ér..."
+	}
+	"Trade Active"
+	{
+		"hu"		"Már kereskedsz."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"hu"		"Szeretnél kereskedni {1} -val?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"hu"		"Meg szeretnéd szakítani a cserét?"
+	}
+	"Trade Cooldown"
+	{
+		"hu"		"Kérjük, várjon néhány percet, mielőtt újra kereskedne."
+	}
+	"Trade Menu"
+	{
+		"hu"		"A kereskedési menü újranyitásához írja be: !trade."
+	}
+	"Trade Not Active"
+	{
+		"hu"		"Nem kereskedsz."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"hu"		"A partnered megszakította a cserét."
+	}
+	"Trade Select Player"
+	{
+		"hu"		"Válassz egy játékost a cseréhez"
+	}
+	"Trade Successful"
+	{
+		"hu"		"A csere sikeresen befejeződött."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"hu"		"Te most {1}-vel kereskedsz\n-----------------------------\nHogy ajánlj kreditet, írj !offer <amount>\nAjánlottál {2} kreditet"
+	}
+	"Trade item"
+	{
+		"hu"		"Cserélje ezt az elemet"
+	}
+	"Waiting for confirmation"
+	{
+		"hu"		"Kérjük, várja meg a kiválasztott játékos válaszát."
+	}
+}

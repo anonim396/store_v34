@@ -1,0 +1,2282 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"lv"		"{1}21 !!! BLACKJACK !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs jau esat pārlādējuši konfigurāciju. Lūdzu, mainiet vai pārlādējiet karti."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Visi piedalījušies spēlētāji atvienojas, neviens neatgūs savu {2}, haha. Džekpots bija {1} {2}!"
+	}
+	"All valid voucher"
+	{
+		"lv"		"Visi ģenerētie un derīgie kuponi ir:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"lv"		"Jūs uzvarējāt, bet jau pieder {1} ({2}). Priekšmets tika pārdots par {3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"lv"		"Jūs jau esat īpašnieks {1} ({2}). Jums tika atmaksāti {3} {4}"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Summa: {1}"
+	}
+	"Aura"
+	{
+		"lv"		"Aura:"
+	}
+	"Back"
+	{
+		"lv"		"Atpakaļ"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"lv"		"Likme * Koeficients = Jūsu uzvara"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Bonusa kredīti: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"CT uzvarēja džeku: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Maximālā likme ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Minimālā likme ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"lv"		"Random likme ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"T uzvarēja džeku: {1} {2}"
+	}
+	"Bet on"
+	{
+		"lv"		"Veikt likmi uz"
+	}
+	"Bet on a Head/Tail"
+	{
+		"lv"		"Likts uz Galvu/Ķīli"
+	}
+	"Bet on a color"
+	{
+		"lv"		"Likts uz krāsu un, ja šī krāsa tiek izvēlēta, jūs uzvarat!"
+	}
+	"Bet on a number"
+	{
+		"lv"		"Likts uz Zemu (#1-3), Augstu (#4-6) vai precīzu skaitli. Ja jūsu izvēle ir izmetusies, jūs uzvarat!"
+	}
+	"Bet on a team"
+	{
+		"lv"		"Likts uz komandu un, ja komanda uzvar raundu, jūs uzvarat!"
+	}
+	"Betting Already Placed"
+	{
+		"lv"		"Jūs jau esat veicis savu likmi šim raundam."
+	}
+	"Betting Invalid Team"
+	{
+		"lv"		"Norādīts nederīgs komandas identifikators."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūs zaudējāt {1} kredītus likmē."
+	}
+	"Betting Period Over"
+	{
+		"lv"		"Derīguma periods likmēm šim raundam ir beidzies."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūs veiksmīgi veicāt likmi par {1} kredītiem."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūsu likme bija veiksmīga. Jūs uzvarējāt {1} kredītus."
+	}
+	"Black"
+	{
+		"lv"		"Melns"
+	}
+	"Blackjack Info 1"
+	{
+		"lv"		"Blackjack ir spēle, kurā jūsu rokās esošo kāršu vērtībai jābūt augstākai par dīlera vērtību, nepārsniedzot 21."
+	}
+	"Blackjack Info 2"
+	{
+		"lv"		"Skaitīšanas noteikumi:\n- \"A\" kārti var skaitīt kā 1/11. Ja rokas vērtība pārsniedz 21, šī kārts jāskaita kā 1."
+	}
+	"Blackjack Info 3"
+	{
+		"lv"		"- \"10, J, Q, K\": Skaitās kā 10.\n- 2-9 Skaitās pēc to nominālās vērtības."
+	}
+	"Blackjack Info 4"
+	{
+		"lv"		"- Jūsu rokas vērtība jābūt tuvākai 21 bez pārkāpšanas un lielākai par dīlera roku, lai uzvarētu spēli.\n- \"A\" + 10 vērtības karte = BlackJack. Tas ir tūlītējs uzvaras gūšana."
+	}
+	"Buy"
+	{
+		"lv"		"Pērciet priekšmetu"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Pirkt priekšmetu ({1})"
+	}
+	"CP Changed color"
+	{
+		"lv"		"Jūs mainījāt savu krāsu uz: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"lv"		"Čata tagu krāsas opcija"
+	}
+	"CP Disable Color - Menu"
+	{
+		"lv"		"Atspējot krāsu"
+	}
+	"CP Disabled Color"
+	{
+		"lv"		"Pielāgota tagu krāsa atspējota."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"lv"		"Nav uzstādīta neviena vārdu etiķete"
+	}
+	"CP No file found"
+	{
+		"lv"		"Lietotāja pielāgotās tagu krāsas iestatījums ir atspējots. Lūdzu, sazinieties ar administratoru, lai saņemtu papildu atbalstu."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"lv"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"lv"		"Rāda tabulas žīmju priekšskatījumu, lūdzu, nospiediet TAB taustiņu."
+	}
+	"Cancel"
+	{
+		"lv"		"Atcelt"
+	}
+	"Cant be bought"
+	{
+		"lv"		"Šo priekšmetu nevar iegādāties"
+	}
+	"Cash out"
+	{
+		"lv"		"Izņemt"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Mainīt savu likmi: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs esat iegādājies {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lv"		"{1} jums nosūtīja {2} {3} kā dāvanu."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lv"		"Jūs nosūtījāt {1} {2} {3} kā dāvanu."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs esat pārdevusi {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs atvērāt konteineru un atradāt {1} kredītus!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lv"		"{1} atvēra konteineru un atrada {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lv"		"{1} atvēra konteineru un atrada {2} ({3})!"
+	}
+	"Check All Voucher"
+	{
+		"lv"		"Pārbaudiet visus derīgos un pieejamos kuponus (tikai administratoriem)"
+	}
+	"Check Voucher"
+	{
+		"lv"		"Pārbaudīt kuponu"
+	}
+	"Check Your valid Voucher"
+	{
+		"lv"		"Pārbaudiet savu ģenerēto un derīgo pieejamo kuponu"
+	}
+	"Choose Number (1:6)"
+	{
+		"lv"		"Izvēlieties numuru (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"lv"		"Automātiskā izņemšana:"
+	}
+	"Client Loadout Reset"
+	{
+		"lv"		"Jūsu aprīkojums tika atiestatīts."
+	}
+	"Client valid voucher"
+	{
+		"lv"		"Jūsu ģenerētais un derīgais kupons ir:\n "
+	}
+	"Close"
+	{
+		"lv"		"Aizvērt"
+	}
+	"ColoredSmoke"
+	{
+		"lv"		"Krāsainais dūms"
+	}
+	"Command is in-game only"
+	{
+		"lv"		"Lai izmantotu šo komandu, jums jābūt dzīvajam."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"lv"		"Konfigurācija tika pārslodēta. Lūdzu, restartējiet vai mainiet karti."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Vai esat pārliecināts, ka vēlaties iegādāties {1} {2}?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"lv"		"Vai esat pārliecināts, ka vēlaties uzdāvināt {1} {2} {3}?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Vai esat pārliecināts, ka vēlaties nomest {1} {2} kā dāvanu?"
+	}
+	"Confirm_No"
+	{
+		"lv"		"Nē"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"lv"		"Vai esat pārliecināts, ka vēlaties pārdot {1} {2} par {3}?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Vai tiešām vēlaties pārvērst {1} ({2}) kuponā?\nBRĪDINĀJUMS: Ja kuponā esošais priekšmets beidzas pirms izņemšanas.\nŠis kupons beigsies."
+	}
+	"Confirm_Yes"
+	{
+		"lv"		"Jā"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"lv"		"{1} pareizi atbildēja un laimēja {2} {3}!"
+	}
+	"Counter-Terrorist"
+	{
+		"lv"		"Pretterorists"
+	}
+	"Crash Already Start"
+	{
+		"lv"		"Crash spēle pašlaik notiek. Lūdzu, gaidiet nākamo spēli."
+	}
+	"Crash Auto Off"
+	{
+		"lv"		"Izslēgts"
+	}
+	"Crash Auto Off Panel"
+	{
+		"lv"		"Izslēdziet automātisko izņemšanu"
+	}
+	"Crash Auto On"
+	{
+		"lv"		"Ieslēgts"
+	}
+	"Crash Auto On Panel"
+	{
+		"lv"		"Ieslēdziet automātisko izņemšanu"
+	}
+	"Crash Info 1"
+	{
+		"lv"		"           Kas ir/ Kā spēlēt: Crash"
+	}
+	"Crash Info 2"
+	{
+		"lv"		"- Crash ir spēle, kurā spēlētāji var likt uz reizinātāju, šis reizinātājs ir saistīts ar pieaugošu līkni, kas jebkurā brīdī var sabrukt."
+	}
+	"Crash Info 3"
+	{
+		"lv"		"- Reizinātājs sākas no 1.00x, un jūs varat izņemt jebkurā laikā."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"lv"		"- Minimālā likmes vērtība ir {1} {2}. Maximālā likmes vērtība ir {3} {4}. Šie ierobežojumi var mainīties ar laiku."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"lv"		"Nepareizs ievads (tam jābūt {1} vai vairāk)."
+	}
+	"Crash auto input"
+	{
+		"lv"		"Ierakstiet savu automātiskās izņemšanas vērtību čatā"
+	}
+	"Crash auto input set"
+	{
+		"lv"		"Crash automātiskā izņemšana iestatīta"
+	}
+	"Crash set auto"
+	{
+		"lv"		"Uzstādiet automātiskās izņemšanas vērtību"
+	}
+	"Crash!"
+	{
+		"lv"		"Crash!"
+	}
+	"Create Item Voucher"
+	{
+		"lv"		"Izveidot priekšmetu kuponu (tikai administratoriem)"
+	}
+	"Create Voucher"
+	{
+		"lv"		"Izveidot kuponu"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Kupona izveide neizdevās - Sazinieties ar administratoru ar šo laika zīmogu: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"lv"		"Kredītu dāvināšana šajā serverī ir atspējota."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūs nometāt {1} kredītus kā dāvanu."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lv"		"{2} nosūtīja jums {1} kredītus."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lv"		"Jūs nosūtījāt {1} kredītus spēlētājam {2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"lv"		"Jums nav pietiekami kredīti, lai izveidotu giveaway."
+	}
+	"Credit Invalid Amount"
+	{
+		"lv"		"Ievadīts nederīgs kredītu daudzums."
+	}
+	"Credit No Match"
+	{
+		"lv"		"Spēlētājs netika atrasts."
+	}
+	"Credit Not Enough"
+	{
+		"lv"		"Jums nav pietiekami kredīti, lai iegādātos šo."
+	}
+	"Credit Too Many Matches"
+	{
+		"lv"		"Tika atrasti vairāki klienti."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"lv"		"Jums nav pietiekami kredīti, lai izveidotu kuponu."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lv"		"Jūs nopelnījāt {1} kredītus, nogalinot {2}."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūs nopelnījāt {1} kredītus, spēlējot serverī."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"lv"		"{1} ir saņēmis {2} kredītus."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"lv"		"Kredīti: {1}          Pot: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"lv"		"Atspējots"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"lv"		"Ieslēgts"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"lv"		"[Pielāgotais ieroča skaņas]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"lv"		"Pielāgotā ieroča skaņas skaļuma kontroles izvēlne"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Skaļums: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"lv"		"Pielāgotais ieroča skaņas: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"lv"		"Pielāgotā ieroča skaņa ir Atspējota."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"lv"		"Pielāgotā ieroča skaņa ir aktivizēta."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Pielāgotā ieroča skaņa ir aktivizēta. Skaļums: {1}"
+	}
+	"CustomModel"
+	{
+		"lv"		"Pielāgots ieroču modelis:"
+	}
+	"Damage the crate to open"
+	{
+		"lv"		"Sabojājiet kasti, lai to atvērtu!"
+	}
+	"Dead heat"
+	{
+		"lv"		"- neizšķirts -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"lv"		"             DEALER     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"lv"		"DEALER"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Atlaide: '{1}' ir aktīva! Patīkamu iepirkšanos!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Atlaide: '{1}' ir beigusies."
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Atlaide: '{1}' sākusies! Patīkamu iepirkšanos!"
+	}
+	"Double"
+	{
+		"lv"		"Divkāršot"
+	}
+	"Down"
+	{
+		"lv"		"Lejā"
+	}
+	"Down2"
+	{
+		"lv"		"                      5 = Lejā"
+	}
+	"Drop Gift"
+	{
+		"lv"		"Atstāt kā dāvanu"
+	}
+	"Edit Amount"
+	{
+		"lv"		"Rediģēt summu: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"lv"		"Lūdzu ievadiet priekšmeta derīguma termiņu (sekundēs) čatā!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"lv"		"Nederīgs skaitļa formāts. Lūdzu, mēģiniet vēlreiz."
+	}
+	"Enter custom amount"
+	{
+		"lv"		"Lūdzu, ievadiet savu pielāgoto summu tērzēšanā!"
+	}
+	"Enter maximum value"
+	{
+		"lv"		"Lūdzu, ievadiet maksimālo kredītu vērtību tērzēšanā!"
+	}
+	"Enter minimum value"
+	{
+		"lv"		"Lūdzu, ievadiet minimālo kredītu vērtību čatā!"
+	}
+	"Enter number of vouchers"
+	{
+		"lv"		"Lūdzu, ievadiet izveidojamo kuponu skaitu čatā!"
+	}
+	"Enter value of vouchers"
+	{
+		"lv"		"Lūdzu, ievadiet pirkšanai paredzētā kupona vērtību čatā!"
+	}
+	"Enter voucher code"
+	{
+		"lv"		"Lūdzu, ievadiet kupona kodu tērzēšanā!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"lv"		"Notika kļūda, atgūstot cenu. Lūdzu, sazinieties ar administratoru"
+	}
+	"Exact #x  = "
+	{
+		"lv"		"Precīzs #x = "
+	}
+	"Exit"
+	{
+		"lv"		"Iziet"
+	}
+	"Gained"
+	{
+		"lv"		"Iegūts"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lv"		"Iegūts: {1} {2}"
+	}
+	"Game Info"
+	{
+		"lv"		"Spēles informācija"
+	}
+	"Game in progress"
+	{
+		"lv"		"Jūsu pašreizējā likmes spēle ir procesā. Lūdzu, uzgaidiet līdz tās beigām."
+	}
+	"Get three on a kind"
+	{
+		"lv"		"Saņem trīs vienādas"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūs paņēmāt {1} kredītus."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs paņēmāt {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"lv"		"Nav neviena, kam jūs varētu dāvināt šo priekšmetu."
+	}
+	"Gift Player Left"
+	{
+		"lv"		"Izvēlētais spēlētājs jau ir pametis spēli."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"lv"		"{1} Lai veiktu dāvanu izsniegšanu, serverī jābūt vismaz {2} spēlētājiem."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"lv"		"Admins {1} uzsāka giveaway ar <font color='#15fb00'>{2} kredītiem"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"lv"		"|| Giveaway sākas pēc {1} sekundēm ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"lv"		"{1} {2} laimēja giveaway ar {3} kredītiem"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lv"		"{1}\n|| Uzvarētājs: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"lv"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"lv"		"Jūs esat sasniedzis maksimālo godmode skaitu, ko varat iegādāties šajā kārtā."
+	}
+	"Godmode Wrong Team"
+	{
+		"lv"		"Šajā komandā jūs nevarat izmantot godmode."
+	}
+	"Green"
+	{
+		"lv"		"zaļš"
+	}
+	"HE grenade kill"
+	{
+		"lv"		"HE granātas nogalināšana"
+	}
+	"HUD"
+	{
+		"lv"		"HUD"
+	}
+	"Head"
+	{
+		"lv"		"Galva"
+	}
+	"Health Round Limit"
+	{
+		"lv"		"Jūs esat sasniedzis maksimālo veselības paku skaitu, ko varat iegādāties šajā kārtā."
+	}
+	"Help_Back"
+	{
+		"lv"		"Atpakaļ"
+	}
+	"Help_Exit"
+	{
+		"lv"		"Izeja"
+	}
+	"Hide bullet sparks"
+	{
+		"lv"		"Paslēpt lodes dzirksteles"
+	}
+	"Hide bullet tracer"
+	{
+		"lv"		"Paslēpt lodes pēdas"
+	}
+	"Hide gloves"
+	{
+		"lv"		"Paslēpt cimdus"
+	}
+	"Hide paintball"
+	{
+		"lv"		"Paslēpt paintball"
+	}
+	"Hide particles"
+	{
+		"lv"		"Paslēpt daļiņas"
+	}
+	"Hide pets"
+	{
+		"lv"		"Paslēpt mājdzīvniekus"
+	}
+	"Hide trails"
+	{
+		"lv"		"Paslēpt pēdas"
+	}
+	"High #4-6"
+	{
+		"lv"		"Augsts #4-6"
+	}
+	"High #4-6 = "
+	{
+		"lv"		"Augsts #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"lv"		"Augsts - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"lv"		"VAIRĀK"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Izvēlētais skaitlis ir: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Nākamais skaitlis bija: {1}"
+	}
+	"Hit"
+	{
+		"lv"		"Trāziens"
+	}
+	"Hol Info 1"
+	{
+		"lv"		"Skaitlis starp {1} un {2} tika izvēlēts, lai uzminētu, vai nākamais skaitlis būs lielāks vai mazāks par izvēlēto skaitli."
+	}
+	"Hol Info 2"
+	{
+		"lv"		"Ja izvēlies pareizo, tu uzvarēsi divreiz vairāk nekā savu likmi."
+	}
+	"Hol Info 3"
+	{
+		"lv"		"Starp katru spēli ir {1} sekunžu pauze."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs esat veiksmīgi ievietojis {1} {2}."
+	}
+	"Inventory"
+	{
+		"lv"		"Inventārs"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"lv"		"Lūdzu uzgaidiet. Jūsu inventārs vēl nav ielādēts."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"lv"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"lv"		"{1}"
+	}
+	"Item Equip"
+	{
+		"lv"		"Iekārtot šo preci"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"lv"		"{1} [APGĀDĀTS]"
+	}
+	"Item Gift"
+	{
+		"lv"		"Dāvināt šo preci"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"lv"		"{1} (Izvēlieties plānu)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Pārdot par {1}"
+	}
+	"Item Unequip"
+	{
+		"lv"		"Noņemiet šo preci"
+	}
+	"Item Use"
+	{
+		"lv"		"Izmantojiet šo preci"
+	}
+	"Item Voucher"
+	{
+		"lv"		"Veidot kuponu no priekšmeta"
+	}
+	"Item Voucher disabled"
+	{
+		"lv"		"Piedāvājumu izveide priekš objekta pašlaik ir atspējota."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"lv"		"Jūs esat pārveidojis {1} ({2}) par kuponu {3}."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"lv"		"{1} paslēpts. Jūs vairs neredzēsit tos."
+	}
+	"Item not found"
+	{
+		"lv"		"Prece nav atrasta"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"lv"		"{1} atkal redzams."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"lv"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"lv"		"Jackpot ir pauzēts."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jackpot: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"lv"		"Jetpack ir tukšs"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"lv"		"[Jetpack] Degviela: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"lv"		"Jetpack ir uzlādēts"
+	}
+	"Jihad Failed"
+	{
+		"lv"		"Jūsu bumba neeksplodēja."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"lv"		"{1} džihāda bumba neizdevās eksplodēt."
+	}
+	"Jihad Wrong Team"
+	{
+		"lv"		"Šajā komandā jūs nevarat izmantot bumbu."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"lv"		"{1} minūtes pirms crash sākuma."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"lv"		"{1} sekunde(s) pirms crash sākuma."
+	}
+	"LevelIcon"
+	{
+		"lv"		"līmeņa ikona"
+	}
+	"Limited"
+	{
+		"lv"		"Limitēts - viens spēlētājs"
+	}
+	"Lootbox case is opening"
+	{
+		"lv"		"Lūdzu, pagaidiet, līdz jūsu iepriekšējā kaste tiks atvērta"
+	}
+	"Lootbox map ended"
+	{
+		"lv"		"Karte ir beigusies. Lūdzu, uzgaidiet nākamo karti"
+	}
+	"Lootbox round ended"
+	{
+		"lv"		"Kārta ir beigusies. Lūdzu, uzgaidiet nākamo kārtu"
+	}
+	"Lootbox warm up"
+	{
+		"lv"		"Jūs nevarat atvērt sildīšanas laikā"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs esat zaudējis savu ikdienas sēriju {1} dienu."
+	}
+	"Lost bet"
+	{
+		"lv"		"Neizdevās! Jūs zaudējāt savu likmi"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Tu zaudēji savu likmi, jo nākamais numurs bija: {1}"
+	}
+	"Low #1-3"
+	{
+		"lv"		"Zems #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"lv"		"Zems #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"lv"		"Zems - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"lv"		"ZEMĀK"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jums ir nepieciešami vismaz {1} spēlētāji"
+	}
+	"Must be Alive"
+	{
+		"lv"		"Jums jābūt dzīvam, lai izmantotu šo."
+	}
+	"Must be dead"
+	{
+		"lv"		"Jums jābūt mirušam, lai spēlētu"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"lv"		"Koeficients = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"lv"		"Nav aktīva džekpota"
+	}
+	"No active TeamBet"
+	{
+		"lv"		"Vēl nav veiktas nevienas komandas likmes"
+	}
+	"No have flag"
+	{
+		"lv"		"Jums nav piekļuves, lai izmantotu šo komandu."
+	}
+	"No matching color"
+	{
+		"lv"		"Nav atbilstošas krāsa, izmantojiet: r/sarkans, b/melns vai g/zaļš"
+	}
+	"No pick up - back to you"
+	{
+		"lv"		"Neviens nepaņēma jūsu nomestās kredītus. Jūs tos saņēmāt atpakaļ."
+	}
+	"No pick up - removed"
+	{
+		"lv"		"Neviens nepaņēma jūsu nomestās kredītus. Kredīti tika noņemti."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Laiks beidzies. Pareizā atbilde bija {1}."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Neviens cits nav iemaksājis naudu džekpotā. Jūs saņemat savu {1} {2} atpakaļ!"
+	}
+	"Not enough Credits"
+	{
+		"lv"		"Tev nav pietiekami kredīti"
+	}
+	"Now run a giveaway"
+	{
+		"lv"		"Tagad tiek veikts giveaway, mēģiniet vēlreiz pēc dažām sekundēm."
+	}
+	"Only number"
+	{
+		"lv"		"Jūs varat ievadīt tikai skaitļus..."
+	}
+	"Override Disabled"
+	{
+		"lv"		"Jūsu skin neatbalsta cepures. Jūsu uzliktā cepure tiks izslēgta."
+	}
+	"Override Enabled"
+	{
+		"lv"		"Jūsu pašreizējais skin neatbalsta cepures. Jūsu skin tiks mainīts."
+	}
+	"Owned"
+	{
+		"lv"		"[Īpašumā]"
+	}
+	"Package Gift"
+	{
+		"lv"		"Dāviniet šo paketi"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Pārdodiet šo paketi par {1}"
+	}
+	"Package Voucher"
+	{
+		"lv"		"Izveidot kuponu no pakas"
+	}
+	"Parachute Empty"
+	{
+		"lv"		"Izpletne tukšs"
+	}
+	"Parachute Reloaded"
+	{
+		"lv"		"Izpletne atjaunināts"
+	}
+	"Particles"
+	{
+		"lv"		"Daļiņas:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Novietojiet {1} {2}"
+	}
+	"Play Preview"
+	{
+		"lv"		"Atskaņoju priekšskatījuma skaņu jums."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"lv"		"{1} ir {2} kredīti."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"lv"		"{1} ir atiestatīts."
+	}
+	"Player Skin module disabled"
+	{
+		"lv"		"Store Player Skin modulis šobrīd ir īslaicīgi atspējots."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"lv"		"{1} pievienoja {2} {3} džekpotam, viņa pašreizējā uzvarēšanas iespēja ir: {4}% (Džekpots: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"lv"		"{1} zaudēja {2} {3} spēlē {4}."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"lv"		"{1} atvēra džekpotu ar {2} {3}. Iegūstiet naudu, izmantojot naudas iemaksu!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"lv"		"{1} uzvarēja džekpotu ar {2} {3}!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"lv"		"{1} ieguva {2} {3} spēlē {4}."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"lv"		"{1} ieguva {2} {3} ar x{4} reizinātāju pie {5}."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"lv"		"Jūsu jaunās iestatījumi tiks piemēroti nākamajā dzīvotnē."
+	}
+	"Press"
+	{
+		"lv"		"Spiediet"
+	}
+	"Press to Start"
+	{
+		"lv"		"Spiediet, lai uzsāktu!"
+	}
+	"Press to Stop"
+	{
+		"lv"		"Spiediet, lai apstādinātu!"
+	}
+	"Preview Item"
+	{
+		"lv"		"Pārskats par šo priekšmetu"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Cena: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"lv"		"Pirkt kuponu"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"lv"		"Cik maksā {1} {2} {3}? | Balva: {4} {5}"
+	}
+	"Red"
+	{
+		"lv"		" Sarkans"
+	}
+	"Redeem Voucher"
+	{
+		"lv"		"Izmantot kuponu"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Palaidiet vēlreiz {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"lv"		"Jūs esat sasniedzis maksimālo respawn skaitu, ko varat iegādāties šajā kārtā."
+	}
+	"SQL Cooldown"
+	{
+		"lv"		"安全理由で、短時間で複数のリクエストを送信することはできません。"
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"lv"		"-------------- Veikalu meklēšanas izvēlnes ieteikumi --------------\n - Visas saistītās preces tiks norādītas šeit\n - Jūsu pašreizējais meklēšanas vaicājums: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"lv"		"Otrais uzvarētājs vairs nav spēlē, pēdējā mēģinājums atrast jaunu uzvarētāju."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Pirms mēģināt vēlreiz izmantot šo komandu, jums jāgaida {1} sekundes."
+	}
+	"Show bullet sparks"
+	{
+		"lv"		"Rādīt lodes dzirksteles"
+	}
+	"Show bullet tracer"
+	{
+		"lv"		"Rādīt lodes pēdas"
+	}
+	"Show gloves"
+	{
+		"lv"		"Rādīt cimdus"
+	}
+	"Show paintball"
+	{
+		"lv"		"Rādīt paintball"
+	}
+	"Show particles"
+	{
+		"lv"		"Rādīt daļiņas"
+	}
+	"Show pets"
+	{
+		"lv"		"Rādīt mājdzīvniekus"
+	}
+	"Show trails"
+	{
+		"lv"		"Rādīt pēdas"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs nevarat izmantot vērtību, kas ir mazāka par jūsu minimālo vērtību ({1})"
+	}
+	"Spacer"
+	{
+		"lv"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Spam aizsardzība. Lūdzu, uzgaidiet {1} sekundes."
+	}
+	"Spawn Preview"
+	{
+		"lv"		"Tika izveidots priekšskatījums. Priekšskatījums pazudīs pēc 45 sekundēm."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"lv"		"Tika izveidots priekšskatījums. Priekšskatījums pazudīs pēc {1} sekundēm."
+	}
+	"Start again from begin"
+	{
+		"lv"		"Lūdzu, sāciet no sākuma"
+	}
+	"Starting"
+	{
+		"lv"		"Sākums"
+	}
+	"Stay"
+	{
+		"lv"		"Stāvēt"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"lv"		"Vai esat pārliecināts, ka vēlaties atiestatīt savu aprīkojumu? Visi priekšmeti tiks noņemti."
+	}
+	"Successfully purchased voucher"
+	{
+		"lv"		"Jūs veiksmīgi iegādājāties kuponu"
+	}
+	"TF Wrong Class"
+	{
+		"lv"		"Šis priekšmets bija paredzēts lietošanai ar citu spēlētāja klasi."
+	}
+	"Tail"
+	{
+		"lv"		"Astes"
+	}
+	"TeamBet Already Placed"
+	{
+		"lv"		"Jūs jau veicāt savu likmi šim raundam."
+	}
+	"TeamBet Invalid Team"
+	{
+		"lv"		"Norādīts nederīgs komandas identifikators."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Tu zaudēji {1} {2} uz likmes."
+	}
+	"TeamBet Period Over"
+	{
+		"lv"		"Šī raunda likmju periods ir beidzies."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs veiksmīgi veicāt likmi {1} kredītiem."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Tava likme bija veiksmīga. Tu vinnēji {1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"lv"		"Nav veikts likmes uz otru komandu, tāpēc jūs saņēmāt kredītus atpakaļ."
+	}
+	"Terrorist"
+	{
+		"lv"		"Terorists"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Izvēlētais skaitlis ir: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Nākamais skaitlis bija: {1}"
+	}
+	"This is the preview text"
+	{
+		"lv"		"Šis ir priekšskatījuma teksts."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Administratora ir pārslēgta veikala konfigurācija. Karte tiks pārslēgta pēc {1} sekundēm!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"lv"		"Administratora priekšmetu kuponu izveides izvēlne.\n \nIzvēlieties priekšmeta ilgumu."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"lv"		"Administratora priekšmetu kuponu izveides izvēlne"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Kredīti: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"lv"		"Derīguma termiņš ir {1}d {2}h"
+	}
+	"Title Gift"
+	{
+		"lv"		"Izvēlieties spēlētāju, kuram nosūtīt dāvanu"
+	}
+	"Title Store"
+	{
+		"lv"		"Veikala izvēlne"
+	}
+	"To late chat input"
+	{
+		"lv"		"Jūsu teksta ievade netika veikta noteiktajā laikā"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Uz zemes ir pārāk daudz {1}, šobrīd nevarat nomest vairāk!"
+	}
+	"Top Credits"
+	{
+		"lv"		"Top kredīti"
+	}
+	"Top Credits Inv Worth"
+	{
+		"lv"		"Top kredīti + inventāra vērtība"
+	}
+	"Top Inv Worth"
+	{
+		"lv"		"Top inventāra vērtība"
+	}
+	"Top Most Items"
+	{
+		"lv"		"Visbiežāk saņemtie priekšmeti"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Kopā: {1} {2}"
+	}
+	"Try again"
+	{
+		"lv"		"Mēģini vēlreiz"
+	}
+	"Type in chat !bet"
+	{
+		"lv"		"Rakstiet čatā !bet <likme> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"lv"		"Raksti čatā !blackjack <likme>"
+	}
+	"Type in chat !coinflip"
+	{
+		"lv"		"Rakstiet čatā !coinflip <likme> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"lv"		"Rakstiet čatā !crash <likme>"
+	}
+	"Type in chat !crowns"
+	{
+		"lv"		"Rakstiet čatā !crowns <likme>"
+	}
+	"Type in chat !dice"
+	{
+		"lv"		"Ierakstiet čatā !dice <likme> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"lv"		"Rakstiet čatā !jackpot <likme>"
+	}
+	"Type in chat !roulette"
+	{
+		"lv"		"Rakstiet čatā !roulette <likme> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"lv"		"Bez ierobežojumiem - vairāki spēlētāji"
+	}
+	"Up"
+	{
+		"lv"		"Augšup"
+	}
+	"Value less than 1"
+	{
+		"lv"		"Jūs nevarat izmantot vērtību, kas ir mazāka par 1."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lv"		"{1} skaļums iestatīts uz {2}"
+	}
+	"Voucher Code 17 chars"
+	{
+		"lv"		"Šobrīd kupona kodam jābūt tieši 17 rakstzīmēm"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Kuponam ir vērtība {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"lv"		"Voucher tika pieņemts"
+	}
+	"Voucher accepted Panel"
+	{
+		"lv"		"Voucher tika pieņemts"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"lv"		"Jūs ģenerējat {1} {2}ierobežotu kuponu{3} ar vērtību {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"lv"		"Jūs ģenerējat {1} {2}ierobežotu kuponu{3} ar vērtībām {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Ievadītais kupona kods jau tika izmantots {1}"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Šis kupons beidzas {1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Ievadītais kupona kods beidzās {1}"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"lv"		"Izveidots jauns kupons {1} ar vērtību {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"lv"		"Kupona kodu var atrast arī tērzēšanā un konsolē"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Kupona kods: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Ievadītais kupona kods '{1}' nav derīgs!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lv"		"Kupons ietver {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"lv"		"Kupona kods ir derīgs"
+	}
+	"Vouchers"
+	{
+		"lv"		"Kupons"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Jums jāgaida {1}, līdz nākamais ikdienas uzdevums."
+	}
+	"Wait until next daily 2"
+	{
+		"lv"		"Jūs jau esat reģistrējies šodien. Lūdzu, atgriezieties rīt."
+	}
+	"Win = "
+	{
+		"lv"		"Uzvara = "
+	}
+	"Winner is not in game anymore"
+	{
+		"lv"		"Uzvarētājs vairs nav spēlē, mēģinām atrast jaunu uzvarētāju."
+	}
+	"Wrong voucher code format"
+	{
+		"lv"		"Kupona kods ir nepareizā formātā. Tam jābūt XXXXX-XXXXX-XXXXX"
+	}
+	"You"
+	{
+		"lv"		"TU"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"lv"		"Jūs jau esat izņēmis {1} {2} džekpotā. Pašreizējā uzvaras iespēja: {3}%% Džekpots: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"lv"		"Jūs jau esat īpašnieks ievadītajam kupona priekšmetam"
+	}
+	"You already redeemed Voucher"
+	{
+		"lv"		"Jūs jau esat izmantojuši ievadīto kupona kodu"
+	}
+	"You can start a new Jackpot"
+	{
+		"lv"		"Jaunu jackpotu jūs varēsiet sākt"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Jaunu jackpotu jūs varēsiet sākt pēc {1}."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs nevarat iztērēt tik daudz kredītu (Maks.: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs savācāt {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"lv"		"Jums nav atļauts piekļūt tam."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs nometāt {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"lv"		"Tu neieguvi punktus šajā kārtā."
+	}
+	"You earned this round"
+	{
+		"lv"		"Tu nopelnīji šo kārtu:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs nopelnījāt {1} {2} par "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs nopelnījāt {1} {2} šajā raundā"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs saņēmāt {1} {2}."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs saņēmāt {1} {2}."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs saņēmāt {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs saņēmāt {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jums jāiztērē vismaz {1} {2}."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jums jāiztērē vismaz {1} {2}."
+	}
+	"You haven't opened the box in given time"
+	{
+		"lv"		"Jūs neesat atvēris kasti noteiktajā laikā. Lootbox ir atgriezies jūsu krātuvē"
+	}
+	"You lose"
+	{
+		"lv"		"- tu zaudēji"
+	}
+	"You lost with"
+	{
+		"lv"		"Tu zaudēji ar"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs zaudējāt {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"lv"		"Tu esi apguvis 'ikdienas izaicinājumu'! Mēģini to uzvarēt vēlreiz!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs uzvarējāt {1} {2}"
+	}
+	"You won"
+	{
+		"lv"		"!!! TU UZVARĒJI !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs ieguvāt {1} ({2})!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs uzvarējāt džekpotu ar {1} {2}!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"lv"		"Jūs uzvarējāt džekpotu ar {1} {2}, atskaitot kazino maksu {3} {4} ({5}%)."
+	}
+	"You won with"
+	{
+		"lv"		"Tu uzvarēji ar"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"lv"		"Tu ieguvi {1} kredītus ar x{2} reizinātāju."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Rīt nopelnīsi {1} {2}!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"lv"		"Tava likme: {1} {2} - Iespēja: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūsu likme: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"lv"		"Jūsu pašreizējā uzvaras iespēja ir mainījusies uz {1}%"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Par {2} nogalināšanu nopelnījāt {1} kredītus."
+	}
+	"admin"
+	{
+		"lv"		"administrators"
+	}
+	"and is limited"
+	{
+		"lv"		"un ir ierobežots"
+	}
+	"and is unlimited"
+	{
+		"lv"		"un ir neierobežots"
+	}
+	"arms"
+	{
+		"lv"		"rokas"
+	}
+	"assist a kill"
+	{
+		"lv"		"palīdzēt nogalināt"
+	}
+	"attachment"
+	{
+		"lv"		"Piederums"
+	}
+	"backstab kill"
+	{
+		"lv"		"noslepkavības nogalināšana"
+	}
+	"be the MVP"
+	{
+		"lv"		"būt MVP"
+	}
+	"bet x"
+	{
+		"lv"		"likt x"
+	}
+	"blackjack"
+	{
+		"lv"		"Blackjack"
+	}
+	"bomb defused"
+	{
+		"lv"		"bomba deaktivēta"
+	}
+	"bomb explode"
+	{
+		"lv"		"bomba uzsprāgst"
+	}
+	"bomb planted"
+	{
+		"lv"		"bomba ielikta"
+	}
+	"bombtweak"
+	{
+		"lv"		"Bumbas pielāgošana"
+	}
+	"bullet_impact"
+	{
+		"lv"		"Šāviena ietekme"
+	}
+	"bulletsparks"
+	{
+		"lv"		"Šāviena dzirksteles"
+	}
+	"bunnyhob"
+	{
+		"lv"		"Zaķa lēciens"
+	}
+	"bunnyhop"
+	{
+		"lv"		"prasme"
+	}
+	"casino"
+	{
+		"lv"		"Kazino"
+	}
+	"coinflip"
+	{
+		"lv"		"Monētas mešana"
+	}
+	"command"
+	{
+		"lv"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Vai vēlaties atiestatīt konfigurāciju?\nKarte tiks pārslēgta pēc {1} sekundēm!"
+	}
+	"confirm_reload_type_1"
+	{
+		"lv"		"Vai vēlaties atiestatīt konfigurāciju?\nJums jāmaina karte, lai piemērotu izmaiņas, citādi var rasties kļūdas."
+	}
+	"connect"
+	{
+		"lv"		"Savienojuma ziņojums"
+	}
+	"crash"
+	{
+		"lv"		"Crash"
+	}
+	"creditstoplist"
+	{
+		"lv"		"kredīti"
+	}
+	"crowns"
+	{
+		"lv"		"Koronu slots"
+	}
+	"daily"
+	{
+		"lv"		"Ikdienas bonuss"
+	}
+	"decoy grenade kill"
+	{
+		"lv"		"viltojuma granāta nogalināšana"
+	}
+	"dice"
+	{
+		"lv"		"Kauliņi"
+	}
+	"direction"
+	{
+		"lv"		"Virziens"
+	}
+	"discount"
+	{
+		"lv"		"IZPĀRDOŠANA"
+	}
+	"distance"
+	{
+		"lv"		"Attālums"
+	}
+	"dmgtext"
+	{
+		"lv"		"Gleznotājs"
+	}
+	"emote"
+	{
+		"lv"		"Emote"
+	}
+	"escape as VIP"
+	{
+		"lv"		"bēgt kā VIP"
+	}
+	"flashbang kill"
+	{
+		"lv"		"flashbang nogalināšana"
+	}
+	"flashlight"
+	{
+		"lv"		"Лukturis"
+	}
+	"froggyjump"
+	{
+		"lv"		"Varde lēciens"
+	}
+	"gloves"
+	{
+		"lv"		"cimdi"
+	}
+	"glow"
+	{
+		"lv"		"spīdums"
+	}
+	"godmode"
+	{
+		"lv"		"Dieva režīms"
+	}
+	"gravity"
+	{
+		"lv"		"spēja"
+	}
+	"grenademodel"
+	{
+		"lv"		"Granātas modelis"
+	}
+	"grenadeskin"
+	{
+		"lv"		"granātas āda"
+	}
+	"grenadetrail"
+	{
+		"lv"		"granātas pēdas"
+	}
+	"hat"
+	{
+		"lv"		"cepure"
+	}
+	"headshot"
+	{
+		"lv"		"galvas šāviens"
+	}
+	"health"
+	{
+		"lv"		"iepakojums"
+	}
+	"high or low"
+	{
+		"lv"		"Augstāks vai zemāks"
+	}
+	"hiteff"
+	{
+		"lv"		"trieciena efekts:"
+	}
+	"hitsound"
+	{
+		"lv"		"Trieciena skaņa"
+	}
+	"hostage rescued"
+	{
+		"lv"		"glābts ķīlnieks"
+	}
+	"hunterjump"
+	{
+		"lv"		"Mednieka lēciens"
+	}
+	"idle on the server"
+	{
+		"lv"		"neaktīvs serverī"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"lv"		"iekš {1}."
+	}
+	"infinityammo"
+	{
+		"lv"		"Nerobežotas munīcijas"
+	}
+	"info"
+	{
+		"lv"		"Informācijas Panelis"
+	}
+	"instabomb"
+	{
+		"lv"		"Instanta stādīšana / atslēgšana"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"lv"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"lv"		"spēja"
+	}
+	"items"
+	{
+		"lv"		"Preces"
+	}
+	"jackpot"
+	{
+		"lv"		"Jackpot"
+	}
+	"jetpack"
+	{
+		"lv"		"raķete"
+	}
+	"jihad"
+	{
+		"lv"		"bomba"
+	}
+	"kill"
+	{
+		"lv"		"nogalināt"
+	}
+	"kill the VIP"
+	{
+		"lv"		"nogalināt VIP"
+	}
+	"kill yourself"
+	{
+		"lv"		"nogaliniet sevi"
+	}
+	"killeff"
+	{
+		"lv"		"nogalināšanas efekts:"
+	}
+	"knife"
+	{
+		"lv"		"nazis"
+	}
+	"knife kill"
+	{
+		"lv"		"nazis nogalināšana"
+	}
+	"laserdraw"
+	{
+		"lv"		"lāzera zīmējums:"
+	}
+	"laserpointer"
+	{
+		"lv"		"Laseru rādītājs"
+	}
+	"lasersight"
+	{
+		"lv"		"lāzera tēmēšana"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"lv"		"pēdējais atjauninājums pirms {1}"
+	}
+	"light"
+	{
+		"lv"		"Gaisma"
+	}
+	"lootbox"
+	{
+		"lv"		"Ložu kaste"
+	}
+	"mirror"
+	{
+		"lv"		"spogulis"
+	}
+	"molotov kill"
+	{
+		"lv"		"molotov nogalināšana"
+	}
+	"msgcolor"
+	{
+		"lv"		"ziņojuma krāsa"
+	}
+	"mvp_sound"
+	{
+		"lv"		"MVP himnas"
+	}
+	"namecolor"
+	{
+		"lv"		"vārda krāsa"
+	}
+	"nametag"
+	{
+		"lv"		"vārda uzlīme"
+	}
+	"nearest"
+	{
+		"lv"		"Tušākais"
+	}
+	"nodiscount"
+	{
+		"lv"		" "
+	}
+	"noduckdelay"
+	{
+		"lv"		"Nav kavēšanās pietupienā"
+	}
+	"nofalldamage"
+	{
+		"lv"		"Nav kritiena bojājumu"
+	}
+	"noreload"
+	{
+		"lv"		"Nav jāielādē"
+	}
+	"noscope kill"
+	{
+		"lv"		"nogalināt bez mērķa"
+	}
+	"noselfdamage"
+	{
+		"lv"		"Nav paša bojājumu"
+	}
+	"or use buttons below"
+	{
+		"lv"		"vai izmantojiet zemāk esošos pogas"
+	}
+	"package"
+	{
+		"lv"		"iepakojums"
+	}
+	"paintball"
+	{
+		"lv"		"lodes"
+	}
+	"painter"
+	{
+		"lv"		"Gleznotājs"
+	}
+	"parachute"
+	{
+		"lv"		"Paralējo"
+	}
+	"particle"
+	{
+		"lv"		"Daļiņas"
+	}
+	"pet"
+	{
+		"lv"		"mājdzīvnieks"
+	}
+	"playerskin"
+	{
+		"lv"		"spēlētāja āda"
+	}
+	"playing on the server"
+	{
+		"lv"		"spēlē serverī"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs spēlējāt mūsu serverī {1} dienas pēc kārtas"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Jūs saņemsiet {1} nākamajā atdzimšanā"
+	}
+	"respawn"
+	{
+		"lv"		"Atkārtošanās"
+	}
+	"roulette"
+	{
+		"lv"		"Ruletes"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Esat sasniedzis maksimālo skaņas izmantošanas skaitu. {1} maksimālais izmantošanas skaits kartē"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Esat sasniedzis maksimālo skaņas izmantošanas skaitu. {1} maksimālais izmantošanas skaits katrā raundā"
+	}
+	"saysound"
+	{
+		"lv"		"sakiet skaņu"
+	}
+	"scoreboardtag"
+	{
+		"lv"		"Reitinga tabulas uzlīme"
+	}
+	"smokegrenade kill"
+	{
+		"lv"		"smokegranāta nogalināšana"
+	}
+	"sound"
+	{
+		"lv"		"skaņa"
+	}
+	"spawn"
+	{
+		"lv"		"Papildu atdzimšana"
+	}
+	"spawneff"
+	{
+		"lv"		"dzimšanas efekts:"
+	}
+	"speed"
+	{
+		"lv"		"spēja"
+	}
+	"spray"
+	{
+		"lv"		"smidzināt"
+	}
+	"start daily challange"
+	{
+		"lv"		"Sāciet 'ikdienas izaicinājumu'. Spēlējiet nākamās 6 dienas, lai saņemtu pilnu bonusu"
+	}
+	"taser kill"
+	{
+		"lv"		"taser nogalināšana"
+	}
+	"teambet"
+	{
+		"lv"		"Komandas likmes"
+	}
+	"teamkill"
+	{
+		"lv"		"komandas nogalināšana"
+	}
+	"tfhat"
+	{
+		"lv"		"būvju cepure"
+	}
+	"tfhatdye"
+	{
+		"lv"		"cepures krāsošana"
+	}
+	"tfhead"
+	{
+		"lv"		"galvas izmērs"
+	}
+	"tfunusual"
+	{
+		"lv"		"cepures efekts"
+	}
+	"tfweapon"
+	{
+		"lv"		"pielāgota ierocis"
+	}
+	"tfweaponsize"
+	{
+		"lv"		"ierocis lielums"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Balva tiks izlozēta pēc {1} sekundēm"
+	}
+	"thirdperson"
+	{
+		"lv"		"trešā persona"
+	}
+	"throwknife"
+	{
+		"lv"		"Metiet nazi"
+	}
+	"toplists"
+	{
+		"lv"		"Top saraksti"
+	}
+	"tracer"
+	{
+		"lv"		"sekotājs"
+	}
+	"trail"
+	{
+		"lv"		"pēdas"
+	}
+	"wasted"
+	{
+		"lv"		"izšķērdēts"
+	}
+	"watergun"
+	{
+		"lv"		"efekts"
+	}
+	"weapon"
+	{
+		"lv"		"ieročs"
+	}
+	"weaponcolor"
+	{
+		"lv"		"ieroces krāsa"
+	}
+	"weaponmodel"
+	{
+		"lv"		"ierocēka modelis"
+	}
+	"weaponskin"
+	{
+		"lv"		"ieroča āda"
+	}
+	"win the round"
+	{
+		"lv"		"uzvariet raundu"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"lv"		"{1} {2} par '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"lv"		"{1} stundas {2} minūtes un {3} sekundes"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"lv"		"{1} stunda(s) {2} minūte(s) un {3} sekunde(s)"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"lv"		"{1} minūtes un {2} sekundes"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"lv"		"{1} minūte(s) un {2} sekunde(s)"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"lv"		"{1} sekundes"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"lv"		"{1} sekunde(s)"
+	}
+	"zrclass"
+	{
+		"lv"		"spēlētāja klase"
+	}
+}

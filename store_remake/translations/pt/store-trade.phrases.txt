@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"pt"		"Cancelar troca"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"pt"		"Você quer oferecer seu {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"pt"		"Você quer trocar seu {1} {2}?"
+	}
+	"Offer"
+	{
+		"pt"		"Oferecer um item"
+	}
+	"Offer item"
+	{
+		"pt"		"Oferecer este item"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"pt"		"Seu parceiro oferece {1} crédito(s)"
+	}
+	"Partner Item Offer"
+	{
+		"pt"		"Seu parceiro oferece os seguintes itens:"
+	}
+	"Partner Not Ready"
+	{
+		"pt"		"Seu parceiro ainda não está pronto."
+	}
+	"Partner Ready"
+	{
+		"pt"		"Seu parceiro está pronto."
+	}
+	"Player Left"
+	{
+		"pt"		"O jogador com quem você queria trocar saiu do jogo."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"pt"		"Pronto [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"pt"		"A troca terminará em {1} segundo(s)..."
+	}
+	"Trade Active"
+	{
+		"pt"		"Você já está fazendo uma troca."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"pt"		"Você gostaria de trocar com {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"pt"		"Você gostaria de cancelar a troca?"
+	}
+	"Trade Cooldown"
+	{
+		"pt"		"Por favor, espere alguns minutos antes de trocar novamente."
+	}
+	"Trade Menu"
+	{
+		"pt"		"Para reabrir o menu de troca, digite !trade."
+	}
+	"Trade Not Active"
+	{
+		"pt"		"Você não está fazendo uma troca."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"pt"		"Seu parceiro cancelou a troca."
+	}
+	"Trade Select Player"
+	{
+		"pt"		"Selecione um jogador para fazer a troca"
+	}
+	"Trade Successful"
+	{
+		"pt"		"A troca foi realizada com sucesso."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"pt"		"Você está trocando com {1}\n-----------------------------\nPara oferecer créditos, digite !offer <quantidade>\nVocê ofereceu {2} créditos"
+	}
+	"Trade item"
+	{
+		"pt"		"Trocar este item"
+	}
+	"Waiting for confirmation"
+	{
+		"pt"		"Por favor, aguarde a resposta do jogador selecionado."
+	}
+}

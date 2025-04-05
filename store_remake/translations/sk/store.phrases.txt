@@ -1,0 +1,2278 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"sk"		"{1}21 !!! BLACKJACK !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Už ste načítali konfiguráciu. Prosím, zmeňte alebo znovu načítajte mapu."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Všetci účastníci sa odpoja, nikto nedostane svoje {2} späť, haha. Jackpot bol {1} {2}!"
+	}
+	"All valid voucher"
+	{
+		"sk"		"Všetky vygenerované a platné poukazy sú:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"sk"		"Vyhrali ste, ale už vlastníte {1} ({2}). Predmet bol predaný za {3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"sk"		"Už vlastníte {1} ({2}). Boli vám vrátené {3} {4}"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Čiastka: {1}"
+	}
+	"Aura"
+	{
+		"sk"		"Aura:"
+	}
+	"Back"
+	{
+		"sk"		"Späť"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"sk"		"Stávka * Množiteľ = Tvoja výhra"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Bonusové kredity: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Pot CT vyhrá: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Maximálna stávka ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Minimálna stávka ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"sk"		"Random stávka ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Pot T vyhrá: {1} {2}"
+	}
+	"Bet on"
+	{
+		"sk"		"Stávka na"
+	}
+	"Bet on a Head/Tail"
+	{
+		"sk"		"Stávka na Hlavu/Ochvost"
+	}
+	"Bet on a color"
+	{
+		"sk"		"Stávka na farbu a ak táto farba bude vybraná, vyhráte!"
+	}
+	"Bet on a number"
+	{
+		"sk"		"Stávka na Nízke (#1-3), Vysoké (#4-6) alebo presné číslo. Ak vaša voľba bude vyhodená, vyhráte!"
+	}
+	"Bet on a team"
+	{
+		"sk"		"Stávka na tím a ak tím vyhrá kolo, vyhráte!"
+	}
+	"Betting Already Placed"
+	{
+		"sk"		"Už ste uzavreli stávku na tento kolo."
+	}
+	"Betting Invalid Team"
+	{
+		"sk"		"Bol zadaný neplatný identifikátor tímu."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Prehrali ste {1} kreditov na stávke."
+	}
+	"Betting Period Over"
+	{
+		"sk"		"Perióda stávok pre toto kolo vypršala."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Úspešne ste uzavreli stávku vo výške {1} kreditov."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Vaša stávka bola úspešná. Vyhrali ste {1} kreditov."
+	}
+	"Black"
+	{
+		"sk"		"čierna"
+	}
+	"Blackjack Info 1"
+	{
+		"sk"		"Blackjack je hra, v ktorej hodnota kariet vo vašej ruke musí byť vyššia ako hodnota kariet dealera, bez toho aby ste prekročili 21."
+	}
+	"Blackjack Info 2"
+	{
+		"sk"		"Pravidlá počítania:\n- Kartu \"A\" možno počítať ako 1/11. Ak hodnota ruky presiahne 21, táto karta musí byť počítaná ako 1."
+	}
+	"Blackjack Info 3"
+	{
+		"sk"		"- \"10, J, Q, K\": Počítajú sa ako 10.\n- 2-9 Počítajú sa podľa ich nominálnej hodnoty."
+	}
+	"Blackjack Info 4"
+	{
+		"sk"		"- Hodnota vašich kariet musí byť bližšie k 21 bez toho, aby ste ju prekročili a byť vyššia ako dealerova ruka, aby ste vyhrali hru.\n- \"A\" + karta s hodnotou 10 = BlackJack. To je okamžité víťazstvo."
+	}
+	"Buy"
+	{
+		"sk"		"Kúpiť predmet"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Kúpiť položku ({1})"
+	}
+	"CP Changed color"
+	{
+		"sk"		"Zmenili ste svoju farbu na: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"sk"		"Možnosť farby chatovej značky"
+	}
+	"CP Disable Color - Menu"
+	{
+		"sk"		"Deaktivovať farbu"
+	}
+	"CP Disabled Color"
+	{
+		"sk"		"Vlastná farba značky bola deaktivovaná."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"sk"		"Nemáte žiadnu značku mena vybavenú"
+	}
+	"CP No file found"
+	{
+		"sk"		"Farba vlastnej značky pre používateľa bola deaktivovaná. Kontaktujte administrátora pre ďalšiu podporu."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"sk"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"sk"		"Zobrazenie náhľadu značky tabuľky, stlačte tlačidlo TAB."
+	}
+	"Cancel"
+	{
+		"sk"		"Zrušiť"
+	}
+	"Cant be bought"
+	{
+		"sk"		"Tento predmet nemožno kúpiť"
+	}
+	"Cash out"
+	{
+		"sk"		"Výber"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Zmeňte svoju stávku: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sk"		"Kúpil(a) ste {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"sk"		"{1} vám poslal(a) {2} {3} ako darček."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"sk"		"Poslali ste {1} {2} {3} ako darček."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sk"		"Predali ste {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Otvorili ste kontajner a našli {1} kreditov!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"sk"		"{1} otvoril kontajner a našiel {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"sk"		"{1} otvoril kontajner a našiel {2} ({3})!"
+	}
+	"Check All Voucher"
+	{
+		"sk"		"Skontrolujte všetky platné a dostupné vouchery (len pre administrátorov)"
+	}
+	"Check Voucher"
+	{
+		"sk"		"Skontrolovať voucher"
+	}
+	"Check Your valid Voucher"
+	{
+		"sk"		"Skontrolujte svoj vygenerovaný a platný dostupný voucher"
+	}
+	"Choose Number (1:6)"
+	{
+		"sk"		"Vyberte číslo (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"sk"		"Automatické vyplácanie:"
+	}
+	"Client Loadout Reset"
+	{
+		"sk"		"Vaše vybavenie bolo resetované."
+	}
+	"Client valid voucher"
+	{
+		"sk"		"Váš vygenerovaný a platný poukaz je:\n "
+	}
+	"Close"
+	{
+		"sk"		"Zatvoriť"
+	}
+	"ColoredSmoke"
+	{
+		"sk"		"Farebný dym"
+	}
+	"Command is in-game only"
+	{
+		"sk"		"Musíte byť nažive, aby ste použili tento príkaz."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"sk"		"Konfigurácia bola znovu načítaná. Prosím, reštartujte alebo zmeňte mapu."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sk"		"Ste si istí, že chcete kúpiť {1} {2}?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"sk"		"Ste si istí, že chcete darovať {1} {2} {3}?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sk"		"Ste si istí, že chcete hodiť {1} {2} ako darček?"
+	}
+	"Confirm_No"
+	{
+		"sk"		"Nie"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"sk"		"Ste si istí, že chcete predať {1} {2} za {3}?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sk"		"Ste si istí, že chcete previesť {1} ({2}) na kupón?\nUP WARNING: Ak položka v kupóne vyprší pred jeho uplatnením.\nTento kupón vyprší."
+	}
+	"Confirm_Yes"
+	{
+		"sk"		"Áno"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"sk"		"{1} dal správnu odpoveď a vyhral {2} {3}!"
+	}
+	"Counter-Terrorist"
+	{
+		"sk"		"Proti-terorista"
+	}
+	"Crash Already Start"
+	{
+		"sk"		"Hra Crash je momentálne v priebehu. Prosím, počkajte na ďalšiu hru."
+	}
+	"Crash Auto Off"
+	{
+		"sk"		"Vypnuté"
+	}
+	"Crash Auto Off Panel"
+	{
+		"sk"		"Vypnite automatické vyplácanie"
+	}
+	"Crash Auto On"
+	{
+		"sk"		"Zapnuté"
+	}
+	"Crash Auto On Panel"
+	{
+		"sk"		"Zapnite automatické vyplácanie"
+	}
+	"Crash Info 1"
+	{
+		"sk"		"           Čo je/ Ako hrať: Crash"
+	}
+	"Crash Info 2"
+	{
+		"sk"		"- Crash je hra, kde hráči môžu staviť na násobiteľ, tento násobiteľ súvisí s rastúcou krivkou, ktorá môže kedykoľvek havarovať."
+	}
+	"Crash Info 3"
+	{
+		"sk"		"- Množiteľ začína na 1.00x a môžete vybrať kedykoľvek."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"sk"		"- Minimálna hodnota stávky je {1} {2}. Maximálna hodnota stávky je {3} {4}. Tieto limity sa môžu časom meniť."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"sk"		"Nesprávny vstup (musí byť {1} alebo viac)."
+	}
+	"Crash auto input"
+	{
+		"sk"		"Zadajte svoju automatickú hodnotu výberu do chatu"
+	}
+	"Crash auto input set"
+	{
+		"sk"		"Crash automatické vyplácanie nastavené"
+	}
+	"Crash set auto"
+	{
+		"sk"		"Nastavte hodnotu automatického výberu"
+	}
+	"Crash!"
+	{
+		"sk"		"Krach!"
+	}
+	"Create Item Voucher"
+	{
+		"sk"		"Vytvoriť voucher na položky (len pre administrátorov)"
+	}
+	"Create Voucher"
+	{
+		"sk"		"Vytvoriť voucher"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Vytvorenie poukážky zlyhalo - Kontaktujte správcu s nasledujúcim časovým údajom: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"sk"		"Darovanie kreditov je na tomto serveri zakázané."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Zhodil(a) si {1} kreditov ako darček."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"sk"		"{2} vám poslal {1} kreditov."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"sk"		"Poslali ste {1} kreditov hráčovi {2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"sk"		"Nemáte dostatok kreditov na vytvorenie giveaway."
+	}
+	"Credit Invalid Amount"
+	{
+		"sk"		"Zadaná neplatná suma kreditov."
+	}
+	"Credit No Match"
+	{
+		"sk"		"Nenašiel sa žiadny hráč."
+	}
+	"Credit Not Enough"
+	{
+		"sk"		"Nemáte dostatok kreditov na kúpu tohto."
+	}
+	"Credit Too Many Matches"
+	{
+		"sk"		"Bolo nájdených viac ako jeden klient."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"sk"		"Nemáte dostatok kreditov na vytvorenie voucheru."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"sk"		"Získali ste {1} kreditov za zabitie {2}."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Získali ste {1} kreditov za hranie na serveri."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"sk"		"{1} dostal {2} kreditov."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"sk"		"Úvery: {1}          Banka: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"sk"		"Vypnuté"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"sk"		"Zapnuté"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"sk"		"[Vlastný zvuk zbrane]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"sk"		"Ponuka na ovládanie hlasitosti zvuku vlastného zbraňového zvuku"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Hlasitosť: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"sk"		"Vlastný zvuk zbrane: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"sk"		"Vlastný zvuk zbrane je Vypnutý."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"sk"		"Vlastný zvuk zbrane je povolený."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Vlastný zvuk zbrane je povolený. Hlasitosť: {1}"
+	}
+	"CustomModel"
+	{
+		"sk"		"Vlastný model zbrane:"
+	}
+	"Damage the crate to open"
+	{
+		"sk"		"Poškodí krabicu, aby ju otvoril!"
+	}
+	"Dead heat"
+	{
+		"sk"		"- remíza -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"sk"		"             DEALER     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"sk"		"DEALER"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Zľava: '{1}' je aktívna! Šťastné nakupovanie!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Zľava: '{1}' skončila."
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Zľava: '{1}' začala! Šťastné nakupovanie!"
+	}
+	"Double"
+	{
+		"sk"		"Zdvojiť"
+	}
+	"Down"
+	{
+		"sk"		"Nižšie"
+	}
+	"Down2"
+	{
+		"sk"		"                      5 = Nižšie"
+	}
+	"Drop Gift"
+	{
+		"sk"		"Nechajte ako darček"
+	}
+	"Edit Amount"
+	{
+		"sk"		"Upravit množstvo: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"sk"		"Prosím, zadajte čas vypršania platnosti (v sekundách) pre položku do chatu!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"sk"		"Neplatný formát čísla. Skúste to znova."
+	}
+	"Enter custom amount"
+	{
+		"sk"		"Prosím, zadajte svoju vlastnú sumu v chate!"
+	}
+	"Enter maximum value"
+	{
+		"sk"		"Prosím, zadajte maximálnu hodnotu kreditov v chate!"
+	}
+	"Enter number of vouchers"
+	{
+		"sk"		"Prosím, zadajte počet voucherov na vytvorenie v chate!"
+	}
+	"Enter value of vouchers"
+	{
+		"sk"		"Prosím, zadajte hodnotu voucheru na nákup v chate!"
+	}
+	"Enter voucher code"
+	{
+		"sk"		"Prosím, zadajte kód poukážky v chate!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"sk"		"Pri vrátení ceny sa vyskytla chyba. Kontaktujte správcu"
+	}
+	"Exact #x  = "
+	{
+		"sk"		"Presné #x = "
+	}
+	"Exit"
+	{
+		"sk"		"Ukončiť"
+	}
+	"Gained"
+	{
+		"sk"		"Získané"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"sk"		"Získané: {1} {2}"
+	}
+	"Game Info"
+	{
+		"sk"		"Informácie o hre"
+	}
+	"Game in progress"
+	{
+		"sk"		"Vaša aktuálna hra je v priebehu. Prosím, počkajte, kým sa neskončí."
+	}
+	"Get three on a kind"
+	{
+		"sk"		"Získaj tri rovnaké"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Zobral(a) si {1} kreditov."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sk"		"Zobral(a) si {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"sk"		"Nie je nikto, komu by ste mohli darovať tento predmet."
+	}
+	"Gift Player Left"
+	{
+		"sk"		"Vybraný hráč už opustil hru."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"sk"		"{1} Na uskutočnenie giveaway musí server obsahovať aspoň {2} hráčov."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"sk"		"Administrátor {1} otvoril giveaway s <font color='#15fb00'>{2} kreditmi"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"sk"		"|| Giveaway začína o {1} sekúnd ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"sk"		"{1} {2} vyhral giveaway s {3} kreditmi"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sk"		"{1}\n|| Víťaz: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"sk"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"sk"		"Dosiahli ste maximálny počet godmode, ktoré môžete kúpiť v tomto kole."
+	}
+	"Godmode Wrong Team"
+	{
+		"sk"		"Nemôžeš použiť godmode v tomto tíme."
+	}
+	"Green"
+	{
+		"sk"		"zelená"
+	}
+	"HE grenade kill"
+	{
+		"sk"		"zabiť HE granátom"
+	}
+	"HUD"
+	{
+		"sk"		"HUD"
+	}
+	"Head"
+	{
+		"sk"		"Hlava"
+	}
+	"Health Round Limit"
+	{
+		"sk"		"Dosiahli ste maximálny počet zdravotných balíčkov, ktoré môžete kúpiť v tomto kole."
+	}
+	"Help_Back"
+	{
+		"sk"		"Naspäť"
+	}
+	"Help_Exit"
+	{
+		"sk"		"Výstup"
+	}
+	"Hide bullet sparks"
+	{
+		"sk"		"Skryť iskry z guliek"
+	}
+	"Hide bullet tracer"
+	{
+		"sk"		"Skryť stopy po guľkách"
+	}
+	"Hide gloves"
+	{
+		"sk"		"Skryť rukavice"
+	}
+	"Hide paintball"
+	{
+		"sk"		"Skryť paintball"
+	}
+	"Hide particles"
+	{
+		"sk"		"Skryť častice"
+	}
+	"Hide pets"
+	{
+		"sk"		"Skryť domáce zvieratá"
+	}
+	"Hide trails"
+	{
+		"sk"		"Skryť stopy"
+	}
+	"High #4-6"
+	{
+		"sk"		"Vysoké #4-6"
+	}
+	"High #4-6 = "
+	{
+		"sk"		"Vysoké #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"sk"		"High - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"sk"		"VIAC"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Vybrané číslo je: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Ďalšie číslo bolo: {1}"
+	}
+	"Hit"
+	{
+		"sk"		"Úder"
+	}
+	"Hol Info 1"
+	{
+		"sk"		"Vybrané bolo číslo medzi {1} a {2}, aby si uhádol, či bude nasledujúce číslo väčšie alebo menšie ako vybrané číslo."
+	}
+	"Hol Info 2"
+	{
+		"sk"		"Ak vyberieš správnu možnosť, vyhráš dvojnásobok svojej stávky."
+	}
+	"Hol Info 3"
+	{
+		"sk"		"Medzi každou hrou je pauza {1} sekundy."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Úspešne ste umiestnili {1} {2}."
+	}
+	"Inventory"
+	{
+		"sk"		"Inventár"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"sk"		"Prosím počkajte. Váš inventár ešte nebol načítaný."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"sk"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"sk"		"{1}"
+	}
+	"Item Equip"
+	{
+		"sk"		"Vybavte túto položku"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"sk"		"{1} [VYBAVENÉ]"
+	}
+	"Item Gift"
+	{
+		"sk"		"Darovať túto položku"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"sk"		"{1} (Vyberte plán)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Predať za {1}"
+	}
+	"Item Unequip"
+	{
+		"sk"		"Zosadiť túto položku"
+	}
+	"Item Use"
+	{
+		"sk"		"Použiť túto položku"
+	}
+	"Item Voucher"
+	{
+		"sk"		"Vytvoriť voucher z predmetu"
+	}
+	"Item Voucher disabled"
+	{
+		"sk"		"Vytváranie voucherov pre predmet je momentálne zakázané."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"sk"		"Prekonvertovali ste {1} ({2}) na voucher {3}."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"sk"		"{1} skryté. Už ich neuvidíš."
+	}
+	"Item not found"
+	{
+		"sk"		"Položka nenájdená"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"sk"		"{1} je opäť viditeľný."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"sk"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"sk"		"Jackpot bol pozastavený."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Jackpot: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"sk"		"Jetpack je prázdny"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"sk"		"[Jetpack] Palivo: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"sk"		"Jetpack je znovu nahraný"
+	}
+	"Jihad Failed"
+	{
+		"sk"		"Vaša bomba nevybuchla."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"sk"		"Jihadová bomba {1} nevybuchla."
+	}
+	"Jihad Wrong Team"
+	{
+		"sk"		"Nemôžeš použiť bombu v tomto tíme."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"sk"		"{1} minúta(y) pred začiatkom crash."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"sk"		"{1} sekunda(y) pred začiatkom crash."
+	}
+	"LevelIcon"
+	{
+		"sk"		"ikona úrovne"
+	}
+	"Limited"
+	{
+		"sk"		"Obmedzené - jeden hráč"
+	}
+	"Lootbox case is opening"
+	{
+		"sk"		"Prosím, počkajte, kým sa neotvorí vaša predchádzajúca krabica"
+	}
+	"Lootbox map ended"
+	{
+		"sk"		"Mapa skončila. Prosím, počkajte na ďalšiu mapu"
+	}
+	"Lootbox round ended"
+	{
+		"sk"		"Kolo skončilo. Prosím, počkajte na ďalšie kolo"
+	}
+	"Lootbox warm up"
+	{
+		"sk"		"Nemôžete otvoriť počas rozcvičky"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Ztratili ste svoju dennú sériu {1} deň(í)."
+	}
+	"Lost bet"
+	{
+		"sk"		"Neuspel sa! Prehral si svoju stávku"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Prehrali ste svoju stávku, pretože nasledujúce číslo bolo: {1}"
+	}
+	"Low #1-3"
+	{
+		"sk"		"Nízke #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"sk"		"Nízke #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"sk"		"Low - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"sk"		"MENEJ"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Potrebujeme aspoň {1} hráča"
+	}
+	"Must be Alive"
+	{
+		"sk"		"Musíte byť nažive, aby ste to použili."
+	}
+	"Must be dead"
+	{
+		"sk"		"Musíš byť mŕtvy, aby si hral"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"sk"		"Množiteľ = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"sk"		"Žiadny aktívny jackpot"
+	}
+	"No active TeamBet"
+	{
+		"sk"		"Zatiaľ neboli vložené žiadne tímové stávky"
+	}
+	"No have flag"
+	{
+		"sk"		"Nemáte prístup na použitie tohto príkazu."
+	}
+	"No matching color"
+	{
+		"sk"		"Žiadna zodpovedajúca farba, použite: r/červená, b/čierna alebo g/zelená"
+	}
+	"No pick up - back to you"
+	{
+		"sk"		"Nikto nezdvihol vaše spadnuté kredity. Dostali ste ich späť."
+	}
+	"No pick up - removed"
+	{
+		"sk"		"Nikto nezdvihol vaše spadnuté kredity. Kredity boli odstránené."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Čas vypršal. Správna odpoveď bola {1}."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Žiadny iný hráč neprehodil peniaze do jackpotu. Dostanete svoje {1} {2} späť!"
+	}
+	"Not enough Credits"
+	{
+		"sk"		"Nemáte dostatok kreditov"
+	}
+	"Now run a giveaway"
+	{
+		"sk"		"Práve prebieha giveaway, skúste to znova o niekoľko sekúnd."
+	}
+	"Only number"
+	{
+		"sk"		"Zadať môžete iba čísla..."
+	}
+	"Override Disabled"
+	{
+		"sk"		"Váš skin nepodporuje klobúky. Vaša nasadená čiapka bude deaktivovaná."
+	}
+	"Override Enabled"
+	{
+		"sk"		"Váš aktuálny skin nepodporuje klobúky. Váš skin bude zmenený."
+	}
+	"Owned"
+	{
+		"sk"		"[Vlastní]"
+	}
+	"Package Gift"
+	{
+		"sk"		"Darujte tento balíček"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Predajte tento balíček za {1}"
+	}
+	"Package Voucher"
+	{
+		"sk"		"Vytvoriť voucher z balíka"
+	}
+	"Parachute Empty"
+	{
+		"sk"		"Padák je prázdny"
+	}
+	"Parachute Reloaded"
+	{
+		"sk"		"Padák znovu naložen"
+	}
+	"Particles"
+	{
+		"sk"		"Častice:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Umiesť {1} {2}"
+	}
+	"Play Preview"
+	{
+		"sk"		"Prehrávam zvuk náhľadu pre vás."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"sk"		"{1} má {2} kreditov."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"sk"		"{1} bol resetovaný."
+	}
+	"Player Skin module disabled"
+	{
+		"sk"		"Modul Store Player Skin je momentálne dočasne deaktivovaný."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"sk"		"{1} pridal {2} {3} do jackpotu, jeho aktuálna šanca na výhru je: {4}% (Jackpot: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"sk"		"{1} prehral {2} {3} v {4}."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"sk"		"{1} otvoril jackpot s {2} {3}. Preveďte peniaze, aby ste získali tieto peniaze!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"sk"		"{1} vyhral jackpot s {2} {3}!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"sk"		"{1} vyhral {2} {3} v {4}."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"sk"		"{1} vyhral {2} {3} s multiplikátorom x{4} na {5}."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"sk"		"Vaše nové nastavenia budú aplikované pri nasledujúcom spawne."
+	}
+	"Press"
+	{
+		"sk"		"Stlačte"
+	}
+	"Press to Start"
+	{
+		"sk"		"Stlačte pre začatie!"
+	}
+	"Press to Stop"
+	{
+		"sk"		"Stlačte pre zastavenie!"
+	}
+	"Preview Item"
+	{
+		"sk"		"Náhľad tejto položky"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Cena: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"sk"		"Kúpiť voucher"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"sk"		"Koľko je {1} {2} {3}? | Odmena: {4} {5}"
+	}
+	"Red"
+	{
+		"sk"		"červená"
+	}
+	"Redeem Voucher"
+	{
+		"sk"		"Uplatniť voucher"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Spustite znova {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"sk"		"Dosiahli ste maximálny počet respawnov, ktoré môžete kúpiť v tomto kole."
+	}
+	"SQL Cooldown"
+	{
+		"sk"		"Z bezpečnostných dôvodov nemôžete odosielať viacero žiadostí v krátkom čase."
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"sk"		"-------------- Návrhy v ponuke vyhľadávania obchodu --------------\n - Všetky súvisiace položky budú uvedené tu\n - Váš aktuálny hľadaný reťazec: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"sk"		"Druhý víťaz už nie je v hre, posledný pokus nájsť nového víťaza."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Musíte počkať {1} sekúnd, kým sa pokúsite tento príkaz použiť znova."
+	}
+	"Show bullet sparks"
+	{
+		"sk"		"Zobraziť iskry z guliek"
+	}
+	"Show bullet tracer"
+	{
+		"sk"		"Zobraziť stopy po guľkách"
+	}
+	"Show gloves"
+	{
+		"sk"		"Zobraziť rukavice"
+	}
+	"Show paintball"
+	{
+		"sk"		"Zobraziť paintball"
+	}
+	"Show particles"
+	{
+		"sk"		"Zobraziť častice"
+	}
+	"Show pets"
+	{
+		"sk"		"Zobraziť domáce zvieratá"
+	}
+	"Show trails"
+	{
+		"sk"		"Zobraziť stopy"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Nemôžete použiť menšiu hodnotu ako vaša minimálna hodnota ({1})"
+	}
+	"Spacer"
+	{
+		"sk"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Ochrana proti spamu. Počkajte prosím {1} sekúnd."
+	}
+	"Spawn Preview"
+	{
+		"sk"		"Vytvorený náhľad. Náhľad zmizne za 45 sekúnd."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"sk"		"Vytvorený náhľad. Náhľad zmizne za {1} sekúnd."
+	}
+	"Start again from begin"
+	{
+		"sk"		"Prosím, začnite znovu od začiatku"
+	}
+	"Starting"
+	{
+		"sk"		"Začína"
+	}
+	"Stay"
+	{
+		"sk"		"Stoj"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"sk"		"Ste si istí, že chcete resetovať svoje vybavenie? Všetky položky budú odobrané."
+	}
+	"Successfully purchased voucher"
+	{
+		"sk"		"Úspešne ste zakúpili poukážku"
+	}
+	"TF Wrong Class"
+	{
+		"sk"		"Tento predmet bol určený na použitie s inou triedou hráča."
+	}
+	"Tail"
+	{
+		"sk"		"Chvost"
+	}
+	"TeamBet Already Placed"
+	{
+		"sk"		"Už ste urobili svoju stávku na tento kolo."
+	}
+	"TeamBet Invalid Team"
+	{
+		"sk"		"Bol zadaný neplatný identifikátor tímu."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Prehrali ste {1} {2} na stávke."
+	}
+	"TeamBet Period Over"
+	{
+		"sk"		"Obdobie stávok pre tento kolo je ukončené."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Úspešne ste umiestnili stávku vo výške {1} kreditov."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Vaša stávka bola úspešná. Vyhrali ste {1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"sk"		"Na druhý tím nebola uzatvorená žiadna stávka, takže ste dostali späť kredity."
+	}
+	"Terrorist"
+	{
+		"sk"		"Terrorista"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Vybrané číslo je: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Ďalšie číslo bolo: {1}"
+	}
+	"This is the preview text"
+	{
+		"sk"		"Toto je text náhľadu."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Administrátor znovu načítal konfiguráciu obchodu. Mapa sa znovu načíta za {1} sekúnd!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"sk"		"Menu pre vytváranie voucherov na položky (len pre administrátorov).\n \nVyberte dobu trvania položky."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"sk"		"Menu pre vytváranie voucherov na položky (len pre administrátorov)"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Kredity: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"sk"		"Vyprší za {1}d {2}h"
+	}
+	"Title Gift"
+	{
+		"sk"		"Vyberte hráča, ktorému chcete poslať darček"
+	}
+	"Title Store"
+	{
+		"sk"		"Menu obchodu"
+	}
+	"To late chat input"
+	{
+		"sk"		"Váš textový vstup nebol dokončený v stanovenom čase"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Na zemi je príliš veľa {1}, nemôžete teraz viac hodiť!"
+	}
+	"Top Credits"
+	{
+		"sk"		"Top kredity"
+	}
+	"Top Credits Inv Worth"
+	{
+		"sk"		"Top kredity + hodnota inventára"
+	}
+	"Top Inv Worth"
+	{
+		"sk"		"Top hodnota inventára"
+	}
+	"Top Most Items"
+	{
+		"sk"		"Top najpopulárnejšie predmety"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Celkom: {1} {2}"
+	}
+	"Try again"
+	{
+		"sk"		"Skús to znova"
+	}
+	"Type in chat !bet"
+	{
+		"sk"		"Napíšte do chatu !bet <stávka> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"sk"		"Napíš do chatu !blackjack <stávka>"
+	}
+	"Type in chat !coinflip"
+	{
+		"sk"		"Napíšte do chatu !coinflip <stávka> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"sk"		"Napíš do chatu !crash <stávka>"
+	}
+	"Type in chat !crowns"
+	{
+		"sk"		"Napíšte do chatu !crowns <stávka>"
+	}
+	"Type in chat !dice"
+	{
+		"sk"		"Napíšte do chatu !dice <stávka> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"sk"		"Napíšte do chatu !jackpot <stávka>"
+	}
+	"Type in chat !roulette"
+	{
+		"sk"		"Napíšte do chatu !roulette <stávka> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"sk"		"Neobmedzené - niekoľko hráčov"
+	}
+	"Up"
+	{
+		"sk"		"Nahor"
+	}
+	"Value less than 1"
+	{
+		"sk"		"Nemôžete použiť hodnotu menšiu ako 1."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sk"		"Hlasitosť {1} bola nastavená na {2}"
+	}
+	"Voucher Code 17 chars"
+	{
+		"sk"		"Momentálne musí kód voucheru obsahovať presne 17 znakov"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Poukážka má hodnotu {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"sk"		"Voucher bol prijatý"
+	}
+	"Voucher accepted Panel"
+	{
+		"sk"		"Voucher bol prijatý"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"sk"		"Generujete {1} {2}obmedzený voucher{3} s hodnotou {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"sk"		"Generujete {1} {2}obmedzený voucher{3} s hodnotami {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Zadaný kód poukážky bol už použitý dňa {1}"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Tento poukaz vyprší {1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Zadaný kód poukážky vypršal dňa {1}"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"sk"		"Vytvorený nový voucher {1} s hodnotou {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"sk"		"Kód poukážky nájdete aj v chate a konzole"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Kód poukážky: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Zadaný kód poukážky '{1}' nie je platný!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sk"		"Poukážka obsahuje {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"sk"		"Kód poukážky je platný"
+	}
+	"Vouchers"
+	{
+		"sk"		"Voucher"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Musíš počkať {1}, kým začne ďalší denný úkol."
+	}
+	"Wait until next daily 2"
+	{
+		"sk"		"Dnes už ste sa prihlásili. Prosím, vráťte sa zajtra."
+	}
+	"Win = "
+	{
+		"sk"		"Výhra = "
+	}
+	"Winner is not in game anymore"
+	{
+		"sk"		"Víťaz už nie je v hre, snažíme sa nájsť nového víťaza."
+	}
+	"Wrong voucher code format"
+	{
+		"sk"		"Kód poukážky má nesprávny formát. Musí byť XXXXX-XXXXX-XXXXX"
+	}
+	"You"
+	{
+		"sk"		"TY"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"sk"		"Už ste si vybrali {1} {2} do jackpotu. Aktuálna šanca na výhru: {3}%% Jackpot: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"sk"		"Už vlastníte zadaný predmet poukážky"
+	}
+	"You already redeemed Voucher"
+	{
+		"sk"		"Už ste uplatnili zadaný kód poukážky"
+	}
+	"You can start a new Jackpot"
+	{
+		"sk"		"Môžete začať nový jackpot"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Môžete začať nový jackpot za {1}."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Nemôžete minúť toľko kreditov (Max: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Získali ste {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"sk"		"Nemáte povolenie na prístup k tomuto."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Zhodili ste {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"sk"		"Nezískal si žiadne body v tomto kole."
+	}
+	"You earned this round"
+	{
+		"sk"		"Vyhral si túto kolo:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Zarobili ste {1} {2} za "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Zarobili ste {1} {2} v tomto kole"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Dostali ste {1} {2}."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Dostali ste {1} {2}."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sk"		"Dostali ste {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sk"		"Dostali ste {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Musíte minúť aspoň {1} {2}."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Musíte minúť aspoň {1} {2}."
+	}
+	"You haven't opened the box in given time"
+	{
+		"sk"		"Neotvorili ste krabicu v stanovenom čase. Lootbox je späť vo vašom inventári"
+	}
+	"You lose"
+	{
+		"sk"		"- prehral si"
+	}
+	"You lost with"
+	{
+		"sk"		"Prehral si s"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Stratil(a) si {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"sk"		"Ovládol(a) si 'dennú výzvu'! Skúste ju poraziť znovu!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Vyhral(a) si {1} {2}"
+	}
+	"You won"
+	{
+		"sk"		"!!! VYHRAL SI !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sk"		"Vyhrali ste {1} ({2})!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Vyhrali ste jackpot s {1} {2}!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"sk"		"Vyhrali ste jackpot s {1} {2} mínus poplatok za kasíno {3} {4} ({5}%)."
+	}
+	"You won with"
+	{
+		"sk"		"Vyhral si s"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"sk"		"Vyhral(a) si {1} kreditov s x{2}."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Zajtra zarobíš {1} {2}!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"sk"		"Vaša stávka: {1} {2} - Šanca: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Vaša stávka: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"sk"		"Vaša aktuálna šanca na výhru sa zmenila na {1}%"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Získali ste {1} kredity za zabitie {2}."
+	}
+	"admin"
+	{
+		"sk"		"admin"
+	}
+	"and is limited"
+	{
+		"sk"		"a je obmedzený"
+	}
+	"and is unlimited"
+	{
+		"sk"		"a je neobmedzený"
+	}
+	"arms"
+	{
+		"sk"		"ruky"
+	}
+	"assist a kill"
+	{
+		"sk"		"pomoc pri zabíjaní"
+	}
+	"attachment"
+	{
+		"sk"		"Príslušenstvo"
+	}
+	"backstab kill"
+	{
+		"sk"		"zabiť zozadu"
+	}
+	"be the MVP"
+	{
+		"sk"		"buď MVP"
+	}
+	"bet x"
+	{
+		"sk"		"stávka x"
+	}
+	"blackjack"
+	{
+		"sk"		"Blackjack"
+	}
+	"bomb defused"
+	{
+		"sk"		"bomba bola deaktivovaná"
+	}
+	"bomb explode"
+	{
+		"sk"		"bomba vybuchla"
+	}
+	"bomb planted"
+	{
+		"sk"		"bomba bola nasadená"
+	}
+	"bombtweak"
+	{
+		"sk"		"Úprava bomby"
+	}
+	"bullet_impact"
+	{
+		"sk"		"Úder kulky"
+	}
+	"bulletsparks"
+	{
+		"sk"		"Iskry z nábojov"
+	}
+	"bunnyhob"
+	{
+		"sk"		"Skok zaja"
+	}
+	"bunnyhop"
+	{
+		"sk"		"schopnosť"
+	}
+	"casino"
+	{
+		"sk"		"Kasíno"
+	}
+	"coinflip"
+	{
+		"sk"		"Hádzanie mince"
+	}
+	"command"
+	{
+		"sk"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Chcete resetovať konfiguráciu?\nMapa sa znovu načíta za {1} sekúnd!"
+	}
+	"confirm_reload_type_1"
+	{
+		"sk"		"Ste si istí, že chcete resetovať konfiguráciu?\nMusíte zmeniť mapu, aby sa zmeny prejavili, inak môžu nastať chyby."
+	}
+	"connect"
+	{
+		"sk"		"Správa o pripojení"
+	}
+	"crash"
+	{
+		"sk"		"Krach"
+	}
+	"creditstoplist"
+	{
+		"sk"		"kredity"
+	}
+	"crowns"
+	{
+		"sk"		"Slot korún"
+	}
+	"daily"
+	{
+		"sk"		"Denný bonus"
+	}
+	"decoy grenade kill"
+	{
+		"sk"		"zabiť pomocou návnady granátu"
+	}
+	"dice"
+	{
+		"sk"		"Kocka"
+	}
+	"direction"
+	{
+		"sk"		"Směr"
+	}
+	"discount"
+	{
+		"sk"		"VÝPREDAJ"
+	}
+	"distance"
+	{
+		"sk"		"Vzdialenosť"
+	}
+	"dmgtext"
+	{
+		"sk"		"Umelec"
+	}
+	"emote"
+	{
+		"sk"		"Emote"
+	}
+	"escape as VIP"
+	{
+		"sk"		"utec ako VIP"
+	}
+	"flashbang kill"
+	{
+		"sk"		"zabiť flashbangom"
+	}
+	"flashlight"
+	{
+		"sk"		"Baterka"
+	}
+	"froggyjump"
+	{
+		"sk"		"Skok žaby"
+	}
+	"gloves"
+	{
+		"sk"		"rukavice"
+	}
+	"glow"
+	{
+		"sk"		"žiara"
+	}
+	"godmode"
+	{
+		"sk"		"godmode"
+	}
+	"gravity"
+	{
+		"sk"		"schopnosť"
+	}
+	"grenademodel"
+	{
+		"sk"		"Model granátu"
+	}
+	"grenadeskin"
+	{
+		"sk"		"skin granátu"
+	}
+	"grenadetrail"
+	{
+		"sk"		"stopa granátu"
+	}
+	"hat"
+	{
+		"sk"		"klobúk"
+	}
+	"headshot"
+	{
+		"sk"		"headshot"
+	}
+	"health"
+	{
+		"sk"		"balíček"
+	}
+	"high or low"
+	{
+		"sk"		"Vyššie alebo nižšie"
+	}
+	"hiteff"
+	{
+		"sk"		"efekt zásahu:"
+	}
+	"hitsound"
+	{
+		"sk"		"Zvuk zásahu"
+	}
+	"hostage rescued"
+	{
+		"sk"		"oslobodený rukojemník"
+	}
+	"hunterjump"
+	{
+		"sk"		"Skok lovca"
+	}
+	"idle on the server"
+	{
+		"sk"		"neaktívny na serveri"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"sk"		"v {1}."
+	}
+	"infinityammo"
+	{
+		"sk"		"Nezničiteľné náboje"
+	}
+	"info"
+	{
+		"sk"		"Panel informácií"
+	}
+	"instabomb"
+	{
+		"sk"		"Okamžité zasadenie / deaktivácia"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"sk"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"sk"		"schopnosť"
+	}
+	"items"
+	{
+		"sk"		"Predmety"
+	}
+	"jackpot"
+	{
+		"sk"		"Jackpot"
+	}
+	"jetpack"
+	{
+		"sk"		"raketa"
+	}
+	"jihad"
+	{
+		"sk"		"bomba"
+	}
+	"kill"
+	{
+		"sk"		"zabiť"
+	}
+	"kill the VIP"
+	{
+		"sk"		"zabiť VIP"
+	}
+	"kill yourself"
+	{
+		"sk"		"zabij sa"
+	}
+	"killeff"
+	{
+		"sk"		"efekt zabitia:"
+	}
+	"knife"
+	{
+		"sk"		"nôž"
+	}
+	"knife kill"
+	{
+		"sk"		"zabiť nožom"
+	}
+	"laserdraw"
+	{
+		"sk"		"laser draw:"
+	}
+	"laserpointer"
+	{
+		"sk"		"Laserové ukazovátko"
+	}
+	"lasersight"
+	{
+		"sk"		"laserový cieľ"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"sk"		"posledná aktualizácia pred {1}"
+	}
+	"light"
+	{
+		"sk"		"Svetlo"
+	}
+	"lootbox"
+	{
+		"sk"		"Truhlica s korisťou"
+	}
+	"mirror"
+	{
+		"sk"		"zrkadlo"
+	}
+	"molotov kill"
+	{
+		"sk"		"zabiť molotovom"
+	}
+	"msgcolor"
+	{
+		"sk"		"farba správy"
+	}
+	"mvp_sound"
+	{
+		"sk"		"Antémy MVP"
+	}
+	"namecolor"
+	{
+		"sk"		"farba mena"
+	}
+	"nametag"
+	{
+		"sk"		"menovka"
+	}
+	"nearest"
+	{
+		"sk"		"Najbližší"
+	}
+	"nodiscount"
+	{
+		"sk"		" "
+	}
+	"noduckdelay"
+	{
+		"sk"		"Žiadne oneskorenie pri kľačaní"
+	}
+	"nofalldamage"
+	{
+		"sk"		"Žiadne poškodenie pádom"
+	}
+	"noreload"
+	{
+		"sk"		"Bez prebitia"
+	}
+	"noscope kill"
+	{
+		"sk"		"zabiť bez mierenia"
+	}
+	"noselfdamage"
+	{
+		"sk"		"Žiadne poškodenie seba"
+	}
+	"or use buttons below"
+	{
+		"sk"		"alebo použite tlačidlá nižšie"
+	}
+	"package"
+	{
+		"sk"		"balík"
+	}
+	"paintball"
+	{
+		"sk"		"guľky"
+	}
+	"painter"
+	{
+		"sk"		"Umelec"
+	}
+	"parachute"
+	{
+		"sk"		"Padák"
+	}
+	"particle"
+	{
+		"sk"		"Častice"
+	}
+	"pet"
+	{
+		"sk"		"domáce zviera"
+	}
+	"playerskin"
+	{
+		"sk"		"skin hráča"
+	}
+	"playing on the server"
+	{
+		"sk"		"hrá na serveri"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"sk"		"hrali ste na našom serveri {1} dní po sebe"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Pri ďalšom spawne dostaneš {1}"
+	}
+	"respawn"
+	{
+		"sk"		"Obnovenie"
+	}
+	"roulette"
+	{
+		"sk"		"Ruleta"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Dosiahol/a si maximálny počet použití zvuku. {1} maximálny počet použití na mape"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Dosiahol/a si maximálny počet použití zvuku. {1} maximálny počet použití na kolo"
+	}
+	"saysound"
+	{
+		"sk"		"povedz zvuk"
+	}
+	"scoreboardtag"
+	{
+		"sk"		"Štítok na tabuľu skóre"
+	}
+	"smokegrenade kill"
+	{
+		"sk"		"zabiť dymovou granátom"
+	}
+	"sound"
+	{
+		"sk"		"zvuk"
+	}
+	"spawn"
+	{
+		"sk"		"Extra respawn"
+	}
+	"spawneff"
+	{
+		"sk"		"efekt spawnu:"
+	}
+	"speed"
+	{
+		"sk"		"schopnosť"
+	}
+	"spray"
+	{
+		"sk"		"sprej"
+	}
+	"start daily challange"
+	{
+		"sk"		"Začnite 'denné výzvy'. Hrajte nasledujúcich 6 dní, aby ste získali plnú odmenu"
+	}
+	"taser kill"
+	{
+		"sk"		"zabiť taserom"
+	}
+	"teambet"
+	{
+		"sk"		"Tímová stávka"
+	}
+	"teamkill"
+	{
+		"sk"		"zabiť spoluhráča"
+	}
+	"tfhat"
+	{
+		"sk"		"klobúk stavby"
+	}
+	"tfhatdye"
+	{
+		"sk"		"farba na klobúk"
+	}
+	"tfhead"
+	{
+		"sk"		"veľkosť hlavy"
+	}
+	"tfunusual"
+	{
+		"sk"		"efekt klobúka"
+	}
+	"tfweapon"
+	{
+		"sk"		"vlastná zbraň"
+	}
+	"tfweaponsize"
+	{
+		"sk"		"veľkosť zbrane"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Výhra bude vyžrebovaná za {1} sekúnd"
+	}
+	"thirdperson"
+	{
+		"sk"		"tretia osoba"
+	}
+	"throwknife"
+	{
+		"sk"		"Hodiť nôž"
+	}
+	"toplists"
+	{
+		"sk"		"Top zoznamy"
+	}
+	"tracer"
+	{
+		"sk"		"tracer"
+	}
+	"trail"
+	{
+		"sk"		"stopa"
+	}
+	"wasted"
+	{
+		"sk"		"zbytočne"
+	}
+	"watergun"
+	{
+		"sk"		"efekt"
+	}
+	"weapon"
+	{
+		"sk"		"zbraň"
+	}
+	"weaponcolor"
+	{
+		"sk"		"farba zbrane"
+	}
+	"weaponmodel"
+	{
+		"sk"		"Model zbrane"
+	}
+	"weaponskin"
+	{
+		"sk"		"koža zbrane"
+	}
+	"win the round"
+	{
+		"sk"		"vyhraj kolo"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"sk"		"{1} {2} za '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"sk"		"{1} hodiny {2} minúty a {3} sekundy"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"sk"		"{1} hodina(y) {2} minúta(y) a {3} sekunda(y)"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"sk"		"{1} minúty a {2} sekundy"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"sk"		"{1} minúta(y) a {2} sekunda(y)"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"sk"		"{1} sekundy"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"sk"		"{1} sekunda(y)"
+	}
+	"zrclass"
+	{
+		"sk"		"trieda hráča"
+	}
+}

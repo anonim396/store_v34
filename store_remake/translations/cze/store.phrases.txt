@@ -1,0 +1,2282 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"cze"		"{1}21 !!! BLACKJACK !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Jste již znovu načetli konfiguraci. Změňte nebo znovu načtěte mapu."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Všichni účastníci se odpojují, nikdo nedostane zpět své {2}, haha. Jackpot byl {1} {2}!"
+	}
+	"All valid voucher"
+	{
+		"cze"		"Všechny vygenerované a platné vouchery jsou:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"cze"		"Vyhrál(a) jste, ale už vlastníte {1} ({2}). Předmět byl prodán za {3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"cze"		"Již vlastníte {1} ({2}). Byla vám vrácena částka {3} {4}"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Množství: {1}"
+	}
+	"Aura"
+	{
+		"cze"		"Aura:"
+	}
+	"Back"
+	{
+		"cze"		"Zpět"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"cze"		"Sázka * Množitel = Tvoje výhra"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Bonus kredity: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"CT výhra: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Maximální sázka ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Minimální sázka ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"cze"		"Randomní sázka ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"T výhra: {1} {2}"
+	}
+	"Bet on"
+	{
+		"cze"		"Udělejte sázku na"
+	}
+	"Bet on a Head/Tail"
+	{
+		"cze"		"Vsadit na hlavu/ocasu"
+	}
+	"Bet on a color"
+	{
+		"cze"		"Vsadit na barvu a pokud je tato barva vybrána, vyhráváte!"
+	}
+	"Bet on a number"
+	{
+		"cze"		"Vsadit na Nízké (#1-3), Vysoké (#4-6) nebo přesné číslo. Pokud je váš výběr hozen, vyhráváte!"
+	}
+	"Bet on a team"
+	{
+		"cze"		"Vsadit na tým a pokud tým vyhraje kolo, vyhráváte!"
+	}
+	"Betting Already Placed"
+	{
+		"cze"		"Už jste vsadili na tuto rundu."
+	}
+	"Betting Invalid Team"
+	{
+		"cze"		"Byl zadán neplatný identifikátor týmu."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Ztratili jste {1} kreditů na sázce."
+	}
+	"Betting Period Over"
+	{
+		"cze"		"Perióda sázek pro tento round je u konce."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Úspěšně jste uzavřeli sázku na {1} kredity."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Vaše sázka byla úspěšná. Vyhráli jste {1} kreditů."
+	}
+	"Black"
+	{
+		"cze"		"černá"
+	}
+	"Blackjack Info 1"
+	{
+		"cze"		"Blackjack je hra, ve které musí být hodnota vašich karet vyšší než hodnota karet dealera, aniž byste překročili 21."
+	}
+	"Blackjack Info 2"
+	{
+		"cze"		"Pravidla počítání:\n- Karta \"A\" může být počítána jako 1/11. Pokud hodnota ruky přesáhne 21, tato karta musí být počítána jako 1."
+	}
+	"Blackjack Info 3"
+	{
+		"cze"		"- \"10, J, Q, K\": Počítá se jako 10.\n- 2-9 se počítají podle jejich nominální hodnoty."
+	}
+	"Blackjack Info 4"
+	{
+		"cze"		"- Hodnota vaší ruky musí být co nejblíže 21, aniž byste ji překročili, a vyšší než ruka dealera, abyste vyhráli hru.\n- \"A\" + karta o hodnotě 10 = BlackJack. To je okamžité vítězství."
+	}
+	"Buy"
+	{
+		"cze"		"Koupit předmět"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Koupit položku ({1})"
+	}
+	"CP Changed color"
+	{
+		"cze"		"Změnili jste barvu na: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"cze"		"Možnost barvy chat značky"
+	}
+	"CP Disable Color - Menu"
+	{
+		"cze"		"Deaktivuj barvu"
+	}
+	"CP Disabled Color"
+	{
+		"cze"		"Vlastní barva značky byla deaktivována."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"cze"		"Nemáte žádnou značku jména vybavenou"
+	}
+	"CP No file found"
+	{
+		"cze"		"Vlastní barva značky pro uživatele byla deaktivována. Kontaktujte administrátora pro další podporu."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"cze"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"cze"		"Zobrazení náhledu značky na tabuli, stiskněte tlačítko TAB."
+	}
+	"Cancel"
+	{
+		"cze"		"Zrušit"
+	}
+	"Cant be bought"
+	{
+		"cze"		"Tento předmět nelze zakoupit"
+	}
+	"Cash out"
+	{
+		"cze"		"Vybrat"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Změňte svou sázku: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"cze"		"Koupil(a) jste {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"cze"		"{1} vám poslal(a) {2} {3} jako dárek."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"cze"		"Poslali jste {1} {2} {3} jako dárek."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"cze"		"Prodal(a) jste {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Otevřeli jste kontejner a našli {1} kredity!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"cze"		"{1} otevřel kontejner a našel {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"cze"		"{1} otevřel kontejner a našel {2} ({3})!"
+	}
+	"Check All Voucher"
+	{
+		"cze"		"Zkontrolujte všechny platné a dostupné vouchery (pouze pro administrátory)"
+	}
+	"Check Voucher"
+	{
+		"cze"		"Zkontrolujte voucher"
+	}
+	"Check Your valid Voucher"
+	{
+		"cze"		"Zkontrolujte svůj vygenerovaný a platný dostupný voucher"
+	}
+	"Choose Number (1:6)"
+	{
+		"cze"		"Zvolte číslo (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"cze"		"Automatické výběry:"
+	}
+	"Client Loadout Reset"
+	{
+		"cze"		"Vaše vybavení bylo resetováno."
+	}
+	"Client valid voucher"
+	{
+		"cze"		"Váš vygenerovaný a platný voucher je:\n "
+	}
+	"Close"
+	{
+		"cze"		"Zavřít"
+	}
+	"ColoredSmoke"
+	{
+		"cze"		"Barevný kouř"
+	}
+	"Command is in-game only"
+	{
+		"cze"		"Musíte být naživu, abyste použili tento příkaz."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"cze"		"Konfigurace byla znovu načtena. Prosím, restartujte nebo změňte mapu."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"cze"		"Jste si jisti, že chcete koupit {1} {2}?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"cze"		"Jste si jisti, že chcete darovat {1} {2} {3}?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"cze"		"Jste si jisti, že chcete hodit {1} {2} jako dárek?"
+	}
+	"Confirm_No"
+	{
+		"cze"		"Ne"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"cze"		"Jste si jisti, že chcete prodat {1} {2} za {3}?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"cze"		"Jste si jisti, že chcete převést {1} ({2}) na kupon?\nUPOZORNĚNÍ: Pokud položka ve voucheru vyprší před vyzvednutím.\nTento voucher vyprší."
+	}
+	"Confirm_Yes"
+	{
+		"cze"		"Ano"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"cze"		"{1} správně odpověděl a vyhrál {2} {3}!"
+	}
+	"Counter-Terrorist"
+	{
+		"cze"		"Proti-terorista"
+	}
+	"Crash Already Start"
+	{
+		"cze"		"Hra Crash je v současnosti v průběhu. Prosím, počkejte na příští hru."
+	}
+	"Crash Auto Off"
+	{
+		"cze"		"Vypnuto"
+	}
+	"Crash Auto Off Panel"
+	{
+		"cze"		"Vypněte automatické vyplácení"
+	}
+	"Crash Auto On"
+	{
+		"cze"		"Zapnuto"
+	}
+	"Crash Auto On Panel"
+	{
+		"cze"		"Zapněte automatické vyplácení"
+	}
+	"Crash Info 1"
+	{
+		"cze"		"           Co je/ Jak hrát: Crash"
+	}
+	"Crash Info 2"
+	{
+		"cze"		"- Crash je hra, kde hráči mohou sázet na násobitel, tento násobitel souvisí se zvyšující se křivkou, která může kdykoli zkolabovat."
+	}
+	"Crash Info 3"
+	{
+		"cze"		"- Množitel začíná na 1.00x a můžete vybrat kdykoli."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"cze"		"- Minimální hodnota sázky je {1} {2}. Maximální hodnota sázky je {3} {4}. Tyto limity se mohou časem změnit."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"cze"		"Špatný vstup (musí být {1} nebo více)."
+	}
+	"Crash auto input"
+	{
+		"cze"		"Zadejte svou automatickou výběrovou hodnotu do chatu"
+	}
+	"Crash auto input set"
+	{
+		"cze"		"Crash automatického výběru nastaven"
+	}
+	"Crash set auto"
+	{
+		"cze"		"Nastavte hodnotu automatického výběru"
+	}
+	"Crash!"
+	{
+		"cze"		"Crash!"
+	}
+	"Create Item Voucher"
+	{
+		"cze"		"Vytvořit voucher pro položky (pouze pro administrátory)"
+	}
+	"Create Voucher"
+	{
+		"cze"		"Vytvořit voucher"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Vytvoření poukazu se nezdařilo - Kontaktujte správce s tímto časovým údajem: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"cze"		"Dávání kreditů je na tomto serveru zakázáno."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Upustil(a) jste {1} kreditů jako dárek."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"cze"		"{2} vám poslal {1} kreditů."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"cze"		"Poslali jste {1} kreditů hráči {2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"cze"		"Nemáte dostatek kreditů pro vytvoření giveaway."
+	}
+	"Credit Invalid Amount"
+	{
+		"cze"		"Zadali jste neplatnou částku kreditů."
+	}
+	"Credit No Match"
+	{
+		"cze"		"Žádný hráč nebyl nalezen."
+	}
+	"Credit Not Enough"
+	{
+		"cze"		"Nemáte dostatek kreditů na koupi tohoto."
+	}
+	"Credit Too Many Matches"
+	{
+		"cze"		"Bylo nalezeno více než jeden klient."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"cze"		"Nemáte dostatek kreditů k vytvoření voucheru."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"cze"		"Získal(a) jste {1} kreditů za zabití {2}."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Získal(a) jste {1} kreditů za hraní na serveru."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"cze"		"{1} byl dán {2} kreditů."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"cze"		"Úvěry: {1}          Bank: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"cze"		"Vypnuto"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"cze"		"Zapnuto"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"cze"		"[Vlastní zvuk zbraně]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"cze"		"Menu pro ovládání hlasitosti zvuku vlastního zbraně"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Hlasitost: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"cze"		"Vlastní zvuk zbraně: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"cze"		"Vlastní zvuk zbraně je Vypnutý."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"cze"		"Vlastní zvuk zbraně je povolen."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Vlastní zvuk zbraně je povolen. Hlasitost: {1}"
+	}
+	"CustomModel"
+	{
+		"cze"		"Vlastní model zbraně:"
+	}
+	"Damage the crate to open"
+	{
+		"cze"		"Poškoďte krabici, abyste ji otevřeli!"
+	}
+	"Dead heat"
+	{
+		"cze"		"- remíza -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"cze"		"             DĚLAČ     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"cze"		"DĚLAČ"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Sleva: '{1}' je aktivní! Šťastné nakupování!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Sleva: '{1}' skončila."
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Sleva: '{1}' začala! Šťastné nakupování!"
+	}
+	"Double"
+	{
+		"cze"		"Zdvojnásobit"
+	}
+	"Down"
+	{
+		"cze"		"Dolů"
+	}
+	"Down2"
+	{
+		"cze"		"                      5 = Dolů"
+	}
+	"Drop Gift"
+	{
+		"cze"		"Pustit jako dárek"
+	}
+	"Edit Amount"
+	{
+		"cze"		"Upravit množství: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"cze"		"Prosím zadejte čas vypršení platnosti (v sekundách) pro položku do chatu!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"cze"		"Neplatný formát čísla. Zkuste to znovu."
+	}
+	"Enter custom amount"
+	{
+		"cze"		"Prosím, zadejte svou vlastní částku do chatu!"
+	}
+	"Enter maximum value"
+	{
+		"cze"		"Prosím, zadejte maximální hodnotu kreditů do chatu!"
+	}
+	"Enter minimum value"
+	{
+		"cze"		"Prosím, zadejte minimální hodnotu kreditů v chatu!"
+	}
+	"Enter number of vouchers"
+	{
+		"cze"		"Prosím, zadejte počet voucherů k vytvoření v chatu!"
+	}
+	"Enter value of vouchers"
+	{
+		"cze"		"Prosím, zadejte hodnotu voucheru k nákupu v chatu!"
+	}
+	"Enter voucher code"
+	{
+		"cze"		"Prosím, zadejte svůj kód voucheru do chatu!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"cze"		"Došlo k chybě při vracení ceny. Kontaktujte správce"
+	}
+	"Exact #x  = "
+	{
+		"cze"		"Exaktní #x = "
+	}
+	"Exit"
+	{
+		"cze"		"Ukončit"
+	}
+	"Gained"
+	{
+		"cze"		"Získáno"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"cze"		"Získáno: {1} {2}"
+	}
+	"Game Info"
+	{
+		"cze"		"Informace o hře"
+	}
+	"Game in progress"
+	{
+		"cze"		"Vaše aktuální hra probíhá. Počkejte, prosím, dokud neskončí."
+	}
+	"Get three on a kind"
+	{
+		"cze"		"Získejte tři stejné"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Sebral(a) jsi {1} kreditů."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"cze"		"Sebral(a) jsi {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"cze"		"Neexistuje nikdo, komu byste mohli darovat tento předmět."
+	}
+	"Gift Player Left"
+	{
+		"cze"		"Vybraný hráč již opustil hru."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"cze"		"{1} Pro provedení dárku musí server obsahovat alespoň {2} hráčů."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"cze"		"Administrátor {1} otevřel giveaway s <font color='#15fb00'>{2} kredity"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"cze"		"|| Giveaway začíná za {1} sekund ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"cze"		"{1} {2} vyhrál giveaway s {3} kredity"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"cze"		"{1}\n|| Vítěz: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"cze"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"cze"		"Dosáhli jste maximálního počtu godmode, které můžete koupit v tomto kole."
+	}
+	"Godmode Wrong Team"
+	{
+		"cze"		"Nemůžeš použít godmode v tomto týmu."
+	}
+	"Green"
+	{
+		"cze"		"zelená"
+	}
+	"HE grenade kill"
+	{
+		"cze"		"zabití HE granátem"
+	}
+	"HUD"
+	{
+		"cze"		"HUD"
+	}
+	"Head"
+	{
+		"cze"		"Hlava"
+	}
+	"Health Round Limit"
+	{
+		"cze"		"Dosáhli jste maximálního počtu zdravotních balíčků, které můžete koupit v tomto kole."
+	}
+	"Help_Back"
+	{
+		"cze"		"Zpět"
+	}
+	"Help_Exit"
+	{
+		"cze"		"Ukončit"
+	}
+	"Hide bullet sparks"
+	{
+		"cze"		"Skrýt iskry z kulek"
+	}
+	"Hide bullet tracer"
+	{
+		"cze"		"Skrýt stopu střel"
+	}
+	"Hide gloves"
+	{
+		"cze"		"Skrýt rukavice"
+	}
+	"Hide paintball"
+	{
+		"cze"		"Skrýt paintball"
+	}
+	"Hide particles"
+	{
+		"cze"		"Skryt částice"
+	}
+	"Hide pets"
+	{
+		"cze"		"Skrýt domácí mazlíčky"
+	}
+	"Hide trails"
+	{
+		"cze"		"Skrýt stopy"
+	}
+	"High #4-6"
+	{
+		"cze"		"Vysoké #4-6"
+	}
+	"High #4-6 = "
+	{
+		"cze"		"Vysoké #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"cze"		"High - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"cze"		"VYŠŠÍ"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Vybrané číslo je: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Další číslo bylo: {1}"
+	}
+	"Hit"
+	{
+		"cze"		"Úder"
+	}
+	"Hol Info 1"
+	{
+		"cze"		"Bylo vybráno číslo mezi {1} a {2}, abyste hádali, zda bude následující číslo vyšší nebo nižší než vybrané číslo."
+	}
+	"Hol Info 2"
+	{
+		"cze"		"Pokud vybereš správnou možnost, vyhraješ dvojnásobek své sázky."
+	}
+	"Hol Info 3"
+	{
+		"cze"		"Mezi každou hrou je pauza {1} sekundy."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Úspěšně jste umístili {1} {2}."
+	}
+	"Inventory"
+	{
+		"cze"		"Inventář"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"cze"		"Prosím čekejte. Váš inventář ještě nebyl načten."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"cze"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"cze"		"{1}"
+	}
+	"Item Equip"
+	{
+		"cze"		"Nasaďte tuto položku"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"cze"		"{1} [NASTAVENO]"
+	}
+	"Item Gift"
+	{
+		"cze"		"Darujte tuto položku"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"cze"		"{1} (Vyberte plán)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Prodat za {1}"
+	}
+	"Item Unequip"
+	{
+		"cze"		"Sejmout tuto položku"
+	}
+	"Item Use"
+	{
+		"cze"		"Použijte tuto položku"
+	}
+	"Item Voucher"
+	{
+		"cze"		"Vytvořit voucher z předmětu"
+	}
+	"Item Voucher disabled"
+	{
+		"cze"		"Vytváření voucheru pro předmět je momentálně zakázáno."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"cze"		"Převedli jste {1} ({2}) na voucher {3}."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"cze"		"{1} skrytý. Už je nebudete vidět."
+	}
+	"Item not found"
+	{
+		"cze"		"Předmět nenalezen"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"cze"		"{1} je znovu viditelné."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"cze"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"cze"		"Jackpot byl pozastaven."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Jackpot: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"cze"		"Jetpack je prázdný"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"cze"		"[Jetpack] Palivo: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"cze"		"Jetpack je znovu nahrán"
+	}
+	"Jihad Failed"
+	{
+		"cze"		"Vaše bomba nevybuchla."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"cze"		"Jihad bomba {1} se nezdařila vybuchnout."
+	}
+	"Jihad Wrong Team"
+	{
+		"cze"		"Nemůžeš použít bombu v tomto týmu."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"cze"		"{1} minuta(y) před začátkem crash."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"cze"		"{1} sekundy před začátkem crash."
+	}
+	"LevelIcon"
+	{
+		"cze"		"ikona úrovně"
+	}
+	"Limited"
+	{
+		"cze"		"Limitováno - jeden hráč"
+	}
+	"Lootbox case is opening"
+	{
+		"cze"		"Prosím, počkejte, dokud nebude otevřena vaše předchozí krabice"
+	}
+	"Lootbox map ended"
+	{
+		"cze"		"Mapa skončila. Prosím, počkejte na další mapu"
+	}
+	"Lootbox round ended"
+	{
+		"cze"		"Kolo skončilo. Prosím, počkejte na další kolo"
+	}
+	"Lootbox warm up"
+	{
+		"cze"		"Nemůžete otevřít v zahřívací fázi"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Ztratili jste svou denní sérii {1} den(ů)."
+	}
+	"Lost bet"
+	{
+		"cze"		"Nezdařilo se! Prohrál jsi svou sázku"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Prohráli jste svou sázku, protože další číslo bylo: {1}"
+	}
+	"Low #1-3"
+	{
+		"cze"		"Nízké #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"cze"		"Nízké #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"cze"		"Low - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"cze"		"NIŽŠÍ"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Potřebujeme alespoň {1} hráče"
+	}
+	"Must be Alive"
+	{
+		"cze"		"Musíte být naživu, abyste to použili."
+	}
+	"Must be dead"
+	{
+		"cze"		"Musíte být mrtvý, abyste hráli"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"cze"		"Multiplikátor = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"cze"		"Žádný aktivní jackpot"
+	}
+	"No active TeamBet"
+	{
+		"cze"		"Žádné týmové sázky ještě nebyly vloženy"
+	}
+	"No have flag"
+	{
+		"cze"		"Nemáte přístup k použití tohoto příkazu."
+	}
+	"No matching color"
+	{
+		"cze"		"Žádná shoda barev, použijte: r/červená, b/černá nebo g/zelená"
+	}
+	"No pick up - back to you"
+	{
+		"cze"		"Nikdo nezdvihl vaše spadlé kredity. Dostal(a) jste je zpět."
+	}
+	"No pick up - removed"
+	{
+		"cze"		"Nikdo nezdvihl vaše spadlé kredity. Kredity byly odstraněny."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Čas vypršel. Správná odpověď byla {1}."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Žádný jiný hráč nevybral peníze do jackpotu. Vracíme vám {1} {2}!"
+	}
+	"Not enough Credits"
+	{
+		"cze"		"Nemáte dostatek kreditů"
+	}
+	"Now run a giveaway"
+	{
+		"cze"		"Právě probíhá giveaway, zkuste to znovu za několik sekund."
+	}
+	"Only number"
+	{
+		"cze"		"Můžete zadat pouze čísla..."
+	}
+	"Override Disabled"
+	{
+		"cze"		"Váš skin nepodporuje klobouky. Vaše nasazená čepice bude deaktivována."
+	}
+	"Override Enabled"
+	{
+		"cze"		"Váš aktuální skin nepodporuje klobouky. Váš skin bude změněn."
+	}
+	"Owned"
+	{
+		"cze"		"[Vlastněno]"
+	}
+	"Package Gift"
+	{
+		"cze"		"Darujte tento balíček"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Prodejte tento balíček za {1}"
+	}
+	"Package Voucher"
+	{
+		"cze"		"Vytvořit voucher z balíčku"
+	}
+	"Parachute Empty"
+	{
+		"cze"		"Padák je prázdný"
+	}
+	"Parachute Reloaded"
+	{
+		"cze"		"Padák znovu naložen"
+	}
+	"Particles"
+	{
+		"cze"		"Částice:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Umístěte {1} {2}"
+	}
+	"Play Preview"
+	{
+		"cze"		"Přehrávám zvuk náhledu pro vás."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"cze"		"{1} má {2} kreditů."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"cze"		"{1} byl resetován."
+	}
+	"Player Skin module disabled"
+	{
+		"cze"		"Modul Store Player Skin je momentálně dočasně deaktivován."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"cze"		"{1} přidal {2} {3} do jackpotu, jeho aktuální šance na výhru je: {4}% (Jackpot: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"cze"		"{1} prohrál {2} {3} na {4}."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"cze"		"{1} otevřel jackpot s {2} {3}. Pro získání peněz proveďte výběr!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"cze"		"{1} vyhrál jackpot s {2} {3}!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"cze"		"{1} vyhrál {2} {3} na {4}."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"cze"		"{1} vyhrál {2} {3} s multiplikátorem x{4} na {5}."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"cze"		"Vaše nová nastavení budou použita při příštím spawnu."
+	}
+	"Press"
+	{
+		"cze"		"Stiskněte"
+	}
+	"Press to Start"
+	{
+		"cze"		"Stiskněte pro zahájení!"
+	}
+	"Press to Stop"
+	{
+		"cze"		"Stiskněte pro zastavení!"
+	}
+	"Preview Item"
+	{
+		"cze"		"Náhled této položky"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Cena: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"cze"		"Koupit voucher"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"cze"		"Kolik je {1} {2} {3}? | Odměna: {4} {5}"
+	}
+	"Red"
+	{
+		"cze"		"červená"
+	}
+	"Redeem Voucher"
+	{
+		"cze"		"Vyměnit voucher"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Opakujte {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"cze"		"Dosáhli jste maximálního počtu oživení, které můžete koupit v tomto kole."
+	}
+	"SQL Cooldown"
+	{
+		"cze"		"Z důvodu bezpečnosti nemůžete odesílat více žádostí během krátkého časového období."
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"cze"		"-------------- Návrhy v nabídce hledání obchodu --------------\n - Všechny související položky budou zde uvedeny\n - Váš aktuální hledaný výraz: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"cze"		"Druhý vítěz už není ve hře, poslední pokus najít nového vítěze."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Musíte počkat {1} sekundy, než se pokusíte použít tento příkaz znovu."
+	}
+	"Show bullet sparks"
+	{
+		"cze"		"Zobrazit iskry z kulek"
+	}
+	"Show bullet tracer"
+	{
+		"cze"		"Zobrazit stopu střel"
+	}
+	"Show gloves"
+	{
+		"cze"		"Zobrazit rukavice"
+	}
+	"Show paintball"
+	{
+		"cze"		"Zobrazit paintball"
+	}
+	"Show particles"
+	{
+		"cze"		"Zobrazit částice"
+	}
+	"Show pets"
+	{
+		"cze"		"Zobrazit domácí mazlíčky"
+	}
+	"Show trails"
+	{
+		"cze"		"Zobrazit stopy"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Nemůžete použít menší hodnotu než váš minimální hodnoty ({1})"
+	}
+	"Spacer"
+	{
+		"cze"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Ochrana proti spamu. Počkejte prosím {1} sekundy."
+	}
+	"Spawn Preview"
+	{
+		"cze"		"Vytvořil se náhled. Náhled zmizí za 45 sekund."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"cze"		"Vytvořil se náhled. Náhled zmizí za {1} sekund."
+	}
+	"Start again from begin"
+	{
+		"cze"		"Prosím, začněte znovu od začátku"
+	}
+	"Starting"
+	{
+		"cze"		"Začíná"
+	}
+	"Stay"
+	{
+		"cze"		"Stát"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"cze"		"Jste si jisti, že chcete resetovat své vybavení? Všechny položky budou zrušeny."
+	}
+	"Successfully purchased voucher"
+	{
+		"cze"		"Úspěšně jste zakoupili poukaz"
+	}
+	"TF Wrong Class"
+	{
+		"cze"		"Tento předmět měl být použit s jinou hráčskou třídou."
+	}
+	"Tail"
+	{
+		"cze"		"Zadní strana"
+	}
+	"TeamBet Already Placed"
+	{
+		"cze"		"Již jste umístili svou sázku na toto kolo."
+	}
+	"TeamBet Invalid Team"
+	{
+		"cze"		"Byl zadán neplatný identifikátor týmu."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Prohráli jste {1} {2} na sázce."
+	}
+	"TeamBet Period Over"
+	{
+		"cze"		"Období sázek pro tento kolo skončilo."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Úspěšně jste umístili sázku ve výši {1} kreditů."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Vaše sázka byla úspěšná. Vyhráli jste {1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"cze"		"Na druhý tým nebyla vsazena žádná sázka, takže jste dostali zpět své kredity."
+	}
+	"Terrorist"
+	{
+		"cze"		"Terrorista"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Vybrané číslo je: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Další číslo bylo: {1}"
+	}
+	"This is the preview text"
+	{
+		"cze"		"Toto je text náhledu."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Administrátor znovu načetl konfiguraci obchodu. Mapa bude znovu načtena za {1} sekund!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"cze"		"Menu pro vytváření voucherů pro položky (pouze pro administrátory).\n \nVyberte trvání položky."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"cze"		"Menu pro vytváření voucherů pro položky (pouze pro administrátory)"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Kredity: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"cze"		"Expiruje za {1}d {2}h"
+	}
+	"Title Gift"
+	{
+		"cze"		"Vyberte hráče, kterému chcete poslat dárek"
+	}
+	"Title Store"
+	{
+		"cze"		"Menu obchodu"
+	}
+	"To late chat input"
+	{
+		"cze"		"Váš textový vstup nebyl dokončen v daném čase"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Na zemi je příliš mnoho {1}, nemůžete nyní zahodit více!"
+	}
+	"Top Credits"
+	{
+		"cze"		"Top kredity"
+	}
+	"Top Credits Inv Worth"
+	{
+		"cze"		"Top kredity + hodnota inventáře"
+	}
+	"Top Inv Worth"
+	{
+		"cze"		"Top hodnota inventáře"
+	}
+	"Top Most Items"
+	{
+		"cze"		"Nejoblíbenější předměty"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Celkem: {1} {2}"
+	}
+	"Try again"
+	{
+		"cze"		"Zkus to znovu"
+	}
+	"Type in chat !bet"
+	{
+		"cze"		"Zadejte do chatu !bet <sázka> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"cze"		"Napiš do chatu !blackjack <sázka>"
+	}
+	"Type in chat !coinflip"
+	{
+		"cze"		"Zadejte do chatu !coinflip <sázka> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"cze"		"Napiš do chatu !crash <sázka>"
+	}
+	"Type in chat !crowns"
+	{
+		"cze"		"Zadejte do chatu !crowns <sázka>"
+	}
+	"Type in chat !dice"
+	{
+		"cze"		"Napište do chatu !dice <sázka> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"cze"		"Zadejte do chatu !jackpot <sázka>"
+	}
+	"Type in chat !roulette"
+	{
+		"cze"		"Zadejte do chatu !roulette <sázka> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"cze"		"Neomezeno - několik hráčů"
+	}
+	"Up"
+	{
+		"cze"		"Výše"
+	}
+	"Value less than 1"
+	{
+		"cze"		"Nemůžete použít hodnotu menší než 1."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"cze"		"{1} hlasitost nastavena na {2}"
+	}
+	"Voucher Code 17 chars"
+	{
+		"cze"		"Prozatím musí kód voucheru mít přesně 17 znaků"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Poukažka má hodnotu {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"cze"		"Voucher byl přijat"
+	}
+	"Voucher accepted Panel"
+	{
+		"cze"		"Voucher byl přijat"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"cze"		"Generujete {1} {2}omezený voucher{3} s hodnotou {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"cze"		"Vytváříte {1} {2}omezený voucher{3} s hodnotami {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Zadaný kód poukazu byl již uplatněn dne {1}"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Tento poukaz vyprší {1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Zadaný kód poukazu vypršel dne {1}"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"cze"		"Vytvořili jste nový voucher {1} s hodnotou {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"cze"		"Kód poukázky najdete také v chatu a konzoli"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Kód voucheru: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Zadaný kód poukazu '{1}' není platný!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"cze"		"Poukažka obsahuje {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"cze"		"Kód poukazu je platný"
+	}
+	"Vouchers"
+	{
+		"cze"		"Voucher"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Musíte počkat {1}, dokud nezačne další denní úkol."
+	}
+	"Wait until next daily 2"
+	{
+		"cze"		"Dnes už jste se přihlásili. Prosím vraťte se zítra."
+	}
+	"Win = "
+	{
+		"cze"		"Výhra = "
+	}
+	"Winner is not in game anymore"
+	{
+		"cze"		"Vítěz už není ve hře, pokoušíme se najít nového vítěze."
+	}
+	"Wrong voucher code format"
+	{
+		"cze"		"Kód poukazu má špatný formát. Musí být XXXXX-XXXXX-XXXXX"
+	}
+	"You"
+	{
+		"cze"		"TY"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"cze"		"Už jste si vybrali {1} {2} do jackpotu. Aktuální šance na výhru: {3}%% Jackpot: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"cze"		"Již vlastníte zadanou položku poukazu"
+	}
+	"You already redeemed Voucher"
+	{
+		"cze"		"Již jste uplatnili zadaný kód poukazu"
+	}
+	"You can start a new Jackpot"
+	{
+		"cze"		"Můžete zahájit nový jackpot"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Můžete zahájit nový jackpot za {1}."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Nemůžete utratit tolik kreditů (Max: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Sebrali jste {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"cze"		"Nemáte oprávnění k přístupu."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Udropili jste {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"cze"		"Nezískal jsi žádné body v tomto kole."
+	}
+	"You earned this round"
+	{
+		"cze"		"Získal jsi tento kolo:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Vydělal(a) jste {1} {2} za "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Vydělal(a) jste {1} {2} v tomto kole"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Obdržel jste {1} {2}."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Obdržel jste {1} {2}."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"cze"		"Obdržel(a) jste {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"cze"		"Obdržel(a) jste {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Musíte utratit alespoň {1} {2}."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Musíte utratit alespoň {1} {2}."
+	}
+	"You haven't opened the box in given time"
+	{
+		"cze"		"Neotevřeli jste krabici ve stanoveném čase. Krabice s kořistí je zpět ve vašem inventáři"
+	}
+	"You lose"
+	{
+		"cze"		"- prohrál jsi"
+	}
+	"You lost with"
+	{
+		"cze"		"Prohrál jsi s"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Ztratili jste {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"cze"		"Zvládl(a) jsi 'denní výzvu'! Zkuste ji porazit znovu!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Vyhrál(a) jste {1} {2}"
+	}
+	"You won"
+	{
+		"cze"		"!!! VYHRÁL JSI !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"cze"		"Vyhrál(a) jste {1} ({2})!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Vyhráli jste jackpot s {1} {2}!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"cze"		"Vyhráli jste jackpot s {1} {2} minus poplatek za kasino {3} {4} ({5}%)."
+	}
+	"You won with"
+	{
+		"cze"		"Vyhrál jsi s"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"cze"		"Vyhrál(a) jsi {1} kreditů s x{2}."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Zítra si vyděláte {1} {2}!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"cze"		"Vaše sázka: {1} {2} - Šance: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Vaše sázka: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"cze"		"Vaše aktuální šance na výhru se změnila na {1}%"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Získali jste {1} kreditů za zabití {2}."
+	}
+	"admin"
+	{
+		"cze"		"admin"
+	}
+	"and is limited"
+	{
+		"cze"		"a je omezený"
+	}
+	"and is unlimited"
+	{
+		"cze"		"a je neomezený"
+	}
+	"arms"
+	{
+		"cze"		"ruce"
+	}
+	"assist a kill"
+	{
+		"cze"		"asistence při zabití"
+	}
+	"attachment"
+	{
+		"cze"		"Příslušenství"
+	}
+	"backstab kill"
+	{
+		"cze"		"zabití nožem"
+	}
+	"be the MVP"
+	{
+		"cze"		"buď MVP"
+	}
+	"bet x"
+	{
+		"cze"		"vsadit x"
+	}
+	"blackjack"
+	{
+		"cze"		"Blackjack"
+	}
+	"bomb defused"
+	{
+		"cze"		"bomba deaktivována"
+	}
+	"bomb explode"
+	{
+		"cze"		"bomba vybuchne"
+	}
+	"bomb planted"
+	{
+		"cze"		"bomba nasazena"
+	}
+	"bombtweak"
+	{
+		"cze"		"Úprava bomby"
+	}
+	"bullet_impact"
+	{
+		"cze"		"Úder kulky"
+	}
+	"bulletsparks"
+	{
+		"cze"		"Jiskry z kulek"
+	}
+	"bunnyhob"
+	{
+		"cze"		"Králíčí skok"
+	}
+	"bunnyhop"
+	{
+		"cze"		"schopnost"
+	}
+	"casino"
+	{
+		"cze"		"Kasino"
+	}
+	"coinflip"
+	{
+		"cze"		"Hod mincí"
+	}
+	"command"
+	{
+		"cze"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Chcete obnovit konfiguraci?\nMapa bude znovu načtena za {1} sekund!"
+	}
+	"confirm_reload_type_1"
+	{
+		"cze"		"Chcete obnovit konfiguraci?\nMusíte změnit mapu, aby se projevily změny, jinak mohou nastat chyby."
+	}
+	"connect"
+	{
+		"cze"		"Zpráva o připojení"
+	}
+	"crash"
+	{
+		"cze"		"Crash"
+	}
+	"creditstoplist"
+	{
+		"cze"		"kredity"
+	}
+	"crowns"
+	{
+		"cze"		"Slot pro koruny"
+	}
+	"daily"
+	{
+		"cze"		"Denní bonus"
+	}
+	"decoy grenade kill"
+	{
+		"cze"		"zabití dekoy granátem"
+	}
+	"dice"
+	{
+		"cze"		"Kostka"
+	}
+	"direction"
+	{
+		"cze"		"Směr"
+	}
+	"discount"
+	{
+		"cze"		"SLEVA"
+	}
+	"distance"
+	{
+		"cze"		"Vzdálenost"
+	}
+	"dmgtext"
+	{
+		"cze"		"Malíř"
+	}
+	"emote"
+	{
+		"cze"		"Emote"
+	}
+	"escape as VIP"
+	{
+		"cze"		"Uteč jako VIP"
+	}
+	"flashbang kill"
+	{
+		"cze"		"zabití flashbangem"
+	}
+	"flashlight"
+	{
+		"cze"		"Světlo"
+	}
+	"froggyjump"
+	{
+		"cze"		"Žabí skok"
+	}
+	"gloves"
+	{
+		"cze"		"rukavice"
+	}
+	"glow"
+	{
+		"cze"		"záření"
+	}
+	"godmode"
+	{
+		"cze"		"godmode"
+	}
+	"gravity"
+	{
+		"cze"		"schopnost"
+	}
+	"grenademodel"
+	{
+		"cze"		"Model granáty"
+	}
+	"grenadeskin"
+	{
+		"cze"		"skin granátu"
+	}
+	"grenadetrail"
+	{
+		"cze"		"stopa granátu"
+	}
+	"hat"
+	{
+		"cze"		"klobouk"
+	}
+	"headshot"
+	{
+		"cze"		"headshot"
+	}
+	"health"
+	{
+		"cze"		"balíček"
+	}
+	"high or low"
+	{
+		"cze"		"Vyšší nebo nižší"
+	}
+	"hiteff"
+	{
+		"cze"		"efekt zásahu:"
+	}
+	"hitsound"
+	{
+		"cze"		"Zvuk zásahu"
+	}
+	"hostage rescued"
+	{
+		"cze"		"zachráněný rukojmí"
+	}
+	"hunterjump"
+	{
+		"cze"		"Skok lovce"
+	}
+	"idle on the server"
+	{
+		"cze"		"nečinný na serveru"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"cze"		"v {1}."
+	}
+	"infinityammo"
+	{
+		"cze"		"Nekonečné náboje"
+	}
+	"info"
+	{
+		"cze"		"Panel informací"
+	}
+	"instabomb"
+	{
+		"cze"		"Okamžitá výsadba / deaktivace"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"cze"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"cze"		"schopnost"
+	}
+	"items"
+	{
+		"cze"		"Předměty"
+	}
+	"jackpot"
+	{
+		"cze"		"Jackpot"
+	}
+	"jetpack"
+	{
+		"cze"		"raketa"
+	}
+	"jihad"
+	{
+		"cze"		"bomba"
+	}
+	"kill"
+	{
+		"cze"		"zabít"
+	}
+	"kill the VIP"
+	{
+		"cze"		"zabít VIP"
+	}
+	"kill yourself"
+	{
+		"cze"		"zabij se"
+	}
+	"killeff"
+	{
+		"cze"		"efekt zabití:"
+	}
+	"knife"
+	{
+		"cze"		"nůž"
+	}
+	"knife kill"
+	{
+		"cze"		"zabití nožem"
+	}
+	"laserdraw"
+	{
+		"cze"		"laser draw:"
+	}
+	"laserpointer"
+	{
+		"cze"		"Laserové ukazovátko"
+	}
+	"lasersight"
+	{
+		"cze"		"laserové zaměření"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"cze"		"poslední aktualizace před {1}"
+	}
+	"light"
+	{
+		"cze"		"Světlo"
+	}
+	"lootbox"
+	{
+		"cze"		"Krabice s kořistí"
+	}
+	"mirror"
+	{
+		"cze"		"zrcadlo"
+	}
+	"molotov kill"
+	{
+		"cze"		"zabití molotovem"
+	}
+	"msgcolor"
+	{
+		"cze"		"barva zprávy"
+	}
+	"mvp_sound"
+	{
+		"cze"		"Anthem MVP"
+	}
+	"namecolor"
+	{
+		"cze"		"barva jména"
+	}
+	"nametag"
+	{
+		"cze"		"jmenovka"
+	}
+	"nearest"
+	{
+		"cze"		"Nejbližší"
+	}
+	"nodiscount"
+	{
+		"cze"		" "
+	}
+	"noduckdelay"
+	{
+		"cze"		"Žádné zpoždění při dřepu"
+	}
+	"nofalldamage"
+	{
+		"cze"		"Žádné poškození pádem"
+	}
+	"noreload"
+	{
+		"cze"		"Bez přebíjení"
+	}
+	"noscope kill"
+	{
+		"cze"		"zabít bez zamíření"
+	}
+	"noselfdamage"
+	{
+		"cze"		"Žádné poškození sebe"
+	}
+	"or use buttons below"
+	{
+		"cze"		"nebo použijte tlačítka níže"
+	}
+	"package"
+	{
+		"cze"		"balíček"
+	}
+	"paintball"
+	{
+		"cze"		"kulky"
+	}
+	"painter"
+	{
+		"cze"		"Malíř"
+	}
+	"parachute"
+	{
+		"cze"		"Padák"
+	}
+	"particle"
+	{
+		"cze"		"Částice"
+	}
+	"pet"
+	{
+		"cze"		"domácí zvíře"
+	}
+	"playerskin"
+	{
+		"cze"		"skin hráče"
+	}
+	"playing on the server"
+	{
+		"cze"		"hra na serveru"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"cze"		"hrál(a) jste na našem serveru {1} dní v řadě"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Obdržíte {1} při příštím zrození"
+	}
+	"respawn"
+	{
+		"cze"		"Obnovení"
+	}
+	"roulette"
+	{
+		"cze"		"Ruleta"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Dosáhl/a jste maximálního počtu použití zvuků pro mapu. {1} maximálních použití na mapu"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Dosáhl/a jste maximálního počtu použití zvuků na kolo. {1} maximální použití na kolo"
+	}
+	"saysound"
+	{
+		"cze"		"řekni zvuk"
+	}
+	"scoreboardtag"
+	{
+		"cze"		"Tag na tabuli skóre"
+	}
+	"smokegrenade kill"
+	{
+		"cze"		"zabití dýmovnicí"
+	}
+	"sound"
+	{
+		"cze"		"zvuk"
+	}
+	"spawn"
+	{
+		"cze"		"Extra respawn"
+	}
+	"spawneff"
+	{
+		"cze"		"efekt spawnu:"
+	}
+	"speed"
+	{
+		"cze"		"schopnost"
+	}
+	"spray"
+	{
+		"cze"		"sprej"
+	}
+	"start daily challange"
+	{
+		"cze"		"Začněte 'denní výzvu'. Hrajte následujících 6 dní, abyste získali plnou odměnu"
+	}
+	"taser kill"
+	{
+		"cze"		"zabití taserem"
+	}
+	"teambet"
+	{
+		"cze"		"Týmová sázka"
+	}
+	"teamkill"
+	{
+		"cze"		"zabití spoluhráče"
+	}
+	"tfhat"
+	{
+		"cze"		"klobouk budovy"
+	}
+	"tfhatdye"
+	{
+		"cze"		"barvení klobouku"
+	}
+	"tfhead"
+	{
+		"cze"		"velikost hlavy"
+	}
+	"tfunusual"
+	{
+		"cze"		"efekt klobouku"
+	}
+	"tfweapon"
+	{
+		"cze"		"vlastní zbraň"
+	}
+	"tfweaponsize"
+	{
+		"cze"		"velikost zbraně"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Výhra bude vylosována za {1} sekund"
+	}
+	"thirdperson"
+	{
+		"cze"		"třetí osoba"
+	}
+	"throwknife"
+	{
+		"cze"		"Hodit nůž"
+	}
+	"toplists"
+	{
+		"cze"		"Seznamy top"
+	}
+	"tracer"
+	{
+		"cze"		"trasér"
+	}
+	"trail"
+	{
+		"cze"		"stopa"
+	}
+	"wasted"
+	{
+		"cze"		"ztracený"
+	}
+	"watergun"
+	{
+		"cze"		"efekt"
+	}
+	"weapon"
+	{
+		"cze"		"zbraň"
+	}
+	"weaponcolor"
+	{
+		"cze"		"barva zbraně"
+	}
+	"weaponmodel"
+	{
+		"cze"		"Model zbraně"
+	}
+	"weaponskin"
+	{
+		"cze"		"kůže zbraně"
+	}
+	"win the round"
+	{
+		"cze"		"vyhrajte kolo"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"cze"		"{1} {2} za '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"cze"		"{1} hodin {2} minut a {3} sekund"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"cze"		"{1} hodina(y) {2} minuta(y) a {3} sekunda(y)"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"cze"		"{1} minut a {2} sekund"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"cze"		"{1} minuta(y) a {2} sekunda(y)"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"cze"		"{1} sekund"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"cze"		"{1} sekunda(y)"
+	}
+	"zrclass"
+	{
+		"cze"		"třída hráče"
+	}
+}

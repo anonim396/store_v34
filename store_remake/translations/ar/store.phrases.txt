@@ -1,0 +1,2282 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"ar"		"{1}21 !!! بلاك جاك !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"ar"		"لقد قمت بإعادة تحميل التكوين بالفعل. يرجى تغيير الخريطة أو إعادة تحميلها."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"جميع اللاعبين المشاركين يتصلون مرة أخرى، لا أحد يحصل على {2} الخاص به مرة أخرى، ههه. كان الجاكبوت {1} {2}!"
+	}
+	"All valid voucher"
+	{
+		"ar"		"جميع القسائم المولدة والصالحة هي:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ar"		"لقد فزت ولكنك تمتلك بالفعل {1} ({2}). تم بيع العنصر مقابل {3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ar"		"أنت تمتلك بالفعل {1} ({2}). تم إرجاع {3} {4} إليك"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"ar"		"الكمية: {1}"
+	}
+	"Aura"
+	{
+		"ar"		"الهالة:"
+	}
+	"Back"
+	{
+		"ar"		"رجوع"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"ar"		"الرهان * المتعدد = فوزك"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"ar"		"رصيد المكافآت: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"رابح CT: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"ar"		"الحد الأقصى للرهانات ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"ar"		"الحد الأدنى للرهانات ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ar"		"الرهانات العشوائية ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"رابح T: {1} {2}"
+	}
+	"Bet on"
+	{
+		"ar"		"راهن على"
+	}
+	"Bet on a Head/Tail"
+	{
+		"ar"		"رهان على رأس/ذيل"
+	}
+	"Bet on a color"
+	{
+		"ar"		"رهان على لون وإذا تم اختيار هذا اللون تفوز!"
+	}
+	"Bet on a number"
+	{
+		"ar"		"رهان على منخفض (#1-3) على مرتفع (#4-6) أو رقم دقيق. إذا تم اختيارك بالفاتورة تفوز!"
+	}
+	"Bet on a team"
+	{
+		"ar"		"رهان على فريق وإذا فاز الفريق في الجولة فستفوز!"
+	}
+	"Betting Already Placed"
+	{
+		"ar"		"لقد وضعت رهانك بالفعل لهذه الجولة."
+	}
+	"Betting Invalid Team"
+	{
+		"ar"		"تم تحديد معرف فريق غير صالح."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"ar"		"لقد خسرت {1} من الائتمانات في الرهان."
+	}
+	"Betting Period Over"
+	{
+		"ar"		"لقد انتهى فترة الرهان لهذه الجولة."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"ar"		"لقد وضعت رهانًا بمقدار {1} من الائتمانات بنجاح."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"ar"		"كانت رهاناتك ناجحة. فزت بـ {1} من الائتمانات."
+	}
+	"Black"
+	{
+		"ar"		"أسود"
+	}
+	"Blackjack Info 1"
+	{
+		"ar"		"بلاك جاك هو لعبة حيث يجب أن تكون قيمة البطاقة في يدك أعلى من الموزع دون تجاوز 21"
+	}
+	"Blackjack Info 2"
+	{
+		"ar"		"قواعد العد:\n- يمكن اعتبار بطاقة \"A\" كـ 1/11. إذا تجاوزت قيمة اليد 21 يجب اعتبار هذه البطاقة كـ 1."
+	}
+	"Blackjack Info 3"
+	{
+		"ar"		"- \"10،J،Q،K\": يتم احتسابها على أنها 10.\n- 2-9 يتم احتسابها وفقًا للقيمة الظاهرة."
+	}
+	"Blackjack Info 4"
+	{
+		"ar"		"- يجب أن تكون قيمة يدك أقرب إلى 21 دون أن تتجاوزها وأن تكون أعلى من يد الموزع للفوز باللعبة.\n- \"A\" + بطاقة بقيمة 10 = بلاك جاك. هذه فوز فوري."
+	}
+	"Buy"
+	{
+		"ar"		"اشترِ العنصر"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"ar"		"شراء العنصر ({1})"
+	}
+	"CP Changed color"
+	{
+		"ar"		"لقد غيرت لونك إلى: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"ar"		"خيار لون الشعار في الدردشة"
+	}
+	"CP Disable Color - Menu"
+	{
+		"ar"		"تعطيل اللون"
+	}
+	"CP Disabled Color"
+	{
+		"ar"		"تم تعطيل لون الشعار المخصص."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"ar"		"لا يوجد لديك أي علامة اسم مثبتة"
+	}
+	"CP No file found"
+	{
+		"ar"		"تم تعطيل لون الشعار المخصص للمستخدم. يرجى الاتصال بالمسؤول للحصول على المزيد من الدعم."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ar"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"ar"		"عرض معاينة علامة اللوحة، من فضلك اضغط على زر TAB."
+	}
+	"Cancel"
+	{
+		"ar"		"إلغاء"
+	}
+	"Cant be bought"
+	{
+		"ar"		"لا يمكن شراء هذا العنصر"
+	}
+	"Cash out"
+	{
+		"ar"		"سحب"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"تغيير رهاناتك: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ar"		"لقد اشتريت {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ar"		"{1} أرسل لك {2} {3} كهدية."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ar"		"لقد أرسلت إلى {1} {2} {3} كهدية."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ar"		"لقد بعت {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"ar"		"لقد فتحت حاوية ووجدت {1} اعتمادات!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ar"		"{1} فتح حاوية ووجد {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ar"		"{1} فتح حاوية ووجد {2} ({3})!"
+	}
+	"Check All Voucher"
+	{
+		"ar"		"تحقق من جميع القسائم الصالحة والمتاحة (فقط للمسؤولين)"
+	}
+	"Check Voucher"
+	{
+		"ar"		"التحقق من القسيمة"
+	}
+	"Check Your valid Voucher"
+	{
+		"ar"		"تحقق من القسيمة الصالحة المتاحة التي تم إنشاؤها"
+	}
+	"Choose Number (1:6)"
+	{
+		"ar"		"اختر رقم (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"ar"		"السحب التلقائي:"
+	}
+	"Client Loadout Reset"
+	{
+		"ar"		"تم إعادة تحميل معدّاتك."
+	}
+	"Client valid voucher"
+	{
+		"ar"		"القسيمة التي تم إنشاؤها والصالحة هي:\n "
+	}
+	"Close"
+	{
+		"ar"		"إغلاق"
+	}
+	"ColoredSmoke"
+	{
+		"ar"		"دخان ملون"
+	}
+	"Command is in-game only"
+	{
+		"ar"		"يجب أن تكون على قيد الحياة لاستخدام هذا الأمر."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"ar"		"تم إعادة تحميل التكوين. يرجى إعادة التشغيل أو تغيير الخريطة."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ar"		"هل أنت متأكد أنك تريد شراء {1} {2}؟"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"ar"		"هل أنت متأكد أنك تريد إهداء {1} {2} لـ {3}؟"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ar"		"هل أنت متأكد أنك تريد إسقاط {1} {2} كهدية؟"
+	}
+	"Confirm_No"
+	{
+		"ar"		"لا"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"ar"		"هل أنت متأكد أنك تريد بيع {1} {2} مقابل {3}؟"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ar"		"هل أنت متأكد أنك تريد تحويل {1} ({2}) إلى قسيمة؟\nتحذير: إذا انتهت صلاحية العنصر في القسيمة قبل الاسترداد.\nستنتهي صلاحية هذا القسيمة."
+	}
+	"Confirm_Yes"
+	{
+		"ar"		"نعم"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ar"		"{1} حصل على الإجابة الصحيحة وفاز بـ {2} {3}!"
+	}
+	"Counter-Terrorist"
+	{
+		"ar"		"مكافحة الإرهاب"
+	}
+	"Crash Already Start"
+	{
+		"ar"		"لعبة Crash جارية حاليًا. يرجى الانتظار حتى اللعبة التالية."
+	}
+	"Crash Auto Off"
+	{
+		"ar"		"إيقاف"
+	}
+	"Crash Auto Off Panel"
+	{
+		"ar"		"إيقاف السحب التلقائي"
+	}
+	"Crash Auto On"
+	{
+		"ar"		"تشغيل"
+	}
+	"Crash Auto On Panel"
+	{
+		"ar"		"تشغيل السحب التلقائي"
+	}
+	"Crash Info 1"
+	{
+		"ar"		"           ما هو/كيف تلعب: كراش"
+	}
+	"Crash Info 2"
+	{
+		"ar"		"- Crash هو اللعبة التي يمكن للاعبين المراهنة فيها على المضاعف، هذا المضاعف مرتبط بمنحنى متزايد يمكن أن يتوقف في أي لحظة."
+	}
+	"Crash Info 3"
+	{
+		"ar"		"- يبدأ المضاعف من 1.00x ويمكنك سحب الأموال في أي وقت."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"ar"		"- الحد الأدنى لقيمة الرهان هو {1} {2}. الحد الأقصى لقيمة الرهان هو {3} {4}. قد تتغير هذه الحدود مع مرور الوقت."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"ar"		"إدخال غير صحيح (يجب أن يكون {1} أو أكثر)."
+	}
+	"Crash auto input"
+	{
+		"ar"		"اكتب قيمة السحب التلقائي في الدردشة"
+	}
+	"Crash auto input set"
+	{
+		"ar"		"إعداد السحب التلقائي للانهيار"
+	}
+	"Crash set auto"
+	{
+		"ar"		"حدد قيمة السحب التلقائي"
+	}
+	"Crash!"
+	{
+		"ar"		"تحطم!"
+	}
+	"Create Item Voucher"
+	{
+		"ar"		"إنشاء قسيمة عناصر (للمسؤولين فقط)"
+	}
+	"Create Voucher"
+	{
+		"ar"		"إنشاء قسيمة"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"ar"		"فشل إنشاء القسيمة - تواصل مع المشرف مع الطابع الزمني التالي: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"ar"		"إهداء الرصيد معطل على هذا الخادم."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"ar"		"لقد أسقطت {1} رصيدًا كهدية."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ar"		"{2} أرسل لك {1} رصيدًا."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ar"		"لقد أرسلت {1} رصيدًا إلى {2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"ar"		"ليس لديك أرصدة كافية لإنشاء هدية."
+	}
+	"Credit Invalid Amount"
+	{
+		"ar"		"مقدار غير صالح من الرصيد تم إدخاله."
+	}
+	"Credit No Match"
+	{
+		"ar"		"لم يتم العثور على أي لاعب."
+	}
+	"Credit Not Enough"
+	{
+		"ar"		"ليس لديك رصيد كافٍ لشراء هذا."
+	}
+	"Credit Too Many Matches"
+	{
+		"ar"		"تم العثور على أكثر من عميل واحد."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"ar"		"ليس لديك رصيد كافٍ لإنشاء القسيمة."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ar"		"لقد حصلت على {1} من الاعتمادات لقتل {2}."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"ar"		"لقد حصلت على {1} من الاعتمادات للعب على الخادم."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"ar"		"تم منح {1} {2} من الائتمانات."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ar"		"الائتمان: {1}          الوعاء: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"ar"		"معطل"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"ar"		"مفعل"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"ar"		"[صوت السلاح المخصص]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"ar"		"قائمة تحكم حجم صوت السلاح المخصص"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"ar"		"الصوت: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"ar"		"صوت السلاح المخصص: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"ar"		"صوت السلاح المخصص معطل."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"ar"		"صوت السلاح المخصص مفعل."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"ar"		"صوت السلاح المخصص مفعل. الصوت: {1}"
+	}
+	"CustomModel"
+	{
+		"ar"		"نموذج السلاح المخصص:"
+	}
+	"Damage the crate to open"
+	{
+		"ar"		"اضرر الصندوق لفتحه!"
+	}
+	"Dead heat"
+	{
+		"ar"		"- تعادل -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ar"		"             تاجر     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"ar"		"تاجر"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"ar"		"التخفيض: '{1}' مفعل! تسوق سعيد!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"ar"		"التخفيض: '{1}' قد انتهى."
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"ar"		"التخفيض: '{1}' قد بدأ! تسوق سعيد!"
+	}
+	"Double"
+	{
+		"ar"		"مضاعفة"
+	}
+	"Down"
+	{
+		"ar"		"أسفل"
+	}
+	"Down2"
+	{
+		"ar"		"                      5 = أسفل"
+	}
+	"Drop Gift"
+	{
+		"ar"		"إسقاط كهدية"
+	}
+	"Edit Amount"
+	{
+		"ar"		"تحرير الكمية: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"ar"		"يرجى إدخال وقت انتهاء الصلاحية (بالثواني) للعنصر في الدردشة!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"ar"		"تنسيق الرقم غير صالح. يرجى المحاولة مرة أخرى."
+	}
+	"Enter custom amount"
+	{
+		"ar"		"يرجى إدخال المبلغ المخصص في الدردشة!"
+	}
+	"Enter maximum value"
+	{
+		"ar"		"يرجى إدخال الحد الأقصى لقيمة الرصيد في الدردشة!"
+	}
+	"Enter minimum value"
+	{
+		"ar"		"يرجى إدخال الحد الأدنى لقيمة الائتمانات في الدردشة!"
+	}
+	"Enter number of vouchers"
+	{
+		"ar"		"يرجى إدخال عدد القسائم التي تريد إنشاؤها في الدردشة!"
+	}
+	"Enter value of vouchers"
+	{
+		"ar"		"يرجى إدخال قيمة القسيمة للشراء في الدردشة!"
+	}
+	"Enter voucher code"
+	{
+		"ar"		"يرجى إدخال رمز القسيمة الخاص بك في الدردشة!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"ar"		"حدث خطأ أثناء استرجاع السعر. يرجى الاتصال بالمسؤول"
+	}
+	"Exact #x  = "
+	{
+		"ar"		"دقيق #x = "
+	}
+	"Exit"
+	{
+		"ar"		"خروج"
+	}
+	"Gained"
+	{
+		"ar"		"مكتسب"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ar"		"مكتسب: {1} {2}"
+	}
+	"Game Info"
+	{
+		"ar"		"معلومات اللعبة"
+	}
+	"Game in progress"
+	{
+		"ar"		"لعبتك الحالية قيد التقدم. يرجى الانتظار حتى تنتهي"
+	}
+	"Get three on a kind"
+	{
+		"ar"		"احصل على ثلاثة من نفس النوع"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"ar"		"لقد التقطت {1} من الائتمانات."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ar"		"لقد التقطت {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"ar"		"لا يوجد أحد يمكنك تقديم هذه العناصر له."
+	}
+	"Gift Player Left"
+	{
+		"ar"		"اللاعب المحدد قد غادر اللعبة بالفعل."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ar"		"{1} لإجراء هدية يجب أن يحتوي الخادم على {2} لاعبين على الأقل."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ar"		"المشرف {1} فتح مسابقة مع <font color='#15fb00'>{2} نقاط"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"ar"		"|| السحب يبدأ في {1} ثانية ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"ar"		"{1} {2} فاز في مسابقة مع {3} رصيد"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ar"		"{1}\n|| الفائز: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"ar"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"ar"		"لقد وصلت إلى الحد الأقصى من أوضاع الإله التي يمكنك شراؤها في هذه الجولة."
+	}
+	"Godmode Wrong Team"
+	{
+		"ar"		"لا يمكنك استخدام أوضاع الإله في هذا الفريق."
+	}
+	"Green"
+	{
+		"ar"		"أخضر"
+	}
+	"HE grenade kill"
+	{
+		"ar"		"قتل قنبلة HE"
+	}
+	"HUD"
+	{
+		"ar"		"HUD"
+	}
+	"Head"
+	{
+		"ar"		"رأس"
+	}
+	"Health Round Limit"
+	{
+		"ar"		"لقد وصلت إلى الحد الأقصى من حزم الصحة التي يمكنك شراؤها في هذه الجولة."
+	}
+	"Help_Back"
+	{
+		"ar"		"عودة"
+	}
+	"Help_Exit"
+	{
+		"ar"		"خروج"
+	}
+	"Hide bullet sparks"
+	{
+		"ar"		"إخفاء شرارات الرصاص"
+	}
+	"Hide bullet tracer"
+	{
+		"ar"		"إخفاء مسارات الرصاصة"
+	}
+	"Hide gloves"
+	{
+		"ar"		"إخفاء القفازات"
+	}
+	"Hide paintball"
+	{
+		"ar"		"إخفاء كرات الطلاء"
+	}
+	"Hide particles"
+	{
+		"ar"		"إخفاء الجسيمات"
+	}
+	"Hide pets"
+	{
+		"ar"		"إخفاء الحيوانات الأليفة"
+	}
+	"Hide trails"
+	{
+		"ar"		"إخفاء المسارات"
+	}
+	"High #4-6"
+	{
+		"ar"		"عالي #4-6"
+	}
+	"High #4-6 = "
+	{
+		"ar"		"مرتفع #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"ar"		"عالي - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"ar"		"أعلى"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"ar"		"الرقم المختار هو: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"ar"		"الرقم التالي كان: {1}"
+	}
+	"Hit"
+	{
+		"ar"		"ضربة"
+	}
+	"Hol Info 1"
+	{
+		"ar"		"تم اختيار رقم بين {1} و {2} لتخمين ما إذا كان الرقم التالي سيكون أعلى أو أقل من الرقم المختار."
+	}
+	"Hol Info 2"
+	{
+		"ar"		"إذا اخترت الجيد، ستربح مرتين رهانك."
+	}
+	"Hol Info 3"
+	{
+		"ar"		"يوجد توقف لمدة {1} ثانية بين كل لعبة."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لقد وضعت {1} {2} بنجاح."
+	}
+	"Inventory"
+	{
+		"ar"		"المخزون"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"ar"		"يرجى الانتظار. لم يتم تحميل مخزونك بعد."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ar"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"ar"		"{1}"
+	}
+	"Item Equip"
+	{
+		"ar"		"تجهيز هذه العنصر"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"ar"		"{1} [مجهز]"
+	}
+	"Item Gift"
+	{
+		"ar"		"اهدِ هذا العنصر"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"ar"		"{1} (اختر خطة)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"ar"		"بيع مقابل {1}"
+	}
+	"Item Unequip"
+	{
+		"ar"		"إلغاء تجهيز"
+	}
+	"Item Use"
+	{
+		"ar"		"استخدم هذا العنصر"
+	}
+	"Item Voucher"
+	{
+		"ar"		"إنشاء قسيمة من العنصر"
+	}
+	"Item Voucher disabled"
+	{
+		"ar"		"إنشاء القسيمة للعنصر معطل حاليا."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ar"		"لقد قمت بتحويل {1} ({2}) إلى قسيمة {3}."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"ar"		"{1} مخفي. لن تراهم بعد الآن."
+	}
+	"Item not found"
+	{
+		"ar"		"العنصر غير موجود"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"ar"		"{1} مرئي مرة أخرى."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"ar"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"ar"		"تم إيقاف الجاكبوت."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"جاكبوت: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"ar"		"حقيبة النفاثة فارغة"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"ar"		"[Jetpack] الوقود: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"ar"		"تم إعادة تحميل حقيبة النفاثة"
+	}
+	"Jihad Failed"
+	{
+		"ar"		"فشلت قنبلة في الانفجار."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"ar"		"فشل قنبلة الجهاد {1} في الانفجار."
+	}
+	"Jihad Wrong Team"
+	{
+		"ar"		"لا يمكنك استخدام القنبلة في هذا الفريق."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"ar"		"{1} دقيقة(دقائق) قبل بدء التحطم."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"ar"		"{1} ثانية(ثواني) قبل بدء التحطم."
+	}
+	"LevelIcon"
+	{
+		"ar"		"رمز المستوى"
+	}
+	"Limited"
+	{
+		"ar"		"محدود - لاعب واحد"
+	}
+	"Lootbox case is opening"
+	{
+		"ar"		"يرجى الانتظار حتى يتم فتح حالتك السابقة"
+	}
+	"Lootbox map ended"
+	{
+		"ar"		"انتهت الخريطة. يرجى الانتظار حتى الخريطة التالية"
+	}
+	"Lootbox round ended"
+	{
+		"ar"		"المرحلة انتهت. يرجى الانتظار حتى الجولة التالية"
+	}
+	"Lootbox warm up"
+	{
+		"ar"		"لا يمكنك الفتح في مرحلة الإحماء"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"ar"		"لقد فقدت تسلسلك اليومي لـ {1} يومًا."
+	}
+	"Lost bet"
+	{
+		"ar"		"فشل! لقد خسرت رهانك"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"ar"		"لقد خسرت رهانك لأن الرقم التالي كان: {1}"
+	}
+	"Low #1-3"
+	{
+		"ar"		"منخفض #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"ar"		"منخفض #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"ar"		"منخفض - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"ar"		"أقل"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"ar"		"نحتاج إلى {1} لاعب (لاعبين) على الأقل"
+	}
+	"Must be Alive"
+	{
+		"ar"		"يجب أن تكون على قيد الحياة لاستخدام هذا."
+	}
+	"Must be dead"
+	{
+		"ar"		"يجب أن تكون ميتًا للعب"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"ar"		"المضاعف = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"ar"		"لا يوجد جائزة نشطة"
+	}
+	"No active TeamBet"
+	{
+		"ar"		"لم يتم وضع أي رهانات على الفريق بعد"
+	}
+	"No have flag"
+	{
+		"ar"		"ليس لديك صلاحية لاستخدام هذا الأمر."
+	}
+	"No matching color"
+	{
+		"ar"		"لا يوجد لون مطابق، استخدم: r/أحمر، b/أسود أو g/أخضر"
+	}
+	"No pick up - back to you"
+	{
+		"ar"		"لم يلتقط أحد الائتمان الذي سقط منك. لقد استعدته."
+	}
+	"No pick up - removed"
+	{
+		"ar"		"لم يلتقط أحد الائتمان الذي سقط منك. تم إزالة الائتمانات."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"ar"		"انتهى الوقت. الإجابة الصحيحة كانت {1}."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لم يقم أي شخص آخر بسحب الأموال إلى الجاكبوت. ستحصل على {1} {2} مرة أخرى!"
+	}
+	"Not enough Credits"
+	{
+		"ar"		"ليس لديك أرصدة كافية"
+	}
+	"Now run a giveaway"
+	{
+		"ar"		"الآن جاري إجراء هدية، حاول مرة أخرى بعد بضع ثوان."
+	}
+	"Only number"
+	{
+		"ar"		"يمكنك كتابة الأرقام فقط..."
+	}
+	"Override Disabled"
+	{
+		"ar"		"جلدك لا يدعم القبعات. سيتم تعطيل القبعة التي تم تجهيزها."
+	}
+	"Override Enabled"
+	{
+		"ar"		"الجلد الحالي الخاص بك لا يدعم القبعات. سيتم تغيير جلدك."
+	}
+	"Owned"
+	{
+		"ar"		"[مملوك]"
+	}
+	"Package Gift"
+	{
+		"ar"		"اهدِ هذه الحزمة"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"ar"		"بيع هذه الحزمة مقابل {1}"
+	}
+	"Package Voucher"
+	{
+		"ar"		"إنشاء القسيمة من الحزمة"
+	}
+	"Parachute Empty"
+	{
+		"ar"		"مظلة فارغة"
+	}
+	"Parachute Reloaded"
+	{
+		"ar"		"مظلة معاد تحميلها"
+	}
+	"Particles"
+	{
+		"ar"		"الجسيمات:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"ضع {1} {2}"
+	}
+	"Play Preview"
+	{
+		"ar"		"تشغيل صوت المعاينة لك."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ar"		"{1} لديه {2} من الاعتمادات."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"ar"		"{1} تم إعادة تعيينه."
+	}
+	"Player Skin module disabled"
+	{
+		"ar"		"وحدة مظهر اللاعب في المتجر معطلة حاليًا بشكل مؤقت."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"ar"		"قام {1} بإضافة {2} {3} إلى الجائزة الكبرى، وفرصته الحالية في الفوز هي: {4}% (الجائزة الكبرى: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ar"		"{1} خسر {2} {3} في {4}."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ar"		"لقد فتح {1} جائزة كبرى مع {2} {3}. قم بسحب النقود لانتزاع هذا المال!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ar"		"فاز {1} بالجائزة الكبرى مع {2} {3}!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ar"		"{1} فاز بـ {2} {3} في {4}."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"ar"		"{1} فاز ب {2} {3} مع مضاعف قدره x{4} في {5}."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"ar"		"سيتم تطبيق الإعدادات الجديدة في المرة التالية التي تقوم فيها بالظهور."
+	}
+	"Press"
+	{
+		"ar"		"اضغط"
+	}
+	"Press to Start"
+	{
+		"ar"		"اضغط للبدء!"
+	}
+	"Press to Stop"
+	{
+		"ar"		"اضغط للتوقف!"
+	}
+	"Preview Item"
+	{
+		"ar"		"معاينة هذا العنصر"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"ar"		"السعر: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"ar"		"شراء قسيمة"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"ar"		"كم هو {1} {2} {3}? | الجائزة: {4} {5}"
+	}
+	"Red"
+	{
+		"ar"		"أحمر"
+	}
+	"Redeem Voucher"
+	{
+		"ar"		"استبدال القسيمة"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"أعد تشغيل {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"ar"		"لقد وصلت إلى الحد الأقصى لعدد الإحياء الذي يمكنك شراؤه في هذه الجولة."
+	}
+	"SQL Cooldown"
+	{
+		"ar"		"لأسباب أمنية لا يمكنك إرسال طلبات متعددة في فترة قصيرة."
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"ar"		"-------------- اقتراحات قائمة البحث في المتجر --------------\n -سيتم سرد جميع العناصر ذات الصلة هنا\n - السلسلة التي تبحث عنها حاليًا: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"ar"		"الفائز الثاني ليس في اللعبة بعد الآن، المحاولة الأخيرة للعثور على فائز جديد."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"ar"		"عليك الانتظار {1} ثانية قبل محاولة استخدام هذا الأمر مرة أخرى."
+	}
+	"Show bullet sparks"
+	{
+		"ar"		"عرض شرارات الرصاص"
+	}
+	"Show bullet tracer"
+	{
+		"ar"		"عرض مسارات الرصاصة"
+	}
+	"Show gloves"
+	{
+		"ar"		"عرض القفازات"
+	}
+	"Show paintball"
+	{
+		"ar"		"عرض كرات الطلاء"
+	}
+	"Show particles"
+	{
+		"ar"		"عرض الجسيمات"
+	}
+	"Show pets"
+	{
+		"ar"		"عرض الحيوانات الأليفة"
+	}
+	"Show trails"
+	{
+		"ar"		"عرض المسارات"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"ar"		"لا يمكنك استخدام قيمة أصغر من قيمتك الدنيا ({1})"
+	}
+	"Spacer"
+	{
+		"ar"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"ar"		"حماية من الرسائل المزعجة. يرجى الانتظار {1} ثانية."
+	}
+	"Spawn Preview"
+	{
+		"ar"		"تم توليد معاينة. ستختفي المعاينة خلال 45 ثانية."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"ar"		"تم توليد معاينة. ستختفي المعاينة خلال {1} ثانية."
+	}
+	"Start again from begin"
+	{
+		"ar"		"من فضلك ابدأ من البداية"
+	}
+	"Starting"
+	{
+		"ar"		"بدء"
+	}
+	"Stay"
+	{
+		"ar"		"البقاء"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"ar"		"هل أنت متأكد أنك تريد إعادة تحميل معدّاتك؟ جميع العناصر سيتم إلغاء تجهيزها."
+	}
+	"Successfully purchased voucher"
+	{
+		"ar"		"لقد اشتريت قسيمة بنجاح"
+	}
+	"TF Wrong Class"
+	{
+		"ar"		"تم تصميم هذه العناصر للاستخدام مع فئة لاعب مختلفة."
+	}
+	"Tail"
+	{
+		"ar"		"ذيل"
+	}
+	"TeamBet Already Placed"
+	{
+		"ar"		"لقد وضعت رهانك بالفعل للجولة."
+	}
+	"TeamBet Invalid Team"
+	{
+		"ar"		"تم تحديد معرف فريق غير صالح."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لقد خسرت {1} {2} في الرهان."
+	}
+	"TeamBet Period Over"
+	{
+		"ar"		"لقد انتهت فترة الرهان لهذه الجولة."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"ar"		"لقد وضعت رهانًا بنجاح بمقدار {1} من الائتمانات."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"رهانك كان ناجحًا. فزت بـ {1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"ar"		"لم يتم وضع رهان على الفريق الآخر، لذا استعدت الائتمان."
+	}
+	"Terrorist"
+	{
+		"ar"		"إرهابي"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"ar"		"الرقم المختار هو: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"ar"		"الرقم التالي كان: {1}"
+	}
+	"This is the preview text"
+	{
+		"ar"		"هذه هي نص المعاينة."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"ar"		"قام المسؤول بإعادة تحميل تكوين المتجر. ستتم إعادة تحميل الخريطة بعد {1} ثانية!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"ar"		"قائمة إنشاء قسيمة العنصر (للمسؤولين فقط).\n \nاختر مدة العنصر."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"ar"		"قائمة إنشاء قسيمة العنصر (للمسؤولين فقط)"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"ar"		"رصيد: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ar"		"ينتهي في {1}ي {2}س"
+	}
+	"Title Gift"
+	{
+		"ar"		"اختر لاعبًا لإرسال هدية إليه"
+	}
+	"Title Store"
+	{
+		"ar"		"قائمة المتجر"
+	}
+	"To late chat input"
+	{
+		"ar"		"لم يتم إدخال النص في الوقت المحدد"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"ar"		"الكثير من {1} على الأرض، لا يمكنك إسقاط المزيد في الوقت الحالي!"
+	}
+	"Top Credits"
+	{
+		"ar"		"أفضل الائتمانات"
+	}
+	"Top Credits Inv Worth"
+	{
+		"ar"		"أفضل رصيد + قيمة المخزون"
+	}
+	"Top Inv Worth"
+	{
+		"ar"		"أفضل قيمة المخزون"
+	}
+	"Top Most Items"
+	{
+		"ar"		"أفضل العناصر"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"المجموع: {1} {2}"
+	}
+	"Try again"
+	{
+		"ar"		"حاول مرة أخرى"
+	}
+	"Type in chat !bet"
+	{
+		"ar"		"اكتب في الدردشة !bet <رهان> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"ar"		"اكتب في الدردشة !blackjack <رهان>"
+	}
+	"Type in chat !coinflip"
+	{
+		"ar"		"اكتب في الدردشة !coinflip <رهان> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"ar"		"اكتب في الدردشة !crash <رهان>"
+	}
+	"Type in chat !crowns"
+	{
+		"ar"		"اكتب في الدردشة !crowns <رهان>"
+	}
+	"Type in chat !dice"
+	{
+		"ar"		"اكتب في الدردشة !dice <رهان> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"ar"		"اكتب في الدردشة !jackpot <رهان>"
+	}
+	"Type in chat !roulette"
+	{
+		"ar"		"اكتب في الدردشة !roulette <رهان> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"ar"		"غير محدود - عدة لاعبين"
+	}
+	"Up"
+	{
+		"ar"		"إلى الأعلى"
+	}
+	"Value less than 1"
+	{
+		"ar"		"لا يمكنك استخدام قيمة أقل من 1."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ar"		"تم ضبط حجم {1} إلى {2}"
+	}
+	"Voucher Code 17 chars"
+	{
+		"ar"		"في الوقت الحالي يجب أن يكون رمز القسيمة مكونًا من 17 حرفًا بالضبط"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"القسيمة لها قيمة {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"ar"		"تم قبول القسيمة"
+	}
+	"Voucher accepted Panel"
+	{
+		"ar"		"تم قبول القسيمة"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"ar"		"أنت تولد {1} {2}قيمة محدودة{3} بالقيمة {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"ar"		"أنت تقوم بإنشاء {1} {2}قسيمة محدودة{3} بالقيم {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"ar"		"رمز القسيمة المُدخل تم استرداده بالفعل في {1}"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"ar"		"هذه القسيمة تنتهي صلاحيتها في {1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"ar"		"رمز القسيمة المُدخل انتهت صلاحيته في {1}"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ar"		"تم إنشاء قسيمة جديدة {1} بقيمة {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"ar"		"يمكنك العثور على رمز القسيمة في الدردشة وفي وحدة التحكم"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"ar"		"رمز القسيمة: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"ar"		"رمز القسيمة المُدخل '{1}' غير صالح!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ar"		"القسيمة تشمل {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"ar"		"رمز القسيمة صالح"
+	}
+	"Vouchers"
+	{
+		"ar"		"قسيمة"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"ar"		"عليك الانتظار {1} حتى اليومية التالية."
+	}
+	"Wait until next daily 2"
+	{
+		"ar"		"لقد قمت بتسجيل الدخول اليوم. يرجى العودة غدًا."
+	}
+	"Win = "
+	{
+		"ar"		"فوز = "
+	}
+	"Winner is not in game anymore"
+	{
+		"ar"		"الفائز ليس في اللعبة بعد الآن، نحاول إيجاد فائز جديد."
+	}
+	"Wrong voucher code format"
+	{
+		"ar"		"رمز القسيمة بتنسيق خاطئ. يجب أن يكون XXXXX-XXXXX-XXXXX"
+	}
+	"You"
+	{
+		"ar"		"أنت"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"ar"		"لقد قمت بالفعل بسحب {1} {2} إلى الجاكبوت. فرصة الفوز الحالية: {3}%% الجاكبوت: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"ar"		"أنت تمتلك بالفعل عنصر القسيمة المُدخل"
+	}
+	"You already redeemed Voucher"
+	{
+		"ar"		"لقد استرددت بالفعل رمز القسيمة المُدخل"
+	}
+	"You can start a new Jackpot"
+	{
+		"ar"		"يمكنك بدء جائزة الجاكبوت الجديدة"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"ar"		"يمكنك بدء جائزة الجاكبوت الجديدة في {1}."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لا يمكنك إنفاق هذا القدر من الائتمانات (الحد الأقصى: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لقد جمعت {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"ar"		"ليس لديك إذن للوصول إلى هذا."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لقد أسقطت {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"ar"		"لم تكسب أي نقاط في هذه الجولة."
+	}
+	"You earned this round"
+	{
+		"ar"		"لقد ربحت هذه الجولة:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لقد كسبت {1} {2} من أجل "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لقد ربحت {1} {2} في هذه الجولة"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لقد تلقيت {1} {2}."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لقد تلقيت {1} {2}."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ar"		"لقد استلمت {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ar"		"لقد استلمت {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"يجب أن تنفق على الأقل {1} {2}."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"يجب أن تنفق على الأقل {1} {2}."
+	}
+	"You haven't opened the box in given time"
+	{
+		"ar"		"لم تفتح الصندوق في الوقت المحدد. صندوق الغنائم عاد إلى مخزونك"
+	}
+	"You lose"
+	{
+		"ar"		"- خسرت"
+	}
+	"You lost with"
+	{
+		"ar"		"خسرت مع"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"أنت خسرت {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"ar"		"لقد اتقنت 'التحدي اليومي'! حاول التغلب عليه مرة أخرى!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"أنت فزت بـ {1} {2}"
+	}
+	"You won"
+	{
+		"ar"		"!!! فزت !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ar"		"لقد فزت بعنصر {1} ({2})!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"فزت بالجائزة الكبرى مع {1} {2}!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"ar"		"فزت بالجائزة الكبرى مع {1} {2} بعد خصم رسوم الكازينو التي تبلغ {3} {4} ({5}%)!"
+	}
+	"You won with"
+	{
+		"ar"		"فزت مع"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"ar"		"فزت ب {1} ائتمان مع x{2}."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"سوف تكسب {1} {2} غدًا!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"ar"		"رهاناتك: {1} {2} - الفرصة: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"رهانك: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"ar"		"فرصتك الحالية في الفوز قد تغيرت إلى {1}%"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"لقد حصلت على {1} من الائتمانات لقتل {2}."
+	}
+	"admin"
+	{
+		"ar"		"مسؤول"
+	}
+	"and is limited"
+	{
+		"ar"		"وهو محدود"
+	}
+	"and is unlimited"
+	{
+		"ar"		"وهو غير محدود"
+	}
+	"arms"
+	{
+		"ar"		"ذراعين"
+	}
+	"assist a kill"
+	{
+		"ar"		"مساعدة في القتل"
+	}
+	"attachment"
+	{
+		"ar"		"مرفق"
+	}
+	"backstab kill"
+	{
+		"ar"		"قتل طعنة ظهر"
+	}
+	"be the MVP"
+	{
+		"ar"		"كن الـ MVP"
+	}
+	"bet x"
+	{
+		"ar"		"رهان x"
+	}
+	"blackjack"
+	{
+		"ar"		"بلاك جاك"
+	}
+	"bomb defused"
+	{
+		"ar"		"القنبلة تم تعطيلها"
+	}
+	"bomb explode"
+	{
+		"ar"		"العبوة الناسفة تنفجر"
+	}
+	"bomb planted"
+	{
+		"ar"		"تم زرع القنبلة"
+	}
+	"bombtweak"
+	{
+		"ar"		"تعديل القنبلة"
+	}
+	"bullet_impact"
+	{
+		"ar"		"أثر الرصاصة"
+	}
+	"bulletsparks"
+	{
+		"ar"		"شرارات الرصاصة"
+	}
+	"bunnyhob"
+	{
+		"ar"		"قفزة الأرنب"
+	}
+	"bunnyhop"
+	{
+		"ar"		"مهارة"
+	}
+	"casino"
+	{
+		"ar"		"كازينو"
+	}
+	"coinflip"
+	{
+		"ar"		"قرعة العملة"
+	}
+	"command"
+	{
+		"ar"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"ar"		"هل تريد إعادة تعيين التكوين؟\nستتم إعادة تحميل الخريطة بعد {1} ثانية!"
+	}
+	"confirm_reload_type_1"
+	{
+		"ar"		"هل تريد إعادة تعيين التكوين؟\nيجب عليك تغيير الخريطة لتطبيقها أو قد تواجه بعض الأخطاء."
+	}
+	"connect"
+	{
+		"ar"		"رسالة الاتصال"
+	}
+	"crash"
+	{
+		"ar"		"تحطم"
+	}
+	"creditstoplist"
+	{
+		"ar"		"رصيد"
+	}
+	"crowns"
+	{
+		"ar"		"فتحة التيجان"
+	}
+	"daily"
+	{
+		"ar"		"مكافأة يومية"
+	}
+	"decoy grenade kill"
+	{
+		"ar"		"قتل قنبلة فخ"
+	}
+	"dice"
+	{
+		"ar"		"زهر"
+	}
+	"direction"
+	{
+		"ar"		"اتجاه"
+	}
+	"discount"
+	{
+		"ar"		"تخفيض"
+	}
+	"distance"
+	{
+		"ar"		"مسافة"
+	}
+	"dmgtext"
+	{
+		"ar"		"رسام"
+	}
+	"emote"
+	{
+		"ar"		"إيموت"
+	}
+	"escape as VIP"
+	{
+		"ar"		"الفرار كـ VIP"
+	}
+	"flashbang kill"
+	{
+		"ar"		"قتل قنبلة فلاش"
+	}
+	"flashlight"
+	{
+		"ar"		"مصباح يدوي"
+	}
+	"froggyjump"
+	{
+		"ar"		"قفزة الضفدع"
+	}
+	"gloves"
+	{
+		"ar"		"قفازات"
+	}
+	"glow"
+	{
+		"ar"		"توهج"
+	}
+	"godmode"
+	{
+		"ar"		"وضع الإله"
+	}
+	"gravity"
+	{
+		"ar"		"قدرة"
+	}
+	"grenademodel"
+	{
+		"ar"		"نموذج قنبلة"
+	}
+	"grenadeskin"
+	{
+		"ar"		"مظهر القنبلة اليدوية"
+	}
+	"grenadetrail"
+	{
+		"ar"		"أثر القنبلة اليدوية"
+	}
+	"hat"
+	{
+		"ar"		"قبعة"
+	}
+	"headshot"
+	{
+		"ar"		"رأس الضربة"
+	}
+	"health"
+	{
+		"ar"		"حزمة"
+	}
+	"high or low"
+	{
+		"ar"		"عالي أو منخفض"
+	}
+	"hiteff"
+	{
+		"ar"		"تأثير الإصابة:"
+	}
+	"hitsound"
+	{
+		"ar"		"صوت الإصابة"
+	}
+	"hostage rescued"
+	{
+		"ar"		"تم إنقاذ الرهينة"
+	}
+	"hunterjump"
+	{
+		"ar"		"قفزة الصياد"
+	}
+	"idle on the server"
+	{
+		"ar"		"خامل على الخادم"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"ar"		"في {1}."
+	}
+	"infinityammo"
+	{
+		"ar"		"ذخيرة لا نهائية"
+	}
+	"info"
+	{
+		"ar"		"لوحة المعلومات"
+	}
+	"instabomb"
+	{
+		"ar"		"زرع / تفكيك فوري"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"ar"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"ar"		"قدرة"
+	}
+	"items"
+	{
+		"ar"		"عناصر"
+	}
+	"jackpot"
+	{
+		"ar"		"جاكبوت"
+	}
+	"jetpack"
+	{
+		"ar"		"صاروخ"
+	}
+	"jihad"
+	{
+		"ar"		"قنبلة"
+	}
+	"kill"
+	{
+		"ar"		"قتل"
+	}
+	"kill the VIP"
+	{
+		"ar"		"قتل الـ VIP"
+	}
+	"kill yourself"
+	{
+		"ar"		"اقتل نفسك"
+	}
+	"killeff"
+	{
+		"ar"		"تأثير القتل:"
+	}
+	"knife"
+	{
+		"ar"		"سكاكين"
+	}
+	"knife kill"
+	{
+		"ar"		"قتل سكين"
+	}
+	"laserdraw"
+	{
+		"ar"		"رسم الليزر:"
+	}
+	"laserpointer"
+	{
+		"ar"		"مؤشر ليزر"
+	}
+	"lasersight"
+	{
+		"ar"		"منظار ليزر"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"ar"		"آخر تحديث منذ {1}"
+	}
+	"light"
+	{
+		"ar"		"ضوء"
+	}
+	"lootbox"
+	{
+		"ar"		"صندوق الغنائم"
+	}
+	"mirror"
+	{
+		"ar"		"مرآة"
+	}
+	"molotov kill"
+	{
+		"ar"		"قتل مولوتوف"
+	}
+	"msgcolor"
+	{
+		"ar"		"لون الرسالة"
+	}
+	"mvp_sound"
+	{
+		"ar"		"أغاني MVP"
+	}
+	"namecolor"
+	{
+		"ar"		"لون الاسم"
+	}
+	"nametag"
+	{
+		"ar"		"بطاقة الاسم"
+	}
+	"nearest"
+	{
+		"ar"		"أقرب"
+	}
+	"nodiscount"
+	{
+		"ar"		" "
+	}
+	"noduckdelay"
+	{
+		"ar"		"بدون تأخير القرفصاء"
+	}
+	"nofalldamage"
+	{
+		"ar"		"لا ضرر من السقوط"
+	}
+	"noreload"
+	{
+		"ar"		"بدون إعادة تحميل"
+	}
+	"noscope kill"
+	{
+		"ar"		"قتل بدون منظار"
+	}
+	"noselfdamage"
+	{
+		"ar"		"لا ضرر من النفس"
+	}
+	"or use buttons below"
+	{
+		"ar"		"أو استخدم الأزرار أدناه"
+	}
+	"package"
+	{
+		"ar"		"حزمة"
+	}
+	"paintball"
+	{
+		"ar"		"رصاص"
+	}
+	"painter"
+	{
+		"ar"		"رسام"
+	}
+	"parachute"
+	{
+		"ar"		"مظلة"
+	}
+	"particle"
+	{
+		"ar"		"جزيئات"
+	}
+	"pet"
+	{
+		"ar"		"حيوان أليف"
+	}
+	"playerskin"
+	{
+		"ar"		"مظهر اللاعب"
+	}
+	"playing on the server"
+	{
+		"ar"		"اللعب على الخادم"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"ar"		"العبنا في الخادم لمدة {1} يومًا على التوالي"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"ar"		"ستحصل على {1} في الإنعاش التالي"
+	}
+	"respawn"
+	{
+		"ar"		"تجديد الظهور"
+	}
+	"roulette"
+	{
+		"ar"		"روليت"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"ar"		"لقد وصلت إلى الحد الأقصى لاستخدام الصوت (الحد الأقصى {1} استخدامات لكل خريطة)"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"ar"		"لقد وصلت إلى الحد الأقصى لاستخدام الصوت. {1} استخدام كحد أقصى لكل جولة"
+	}
+	"saysound"
+	{
+		"ar"		"قل الصوت"
+	}
+	"scoreboardtag"
+	{
+		"ar"		"علامة لوحة النقاط"
+	}
+	"smokegrenade kill"
+	{
+		"ar"		"قتل قنبلة دخان"
+	}
+	"sound"
+	{
+		"ar"		"صوت"
+	}
+	"spawn"
+	{
+		"ar"		"تجديد الظهور الإضافي"
+	}
+	"spawneff"
+	{
+		"ar"		"تأثير الولادة:"
+	}
+	"speed"
+	{
+		"ar"		"قدرة"
+	}
+	"spray"
+	{
+		"ar"		"رذاذ"
+	}
+	"start daily challange"
+	{
+		"ar"		"ابدأ 'التحدي اليومي'. العب خلال الأيام الستة القادمة للحصول على المكافأة الكاملة"
+	}
+	"taser kill"
+	{
+		"ar"		"قتل صاعق"
+	}
+	"teambet"
+	{
+		"ar"		"رهانات الفريق"
+	}
+	"teamkill"
+	{
+		"ar"		"قتل الفريق"
+	}
+	"tfhat"
+	{
+		"ar"		"قبعة بناء"
+	}
+	"tfhatdye"
+	{
+		"ar"		"صبغة القبعة"
+	}
+	"tfhead"
+	{
+		"ar"		"حجم الرأس"
+	}
+	"tfunusual"
+	{
+		"ar"		"تأثير القبعة"
+	}
+	"tfweapon"
+	{
+		"ar"		"سلاح مخصص"
+	}
+	"tfweaponsize"
+	{
+		"ar"		"حجم السلاح"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"ar"		"سيتم سحب الجائزة في {1} ثواني"
+	}
+	"thirdperson"
+	{
+		"ar"		"الشخص الثالث"
+	}
+	"throwknife"
+	{
+		"ar"		"رمي السكين"
+	}
+	"toplists"
+	{
+		"ar"		"قوائم الأعلى"
+	}
+	"tracer"
+	{
+		"ar"		"محدد"
+	}
+	"trail"
+	{
+		"ar"		"أثر"
+	}
+	"wasted"
+	{
+		"ar"		"ضائع"
+	}
+	"watergun"
+	{
+		"ar"		"تأثير"
+	}
+	"weapon"
+	{
+		"ar"		"سلاح"
+	}
+	"weaponcolor"
+	{
+		"ar"		"لون السلاح"
+	}
+	"weaponmodel"
+	{
+		"ar"		"نموذج السلاح"
+	}
+	"weaponskin"
+	{
+		"ar"		"جلد السلاح"
+	}
+	"win the round"
+	{
+		"ar"		"افز الفوز بالجولة"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"ar"		"{1} {2} من أجل '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ar"		"{1} ساعات {2} دقائق و {3} ثواني"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ar"		"{1} ساعة(ساعات) {2} دقيقة(دقائق) و {3} ثانية(ثوان)"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ar"		"{1} دقائق و {2} ثواني"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ar"		"{1} دقيقة(دقائق) و {2} ثانية(ثوان)"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"ar"		"{1} ثواني"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"ar"		"{1} ثانية(ثوان)"
+	}
+	"zrclass"
+	{
+		"ar"		"فئة اللاعب"
+	}
+}

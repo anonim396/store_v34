@@ -1,0 +1,2282 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1}21 !!! BLACKJACK !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"da"		"Du har allerede genindlæst konfigurationen. Venligst skift eller genindlæs kortet."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Alle deltagende spillere frakobles, ingen får sitt {2} tilbake, haha. Jackpot var {1} {2}!"
+	}
+	"All valid voucher"
+	{
+		"da"		"Alle genererede og gyldige kuponer er:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"da"		"Du vandt, men ejer allerede {1} ({2}). Objektet blev solgt for {3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"da"		"Du ejer allerede {1} ({2}). Du har fået {3} {4} tilbage"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"da"		"Beløb: {1}"
+	}
+	"Aura"
+	{
+		"da"		"Aura:"
+	}
+	"Back"
+	{
+		"da"		"Tilbage"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"da"		"Indsats * Multiplikator = Din sejr"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"da"		"Bonus credits: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Pot CT vinder: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"da"		"Maximumbet ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"da"		"Minimumbet ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"da"		"Random bet ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Pot T vinder: {1} {2}"
+	}
+	"Bet on"
+	{
+		"da"		"Satse på"
+	}
+	"Bet on a Head/Tail"
+	{
+		"da"		"Ast på hoved/hal"
+	}
+	"Bet on a color"
+	{
+		"da"		"Spil på en farve, og hvis denne farve vælges, vinder du!"
+	}
+	"Bet on a number"
+	{
+		"da"		"Spil på Lav (#1-3), Høj (#4-6) eller et præcist tal. Hvis dit valg bliver kastet, vinder du!"
+	}
+	"Bet on a team"
+	{
+		"da"		"Spil på et hold, og hvis holdet vinder runden, vinder du!"
+	}
+	"Betting Already Placed"
+	{
+		"da"		"Du har allerede placeret dit væddemål for denne runde."
+	}
+	"Betting Invalid Team"
+	{
+		"da"		"Der er angivet en ugyldig team-identifikator."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du tabte {1} kreditter på væddemålet."
+	}
+	"Betting Period Over"
+	{
+		"da"		"Væddemålsperioden er over for denne runde."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du har med succes lagt et væddemål på {1} kreditter."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"da"		"Din indsats var vellykket. Du vandt {1} kreditter."
+	}
+	"Black"
+	{
+		"da"		"sort"
+	}
+	"Blackjack Info 1"
+	{
+		"da"		"Blackjack er et spil, hvor værdien af dine kort skal være højere end dealerens, uden at overskride 21."
+	}
+	"Blackjack Info 2"
+	{
+		"da"		"Tælle regler:\n- \"A\" kortet kan tælles som 1/11. Hvis håndens værdi overstiger 21, skal dette kort tælles som 1."
+	}
+	"Blackjack Info 3"
+	{
+		"da"		"- \"10, J, Q, K\": Tælles som 10.\n- 2-9 Tælles som deres ansigtsværdi."
+	}
+	"Blackjack Info 4"
+	{
+		"da"		"- Din håndværdi skal være tættere på 21 uden at gå over og højere end dealerens hånd for at vinde spillet.\n- \"A\" + 10-værdikort = BlackJack. Dette er en øjeblikkelig gevinst."
+	}
+	"Buy"
+	{
+		"da"		"Køb Genstand"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"da"		"Køb vare ({1})"
+	}
+	"CP Changed color"
+	{
+		"da"		"Du ændrede din farve til: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"da"		"Indstilling af chat-tag farve"
+	}
+	"CP Disable Color - Menu"
+	{
+		"da"		"Deaktiver farve"
+	}
+	"CP Disabled Color"
+	{
+		"da"		"Egen farve for tag er deaktiveret."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"da"		"Du har ikke nogen navnetag udstyret"
+	}
+	"CP No file found"
+	{
+		"da"		"Brugerens tilpassede tag-farve er deaktiveret. Kontakt venligst administratoren for yderligere support."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"da"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"da"		"Viser forhåndsvisning af scorebord-tag, tryk venligst på TAB-knappen."
+	}
+	"Cancel"
+	{
+		"da"		"Annuller"
+	}
+	"Cant be bought"
+	{
+		"da"		"Denne vare kan ikke købes"
+	}
+	"Cash out"
+	{
+		"da"		"Udbetaling"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Skift din indsats: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du har købt en {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"da"		"{1} har sendt dig en {2} {3} som gave."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"da"		"Du har sendt {1} en {2} {3} som gave."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du har solgt en {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"da"		"Du åbnede en container og fandt {1} credits!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"da"		"{1} åbnede en container og fandt {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"da"		"{1} åbnede en container og fandt {2} ({3})!"
+	}
+	"Check All Voucher"
+	{
+		"da"		"Tjek alle gyldige og tilgængelige vouchers (Kun Admin)"
+	}
+	"Check Voucher"
+	{
+		"da"		"Tjek en voucher"
+	}
+	"Check Your valid Voucher"
+	{
+		"da"		"Tjek din genererede og gyldige tilgængelige voucher"
+	}
+	"Choose Number (1:6)"
+	{
+		"da"		"Vælg nummer (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"da"		"Automatisk udbetaling:"
+	}
+	"Client Loadout Reset"
+	{
+		"da"		"Din udstyr er blevet nulstillet."
+	}
+	"Client valid voucher"
+	{
+		"da"		"Din genererede og gyldige kupon er:\n "
+	}
+	"Close"
+	{
+		"da"		"Luk"
+	}
+	"ColoredSmoke"
+	{
+		"da"		"Farvet røg"
+	}
+	"Command is in-game only"
+	{
+		"da"		"Du skal være i live for at bruge denne kommando."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"da"		"Konfigurationen er genindlæst. Venligst genstart eller skift kort."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Er du sikker på, at du vil købe {1} {2}?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"da"		"Er du sikker på, at du vil give {1} {2} til {3}?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Er du sikker på, at du vil droppe {1} {2} som gave?"
+	}
+	"Confirm_No"
+	{
+		"da"		"Nej"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"da"		"Er du sikker på, at du vil sælge {1} {2} for {3}?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Er du sikker på, at du vil konvertere {1} ({2}) til kupon?\nADVARSEL: Hvis varen i kuponen udløber, før den er indløst.\nDenne kupon vil udløbe."
+	}
+	"Confirm_Yes"
+	{
+		"da"		"Ja"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"da"		"{1} fik svaret rigtigt og vandt {2} {3}!"
+	}
+	"Counter-Terrorist"
+	{
+		"da"		"Counter-Terrorist"
+	}
+	"Crash Already Start"
+	{
+		"da"		"Crash-spillet er i øjeblikket i gang. Vent venligst på næste spil."
+	}
+	"Crash Auto Off"
+	{
+		"da"		"Slukket"
+	}
+	"Crash Auto Off Panel"
+	{
+		"da"		"Slå automatisk udbetaling fra"
+	}
+	"Crash Auto On"
+	{
+		"da"		"Tændt"
+	}
+	"Crash Auto On Panel"
+	{
+		"da"		"Slå automatisk udbetaling til"
+	}
+	"Crash Info 1"
+	{
+		"da"		"           Hvad er/ Hvordan spiller man: Crash"
+	}
+	"Crash Info 2"
+	{
+		"da"		"- Crash er et spil, hvor spillere kan satse på en multiplikator, denne multiplikator er relateret til en stigende kurve, der kan krasje når som helst."
+	}
+	"Crash Info 3"
+	{
+		"da"		"- Multiplikatoren starter ved 1.00x, og du kan udbetale når som helst."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"da"		"- Den minimale indsatsværdi er {1} {2}. Den maksimale indsatsværdi er {3} {4}. Disse grænser kan ændre sig med tiden."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"da"		"Forkert input (skal være {1} eller højere)."
+	}
+	"Crash auto input"
+	{
+		"da"		"Skriv din automatiske udbetalingsværdi i chatten"
+	}
+	"Crash auto input set"
+	{
+		"da"		"Crash auto cashout sat"
+	}
+	"Crash set auto"
+	{
+		"da"		"Sæt automatisk udbetalingsværdi"
+	}
+	"Crash!"
+	{
+		"da"		"Crash!"
+	}
+	"Create Item Voucher"
+	{
+		"da"		"Opret en varevoucher (Kun admin)"
+	}
+	"Create Voucher"
+	{
+		"da"		"Opret en voucher"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"da"		"Oprettelse af voucher mislykkedes - Kontakt en admin med følgende tidsstempel: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"da"		"Kreditgave er deaktiveret på denne server."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du droppede {1} credits som gave."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"da"		"{2} har sendt dig {1} kreditter."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"da"		"Du har sendt {1} kreditter til {2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"da"		"Du har ikke nok kreditter til at oprette en giveaway."
+	}
+	"Credit Invalid Amount"
+	{
+		"da"		"Ugyldig mængde kreditter indtastet."
+	}
+	"Credit No Match"
+	{
+		"da"		"Der blev ikke fundet nogen spiller."
+	}
+	"Credit Not Enough"
+	{
+		"da"		"Du har ikke nok kreditter til at købe dette."
+	}
+	"Credit Too Many Matches"
+	{
+		"da"		"Der blev fundet mere end én klient."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"da"		"Du har ikke nok credits til at oprette et voucher."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"da"		"Du tjente {1} kreditter for at dræbe {2}."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du tjente {1} kreditter for at spille på serveren."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"da"		"{1} har fået {2} credits."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"da"		"Kreditter: {1}          Pulje: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"da"		"Deaktiveret"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"da"		"Aktiveret"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"da"		"[Brugerdefineret våbenlyd]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"da"		"Menu til styring af volumen for brugerdefineret våbenlyd"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"da"		"Volumen: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"da"		"Brugerdefineret våbenlyd: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"da"		"Brugerdefineret våbenlyd er Deaktiveret."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"da"		"Brugerdefineret våbenlyd er aktiveret."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"da"		"Brugerdefineret våbenlyd er aktiveret. Volumen: {1}"
+	}
+	"CustomModel"
+	{
+		"da"		"Brugerdefineret våbenmodel:"
+	}
+	"Damage the crate to open"
+	{
+		"da"		"Skad boksen for at åbne!"
+	}
+	"Dead heat"
+	{
+		"da"		"- uafgjort -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"da"		"             DEAL     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"da"		"DEALER"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"da"		"Rabatten: '{1}' er aktiv! God shopping!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"da"		"Rabatten: '{1}' er slut!"
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"da"		"Rabatten: '{1}' er startet! God shopping!"
+	}
+	"Double"
+	{
+		"da"		"Doble"
+	}
+	"Down"
+	{
+		"da"		"Ned"
+	}
+	"Down2"
+	{
+		"da"		"                      5 = Ned"
+	}
+	"Drop Gift"
+	{
+		"da"		"Drop som gave"
+	}
+	"Edit Amount"
+	{
+		"da"		"Rediger mængde: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"da"		"Indtast venligst udløbstiden (i sekunder) for objektet i chatten!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"da"		"Ugyldigt nummerformat. Prøv igen."
+	}
+	"Enter custom amount"
+	{
+		"da"		"Indtast venligst dit tilpassede beløb i chatten!"
+	}
+	"Enter maximum value"
+	{
+		"da"		"Indtast venligst den maksimale værdi af kreditter i chatten!"
+	}
+	"Enter minimum value"
+	{
+		"da"		"Indtast venligst minimumsværdien af kreditter i chatten!"
+	}
+	"Enter number of vouchers"
+	{
+		"da"		"Indtast venligst antallet af vouchers, der skal oprettes i chatten!"
+	}
+	"Enter value of vouchers"
+	{
+		"da"		"Indtast venligst værdien af den voucher, der skal købes i chatten!"
+	}
+	"Enter voucher code"
+	{
+		"da"		"Indtast venligst din voucher-kode i chatten!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"da"		"Der opstod en fejl under tilbagebetaling af prisen. Kontakt venligst en administrator"
+	}
+	"Exact #x  = "
+	{
+		"da"		"Præcis #x = "
+	}
+	"Exit"
+	{
+		"da"		"Afslut"
+	}
+	"Gained"
+	{
+		"da"		"Optjent"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"da"		"Optjent: {1} {2}"
+	}
+	"Game Info"
+	{
+		"da"		"Spilinfo"
+	}
+	"Game in progress"
+	{
+		"da"		"Dit nuværende væddemål er i gang. Venligst vent indtil det er færdigt."
+	}
+	"Get three on a kind"
+	{
+		"da"		"Få tre på én gang"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du har samlet {1} kreditter."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du har samlet en {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"da"		"Der er ingen, du kan give denne vare til."
+	}
+	"Gift Player Left"
+	{
+		"da"		"Den valgte spiller er allerede forladt spillet."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"da"		"{1} For at lave et giveaway, skal serveren indeholde mindst {2} spillere."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"da"		"Admin {1} åbnede et giveaway med <font color='#15fb00'>{2} credits"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"da"		"|| Giveaway starter om {1} sekunder ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"da"		"{1} {2} vandt et giveaway med {3} kreditter"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"da"		"{1}\n|| Vinder: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"da"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"da"		"Du har nået det maksimale antal godmodes, du kan købe denne runde."
+	}
+	"Godmode Wrong Team"
+	{
+		"da"		"Du kan ikke bruge godmode i dette hold."
+	}
+	"Green"
+	{
+		"da"		"grøn"
+	}
+	"HE grenade kill"
+	{
+		"da"		"HE granat kill"
+	}
+	"HUD"
+	{
+		"da"		"HUD"
+	}
+	"Head"
+	{
+		"da"		"Hoved"
+	}
+	"Health Round Limit"
+	{
+		"da"		"Du har nået det maksimale antal sundhedspakker, du kan købe denne runde."
+	}
+	"Help_Back"
+	{
+		"da"		"Tilbage"
+	}
+	"Help_Exit"
+	{
+		"da"		"Afslut"
+	}
+	"Hide bullet sparks"
+	{
+		"da"		"Skjul kuglestråler"
+	}
+	"Hide bullet tracer"
+	{
+		"da"		"Skjul skudspor"
+	}
+	"Hide gloves"
+	{
+		"da"		"Skjul handsker"
+	}
+	"Hide paintball"
+	{
+		"da"		"Skjul paintballs"
+	}
+	"Hide particles"
+	{
+		"da"		"Skjul partikler"
+	}
+	"Hide pets"
+	{
+		"da"		"Skjul kæledyr"
+	}
+	"Hide trails"
+	{
+		"da"		"Skjul spor"
+	}
+	"High #4-6"
+	{
+		"da"		"Høj #4-6"
+	}
+	"High #4-6 = "
+	{
+		"da"		"Høj #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"da"		"High - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"da"		"HØJERE"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"da"		"Det valgte nummer er: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"da"		"Det næste nummer var: {1}"
+	}
+	"Hit"
+	{
+		"da"		"Hit"
+	}
+	"Hol Info 1"
+	{
+		"da"		"Et tal mellem {1} og {2} er blevet valgt for dig at gætte, om det næste tal vil være højere eller lavere end det valgte tal."
+	}
+	"Hol Info 2"
+	{
+		"da"		"Hvis du vælger den rigtige, vinder du dobbelt så meget som din indsats."
+	}
+	"Hol Info 3"
+	{
+		"da"		"Der er en pause på {1} sekund(er) mellem hvert spil."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du har med succes placeret {1} {2}."
+	}
+	"Inventory"
+	{
+		"da"		"Inventar"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"da"		"Vent venligst. Dit inventar er ikke blevet hentet endnu."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"da"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1}"
+	}
+	"Item Equip"
+	{
+		"da"		"Udstyr denne genstand"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1} [UDSTYRET]"
+	}
+	"Item Gift"
+	{
+		"da"		"Giv denne genstand"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1} (Vælg en plan)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"da"		"Sælg for {1}"
+	}
+	"Item Unequip"
+	{
+		"da"		"Fjern udstyr"
+	}
+	"Item Use"
+	{
+		"da"		"Brug denne genstand"
+	}
+	"Item Voucher"
+	{
+		"da"		"Lav voucher fra genstand"
+	}
+	"Item Voucher disabled"
+	{
+		"da"		"Oprettelse af voucher for genstand er i øjeblikket deaktiveret."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"da"		"Du har konverteret {1} ({2}) til voucher {3}."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"da"		"{1} skjult. Du vil ikke se dem mere."
+	}
+	"Item not found"
+	{
+		"da"		"Varen blev ikke fundet"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"da"		"{1} er synlige igen."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"da"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"da"		"Jackpot er sat på pause."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Jackpot: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"da"		"Jetpack er tom"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"da"		"[Jetpack] Brændstof: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"da"		"Jetpack er genindlæst"
+	}
+	"Jihad Failed"
+	{
+		"da"		"Din bombe mislykkedes at eksplodere."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"da"		"{1} jihad bombe mislykkedes med at eksplodere."
+	}
+	"Jihad Wrong Team"
+	{
+		"da"		"Du kan ikke bruge bomben i dette hold."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"da"		"{1} minut(ter) før crash starter."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"da"		"{1} sekund(er) før crash starter."
+	}
+	"LevelIcon"
+	{
+		"da"		"niveau ikon"
+	}
+	"Limited"
+	{
+		"da"		"Begrænset - én spiller"
+	}
+	"Lootbox case is opening"
+	{
+		"da"		"Vent venligst, indtil din forrige kasse er åbnet"
+	}
+	"Lootbox map ended"
+	{
+		"da"		"Kortet er slut. Vent venligst på næste kort"
+	}
+	"Lootbox round ended"
+	{
+		"da"		"Runden er slut. Vent venligst på næste runde"
+	}
+	"Lootbox warm up"
+	{
+		"da"		"Du kan ikke åbne under opvarmning"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"da"		"Du har mistet din daglige streak af {1} dag(e)."
+	}
+	"Lost bet"
+	{
+		"da"		"Fejlet! Du tabte din indsats"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du tabte din indsats, fordi det næste nummer var: {1}"
+	}
+	"Low #1-3"
+	{
+		"da"		"Lav #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"da"		"Lav #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"da"		"Low - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"da"		"LÆNGERE"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"da"		"Vi har brug for mindst {1} spiller(e)"
+	}
+	"Must be Alive"
+	{
+		"da"		"Du skal være i live for at bruge dette."
+	}
+	"Must be dead"
+	{
+		"da"		"Du skal være død for at spille"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"da"		"Multiplikator = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"da"		"Ingen aktiv Jackpot"
+	}
+	"No active TeamBet"
+	{
+		"da"		"Der er ikke blevet placeret nogen holdindsatser endnu"
+	}
+	"No have flag"
+	{
+		"da"		"Du har ikke adgang til at bruge denne kommando."
+	}
+	"No matching color"
+	{
+		"da"		"Intet matchende farve, brug: r/rød, b/sort eller g/grøn"
+	}
+	"No pick up - back to you"
+	{
+		"da"		"Der er ikke nogen der har samlet dine faldne kreditter op. Du får dem tilbage."
+	}
+	"No pick up - removed"
+	{
+		"da"		"Der er ikke nogen der har samlet dine faldne kreditter op. Kreditterne blev fjernet."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"da"		"Tiden er ude. Det rigtige svar var {1}."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Der er ikke andre, der har indløst penge i jackpotten. Du får dine {1} {2} tilbage!"
+	}
+	"Not enough Credits"
+	{
+		"da"		"Du har ikke nok kreditter"
+	}
+	"Now run a giveaway"
+	{
+		"da"		"Nu kører en giveaway, prøv igen om få sekunder."
+	}
+	"Only number"
+	{
+		"da"		"Du kan kun skrive tal..."
+	}
+	"Override Disabled"
+	{
+		"da"		"Din skin understøtter ikke hatte. Din udstyrede hat vil blive deaktiveret."
+	}
+	"Override Enabled"
+	{
+		"da"		"Din nuværende hud understøtter ikke hatte. Din hud vil blive ændret."
+	}
+	"Owned"
+	{
+		"da"		"[Ejet]"
+	}
+	"Package Gift"
+	{
+		"da"		"Giv denne pakke som gave"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"da"		"Sælg denne pakke for {1}"
+	}
+	"Package Voucher"
+	{
+		"da"		"Opret voucher fra pakken"
+	}
+	"Parachute Empty"
+	{
+		"da"		"Parachute Tom"
+	}
+	"Parachute Reloaded"
+	{
+		"da"		"Parachute Genopladet"
+	}
+	"Particles"
+	{
+		"da"		"Partikler:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Placer {1} {2}"
+	}
+	"Play Preview"
+	{
+		"da"		"Afspiller forhåndsvisningslyd for dig."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"da"		"{1} har {2} kreditter."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1} er blevet nulstillet."
+	}
+	"Player Skin module disabled"
+	{
+		"da"		"Store Player Skin-modulet er i øjeblikket midlertidigt deaktiveret."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"da"		"{1} har sat {2} {3} ind i jackpot, hans nuværende vinderchance er: {4}% (Jackpot: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"da"		"{1} har tabt {2} {3} på {4}."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"da"		"{1} har åbnet en jackpot med {2} {3}. Indløs for at få pengene!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"da"		"{1} vandt jackpotten med {2} {3}!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"da"		"{1} har vundet {2} {3} på {4}."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"da"		"{1} har vundet {2} {3} med multiplikator x{4} på {5}."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"da"		"Dine nye indstillinger vil blive anvendt ved næste spawn."
+	}
+	"Press"
+	{
+		"da"		"Tryk"
+	}
+	"Press to Start"
+	{
+		"da"		"Tryk for at starte!"
+	}
+	"Press to Stop"
+	{
+		"da"		"Tryk for at stoppe!"
+	}
+	"Preview Item"
+	{
+		"da"		"Forhåndsvis dette element"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"da"		"Pris: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"da"		"Køb en voucher"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"da"		"Hvor meget er {1} {2} {3}? | Præmie: {4} {5}"
+	}
+	"Red"
+	{
+		"da"		"rød"
+	}
+	"Redeem Voucher"
+	{
+		"da"		"Indløs en voucher"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Kør igen {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"da"		"Du har nået det maksimale antal respawns, du kan købe denne runde."
+	}
+	"SQL Cooldown"
+	{
+		"da"		"Af sikkerhedsmæssige årsager kan du ikke sende flere anmodninger på kort tid."
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"da"		"-------------- Forslag til butikssøgningsmenu --------------\n -Alle relaterede emner vil blive listet her\n - Din nuværende søgestreng: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"da"		"Den anden vinder er heller ikke længere i spil, sidste forsøg på at finde en ny vinder."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du skal vente {1} sekunder, før du kan prøve at bruge denne kommando igen."
+	}
+	"Show bullet sparks"
+	{
+		"da"		"Vis kuglestråler"
+	}
+	"Show bullet tracer"
+	{
+		"da"		"Vis skudspor"
+	}
+	"Show gloves"
+	{
+		"da"		"Vis handsker"
+	}
+	"Show paintball"
+	{
+		"da"		"Vis paintballs"
+	}
+	"Show particles"
+	{
+		"da"		"Vis partikler"
+	}
+	"Show pets"
+	{
+		"da"		"Vis kæledyr"
+	}
+	"Show trails"
+	{
+		"da"		"Vis spor"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"da"		"Du kan ikke bruge en mindre værdi end din minimumsværdi ({1})"
+	}
+	"Spacer"
+	{
+		"da"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"da"		"Spam beskyttelse. Vent venligst {1} sekunder."
+	}
+	"Spawn Preview"
+	{
+		"da"		"Spawnet en forhåndsvisning. Forhåndsvisningen forsvinder om 45 sekunder."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"da"		"Spawnet en forhåndsvisning. Forhåndsvisningen forsvinder om {1} sekunder."
+	}
+	"Start again from begin"
+	{
+		"da"		"Venligst start igen fra starten"
+	}
+	"Starting"
+	{
+		"da"		"Starter"
+	}
+	"Stay"
+	{
+		"da"		"Stå"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"da"		"Er du sikker på, at du vil nulstille dit udstyr? Alle genstande vil blive fjernet."
+	}
+	"Successfully purchased voucher"
+	{
+		"da"		"Du har succesfuldt købt en voucher"
+	}
+	"TF Wrong Class"
+	{
+		"da"		"Dette objekt var beregnet til at blive brugt med en anden spillerklasse."
+	}
+	"Tail"
+	{
+		"da"		"Haleben"
+	}
+	"TeamBet Already Placed"
+	{
+		"da"		"Du har allerede placeret dit væddemål for denne runde."
+	}
+	"TeamBet Invalid Team"
+	{
+		"da"		"Ugyldigt holdidentifikator angivet."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du tabte {1} {2} på væddemålet."
+	}
+	"TeamBet Period Over"
+	{
+		"da"		"Væddemålsperioden er slut for denne runde."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"da"		"Du har med succes placeret et væddemål på {1} kreditter."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Dit væddemål var en succes. Du vandt {1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"da"		"Der var ikke noget væddemål på det andet hold, så du fik dine kreditter tilbage."
+	}
+	"Terrorist"
+	{
+		"da"		"Terrorist"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"da"		"Det valgte nummer er: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"da"		"Det næste nummer var: {1}"
+	}
+	"This is the preview text"
+	{
+		"da"		"Dette er preview-teksten."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"da"		"Admin har genindlæst butikskonfigurationen. Kortet vil blive genindlæst om {1} sekunder!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"da"		"Admin Varevoucher Skaber Menu.\n \nVælg varens varighed."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"da"		"Admin Varevoucher Skaber Menu"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"da"		"Kreditter: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"da"		"Udløber om {1}d {2}t"
+	}
+	"Title Gift"
+	{
+		"da"		"Vælg en spiller at sende gave til"
+	}
+	"Title Store"
+	{
+		"da"		"Butiks Menu"
+	}
+	"To late chat input"
+	{
+		"da"		"Din tekstinput er ikke blevet gjort inden for den givne tid"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"da"		"Der er for mange {1} på jorden, du kan ikke droppe flere på nuværende tidspunkt!"
+	}
+	"Top Credits"
+	{
+		"da"		"Top Kreditter"
+	}
+	"Top Credits Inv Worth"
+	{
+		"da"		"Top Kreditter + Inventar Værdi"
+	}
+	"Top Inv Worth"
+	{
+		"da"		"Top Inventar Værdi"
+	}
+	"Top Most Items"
+	{
+		"da"		"Top Mest Items"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Total: {1} {2}"
+	}
+	"Try again"
+	{
+		"da"		"Prøv igen"
+	}
+	"Type in chat !bet"
+	{
+		"da"		"Skriv i chatten !bet <indsats> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"da"		"Skriv i chatten !blackjack <indsats>"
+	}
+	"Type in chat !coinflip"
+	{
+		"da"		"Skriv i chatten !coinflip <indsats> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"da"		"Skriv i chatten !crash <indsats>"
+	}
+	"Type in chat !crowns"
+	{
+		"da"		"Skriv i chatten !crowns <indsats>"
+	}
+	"Type in chat !dice"
+	{
+		"da"		"Skriv i chatten !dice <indsats> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"da"		"Skriv i chatten !jackpot <indsats>"
+	}
+	"Type in chat !roulette"
+	{
+		"da"		"Skriv i chatten !roulette <indsats> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"da"		"Ubegrænset - flere spillere"
+	}
+	"Up"
+	{
+		"da"		"Op"
+	}
+	"Value less than 1"
+	{
+		"da"		"Du kan ikke bruge en værdi mindre end 1."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"da"		"{1} volumen sat til {2}"
+	}
+	"Voucher Code 17 chars"
+	{
+		"da"		"For nu skal voucher-koden være præcis 17 tegn"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Voucheren har en værdi på {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"da"		"Voucher blev accepteret"
+	}
+	"Voucher accepted Panel"
+	{
+		"da"		"Voucher blev accepteret"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"da"		"Du genererer {1} {2}begrænset voucher{3} med værdi {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"da"		"Du genererer {1} {2}begrænset voucher{3} med værdierne {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"da"		"Den indtastede voucherkode blev allerede indløst den {1}"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"da"		"Denne voucher udløber den {1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"da"		"Den indtastede voucherkode er udløbet den {1}"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"da"		"Du har oprettet en ny voucher {1} med værdi {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"da"		"Du kan også finde voucher-koden i chatten og konsollen"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"da"		"Voucher kode: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"da"		"Den indtastede voucherkode '{1}' er ikke gyldig!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"da"		"Voucheren inkluderer {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"da"		"Voucherkoden er gyldig"
+	}
+	"Vouchers"
+	{
+		"da"		"Voucher"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"da"		"Du skal vente {1} indtil næste daglige."
+	}
+	"Wait until next daily 2"
+	{
+		"da"		"Du har allerede tjekket ind i dag. Venligst kom tilbage i morgen."
+	}
+	"Win = "
+	{
+		"da"		"Vinder = "
+	}
+	"Winner is not in game anymore"
+	{
+		"da"		"Vinderen er ikke længere i spil, vi prøver at finde en ny vinder."
+	}
+	"Wrong voucher code format"
+	{
+		"da"		"Voucherkoden har forkert format. Den skal være XXXXX-XXXXX-XXXXX"
+	}
+	"You"
+	{
+		"da"		"DU"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"da"		"Du har allerede indløst {1} {2} i jackpotten. Aktuel vinderchance: {3}%% Jackpot: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"da"		"Du ejer allerede den indtastede vouchergenstand"
+	}
+	"You already redeemed Voucher"
+	{
+		"da"		"Du har allerede indløst den indtastede voucherkode"
+	}
+	"You can start a new Jackpot"
+	{
+		"da"		"Du kan starte en ny Jackpot"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"da"		"Du kan starte en ny Jackpot om {1}."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du kan ikke bruge så mange kreditter (Max: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du har samlet {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"da"		"Du har ikke tilladelse til at få adgang til dette."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du droppede {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"da"		"Du tjente ingen point i denne runde."
+	}
+	"You earned this round"
+	{
+		"da"		"Du tjente denne runde:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du tjente {1} {2} for "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du tjente {1} {2} denne runde"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du har modtaget {1} {2}."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du har modtaget {1} {2}."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du modtog en {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du modtog en {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du skal bruge mindst {1} {2}."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du skal bruge mindst {1} {2}."
+	}
+	"You haven't opened the box in given time"
+	{
+		"da"		"Du har ikke åbnet boksen i den angivne tid. Lootboksen er tilbage i din inventar"
+	}
+	"You lose"
+	{
+		"da"		"- du tabte"
+	}
+	"You lost with"
+	{
+		"da"		"Du tabte med"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du tabte {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"da"		"Du har mestret 'daglig udfordring'! Prøv at slå den igen!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du vinder {1} {2}"
+	}
+	"You won"
+	{
+		"da"		"!!! DU VANDT !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du vandt {1} ({2})!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du vandt jackpotten med {1} {2}!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"da"		"Du vandt jackpotten med {1} {2} minus kasinoafgiften på {3} {4} ({5}%)."
+	}
+	"You won with"
+	{
+		"da"		"Du vandt med"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"da"		"Du vandt {1} kreditter med x{2}."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du vil tjene {1} {2} i morgen!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"da"		"Din indsats: {1} {2} - Chance: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Din indsats: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"da"		"Din nuværende vinderchance er ændret til {1}%"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du har tjent {1} kreditter for at dræbe {2}."
+	}
+	"admin"
+	{
+		"da"		"admin"
+	}
+	"and is limited"
+	{
+		"da"		"og er begrænset"
+	}
+	"and is unlimited"
+	{
+		"da"		"og er ubegrænset"
+	}
+	"arms"
+	{
+		"da"		"hænder"
+	}
+	"assist a kill"
+	{
+		"da"		"assistér et drab"
+	}
+	"attachment"
+	{
+		"da"		"Vedhæftning"
+	}
+	"backstab kill"
+	{
+		"da"		"backstab kill"
+	}
+	"be the MVP"
+	{
+		"da"		"være MVP"
+	}
+	"bet x"
+	{
+		"da"		"indsats x"
+	}
+	"blackjack"
+	{
+		"da"		"Blackjack"
+	}
+	"bomb defused"
+	{
+		"da"		"bombe desarmeret"
+	}
+	"bomb explode"
+	{
+		"da"		"bomben eksploderer"
+	}
+	"bomb planted"
+	{
+		"da"		"bombe plantet"
+	}
+	"bombtweak"
+	{
+		"da"		"Bombenjustering"
+	}
+	"bullet_impact"
+	{
+		"da"		"Skudimpact"
+	}
+	"bulletsparks"
+	{
+		"da"		"Projektildråber"
+	}
+	"bunnyhob"
+	{
+		"da"		"Kaninhop"
+	}
+	"bunnyhop"
+	{
+		"da"		"færdighed"
+	}
+	"casino"
+	{
+		"da"		"Casino"
+	}
+	"coinflip"
+	{
+		"da"		"Møntflip"
+	}
+	"command"
+	{
+		"da"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"da"		"Vil du nulstille konfigurationen?\nKortet vil blive genindlæst om {1} sekunder!"
+	}
+	"confirm_reload_type_1"
+	{
+		"da"		"Vil du nulstille konfigurationen?\nDu skal ændre kortet for at anvende ændringerne, ellers kan der opstå fejl."
+	}
+	"connect"
+	{
+		"da"		"Connect Besked"
+	}
+	"crash"
+	{
+		"da"		"Crash"
+	}
+	"creditstoplist"
+	{
+		"da"		"kreditter"
+	}
+	"crowns"
+	{
+		"da"		"Krone Slot"
+	}
+	"daily"
+	{
+		"da"		"Daglig bonus"
+	}
+	"decoy grenade kill"
+	{
+		"da"		"decoy granat kill"
+	}
+	"dice"
+	{
+		"da"		"Terning"
+	}
+	"direction"
+	{
+		"da"		"Retning"
+	}
+	"discount"
+	{
+		"da"		"UDSALG"
+	}
+	"distance"
+	{
+		"da"		"Afdstand"
+	}
+	"dmgtext"
+	{
+		"da"		"Maler"
+	}
+	"emote"
+	{
+		"da"		"Emote"
+	}
+	"escape as VIP"
+	{
+		"da"		"Flygt som VIP"
+	}
+	"flashbang kill"
+	{
+		"da"		"flashbang kill"
+	}
+	"flashlight"
+	{
+		"da"		"Lommelygte"
+	}
+	"froggyjump"
+	{
+		"da"		"Frø Hop"
+	}
+	"gloves"
+	{
+		"da"		"handsker"
+	}
+	"glow"
+	{
+		"da"		"glød"
+	}
+	"godmode"
+	{
+		"da"		"gudemode"
+	}
+	"gravity"
+	{
+		"da"		"evne"
+	}
+	"grenademodel"
+	{
+		"da"		"Granatmodel"
+	}
+	"grenadeskin"
+	{
+		"da"		"granat skin"
+	}
+	"grenadetrail"
+	{
+		"da"		"granat spor"
+	}
+	"hat"
+	{
+		"da"		"hue"
+	}
+	"headshot"
+	{
+		"da"		"headshot"
+	}
+	"health"
+	{
+		"da"		"pakke"
+	}
+	"high or low"
+	{
+		"da"		"Højere eller lavere"
+	}
+	"hiteff"
+	{
+		"da"		"hit eff:"
+	}
+	"hitsound"
+	{
+		"da"		"Slagslyd"
+	}
+	"hostage rescued"
+	{
+		"da"		"gidseltagende reddet"
+	}
+	"hunterjump"
+	{
+		"da"		"Jæger Hop"
+	}
+	"idle on the server"
+	{
+		"da"		"inaktiv på serveren"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"da"		"i {1}."
+	}
+	"infinityammo"
+	{
+		"da"		"Uendelige patroner"
+	}
+	"info"
+	{
+		"da"		"Info Panel"
+	}
+	"instabomb"
+	{
+		"da"		"Instant plante / defuse"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"da"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"da"		"evne"
+	}
+	"items"
+	{
+		"da"		"Genstande"
+	}
+	"jackpot"
+	{
+		"da"		"Jackpot"
+	}
+	"jetpack"
+	{
+		"da"		"raket"
+	}
+	"jihad"
+	{
+		"da"		"bombe"
+	}
+	"kill"
+	{
+		"da"		"dræbe"
+	}
+	"kill the VIP"
+	{
+		"da"		"dræb VIP"
+	}
+	"kill yourself"
+	{
+		"da"		"dræb dig selv"
+	}
+	"killeff"
+	{
+		"da"		"dræb eff:"
+	}
+	"knife"
+	{
+		"da"		"kniv"
+	}
+	"knife kill"
+	{
+		"da"		"knife kill"
+	}
+	"laserdraw"
+	{
+		"da"		"laser draw:"
+	}
+	"laserpointer"
+	{
+		"da"		"Laserpeger"
+	}
+	"lasersight"
+	{
+		"da"		"laser sigte"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"da"		"sidste opdatering {1} siden"
+	}
+	"light"
+	{
+		"da"		"Lys"
+	}
+	"lootbox"
+	{
+		"da"		"Lootbox"
+	}
+	"mirror"
+	{
+		"da"		"spejl"
+	}
+	"molotov kill"
+	{
+		"da"		"molotov dræbe"
+	}
+	"msgcolor"
+	{
+		"da"		"beskedfarve"
+	}
+	"mvp_sound"
+	{
+		"da"		"MVP hymner"
+	}
+	"namecolor"
+	{
+		"da"		"navnfarve"
+	}
+	"nametag"
+	{
+		"da"		"navneskilt"
+	}
+	"nearest"
+	{
+		"da"		"Nærmeste"
+	}
+	"nodiscount"
+	{
+		"da"		" "
+	}
+	"noduckdelay"
+	{
+		"da"		"Intet forsinkelse ved ducking"
+	}
+	"nofalldamage"
+	{
+		"da"		"Intet faldskader"
+	}
+	"noreload"
+	{
+		"da"		"Intet genindlæsning"
+	}
+	"noscope kill"
+	{
+		"da"		"noscope dræbe"
+	}
+	"noselfdamage"
+	{
+		"da"		"Ingen selvskade"
+	}
+	"or use buttons below"
+	{
+		"da"		"eller brug knapperne nedenfor"
+	}
+	"package"
+	{
+		"da"		"pakke"
+	}
+	"paintball"
+	{
+		"da"		"projektiler"
+	}
+	"painter"
+	{
+		"da"		"Maler"
+	}
+	"parachute"
+	{
+		"da"		"Fallskærm"
+	}
+	"particle"
+	{
+		"da"		"Partikler"
+	}
+	"pet"
+	{
+		"da"		"husdyr"
+	}
+	"playerskin"
+	{
+		"da"		"spiller skin"
+	}
+	"playing on the server"
+	{
+		"da"		"spiller på serveren"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"da"		"Spillede på vores server i {1} dage i træk"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"da"		"Du vil modtage {1} ved næste spawn"
+	}
+	"respawn"
+	{
+		"da"		"Respawn"
+	}
+	"roulette"
+	{
+		"da"		"Roulette"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du har nået maksimalt antal brug af lydeffekter. {1} maksimalt antal brug pr. kort"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du har nået maksimalt antal brug af lydeffekter. {1} maksimalt antal brug pr. runde"
+	}
+	"saysound"
+	{
+		"da"		"sig lyd"
+	}
+	"scoreboardtag"
+	{
+		"da"		"Scoreboard tag"
+	}
+	"smokegrenade kill"
+	{
+		"da"		"smokegrenade kill"
+	}
+	"sound"
+	{
+		"da"		"lyd"
+	}
+	"spawn"
+	{
+		"da"		"Ekstra respawn"
+	}
+	"spawneff"
+	{
+		"da"		"spawn eff:"
+	}
+	"speed"
+	{
+		"da"		"evne"
+	}
+	"spray"
+	{
+		"da"		"sprøjt"
+	}
+	"start daily challange"
+	{
+		"da"		"Start 'daglig udfordring'. Spil de næste 6 dage for at modtage fuld bonus"
+	}
+	"taser kill"
+	{
+		"da"		"taser kill"
+	}
+	"teambet"
+	{
+		"da"		"TeamBet"
+	}
+	"teamkill"
+	{
+		"da"		"teamkill"
+	}
+	"tfhat"
+	{
+		"da"		"bygning hat"
+	}
+	"tfhatdye"
+	{
+		"da"		"hatt farve"
+	}
+	"tfhead"
+	{
+		"da"		"hovedstørrelse"
+	}
+	"tfunusual"
+	{
+		"da"		"hueffekt"
+	}
+	"tfweapon"
+	{
+		"da"		"brugerdefineret våben"
+	}
+	"tfweaponsize"
+	{
+		"da"		"våben størrelse"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"da"		"Præmien vil blive trukket om {1} sekunder"
+	}
+	"thirdperson"
+	{
+		"da"		"tredjeperson"
+	}
+	"throwknife"
+	{
+		"da"		"Kast kniv"
+	}
+	"toplists"
+	{
+		"da"		"Toplister"
+	}
+	"tracer"
+	{
+		"da"		"sporingslinje"
+	}
+	"trail"
+	{
+		"da"		"spor"
+	}
+	"wasted"
+	{
+		"da"		"tabt"
+	}
+	"watergun"
+	{
+		"da"		"effekt"
+	}
+	"weapon"
+	{
+		"da"		"våben"
+	}
+	"weaponcolor"
+	{
+		"da"		"våbenfarve"
+	}
+	"weaponmodel"
+	{
+		"da"		"Våbenmodel"
+	}
+	"weaponskin"
+	{
+		"da"		"våbenhud"
+	}
+	"win the round"
+	{
+		"da"		"vinde runden"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"da"		"{1} {2} for '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"da"		"{1} timer {2} minutter og {3} sekunder"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"da"		"{1} time(r) {2} minut(ter) og {3} sekund(er)"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"da"		"{1} minutter og {2} sekunder"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"da"		"{1} minut(ter) og {2} sekund(er)"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"da"		"{1} sekunder"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"da"		"{1} sekund(er)"
+	}
+	"zrclass"
+	{
+		"da"		"spiller klasse"
+	}
+}

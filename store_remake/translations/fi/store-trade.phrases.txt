@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"fi"		"Peruuta kauppa"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"fi"		"Haluatko tarjota {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"fi"		"Haluatko vaihtaa {1} {2}?"
+	}
+	"Offer"
+	{
+		"fi"		"Tarjoa esine"
+	}
+	"Offer item"
+	{
+		"fi"		"Tarjoa tätä esinettä"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Kumppanisi tarjoaa {1} krediittiä"
+	}
+	"Partner Item Offer"
+	{
+		"fi"		"Kumppanisi tarjoaa seuraavat esineet:"
+	}
+	"Partner Not Ready"
+	{
+		"fi"		"Kumppanisi ei ole vielä valmis."
+	}
+	"Partner Ready"
+	{
+		"fi"		"Kumppanisi on valmis."
+	}
+	"Player Left"
+	{
+		"fi"		"Pelaaja, jonka kanssa halusit tehdä kauppaa, on poistunut pelistä."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Valmis [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Kauppa päättyy {1} sekunnin sisällä..."
+	}
+	"Trade Active"
+	{
+		"fi"		"Olet jo kaupankäynnissä."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"fi"		"Haluatko käydä kauppaa {1} kanssa?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"fi"		"Haluatko peruuttaa kaupan?"
+	}
+	"Trade Cooldown"
+	{
+		"fi"		"Odota muutama minuutti ennen kaupankäyntiä uudelleen."
+	}
+	"Trade Menu"
+	{
+		"fi"		"Avaa kauppavalikko uudelleen kirjoittamalla !trade."
+	}
+	"Trade Not Active"
+	{
+		"fi"		"Et käy kauppaa."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"fi"		"Kumppanisi peruutti kaupan."
+	}
+	"Trade Select Player"
+	{
+		"fi"		"Valitse pelaaja kaupankäyntiin"
+	}
+	"Trade Successful"
+	{
+		"fi"		"Kauppa suoritettiin onnistuneesti."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"fi"		"Käyt kauppaa käyttäjän {1} kanssa\n-----------------------------\nTarjotaksesi krediittejä, kirjoita !offer <amount>\nOlet tarjonnut {2} krediittiä"
+	}
+	"Trade item"
+	{
+		"fi"		"Vaihda tämä esine"
+	}
+	"Waiting for confirmation"
+	{
+		"fi"		"Ole hyvä ja odota valitun pelaajan vastausta."
+	}
+}

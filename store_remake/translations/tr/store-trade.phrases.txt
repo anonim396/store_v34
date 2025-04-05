@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"tr"		"Takas iptal"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"tr"		"{1} {2} 'yı teklif etmek ister misiniz?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"tr"		"{1} {2} 'yı takas etmek ister misiniz?"
+	}
+	"Offer"
+	{
+		"tr"		"Bir öğe teklif et"
+	}
+	"Offer item"
+	{
+		"tr"		"Bu öğeyi teklif et"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Ortak partneriniz {1} kredi(leri) sunuyor."
+	}
+	"Partner Item Offer"
+	{
+		"tr"		"Ortak partneriniz aşağıdaki öğeleri sunuyor:"
+	}
+	"Partner Not Ready"
+	{
+		"tr"		"Ortak partneriniz henüz hazır değil."
+	}
+	"Partner Ready"
+	{
+		"tr"		"Ortak partneriniz hazır."
+	}
+	"Player Left"
+	{
+		"tr"		"Takas yapmak istediğiniz oyuncu oyundan ayrıldı."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Hazır [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Takas {1} saniye içinde sona erecek..."
+	}
+	"Trade Active"
+	{
+		"tr"		"Zaten takas yapıyorsunuz."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"tr"		"{1} ile takas yapmak ister misiniz?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"tr"		"Takas işlemini iptal etmek ister misiniz?"
+	}
+	"Trade Cooldown"
+	{
+		"tr"		"Lütfen tekrar takas yapmadan önce birkaç dakika bekleyin."
+	}
+	"Trade Menu"
+	{
+		"tr"		"Takas menüsünü tekrar açmak için !trade yazın."
+	}
+	"Trade Not Active"
+	{
+		"tr"		"Takas yapmıyorsunuz."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"tr"		"Takas ortağınız işlemi iptal etti."
+	}
+	"Trade Select Player"
+	{
+		"tr"		"Takas yapmak için bir oyuncu seçin"
+	}
+	"Trade Successful"
+	{
+		"tr"		"Takas başarıyla tamamlandı."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"tr"		"{1} ile takas yapıyorsunuz\n-----------------------------\nKredi teklif etmek için !offer <amount> yazın\n{2} kredi teklif ettiniz"
+	}
+	"Trade item"
+	{
+		"tr"		"Bu öğeyi takas et"
+	}
+	"Waiting for confirmation"
+	{
+		"tr"		"Lütfen seçilen oyuncudan gelen cevabı bekleyin."
+	}
+}

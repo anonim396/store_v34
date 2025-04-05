@@ -1,0 +1,2282 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"he"		"{1}21 !!! בלאקג'ק !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"he"		"אתה כבר טעינת את הקונפיגורציה. אנא שנה או טען מחדש את המפה."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"כל השחקנים המשתתפים מתנתקים, אף אחד לא מקבל את ה{2} שלו בחזרה, חחח. ג'קפוט היה {1} {2}!"
+	}
+	"All valid voucher"
+	{
+		"he"		"כל הקופונים שנוצרו והם תקפים הם:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"he"		"ניצחת, אך כבר יש לך את {1} ({2}). הפריט נמכר ב-{3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"he"		"אתה כבר בעל {1} ({2}). קיבלת חזרה {3} {4}"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"he"		"כמות: {1}"
+	}
+	"Aura"
+	{
+		"he"		"אורה:"
+	}
+	"Back"
+	{
+		"he"		"חזור"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"he"		"הימור * מכפיל = הזכייה שלך"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"he"		"קרדיטים בונוס: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"פוט CT זכה: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"he"		"הימור מקסימלי ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"he"		"הימור מינימום ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"he"		"הימור אקראי ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"פוט T זכה: {1} {2}"
+	}
+	"Bet on"
+	{
+		"he"		"הימור על"
+	}
+	"Bet on a Head/Tail"
+	{
+		"he"		"הימור על ראש/זנב"
+	}
+	"Bet on a color"
+	{
+		"he"		"הימור על צבע ואם הצבע הזה נבחר אתה מנצח!"
+	}
+	"Bet on a number"
+	{
+		"he"		"הימור על נמוך (#1-3), גבוה (#4-6) או מספר מדויק. אם הבחירה שלך התקבלה, אתה מנצח!"
+	}
+	"Bet on a team"
+	{
+		"he"		"הימור על קבוצה ואם הקבוצה מנצחת את הסיבוב אתה מנצח!"
+	}
+	"Betting Already Placed"
+	{
+		"he"		"כבר הנחת את ההימור שלך לסיבוב הזה."
+	}
+	"Betting Invalid Team"
+	{
+		"he"		"זוהה מזהה קבוצה לא חוקי."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"he"		"הפסדת {1} קרדיטים בהימור."
+	}
+	"Betting Period Over"
+	{
+		"he"		"התקופה להימורים הסתיימה בסיבוב הזה."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"he"		"הצלחת להניח הימור של {1} קרדיטים."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"he"		"ההימור שלך היה מוצלח. זכית ב-{1} קרדיטים."
+	}
+	"Black"
+	{
+		"he"		"שחור"
+	}
+	"Blackjack Info 1"
+	{
+		"he"		"Blackjack הוא משחק שבו ערך הקלפים בידך חייב להיות גבוה יותר מזה של הדילר מבלי לעבור 21."
+	}
+	"Blackjack Info 2"
+	{
+		"he"		"חוקי ספירה:\n- כרטיס \"A\" יכול להיספר כ-1/11. אם ערך היד עובר את 21, כרטיס זה חייב להיספר כ-1."
+	}
+	"Blackjack Info 3"
+	{
+		"he"		"- \"10, J, Q, K\": נחשבים כ-10.\n- 2-9 נחשבים לפי הערך המופיע עליהם."
+	}
+	"Blackjack Info 4"
+	{
+		"he"		"- הערך של היד שלך צריך להיות קרוב יותר ל-21 מבלי לעבור אותה, ולהיות גבוה יותר מידי הדילר על מנת לנצח במשחק.\n- \"A\" + כרטיס בעל ערך 10 = בלאקג'ק. זו ניצחון מיידי."
+	}
+	"Buy"
+	{
+		"he"		"קנה פריט"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"he"		"קנה פריט ({1})"
+	}
+	"CP Changed color"
+	{
+		"he"		"שינית את הצבע שלך ל: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"he"		"אופציית צבע תג הצ'אט"
+	}
+	"CP Disable Color - Menu"
+	{
+		"he"		"בטל צבע"
+	}
+	"CP Disabled Color"
+	{
+		"he"		"צבע תג מותאם אישית מושבת."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"he"		"אין לך תג שם מצויד"
+	}
+	"CP No file found"
+	{
+		"he"		"צבע התג המותאם אישית עבור המשתמש הושבת. אנא צור קשר עם מנהל למידע נוסף."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"he"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"he"		"הצגת תצוגה מקדימה של תג הלוח, נא לחץ על מקש TAB."
+	}
+	"Cancel"
+	{
+		"he"		"בטל"
+	}
+	"Cant be bought"
+	{
+		"he"		"הפריט הזה לא ניתן לרכישה"
+	}
+	"Cash out"
+	{
+		"he"		"החזר"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"שנה את ההימור שלך: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"he"		"קנית {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"he"		"{1} שלח לך את {2} {3} כמתנה."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"he"		"שלחת ל-{1} את {2} {3} כמתנה."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"he"		"מכרת {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"he"		"פתחת קונטיינר ומצאת {1} אשראי!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"he"		"{1} פתח קונטיינר ומצא {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"he"		"{1} פתח קונטיינר ומצא {2} ({3})!"
+	}
+	"Check All Voucher"
+	{
+		"he"		"בדוק את כל הקופונים הזמינים והתקפים (רק למנהל)"
+	}
+	"Check Voucher"
+	{
+		"he"		"בדוק קופון"
+	}
+	"Check Your valid Voucher"
+	{
+		"he"		"בדוק את הקופון התקף והזמין שנוצר"
+	}
+	"Choose Number (1:6)"
+	{
+		"he"		"בחר מספר (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"he"		"משיכה אוטומטית:"
+	}
+	"Client Loadout Reset"
+	{
+		"he"		"הציוד שלך הותקן מחדש."
+	}
+	"Client valid voucher"
+	{
+		"he"		"הקופון שנוצר והתקף שלך הוא:\n "
+	}
+	"Close"
+	{
+		"he"		"סגור"
+	}
+	"ColoredSmoke"
+	{
+		"he"		"עשן צבעוני"
+	}
+	"Command is in-game only"
+	{
+		"he"		"אתה צריך להיות חי כדי להשתמש בפקודה הזאת."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"he"		"ההגדרה התעדכנה. אנא הפעל מחדש או שנה מפה."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"he"		"האם אתה בטוח שברצונך לקנות {1} {2}?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"he"		"האם אתה בטוח שברצונך להעניק {1} {2} ל-{3}?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"he"		"האם אתה בטוח שברצונך לשחרר את {1} {2} כמתנה?"
+	}
+	"Confirm_No"
+	{
+		"he"		"לא"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"he"		"האם אתה בטוח שברצונך למכור את {1} {2} עבור {3}?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"he"		"אתה בטוח שברצונך להמיר {1} ({2}) לקופון?\nאזהרה: אם הפריט בווקסיר יפוג לפני שננצל אותו.\nהקופון הזה יפוג."
+	}
+	"Confirm_Yes"
+	{
+		"he"		"כן"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"he"		"{1} נתן את התשובה הנכונה וזכה ב-{2} {3}!"
+	}
+	"Counter-Terrorist"
+	{
+		"he"		"נגד טרוריסטים"
+	}
+	"Crash Already Start"
+	{
+		"he"		"משחק קראש נמצא כרגע בהתקדמות. אנא חכה למשחק הבא."
+	}
+	"Crash Auto Off"
+	{
+		"he"		"כבוי"
+	}
+	"Crash Auto Off Panel"
+	{
+		"he"		"כבה את המשיכה האוטומטית"
+	}
+	"Crash Auto On"
+	{
+		"he"		"פועל"
+	}
+	"Crash Auto On Panel"
+	{
+		"he"		"הפעל את המשיכה האוטומטית"
+	}
+	"Crash Info 1"
+	{
+		"he"		"           מה זה/ איך לשחק: קראש"
+	}
+	"Crash Info 2"
+	{
+		"he"		"- Crash הוא משחק שבו שחקנים יכולים להמר על מכפיל, מכפיל זה קשור לכפיפה עולה שיכולה להתרסק בכל רגע."
+	}
+	"Crash Info 3"
+	{
+		"he"		"- המכפיל מתחיל מ-1.00x ואתה יכול למשוך בכל עת."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"he"		"- ערך ההימור המינימלי הוא {1} {2}. ערך ההימור המרבי הוא {3} {4}. ייתכן שהמגבלות האלה ישתנו עם הזמן."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"he"		"קלט שגוי (חייב להיות {1} או יותר)."
+	}
+	"Crash auto input"
+	{
+		"he"		"הקלד את ערך המשיכה האוטומטית בצ'אט"
+	}
+	"Crash auto input set"
+	{
+		"he"		"הוגדר משיכה אוטומטית של קרש"
+	}
+	"Crash set auto"
+	{
+		"he"		"צור ערך משיכה אוטומטי"
+	}
+	"Crash!"
+	{
+		"he"		"קראש!"
+	}
+	"Create Item Voucher"
+	{
+		"he"		"צור קופון פריט (רק למנהל)"
+	}
+	"Create Voucher"
+	{
+		"he"		"צור קופון"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"he"		"יצירת השובר נכשלה - צור קשר עם מנהל עם החותמת הזמן הבאה: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"he"		"העברת קרדיטים מופסקת בשרת הזה."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"he"		"אתה השארת {1} קרדיטים כמתנה."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"he"		"{2} שלח לך {1} קרדיטים."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"he"		"שלחת {1} קרדיטים ל-{2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"he"		"אין לך מספיק קרדיטים כדי ליצור הגרלה."
+	}
+	"Credit Invalid Amount"
+	{
+		"he"		"סכום לא חוקי של קרדיטים הוזן."
+	}
+	"Credit No Match"
+	{
+		"he"		"לא נמצא שחקן."
+	}
+	"Credit Not Enough"
+	{
+		"he"		"אין לך מספיק קרדיטים כדי לקנות את זה."
+	}
+	"Credit Too Many Matches"
+	{
+		"he"		"נמצא יותר מלקוח אחד."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"he"		"אין לך מספיק קרדיטים כדי ליצור קופון."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"he"		"הכנסת {1} אשראי על הריגת {2}."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"he"		"הכנסת {1} אשראי על המשחק בשרת."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"he"		"{1} קיבל {2} קרדיטים."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"he"		"זיכויים: {1}          קופה: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"he"		"כבוי"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"he"		"פעיל"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"he"		"[צליל נשק מותאם אישית]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"he"		"תפריט שליטה בעוצמת קול נשק מותאם אישית"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"he"		"עוצמה: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"he"		"צליל נשק מותאם אישית: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"he"		"צליל נשק מותאם אישית כבוי."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"he"		"צליל נשק מותאם אישית פועל."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"he"		"צליל נשק מותאם אישית פועל. עוצמה: {1}"
+	}
+	"CustomModel"
+	{
+		"he"		"דגם נשק מותאם אישית:"
+	}
+	"Damage the crate to open"
+	{
+		"he"		"פגע בקופסה כדי לפתוח אותה!"
+	}
+	"Dead heat"
+	{
+		"he"		"- תיקו -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"he"		"             סוחר     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"he"		"סוחר"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"he"		"הנחה: '{1}' פעילה! קניות מהנות!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"he"		"הנחה: '{1}' הסתיימה."
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"he"		"הנחה: '{1}' התחילה! קניות מהנות!"
+	}
+	"Double"
+	{
+		"he"		"כפול"
+	}
+	"Down"
+	{
+		"he"		"מטה"
+	}
+	"Down2"
+	{
+		"he"		"                      5 = מטה"
+	}
+	"Drop Gift"
+	{
+		"he"		"שחרר כמתנה"
+	}
+	"Edit Amount"
+	{
+		"he"		"ערוך כמות: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"he"		"אנא הזן את זמן התפוגה (בשניות) עבור הפריט בצ'אט!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"he"		"פורמט מספר לא חוקי. נא לנסות שוב."
+	}
+	"Enter custom amount"
+	{
+		"he"		"בבקשה הזן את הסכום המותאם אישית שלך בצ'אט!"
+	}
+	"Enter maximum value"
+	{
+		"he"		"בבקשה הזן את הערך המרבי של הקרדיטים בצ'אט!"
+	}
+	"Enter minimum value"
+	{
+		"he"		"אנא הזן את הערך המזערי של הקרדיטים בצ'אט!"
+	}
+	"Enter number of vouchers"
+	{
+		"he"		"אנא הזן את מספר הוואוצ'רים שברצונך ליצור בצ'אט!"
+	}
+	"Enter value of vouchers"
+	{
+		"he"		"אנא הזן את ערך הוואוצ'ר לרכישה בצ'אט!"
+	}
+	"Enter voucher code"
+	{
+		"he"		"בבקשה הזן את קוד השובר שלך בצ'אט!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"he"		"נמצאה שגיאה בהחזרת המחיר. אנא צור קשר עם המנהל"
+	}
+	"Exact #x  = "
+	{
+		"he"		"מדויק #x = "
+	}
+	"Exit"
+	{
+		"he"		"יציאה"
+	}
+	"Gained"
+	{
+		"he"		"מרוויח"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"he"		"מרוויח: {1} {2}"
+	}
+	"Game Info"
+	{
+		"he"		"מידע על המשחק"
+	}
+	"Game in progress"
+	{
+		"he"		"משחק ההימורים הנוכחי שלך בתהליך. אנא המתן עד שיסתיים"
+	}
+	"Get three on a kind"
+	{
+		"he"		"קבל שלושה מאותו סוג"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"he"		"איספת {1} קרדיטים."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"he"		"איספת {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"he"		"אין אף אחד שאתה יכול לשלוח לו את הפריט הזה."
+	}
+	"Gift Player Left"
+	{
+		"he"		"השחקן הנבחר כבר עזב את המשחק."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"he"		"{1} כדי לבצע הגרלה, השרת חייב להכיל לפחות {2} שחקנים."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"he"		"המנהל {1} פתח הגרלה עם <font color='#15fb00'>{2} קרדיטים"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"he"		"|| ההגרלה מתחילה בעוד {1} שניות ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"he"		"{1} {2} זכה בהגרלה עם {3} קרדיטים"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"he"		"{1}\n|| מנצח: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"he"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"he"		"געת למקסימום כמות של מצבי אלוהים שאתה יכול לקנות בסיבוב הזה."
+	}
+	"Godmode Wrong Team"
+	{
+		"he"		"אתה לא יכול להשתמש במצב אלוהים בקבוצה הזו."
+	}
+	"Green"
+	{
+		"he"		"ירוק"
+	}
+	"HE grenade kill"
+	{
+		"he"		"הרוג עם רימון HE"
+	}
+	"HUD"
+	{
+		"he"		"HUD"
+	}
+	"Head"
+	{
+		"he"		"ראש"
+	}
+	"Health Round Limit"
+	{
+		"he"		"געת למקסימום כמות חבילות הבריאות שאתה יכול לקנות בסיבוב הזה."
+	}
+	"Help_Back"
+	{
+		"he"		"חזור"
+	}
+	"Help_Exit"
+	{
+		"he"		"יציאה"
+	}
+	"Hide bullet sparks"
+	{
+		"he"		"הסתר ניצוצות כדור"
+	}
+	"Hide bullet tracer"
+	{
+		"he"		"הסתר עקבות כדור"
+	}
+	"Hide gloves"
+	{
+		"he"		"הסתר כפפות"
+	}
+	"Hide paintball"
+	{
+		"he"		"הסתר כדורי צבע"
+	}
+	"Hide particles"
+	{
+		"he"		"הסתר חלקיקים"
+	}
+	"Hide pets"
+	{
+		"he"		"הסתר חיות מחמד"
+	}
+	"Hide trails"
+	{
+		"he"		"הסתר עקבות"
+	}
+	"High #4-6"
+	{
+		"he"		"גבוה #4-6"
+	}
+	"High #4-6 = "
+	{
+		"he"		"גבוה #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"he"		"גבוה - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"he"		"גָּבוֹהַ"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"he"		"המספר הנבחר הוא: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"he"		"המספר הבא היה: {1}"
+	}
+	"Hit"
+	{
+		"he"		"מכה"
+	}
+	"Hol Info 1"
+	{
+		"he"		"נבחר מספר בין {1} ל-{2} כדי שתנחש אם המספר הבא יהיה גבוה יותר או נמוך יותר מהמספר שנבחר."
+	}
+	"Hol Info 2"
+	{
+		"he"		"אם תבחר את הנכון, תנצח פעמיים את ההימור שלך."
+	}
+	"Hol Info 3"
+	{
+		"he"		"יש הפסקה של {1} שנייה(ות) בין כל משחק."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"יצבת בהצלחה {1} {2}."
+	}
+	"Inventory"
+	{
+		"he"		"מלאי"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"he"		"בבקשה חכה. המלאי שלך עדיין לא טען."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"he"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"he"		"{1}"
+	}
+	"Item Equip"
+	{
+		"he"		"התקן את הפריט הזה"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"he"		"{1} [מצויד]"
+	}
+	"Item Gift"
+	{
+		"he"		"תן את הפריט הזה"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"he"		"{1} (בחר תוכנית)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"he"		"מכור עבור {1}"
+	}
+	"Item Unequip"
+	{
+		"he"		"הסר את הציוד הזה"
+	}
+	"Item Use"
+	{
+		"he"		"השתמש בפריט הזה"
+	}
+	"Item Voucher"
+	{
+		"he"		"צור קופון מהפריט"
+	}
+	"Item Voucher disabled"
+	{
+		"he"		"יצירת קופון עבור פריט כבוי כרגע."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"he"		"אתה המרת {1} ({2}) לקופון {3}."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"he"		"{1} מוסתר. לא תראה אותם יותר."
+	}
+	"Item not found"
+	{
+		"he"		"פריט לא נמצא"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"he"		"{1} גלוי שוב."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"he"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"he"		"הג'קפוט הושעה."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"Jackpot: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"he"		"הג'טפאק ריק"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"he"		"[Jetpack] דלק: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"he"		"הג'טפאק נטען מחדש"
+	}
+	"Jihad Failed"
+	{
+		"he"		"הפצצה שלך לא התפוצצה."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"he"		"הפצצה ג'האד {1} לא התפוצצה."
+	}
+	"Jihad Wrong Team"
+	{
+		"he"		"אתה לא יכול להשתמש בומבה בקבוצה הזו."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"he"		"{1} דקה(דקות) לפני שמתחיל הקראש."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"he"		"{1} שניה(שניות) לפני שמתחיל הקראש."
+	}
+	"LevelIcon"
+	{
+		"he"		"סמל רמה"
+	}
+	"Limited"
+	{
+		"he"		"מוגבל - שחקן אחד"
+	}
+	"Lootbox case is opening"
+	{
+		"he"		"אנא המתן עד שהקופסה הקודמת שלך תיפתח"
+	}
+	"Lootbox map ended"
+	{
+		"he"		"המפה הסתיימה. אנא המתן למפה הבאה"
+	}
+	"Lootbox round ended"
+	{
+		"he"		"הסיבוב הסתיים. אנא המתן לסיבוב הבא"
+	}
+	"Lootbox warm up"
+	{
+		"he"		"אתה לא יכול לפתוח במהלך חימום"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"he"		"אתה איבדת את רצף היום היומי שלך של {1} יום(ים)."
+	}
+	"Lost bet"
+	{
+		"he"		"נכשל! הפסדת את ההימור שלך"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"he"		"הפסדת את ההימור שלך, כי המספר הבא היה: {1}"
+	}
+	"Low #1-3"
+	{
+		"he"		"נמוך #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"he"		"נמוך #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"he"		"נמוך - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"he"		"נמוך"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"he"		"אנו זקוקים לפחות ל{1} שחקן/שחקנים"
+	}
+	"Must be Alive"
+	{
+		"he"		"אתה חייב להיות חי כדי להשתמש בזה."
+	}
+	"Must be dead"
+	{
+		"he"		"אתה חייב להיות מת כדי לשחק"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"he"		"מכפיל = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"he"		"לא קיים ג'קפוט פעיל"
+	}
+	"No active TeamBet"
+	{
+		"he"		"לא הונחו עדיין הימורי קבוצה"
+	}
+	"No have flag"
+	{
+		"he"		"אין לך גישה להשתמש בפקודה הזו."
+	}
+	"No matching color"
+	{
+		"he"		"לא נמצא צבע תואם, השתמש: r/אדום, b/שחור או g/ירוק"
+	}
+	"No pick up - back to you"
+	{
+		"he"		"אף אחד לא לקח את הקרדיטים שנפלו שלך. קיבלת אותם בחזרה."
+	}
+	"No pick up - removed"
+	{
+		"he"		"אף אחד לא לקח את הקרדיטים שנפלו שלך. הקרדיטים הוסרו."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"he"		"הזמן נגמר. התשובה הנכונה הייתה {1}."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"לאף אחד אחר אין כסף בכניסה לג'קפוט. אתה מקבל את ה{1} {2} שלך חזרה!"
+	}
+	"Not enough Credits"
+	{
+		"he"		"אין לך מספיק קרדיטים"
+	}
+	"Now run a giveaway"
+	{
+		"he"		"עכשיו מתקיים הגרלה, נסה שוב בעוד מספר שניות."
+	}
+	"Only number"
+	{
+		"he"		"אתה יכול להקליד רק מספרים..."
+	}
+	"Override Disabled"
+	{
+		"he"		"העור שלך לא תומך בכובעים. הכובע המצורף שלך יתכבה."
+	}
+	"Override Enabled"
+	{
+		"he"		"העור הנוכחי שלך לא תומך בכובעים. העור שלך ישתנה."
+	}
+	"Owned"
+	{
+		"he"		"[שייך]"
+	}
+	"Package Gift"
+	{
+		"he"		"הענק את החבילה הזו"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"he"		"מכור חבילה זו ב-{1}"
+	}
+	"Package Voucher"
+	{
+		"he"		"יצר קופון מהחבילה"
+	}
+	"Parachute Empty"
+	{
+		"he"		"המצנח ריק"
+	}
+	"Parachute Reloaded"
+	{
+		"he"		"המצנח מולא מחדש"
+	}
+	"Particles"
+	{
+		"he"		"חלקיקים:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"הנח {1} {2}"
+	}
+	"Play Preview"
+	{
+		"he"		"מנגן צליל תצוגה מקדימה עבורך."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"he"		"{1} יש לו {2} אשראי."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"he"		"{1} הוחזר."
+	}
+	"Player Skin module disabled"
+	{
+		"he"		"מודול המראה של השחקן בחנות מושבת כעת באופן זמני."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"he"		"{1} הוסיף {2} {3} לג'קפוט, הסיכוי הנוכחי שלו לזכות הוא: {4}% (ג'קפוט: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"he"		"{1} איבד {2} {3} ב-{4}."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"he"		"{1} פתח ג'קפוט עם {2} {3}. בצע Cash-in כדי לקחת את הכסף!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"he"		"{1} ניצח בג'קפוט עם {2} {3}!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"he"		"{1} זכה ב-{2} {3} ב-{4}."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"he"		"{1} זכה ב {2} {3} עם מכפיל של x{4} ב {5}."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"he"		"ההגדרות החדשות שלך ייושמו בהפעם הבאה שתתייצב."
+	}
+	"Press"
+	{
+		"he"		"הקש"
+	}
+	"Press to Start"
+	{
+		"he"		"לחץ כדי להתחיל!"
+	}
+	"Press to Stop"
+	{
+		"he"		"לחץ לעצור!"
+	}
+	"Preview Item"
+	{
+		"he"		"תצוגה מקדימה של פריט זה"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"he"		"מחיר: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"he"		"קנה קופון"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"he"		"מה המחיר של {1} {2} {3}? | פרס: {4} {5}"
+	}
+	"Red"
+	{
+		"he"		"אדום"
+	}
+	"Redeem Voucher"
+	{
+		"he"		"השתמש בקופון"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"הרץ מחדש {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"he"		"געת למקסימום מספר תחיית המתים שאתה יכול לקנות בסיבוב הזה."
+	}
+	"SQL Cooldown"
+	{
+		"he"		"מסיבות בטיחותיות אתה לא יכול להגיש מספר בקשות בפרק זמן קצר."
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"he"		"-------------- הצעות בתפריט חיפוש החנות --------------\n - כל הפריטים הקשורים יוצגו כאן\n - המחרוזת הנוכחית שאתה מחפש: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"he"		"המנצח השני לא נמצא יותר במשחק, ניסיון אחרון למצוא מנצח חדש."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"he"		"אתה צריך לחכות {1} שניות לפני שתנסה להשתמש בפקודה זו שוב."
+	}
+	"Show bullet sparks"
+	{
+		"he"		"הצג ניצוצות כדור"
+	}
+	"Show bullet tracer"
+	{
+		"he"		"הצג עקבות כדור"
+	}
+	"Show gloves"
+	{
+		"he"		"הצג כפפות"
+	}
+	"Show paintball"
+	{
+		"he"		"הצג כדורי צבע"
+	}
+	"Show particles"
+	{
+		"he"		"הצג חלקיקים"
+	}
+	"Show pets"
+	{
+		"he"		"הצג חיות מחמד"
+	}
+	"Show trails"
+	{
+		"he"		"הצג עקבות"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"he"		"אינך יכול להשתמש בערך קטן יותר מהערך המינימלי שלך ({1})"
+	}
+	"Spacer"
+	{
+		"he"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"he"		"הגנה מפני ספאם. אנא המתן {1} שניות."
+	}
+	"Spawn Preview"
+	{
+		"he"		"הוצגה תצוגה מקדימה. התצוגה המקדימה תיעלם תוך 45 שניות."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"he"		"הוצגה תצוגה מקדימה. התצוגה המקדימה תיעלם תוך {1} שניות."
+	}
+	"Start again from begin"
+	{
+		"he"		"אנא התחל שוב מההתחלה"
+	}
+	"Starting"
+	{
+		"he"		"מתחיל"
+	}
+	"Stay"
+	{
+		"he"		"עמוד"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"he"		"האם אתה בטוח שאתה רוצה לאפס את הציוד שלך? כל הפריטים יתפרקו."
+	}
+	"Successfully purchased voucher"
+	{
+		"he"		"הצלחת לרכוש שובר"
+	}
+	"TF Wrong Class"
+	{
+		"he"		"פריט זה היה מיועד לשימוש עם קטגוריית שחקן שונה."
+	}
+	"Tail"
+	{
+		"he"		"זנב"
+	}
+	"TeamBet Already Placed"
+	{
+		"he"		"כבר ביצעת את ההימור שלך לסיבוב הזה."
+	}
+	"TeamBet Invalid Team"
+	{
+		"he"		"צוין מזהה קבוצה לא חוקי."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"אתה הפסדת {1} {2} בהימור."
+	}
+	"TeamBet Period Over"
+	{
+		"he"		"תקופת ההימורים הסתיימה לסיבוב זה."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"he"		"הימרת בהצלחה {1} קרדיטים."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"ההימור שלך היה מוצלח. זכית ב-{1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"he"		"לא הייתה הימור על הקבוצה השנייה, אז קיבלת את הקרדיטים שלך בחזרה."
+	}
+	"Terrorist"
+	{
+		"he"		"טרוריסט"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"he"		"המספר הנבחר הוא: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"he"		"המספר הבא היה: {1}"
+	}
+	"This is the preview text"
+	{
+		"he"		"זהו טקסט ההצגה המקדימה."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"he"		"המנהל טען מחדש את הגדרת החנות. המפה תיטען מחדש בעוד {1} שניות!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"he"		"תפריט יצירת קופון פריט (רק למנהל).\n \nבחר את משך הזמן של הפריט."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"he"		"תפריט יצירת קופון פריט (רק למנהל)"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"he"		"קרדיטים: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"he"		"פג בתאריך {1}יום {2}שעה"
+	}
+	"Title Gift"
+	{
+		"he"		"בחר שחקן לשלוח לו מתנה"
+	}
+	"Title Store"
+	{
+		"he"		"תפריט החנות"
+	}
+	"To late chat input"
+	{
+		"he"		"הזנת הטקסט שלך לא הושלמה בזמן שניתן"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"he"		"יש יותר מידי {1} על הקרקע, אתה לא יכול להוריד עוד כרגע!"
+	}
+	"Top Credits"
+	{
+		"he"		"קרדיטים מובילים"
+	}
+	"Top Credits Inv Worth"
+	{
+		"he"		"קרדיטים מובילים + ערך מלאי"
+	}
+	"Top Inv Worth"
+	{
+		"he"		"ערך המלאי המוביל"
+	}
+	"Top Most Items"
+	{
+		"he"		"הפריטים הפופולריים ביותר"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"סך הכל: {1} {2}"
+	}
+	"Try again"
+	{
+		"he"		"נסה שוב"
+	}
+	"Type in chat !bet"
+	{
+		"he"		"כתוב בצ'אט !bet <הימור> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"he"		"כתוב בצ'אט !blackjack <הימור>"
+	}
+	"Type in chat !coinflip"
+	{
+		"he"		"כתוב בצ'אט !coinflip <הימור> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"he"		"כתוב בצ'אט !crash <הימור>"
+	}
+	"Type in chat !crowns"
+	{
+		"he"		"כתוב בצ'אט !crowns <הימור>"
+	}
+	"Type in chat !dice"
+	{
+		"he"		"כתוב בצ'אט !dice <הימור> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"he"		"כתוב בצ'אט !jackpot <הימור>"
+	}
+	"Type in chat !roulette"
+	{
+		"he"		"כתוב בצ'אט !roulette <הימור> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"he"		"לא מוגבל - מספר שחקנים"
+	}
+	"Up"
+	{
+		"he"		"למעלה"
+	}
+	"Value less than 1"
+	{
+		"he"		"אינך יכול להשתמש בערך קטן מ-1."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"he"		"העוצמה של {1} הוגדרה ל-{2}"
+	}
+	"Voucher Code 17 chars"
+	{
+		"he"		"כרגע קוד הקופון צריך להיות בדיוק 17 תווים"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"להשובר יש ערך של {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"he"		"הווצ'ר התקבל"
+	}
+	"Voucher accepted Panel"
+	{
+		"he"		"הווצ'ר התקבל"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"he"		"אתה יוצר {1} {2}קופון מוגבל{3} עם ערך {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"he"		"אתה יוצר {1} {2}קופון מוגבל{3} עם ערכים {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"he"		"קוד השובר שהוזן כבר מומש ב-{1}"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"he"		"תוקף השובר פג ב-{1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"he"		"קוד השובר שהוזן פג תוקפו ב-{1}"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"he"		"נוצר קופון חדש {1} עם ערך {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"he"		"ניתן למצוא את קוד השובר גם בצ'אט ובקונסולה"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"he"		"קוד קופון: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"he"		"קוד השובר שהוזן '{1}' אינו תקף!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"he"		"השובר כולל {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"he"		"קוד השובר תקף"
+	}
+	"Vouchers"
+	{
+		"he"		"קופון"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"he"		"אתה צריך לחכות {1} עד למשימה היומית הבאה."
+	}
+	"Wait until next daily 2"
+	{
+		"he"		"אתה כבר עשית צ'ק אין היום. אנא חזור מחר."
+	}
+	"Win = "
+	{
+		"he"		"ניצחון = "
+	}
+	"Winner is not in game anymore"
+	{
+		"he"		"המנצח לא נמצא יותר במשחק, מנסים למצוא מנצח חדש."
+	}
+	"Wrong voucher code format"
+	{
+		"he"		"קוד השובר בפורמט שגוי. חייב להיות XXXXX-XXXXX-XXXXX"
+	}
+	"You"
+	{
+		"he"		"אתה"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"he"		"אתה כבר משכת {1} {2} לכספי הג'קפוט. סיכוי הזכייה הנוכחי: {3}%% ג'קפוט: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"he"		"אתה כבר הבעלים של פריט השובר שהוזן"
+	}
+	"You already redeemed Voucher"
+	{
+		"he"		"כבר מימשת את קוד השובר שהוזן"
+	}
+	"You can start a new Jackpot"
+	{
+		"he"		"אתה יכול להתחיל ג'קפוט חדש"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"he"		"אתה יכול להתחיל ג'קפוט חדש ב-{1}."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"אתה לא יכול להוציא כל כך הרבה קרדיטים (מקסימום: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"אתה אספת {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"he"		"אין לך הרשאה לגשת לזה."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"איבדת {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"he"		"לא הרווחת נקודות בסיבוב הזה."
+	}
+	"You earned this round"
+	{
+		"he"		"הרווחת את הסיבוב הזה:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"הרווחת {1} {2} עבור "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"הרווחת {1} {2} בסיבוב הזה"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"קיבלת {1} {2}."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"קיבלת {1} {2}."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"he"		"קיבלת {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"he"		"קיבלת {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"אתה חייב להוציא לפחות {1} {2}."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"אתה חייב להוציא לפחות {1} {2}."
+	}
+	"You haven't opened the box in given time"
+	{
+		"he"		"לא פתחת את הקופסה בזמן שניתן. קופסת השלל חזרה לארנק שלך"
+	}
+	"You lose"
+	{
+		"he"		"- הפסדת"
+	}
+	"You lost with"
+	{
+		"he"		"הפסדת עם"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"הפסדת {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"he"		"השתלטת על 'האתגר היומי'! נסה לנצח אותו שוב!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"זכית ב-{1} {2}"
+	}
+	"You won"
+	{
+		"he"		"!!! ניצחת !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"he"		"ניצחת את {1} ({2})!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"ניצחת את הג'קפוט עם {1} {2}!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"he"		"ניצחת את הג'קפוט עם {1} {2} בניכוי דמי הקזינו של {3} {4} ({5}%)!"
+	}
+	"You won with"
+	{
+		"he"		"ניצחת עם"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"he"		"נצחת {1} קרדיטים עם x{2}."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"אתה תסיים {1} {2} מחר!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"he"		"ההימור שלך: {1} {2} - סיכוי: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"ההימור שלך: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"he"		"הסיכוי שלך לזכות השתנה ל-{1}%"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"הרווחת {1} קרדיטים על הריגת {2}."
+	}
+	"admin"
+	{
+		"he"		"מנהלה"
+	}
+	"and is limited"
+	{
+		"he"		"והוא מוגבל"
+	}
+	"and is unlimited"
+	{
+		"he"		"והוא בלתי מוגבל"
+	}
+	"arms"
+	{
+		"he"		"זרועות"
+	}
+	"assist a kill"
+	{
+		"he"		"הסייע להרוג"
+	}
+	"attachment"
+	{
+		"he"		"התקן"
+	}
+	"backstab kill"
+	{
+		"he"		"הרוג בגב"
+	}
+	"be the MVP"
+	{
+		"he"		"היה ה-MVP"
+	}
+	"bet x"
+	{
+		"he"		"הימור x"
+	}
+	"blackjack"
+	{
+		"he"		"בלק ג'ק"
+	}
+	"bomb defused"
+	{
+		"he"		"הפצצה פוענחה"
+	}
+	"bomb explode"
+	{
+		"he"		"הפצצה התפוצצה"
+	}
+	"bomb planted"
+	{
+		"he"		"הפצצה הושמה"
+	}
+	"bombtweak"
+	{
+		"he"		"הגדרת פצצה"
+	}
+	"bullet_impact"
+	{
+		"he"		"פגיעת כדור"
+	}
+	"bulletsparks"
+	{
+		"he"		"סימני ירי"
+	}
+	"bunnyhob"
+	{
+		"he"		"קפיצת ארנב"
+	}
+	"bunnyhop"
+	{
+		"he"		"יכולת"
+	}
+	"casino"
+	{
+		"he"		"קזינו"
+	}
+	"coinflip"
+	{
+		"he"		"שלב מטבע"
+	}
+	"command"
+	{
+		"he"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"he"		"האם ברצונך לאפס את התצורה?\nהמפה תטען מחדש בעוד {1} שניות!"
+	}
+	"confirm_reload_type_1"
+	{
+		"he"		"האם ברצונך לאפס את התצורה?\nעליך לשנות את המפה כדי ליישם את השינויים או עשויים להתרחש באגים."
+	}
+	"connect"
+	{
+		"he"		"מסר חיבור"
+	}
+	"crash"
+	{
+		"he"		"קראש"
+	}
+	"creditstoplist"
+	{
+		"he"		"קרדיטים"
+	}
+	"crowns"
+	{
+		"he"		"סלוט של כתרים"
+	}
+	"daily"
+	{
+		"he"		"בונוס יומי"
+	}
+	"decoy grenade kill"
+	{
+		"he"		"הרוג עם רימון הפיתיון"
+	}
+	"dice"
+	{
+		"he"		"קוביה"
+	}
+	"direction"
+	{
+		"he"		"כיוון"
+	}
+	"discount"
+	{
+		"he"		"הנחה"
+	}
+	"distance"
+	{
+		"he"		"מרחק"
+	}
+	"dmgtext"
+	{
+		"he"		"צייר"
+	}
+	"emote"
+	{
+		"he"		"אמוט"
+	}
+	"escape as VIP"
+	{
+		"he"		"ברח כ-VIP"
+	}
+	"flashbang kill"
+	{
+		"he"		"הרוג עם רימון פלאש"
+	}
+	"flashlight"
+	{
+		"he"		"פנס"
+	}
+	"froggyjump"
+	{
+		"he"		"קפיצת צפרדע"
+	}
+	"gloves"
+	{
+		"he"		"כפפות"
+	}
+	"glow"
+	{
+		"he"		"זוהר"
+	}
+	"godmode"
+	{
+		"he"		"אלוהים"
+	}
+	"gravity"
+	{
+		"he"		"יכולת"
+	}
+	"grenademodel"
+	{
+		"he"		"מודל רימון"
+	}
+	"grenadeskin"
+	{
+		"he"		"עור רימון יד"
+	}
+	"grenadetrail"
+	{
+		"he"		"עקבות רימון יד"
+	}
+	"hat"
+	{
+		"he"		"כובע"
+	}
+	"headshot"
+	{
+		"he"		"הדף בראש"
+	}
+	"health"
+	{
+		"he"		"חבילה"
+	}
+	"high or low"
+	{
+		"he"		"גבוה או נמוך"
+	}
+	"hiteff"
+	{
+		"he"		"אפקט פגיעה:"
+	}
+	"hitsound"
+	{
+		"he"		"צליל פגיעה"
+	}
+	"hostage rescued"
+	{
+		"he"		"הרגעת את השבוי"
+	}
+	"hunterjump"
+	{
+		"he"		"קפיצת צייד"
+	}
+	"idle on the server"
+	{
+		"he"		"לא פעיל בשרת"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"he"		"ב-{1}."
+	}
+	"infinityammo"
+	{
+		"he"		"תחמושת אינסופית"
+	}
+	"info"
+	{
+		"he"		"לוח מידע"
+	}
+	"instabomb"
+	{
+		"he"		"הנחת / פיצוץ מיידי"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"he"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"he"		"יכולת"
+	}
+	"items"
+	{
+		"he"		"חפצים"
+	}
+	"jackpot"
+	{
+		"he"		"ג'קפוט"
+	}
+	"jetpack"
+	{
+		"he"		"חץ"
+	}
+	"jihad"
+	{
+		"he"		"בומבה"
+	}
+	"kill"
+	{
+		"he"		"הרוג"
+	}
+	"kill the VIP"
+	{
+		"he"		"הרוג את ה-VIP"
+	}
+	"kill yourself"
+	{
+		"he"		"הרוג את עצמך"
+	}
+	"killeff"
+	{
+		"he"		"אפקט הרג:"
+	}
+	"knife"
+	{
+		"he"		"סכין"
+	}
+	"knife kill"
+	{
+		"he"		"הרוג עם סכין"
+	}
+	"laserdraw"
+	{
+		"he"		"ציור לייזר:"
+	}
+	"laserpointer"
+	{
+		"he"		"מצביע לייזר"
+	}
+	"lasersight"
+	{
+		"he"		"כוונת לייזר"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"he"		"עדכון אחרון לפני {1}"
+	}
+	"light"
+	{
+		"he"		"אור"
+	}
+	"lootbox"
+	{
+		"he"		"קוראת שלל"
+	}
+	"mirror"
+	{
+		"he"		"הרכב"
+	}
+	"molotov kill"
+	{
+		"he"		"הרוג עם מולוטוב"
+	}
+	"msgcolor"
+	{
+		"he"		"צבע הודעה"
+	}
+	"mvp_sound"
+	{
+		"he"		"שירי MVP"
+	}
+	"namecolor"
+	{
+		"he"		"צבע שם"
+	}
+	"nametag"
+	{
+		"he"		"תווית שם"
+	}
+	"nearest"
+	{
+		"he"		"הקרוב ביותר"
+	}
+	"nodiscount"
+	{
+		"he"		" "
+	}
+	"noduckdelay"
+	{
+		"he"		"בלי עיכוב בקפיצה"
+	}
+	"nofalldamage"
+	{
+		"he"		"בלי נזק מנפילה"
+	}
+	"noreload"
+	{
+		"he"		"בלי טעינה מחדש"
+	}
+	"noscope kill"
+	{
+		"he"		"להרוג בלי סcope"
+	}
+	"noselfdamage"
+	{
+		"he"		"בלי נזק לעצמך"
+	}
+	"or use buttons below"
+	{
+		"he"		"או השתמש בכפתורים למטה"
+	}
+	"package"
+	{
+		"he"		"חבילה"
+	}
+	"paintball"
+	{
+		"he"		"קליעים"
+	}
+	"painter"
+	{
+		"he"		"צייר"
+	}
+	"parachute"
+	{
+		"he"		"הנפילה"
+	}
+	"particle"
+	{
+		"he"		"חלקיקים"
+	}
+	"pet"
+	{
+		"he"		"חיית מחמד"
+	}
+	"playerskin"
+	{
+		"he"		"עור דמות"
+	}
+	"playing on the server"
+	{
+		"he"		"שחק על השרת"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"he"		"שיחקת בשרת שלנו {1} ימים ברציפות"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"he"		"תצטרף ל{1} בהופעה הבאה"
+	}
+	"respawn"
+	{
+		"he"		"חזרה לחיים"
+	}
+	"roulette"
+	{
+		"he"		"רולטה"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"he"		"הגעת למקסימום השימושים של קול. {1} שימושים מקסימליים לכל מפה"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"he"		"הגעת למקסימום השימושים של קול. {1} שימושים מקסימליים לכל סיבוב"
+	}
+	"saysound"
+	{
+		"he"		"הגיד קול"
+	}
+	"scoreboardtag"
+	{
+		"he"		"תווית לוח ניקוד"
+	}
+	"smokegrenade kill"
+	{
+		"he"		"הרוג עם רימון עשן"
+	}
+	"sound"
+	{
+		"he"		"קול"
+	}
+	"spawn"
+	{
+		"he"		"חזרה לחיים נוספת"
+	}
+	"spawneff"
+	{
+		"he"		"אפקט ליד:"
+	}
+	"speed"
+	{
+		"he"		"יכולת"
+	}
+	"spray"
+	{
+		"he"		"ספראי"
+	}
+	"start daily challange"
+	{
+		"he"		"התחל את 'האתגר היומי'. שחק ב-6 הימים הקרובים כדי לקבל את הבונוס המלא"
+	}
+	"taser kill"
+	{
+		"he"		"הרוג עם טייזר"
+	}
+	"teambet"
+	{
+		"he"		"מהמרי קבוצה"
+	}
+	"teamkill"
+	{
+		"he"		"הרוג חבר צוות"
+	}
+	"tfhat"
+	{
+		"he"		"כובע בניין"
+	}
+	"tfhatdye"
+	{
+		"he"		"צביעת כובע"
+	}
+	"tfhead"
+	{
+		"he"		"גודל ראש"
+	}
+	"tfunusual"
+	{
+		"he"		"אפקט כובע"
+	}
+	"tfweapon"
+	{
+		"he"		"נשק מותאם אישית"
+	}
+	"tfweaponsize"
+	{
+		"he"		"גודל נשק"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"he"		"הפרס יוגרל ב-{1} שניות"
+	}
+	"thirdperson"
+	{
+		"he"		"שלישי"
+	}
+	"throwknife"
+	{
+		"he"		"זרוק סכין"
+	}
+	"toplists"
+	{
+		"he"		"רשימות למעלה"
+	}
+	"tracer"
+	{
+		"he"		"עקבות"
+	}
+	"trail"
+	{
+		"he"		"עקבות"
+	}
+	"wasted"
+	{
+		"he"		"הבזבז"
+	}
+	"watergun"
+	{
+		"he"		"אפקט"
+	}
+	"weapon"
+	{
+		"he"		"נשק"
+	}
+	"weaponcolor"
+	{
+		"he"		"צבע נשק"
+	}
+	"weaponmodel"
+	{
+		"he"		"דגם נשק"
+	}
+	"weaponskin"
+	{
+		"he"		"עור נשק"
+	}
+	"win the round"
+	{
+		"he"		"נצח את הסיבוב"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"he"		"{1} {2} עבור '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"he"		"{1} שעות {2} דקות ו {3} שניות"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"he"		"{1} שעה(ות) {2} דקה(ות) ו {3} שנייה(ות)"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"he"		"{1} דקות ו {2} שניות"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"he"		"{1} דקה(ות) ו {2} שנייה(ות)"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"he"		"{1} שניות"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"he"		"{1} שנייה(ות)"
+	}
+	"zrclass"
+	{
+		"he"		"קטגוריית שחקן"
+	}
+}

@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"es"		"Cancelar intercambio"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"es"		"¿Quieres ofrecer tu {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"es"		"¿Quieres intercambiar tu {1} {2}?"
+	}
+	"Offer"
+	{
+		"es"		"Ofrecer un artículo"
+	}
+	"Offer item"
+	{
+		"es"		"Ofrecer este artículo"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"es"		"Tu compañero ofrece {1} crédito(s)"
+	}
+	"Partner Item Offer"
+	{
+		"es"		"Tu compañero ofrece los siguientes artículos:"
+	}
+	"Partner Not Ready"
+	{
+		"es"		"Tu compañero aún no está listo."
+	}
+	"Partner Ready"
+	{
+		"es"		"Tu compañero está listo."
+	}
+	"Player Left"
+	{
+		"es"		"El jugador con el que querías intercambiar ha dejado el juego."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"es"		"Listo [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"es"		"El intercambio terminará en {1} segundo(s)..."
+	}
+	"Trade Active"
+	{
+		"es"		"Ya estás intercambiando."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"es"		"¿Quieres intercambiar con {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"es"		"¿Quieres cancelar el intercambio?"
+	}
+	"Trade Cooldown"
+	{
+		"es"		"Por favor, espera unos minutos antes de comerciar de nuevo."
+	}
+	"Trade Menu"
+	{
+		"es"		"Para reabrir el menú de intercambio, escribe !trade."
+	}
+	"Trade Not Active"
+	{
+		"es"		"No estás intercambiando."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"es"		"Tu compañero ha cancelado el intercambio."
+	}
+	"Trade Select Player"
+	{
+		"es"		"Selecciona un jugador para intercambiar"
+	}
+	"Trade Successful"
+	{
+		"es"		"El intercambio se ha realizado con éxito."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"es"		"Estás intercambiando con {1}\n-----------------------------\nPara ofrecer créditos, escribe !offer <cantidad>\nHas ofrecido {2} créditos"
+	}
+	"Trade item"
+	{
+		"es"		"Intercambiar este artículo"
+	}
+	"Waiting for confirmation"
+	{
+		"es"		"Por favor espera la respuesta del jugador seleccionado."
+	}
+}

@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"no"		"Avbryt handel"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"no"		"Vil du tilby din {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"no"		"Vil du bytte din {1} {2}?"
+	}
+	"Offer"
+	{
+		"no"		"Tilby en gjenstand"
+	}
+	"Offer item"
+	{
+		"no"		"Tilby dette elementet"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"no"		"Partneren din tilbyr {1} kreditt(er)"
+	}
+	"Partner Item Offer"
+	{
+		"no"		"Partneren din tilbyr følgende varer:"
+	}
+	"Partner Not Ready"
+	{
+		"no"		"Partneren din er ikke klar ennå."
+	}
+	"Partner Ready"
+	{
+		"no"		"Partneren din er klar."
+	}
+	"Player Left"
+	{
+		"no"		"Spilleren du ville handle med, har forlatt spillet."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"no"		"Klar [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"no"		"Handelen avsluttes om {1} sekund(er)..."
+	}
+	"Trade Active"
+	{
+		"no"		"Du handler allerede."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"no"		"Vil du handle med {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"no"		"Vil du avbryte handelen?"
+	}
+	"Trade Cooldown"
+	{
+		"no"		"Vennligst vent noen minutter før du handler igjen."
+	}
+	"Trade Menu"
+	{
+		"no"		"For å åpne handelsmenyen på nytt, skriv !trade."
+	}
+	"Trade Not Active"
+	{
+		"no"		"Du handler ikke."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"no"		"Din partner har avbrutt handelen."
+	}
+	"Trade Select Player"
+	{
+		"no"		"Velg en spiller å handle med"
+	}
+	"Trade Successful"
+	{
+		"no"		"Handelen ble fullført vellykket."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"no"		"Du handler med {1}\n-----------------------------\nFor å tilby kreditter, skriv !offer <amount>\nDu har tilbudt {2} kreditter"
+	}
+	"Trade item"
+	{
+		"no"		"Bytt dette elementet"
+	}
+	"Waiting for confirmation"
+	{
+		"no"		"Vennligst vent på svaret fra den valgte spilleren."
+	}
+}

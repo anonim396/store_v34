@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"nl"		"Annuleer ruil"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"nl"		"Wil je je {1} {2} aanbieden?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"nl"		"Wil je je {1} {2} ruilen?"
+	}
+	"Offer"
+	{
+		"nl"		"Bied een item aan"
+	}
+	"Offer item"
+	{
+		"nl"		"Bied dit item aan"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je partner biedt {1} krediet(ten) aan."
+	}
+	"Partner Item Offer"
+	{
+		"nl"		"Je partner biedt de volgende items aan:"
+	}
+	"Partner Not Ready"
+	{
+		"nl"		"Je partner is nog niet klaar."
+	}
+	"Partner Ready"
+	{
+		"nl"		"Je partner is klaar."
+	}
+	"Player Left"
+	{
+		"nl"		"De speler met wie je wilde handelen heeft het spel verlaten."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Klaar [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"nl"		"De handel eindigt over {1} seconde(n)..."
+	}
+	"Trade Active"
+	{
+		"nl"		"Je bent al aan het handelen."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"nl"		"Wil je handelen met {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"nl"		"Wil je de ruil annuleren?"
+	}
+	"Trade Cooldown"
+	{
+		"nl"		"Wacht alstublieft een paar minuten voordat u opnieuw handelt."
+	}
+	"Trade Menu"
+	{
+		"nl"		"Om het handelsmenu opnieuw te openen, typ !trade."
+	}
+	"Trade Not Active"
+	{
+		"nl"		"Je handelt niet."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"nl"		"Je partner heeft de ruil geannuleerd."
+	}
+	"Trade Select Player"
+	{
+		"nl"		"Selecteer een speler om mee te handelen"
+	}
+	"Trade Successful"
+	{
+		"nl"		"De ruil is succesvol afgerond."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"nl"		"Je handelt met {1}\n-----------------------------\nOm credits aan te bieden, typ !offer <amount>\nJe hebt {2} credits aangeboden"
+	}
+	"Trade item"
+	{
+		"nl"		"Ruil dit item"
+	}
+	"Waiting for confirmation"
+	{
+		"nl"		"Wacht alstublieft op het antwoord van de geselecteerde speler."
+	}
+}

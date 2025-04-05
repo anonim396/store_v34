@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"ro"		"Anulează schimbul"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ro"		"Vrei să oferi {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ro"		"Vrei să schimbi {1} {2}?"
+	}
+	"Offer"
+	{
+		"ro"		"Oferă un obiect"
+	}
+	"Offer item"
+	{
+		"ro"		"Oferă acest articol"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Partenerul tău oferă {1} credit(e)"
+	}
+	"Partner Item Offer"
+	{
+		"ro"		"Partenerul tău oferă următoarele obiecte:"
+	}
+	"Partner Not Ready"
+	{
+		"ro"		"Partenerul tău nu este încă pregătit."
+	}
+	"Partner Ready"
+	{
+		"ro"		"Partenerul tău este pregătit."
+	}
+	"Player Left"
+	{
+		"ro"		"Jucătorul cu care doreai să schimbi a părăsit jocul."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Pregătit [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Comerțul se va încheia în {1} secundă(e)..."
+	}
+	"Trade Active"
+	{
+		"ro"		"Deja faci un schimb."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"ro"		"Vrei să faci schimb cu {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"ro"		"Vrei să anulezi schimbul?"
+	}
+	"Trade Cooldown"
+	{
+		"ro"		"Vă rugăm să așteptați câteva minute înainte de a face din nou schimb."
+	}
+	"Trade Menu"
+	{
+		"ro"		"Pentru a redeschide meniul de schimb, scrie !trade."
+	}
+	"Trade Not Active"
+	{
+		"ro"		"Nu faci un schimb."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"ro"		"Partenerul tău a anulat schimbul."
+	}
+	"Trade Select Player"
+	{
+		"ro"		"Selectează un jucător pentru schimb"
+	}
+	"Trade Successful"
+	{
+		"ro"		"Schimbul s-a încheiat cu succes."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ro"		"Faci schimb cu {1}\n-----------------------------\nPentru a oferi credite, scrie !offer <amount>\nAi oferit {2} credite"
+	}
+	"Trade item"
+	{
+		"ro"		"Schimbă acest articol"
+	}
+	"Waiting for confirmation"
+	{
+		"ro"		"Te rog așteaptă răspunsul jucătorului selectat."
+	}
+}

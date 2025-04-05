@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"sv"		"Avbryt handel"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sv"		"Vill du erbjuda din {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sv"		"Vill du byta din {1} {2}?"
+	}
+	"Offer"
+	{
+		"sv"		"Erbjud en objekt"
+	}
+	"Offer item"
+	{
+		"sv"		"Erbjud detta föremål"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Din partner erbjuder {1} kredit(er)"
+	}
+	"Partner Item Offer"
+	{
+		"sv"		"Din partner erbjuder följande objekt:"
+	}
+	"Partner Not Ready"
+	{
+		"sv"		"Din partner är inte redo än."
+	}
+	"Partner Ready"
+	{
+		"sv"		"Din partner är redo."
+	}
+	"Player Left"
+	{
+		"sv"		"Spelaren du ville byta med har lämnat spelet."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Klar [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Handeln avslutas om {1} sekund(er)..."
+	}
+	"Trade Active"
+	{
+		"sv"		"Du byter redan."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"sv"		"Vill du byta med {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"sv"		"Vill du avbryta bytet?"
+	}
+	"Trade Cooldown"
+	{
+		"sv"		"Vänta några minuter innan du handlar igen."
+	}
+	"Trade Menu"
+	{
+		"sv"		"För att öppna handelsmenyn igen, skriv !trade."
+	}
+	"Trade Not Active"
+	{
+		"sv"		"Du byter inte."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"sv"		"Din partner har avbrutit bytet."
+	}
+	"Trade Select Player"
+	{
+		"sv"		"Välj en spelare att byta med"
+	}
+	"Trade Successful"
+	{
+		"sv"		"Bytet har slutförts framgångsrikt."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"sv"		"Du byter med {1}\n-----------------------------\nFör att erbjuda krediter, skriv !offer <amount>\nDu har erbjudit {2} krediter"
+	}
+	"Trade item"
+	{
+		"sv"		"Byt detta föremål"
+	}
+	"Waiting for confirmation"
+	{
+		"sv"		"Vänligen vänta på svaret från den valda spelaren."
+	}
+}

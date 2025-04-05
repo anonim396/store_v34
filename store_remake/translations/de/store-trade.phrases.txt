@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"de"		"Handel abbrechen"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"de"		"Möchtest du deinen {1} {2} anbieten?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"de"		"Möchtest du deinen {1} {2} tauschen?"
+	}
+	"Offer"
+	{
+		"de"		"Biete einen Gegenstand an"
+	}
+	"Offer item"
+	{
+		"de"		"Dieses Item anbieten"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"de"		"Dein Partner bietet {1} Kredit(e) an"
+	}
+	"Partner Item Offer"
+	{
+		"de"		"Dein Partner bietet die folgenden Gegenstände an:"
+	}
+	"Partner Not Ready"
+	{
+		"de"		"Dein Partner ist noch nicht bereit."
+	}
+	"Partner Ready"
+	{
+		"de"		"Dein Partner ist bereit."
+	}
+	"Player Left"
+	{
+		"de"		"Der Spieler, mit dem du handeln wolltest, hat das Spiel verlassen."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"de"		"Bereit [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"de"		"Der Handel endet in {1} Sekunde(n)..."
+	}
+	"Trade Active"
+	{
+		"de"		"Du handelst bereits."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"de"		"Möchtest du mit {1} handeln?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"de"		"Möchtest du den Handel abbrechen?"
+	}
+	"Trade Cooldown"
+	{
+		"de"		"Bitte warte ein paar Minuten, bevor du erneut handelst."
+	}
+	"Trade Menu"
+	{
+		"de"		"Um das Handelsmenü erneut zu öffnen, tippe !trade."
+	}
+	"Trade Not Active"
+	{
+		"de"		"Du handelst nicht."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"de"		"Dein Handelspartner hat den Handel abgebrochen."
+	}
+	"Trade Select Player"
+	{
+		"de"		"Wähle einen Spieler zum Handeln"
+	}
+	"Trade Successful"
+	{
+		"de"		"Der Handel wurde erfolgreich abgeschlossen."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"de"		"Du handelst mit {1}\n-----------------------------\nUm Credits anzubieten, gib !offer <amount> ein\nDu hast {2} Credits angeboten"
+	}
+	"Trade item"
+	{
+		"de"		"Dieses Item tauschen"
+	}
+	"Waiting for confirmation"
+	{
+		"de"		"Bitte warten Sie auf die Antwort des ausgewählten Spielers."
+	}
+}

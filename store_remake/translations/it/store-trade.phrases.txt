@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"it"		"Annulla lo scambio"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"it"		"Vuoi offrire il tuo {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"it"		"Vuoi scambiare il tuo {1} {2}?"
+	}
+	"Offer"
+	{
+		"it"		"Offri un oggetto"
+	}
+	"Offer item"
+	{
+		"it"		"Offri questo oggetto"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"it"		"Il tuo partner offre {1} credito(i)"
+	}
+	"Partner Item Offer"
+	{
+		"it"		"Il tuo partner offre i seguenti oggetti:"
+	}
+	"Partner Not Ready"
+	{
+		"it"		"Il tuo partner non è ancora pronto."
+	}
+	"Partner Ready"
+	{
+		"it"		"Il tuo partner è pronto."
+	}
+	"Player Left"
+	{
+		"it"		"Il giocatore con cui volevi fare lo scambio ha lasciato la partita."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"it"		"Pronto [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"it"		"Lo scambio terminerà in {1} secondo(i)..."
+	}
+	"Trade Active"
+	{
+		"it"		"Stai già scambiando."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"it"		"Vuoi scambiare con {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"it"		"Vuoi annullare lo scambio?"
+	}
+	"Trade Cooldown"
+	{
+		"it"		"Attendere alcuni minuti prima di scambiare di nuovo."
+	}
+	"Trade Menu"
+	{
+		"it"		"Per riaprire il menu scambio, digita !trade."
+	}
+	"Trade Not Active"
+	{
+		"it"		"Non stai scambiando."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"it"		"Il tuo partner ha annullato lo scambio."
+	}
+	"Trade Select Player"
+	{
+		"it"		"Seleziona un giocatore con cui scambiare"
+	}
+	"Trade Successful"
+	{
+		"it"		"Lo scambio è stato completato con successo."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"it"		"Stai scambiando con {1}\n-----------------------------\nPer offrire crediti, digita !offer <amount>\nHai offerto {2} crediti"
+	}
+	"Trade item"
+	{
+		"it"		"Scambia questo oggetto"
+	}
+	"Waiting for confirmation"
+	{
+		"it"		"Attendi la risposta del giocatore selezionato."
+	}
+}

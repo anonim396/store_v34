@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"pt_p"		"Cancelar negociação"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"pt_p"		"Você quer oferecer seu {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"pt_p"		"Você quer trocar seu {1} {2}?"
+	}
+	"Offer"
+	{
+		"pt_p"		"Oferecer um item"
+	}
+	"Offer item"
+	{
+		"pt_p"		"Ofereça este item"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"pt_p"		"Seu parceiro oferece {1} crédito(s)"
+	}
+	"Partner Item Offer"
+	{
+		"pt_p"		"Seu parceiro oferece os seguintes itens:"
+	}
+	"Partner Not Ready"
+	{
+		"pt_p"		"Seu parceiro ainda não está pronto."
+	}
+	"Partner Ready"
+	{
+		"pt_p"		"Seu parceiro está pronto."
+	}
+	"Player Left"
+	{
+		"pt_p"		"O jogador com quem você queria negociar saiu do jogo."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"pt_p"		"Pronto [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"pt_p"		"A negociação terminará em {1} segundo(s)..."
+	}
+	"Trade Active"
+	{
+		"pt_p"		"Você já está negociando."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"pt_p"		"Você quer negociar com {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"pt_p"		"Você quer cancelar a negociação?"
+	}
+	"Trade Cooldown"
+	{
+		"pt_p"		"Aguarde alguns minutos antes de negociar novamente."
+	}
+	"Trade Menu"
+	{
+		"pt_p"		"Para reabrir o menu de troca, digite !trade."
+	}
+	"Trade Not Active"
+	{
+		"pt_p"		"Você não está negociando."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"pt_p"		"Seu parceiro cancelou a negociação."
+	}
+	"Trade Select Player"
+	{
+		"pt_p"		"Selecione um jogador para negociar"
+	}
+	"Trade Successful"
+	{
+		"pt_p"		"A negociação foi concluída com sucesso."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"pt_p"		"Você está negociando com {1}\n-----------------------------\nPara oferecer créditos, digite !offer <quantidade>\nVocê ofereceu {2} créditos"
+	}
+	"Trade item"
+	{
+		"pt_p"		"Troque este item"
+	}
+	"Waiting for confirmation"
+	{
+		"pt_p"		"Por favor, aguarde a resposta do jogador selecionado."
+	}
+}

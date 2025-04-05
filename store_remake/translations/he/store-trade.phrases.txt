@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"he"		"בטל את החלפה"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"he"		"האם אתה רוצה להציע את {1} {2} שלך?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"he"		"האם אתה רוצה להחליף את {1} {2} שלך?"
+	}
+	"Offer"
+	{
+		"he"		"הצע פריט"
+	}
+	"Offer item"
+	{
+		"he"		"הצע פריט זה"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"he"		"השותף שלך מציע {1} אשראי"
+	}
+	"Partner Item Offer"
+	{
+		"he"		"השותף שלך מציע את הפריטים הבאים:"
+	}
+	"Partner Not Ready"
+	{
+		"he"		"השותף שלך עדיין לא מוכן."
+	}
+	"Partner Ready"
+	{
+		"he"		"השותף שלך מוכן."
+	}
+	"Player Left"
+	{
+		"he"		"השחקן שברצונך להחליף עימו עזב את המשחק."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"he"		"מוכן [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"he"		"המסחר יסתיים בעוד {1} שניות..."
+	}
+	"Trade Active"
+	{
+		"he"		"אתה כבר מבצע עסקה."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"he"		"האם תרצה לסחור עם {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"he"		"האם תרצה לבטל את העסקה?"
+	}
+	"Trade Cooldown"
+	{
+		"he"		"אנא המתן כמה דקות לפני מסחר חוזר."
+	}
+	"Trade Menu"
+	{
+		"he"		"כדי לפתוח מחדש את תפריט המסחר, כתוב !trade."
+	}
+	"Trade Not Active"
+	{
+		"he"		"אינך מבצע עסקה."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"he"		"השחקן השני ביטל את העסקה."
+	}
+	"Trade Select Player"
+	{
+		"he"		"בחר שחקן לסחור איתו"
+	}
+	"Trade Successful"
+	{
+		"he"		"המסחר הושלם בהצלחה."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"he"		"אתה סוחר עם {1}\n-----------------------------\nכדי להציע נקודות, הקלד !offer <amount>\nהצעת {2} נקודות"
+	}
+	"Trade item"
+	{
+		"he"		"סחור בפריט זה"
+	}
+	"Waiting for confirmation"
+	{
+		"he"		"אנא המתן לתשובת השחקן שנבחר."
+	}
+}

@@ -1,0 +1,2282 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1}21 !!! BLACKJACK !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Már újratöltötted a konfigurációt. Kérlek, változtass vagy töltsd újra a térképet."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Az összes résztvevő játékos leválik, senki sem kapja vissza a {2}-t, haha. A jackpot {1} {2} volt!"
+	}
+	"All valid voucher"
+	{
+		"hu"		"Az összes generált és érvényes kupon:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"hu"		"Nyertél, de már rendelkezel a(z) {1} ({2}). Az elem el lett adva {3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"hu"		"Ez már a tiéd {1} ({2}). Visszakaptad {3} {4}"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Összeg: {1}"
+	}
+	"Aura"
+	{
+		"hu"		"Aura:"
+	}
+	"Back"
+	{
+		"hu"		"Vissza"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"hu"		"Fogadás * Szorzó = A nyereményed"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Bónusz kreditek: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Pot CT nyer: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Maximális tét ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Minimális tét ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"hu"		"Véletlenszerű fogadás ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Pot T nyer: {1} {2}"
+	}
+	"Bet on"
+	{
+		"hu"		"Téte a"
+	}
+	"Bet on a Head/Tail"
+	{
+		"hu"		"Fogadj fej/farok"
+	}
+	"Bet on a color"
+	{
+		"hu"		"Fogadj egy színre, és ha ezt a színt választják, nyersz!"
+	}
+	"Bet on a number"
+	{
+		"hu"		"Fogadj alacsonyra (#1-3), magasra (#4-6) vagy egy pontos számra. Ha a választásod dobásra kerül, nyersz!"
+	}
+	"Bet on a team"
+	{
+		"hu"		"Fogadj egy csapatra, és ha a csapat megnyeri a kört, nyersz!"
+	}
+	"Betting Already Placed"
+	{
+		"hu"		"Ebben a körben már fogadtál."
+	}
+	"Betting Invalid Team"
+	{
+		"hu"		"Helytelen csapat azonosító."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} kreditet vesztettél a fogadáson."
+	}
+	"Betting Period Over"
+	{
+		"hu"		"Ebben a körben már nem fogadhatsz."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Sikeresen fogadtál {1} kredit értékben."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Sikeres volt a fogadásod. Nyertél {1} kreditet."
+	}
+	"Black"
+	{
+		"hu"		"fekete"
+	}
+	"Blackjack Info 1"
+	{
+		"hu"		"A Blackjack egy olyan játék, ahol a kezében lévő kártyák összértékének nagyobbnak kell lennie, mint a dealeré, anélkül hogy meghaladná a 21-et."
+	}
+	"Blackjack Info 2"
+	{
+		"hu"		"Számolási szabályok:\n- Az \"A\" kártyát 1/11-ként is számolhatjuk. Ha a kéz értéke meghaladja a 21-et, akkor ezt a kártyát 1-ként kell számolni."
+	}
+	"Blackjack Info 3"
+	{
+		"hu"		"- \"10, J, Q, K\": Értékük 10-ként számít.\n- 2-9 A kártyák tényleges értékükként számítanak."
+	}
+	"Blackjack Info 4"
+	{
+		"hu"		"- A kezde értékének közelebb kell lennie a 21-hez anélkül, hogy meghaladná, és magasabbnak kell lennie, mint az osztó kezének, hogy megnyerje a játékot.\n- \"A\" + 10-es értékű kártya = BlackJack. Ez az azonnali győzelem."
+	}
+	"Buy"
+	{
+		"hu"		"Vásárolj tárgyat"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Vásárolj tárgyat ({1})"
+	}
+	"CP Changed color"
+	{
+		"hu"		"Meghatároztad a színt: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"hu"		"Chat címke szín beállítás"
+	}
+	"CP Disable Color - Menu"
+	{
+		"hu"		"Szín kikapcsolása"
+	}
+	"CP Disabled Color"
+	{
+		"hu"		"Egyéni címke szín letiltva."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"hu"		"Nincs névtábla felszerelve"
+	}
+	"CP No file found"
+	{
+		"hu"		"A felhasználó egyedi címke színe le lett tiltva. Kérjük, vegye fel a kapcsolatot az adminisztrátorral további támogatásért."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"hu"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"hu"		"Előnézeti táblázat címke megjelenítése, kérjük, nyomja meg a TAB billentyűt."
+	}
+	"Cancel"
+	{
+		"hu"		"Mégsem"
+	}
+	"Cant be bought"
+	{
+		"hu"		"Ez a tétel nem vásárolható meg"
+	}
+	"Cash out"
+	{
+		"hu"		"Megállítás"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Változtassa meg a fogadását: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"A következőt vetted: {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"hu"		"{1} a következőt küldte neked: {2} {3}."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"hu"		"A következőt küldted: {2} {3} neki: {1}."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"A következőt adtad el: {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Kinyitottál egy tartályt, és találtál {1} kreditet!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"hu"		"{1} kinyitott egy tartályt és talált {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"hu"		"{1} kinyitott egy tartályt és talált {2} ({3})!"
+	}
+	"Check All Voucher"
+	{
+		"hu"		"Ellenőrizd az összes érvényes és elérhető kupont (csak Admin)"
+	}
+	"Check Voucher"
+	{
+		"hu"		"Szerezze meg a kupon részleteit"
+	}
+	"Check Your valid Voucher"
+	{
+		"hu"		"Ellenőrizze a generált és érvényes elérhető kupont"
+	}
+	"Choose Number (1:6)"
+	{
+		"hu"		"Válassz számot (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"hu"		"Automatikus kifizetés:"
+	}
+	"Client Loadout Reset"
+	{
+		"hu"		"A felszerelésed vissza lett állítva."
+	}
+	"Client valid voucher"
+	{
+		"hu"		"A generált és érvényes kuponod:\n "
+	}
+	"Close"
+	{
+		"hu"		"Bezárás"
+	}
+	"ColoredSmoke"
+	{
+		"hu"		"Színes füst"
+	}
+	"Command is in-game only"
+	{
+		"hu"		"Élőnek kell lenned, hogy használd ezt a parancsot."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"hu"		"A konfiguráció újra lett töltve. Kérlek, indítsd újra vagy változtass térképet."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Biztosan meg akarod venni a következőt: {1} {2}?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"hu"		"Biztosan el akarod ajándékozni a következőt: {1} {2} neki: {3}?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Biztosan el akarod ajándékozni a következőt: {1} {2}?"
+	}
+	"Confirm_No"
+	{
+		"hu"		"Nem"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"hu"		"Biztosan el akarod adni a következőt: {1} {2}?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Biztos, hogy szeretnéd átváltani a {1} ({2}) kupont?\nFIGYELEM: Ha a voucherben lévő termék lejár a beváltás előtt.\nEz a voucher lejár."
+	}
+	"Confirm_Yes"
+	{
+		"hu"		"Igen"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"hu"		"{1} leírta a helyes választ és nyert {2} kreditet!"
+	}
+	"Counter-Terrorist"
+	{
+		"hu"		"Ellenterrorista"
+	}
+	"Crash Already Start"
+	{
+		"hu"		"A Crash még jelenleg tart. Kérlek várd meg a következő játékot."
+	}
+	"Crash Auto Off"
+	{
+		"hu"		"Ki"
+	}
+	"Crash Auto Off Panel"
+	{
+		"hu"		"Kapcsolja ki az automatikus kifizetést"
+	}
+	"Crash Auto On"
+	{
+		"hu"		"Be"
+	}
+	"Crash Auto On Panel"
+	{
+		"hu"		"Kapcsolja be az automatikus kifizetést"
+	}
+	"Crash Info 1"
+	{
+		"hu"		"           Mi is a Crash/Hogy kell játszani a Crasht"
+	}
+	"Crash Info 2"
+	{
+		"hu"		"- A Crash az a játék, ahol a játékosok fogadhatnak és van egy szorzó, ami egy növekvő görbéhez kapcsolódik, és ez a görbe bármikor összeomolhat."
+	}
+	"Crash Info 3"
+	{
+		"hu"		"- A szorzó 1,00x -nál kezdődik, és bármikor lehetőség van a megállításra."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"hu"		"- A minimum tét értéke {1} kredit. A maximális tét értéke {3} kredit. Ezek a határok idővel változhatnak."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"hu"		"Hibás bemenet (a minimális érték {1} vagy több kell)."
+	}
+	"Crash auto input"
+	{
+		"hu"		"Írd be az automatikus kifizetés értékét a csevegésbe"
+	}
+	"Crash auto input set"
+	{
+		"hu"		"Crash automatikus kifizetés beállítva"
+	}
+	"Crash set auto"
+	{
+		"hu"		"Állítsa be az automatikus kifizetési értéket"
+	}
+	"Crash!"
+	{
+		"hu"		"Vége!"
+	}
+	"Create Item Voucher"
+	{
+		"hu"		"Hozzon létre egy tétel kupon (Csak Admin)"
+	}
+	"Create Voucher"
+	{
+		"hu"		"Hozzon létre egy kupont"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Kupon létrehozása sikertelen - Lépjen kapcsolatba egy adminnal ezzel az időbélyeggel: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"hu"		"A szerveren a kreditek ajándékozása ki van kapcsolva."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} kreditet ajándékoztál el."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"hu"		"{2} {1} kreditet küldött neked."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"hu"		"{1} kreditet küldtél neki: {2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"hu"		"Nincs elég kredited a giveaway létrehozásához."
+	}
+	"Credit Invalid Amount"
+	{
+		"hu"		"Hibás összeget adtál meg."
+	}
+	"Credit No Match"
+	{
+		"hu"		"Nincs ilyen játékos."
+	}
+	"Credit Not Enough"
+	{
+		"hu"		"Nincs elég kredited ehhez."
+	}
+	"Credit Too Many Matches"
+	{
+		"hu"		"Több mint egy játékos van ilyen névvel."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"hu"		"Nincs elég kredited ahhoz, hogy kuponot hozz létre."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"hu"		"{2} megölésével {1} kreditet szereztél."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} kreditet szereztél az itt töltött időért."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"hu"		"{1} {2} kreditet kapott."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"hu"		"Kreditek: {1}         Tét: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"hu"		"Letiltva"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"hu"		"Engedélyezve"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"hu"		"[Egyedi fegyver hang]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"hu"		"Egyedi fegyverhang hangerőszabályzó menü"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Hangerő: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"hu"		"Egyedi fegyver hang: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"hu"		"Az egyedi fegyverhang Letiltva."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"hu"		"Az egyedi fegyverhang engedélyezve van."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Az egyedi fegyverhang engedélyezve van. Hangerő: {1}"
+	}
+	"CustomModel"
+	{
+		"hu"		"Testreszabott fegyvermodell:"
+	}
+	"Damage the crate to open"
+	{
+		"hu"		"Törd el a ládát, hogy kinyisd!"
+	}
+	"Dead heat"
+	{
+		"hu"		"- holtverseny -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"hu"		"             RENDBEN     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"hu"		"OSZTÓ"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Kedvezmény: '{1}' aktív! Jó vásárlást!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Kedvezmény: '{1}' véget ért."
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Kedvezmény: '{1}' elindult! Jó vásárlást!"
+	}
+	"Double"
+	{
+		"hu"		"Duplázás"
+	}
+	"Down"
+	{
+		"hu"		"Lefelé"
+	}
+	"Down2"
+	{
+		"hu"		"                      5 = Lefelé"
+	}
+	"Drop Gift"
+	{
+		"hu"		"Ajándékcsomagként eldobás"
+	}
+	"Edit Amount"
+	{
+		"hu"		"Összeg módosítása: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"hu"		"Kérlek, írd be az elem lejárati idejét (másodpercekben) a chaten!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"hu"		"Érvénytelen számformátum. Kérlek próbáld újra."
+	}
+	"Enter custom amount"
+	{
+		"hu"		"Kérjük, írja be az egyéni összeget a csevegésbe!"
+	}
+	"Enter maximum value"
+	{
+		"hu"		"Kérjük, írja be a hitelek maximális értékét a csevegésbe!"
+	}
+	"Enter minimum value"
+	{
+		"hu"		"Kérlek, add meg a minimális kreditértéket a csevegésben!"
+	}
+	"Enter number of vouchers"
+	{
+		"hu"		"Kérlek, add meg a létrehozandó utalványok számát a csevegésben!"
+	}
+	"Enter value of vouchers"
+	{
+		"hu"		"Kérlek, add meg a vásárlásra szánt utalvány értékét a csevegésben!"
+	}
+	"Enter voucher code"
+	{
+		"hu"		"Kérjük, írja be a kuponkódját a csevegésbe!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"hu"		"Hiba történt az ár visszatérítésekor. Kérjük, lépjen kapcsolatba az adminisztrátorral"
+	}
+	"Exact #x  = "
+	{
+		"hu"		"Pontos #x = "
+	}
+	"Exit"
+	{
+		"hu"		"Kilépés"
+	}
+	"Gained"
+	{
+		"hu"		"Nyereményed"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"hu"		"Nyereményed: {1} kredit"
+	}
+	"Game Info"
+	{
+		"hu"		"Játék információk"
+	}
+	"Game in progress"
+	{
+		"hu"		"A jelenlegi fogadásos játékod folyamatban van. Kérlek, várj, amíg befejeződik."
+	}
+	"Get three on a kind"
+	{
+		"hu"		"Szerezz három egyformát"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} kreditet vettél fel."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"A következőt vetted fel {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"hu"		"Nincs senki akinek odatudnád adni ezt a tárgyat."
+	}
+	"Gift Player Left"
+	{
+		"hu"		"A kiválasztott játékos már elhagyta a játékot."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"hu"		"{1} Ahhoz, hogy ajándékozást tartsunk, a szervernek legalább {2} játékost kell tartalmaznia."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"hu"		"Admin {1} indított egy ajándékot <font color='#15fb00'>{2} kredittel"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"hu"		"|| A giveaway {1} másodperc múlva kezdődik ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"hu"		"{1} {2} nyert egy giveawayt {3} kredittel"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"hu"		"{1}\n|| Nyertes: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"hu"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"hu"		"Ebben a körben már elég örök életet vettél."
+	}
+	"Godmode Wrong Team"
+	{
+		"hu"		"Ebben a csapatban nem használhatod az örök életet."
+	}
+	"Green"
+	{
+		"hu"		"zöld"
+	}
+	"HE grenade kill"
+	{
+		"hu"		"HE gránát kill"
+	}
+	"HUD"
+	{
+		"hu"		"HUD"
+	}
+	"Head"
+	{
+		"hu"		"Fej"
+	}
+	"Health Round Limit"
+	{
+		"hu"		"Ebben a körben már elég életet vettél."
+	}
+	"Help_Back"
+	{
+		"hu"		"Back"
+	}
+	"Help_Exit"
+	{
+		"hu"		"Exit"
+	}
+	"Hide bullet sparks"
+	{
+		"hu"		"Rejtsd el a golyó szikráit"
+	}
+	"Hide bullet tracer"
+	{
+		"hu"		"Rejtse el a golyónyomokat"
+	}
+	"Hide gloves"
+	{
+		"hu"		"Rejtsd el a kesztyűket"
+	}
+	"Hide paintball"
+	{
+		"hu"		"Rejtsd el a festék golyókat"
+	}
+	"Hide particles"
+	{
+		"hu"		"Rejtsd el a részecskéket"
+	}
+	"Hide pets"
+	{
+		"hu"		"Rejtsd el a házikedvenceket"
+	}
+	"Hide trails"
+	{
+		"hu"		"Nyomok elrejtése"
+	}
+	"High #4-6"
+	{
+		"hu"		"Magas #4-6"
+	}
+	"High #4-6 = "
+	{
+		"hu"		"Magas #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"hu"		"Magas - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"hu"		"NAGYOBB"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A kiválasztott szám: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A következő szám: {1}"
+	}
+	"Hit"
+	{
+		"hu"		"Lap kérés"
+	}
+	"Hol Info 1"
+	{
+		"hu"		"Egy szám {1} és {2} között kiválasztásra kerül és neked el kell döntened az a szám nagyobb vagy kisebb a kiválasztott számnál."
+	}
+	"Hol Info 2"
+	{
+		"hu"		"Ha sikerül a jót kiválasztani, akkor a téted kétszeresét nyered."
+	}
+	"Hol Info 3"
+	{
+		"hu"		"Minden játék között {1} másodperc szünet van."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Sikeresen fogadtál {1} kredit összegben."
+	}
+	"Inventory"
+	{
+		"hu"		"Leltár"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"hu"		"Várj egy kicsit. A tárgyaid még nem töltöttek be."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"hu"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1}"
+	}
+	"Item Equip"
+	{
+		"hu"		"Tárgy felvétele"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1} [FELVÉVE]"
+	}
+	"Item Gift"
+	{
+		"hu"		"Ajándékozd ezt a tárgyat"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1} (Válassz időszakot)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Eladás {1} kreditért"
+	}
+	"Item Unequip"
+	{
+		"hu"		"Tárgy levétele"
+	}
+	"Item Use"
+	{
+		"hu"		"Tárgy használata"
+	}
+	"Item Voucher"
+	{
+		"hu"		"Voucher készítése az objektumból"
+	}
+	"Item Voucher disabled"
+	{
+		"hu"		"Az itemekhez tartozó kupon létrehozása jelenleg le van tiltva."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"hu"		"Átváltottad {1} ({2}) voucherre {3}."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"hu"		"{1} elrejtve. Többé nem fogod őket látni."
+	}
+	"Item not found"
+	{
+		"hu"		"Tárgy nem található"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"hu"		"{1} újra látható."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"hu"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"hu"		"A jackpot szüneteltetve."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Jackpot: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"hu"		"Jetpack üres"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"hu"		"[Jetpack] Üzemanyag: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"hu"		"Jetpack újratöltve"
+	}
+	"Jihad Failed"
+	{
+		"hu"		"A robbantás sikertelen volt."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"hu"		"A {1} jihad bomba nem robbant fel."
+	}
+	"Jihad Wrong Team"
+	{
+		"hu"		"Ebben a csapatban nem használhatod a bombát."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} perc mielőtt elkezdődik a crash."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} másodperc mielőtt elkezdődik a crash."
+	}
+	"LevelIcon"
+	{
+		"hu"		"szint ikon"
+	}
+	"Limited"
+	{
+		"hu"		"Limitált - egy játékos"
+	}
+	"Lootbox case is opening"
+	{
+		"hu"		"Kérlek, várj, amíg az előző ládád megnyílik"
+	}
+	"Lootbox map ended"
+	{
+		"hu"		"A térkép véget ért. Kérlek, várj a következő térképre"
+	}
+	"Lootbox round ended"
+	{
+		"hu"		"A kör véget ért. Kérlek, várj a következő körre"
+	}
+	"Lootbox warm up"
+	{
+		"hu"		"Nem nyithatod meg a ládát bemelegítés alatt"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Elvesztetted a napi sorozatodat {1} nap(ok)."
+	}
+	"Lost bet"
+	{
+		"hu"		"Nem sikerült! Elvesztetted a fogadásod"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Elvesztetted a tétet, mivel a következő szám a {1} lett volna."
+	}
+	"Low #1-3"
+	{
+		"hu"		"Alacsony #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"hu"		"Alacsony #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"hu"		"Alacsony - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"hu"		"KISEBB"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Szükségünk van legalább {1} játékosra"
+	}
+	"Must be Alive"
+	{
+		"hu"		"Élned kell, hogy használd ezt."
+	}
+	"Must be dead"
+	{
+		"hu"		"Halotnak kell lenned ahhoz, hogy játssz"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"hu"		"Szorzó = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"hu"		"Nincs aktív jackpot"
+	}
+	"No active TeamBet"
+	{
+		"hu"		"Még nem történt csapatfogadás"
+	}
+	"No have flag"
+	{
+		"hu"		"Nincs hozzáférésed ehhez a parancshoz."
+	}
+	"No matching color"
+	{
+		"hu"		"Nem megfelelő szín, használd: r/piros, b/fekete vagy g/zöld"
+	}
+	"No pick up - back to you"
+	{
+		"hu"		"Senki nem vette fel az eldobott krediteket. Visszakaptad."
+	}
+	"No pick up - removed"
+	{
+		"hu"		"Senki nem vette fel az eldobott krediteket. A kreditek törlésre kerültek."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Lejárt az idő. A helyes válasz a(z) {1} volt."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Senki más nem helyezett pénzt a jackpotba. Visszakapod a {1} {2}!"
+	}
+	"Not enough Credits"
+	{
+		"hu"		"Nincs elég kredited"
+	}
+	"Now run a giveaway"
+	{
+		"hu"		"Most giveaway folyik, próbáld újra néhány másodperc múlva."
+	}
+	"Only number"
+	{
+		"hu"		"Csak számokat írhatsz be..."
+	}
+	"Override Disabled"
+	{
+		"hu"		"A jelenlegi skined nem támogatja a sapkákat. A sapkád nem tudod felvenni."
+	}
+	"Override Enabled"
+	{
+		"hu"		"A jelenlegi skined nem támogatja a sapkákat. A skined megváltoztatjuk, hogy tudd viselni a sapkád."
+	}
+	"Owned"
+	{
+		"hu"		"[Birtokolt]"
+	}
+	"Package Gift"
+	{
+		"hu"		"Csomag elajándékozása"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Csomag eladása {1} kreditért"
+	}
+	"Package Voucher"
+	{
+		"hu"		"Voucher készítése csomagból"
+	}
+	"Parachute Empty"
+	{
+		"hu"		"Ejátszó üres"
+	}
+	"Parachute Reloaded"
+	{
+		"hu"		"Ejátszó újratöltve"
+	}
+	"Particles"
+	{
+		"hu"		"Részecskék:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Helyezd el {1} {2}"
+	}
+	"Play Preview"
+	{
+		"hu"		"Előnézeti hangot játszom le neked."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"hu"		"{1} {2} kredittel rendelkezik."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1} nullázva lett."
+	}
+	"Player Skin module disabled"
+	{
+		"hu"		"A Store Játékos Skin modulja jelenleg kivan kapcsolva."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"hu"		"{1} hozzáadott {2} {3} a jackpothoz, jelenlegi nyerési esélye: {4}% (Jackpot: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"hu"		"{1} elveszítette {2} {3} a {4}-ben."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"hu"		"{1} megnyitotta a jackpotot {2} {3} összeggel. Vegyél pénzt, hogy megszerezd a pénzt!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"hu"		"{1} nyerte meg a Jackpotot {2} {3}-val!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"hu"		"{1} nyert {2} {3} a {4}-ben."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"hu"		"{1} nyert {2} kreditet x{4} szorzóval a {5} játékon."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"hu"		"Az új beállításaid a következő élettől fognak működni."
+	}
+	"Press"
+	{
+		"hu"		"Nyomd meg"
+	}
+	"Press to Start"
+	{
+		"hu"		"Nyomj a kezdéshez!"
+	}
+	"Press to Stop"
+	{
+		"hu"		"Nyomj a megállításhoz!"
+	}
+	"Preview Item"
+	{
+		"hu"		"Előnézet ezen a tárgyon"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Ár: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"hu"		"Vásárolj kupont"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"hu"		"Mennyibe kerül {1} {2} {3}? | Nyeremény: {4} kredit"
+	}
+	"Red"
+	{
+		"hu"		"piros"
+	}
+	"Redeem Voucher"
+	{
+		"hu"		"Beváltani a kupont"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Futtasd újra {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"hu"		"Ebben a körben már elég újraéledést vettél."
+	}
+	"SQL Cooldown"
+	{
+		"hu"		"Biztonsági okokból nem küldhet több kérést rövid időn belül."
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"hu"		"-------------- Bolt keresési menü javaslatai --------------\n - Minden kapcsolódó tétel itt lesz felsorolva\n - Az aktuális keresési kifejezésed: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"hu"		"A második nyertes már nincs a játékban, utolsó próbálkozás új nyertes keresésére."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Várnod kell {1} másodpercet, hogy használhasd újra a parancsot."
+	}
+	"Show bullet sparks"
+	{
+		"hu"		"Mutasd a golyó szikráit"
+	}
+	"Show bullet tracer"
+	{
+		"hu"		"Mutasd a golyónyomokat"
+	}
+	"Show gloves"
+	{
+		"hu"		"Mutasd a kesztyűket"
+	}
+	"Show paintball"
+	{
+		"hu"		"Mutasd a festék golyókat"
+	}
+	"Show particles"
+	{
+		"hu"		"Mutasd a részecskéket"
+	}
+	"Show pets"
+	{
+		"hu"		"Mutasd a házikedvenceket"
+	}
+	"Show trails"
+	{
+		"hu"		"Nyomok megjelenítése"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Nem használhatsz kisebb értéket, mint a minimum értéked ({1})"
+	}
+	"Spacer"
+	{
+		"hu"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Spam védelem. Kérjük várjon {1} másodpercet."
+	}
+	"Spawn Preview"
+	{
+		"hu"		"Előnézet létrehozva. Az előnézet 45 másodperc múlva eltűnik."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"hu"		"Előnézet létrehozva. Az előnézet {1} másodperc múlva eltűnik."
+	}
+	"Start again from begin"
+	{
+		"hu"		"Kérlek kezdj újra az elejétől"
+	}
+	"Starting"
+	{
+		"hu"		"Kezdés"
+	}
+	"Stay"
+	{
+		"hu"		"Tartózkodás"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"hu"		"Biztos vagy benne, hogy vissza akarod állítani a felszerelésedet? Minden tárgy eltávolításra kerül."
+	}
+	"Successfully purchased voucher"
+	{
+		"hu"		"Sikeresen vásárolt egy kupont"
+	}
+	"TF Wrong Class"
+	{
+		"hu"		"Ez a tárgy egy másik kaszthoz való."
+	}
+	"Tail"
+	{
+		"hu"		"Farok"
+	}
+	"TeamBet Already Placed"
+	{
+		"hu"		"Már megtetted a fogadásod erre a körre."
+	}
+	"TeamBet Invalid Team"
+	{
+		"hu"		"Érvénytelen csapatazonosító van megadva."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Elvesztetted {1} {2} a fogadásban."
+	}
+	"TeamBet Period Over"
+	{
+		"hu"		"A fogadási időszak véget ért erre a körre."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Sikeresen tettél egy fogadást {1} kredittel."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"A fogadásod sikeres volt. Nyertél {1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"hu"		"Nem volt fogadás a másik csapatra, így visszakaptad a krediteket."
+	}
+	"Terrorist"
+	{
+		"hu"		"Terrorista"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A kiválasztott szám: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A következő szám: {1}"
+	}
+	"This is the preview text"
+	{
+		"hu"		"Ez az előnézeti szöveg."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Az admin újratöltötte az áruház beállításait. A térkép újratöltődik {1} másodpercen belül!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"hu"		"Admin tétel kupon létrehozó menü.\n \nVálassza ki az elem időtartamát."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"hu"		"Admin tétel kupon létrehozó menü"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Kreditek: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"hu"		"Lejár {1}n {2}ó múlva"
+	}
+	"Title Gift"
+	{
+		"hu"		"Válassz egy játékost ajándékozáshoz"
+	}
+	"Title Store"
+	{
+		"hu"		"Bolt Menü"
+	}
+	"To late chat input"
+	{
+		"hu"		"A szöveges bemenetet nem végezted el az adott időn belül"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Túl sok kredit van a földön, nem tudsz jelenleg eldobni többet!"
+	}
+	"Top Credits"
+	{
+		"hu"		"Legjobb kreditek"
+	}
+	"Top Credits Inv Worth"
+	{
+		"hu"		"Top kreditek + készlet érték"
+	}
+	"Top Inv Worth"
+	{
+		"hu"		"Top készlet érték"
+	}
+	"Top Most Items"
+	{
+		"hu"		"A legnépszerűbb tárgyak"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Összesen: {1} {2}"
+	}
+	"Try again"
+	{
+		"hu"		"Próbáld újra"
+	}
+	"Type in chat !bet"
+	{
+		"hu"		"Írj a chatu-ba !bet <fogadás> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"hu"		"Írd be a csevegésbe: !blackjack <tét>"
+	}
+	"Type in chat !coinflip"
+	{
+		"hu"		"Írj a chatu-ba !coinflip <fogadás> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"hu"		"Írd be: !crash <tét>"
+	}
+	"Type in chat !crowns"
+	{
+		"hu"		"Írj a chatu-ba !crowns <fogadás>"
+	}
+	"Type in chat !dice"
+	{
+		"hu"		"Írj be a csevegésbe !dice <fogadás> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"hu"		"Írj a chatu-ba !jackpot <fogadás>"
+	}
+	"Type in chat !roulette"
+	{
+		"hu"		"Írj a chatu-ba !roulette <fogadás> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"hu"		"Nem korlátozott - több játékos"
+	}
+	"Up"
+	{
+		"hu"		"Felfelé"
+	}
+	"Value less than 1"
+	{
+		"hu"		"Nem használhatsz 1-nél kisebb értéket."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"hu"		"A(z) {1} hangerő beállítva {2}-ra"
+	}
+	"Voucher Code 17 chars"
+	{
+		"hu"		"Jelenleg a kupon kódjának pontosan 17 karakterből kell állnia"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"A kupon értéke {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"hu"		"A voucher elfogadva"
+	}
+	"Voucher accepted Panel"
+	{
+		"hu"		"A voucher elfogadva"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"hu"		"Generálod a {1} {2}korlátozott kupon{3} értékkel {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"hu"		"Generálsz {1} {2}korlátozott kupont{3} az alábbi értékekkel: {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"hu"		"A megadott kuponkód már fel lett használva ekkor: {1}"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Ez a kupon lejár ekkor: {1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"hu"		"A megadott kuponkód lejárt ekkor: {1}"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"hu"		"Létrehozott új voucher {1} értéke {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"hu"		"A kupon kódját a csevegésben és a konzolon is megtalálhatja"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Kupon kódja: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"hu"		"A megadott kuponkód '{1}' nem érvényes!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"hu"		"A kupon tartalmazza {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"hu"		"A kuponkód érvényes"
+	}
+	"Vouchers"
+	{
+		"hu"		"Kupon"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Várnod kell {1}, amíg elérkezik a következő napi."
+	}
+	"Wait until next daily 2"
+	{
+		"hu"		"Már bejelentkeztél ma. Kérlek térj חחר holnap."
+	}
+	"Win = "
+	{
+		"hu"		"Győzelem = "
+	}
+	"Winner is not in game anymore"
+	{
+		"hu"		"A nyertes már nincs a játékban, próbálunk találni egy új nyertest."
+	}
+	"Wrong voucher code format"
+	{
+		"hu"		"A kuponkód formátuma helytelen. Ennek XXXXX-XXXXX-XXXXX kell lennie"
+	}
+	"You"
+	{
+		"hu"		"NEKED"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"hu"		"Ön már készpénzesítette {1} {2} a jackpotba. Jelenlegi nyerési esély: {3}%% Jackpot: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"hu"		"Már birtoklod a megadott kupon tárgyat"
+	}
+	"You already redeemed Voucher"
+	{
+		"hu"		"Már beváltottad a megadott kuponkódot"
+	}
+	"You can start a new Jackpot"
+	{
+		"hu"		"Új jackpotot indíthatsz"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Új jackpotot indíthatsz {1} múlva."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Nem költhetsz ennyi kreditet (Max: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Összegyűjtöttél {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"hu"		"Nincs jogosultságod ehhez."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Eltörted {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"hu"		"Nem szereztél pontokat ebben a körben."
+	}
+	"You earned this round"
+	{
+		"hu"		"Te nyerted ezt a kört:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Szereztél {1} {2} ezért: "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Szereztél {1} {2} ebben a körben"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Megkaptad a {1} {2}-t."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Megkaptad a {1} {2}-t."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Kapottál egy {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Kapottál egy {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Legalább {1} {2} összeget kell költened."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Legalább {1} {2} összeget kell költened."
+	}
+	"You haven't opened the box in given time"
+	{
+		"hu"		"Nem nyitottad meg a dobozt a megadott időn belül. A lootbox visszakerült a készletedbe"
+	}
+	"You lose"
+	{
+		"hu"		"- vesztettél -"
+	}
+	"You lost with"
+	{
+		"hu"		"Vesztettél ezzel"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Elvesztettél {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"hu"		"Megnyerted a 'napi kihívást'! Próbáld meg legyőzni újra!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Nyertél {1} {2}"
+	}
+	"You won"
+	{
+		"hu"		"!!! NYERTÉL !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Nyertél egy {1} ({2})!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Te nyerted meg a Jackpotot {1} {2}-val!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"hu"		"Te nyerted meg a Jackpotot {1} {2}-val a kaszinó díja {3} {4} ({5}%) levonásával!"
+	}
+	"You won with"
+	{
+		"hu"		"Nyertél ezzel"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"hu"		"Nyertél {1} kreditet x{2} szorzóval."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Holnap {1} {2} fogsz keresni!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"hu"		"A téted: {1} {2} - Esély: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"A fogadásod: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"hu"		"A jelenlegi nyerési esélyed megváltozott {1}% -ra"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Nyertél {1} kreditet {2} megöléséért."
+	}
+	"admin"
+	{
+		"hu"		"állat"
+	}
+	"and is limited"
+	{
+		"hu"		"és korlátozott"
+	}
+	"and is unlimited"
+	{
+		"hu"		"és korlátlan"
+	}
+	"arms"
+	{
+		"hu"		"karok"
+	}
+	"assist a kill"
+	{
+		"hu"		"segítség a gyilkossághoz"
+	}
+	"attachment"
+	{
+		"hu"		"Felcsatolás"
+	}
+	"backstab kill"
+	{
+		"hu"		"hátbaszúrásos kill"
+	}
+	"be the MVP"
+	{
+		"hu"		"legyél a MVP"
+	}
+	"bet x"
+	{
+		"hu"		"fogadás x"
+	}
+	"blackjack"
+	{
+		"hu"		"Blackjack"
+	}
+	"bomb defused"
+	{
+		"hu"		"bombát hatástalanították"
+	}
+	"bomb explode"
+	{
+		"hu"		"robban a bomba"
+	}
+	"bomb planted"
+	{
+		"hu"		"bombát elhelyezték"
+	}
+	"bombtweak"
+	{
+		"hu"		"Bomba beállítása"
+	}
+	"bullet_impact"
+	{
+		"hu"		"Golyó ütése"
+	}
+	"bulletsparks"
+	{
+		"hu"		"Lövés szikrák"
+	}
+	"bunnyhob"
+	{
+		"hu"		"Nyúl ugrás"
+	}
+	"bunnyhop"
+	{
+		"hu"		"képesség"
+	}
+	"casino"
+	{
+		"hu"		"Kaszino"
+	}
+	"coinflip"
+	{
+		"hu"		"Érmefeldobás"
+	}
+	"command"
+	{
+		"hu"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Szeretnéd visszaállítani a beállításokat?\nA térkép {1} másodpercen belül újratöltődik!"
+	}
+	"confirm_reload_type_1"
+	{
+		"hu"		"Szeretnéd visszaállítani a beállításokat?\nA térképet kell módosítani a változtatások alkalmazásához, különben hibák léphetnek fel."
+	}
+	"connect"
+	{
+		"hu"		"Kapcsolódási üzenet"
+	}
+	"crash"
+	{
+		"hu"		"Crash"
+	}
+	"creditstoplist"
+	{
+		"hu"		"hitelt"
+	}
+	"crowns"
+	{
+		"hu"		"Korona slot"
+	}
+	"daily"
+	{
+		"hu"		"Napi bónusz"
+	}
+	"decoy grenade kill"
+	{
+		"hu"		"decoy gránát kill"
+	}
+	"dice"
+	{
+		"hu"		"Kocka"
+	}
+	"direction"
+	{
+		"hu"		"Irány"
+	}
+	"discount"
+	{
+		"hu"		"KEDVEZMÉNY"
+	}
+	"distance"
+	{
+		"hu"		"Távolság"
+	}
+	"dmgtext"
+	{
+		"hu"		"Festő"
+	}
+	"emote"
+	{
+		"hu"		"Emote"
+	}
+	"escape as VIP"
+	{
+		"hu"		"Menekülj VIP-ként"
+	}
+	"flashbang kill"
+	{
+		"hu"		"flashbang kill"
+	}
+	"flashlight"
+	{
+		"hu"		"Zseblámpa"
+	}
+	"froggyjump"
+	{
+		"hu"		"Béka ugrás"
+	}
+	"gloves"
+	{
+		"hu"		"kesztyűk"
+	}
+	"glow"
+	{
+		"hu"		"ragyogás"
+	}
+	"godmode"
+	{
+		"hu"		"örök élet"
+	}
+	"gravity"
+	{
+		"hu"		"képesség"
+	}
+	"grenademodel"
+	{
+		"hu"		"Gránát modell"
+	}
+	"grenadeskin"
+	{
+		"hu"		"gránát skin"
+	}
+	"grenadetrail"
+	{
+		"hu"		"gránát csík"
+	}
+	"hat"
+	{
+		"hu"		"sapka"
+	}
+	"headshot"
+	{
+		"hu"		"fejbelövés"
+	}
+	"health"
+	{
+		"hu"		"csomag"
+	}
+	"high or low"
+	{
+		"hu"		"Nagyobb vagy Kisebb"
+	}
+	"hiteff"
+	{
+		"hu"		"ütés effekt:"
+	}
+	"hitsound"
+	{
+		"hu"		"Találati hang"
+	}
+	"hostage rescued"
+	{
+		"hu"		"megmentett túsz"
+	}
+	"hunterjump"
+	{
+		"hu"		"Vadász ugrás"
+	}
+	"idle on the server"
+	{
+		"hu"		"inaktív a szerveren"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1}-ben."
+	}
+	"infinityammo"
+	{
+		"hu"		"Végtelen lőszer"
+	}
+	"info"
+	{
+		"hu"		"Információs Panel"
+	}
+	"instabomb"
+	{
+		"hu"		"Azonnali ültetés / feloldás"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"hu"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"hu"		"képesség"
+	}
+	"items"
+	{
+		"hu"		"Tárgyak"
+	}
+	"jackpot"
+	{
+		"hu"		"Jackpot"
+	}
+	"jetpack"
+	{
+		"hu"		"rakéta"
+	}
+	"jihad"
+	{
+		"hu"		"bomba"
+	}
+	"kill"
+	{
+		"hu"		"ölj"
+	}
+	"kill the VIP"
+	{
+		"hu"		"ölje meg a VIP-t"
+	}
+	"kill yourself"
+	{
+		"hu"		"ölj meg magad"
+	}
+	"killeff"
+	{
+		"hu"		"gyilkosság effekt:"
+	}
+	"knife"
+	{
+		"hu"		"kés"
+	}
+	"knife kill"
+	{
+		"hu"		"késsel való gyilkosság"
+	}
+	"laserdraw"
+	{
+		"hu"		"lézer rajz:"
+	}
+	"laserpointer"
+	{
+		"hu"		" lézermutató"
+	}
+	"lasersight"
+	{
+		"hu"		"lézer"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"hu"		"utolsó frissítés {1} előtt"
+	}
+	"light"
+	{
+		"hu"		"Fény"
+	}
+	"lootbox"
+	{
+		"hu"		"Zsákmányláda"
+	}
+	"mirror"
+	{
+		"hu"		"tükör"
+	}
+	"molotov kill"
+	{
+		"hu"		"molotov kill"
+	}
+	"msgcolor"
+	{
+		"hu"		"üzenet szín"
+	}
+	"mvp_sound"
+	{
+		"hu"		"MVP himnuszok"
+	}
+	"namecolor"
+	{
+		"hu"		"név szín"
+	}
+	"nametag"
+	{
+		"hu"		"név tag"
+	}
+	"nearest"
+	{
+		"hu"		"Legközelebbi"
+	}
+	"nodiscount"
+	{
+		"hu"		" "
+	}
+	"noduckdelay"
+	{
+		"hu"		"Nem késlekedés guggoláskor"
+	}
+	"nofalldamage"
+	{
+		"hu"		"Nem esésből származó kár"
+	}
+	"noreload"
+	{
+		"hu"		"Nincs újratöltés"
+	}
+	"noscope kill"
+	{
+		"hu"		"kill célzás nélkül"
+	}
+	"noselfdamage"
+	{
+		"hu"		"Nincs saját sebzés"
+	}
+	"or use buttons below"
+	{
+		"hu"		"vagy használja az alábbi gombokat"
+	}
+	"package"
+	{
+		"hu"		"csomag"
+	}
+	"paintball"
+	{
+		"hu"		"golyók"
+	}
+	"painter"
+	{
+		"hu"		"Festő"
+	}
+	"parachute"
+	{
+		"hu"		"Ejtoernyő"
+	}
+	"particle"
+	{
+		"hu"		"Részecskék"
+	}
+	"pet"
+	{
+		"hu"		"állat"
+	}
+	"playerskin"
+	{
+		"hu"		"játékos skin"
+	}
+	"playing on the server"
+	{
+		"hu"		"játszik a szerveren"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Játszottál a szerverünkön {1} napot egymás után"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"hu"		"A következő megjelenéskor megkapod a {1}-et."
+	}
+	"respawn"
+	{
+		"hu"		"Újraéledés"
+	}
+	"roulette"
+	{
+		"hu"		"Rulett"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Elérted a maximális 'say sound' használatot. {1} maximális használat/térkép"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Elérted a maximális 'say sound' használatot. {1} maximális használat/kör"
+	}
+	"saysound"
+	{
+		"hu"		"mond hang"
+	}
+	"scoreboardtag"
+	{
+		"hu"		"Pontozó tábla címke"
+	}
+	"smokegrenade kill"
+	{
+		"hu"		"füstgránát kill"
+	}
+	"sound"
+	{
+		"hu"		"hang"
+	}
+	"spawn"
+	{
+		"hu"		"Extra újraéledés"
+	}
+	"spawneff"
+	{
+		"hu"		"spawneffekt:"
+	}
+	"speed"
+	{
+		"hu"		"képesség"
+	}
+	"spray"
+	{
+		"hu"		"spray"
+	}
+	"start daily challange"
+	{
+		"hu"		"Kezdd el a 'napi kihívást'. Játssz a következő 6 napban, hogy megkapd a teljes bónuszt"
+	}
+	"taser kill"
+	{
+		"hu"		"taser kill"
+	}
+	"teambet"
+	{
+		"hu"		"Csapatfogadás"
+	}
+	"teamkill"
+	{
+		"hu"		"teamkill"
+	}
+	"tfhat"
+	{
+		"hu"		"építmény sapka"
+	}
+	"tfhatdye"
+	{
+		"hu"		"sapka szín"
+	}
+	"tfhead"
+	{
+		"hu"		"fej méret"
+	}
+	"tfunusual"
+	{
+		"hu"		"sapka effekt"
+	}
+	"tfweapon"
+	{
+		"hu"		"saját fegyver"
+	}
+	"tfweaponsize"
+	{
+		"hu"		"fegyver méret"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"hu"		"A nyeremény {1} másodperc múlva lesz kisorsolva"
+	}
+	"thirdperson"
+	{
+		"hu"		"harmadik személy"
+	}
+	"throwknife"
+	{
+		"hu"		"Kés dobása"
+	}
+	"toplists"
+	{
+		"hu"		"Legjobb listák"
+	}
+	"tracer"
+	{
+		"hu"		"lézer"
+	}
+	"trail"
+	{
+		"hu"		"csík"
+	}
+	"wasted"
+	{
+		"hu"		"elvesztegetve"
+	}
+	"watergun"
+	{
+		"hu"		"effekt"
+	}
+	"weapon"
+	{
+		"hu"		"fegyver"
+	}
+	"weaponcolor"
+	{
+		"hu"		"fegyver szín"
+	}
+	"weaponmodel"
+	{
+		"hu"		"Fegyver modell"
+	}
+	"weaponskin"
+	{
+		"hu"		"fegyver skin"
+	}
+	"win the round"
+	{
+		"hu"		"nyerd meg a kört"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"hu"		"{1} {2} ezért '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"hu"		"{1} óra {2} perc és {3} másodperc"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"hu"		"{1} óra {2} perc és {3} másodperc"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"hu"		"{1} perc és {2} másodperc"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"hu"		"{1} perc és {2} másodperc"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"hu"		"{1} másodperc"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"hu"		"{1} másodperc"
+	}
+	"zrclass"
+	{
+		"hu"		"játékos típus"
+	}
+}

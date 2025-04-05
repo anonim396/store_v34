@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"pl"		"Anuluj handel"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"pl"		"Czy chcesz zaoferować swój {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"pl"		"Czy chcesz wymienić swój {1} {2}?"
+	}
+	"Offer"
+	{
+		"pl"		"Oferuj przedmiot"
+	}
+	"Offer item"
+	{
+		"pl"		"Zaoferuj ten przedmiot"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"pl"		"Twój partner oferuje {1} kredyt(ów)"
+	}
+	"Partner Item Offer"
+	{
+		"pl"		"Twój partner oferuje następujące przedmioty:"
+	}
+	"Partner Not Ready"
+	{
+		"pl"		"Twój partner jeszcze nie jest gotowy."
+	}
+	"Partner Ready"
+	{
+		"pl"		"Twój partner jest gotowy."
+	}
+	"Player Left"
+	{
+		"pl"		"Gracz, z którym chciałeś handlować, opuścił grę."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"pl"		"Gotowy [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"pl"		"Handel zakończy się za {1} sekund(y)..."
+	}
+	"Trade Active"
+	{
+		"pl"		"Już prowadzisz wymianę."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"pl"		"Czy chcesz handlować z {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"pl"		"Czy chcesz anulować wymianę?"
+	}
+	"Trade Cooldown"
+	{
+		"pl"		"Poczekaj kilka minut przed ponownym handlem."
+	}
+	"Trade Menu"
+	{
+		"pl"		"Aby ponownie otworzyć menu handlu, wpisz !trade."
+	}
+	"Trade Not Active"
+	{
+		"pl"		"Nie prowadzisz wymiany."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"pl"		"Twój partner anulował wymianę."
+	}
+	"Trade Select Player"
+	{
+		"pl"		"Wybierz gracza do wymiany"
+	}
+	"Trade Successful"
+	{
+		"pl"		"Wymiana zakończyła się pomyślnie."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"pl"		"Handlujesz z {1}\n-----------------------------\nAby zaoferować kredyty, wpisz !offer <amount>\nZaoferowałeś {2} kredytów"
+	}
+	"Trade item"
+	{
+		"pl"		"Wymień ten przedmiot"
+	}
+	"Waiting for confirmation"
+	{
+		"pl"		"Proszę czekać na odpowiedź wybranego gracza."
+	}
+}

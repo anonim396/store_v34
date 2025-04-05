@@ -1,0 +1,2282 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{1}21 !!! 二十一点 !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"chi"		"您已经重新加载了配置。请更改或重新加载地图。"
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"所有参与的玩家都已断开连接，没人能拿回他们的 {2}，哈哈。奖池是 {1} {2}!"
+	}
+	"All valid voucher"
+	{
+		"chi"		"所有生成的有效的代金券是：\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"chi"		"你赢了，但已经拥有{1} ({2})。物品被卖出得{3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"chi"		"你已有{1} ({2})。你被退款回 {3} {4}"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"chi"		"数量：{1}"
+	}
+	"Aura"
+	{
+		"chi"		"光环:"
+	}
+	"Back"
+	{
+		"chi"		"返回"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"chi"		"下注 * 倍数 = 你的胜利"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"chi"		"奖励积分: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"CT 胜利奖金: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"chi"		"最高投注 ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"chi"		"最低投注 ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"chi"		"随机投注 ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"T 胜利奖金: {1} {2}"
+	}
+	"Bet on"
+	{
+		"chi"		"投注在"
+	}
+	"Bet on a Head/Tail"
+	{
+		"chi"		"下注正反"
+	}
+	"Bet on a color"
+	{
+		"chi"		"下注一个颜色，如果这个颜色被选择你就赢了！"
+	}
+	"Bet on a number"
+	{
+		"chi"		"下注低（#1-3）或高（#4-6）或一个精确的数字。如果你的选择投中了你就赢了！"
+	}
+	"Bet on a team"
+	{
+		"chi"		"下注一个队伍，如果这个队伍赢得回合你就赢了！"
+	}
+	"Betting Already Placed"
+	{
+		"chi"		"你已经成功放置了Bet了!"
+	}
+	"Betting Invalid Team"
+	{
+		"chi"		"无效的组或队伍指定."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你失去了 {1} credits 因为Bet."
+	}
+	"Betting Period Over"
+	{
+		"chi"		"本轮下注已经结束..."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你成功放置Bet {1} credits."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你的Bet 为你赢得了 {1} credits."
+	}
+	"Black"
+	{
+		"chi"		"黑色"
+	}
+	"Blackjack Info 1"
+	{
+		"chi"		"21点是一个让自己手牌价值在不超过21点的前提下超过庄家的游戏。"
+	}
+	"Blackjack Info 2"
+	{
+		"chi"		"计算规则：\n- \"A\" 卡可以被算做1或11。假如手牌价值超过了21点则此卡必须被算为1。"
+	}
+	"Blackjack Info 3"
+	{
+		"chi"		"- \"10,J,Q,K\"：被算为10。\n- 2-9 以纸面价值计算。"
+	}
+	"Blackjack Info 4"
+	{
+		"chi"		"- 你手牌的总值必须接近21点而不能超过21点的情况下打败庄家来获胜。\n- \"A\" + 10 值卡 = 21点。这就是直接胜利。"
+	}
+	"Buy"
+	{
+		"chi"		"购买物品"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"chi"		"购买物品 ({1})"
+	}
+	"CP Changed color"
+	{
+		"chi"		"您已将颜色更改为: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"chi"		"聊天标签颜色选项"
+	}
+	"CP Disable Color - Menu"
+	{
+		"chi"		"禁用颜色"
+	}
+	"CP Disabled Color"
+	{
+		"chi"		"自定义标签颜色已禁用。"
+	}
+	"CP No Name Tag Equipped"
+	{
+		"chi"		"您没有装备任何名称标签"
+	}
+	"CP No file found"
+	{
+		"chi"		"用户的自定义标签颜色已禁用。请联系管理员以获取进一步的支持。"
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"chi"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"chi"		"显示预览排行榜标签，请按TAB键。"
+	}
+	"Cancel"
+	{
+		"chi"		"取消"
+	}
+	"Cant be bought"
+	{
+		"chi"		"此物品无法购买"
+	}
+	"Cash out"
+	{
+		"chi"		"兑现"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"更改您的赌注: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"chi"		"你购买了1个 {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"chi"		"{1} 赠送给你 {2} {3}."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"chi"		"你赠送了 {1} 个 {2} {3}."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"chi"		"你出售了 {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"chi"		"你打开了一个箱子并找到了 {1} 积分！"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"chi"		"{1} 打开了一个箱子并发现了 {2} ({3})！"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"chi"		"{1} 打开了一个箱子并发现了 {2} ({3})！"
+	}
+	"Check All Voucher"
+	{
+		"chi"		"检查全部有效的可用的代金券（管理员限定）"
+	}
+	"Check Voucher"
+	{
+		"chi"		"检查一个代金券"
+	}
+	"Check Your valid Voucher"
+	{
+		"chi"		"检查你的生成的有效的代金券"
+	}
+	"Choose Number (1:6)"
+	{
+		"chi"		"选择数字 (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"chi"		"自动兑现："
+	}
+	"Client Loadout Reset"
+	{
+		"chi"		"您的装备已被重置。"
+	}
+	"Client valid voucher"
+	{
+		"chi"		"你的生成的有效的代金券是：\n "
+	}
+	"Close"
+	{
+		"chi"		"关闭"
+	}
+	"ColoredSmoke"
+	{
+		"chi"		"颜色烟雾"
+	}
+	"Command is in-game only"
+	{
+		"chi"		"你必须活着使用这个命令。"
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"chi"		"配置已重新加载。请重新启动或更改地图。"
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"chi"		"购买确认 {1} {2}?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"chi"		"你确定你要赠送 {1} {2} 给 {3}?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"chi"		"你确定你要丢弃 {1} {2} 在地上?"
+	}
+	"Confirm_No"
+	{
+		"chi"		"No-不,返回!!"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"chi"		"你确定你要出售 {1} {2} for {3}?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"chi"		"你确定要把 {1} ({2}) 转换为代金券吗？\n警告：假如在物品在兑换之前过期。\n此代金券将过期。"
+	}
+	"Confirm_Yes"
+	{
+		"chi"		"Yes-是的,我确认!"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"chi"		"{1} 答对了并赢得了 {2} {3}!"
+	}
+	"Counter-Terrorist"
+	{
+		"chi"		"反恐精英"
+	}
+	"Crash Already Start"
+	{
+		"chi"		"Crash 游戏当前正在进行中。请等待下一局游戏。"
+	}
+	"Crash Auto Off"
+	{
+		"chi"		"关"
+	}
+	"Crash Auto Off Panel"
+	{
+		"chi"		"关闭自动兑现"
+	}
+	"Crash Auto On"
+	{
+		"chi"		"开"
+	}
+	"Crash Auto On Panel"
+	{
+		"chi"		"打开自动兑现"
+	}
+	"Crash Info 1"
+	{
+		"chi"		"           什么是/如何玩: Crash"
+	}
+	"Crash Info 2"
+	{
+		"chi"		"- Crash 是一个玩家可以对一个乘数进行下注的游戏，这个乘数与一个增加的曲线相关，随时可能崩溃。"
+	}
+	"Crash Info 3"
+	{
+		"chi"		"- 乘数从1.00x开始，您可以随时兑现。"
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"chi"		"- 最小投注额为 {1} {2}。最大投注额为 {3} {4}。这些限制可能会随时间变化。"
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"chi"		"输入错误（必须为 {1} 或更高）。"
+	}
+	"Crash auto input"
+	{
+		"chi"		"在聊天区输入你的自动兑现"
+	}
+	"Crash auto input set"
+	{
+		"chi"		"设置了爆出现金自动兑现"
+	}
+	"Crash set auto"
+	{
+		"chi"		"设置自动兑现值"
+	}
+	"Crash!"
+	{
+		"chi"		"爆炸!"
+	}
+	"Create Item Voucher"
+	{
+		"chi"		"创建物品代金券（仅限管理员）"
+	}
+	"Create Voucher"
+	{
+		"chi"		"创造一个代金券"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"chi"		"创造代金券失败 - 附带后面的时间戳联系管理员：{1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"chi"		"当前无法使用积分赠送."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你丢弃 {1} credits."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"chi"		"{2} 给了你 {1} credits."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"chi"		"你已经发送 {1} credits积分给 {2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"chi"		"你没有足够的积分来创建赠送活动。"
+	}
+	"Credit Invalid Amount"
+	{
+		"chi"		"错误的分数值."
+	}
+	"Credit No Match"
+	{
+		"chi"		"未找到玩家."
+	}
+	"Credit Not Enough"
+	{
+		"chi"		"你没有足够的积分购买这个"
+	}
+	"Credit Too Many Matches"
+	{
+		"chi"		"相同客户端具有多个."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"chi"		"你没有足够的点数创造代金券。"
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"chi"		"你赚得 {1} Credits积分 击杀玩家 {2}."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你获得 {1} credits积分 来自服务器."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"chi"		"{1} 获得 {2} credits."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"chi"		"点数：{1}          存钱罐：{2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"chi"		"禁用"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"chi"		"已启用"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"chi"		"[自定义武器声音]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"chi"		"自定义武器声音音量控制菜单"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"chi"		"音量: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"chi"		"自定义武器声音: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"chi"		"自定义武器声音已禁用."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"chi"		"自定义武器声音已启用。"
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"chi"		"自定义武器声音已启用。音量: {1}"
+	}
+	"CustomModel"
+	{
+		"chi"		"自定义武器模型:"
+	}
+	"Damage the crate to open"
+	{
+		"chi"		"伤害箱子来打开！"
+	}
+	"Dead heat"
+	{
+		"chi"		"- 不分胜负 -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"chi"		"             成交     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"chi"		"庄家"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"chi"		"折扣： '{1}' 是激活的！购物愉快！"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"chi"		"折扣：'{1}' 已结束。"
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"chi"		"折扣：'{1}' 已开始！购物愉快！"
+	}
+	"Double"
+	{
+		"chi"		"加倍"
+	}
+	"Down"
+	{
+		"chi"		"向下"
+	}
+	"Down2"
+	{
+		"chi"		"                      5 = 向下"
+	}
+	"Drop Gift"
+	{
+		"chi"		"丢在地上,只有别人可以拾取"
+	}
+	"Edit Amount"
+	{
+		"chi"		"编辑数量："
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"chi"		"请输入物品的过期时间（以秒为单位）到聊天框！"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"chi"		"无效的数字格式。请重试。"
+	}
+	"Enter custom amount"
+	{
+		"chi"		"请在聊天中输入您的自定义金额！"
+	}
+	"Enter maximum value"
+	{
+		"chi"		"请在聊天中输入积分的最大值！"
+	}
+	"Enter minimum value"
+	{
+		"chi"		"请聊天输入点数的最小值！"
+	}
+	"Enter number of vouchers"
+	{
+		"chi"		"请聊天输入要创建的代金券的数字！"
+	}
+	"Enter value of vouchers"
+	{
+		"chi"		"请聊天输入代金券的价值！"
+	}
+	"Enter voucher code"
+	{
+		"chi"		"请在聊天中输入您的代金券代码！"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"chi"		"收回价格回时发生错误。请联系管理员。"
+	}
+	"Exact #x  = "
+	{
+		"chi"		"精确 #x = "
+	}
+	"Exit"
+	{
+		"chi"		"返回"
+	}
+	"Gained"
+	{
+		"chi"		"获得"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"chi"		"获得: {1} {2}"
+	}
+	"Game Info"
+	{
+		"chi"		"游戏信息"
+	}
+	"Game in progress"
+	{
+		"chi"		"你的当前博彩游戏正在运行。请等待其完成"
+	}
+	"Get three on a kind"
+	{
+		"chi"		"获得三张相同的卡"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你拾取 {1} credits."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"chi"		"你拾取礼物 {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"chi"		"似乎没有人可以获得这个,可能对方已经拥有."
+	}
+	"Gift Player Left"
+	{
+		"chi"		"选择的玩家当前状态不在游戏!."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"chi"		"{1} 想开始一次赠送活动服务器必须有至少 {2} 玩家。"
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"chi"		"管理员 {1} 开启了一次赠送活动，含有 <font color='#15fb00'>{2} 点数"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"chi"		"|| 赠送活动开始时间剩余 {1} 秒 ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"chi"		"{1} {2} 赢得了一次赠送活动，含有 {3} 点数"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"chi"		"{1}\n|| 胜者: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"chi"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"chi"		"您已达到本轮可以购买的最大神模式数量."
+	}
+	"Godmode Wrong Team"
+	{
+		"chi"		"你不能在这个团队中使用上帝模式."
+	}
+	"Green"
+	{
+		"chi"		"绿色"
+	}
+	"HE grenade kill"
+	{
+		"chi"		"HE 手雷击杀"
+	}
+	"HUD"
+	{
+		"chi"		"HUD"
+	}
+	"Head"
+	{
+		"chi"		"正面"
+	}
+	"Health Round Limit"
+	{
+		"chi"		"您已达到本轮可购买的最大医疗包数量."
+	}
+	"Help_Back"
+	{
+		"chi"		"返回-Back"
+	}
+	"Help_Exit"
+	{
+		"chi"		"退出-Exit"
+	}
+	"Hide bullet sparks"
+	{
+		"chi"		"隐藏子弹火花"
+	}
+	"Hide bullet tracer"
+	{
+		"chi"		"隐藏子弹轨迹"
+	}
+	"Hide gloves"
+	{
+		"chi"		"隐藏手套"
+	}
+	"Hide paintball"
+	{
+		"chi"		"隐藏彩弹"
+	}
+	"Hide particles"
+	{
+		"chi"		"隐藏粒子"
+	}
+	"Hide pets"
+	{
+		"chi"		"隐藏宠物"
+	}
+	"Hide trails"
+	{
+		"chi"		"隐藏踪迹"
+	}
+	"High #4-6"
+	{
+		"chi"		"高 #4-6"
+	}
+	"High #4-6 = "
+	{
+		"chi"		"高 #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"chi"		"高 - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"chi"		"更高"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"chi"		"选择的数字是: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"chi"		"下一个数字是: {1}"
+	}
+	"Hit"
+	{
+		"chi"		"拿牌"
+	}
+	"Hol Info 1"
+	{
+		"chi"		"在{1}和{2}之间选择了一个数字，您需要猜测下一个数字是否比选择的数字大或小。"
+	}
+	"Hol Info 2"
+	{
+		"chi"		"如果你选择正确，你将赢得你的投注的两倍。"
+	}
+	"Hol Info 3"
+	{
+		"chi"		"每场游戏之间有 {1} 秒的暂停。"
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"您已成功放置 {1} {2}。"
+	}
+	"Inventory"
+	{
+		"chi"		"库存"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"chi"		"请等待 数据可能未连接成功,或服务器数据正在维护,如果不是全部玩家,建议尝试重新加入服务器!."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"chi"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{1}"
+	}
+	"Item Equip"
+	{
+		"chi"		"装备这个物品"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{1} [装备中]"
+	}
+	"Item Gift"
+	{
+		"chi"		"赠送这个物品"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{1} (多选择)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"chi"		"给系统回收 {1}"
+	}
+	"Item Unequip"
+	{
+		"chi"		"取下这个物品"
+	}
+	"Item Use"
+	{
+		"chi"		"使用这个物品"
+	}
+	"Item Voucher"
+	{
+		"chi"		"给物品制作代金券"
+	}
+	"Item Voucher disabled"
+	{
+		"chi"		"此物品创造代金券已关闭"
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"chi"		"你已转换 {1} ({2}) 为代金券 {3}。"
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"chi"		"{1} 隐藏。你不会再看到它们了。"
+	}
+	"Item not found"
+	{
+		"chi"		"找不到物品"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"chi"		"{1} 又可见了。"
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"chi"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"chi"		"彩金暂停。"
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"彩金: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"chi"		"喷气背包空"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"chi"		"[喷气背包] 燃料: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"chi"		"喷气背包已重载"
+	}
+	"Jihad Failed"
+	{
+		"chi"		"你的炸弹未能爆炸."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{1} 之圣战炸弹未能爆炸。"
+	}
+	"Jihad Wrong Team"
+	{
+		"chi"		"你不能在这个队伍中使用炸弹."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"chi"		"{1} 分钟后开始崩盘。"
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"chi"		"{1} 秒后开始崩盘。"
+	}
+	"LevelIcon"
+	{
+		"chi"		"等级图标"
+	}
+	"Limited"
+	{
+		"chi"		"有限制的 - 单个玩家"
+	}
+	"Lootbox case is opening"
+	{
+		"chi"		"请等待你先前的箱子打开"
+	}
+	"Lootbox map ended"
+	{
+		"chi"		"地图已结束。请等待下个地图"
+	}
+	"Lootbox round ended"
+	{
+		"chi"		"回合已结束。请等待新回合"
+	}
+	"Lootbox warm up"
+	{
+		"chi"		"你不能在热身时打开"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"chi"		"你失去了 {1} 天的日常连胜记录。"
+	}
+	"Lost bet"
+	{
+		"chi"		"失败了！你输了你的赌注"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你输了你的赌注，因为下一个数字是: {1}"
+	}
+	"Low #1-3"
+	{
+		"chi"		"低 #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"chi"		"低 #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"chi"		"低 - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"chi"		"更低"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"chi"		"我们至少需要 {1} 个玩家"
+	}
+	"Must be Alive"
+	{
+		"chi"		"你必须活着才能使用."
+	}
+	"Must be dead"
+	{
+		"chi"		"你必须死了才能玩"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"chi"		"倍数 = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"chi"		"没有活动的彩金"
+	}
+	"No active TeamBet"
+	{
+		"chi"		"尚未进行任何团队下注"
+	}
+	"No have flag"
+	{
+		"chi"		"您没有权限使用此命令。"
+	}
+	"No matching color"
+	{
+		"chi"		"没有匹配的颜色，请使用: r/红色, b/黑色 或 g/绿色"
+	}
+	"No pick up - back to you"
+	{
+		"chi"		"没有人捡起您掉落的积分。您已将其找回。"
+	}
+	"No pick up - removed"
+	{
+		"chi"		"没有人捡起您掉落的积分。积分已被移除。"
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"chi"		"时间到。正确答案是 {1}."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"没有其他人将资金投入奖池。您将获得 {1} {2} 返回！"
+	}
+	"Not enough Credits"
+	{
+		"chi"		"你没有足够的点数"
+	}
+	"Now run a giveaway"
+	{
+		"chi"		"当前正在进行赠送活动，请稍后再试。"
+	}
+	"Only number"
+	{
+		"chi"		"您只能输入数字..."
+	}
+	"Override Disabled"
+	{
+		"chi"		"你的皮肤不支持装饰,你的帽子被自动禁用."
+	}
+	"Override Enabled"
+	{
+		"chi"		"你的皮肤不支持装饰. 你的皮肤会被自动变化."
+	}
+	"Owned"
+	{
+		"chi"		"[拥有]"
+	}
+	"Package Gift"
+	{
+		"chi"		"赠送这个组合包"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"chi"		"出售这个组合包 {1}"
+	}
+	"Package Voucher"
+	{
+		"chi"		"从包制作代金券"
+	}
+	"Parachute Empty"
+	{
+		"chi"		"降落伞空了"
+	}
+	"Parachute Reloaded"
+	{
+		"chi"		"降落伞重新装载"
+	}
+	"Particles"
+	{
+		"chi"		"粒子:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"放入 {1} {2}"
+	}
+	"Play Preview"
+	{
+		"chi"		"为你播放预览声音。"
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"chi"		"{1} 当前拥有 {2} credits."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{1} 已被重置."
+	}
+	"Player Skin module disabled"
+	{
+		"chi"		"商店玩家皮肤模块目前暂时禁用。"
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"chi"		"{1} 将 {2} {3} 存入奖池，他当前的中奖机会是：{4}%（奖池：{5} {6}）"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"chi"		"{1} 输掉了 {2} {3} 在 {4}."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"chi"		"{1} 打开了一个奖池，奖金为 {2} {3}。现金兑换来抢这笔钱！"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"chi"		"{1} 赢得了头奖，奖金为 {2} {3}!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"chi"		"{1} 赢得了 {2} {3} 在 {4}."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"chi"		"{1} 获得了 {2} {3}，乘数为 x{4}，在 {5}。"
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"chi"		"您的新设置将在下个回合生效或当你重生."
+	}
+	"Press"
+	{
+		"chi"		"按"
+	}
+	"Press to Start"
+	{
+		"chi"		"按下开始！"
+	}
+	"Press to Stop"
+	{
+		"chi"		"按下停止！"
+	}
+	"Preview Item"
+	{
+		"chi"		"预览这个物品"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"chi"		"价格：{1}"
+	}
+	"Purchase Voucher"
+	{
+		"chi"		"购买一个代金券"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"chi"		"多少是 {1} {2} {3}? | 奖品: {4} {5}"
+	}
+	"Red"
+	{
+		"chi"		"红色"
+	}
+	"Redeem Voucher"
+	{
+		"chi"		"兑换一个代金券"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"重运行 {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"chi"		"你已经达到本轮可以购买的最大重生次数."
+	}
+	"SQL Cooldown"
+	{
+		"chi"		"因为安全原因你不能短期提交多个请求。"
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"chi"		"-------------- 商店搜索菜单建议 --------------\n -所有相关的物品会在此处列出\n - 你当前搜索的内容: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"chi"		"第二名获胜者也不再参与游戏，最后尝试找到新的赢家。"
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你需要等待 {1} 秒才能再次尝试使用此命令。"
+	}
+	"Show bullet sparks"
+	{
+		"chi"		"显示子弹火花"
+	}
+	"Show bullet tracer"
+	{
+		"chi"		"显示子弹轨迹"
+	}
+	"Show gloves"
+	{
+		"chi"		"显示手套"
+	}
+	"Show paintball"
+	{
+		"chi"		"显示彩弹"
+	}
+	"Show particles"
+	{
+		"chi"		"显示粒子"
+	}
+	"Show pets"
+	{
+		"chi"		"显示宠物"
+	}
+	"Show trails"
+	{
+		"chi"		"显示踪迹"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"chi"		"你不能使用一个比你的最小值({1})还小的值"
+	}
+	"Spacer"
+	{
+		"chi"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"chi"		"刷屏保护。请等待 {1} 秒。"
+	}
+	"Spawn Preview"
+	{
+		"chi"		"已生成一个预览。预览会在45秒之后消失。"
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"已生成一个预览。预览会在{1}秒后消失。"
+	}
+	"Start again from begin"
+	{
+		"chi"		"请从头再次开始"
+	}
+	"Starting"
+	{
+		"chi"		"开始"
+	}
+	"Stay"
+	{
+		"chi"		"停牌"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"chi"		"您确定要重置您的装备吗？所有物品将被卸下。"
+	}
+	"Successfully purchased voucher"
+	{
+		"chi"		"你成功购买了一个代金券"
+	}
+	"TF Wrong Class"
+	{
+		"chi"		"此物品是给不同的玩家兵种使用的。"
+	}
+	"Tail"
+	{
+		"chi"		"尾巴"
+	}
+	"TeamBet Already Placed"
+	{
+		"chi"		"您已经为这一轮下注了。"
+	}
+	"TeamBet Invalid Team"
+	{
+		"chi"		"指定了无效的队伍标识符。"
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"你在下注中输了 {1} {2}."
+	}
+	"TeamBet Period Over"
+	{
+		"chi"		"本轮的投注时间已经结束。"
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"chi"		"您已成功下注 {1} 积分。"
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"您的下注成功。您赢得了 {1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"chi"		"另一队没有下注，因此您收回了积分。"
+	}
+	"Terrorist"
+	{
+		"chi"		"恐怖分子"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"chi"		"选择的数字是: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"chi"		"下一个数字是: {1}"
+	}
+	"This is the preview text"
+	{
+		"chi"		"这是预览文本。"
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"chi"		"管理员已重新加载商店配置。地图将在 {1} 秒后重新加载！"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"chi"		"管理员物品代金券创建菜单。\n \n选择物品的持续时间。"
+	}
+	"Title Admin Voucher Menu"
+	{
+		"chi"		"管理员物品代金券创建菜单"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"chi"		"积分：{1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"chi"		"将在 {1}天 {2}小时 到期"
+	}
+	"Title Gift"
+	{
+		"chi"		"选择玩家赠送"
+	}
+	"Title Store"
+	{
+		"chi"		"商店菜单"
+	}
+	"To late chat input"
+	{
+		"chi"		"你的文本输入没有在所给时间内完成"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"chi"		"地面上有太多的 {1}，目前无法再掉落！"
+	}
+	"Top Credits"
+	{
+		"chi"		"积分排行榜"
+	}
+	"Top Credits Inv Worth"
+	{
+		"chi"		"积分 + 库存价值 排行榜"
+	}
+	"Top Inv Worth"
+	{
+		"chi"		"库存价值排行榜"
+	}
+	"Top Most Items"
+	{
+		"chi"		"物品排行榜"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"总计：{1} {2}"
+	}
+	"Try again"
+	{
+		"chi"		"再试一次"
+	}
+	"Type in chat !bet"
+	{
+		"chi"		"在聊天中输入 !bet <投注> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"chi"		"在聊天输入 !blackjack <赌注>"
+	}
+	"Type in chat !coinflip"
+	{
+		"chi"		"在聊天中输入 !coinflip <投注> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"chi"		"在聊天中输入 !crash <赌注>"
+	}
+	"Type in chat !crowns"
+	{
+		"chi"		"在聊天中输入 !crowns <投注>"
+	}
+	"Type in chat !dice"
+	{
+		"chi"		"在聊天中输入 !dice <下注> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"chi"		"在聊天中输入 !jackpot <投注>"
+	}
+	"Type in chat !roulette"
+	{
+		"chi"		"在聊天中输入 !roulette <投注> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"chi"		"无限制的 - 多个玩家"
+	}
+	"Up"
+	{
+		"chi"		"向上"
+	}
+	"Value less than 1"
+	{
+		"chi"		"你不能使用小于1的值。"
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"chi"		"将 {1} 音量设置为 {2}"
+	}
+	"Voucher Code 17 chars"
+	{
+		"chi"		"从现在起代金券代码必须是17字符"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"此代金券有价值 {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"chi"		"代金券被接受"
+	}
+	"Voucher accepted Panel"
+	{
+		"chi"		"代金券被接受"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"chi"		"你生成 {1} {2}限定代金券{3} 含有额度 {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"chi"		"你生成 {1} {2}限定代金券{3} 含有额度 {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"chi"		"输入的代金券代码已在 {1} 被兑换"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"chi"		"代金券过期于 {1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"chi"		"输入的代金券代码已在 {1} 过期"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"chi"		"创造了新的代金券 {1}  价值 {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"chi"		"你可以在聊天栏和控制台找到代金券代码"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"chi"		"代金券代码: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"chi"		"输入的代金券代码 '{1}' 是无效的！"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"chi"		"此代金券含有 {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"chi"		"代金券代码有效"
+	}
+	"Vouchers"
+	{
+		"chi"		"代金券"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"chi"		"你必须等 {1} 直到下一次日常。"
+	}
+	"Wait until next daily 2"
+	{
+		"chi"		"你今天已经签到，请明天再来。"
+	}
+	"Win = "
+	{
+		"chi"		"胜利 = "
+	}
+	"Winner is not in game anymore"
+	{
+		"chi"		"获胜者已不再参与游戏，正在尝试找到新的赢家。"
+	}
+	"Wrong voucher code format"
+	{
+		"chi"		"代金券代码格式错误。必须是 XXXXX-XXXXX-XXXXX"
+	}
+	"You"
+	{
+		"chi"		"你"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"chi"		"您已经将 {1} {2} 提取到奖池中。当前获胜几率：{3}%% 奖池：{4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"chi"		"你已获得了代金券所含的物品"
+	}
+	"You already redeemed Voucher"
+	{
+		"chi"		"你已兑换了输入的代金券代码"
+	}
+	"You can start a new Jackpot"
+	{
+		"chi"		"您可以开始新的彩金"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"chi"		"您可以在 {1} 开始新的彩金。"
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"您不能花费那么多积分（最大：{1} {2}）。"
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"您收集了 {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"chi"		"发生错误,无权使用"
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"您掉落了 {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"chi"		"你在这一回合没有获得积分。"
+	}
+	"You earned this round"
+	{
+		"chi"		"你在这一回合获得了："
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"你赚得了 {1} {2} 为。 "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"你这回合赚得 {1} {2}"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"你收到了 {1} {2}。"
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"你收到了 {1} {2}。"
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"chi"		"你获得了一个 {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"chi"		"你收到了一个 {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"您必须至少花费 {1} {2}。"
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"您必须至少花费 {1} {2}。"
+	}
+	"You haven't opened the box in given time"
+	{
+		"chi"		"你未能在所给时间内打开箱子。战利品箱已返回你的库存"
+	}
+	"You lose"
+	{
+		"chi"		"- 你输了"
+	}
+	"You lost with"
+	{
+		"chi"		"你输掉了，凭借"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"你输掉 {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"chi"		"你制霸了'日常挑战'！尝试再次挑战！"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"你赢得 {1} {2}"
+	}
+	"You won"
+	{
+		"chi"		"!!! 你赢了 !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"chi"		"你赢得了{1} ({2})"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"您赢得了头奖，奖金为 {1} {2}!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"chi"		"您赢得了头奖，奖金为 {1} {2}，扣除赌场费用 {3} {4} ({5}%)。"
+	}
+	"You won with"
+	{
+		"chi"		"你赢了，凭借"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"chi"		"你赢得了 {1} 积分，乘数为 x{2}。"
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"你会在明天赚得 {1} {2} ！"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"chi"		"您的投注：{1} {2} - 概率：{3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"您的下注: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"chi"		"您当前的获胜机会已更改为 {1}%"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"chi"		"你因杀死 {2} 获得了 {1} 积分。"
+	}
+	"admin"
+	{
+		"chi"		"权限"
+	}
+	"and is limited"
+	{
+		"chi"		"并且是有限制的"
+	}
+	"and is unlimited"
+	{
+		"chi"		"并且是无限制的"
+	}
+	"arms"
+	{
+		"chi"		"手臂"
+	}
+	"assist a kill"
+	{
+		"chi"		"协助杀敌"
+	}
+	"attachment"
+	{
+		"chi"		"附件"
+	}
+	"backstab kill"
+	{
+		"chi"		"背刺击杀"
+	}
+	"be the MVP"
+	{
+		"chi"		"成为MVP"
+	}
+	"bet x"
+	{
+		"chi"		"下注 x"
+	}
+	"blackjack"
+	{
+		"chi"		"21点"
+	}
+	"bomb defused"
+	{
+		"chi"		"炸弹被拆除"
+	}
+	"bomb explode"
+	{
+		"chi"		"炸弹爆炸"
+	}
+	"bomb planted"
+	{
+		"chi"		"炸弹已种植"
+	}
+	"bombtweak"
+	{
+		"chi"		"炸弹调整"
+	}
+	"bullet_impact"
+	{
+		"chi"		"子弹撞击"
+	}
+	"bulletsparks"
+	{
+		"chi"		"子弹火花"
+	}
+	"bunnyhob"
+	{
+		"chi"		"兔子跳"
+	}
+	"bunnyhop"
+	{
+		"chi"		"连跳"
+	}
+	"casino"
+	{
+		"chi"		"赌场"
+	}
+	"coinflip"
+	{
+		"chi"		"抛硬币"
+	}
+	"command"
+	{
+		"chi"		"命令"
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"chi"		"您想重置配置吗？\n地图将在 {1} 秒后重新加载！"
+	}
+	"confirm_reload_type_1"
+	{
+		"chi"		"您想重置配置吗？\n您需要更改地图以应用，或者可能会出现一些错误。"
+	}
+	"connect"
+	{
+		"chi"		"连接信息"
+	}
+	"crash"
+	{
+		"chi"		"崩盘"
+	}
+	"creditstoplist"
+	{
+		"chi"		"积分"
+	}
+	"crowns"
+	{
+		"chi"		"王冠槽"
+	}
+	"daily"
+	{
+		"chi"		"日常奖励"
+	}
+	"decoy grenade kill"
+	{
+		"chi"		"诱饵手雷击杀"
+	}
+	"dice"
+	{
+		"chi"		"骰子"
+	}
+	"direction"
+	{
+		"chi"		"方向"
+	}
+	"discount"
+	{
+		"chi"		"特惠"
+	}
+	"distance"
+	{
+		"chi"		"距离"
+	}
+	"dmgtext"
+	{
+		"chi"		"画家"
+	}
+	"emote"
+	{
+		"chi"		"表情"
+	}
+	"escape as VIP"
+	{
+		"chi"		"作为VIP逃脱"
+	}
+	"flashbang kill"
+	{
+		"chi"		"闪光弹击杀"
+	}
+	"flashlight"
+	{
+		"chi"		"手电筒"
+	}
+	"froggyjump"
+	{
+		"chi"		"蛙跳"
+	}
+	"gloves"
+	{
+		"chi"		"手套"
+	}
+	"glow"
+	{
+		"chi"		"发光"
+	}
+	"godmode"
+	{
+		"chi"		"上帝模式"
+	}
+	"gravity"
+	{
+		"chi"		"重力"
+	}
+	"grenademodel"
+	{
+		"chi"		"手雷模型"
+	}
+	"grenadeskin"
+	{
+		"chi"		"手雷皮肤"
+	}
+	"grenadetrail"
+	{
+		"chi"		"手雷足迹"
+	}
+	"hat"
+	{
+		"chi"		"帽子"
+	}
+	"headshot"
+	{
+		"chi"		"爆头"
+	}
+	"health"
+	{
+		"chi"		"生命"
+	}
+	"high or low"
+	{
+		"chi"		"高还是低"
+	}
+	"hiteff"
+	{
+		"chi"		"击中效果:"
+	}
+	"hitsound"
+	{
+		"chi"		"击中声音"
+	}
+	"hostage rescued"
+	{
+		"chi"		"人质被救"
+	}
+	"hunterjump"
+	{
+		"chi"		"Hunter 跳"
+	}
+	"idle on the server"
+	{
+		"chi"		"在服务器上空闲"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"chi"		"在 {1}。"
+	}
+	"infinityammo"
+	{
+		"chi"		"无限弹药"
+	}
+	"info"
+	{
+		"chi"		"信息面板"
+	}
+	"instabomb"
+	{
+		"chi"		"即时种植 / 拆除"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"chi"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"chi"		"隐身"
+	}
+	"items"
+	{
+		"chi"		"物品"
+	}
+	"jackpot"
+	{
+		"chi"		"大奖"
+	}
+	"jetpack"
+	{
+		"chi"		"火箭"
+	}
+	"jihad"
+	{
+		"chi"		"炸弹"
+	}
+	"kill"
+	{
+		"chi"		"击杀"
+	}
+	"kill the VIP"
+	{
+		"chi"		"杀死VIP"
+	}
+	"kill yourself"
+	{
+		"chi"		"自杀"
+	}
+	"killeff"
+	{
+		"chi"		"击杀效果"
+	}
+	"knife"
+	{
+		"chi"		"刀"
+	}
+	"knife kill"
+	{
+		"chi"		"刀杀"
+	}
+	"laserdraw"
+	{
+		"chi"		"激光画:"
+	}
+	"laserpointer"
+	{
+		"chi"		"激光指示器"
+	}
+	"lasersight"
+	{
+		"chi"		"激光瞄准器"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"chi"		"上次更新 {1} 前"
+	}
+	"light"
+	{
+		"chi"		"光"
+	}
+	"lootbox"
+	{
+		"chi"		"战利品箱"
+	}
+	"mirror"
+	{
+		"chi"		"镜子"
+	}
+	"molotov kill"
+	{
+		"chi"		"莫洛托夫击杀"
+	}
+	"msgcolor"
+	{
+		"chi"		"消息颜色"
+	}
+	"mvp_sound"
+	{
+		"chi"		"最佳球员主题曲"
+	}
+	"namecolor"
+	{
+		"chi"		"名字颜色"
+	}
+	"nametag"
+	{
+		"chi"		"名字标签"
+	}
+	"nearest"
+	{
+		"chi"		"最近"
+	}
+	"nodiscount"
+	{
+		"chi"		" "
+	}
+	"noduckdelay"
+	{
+		"chi"		"无蹲下延迟"
+	}
+	"nofalldamage"
+	{
+		"chi"		"没有掉落伤害"
+	}
+	"noreload"
+	{
+		"chi"		"无需重新加载"
+	}
+	"noscope kill"
+	{
+		"chi"		"无瞄准击杀"
+	}
+	"noselfdamage"
+	{
+		"chi"		"没有自我伤害"
+	}
+	"or use buttons below"
+	{
+		"chi"		"或使用下面的按钮"
+	}
+	"package"
+	{
+		"chi"		"组合包"
+	}
+	"paintball"
+	{
+		"chi"		"弹孔"
+	}
+	"painter"
+	{
+		"chi"		"画家"
+	}
+	"parachute"
+	{
+		"chi"		"降落伞"
+	}
+	"particle"
+	{
+		"chi"		"粒子"
+	}
+	"pet"
+	{
+		"chi"		"宠物"
+	}
+	"playerskin"
+	{
+		"chi"		"人物皮肤"
+	}
+	"playing on the server"
+	{
+		"chi"		"在服务器上玩"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"chi"		"在我们的服务器上连续玩了 {1} 天"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"chi"		"你将在下次重生时获得 {1}"
+	}
+	"respawn"
+	{
+		"chi"		"重生"
+	}
+	"roulette"
+	{
+		"chi"		"轮盘"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你已达到最大使用saysound次数。每地图 {1} 最大次数"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你已达到最大使用saysound次数。每回合 {1} 最大次数"
+	}
+	"saysound"
+	{
+		"chi"		"说声音"
+	}
+	"scoreboardtag"
+	{
+		"chi"		"计分板标签"
+	}
+	"smokegrenade kill"
+	{
+		"chi"		"烟雾手雷击杀"
+	}
+	"sound"
+	{
+		"chi"		"音效"
+	}
+	"spawn"
+	{
+		"chi"		"额外重生"
+	}
+	"spawneff"
+	{
+		"chi"		"出生效果:"
+	}
+	"speed"
+	{
+		"chi"		"速度"
+	}
+	"spray"
+	{
+		"chi"		"喷漆"
+	}
+	"start daily challange"
+	{
+		"chi"		"开始'日常挑战'。接下来6天来玩可获得完整奖励"
+	}
+	"taser kill"
+	{
+		"chi"		"电击枪击杀"
+	}
+	"teambet"
+	{
+		"chi"		"团队竞猜"
+	}
+	"teamkill"
+	{
+		"chi"		"队友杀"
+	}
+	"tfhat"
+	{
+		"chi"		"建筑物帽子"
+	}
+	"tfhatdye"
+	{
+		"chi"		"帽子染色"
+	}
+	"tfhead"
+	{
+		"chi"		"头大小"
+	}
+	"tfunusual"
+	{
+		"chi"		"帽子特效"
+	}
+	"tfweapon"
+	{
+		"chi"		"自定义武器"
+	}
+	"tfweaponsize"
+	{
+		"chi"		"武器大小"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"chi"		"奖品将在 {1} 秒内抽取"
+	}
+	"thirdperson"
+	{
+		"chi"		"第三人称"
+	}
+	"throwknife"
+	{
+		"chi"		"投掷刀"
+	}
+	"toplists"
+	{
+		"chi"		"排行榜"
+	}
+	"tracer"
+	{
+		"chi"		"激光弹道"
+	}
+	"trail"
+	{
+		"chi"		"足迹"
+	}
+	"wasted"
+	{
+		"chi"		"浪费"
+	}
+	"watergun"
+	{
+		"chi"		"效果"
+	}
+	"weapon"
+	{
+		"chi"		"武器"
+	}
+	"weaponcolor"
+	{
+		"chi"		"武器颜色"
+	}
+	"weaponmodel"
+	{
+		"chi"		"武器模型"
+	}
+	"weaponskin"
+	{
+		"chi"		"武器皮肤"
+	}
+	"win the round"
+	{
+		"chi"		"赢得这一回合"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"chi"		"{1} {2} 为 '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"chi"		"{1} 小时 {2} 分钟 {3} 秒"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"chi"		"{1} 小时 {2} 分钟 和 {3} 秒"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"chi"		"{1} 分钟 {2} 秒"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"chi"		"{1} 分钟 和 {2} 秒"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"chi"		"{1} 秒"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"chi"		"{1} 秒"
+	}
+	"zrclass"
+	{
+		"chi"		"僵尸-类型"
+	}
+}

@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"cze"		"Zrušit obchod"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"cze"		"Chcete nabídnout svůj {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"cze"		"Chcete vyměnit svůj {1} {2}?"
+	}
+	"Offer"
+	{
+		"cze"		"Nabídnout položku"
+	}
+	"Offer item"
+	{
+		"cze"		"Nabídnout tuto položku"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Váš partner nabízí {1} kredit(ů)"
+	}
+	"Partner Item Offer"
+	{
+		"cze"		"Váš partner nabízí následující položky:"
+	}
+	"Partner Not Ready"
+	{
+		"cze"		"Váš partner ještě není připraven."
+	}
+	"Partner Ready"
+	{
+		"cze"		"Váš partner je připraven."
+	}
+	"Player Left"
+	{
+		"cze"		"Hráč, se kterým jste chtěli obchodovat, opustil hru."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Připraveno [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"cze"		"Obchod skončí za {1} sekundy..."
+	}
+	"Trade Active"
+	{
+		"cze"		"Již obchodujete."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"cze"		"Chcete obchodovat s {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"cze"		"Chcete zrušit obchod?"
+	}
+	"Trade Cooldown"
+	{
+		"cze"		"Počkejte prosím několik minut před dalším obchodem."
+	}
+	"Trade Menu"
+	{
+		"cze"		"Pro znovuotevření nabídky pro obchod napište !trade."
+	}
+	"Trade Not Active"
+	{
+		"cze"		"Neobchodujete."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"cze"		"Váš partner zrušil obchod."
+	}
+	"Trade Select Player"
+	{
+		"cze"		"Vyberte hráče pro obchod"
+	}
+	"Trade Successful"
+	{
+		"cze"		"Obchod byl úspěšně dokončen."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"cze"		"Obchodujete s {1}\n-----------------------------\nChcete-li nabídnout kredity, napište !offer <amount>\nNabídli jste {2} kreditů"
+	}
+	"Trade item"
+	{
+		"cze"		"Vyměnit tuto položku"
+	}
+	"Waiting for confirmation"
+	{
+		"cze"		"Prosím počkejte na odpověď vybraného hráče."
+	}
+}

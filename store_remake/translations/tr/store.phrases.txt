@@ -1,0 +1,2278 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"tr"		"{1}21 !!! BLACKJACK !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Yapılandırmayı zaten yeniden yüklediniz. Lütfen haritayı değiştirin veya yeniden yükleyin."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Tüm katılımcı oyuncular bağlantıyı kesiyor, kimse {2} geri alamaz, haha. Jackpot {1} {2} idi!"
+	}
+	"All valid voucher"
+	{
+		"tr"		"Tüm oluşturduğunuz ve geçerli kuponlar:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"tr"		"Başardınız, ancak zaten {1} ({2})'ye sahipsiniz. Ürün {3} {4} için satıldı"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"tr"		"Zaten {1} ({2})'yi sahipleniyorsunuz. {3} {4} geri ödendi"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Tutar: {1}"
+	}
+	"Aura"
+	{
+		"tr"		"Aura:"
+	}
+	"Back"
+	{
+		"tr"		"Geri"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"tr"		"Bahis * Çarpan = Zaferiniz"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Bonus kredileri: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Pot CT kazandı: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Maksimum bahis ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Minimum bahis ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"tr"		"Rastgele bahis ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Pot T kazandı: {1} {2}"
+	}
+	"Bet on"
+	{
+		"tr"		"Bahis yap"
+	}
+	"Bet on a Head/Tail"
+	{
+		"tr"		"Baş/Bacak üzerine bahis yap"
+	}
+	"Bet on a color"
+	{
+		"tr"		"Bir renge bahis yapın ve bu renk seçilirse kazanırsınız!"
+	}
+	"Bet on a number"
+	{
+		"tr"		"Düşük (#1-3), Yüksek (#4-6) veya tam sayıya bahis yapın. Seçiminiz zarla gelirse kazanırsınız!"
+	}
+	"Bet on a team"
+	{
+		"tr"		"Bir takıma bahis yapın ve eğer takım o turu kazanırsa kazanırsınız!"
+	}
+	"Betting Already Placed"
+	{
+		"tr"		"Bu tur için bahis yaptınız."
+	}
+	"Betting Invalid Team"
+	{
+		"tr"		"Geçersiz takım tanımlayıcısı belirtildi."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Bahsinizde {1} kredisi kaybettiniz."
+	}
+	"Betting Period Over"
+	{
+		"tr"		"Bu tur için bahis süresi sona erdi."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Başarılı bir şekilde {1} kredisi ile bahis yaptınız."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Bahsiniz başarılıydı. {1} kredisi kazandınız."
+	}
+	"Black"
+	{
+		"tr"		"siyah"
+	}
+	"Blackjack Info 1"
+	{
+		"tr"		"Blackjack, elinizdeki kartların değeri, 21'i geçmeden, dağıtıcının elindeki değerden yüksek olmalıdır."
+	}
+	"Blackjack Info 2"
+	{
+		"tr"		"Sayımlama kuralları:\n- \"A\" kartı 1/11 olarak sayılabilir. Eğer eldeki toplam değeri 21'i aşarsa bu kartın 1 olarak sayılması gerekir."
+	}
+	"Blackjack Info 3"
+	{
+		"tr"		"- \"10, J, Q, K\": Sayılır 10 olarak.\n- 2-9 Sayılır kendi nominal değeriyle."
+	}
+	"Blackjack Info 4"
+	{
+		"tr"		"- Elinizdeki değeri 21'e yakın yapmalı ve dealer'ın elini geçmemeli, böylece oyunu kazanabilirsiniz.\n- \"A\" + 10 değerli kart = BlackJack. Bu, anında kazançtır."
+	}
+	"Buy"
+	{
+		"tr"		"Öğe Satın Al"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Öğe Satın Al ({1})"
+	}
+	"CP Changed color"
+	{
+		"tr"		"Rengini şuna değiştirdin: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"tr"		"Çevrimiçi etiket rengi seçeneği"
+	}
+	"CP Disable Color - Menu"
+	{
+		"tr"		"Rengi devre dışı bırak"
+	}
+	"CP Disabled Color"
+	{
+		"tr"		"Özel etiket rengi devre dışı bırakıldı."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"tr"		"Herhangi bir isim etiketi takılı değil"
+	}
+	"CP No file found"
+	{
+		"tr"		"Kullanıcı için özel etiket rengi devre dışı bırakıldı. Daha fazla destek için lütfen yönetici ile iletişime geçin."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"tr"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"tr"		"Skor tahtası etiketinin önizlemesi gösteriliyor, lütfen TAB tuşuna basın."
+	}
+	"Cancel"
+	{
+		"tr"		"İptal"
+	}
+	"Cant be bought"
+	{
+		"tr"		"Bu öğe satın alınamaz"
+	}
+	"Cash out"
+	{
+		"tr"		"Çekim"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Bahsinizi değiştirin: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"tr"		"Bir {1} {2} satın aldınız."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"tr"		"{1} sana {2} {3} hediye olarak gönderdi."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"tr"		"{1} kişisine {2} {3} hediye olarak gönderdiniz."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"tr"		"Bir {1} {2} sattınız."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Bir konteyner açtınız ve {1} kredi buldunuz!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"tr"		"{1} bir konteyner açtı ve {2} ({3}) buldu!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"tr"		"{1} bir konteyner açtı ve {2} ({3}) buldu!"
+	}
+	"Check All Voucher"
+	{
+		"tr"		"Tüm geçerli ve kullanılabilir kuponları kontrol et (Sadece Admin)"
+	}
+	"Check Voucher"
+	{
+		"tr"		"Voucher kontrol et"
+	}
+	"Check Your valid Voucher"
+	{
+		"tr"		"Oluşturduğunuz geçerli ve kullanılabilir kuponu kontrol edin"
+	}
+	"Choose Number (1:6)"
+	{
+		"tr"		"Sayıyı seçin (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"tr"		"Otomatik nakit çekme:"
+	}
+	"Client Loadout Reset"
+	{
+		"tr"		"Ekipmanınız sıfırlandı."
+	}
+	"Client valid voucher"
+	{
+		"tr"		"Oluşturduğunuz ve geçerli kuponunuz:\n "
+	}
+	"Close"
+	{
+		"tr"		"Kapat"
+	}
+	"ColoredSmoke"
+	{
+		"tr"		"Renkli Duman"
+	}
+	"Command is in-game only"
+	{
+		"tr"		"Bu komutu kullanabilmek için hayatta olmanız gerekir."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"tr"		"Yapılandırma yeniden yüklendi. Lütfen haritayı yeniden başlatın veya değiştirin."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"tr"		"Emin misiniz, {1} {2} almak istediğinizden?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"tr"		"Emin misiniz, {1} {2}yi {3}ye hediye etmek istediğinizden?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"tr"		"Emin misiniz, {1} {2}yi hediye olarak atmak istediğinizden?"
+	}
+	"Confirm_No"
+	{
+		"tr"		"Hayır"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"tr"		"Emin misiniz, {1} {2}yi {3} karşılığında satmak istediğinizden?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"tr"		"Gerçekten {1} ({2})'yi kupona dönüştürmek istediğinizden emin misiniz?\nUyarı: Eğer kupondaki öğe kullanılmadan önce süresi dolarsa.\nBu kupon süresi dolacaktır."
+	}
+	"Confirm_Yes"
+	{
+		"tr"		"Evet"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"tr"		"{1} doğru cevabı verdi ve {2} {3} kazandı!"
+	}
+	"Counter-Terrorist"
+	{
+		"tr"		"Karşı-Terörist"
+	}
+	"Crash Already Start"
+	{
+		"tr"		"Crash oyunu şu anda devam ediyor. Lütfen bir sonraki oyunu bekleyin."
+	}
+	"Crash Auto Off"
+	{
+		"tr"		"Kapalı"
+	}
+	"Crash Auto Off Panel"
+	{
+		"tr"		"Otomatik nakit çekmeyi kapat"
+	}
+	"Crash Auto On"
+	{
+		"tr"		"Açık"
+	}
+	"Crash Auto On Panel"
+	{
+		"tr"		"Otomatik nakit çekmeyi aç"
+	}
+	"Crash Info 1"
+	{
+		"tr"		"           Nedir/Nasıl oynanır: Crash"
+	}
+	"Crash Info 2"
+	{
+		"tr"		"- Crash, oyuncuların bir çarpana bahis yapabileceği bir oyundur, bu çarpan, herhangi bir zamanda çökebilecek artan bir eğriye bağlıdır."
+	}
+	"Crash Info 3"
+	{
+		"tr"		"- Çarpan 1.00x'ten başlar ve istediğiniz zaman para çekebilirsiniz."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"tr"		"- Minimum bahis değeri {1} {2}. Maksimum bahis değeri {3} {4}. Bu limitler zamanla değişebilir."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"tr"		"Yanlış giriş ({1} veya daha yüksek olmalı)."
+	}
+	"Crash auto input"
+	{
+		"tr"		"Otobüs nakit çekme değerini sohbete yazın"
+	}
+	"Crash auto input set"
+	{
+		"tr"		"Crash otomatik nakit çekme ayarlandı"
+	}
+	"Crash set auto"
+	{
+		"tr"		"Otomatik nakit çekme değerini ayarla"
+	}
+	"Crash!"
+	{
+		"tr"		"Crash!"
+	}
+	"Create Item Voucher"
+	{
+		"tr"		"Öğe Kuponu Oluştur (Yalnızca Admin)"
+	}
+	"Create Voucher"
+	{
+		"tr"		"Voucher oluştur"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Kupon oluşturma başarısız oldu - Aşağıdaki zaman damgası ile bir yöneticiyle iletişime geçin: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"tr"		"Bu sunucuda kredi hediye etme devre dışı bırakılmıştır."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"tr"		"{1} krediti hediye olarak bıraktınız."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"tr"		"{2} sana {1} krediyi gönderdi."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"tr"		" {1} krediyi {2}'ye gönderdiniz."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"tr"		"Giveaway oluşturmak için yeterli kredite sahip değilsiniz."
+	}
+	"Credit Invalid Amount"
+	{
+		"tr"		"Geçersiz bir kredi miktarı girildi."
+	}
+	"Credit No Match"
+	{
+		"tr"		"Hiçbir oyuncu bulunamadı."
+	}
+	"Credit Not Enough"
+	{
+		"tr"		"Bunu satın almak için yeterli krediniz yok."
+	}
+	"Credit Too Many Matches"
+	{
+		"tr"		"Birden fazla müşteri bulundu."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"tr"		"Voucher oluşturmak için yeterli krediniz yok."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"tr"		"{2} öldürerek {1} kredi kazandınız."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Sunucuda oyun oynayarak {1} kredi kazandınız."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"tr"		"{1} {2} kredisi aldı."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"tr"		"Kredi: {1}          Pot: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"tr"		"Devre dışı"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"tr"		"Etkin"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"tr"		"[Özelleştirilmiş Silah Sesi]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"tr"		"Özelleştirilmiş Silah Sesi Ses Seviyesi Kontrol Menüsü"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Ses seviyesi: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"tr"		"Özelleştirilmiş Silah Sesi: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"tr"		"Özelleştirilmiş silah sesi Devre dışı."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"tr"		"Özelleştirilmiş silah sesi etkinleştirildi."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Özelleştirilmiş silah sesi etkinleştirildi. Ses seviyesi: {1}"
+	}
+	"CustomModel"
+	{
+		"tr"		"Özel Silah Modeli:"
+	}
+	"Damage the crate to open"
+	{
+		"tr"		"Kutuyu açmak için kutuya zarar ver!"
+	}
+	"Dead heat"
+	{
+		"tr"		"- berabere -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"tr"		"             DAĞITICI     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"tr"		"DAĞITICI"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"tr"		"İndirim: '{1}' aktif! İyi alışverişler!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"tr"		"İndirim: '{1}' sona erdi."
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"tr"		"İndirim: '{1}' başladı! İyi alışverişler!"
+	}
+	"Double"
+	{
+		"tr"		"Çiftle"
+	}
+	"Down"
+	{
+		"tr"		"Aşağı"
+	}
+	"Down2"
+	{
+		"tr"		"                      5 = Aşağı"
+	}
+	"Drop Gift"
+	{
+		"tr"		"Hediye olarak bırak"
+	}
+	"Edit Amount"
+	{
+		"tr"		"Miktar düzenle: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"tr"		"Lütfen öğe son kullanma zamanını (saniye cinsinden) sohbet alanına girin!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"tr"		"Geçersiz sayı formatı. Lütfen tekrar deneyin."
+	}
+	"Enter custom amount"
+	{
+		"tr"		"Lütfen sohbete özel miktarınızı girin!"
+	}
+	"Enter maximum value"
+	{
+		"tr"		"Lütfen sohbete kredi maksimum değerini girin!"
+	}
+	"Enter number of vouchers"
+	{
+		"tr"		"Lütfen sohbette oluşturulacak kupon sayısını girin!"
+	}
+	"Enter value of vouchers"
+	{
+		"tr"		"Lütfen sohbette satın alınacak kuponun değerini girin!"
+	}
+	"Enter voucher code"
+	{
+		"tr"		"Lütfen sohbet penceresine kupon kodunuzu girin!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"tr"		"Fiyatın geri alınırken bir hata oluştu. Lütfen yönetici ile iletişime geçin"
+	}
+	"Exact #x  = "
+	{
+		"tr"		"Tam #x = "
+	}
+	"Exit"
+	{
+		"tr"		"Çıkış"
+	}
+	"Gained"
+	{
+		"tr"		"Kazanıldı"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"tr"		"Kazanıldı: {1} {2}"
+	}
+	"Game Info"
+	{
+		"tr"		"Game Bilgisi"
+	}
+	"Game in progress"
+	{
+		"tr"		"Mevcut bahis oyununuz devam ediyor. Lütfen bitene kadar bekleyin."
+	}
+	"Get three on a kind"
+	{
+		"tr"		"Üç aynı tür al"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"tr"		"{1} kredi aldınız."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"tr"		"{1} {2} aldınız."
+	}
+	"Gift No Players"
+	{
+		"tr"		"Bu öğeyi hediye edebileceğiniz kimse yok."
+	}
+	"Gift Player Left"
+	{
+		"tr"		"Seçilen oyuncu oyunu zaten terk etti."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"tr"		"{1} Bir giveaway yapmak için sunucuda en az {2} oyuncu bulunmalıdır."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"tr"		"Yönetici {1} {2} kreditle bir giveaway başlattı"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"tr"		"|| Giveaway {1} saniye sonra başlar ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"tr"		"{1} {2} {3} kredi ile giveaway kazandı"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"tr"		"{1}\n|| Kazanan: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"tr"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"tr"		"Bu turda alabileceğiniz maksimum tanrı modu sayısına ulaştınız."
+	}
+	"Godmode Wrong Team"
+	{
+		"tr"		"Bu takımda godmode kullanamazsınız."
+	}
+	"Green"
+	{
+		"tr"		"yeşil"
+	}
+	"HE grenade kill"
+	{
+		"tr"		"HE ile öldür"
+	}
+	"HUD"
+	{
+		"tr"		"HUD"
+	}
+	"Head"
+	{
+		"tr"		"Yaz"
+	}
+	"Health Round Limit"
+	{
+		"tr"		"Bu turda alabileceğiniz maksimum sağlık paketine ulaştınız."
+	}
+	"Help_Back"
+	{
+		"tr"		"Geri"
+	}
+	"Help_Exit"
+	{
+		"tr"		"Çıkış"
+	}
+	"Hide bullet sparks"
+	{
+		"tr"		"Gizle kurşun kıvılcımlarını"
+	}
+	"Hide bullet tracer"
+	{
+		"tr"		"Kurşun izi gizle"
+	}
+	"Hide gloves"
+	{
+		"tr"		"Eldivenleri gizle"
+	}
+	"Hide paintball"
+	{
+		"tr"		"Paintball'ları gizle"
+	}
+	"Hide particles"
+	{
+		"tr"		"Gizle parçacıkları"
+	}
+	"Hide pets"
+	{
+		"tr"		"Evcil hayvanları gizle"
+	}
+	"Hide trails"
+	{
+		"tr"		"İzleri gizle"
+	}
+	"High #4-6"
+	{
+		"tr"		"Yüksek #4-6"
+	}
+	"High #4-6 = "
+	{
+		"tr"		"Yüksek #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"tr"		"Yüksek - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"tr"		"Daha Yüksek"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Seçilen numara: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Bir sonraki sayı şuydu: {1}"
+	}
+	"Hit"
+	{
+		"tr"		"Vuruş"
+	}
+	"Hol Info 1"
+	{
+		"tr"		"{1} ile {2} arasında bir sayı seçildi, bir sonraki sayının seçilen sayıdan yüksek mi yoksa düşük mü olacağını tahmin et."
+	}
+	"Hol Info 2"
+	{
+		"tr"		"Doğruyu seçersen, bahsinin iki katını kazanırsın."
+	}
+	"Hol Info 3"
+	{
+		"tr"		"Her oyun arasında {1} saniyelik bir ara vardır."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"{1} {2} başarıyla yerleştirildi."
+	}
+	"Inventory"
+	{
+		"tr"		"Envanter"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"tr"		"Lütfen bekleyin. Envanteriniz henüz alınmadı."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"tr"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"tr"		"{1}"
+	}
+	"Item Equip"
+	{
+		"tr"		"Bu öğeyi giy"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"tr"		"{1} [EQUIPLENMIŞ]"
+	}
+	"Item Gift"
+	{
+		"tr"		"Bu öğeyi hediye et"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"tr"		"{1} (Bir plan seç)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Bunu {1} karşılığında sat"
+	}
+	"Item Unequip"
+	{
+		"tr"		"Bu öğeyi çıkar"
+	}
+	"Item Use"
+	{
+		"tr"		"Bu öğeyi kullan"
+	}
+	"Item Voucher"
+	{
+		"tr"		"Öğeden kupon oluştur"
+	}
+	"Item Voucher disabled"
+	{
+		"tr"		"Şu anda öğe için kupon oluşturma devre dışı."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"tr"		"{1} ({2}) öğesini kupona {3} dönüştürdünüz."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"tr"		"{1} gizli. Artık onları görmeyeceksin."
+	}
+	"Item not found"
+	{
+		"tr"		"Öğe bulunamadı"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"tr"		"{1} tekrar görünür."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"tr"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"tr"		"Jackpot duraklatıldı."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Jackpot: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"tr"		"Jetpack boş"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"tr"		"[Jetpack] Yakıt: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"tr"		"Jetpack yeniden yüklendi"
+	}
+	"Jihad Failed"
+	{
+		"tr"		"Bombanız patlamadı."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"tr"		"{1} cihat bombası patlamada başarısız oldu."
+	}
+	"Jihad Wrong Team"
+	{
+		"tr"		"Bu takımda bombayı kullanamazsınız."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"tr"		"{1} dakika(lar) sonra çöküş başlar."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"tr"		"{1} saniye(ler) sonra çöküş başlar."
+	}
+	"LevelIcon"
+	{
+		"tr"		"seviye simgesi"
+	}
+	"Limited"
+	{
+		"tr"		"Sınırlı - bir oyuncu"
+	}
+	"Lootbox case is opening"
+	{
+		"tr"		"Lütfen önceki kutunuz açılana kadar bekleyin"
+	}
+	"Lootbox map ended"
+	{
+		"tr"		"Harita sona erdi. Lütfen bir sonraki haritayı bekleyin"
+	}
+	"Lootbox round ended"
+	{
+		"tr"		"Tur sona erdi. Lütfen bir sonraki turu bekleyin"
+	}
+	"Lootbox warm up"
+	{
+		"tr"		"Isınma sırasında açamazsınız"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Bugünlük {1} günlük serinizi kaybettiniz."
+	}
+	"Lost bet"
+	{
+		"tr"		"Başarısız! Bahsini kaybettin"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Bahisini kaybettin, çünkü bir sonraki sayı şuydu: {1}"
+	}
+	"Low #1-3"
+	{
+		"tr"		"Düşük #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"tr"		"Düşük #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"tr"		"Düşük - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"tr"		"Daha Düşük"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"tr"		"En az {1} oyuncuya ihtiyacımız var"
+	}
+	"Must be Alive"
+	{
+		"tr"		"Bu kullanabilmek için hayatta olmalısınız."
+	}
+	"Must be dead"
+	{
+		"tr"		"Oynaman için ölmen gerek"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"tr"		"Çarpan = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"tr"		"Etkin Jackpot yok"
+	}
+	"No active TeamBet"
+	{
+		"tr"		"Henüz takım bahsi yapılmamıştır"
+	}
+	"No have flag"
+	{
+		"tr"		"Bu komutu kullanmak için yetkiniz yok."
+	}
+	"No matching color"
+	{
+		"tr"		"Uygun renk yok, şunu kullan: r/kırmızı, b/siyah veya g/yeşil"
+	}
+	"No pick up - back to you"
+	{
+		"tr"		"Hiç kimse düşürdüğünüz kredileri almadı. Krediler size geri verildi."
+	}
+	"No pick up - removed"
+	{
+		"tr"		"Hiç kimse düşürdüğünüz kredileri almadı. Krediler kaldırıldı."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Zaman doldu. Doğru cevap {1} idi."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Başka kimse jackpot'a para yatırmadı. {1} {2} geri alırsınız!"
+	}
+	"Not enough Credits"
+	{
+		"tr"		"Yeterli krediniz yok"
+	}
+	"Now run a giveaway"
+	{
+		"tr"		"Şu anda bir giveaway yapılıyor, birkaç saniye içinde tekrar deneyin."
+	}
+	"Only number"
+	{
+		"tr"		"Sadece sayılar yazabilirsiniz..."
+	}
+	"Override Disabled"
+	{
+		"tr"		"Mevcut skin'iniz şapkaları desteklemiyor. Ekipmanınızdaki şapka devre dışı bırakılacak."
+	}
+	"Override Enabled"
+	{
+		"tr"		"Mevcut skin'iniz şapkaları desteklemiyor. Skin'iniz değiştirilecek."
+	}
+	"Owned"
+	{
+		"tr"		"[Sahip]"
+	}
+	"Package Gift"
+	{
+		"tr"		"Bu paketi hediye et"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Bu paketi {1} karşılığında sat"
+	}
+	"Package Voucher"
+	{
+		"tr"		"Paketten Voucher Oluştur"
+	}
+	"Parachute Empty"
+	{
+		"tr"		"Paraşüt boş"
+	}
+	"Parachute Reloaded"
+	{
+		"tr"		"Paraşüt yeniden yüklendi"
+	}
+	"Particles"
+	{
+		"tr"		"Parçacıklar:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"{1} {2} yerleştir"
+	}
+	"Play Preview"
+	{
+		"tr"		"Sizin için önizleme sesini çalıyorum."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"tr"		"{1} {2} kredite sahip."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"tr"		"{1} sıfırlandı."
+	}
+	"Player Skin module disabled"
+	{
+		"tr"		"Store Player Skin modülü şu anda geçici olarak devre dışı bırakılmıştır."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"tr"		"{1} jackpot'a {2} {3} ekledi, mevcut kazanma şansı: {4}% (Jackpot: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"tr"		"{1} {2} {3} kaybetti {4}'te."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"tr"		"{1} {2} {3} ile bir jackpot açtı. Bu parayı almak için cash-in yapın!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"tr"		"{1} Jackpot'ı {2} {3} ile kazandı!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"tr"		"{1} {2} {3} kazandı {4}'te."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"tr"		"{1} {2} {3} kazandı, x{4} çarpanı ile {5}."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"tr"		"Yeni ayarlarınız bir sonraki yeniden doğuşta uygulanacaktır."
+	}
+	"Press"
+	{
+		"tr"		"Bas"
+	}
+	"Press to Start"
+	{
+		"tr"		"Başlamak için basın!"
+	}
+	"Press to Stop"
+	{
+		"tr"		"Durmak için basın!"
+	}
+	"Preview Item"
+	{
+		"tr"		"Bu öğeyi önizle"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Fiyat: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"tr"		"Voucher satın al"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"tr"		"{1} {2} {3} ne kadar? | Ödül: {4} {5}"
+	}
+	"Red"
+	{
+		"tr"		"kırmızı"
+	}
+	"Redeem Voucher"
+	{
+		"tr"		"Voucher kullan"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"{1} {2} yeniden çalıştır"
+	}
+	"Respawn Round Limit"
+	{
+		"tr"		"Bu turda alabileceğiniz maksimum yeniden doğma sayısına ulaştınız."
+	}
+	"SQL Cooldown"
+	{
+		"tr"		" güvenlik nedeniyle kısa süre içinde birden fazla istek gönderemezsiniz."
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"tr"		"-------------- Mağaza Arama Menüsü Önerileri --------------\n - İlgili tüm öğeler burada listelenecek\n - Mevcut arama dizesi: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"tr"		"İkinci kazanan da artık oyunda değil, yeni bir kazanan bulmak için son bir deneme."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Bu komutu tekrar kullanmadan önce {1} saniye beklemeniz gerekiyor."
+	}
+	"Show bullet sparks"
+	{
+		"tr"		"Kurşun kıvılcımlarını göster"
+	}
+	"Show bullet tracer"
+	{
+		"tr"		"Kurşun izi göster"
+	}
+	"Show gloves"
+	{
+		"tr"		"Eldivenleri göster"
+	}
+	"Show paintball"
+	{
+		"tr"		"Paintball'ları göster"
+	}
+	"Show particles"
+	{
+		"tr"		"Parçacıkları göster"
+	}
+	"Show pets"
+	{
+		"tr"		"Evcil hayvanları göster"
+	}
+	"Show trails"
+	{
+		"tr"		"İzleri göster"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Minimum değerinizden ({1}) daha küçük bir değer kullanamazsınız"
+	}
+	"Spacer"
+	{
+		"tr"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Spam koruması. Lütfen {1} saniye bekleyin."
+	}
+	"Spawn Preview"
+	{
+		"tr"		"Önizleme oluşturuldu. Önizleme 45 saniye içinde kaybolacak."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"tr"		"Önizleme oluşturuldu. Önizleme {1} saniye içinde kaybolacak."
+	}
+	"Start again from begin"
+	{
+		"tr"		"Lütfen baştan başlayın"
+	}
+	"Starting"
+	{
+		"tr"		"Başlatılıyor"
+	}
+	"Stay"
+	{
+		"tr"		"Dur"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"tr"		"Ekipmanınızı sıfırlamak istediğinizden emin misiniz? Tüm eşyalar çıkartılacaktır."
+	}
+	"Successfully purchased voucher"
+	{
+		"tr"		"Başarıyla bir kupon satın aldınız"
+	}
+	"TF Wrong Class"
+	{
+		"tr"		"Bu öğe, farklı bir oyuncu sınıfıyla kullanılmak üzere tasarlandı."
+	}
+	"Tail"
+	{
+		"tr"		"Kuyruk"
+	}
+	"TeamBet Already Placed"
+	{
+		"tr"		"Bu turda zaten bahis yaptınız."
+	}
+	"TeamBet Invalid Team"
+	{
+		"tr"		"Geçersiz takım tanımlayıcısı belirtildi."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Bahiste {1} {2} kaybettiniz."
+	}
+	"TeamBet Period Over"
+	{
+		"tr"		"Bu tur için bahis dönemi sona erdi."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Başarıyla {1} kredi miktarında bahis yaptınız."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Bahsiniz başarılı oldu. {1} {2} kazandınız."
+	}
+	"TeamBet not betted"
+	{
+		"tr"		"Diğer takıma bahis yapılmadı, bu yüzden kredilerinizi geri aldınız."
+	}
+	"Terrorist"
+	{
+		"tr"		"Terörist"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Seçilen numara: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Bir sonraki sayı şuydu: {1}"
+	}
+	"This is the preview text"
+	{
+		"tr"		"Bu, önizleme metnidir."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Yönetici mağaza yapılandırmasını yeniden yükledi. Harita {1} saniye içinde yeniden yüklenecek!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"tr"		"Admin Öğe Kuponu Oluşturma Menüsü.\n \nÖğe süresini seçin."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"tr"		"Admin Öğe Kuponu Oluşturma Menüsü"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Krediler: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"tr"		"Son kullanma tarihi {1}g {2}s"
+	}
+	"Title Gift"
+	{
+		"tr"		"Hediye göndereceğiniz oyuncuyu seçin"
+	}
+	"Title Store"
+	{
+		"tr"		"Mağaza Menüsü"
+	}
+	"To late chat input"
+	{
+		"tr"		"Metin girişiniz verilen sürede yapılmadı"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Yerde çok fazla {1} var, şu anda daha fazla bırakamazsınız!"
+	}
+	"Top Credits"
+	{
+		"tr"		"En İyi Krediler"
+	}
+	"Top Credits Inv Worth"
+	{
+		"tr"		"En İyi Krediler + Envanter Değeri"
+	}
+	"Top Inv Worth"
+	{
+		"tr"		"En İyi Envanter Değeri"
+	}
+	"Top Most Items"
+	{
+		"tr"		"En Popüler Eşyalar"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Toplam: {1} {2}"
+	}
+	"Try again"
+	{
+		"tr"		"Tekrar deneyin"
+	}
+	"Type in chat !bet"
+	{
+		"tr"		"Chata yazın !bet <bahis> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"tr"		"Yazın sohbette !blackjack <bahis>"
+	}
+	"Type in chat !coinflip"
+	{
+		"tr"		"Chata yazın !coinflip <bahis> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"tr"		"Çat'ye !crash <bahis> yazın"
+	}
+	"Type in chat !crowns"
+	{
+		"tr"		"Chata yazın !crowns <bahis>"
+	}
+	"Type in chat !dice"
+	{
+		"tr"		"Chate yaz !dice <bahis> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"tr"		"Chata yazın !jackpot <bahis>"
+	}
+	"Type in chat !roulette"
+	{
+		"tr"		"Chata yazın !roulette <bahis> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"tr"		"Sınırsız - birden fazla oyuncu"
+	}
+	"Up"
+	{
+		"tr"		"Yukarı"
+	}
+	"Value less than 1"
+	{
+		"tr"		"1'den küçük bir değer kullanamazsınız."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"tr"		"{1} ses seviyesi {2} olarak ayarlandı"
+	}
+	"Voucher Code 17 chars"
+	{
+		"tr"		"Şu anda voucher kodu tam olarak 17 karakter olmalıdır"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Kuponun değeri {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"tr"		"Kupon kabul edildi"
+	}
+	"Voucher accepted Panel"
+	{
+		"tr"		"Kupon kabul edildi"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"tr"		"{1} {2}sınırlı kuponu{3} {4} {5} değeri ile oluşturuyorsunuz"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"tr"		"Şu anda {1} {2} sınırlı kupon {3} oluşturuyorsunuz, değerler {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Girilen kupon kodu zaten {1} tarihinde kullanıldı"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Bu kupon {1} tarihinde sona eriyor"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Girilen kupon kodu {1} tarihinde süresi doldu"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"tr"		"Yeni kupon {1} oluşturuldu, değeri {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"tr"		"Kupon kodunu sohbette ve konsolda da bulabilirsiniz"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Voucher Kodu: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Girilen kupon kodu '{1}' geçerli değil!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"tr"		"Kupon şunları içerir: {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"tr"		"Kupon kodu geçerlidir"
+	}
+	"Vouchers"
+	{
+		"tr"		"Voucher"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"tr"		"{1} kadar beklemen gerek, ardından bir sonraki günlük görev başlar."
+	}
+	"Wait until next daily 2"
+	{
+		"tr"		"Bugün zaten giriş yaptınız. Lütfen yarın geri gelin."
+	}
+	"Win = "
+	{
+		"tr"		"Zafer = "
+	}
+	"Winner is not in game anymore"
+	{
+		"tr"		"Yarışmacı artık oyunda değil, yeni bir kazanan bulmaya çalışıyoruz."
+	}
+	"Wrong voucher code format"
+	{
+		"tr"		"Kupon kodu yanlış biçimde. XXXXX-XXXXX-XXXXX olmalıdır"
+	}
+	"You"
+	{
+		"tr"		"SEN"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"tr"		"Zaten {1} {2} tutarı jackpot'a koydunuz. Mevcut kazanma şansı: {3}%% Jackpot: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"tr"		"Girilen kupon öğesine zaten sahipsiniz"
+	}
+	"You already redeemed Voucher"
+	{
+		"tr"		"Girilen kupon kodunu zaten kullandınız"
+	}
+	"You can start a new Jackpot"
+	{
+		"tr"		"Yeni bir Jackpot başlatabilirsiniz"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Yeni bir Jackpot başlatabilirsiniz {1} içinde."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Bu kadar çok kredi harcayamazsınız (Maks: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Topladığınız {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"tr"		"Bu alana erişim izniniz yok."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Topladığınız {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"tr"		"Bu turda puan kazanmadınız."
+	}
+	"You earned this round"
+	{
+		"tr"		"Bu turu kazandınız:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"'{1} {2}' için kazandınız"
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Bu turda {1} {2} kazandınız"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"{1} {2} aldınız."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"{1} {2} aldınız."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"tr"		"Bir {1} ({2}) aldınız."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"tr"		"Bir {1} ({2}) aldınız."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"En az {1} {2} harcamanız gerekiyor."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"En az {1} {2} harcamanız gerekiyor."
+	}
+	"You haven't opened the box in given time"
+	{
+		"tr"		"Belirtilen süre içinde kutuyu açmadınız. Lootbox envanterinize geri döndü"
+	}
+	"You lose"
+	{
+		"tr"		"- kaybettiniz"
+	}
+	"You lost with"
+	{
+		"tr"		"Şununla kaybettin"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"{1} {2} kaybettiniz"
+	}
+	"You mastered the daily challange"
+	{
+		"tr"		"'Günlük zorluk' başardın! Tekrar geçmeyi dene!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"{1} {2} kazandınız"
+	}
+	"You won"
+	{
+		"tr"		"!!! KAZANDINIZ !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"tr"		"Bir {1} ({2}) kazandınız!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Jackpot'ı {1} {2} ile kazandınız!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"tr"		"Jackpot'ı {1} {2} ile kazandınız, ancak {3} {4} ({5}%) casino ücreti kesildi."
+	}
+	"You won with"
+	{
+		"tr"		"Şununla kazandın"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"tr"		"{1} kredi kazandınız, x{2} çarpanı ile."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Yarın {1} {2} kazanacaksınız!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"tr"		"Bahsiniz: {1} {2} - Şans: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Bahsiniz: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"tr"		"Mevcut kazanma şansınız {1}% olarak değişti"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"{2} yi öldürerek {1} kredi kazandınız."
+	}
+	"admin"
+	{
+		"tr"		"yönetici"
+	}
+	"and is limited"
+	{
+		"tr"		"ve sınırlıdır"
+	}
+	"and is unlimited"
+	{
+		"tr"		"ve sınırsızdır"
+	}
+	"arms"
+	{
+		"tr"		"kollar"
+	}
+	"assist a kill"
+	{
+		"tr"		"öldürmeye yardım et"
+	}
+	"attachment"
+	{
+		"tr"		"Ek Parça"
+	}
+	"backstab kill"
+	{
+		"tr"		"arkadan öldürme"
+	}
+	"be the MVP"
+	{
+		"tr"		"MVP ol"
+	}
+	"bet x"
+	{
+		"tr"		"bahis x"
+	}
+	"blackjack"
+	{
+		"tr"		"Blackjack"
+	}
+	"bomb defused"
+	{
+		"tr"		"bomba etkisiz hale getirildi"
+	}
+	"bomb explode"
+	{
+		"tr"		"bomba patladı"
+	}
+	"bomb planted"
+	{
+		"tr"		"bomba yerleştirildi"
+	}
+	"bombtweak"
+	{
+		"tr"		"Bombayı Ayarlama"
+	}
+	"bullet_impact"
+	{
+		"tr"		"Kurşun etkisi"
+	}
+	"bulletsparks"
+	{
+		"tr"		"Kurşun Kıvılcımları"
+	}
+	"bunnyhob"
+	{
+		"tr"		"Tavşan Sıçrama"
+	}
+	"bunnyhop"
+	{
+		"tr"		"yetenek"
+	}
+	"casino"
+	{
+		"tr"		"Casino"
+	}
+	"coinflip"
+	{
+		"tr"		"Para atma"
+	}
+	"command"
+	{
+		"tr"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Yapılandırmayı sıfırlamak ister misiniz?\nHarita {1} saniye içinde yeniden yüklenecek!"
+	}
+	"confirm_reload_type_1"
+	{
+		"tr"		"Yapılandırmayı sıfırlamak istediğinizden emin misiniz?\nDeğişiklikleri uygulamak için haritayı değiştirmeniz gerekir, aksi takdirde hatalar oluşabilir."
+	}
+	"connect"
+	{
+		"tr"		"Bağlantı Mesajı"
+	}
+	"crash"
+	{
+		"tr"		"Crash"
+	}
+	"creditstoplist"
+	{
+		"tr"		"krediler"
+	}
+	"crowns"
+	{
+		"tr"		"Taç Yuvası"
+	}
+	"daily"
+	{
+		"tr"		"Günlük Bonus"
+	}
+	"decoy grenade kill"
+	{
+		"tr"		"tuzağı patlatma"
+	}
+	"dice"
+	{
+		"tr"		"Zar"
+	}
+	"direction"
+	{
+		"tr"		"Yön"
+	}
+	"discount"
+	{
+		"tr"		"İNDİRİM"
+	}
+	"distance"
+	{
+		"tr"		"Mesafe"
+	}
+	"dmgtext"
+	{
+		"tr"		"Resim Sanatçısı"
+	}
+	"emote"
+	{
+		"tr"		"Emote"
+	}
+	"escape as VIP"
+	{
+		"tr"		"VIP olarak kaç"
+	}
+	"flashbang kill"
+	{
+		"tr"		"flashbang ile öldür"
+	}
+	"flashlight"
+	{
+		"tr"		"El Feneri"
+	}
+	"froggyjump"
+	{
+		"tr"		"Kurbağa Sıçrama"
+	}
+	"gloves"
+	{
+		"tr"		"eldivenler"
+	}
+	"glow"
+	{
+		"tr"		"parıltı"
+	}
+	"godmode"
+	{
+		"tr"		"tanrı modu"
+	}
+	"gravity"
+	{
+		"tr"		"yetenek"
+	}
+	"grenademodel"
+	{
+		"tr"		"El bombası modeli"
+	}
+	"grenadeskin"
+	{
+		"tr"		"el bombası kılığı"
+	}
+	"grenadetrail"
+	{
+		"tr"		"el bombası izi"
+	}
+	"hat"
+	{
+		"tr"		"şapka"
+	}
+	"headshot"
+	{
+		"tr"		"baş vuruşu"
+	}
+	"health"
+	{
+		"tr"		"paket"
+	}
+	"high or low"
+	{
+		"tr"		"Yüksek mi yoksa düşük mü"
+	}
+	"hiteff"
+	{
+		"tr"		"vuruş efekti:"
+	}
+	"hitsound"
+	{
+		"tr"		"Vuruş sesi"
+	}
+	"hostage rescued"
+	{
+		"tr"		"rehine kurtarıldı"
+	}
+	"hunterjump"
+	{
+		"tr"		"Avcı Zıplaması"
+	}
+	"idle on the server"
+	{
+		"tr"		"sunucuda hareketsiz"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"tr"		"{1} içinde."
+	}
+	"infinityammo"
+	{
+		"tr"		"Sonsuz Mermi"
+	}
+	"info"
+	{
+		"tr"		"Bilgi Paneli"
+	}
+	"instabomb"
+	{
+		"tr"		"Anında ekim / etkisiz hale getirme"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"tr"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"tr"		"yetenek"
+	}
+	"items"
+	{
+		"tr"		"Öğeler"
+	}
+	"jackpot"
+	{
+		"tr"		"Jackpot"
+	}
+	"jetpack"
+	{
+		"tr"		"roket"
+	}
+	"jihad"
+	{
+		"tr"		"bomba"
+	}
+	"kill"
+	{
+		"tr"		"öldür"
+	}
+	"kill the VIP"
+	{
+		"tr"		"VIP'yi öldür"
+	}
+	"kill yourself"
+	{
+		"tr"		"kendini öldür"
+	}
+	"killeff"
+	{
+		"tr"		"öldürme efekti:"
+	}
+	"knife"
+	{
+		"tr"		"bıçak"
+	}
+	"knife kill"
+	{
+		"tr"		"bıçakla öldür"
+	}
+	"laserdraw"
+	{
+		"tr"		"lazer çizimi:"
+	}
+	"laserpointer"
+	{
+		"tr"		"Laser işaretleyici"
+	}
+	"lasersight"
+	{
+		"tr"		"lazer nişan"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"tr"		"son güncelleme {1} önce"
+	}
+	"light"
+	{
+		"tr"		"Işık"
+	}
+	"lootbox"
+	{
+		"tr"		"Ganjar Kutusu"
+	}
+	"mirror"
+	{
+		"tr"		"ayna"
+	}
+	"molotov kill"
+	{
+		"tr"		"molotovla öldür"
+	}
+	"msgcolor"
+	{
+		"tr"		"mesaj rengi"
+	}
+	"mvp_sound"
+	{
+		"tr"		"MVP marşları"
+	}
+	"namecolor"
+	{
+		"tr"		"isim rengi"
+	}
+	"nametag"
+	{
+		"tr"		"isim etiketi"
+	}
+	"nearest"
+	{
+		"tr"		"En Yakın"
+	}
+	"nodiscount"
+	{
+		"tr"		" "
+	}
+	"noduckdelay"
+	{
+		"tr"		"Çömelme gecikmesi yok"
+	}
+	"nofalldamage"
+	{
+		"tr"		"Yokuşta Zarar Yok"
+	}
+	"noreload"
+	{
+		"tr"		"Yeniden Yükleme Yok"
+	}
+	"noscope kill"
+	{
+		"tr"		"vurmadan öldür"
+	}
+	"noselfdamage"
+	{
+		"tr"		"Öz kendine zarar yok"
+	}
+	"or use buttons below"
+	{
+		"tr"		"veya aşağıdaki butonları kullanın"
+	}
+	"package"
+	{
+		"tr"		"paket"
+	}
+	"paintball"
+	{
+		"tr"		"kurşunlar"
+	}
+	"painter"
+	{
+		"tr"		"Resim Sanatçısı"
+	}
+	"parachute"
+	{
+		"tr"		"Paraşüt"
+	}
+	"particle"
+	{
+		"tr"		"Parçacıklar"
+	}
+	"pet"
+	{
+		"tr"		"evcil hayvan"
+	}
+	"playerskin"
+	{
+		"tr"		"oyuncu kılığı"
+	}
+	"playing on the server"
+	{
+		"tr"		"sunucuda oynuyor"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"tr"		"{1} gün boyunca sunucumuzda oynadınız"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Bir sonraki spawn'da {1} alacaksınız."
+	}
+	"respawn"
+	{
+		"tr"		"Respawn"
+	}
+	"roulette"
+	{
+		"tr"		"Rulet"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Sesli komutların maksimum kullanımına ulaştınız. {1} maksimum kullanım/harita başına"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"tr"		"Sesli komutların maksimum kullanımına ulaştınız. {1} maksimum kullanım/round başına"
+	}
+	"saysound"
+	{
+		"tr"		"ses söyle"
+	}
+	"scoreboardtag"
+	{
+		"tr"		"Skor Tablosu Etiketi"
+	}
+	"smokegrenade kill"
+	{
+		"tr"		"smokegrenade ile öldür"
+	}
+	"sound"
+	{
+		"tr"		"ses"
+	}
+	"spawn"
+	{
+		"tr"		"Ekstra Respawn"
+	}
+	"spawneff"
+	{
+		"tr"		"doğma efekti:"
+	}
+	"speed"
+	{
+		"tr"		"yetenek"
+	}
+	"spray"
+	{
+		"tr"		"sprey"
+	}
+	"start daily challange"
+	{
+		"tr"		"'Günlük zorluk' başlat. Tam bonusu almak için sonraki 6 gün boyunca oyna"
+	}
+	"taser kill"
+	{
+		"tr"		"taser ile öldür"
+	}
+	"teambet"
+	{
+		"tr"		"Takım Bahsi"
+	}
+	"teamkill"
+	{
+		"tr"		"takım öldürme"
+	}
+	"tfhat"
+	{
+		"tr"		"bina inşaatı şapkası"
+	}
+	"tfhatdye"
+	{
+		"tr"		"şapka boyası"
+	}
+	"tfhead"
+	{
+		"tr"		"baş boyutu"
+	}
+	"tfunusual"
+	{
+		"tr"		"şapka efekti"
+	}
+	"tfweapon"
+	{
+		"tr"		"özel silah"
+	}
+	"tfweaponsize"
+	{
+		"tr"		"silah boyutu"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Ödül {1} saniye içinde çekilecek"
+	}
+	"thirdperson"
+	{
+		"tr"		"üçüncü kişi"
+	}
+	"throwknife"
+	{
+		"tr"		"Jilet Atmak"
+	}
+	"toplists"
+	{
+		"tr"		"Üst Listeler"
+	}
+	"tracer"
+	{
+		"tr"		"izleyici"
+	}
+	"trail"
+	{
+		"tr"		"iz"
+	}
+	"wasted"
+	{
+		"tr"		"boşa"
+	}
+	"watergun"
+	{
+		"tr"		"etki"
+	}
+	"weapon"
+	{
+		"tr"		"silah"
+	}
+	"weaponcolor"
+	{
+		"tr"		"silah rengi"
+	}
+	"weaponmodel"
+	{
+		"tr"		"Silah Modeli"
+	}
+	"weaponskin"
+	{
+		"tr"		"silah kılığı"
+	}
+	"win the round"
+	{
+		"tr"		"raund kazanın"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"tr"		"{1} {2} için '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"tr"		"{1} saat {2} dakika ve {3} saniye"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"tr"		"{1} saat(ler) {2} dakika(dakikalar) ve {3} saniye(saniyeler)"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"tr"		"{1} dakika ve {2} saniye"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"tr"		"{1} dakika(dakikalar) ve {2} saniye(saniyeler)"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"tr"		"{1} saniye"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"tr"		"{1} saniye(saniyeler)"
+	}
+	"zrclass"
+	{
+		"tr"		"oyuncu sınıfı"
+	}
+}

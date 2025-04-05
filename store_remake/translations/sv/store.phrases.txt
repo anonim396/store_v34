@@ -1,0 +1,2278 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"sv"		"{1}21 !!! BLACKJACK !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Du har redan laddat om konfigurationen. Vänligen byt eller ladda om kartan."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Alla deltagande spelare kopplas bort, ingen får tillbaka sitt {2}, haha. Jackpoten var {1} {2}!"
+	}
+	"All valid voucher"
+	{
+		"sv"		"Alla genererade och giltiga vouchers är:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"sv"		"Du vann, men äger redan {1} ({2}). Föremålet såldes för {3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"sv"		"Du äger redan {1} ({2}). Du har fått {3} {4} tillbaka"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Belopp: {1}"
+	}
+	"Aura"
+	{
+		"sv"		"Aura:"
+	}
+	"Back"
+	{
+		"sv"		"Tillbaka"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"sv"		"Insats * Multiplikator = Din vinst"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Bonuspoäng: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Pot CT vinner: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Maxsta insats ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Minsta insats ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"sv"		"Slumpinsats ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Pot T vinner: {1} {2}"
+	}
+	"Bet on"
+	{
+		"sv"		"Spela på"
+	}
+	"Bet on a Head/Tail"
+	{
+		"sv"		"Vadhåll på Huvud/Svans"
+	}
+	"Bet on a color"
+	{
+		"sv"		"Sätt på en färg och om denna färg väljs vinner du!"
+	}
+	"Bet on a number"
+	{
+		"sv"		"Vadhåll på Låg (#1-3), Hög (#4-6) eller ett exakt nummer. Om ditt val blir tärnat vinner du!"
+	}
+	"Bet on a team"
+	{
+		"sv"		"Sätt på ett lag och om laget vinner rundan vinner du!"
+	}
+	"Betting Already Placed"
+	{
+		"sv"		"Du har redan lagt ditt vad för denna runda."
+	}
+	"Betting Invalid Team"
+	{
+		"sv"		"Ogiltig lagidentifierare angiven."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Du förlorade {1} krediter på vadet."
+	}
+	"Betting Period Over"
+	{
+		"sv"		"Bettingperioden är över för denna runda."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Du har framgångsrikt lagt ett vad på {1} krediter."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Ditt vad var framgångsrikt. Du vann {1} krediter."
+	}
+	"Black"
+	{
+		"sv"		"svart"
+	}
+	"Blackjack Info 1"
+	{
+		"sv"		"Blackjack är ett spel där värdet på korten i din hand måste vara högre än dealerens, utan att överskrida 21."
+	}
+	"Blackjack Info 2"
+	{
+		"sv"		"Räkningsregler:\n- \"A\" kortet kan räknas som 1/11. Om handens värde överskrider 21 måste detta kort räknas som 1."
+	}
+	"Blackjack Info 3"
+	{
+		"sv"		"- \"10, J, Q, K\": Räknas som 10.\n- 2-9 Räknas enligt deras nominella värde."
+	}
+	"Blackjack Info 4"
+	{
+		"sv"		"- Ditt handvärde måste vara närmare 21 utan att gå över och högre än dealerns hand för att vinna spelet.\n- \"A\" + 10-värde kort = BlackJack. Detta är en omedelbar vinst."
+	}
+	"Buy"
+	{
+		"sv"		"Köp objekt"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Köp objekt ({1})"
+	}
+	"CP Changed color"
+	{
+		"sv"		"Du har ändrat din färg till: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"sv"		"Färgval för chatt-taggar"
+	}
+	"CP Disable Color - Menu"
+	{
+		"sv"		"Deaktivera färg"
+	}
+	"CP Disabled Color"
+	{
+		"sv"		"Anpassad tagg-färg inaktiverad."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"sv"		"Du har inget namn tagg utrustat"
+	}
+	"CP No file found"
+	{
+		"sv"		"Den anpassade taggens färg för användaren har inaktiverats. Vänligen kontakta administratören för ytterligare support."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"sv"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"sv"		"Visar förhandsgranskning av poängtavelsmärkning, vänligen tryck på TAB."
+	}
+	"Cancel"
+	{
+		"sv"		"Avbryt"
+	}
+	"Cant be bought"
+	{
+		"sv"		"Den här artikeln kan inte köpas"
+	}
+	"Cash out"
+	{
+		"sv"		"Uttag"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Ändra din insats: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sv"		"Du har köpt en {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"sv"		"{1} har skickat dig en {2} {3} som present."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"sv"		"Du har skickat {1} en {2} {3} som present."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sv"		"Du har sålt en {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Du öppnade en behållare och fann {1} krediter!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"sv"		"{1} öppnade en behållare och fann {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"sv"		"{1} öppnade en behållare och fann {2} ({3})!"
+	}
+	"Check All Voucher"
+	{
+		"sv"		"Kontrollera alla giltiga och tillgängliga vouchers (Endast Admin)"
+	}
+	"Check Voucher"
+	{
+		"sv"		"Kontrollera ett voucher"
+	}
+	"Check Your valid Voucher"
+	{
+		"sv"		"Kontrollera din genererade och giltiga tillgängliga voucher"
+	}
+	"Choose Number (1:6)"
+	{
+		"sv"		"Välj nummer (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"sv"		"Automatisk utbetalning:"
+	}
+	"Client Loadout Reset"
+	{
+		"sv"		"Din utrustning har återställts."
+	}
+	"Client valid voucher"
+	{
+		"sv"		"Din genererade och giltiga voucher är:\n "
+	}
+	"Close"
+	{
+		"sv"		"Stäng"
+	}
+	"ColoredSmoke"
+	{
+		"sv"		"Färgad rök"
+	}
+	"Command is in-game only"
+	{
+		"sv"		"Du måste vara vid liv för att använda detta kommando."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"sv"		"Konfigurationen har laddats om. Vänligen starta om eller byt karta."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sv"		"Är du säker på att du vill köpa {1} {2}?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"sv"		"Är du säker på att du vill ge {1} {2} till {3}?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sv"		"Är du säker på att du vill droppa {1} {2} som en present?"
+	}
+	"Confirm_No"
+	{
+		"sv"		"Nej"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"sv"		"Är du säker på att du vill sälja {1} {2} för {3}?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sv"		"Är du säker på att du vill konvertera {1} ({2}) till en kupong?\nVARNING: Om objektet i kupongen går ut innan det löses in.\nDen här kupongen går ut."
+	}
+	"Confirm_Yes"
+	{
+		"sv"		"Ja"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"sv"		"{1} gav rätt svar och vann {2} {3}!"
+	}
+	"Counter-Terrorist"
+	{
+		"sv"		"Counter-Terrorist"
+	}
+	"Crash Already Start"
+	{
+		"sv"		"Crash-spelet pågår för närvarande. Vänligen vänta på nästa spel."
+	}
+	"Crash Auto Off"
+	{
+		"sv"		"Av"
+	}
+	"Crash Auto Off Panel"
+	{
+		"sv"		"Stäng av automatisk utbetalning"
+	}
+	"Crash Auto On"
+	{
+		"sv"		"På"
+	}
+	"Crash Auto On Panel"
+	{
+		"sv"		"Sätt på automatisk utbetalning"
+	}
+	"Crash Info 1"
+	{
+		"sv"		"           Vad är/ Hur man spelar: Crash"
+	}
+	"Crash Info 2"
+	{
+		"sv"		"- Crash är spelet där spelare kan satsa på en multiplikator, denna multiplikator är relaterad till en ökande kurva som kan krascha när som helst."
+	}
+	"Crash Info 3"
+	{
+		"sv"		"- Multiplikatorn startar vid 1.00x och du kan ta ut när som helst."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"sv"		"- Den lägsta insatsvärdet är {1} {2}. Den högsta insatsvärdet är {3} {4}. Dessa gränser kan förändras med tiden."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"sv"		"Felaktig inmatning (måste vara {1} eller mer)."
+	}
+	"Crash auto input"
+	{
+		"sv"		"Skriv in ditt automatiska utbetalningsvärde i chatten"
+	}
+	"Crash auto input set"
+	{
+		"sv"		"Crash auto utbetalning inställd"
+	}
+	"Crash set auto"
+	{
+		"sv"		"Ställ in automatisk utbetalningsvärde"
+	}
+	"Crash!"
+	{
+		"sv"		"Crash!"
+	}
+	"Create Item Voucher"
+	{
+		"sv"		"Skapa en artikelvoucher (Endast admin)"
+	}
+	"Create Voucher"
+	{
+		"sv"		"Skapa ett voucher"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Skapandet av kupong misslyckades - Kontakta en administratör med följande tidsstämpel: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"sv"		"Kreditgåvor är avstängda på denna server."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Du släppte {1} krediter som en present."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"sv"		"{2} har skickat dig {1} krediter."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"sv"		"Du har skickat {1} krediter till {2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"sv"		"Du har inte tillräckligt med krediter för att skapa en giveaway."
+	}
+	"Credit Invalid Amount"
+	{
+		"sv"		"Ogiltigt belopp av krediter angivet."
+	}
+	"Credit No Match"
+	{
+		"sv"		"Ingen spelare hittades."
+	}
+	"Credit Not Enough"
+	{
+		"sv"		"Du har inte tillräckligt med krediter för att köpa detta."
+	}
+	"Credit Too Many Matches"
+	{
+		"sv"		"Fler än en klient hittades."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"sv"		"Du har inte tillräckligt med krediter för att skapa en voucher."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"sv"		"Du tjänade {1} krediter för att döda {2}."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Du tjänade {1} krediter för att spela på servern."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"sv"		"{1} har fått {2} krediter."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"sv"		"Krediter: {1}          Pot: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"sv"		"Avstängt"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"sv"		"Påslagen"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"sv"		"[Anpassat vapenljud]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"sv"		"Menyn för volymkontroll av anpassat vapenljud"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Volym: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"sv"		"Anpassat vapenljud: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"sv"		"Anpassat vapenljud är Avstängt."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"sv"		"Anpassat vapenljud är aktiverat."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Anpassat vapenljud är aktiverat. Volym: {1}"
+	}
+	"CustomModel"
+	{
+		"sv"		"Anpassad vapenmodell:"
+	}
+	"Damage the crate to open"
+	{
+		"sv"		"Skada lådan för att öppna!"
+	}
+	"Dead heat"
+	{
+		"sv"		"- oavgjort -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"sv"		"             DEALER     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"sv"		"DEALER"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Rabatt: '{1}' är aktiv! Lycklig shopping!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Rabatt: '{1}' är slut."
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Rabatt: '{1}' har börjat! Lycklig shopping!"
+	}
+	"Double"
+	{
+		"sv"		"Dubbla"
+	}
+	"Down"
+	{
+		"sv"		"Ner"
+	}
+	"Down2"
+	{
+		"sv"		"                      5 = Ner"
+	}
+	"Drop Gift"
+	{
+		"sv"		"Släpp som present"
+	}
+	"Edit Amount"
+	{
+		"sv"		"Redigera belopp: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"sv"		"Vänligen skriv in utgångstiden (i sekunder) för objektet i chatten!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"sv"		"Ogiltigt nummerformat. Försök igen."
+	}
+	"Enter custom amount"
+	{
+		"sv"		"Vänligen ange ditt anpassade belopp i chatten!"
+	}
+	"Enter maximum value"
+	{
+		"sv"		"Vänligen ange det maximala värdet av krediter i chatten!"
+	}
+	"Enter number of vouchers"
+	{
+		"sv"		"Vänligen ange antalet vouchers att skapa i chatten!"
+	}
+	"Enter value of vouchers"
+	{
+		"sv"		"Vänligen ange värdet på voucher att köpa i chatten!"
+	}
+	"Enter voucher code"
+	{
+		"sv"		"Vänligen ange din kupongkod i chatten!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"sv"		"Ett fel uppstod vid återbetalning av priset. Vänligen kontakta administratören"
+	}
+	"Exact #x  = "
+	{
+		"sv"		"Exakt #x = "
+	}
+	"Exit"
+	{
+		"sv"		"Avsluta"
+	}
+	"Gained"
+	{
+		"sv"		"Vunnit"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"sv"		"Vunnit: {1} {2}"
+	}
+	"Game Info"
+	{
+		"sv"		"Spelinfo"
+	}
+	"Game in progress"
+	{
+		"sv"		"Ditt nuvarande spel pågår. Vänligen vänta tills det är klart."
+	}
+	"Get three on a kind"
+	{
+		"sv"		"Få tre lika"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Du plockade upp {1} krediter."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sv"		"Du plockade upp en {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"sv"		"Det finns ingen du kan ge detta föremål till."
+	}
+	"Gift Player Left"
+	{
+		"sv"		"Den valda spelaren har redan lämnat spelet."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"sv"		"{1} För att genomföra en giveaway måste servern innehålla minst {2} spelare."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"sv"		"Admin {1} öppnade ett giveaway med <font color='#15fb00'>{2} krediter"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"sv"		"|| Giveaway startar om {1} sekunder ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"sv"		"{1} {2} vann en giveaway med {3} krediter"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sv"		"{1}\n|| Vinnare: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"sv"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"sv"		"Du har nått det maximala antalet godmodes du kan köpa den här rundan."
+	}
+	"Godmode Wrong Team"
+	{
+		"sv"		"Du kan inte använda godmode i detta lag."
+	}
+	"Green"
+	{
+		"sv"		"grön"
+	}
+	"HE grenade kill"
+	{
+		"sv"		"HE granat kill"
+	}
+	"HUD"
+	{
+		"sv"		"HUD"
+	}
+	"Head"
+	{
+		"sv"		"Huvud"
+	}
+	"Health Round Limit"
+	{
+		"sv"		"Du har nått det maximala antalet hälsopaket du kan köpa den här rundan."
+	}
+	"Help_Back"
+	{
+		"sv"		"Tillbaka"
+	}
+	"Help_Exit"
+	{
+		"sv"		"Avsluta"
+	}
+	"Hide bullet sparks"
+	{
+		"sv"		"Dölj kulgnistor"
+	}
+	"Hide bullet tracer"
+	{
+		"sv"		"Dölj kula spår"
+	}
+	"Hide gloves"
+	{
+		"sv"		"Dölj handskar"
+	}
+	"Hide paintball"
+	{
+		"sv"		"Dölj paintballs"
+	}
+	"Hide particles"
+	{
+		"sv"		"Dölj partiklar"
+	}
+	"Hide pets"
+	{
+		"sv"		"Dölj husdjur"
+	}
+	"Hide trails"
+	{
+		"sv"		"Dölj spår"
+	}
+	"High #4-6"
+	{
+		"sv"		"Hög #4-6"
+	}
+	"High #4-6 = "
+	{
+		"sv"		"Högt #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"sv"		"Hög - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"sv"		"HÖGRE"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Det valda numret är: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Det nästa numret var: {1}"
+	}
+	"Hit"
+	{
+		"sv"		"Slag"
+	}
+	"Hol Info 1"
+	{
+		"sv"		"En siffra mellan {1} och {2} har valts för att du ska gissa om nästa nummer blir högre eller lägre än det valda numret."
+	}
+	"Hol Info 2"
+	{
+		"sv"		"Om du väljer rätt kommer du att vinna dubbelt så mycket som din insats."
+	}
+	"Hol Info 3"
+	{
+		"sv"		"Det finns en paus på {1} sekund(er) mellan varje spel."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du har framgångsrikt placerat {1} {2}."
+	}
+	"Inventory"
+	{
+		"sv"		"Inventarie"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"sv"		"Vänligen vänta. Ditt inventarie har inte hämtats än."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"sv"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"sv"		"{1}"
+	}
+	"Item Equip"
+	{
+		"sv"		"Utrusta detta föremål"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"sv"		"{1} [UTRUSTAD]"
+	}
+	"Item Gift"
+	{
+		"sv"		"Ge bort detta föremål"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"sv"		"{1} (Välj en plan)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Sälj för {1}"
+	}
+	"Item Unequip"
+	{
+		"sv"		"Ta bort denna utrustning"
+	}
+	"Item Use"
+	{
+		"sv"		"Använd detta föremål"
+	}
+	"Item Voucher"
+	{
+		"sv"		"Skapa voucher från objekt"
+	}
+	"Item Voucher disabled"
+	{
+		"sv"		"Skapande av voucher för objekt är för närvarande inaktiverat."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"sv"		"Du har konverterat {1} ({2}) till voucher {3}."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"sv"		"{1} gömd. Du kommer inte att se dem längre."
+	}
+	"Item not found"
+	{
+		"sv"		"Objektet hittades inte"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"sv"		"{1} är synligt igen."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"sv"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"sv"		"Jackpot är pausad."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Jackpot: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"sv"		"Jetpack är tom"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"sv"		"[Jetpack] Bränsle: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"sv"		"Jetpack är omladdad"
+	}
+	"Jihad Failed"
+	{
+		"sv"		"Din bomb har misslyckats med att explodera."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"sv"		"{1} jihadbomben misslyckades att explodera."
+	}
+	"Jihad Wrong Team"
+	{
+		"sv"		"Du kan inte använda bomben i detta lag."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"sv"		"{1} minut(er) innan crash börjar."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"sv"		"{1} sekund(er) innan crash börjar."
+	}
+	"LevelIcon"
+	{
+		"sv"		"nivåikon"
+	}
+	"Limited"
+	{
+		"sv"		"Begränsat - en spelare"
+	}
+	"Lootbox case is opening"
+	{
+		"sv"		"Vänligen vänta tills din föregående låda har öppnats"
+	}
+	"Lootbox map ended"
+	{
+		"sv"		"Kartet är slut. Vänligen vänta på nästa karta"
+	}
+	"Lootbox round ended"
+	{
+		"sv"		"Rundan är slut. Vänligen vänta på nästa runda"
+	}
+	"Lootbox warm up"
+	{
+		"sv"		"Du kan inte öppna under uppvärmning"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Du har förlorat din dagliga streak av {1} dag(ar)."
+	}
+	"Lost bet"
+	{
+		"sv"		"Misslyckades! Du förlorade ditt spel"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Du förlorade din insats eftersom nästa nummer var: {1}"
+	}
+	"Low #1-3"
+	{
+		"sv"		"Låg #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"sv"		"Lågt #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"sv"		"Låg - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"sv"		"LÄGRE"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Vi behöver minst {1} spelare"
+	}
+	"Must be Alive"
+	{
+		"sv"		"Du måste vara vid liv för att använda detta."
+	}
+	"Must be dead"
+	{
+		"sv"		"Du måste vara död för att spela"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"sv"		"Multiplikator = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"sv"		"Inget aktivt jackpot"
+	}
+	"No active TeamBet"
+	{
+		"sv"		"Inga laginsatser har placerats än"
+	}
+	"No have flag"
+	{
+		"sv"		"Du har inte tillgång att använda det här kommandot."
+	}
+	"No matching color"
+	{
+		"sv"		"Inget matchande färg, använd: r/röd, b/svart eller g/grön"
+	}
+	"No pick up - back to you"
+	{
+		"sv"		"Ingen har plockat upp dina tappade krediter. Du fick dem tillbaka."
+	}
+	"No pick up - removed"
+	{
+		"sv"		"Ingen har plockat upp dina tappade krediter. Krediterna togs bort."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Tiden är slut. Det rätta svaret var {1}."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Ingen annan har löst in pengar i jackpotten. Du får dina {1} {2} tillbaka!"
+	}
+	"Not enough Credits"
+	{
+		"sv"		"Du har inte tillräckligt med krediter"
+	}
+	"Now run a giveaway"
+	{
+		"sv"		"En giveaway pågår nu, försök igen om några sekunder."
+	}
+	"Only number"
+	{
+		"sv"		"Du kan bara skriva siffror..."
+	}
+	"Override Disabled"
+	{
+		"sv"		"Din skin stöder inte hattar. Din utrustade hatt kommer att inaktiveras."
+	}
+	"Override Enabled"
+	{
+		"sv"		"Din nuvarande skin stöder inte hattar. Din skin kommer att ändras."
+	}
+	"Owned"
+	{
+		"sv"		"[Ägs]"
+	}
+	"Package Gift"
+	{
+		"sv"		"Ge bort detta paket"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Sälj detta paket för {1}"
+	}
+	"Package Voucher"
+	{
+		"sv"		"Skapa voucher från paket"
+	}
+	"Parachute Empty"
+	{
+		"sv"		"Fallskärm tom"
+	}
+	"Parachute Reloaded"
+	{
+		"sv"		"Fallskärm omladdad"
+	}
+	"Particles"
+	{
+		"sv"		"Partiklar:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Placera {1} {2}"
+	}
+	"Play Preview"
+	{
+		"sv"		"Spelar förhandsgranskningsljud för dig."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"sv"		"{1} har {2} krediter."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"sv"		"{1} har återställts."
+	}
+	"Player Skin module disabled"
+	{
+		"sv"		"Store Player Skin-modulen är för närvarande tillfälligt inaktiverad."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"sv"		"{1} har lagt till {2} {3} i jackpotten, hans nuvarande vinstchans är: {4}% (Jackpot: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"sv"		"{1} har förlorat {2} {3} på {4}."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"sv"		"{1} har öppnat en jackpot med {2} {3}. Gör cash-in för att ta pengarna!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"sv"		"{1} vann jackpotten med {2} {3}!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"sv"		"{1} har vunnit {2} {3} på {4}."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"sv"		"{1} vann {2} {3} med en multiplikator på x{4} på {5}."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"sv"		"Dina nya inställningar kommer att tillämpas vid nästa spawn."
+	}
+	"Press"
+	{
+		"sv"		"Tryck"
+	}
+	"Press to Start"
+	{
+		"sv"		"Tryck för att starta!"
+	}
+	"Press to Stop"
+	{
+		"sv"		"Tryck för att stoppa!"
+	}
+	"Preview Item"
+	{
+		"sv"		"Förhandsgranska detta objekt"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Pris: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"sv"		"Köp ett voucher"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"sv"		"Hur mycket är {1} {2} {3}? | Pris: {4} {5}"
+	}
+	"Red"
+	{
+		"sv"		"röd"
+	}
+	"Redeem Voucher"
+	{
+		"sv"		"Byt ut ett voucher"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Kör igen {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"sv"		"Du har nått det maximala antalet respawns du kan köpa den här rundan."
+	}
+	"SQL Cooldown"
+	{
+		"sv"		"Av säkerhetsskäl kan du inte skicka flera förfrågningar på kort tid."
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"sv"		"-------------- Förslag i butikens sökmeny --------------\n - Alla relaterade objekt kommer att listas här\n - Din aktuella söksträng: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"sv"		"Den andra vinnaren är inte längre i spelet, sista försöket att hitta en ny vinnare."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Du måste vänta {1} sekunder innan du försöker använda detta kommando igen."
+	}
+	"Show bullet sparks"
+	{
+		"sv"		"Visa kulgnistor"
+	}
+	"Show bullet tracer"
+	{
+		"sv"		"Visa kula spår"
+	}
+	"Show gloves"
+	{
+		"sv"		"Visa handskar"
+	}
+	"Show paintball"
+	{
+		"sv"		"Visa paintballs"
+	}
+	"Show particles"
+	{
+		"sv"		"Visa partiklar"
+	}
+	"Show pets"
+	{
+		"sv"		"Visa husdjur"
+	}
+	"Show trails"
+	{
+		"sv"		"Visa spår"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Du kan inte använda ett värde som är mindre än ditt minsta värde ({1})"
+	}
+	"Spacer"
+	{
+		"sv"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Spam skydd. Vänligen vänta {1} sekunder."
+	}
+	"Spawn Preview"
+	{
+		"sv"		"Förhandsgranskning skapad. Förhandsgranskningen försvinner om 45 sekunder."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"sv"		"Förhandsgranskning skapad. Förhandsgranskningen försvinner om {1} sekunder."
+	}
+	"Start again from begin"
+	{
+		"sv"		"Vänligen börja om från början"
+	}
+	"Starting"
+	{
+		"sv"		"Startar"
+	}
+	"Stay"
+	{
+		"sv"		"Stå"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"sv"		"Är du säker på att du vill återställa din utrustning? Alla föremål kommer att tas bort."
+	}
+	"Successfully purchased voucher"
+	{
+		"sv"		"Du har framgångsrikt köpt en kupong"
+	}
+	"TF Wrong Class"
+	{
+		"sv"		"Detta objekt var avsett att användas med en annan spelarklass."
+	}
+	"Tail"
+	{
+		"sv"		"Svans"
+	}
+	"TeamBet Already Placed"
+	{
+		"sv"		"Du har redan lagt ditt vad för denna runda."
+	}
+	"TeamBet Invalid Team"
+	{
+		"sv"		"Ogiltig lagidentifier angiven."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du förlorade {1} {2} på insatsen."
+	}
+	"TeamBet Period Over"
+	{
+		"sv"		"Spelperioden är över för denna runda."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Du har framgångsrikt lagt ett vad på {1} krediter."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Din insats var framgångsrik. Du vann {1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"sv"		"Det fanns inget vad på det andra laget, så du fick tillbaka dina krediter."
+	}
+	"Terrorist"
+	{
+		"sv"		"Terrorist"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Det valda numret är: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Det nästa numret var: {1}"
+	}
+	"This is the preview text"
+	{
+		"sv"		"Detta är förhandsvisningstexten."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Administratören har laddat om butikens konfiguration. Kartan kommer att laddas om om {1} sekunder!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"sv"		"Admin artikelvoucher skaparmeny.\n \nVälj varaktigheten för objektet."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"sv"		"Admin artikelvoucher skaparmeny"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Krediter: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"sv"		"Går ut om {1}d {2}t"
+	}
+	"Title Gift"
+	{
+		"sv"		"Välj en spelare att skicka en present till"
+	}
+	"Title Store"
+	{
+		"sv"		"Butikens meny"
+	}
+	"To late chat input"
+	{
+		"sv"		"Din textinmatning har inte slutförts inom den angivna tiden"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Det finns för mycket {1} på marken, du kan inte släppa fler just nu!"
+	}
+	"Top Credits"
+	{
+		"sv"		"Toppkrediter"
+	}
+	"Top Credits Inv Worth"
+	{
+		"sv"		"Topp krediter + inventarie värde"
+	}
+	"Top Inv Worth"
+	{
+		"sv"		"Topp inventarie värde"
+	}
+	"Top Most Items"
+	{
+		"sv"		"Topp mest populära föremål"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Total: {1} {2}"
+	}
+	"Try again"
+	{
+		"sv"		"Försök igen"
+	}
+	"Type in chat !bet"
+	{
+		"sv"		"Skriv i chatten !bet <insats> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"sv"		"Skriv i chatten !blackjack <insats>"
+	}
+	"Type in chat !coinflip"
+	{
+		"sv"		"Skriv i chatten !coinflip <insats> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"sv"		"Skriv i chatten !crash <insats>"
+	}
+	"Type in chat !crowns"
+	{
+		"sv"		"Skriv i chatten !crowns <insats>"
+	}
+	"Type in chat !dice"
+	{
+		"sv"		"Skriv i chatten !dice <insats> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"sv"		"Skriv i chatten !jackpot <insats>"
+	}
+	"Type in chat !roulette"
+	{
+		"sv"		"Skriv i chatten !roulette <insats> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"sv"		"Obegränsat - flera spelare"
+	}
+	"Up"
+	{
+		"sv"		"Upp"
+	}
+	"Value less than 1"
+	{
+		"sv"		"Du kan inte använda ett värde mindre än 1."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sv"		"Volymen för {1} har ställts in på {2}"
+	}
+	"Voucher Code 17 chars"
+	{
+		"sv"		"För tillfället ska voucher-koden vara exakt 17 tecken"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Vouchern har ett värde av {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"sv"		"Voucher accepterades"
+	}
+	"Voucher accepted Panel"
+	{
+		"sv"		"Voucher accepterades"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"sv"		"Du genererar {1} {2}begränsat kupong{3} med värde {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"sv"		"Du genererar {1} {2}begränsad voucher{3} med värden {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Den angivna kupongkoden har redan lösts in den {1}"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Denna voucher går ut den {1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Den angivna kupongkoden gick ut den {1}"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"sv"		"Skapat ny voucher {1} med värde {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"sv"		"Du kan också hitta kupongkoden i chatten och konsolen"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Voucher-kod: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Den angivna voucherkoden '{1}' är inte giltig!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sv"		"Vouchern inkluderar {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"sv"		"Voucherkoden är giltig"
+	}
+	"Vouchers"
+	{
+		"sv"		"Voucher"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Du måste vänta {1} tills nästa dagliga."
+	}
+	"Wait until next daily 2"
+	{
+		"sv"		"Du har redan checkat in idag. Vänligen kom tillbaka imorgon."
+	}
+	"Win = "
+	{
+		"sv"		"Vinst = "
+	}
+	"Winner is not in game anymore"
+	{
+		"sv"		"Vinnaren är inte längre i spelet, vi försöker hitta en ny vinnare."
+	}
+	"Wrong voucher code format"
+	{
+		"sv"		"Voucherkoden har fel format. Den måste vara XXXXX-XXXXX-XXXXX"
+	}
+	"You"
+	{
+		"sv"		"DU"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"sv"		"Du har redan löst in {1} {2} i jackpotten. Nuvarande vinstchans: {3}%% Jackpot: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"sv"		"Du äger redan den angivna kupongartikeln"
+	}
+	"You already redeemed Voucher"
+	{
+		"sv"		"Du har redan löst in den angivna kupongkoden"
+	}
+	"You can start a new Jackpot"
+	{
+		"sv"		"Du kan starta ett nytt Jackpot"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Du kan starta ett nytt Jackpot om {1}."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du kan inte spendera så många krediter (Max: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du samlade {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"sv"		"Du har inte behörighet att få åtkomst till detta."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du tappade {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"sv"		"Du tjänade inga poäng denna runda."
+	}
+	"You earned this round"
+	{
+		"sv"		"Du tjänade denna runda:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du tjänade {1} {2} för "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du tjänade {1} {2} denna runda"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du har fått {1} {2}."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du har fått {1} {2}."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sv"		"Du fick en {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sv"		"Du fick en {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du måste spendera minst {1} {2}."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du måste spendera minst {1} {2}."
+	}
+	"You haven't opened the box in given time"
+	{
+		"sv"		"Du har inte öppnat boxen inom den givna tiden. Lootboxen är tillbaka i din inventering"
+	}
+	"You lose"
+	{
+		"sv"		"- du förlorade"
+	}
+	"You lost with"
+	{
+		"sv"		"Du förlorade med"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du förlorade {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"sv"		"Du har bemästrat 'dagens utmaning'! Försök slå den igen!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du vinner {1} {2}"
+	}
+	"You won"
+	{
+		"sv"		"!!! DU VANN !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"sv"		"Du vann {1} ({2})!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du vann jackpotten med {1} {2}!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"sv"		"Du vann jackpotten med {1} {2} minus casinoväxlingsavgiften på {3} {4} ({5}%)."
+	}
+	"You won with"
+	{
+		"sv"		"Du vann med"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"sv"		"Du vann {1} krediter med x{2}."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du kommer tjäna {1} {2} imorgon!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"sv"		"Din insats: {1} {2} - Sannolikhet: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Din insats: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"sv"		"Din nuvarande vinstchans har ändrats till {1}%"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Du tjänade {1} krediter för att döda {2}."
+	}
+	"admin"
+	{
+		"sv"		"admin"
+	}
+	"and is limited"
+	{
+		"sv"		"och är begränsat"
+	}
+	"and is unlimited"
+	{
+		"sv"		"och är obegränsat"
+	}
+	"arms"
+	{
+		"sv"		"armar"
+	}
+	"assist a kill"
+	{
+		"sv"		"hjälpa till att döda"
+	}
+	"attachment"
+	{
+		"sv"		"Tillbehör"
+	}
+	"backstab kill"
+	{
+		"sv"		"backstab kill"
+	}
+	"be the MVP"
+	{
+		"sv"		"var MVP"
+	}
+	"bet x"
+	{
+		"sv"		"insats x"
+	}
+	"blackjack"
+	{
+		"sv"		"Blackjack"
+	}
+	"bomb defused"
+	{
+		"sv"		"bomben desarmerad"
+	}
+	"bomb explode"
+	{
+		"sv"		"bomben exploderar"
+	}
+	"bomb planted"
+	{
+		"sv"		"bomben planterad"
+	}
+	"bombtweak"
+	{
+		"sv"		"Bombjustering"
+	}
+	"bullet_impact"
+	{
+		"sv"		"Kuleimpact"
+	}
+	"bulletsparks"
+	{
+		"sv"		"Skottsprut"
+	}
+	"bunnyhob"
+	{
+		"sv"		"Kaninhopp"
+	}
+	"bunnyhop"
+	{
+		"sv"		"färdighet"
+	}
+	"casino"
+	{
+		"sv"		"Casino"
+	}
+	"coinflip"
+	{
+		"sv"		"Slantkastning"
+	}
+	"command"
+	{
+		"sv"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Vill du återställa konfigurationen?\nKartan kommer att laddas om om {1} sekunder!"
+	}
+	"confirm_reload_type_1"
+	{
+		"sv"		"Vill du återställa konfigurationen?\nDu måste ändra kartan för att tillämpa ändringarna, annars kan det uppstå fel."
+	}
+	"connect"
+	{
+		"sv"		"Anslutningsmeddelande"
+	}
+	"crash"
+	{
+		"sv"		"Crash"
+	}
+	"creditstoplist"
+	{
+		"sv"		"credits"
+	}
+	"crowns"
+	{
+		"sv"		"Krone Slot"
+	}
+	"daily"
+	{
+		"sv"		"Daglig bonus"
+	}
+	"decoy grenade kill"
+	{
+		"sv"		"decoy granat kill"
+	}
+	"dice"
+	{
+		"sv"		"Tärning"
+	}
+	"direction"
+	{
+		"sv"		"Riktning"
+	}
+	"discount"
+	{
+		"sv"		"REA"
+	}
+	"distance"
+	{
+		"sv"		"Avstånd"
+	}
+	"dmgtext"
+	{
+		"sv"		"Målare"
+	}
+	"emote"
+	{
+		"sv"		"Emote"
+	}
+	"escape as VIP"
+	{
+		"sv"		"Fly som VIP"
+	}
+	"flashbang kill"
+	{
+		"sv"		"flashbang kill"
+	}
+	"flashlight"
+	{
+		"sv"		"Ficklampa"
+	}
+	"froggyjump"
+	{
+		"sv"		"Groda Hopp"
+	}
+	"gloves"
+	{
+		"sv"		"handskar"
+	}
+	"glow"
+	{
+		"sv"		"glöd"
+	}
+	"godmode"
+	{
+		"sv"		"gudläge"
+	}
+	"gravity"
+	{
+		"sv"		"förmåga"
+	}
+	"grenademodel"
+	{
+		"sv"		"Granatmodell"
+	}
+	"grenadeskin"
+	{
+		"sv"		"granat skinn"
+	}
+	"grenadetrail"
+	{
+		"sv"		"granat spår"
+	}
+	"hat"
+	{
+		"sv"		"hatt"
+	}
+	"headshot"
+	{
+		"sv"		"headshot"
+	}
+	"health"
+	{
+		"sv"		"paket"
+	}
+	"high or low"
+	{
+		"sv"		"Högre eller lägre"
+	}
+	"hiteff"
+	{
+		"sv"		"hit eff:"
+	}
+	"hitsound"
+	{
+		"sv"		"Träffljud"
+	}
+	"hostage rescued"
+	{
+		"sv"		"gisslan räddad"
+	}
+	"hunterjump"
+	{
+		"sv"		"Jägare hopp"
+	}
+	"idle on the server"
+	{
+		"sv"		"inaktiv på servern"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"sv"		"om {1}."
+	}
+	"infinityammo"
+	{
+		"sv"		"Oändlig ammunition"
+	}
+	"info"
+	{
+		"sv"		"Info Panel"
+	}
+	"instabomb"
+	{
+		"sv"		"Direkt plantera / desarmera"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"sv"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"sv"		"förmåga"
+	}
+	"items"
+	{
+		"sv"		"Föremål"
+	}
+	"jackpot"
+	{
+		"sv"		"Jackpot"
+	}
+	"jetpack"
+	{
+		"sv"		"raket"
+	}
+	"jihad"
+	{
+		"sv"		"bomb"
+	}
+	"kill"
+	{
+		"sv"		"döda"
+	}
+	"kill the VIP"
+	{
+		"sv"		"döda VIP"
+	}
+	"kill yourself"
+	{
+		"sv"		"ta livet av dig"
+	}
+	"killeff"
+	{
+		"sv"		"kill eff:"
+	}
+	"knife"
+	{
+		"sv"		"kniv"
+	}
+	"knife kill"
+	{
+		"sv"		"knife kill"
+	}
+	"laserdraw"
+	{
+		"sv"		"laser draw:"
+	}
+	"laserpointer"
+	{
+		"sv"		"Laserpekare"
+	}
+	"lasersight"
+	{
+		"sv"		"lasersikte"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"sv"		"senaste uppdateringen för {1} sedan"
+	}
+	"light"
+	{
+		"sv"		"Ljus"
+	}
+	"lootbox"
+	{
+		"sv"		"Lootbox"
+	}
+	"mirror"
+	{
+		"sv"		"spegel"
+	}
+	"molotov kill"
+	{
+		"sv"		"molotov kill"
+	}
+	"msgcolor"
+	{
+		"sv"		"meddelandefärg"
+	}
+	"mvp_sound"
+	{
+		"sv"		"MVP-hymner"
+	}
+	"namecolor"
+	{
+		"sv"		"namnfärg"
+	}
+	"nametag"
+	{
+		"sv"		"namnskylt"
+	}
+	"nearest"
+	{
+		"sv"		"Närmaste"
+	}
+	"nodiscount"
+	{
+		"sv"		" "
+	}
+	"noduckdelay"
+	{
+		"sv"		"Inget fördröjning vid huk"
+	}
+	"nofalldamage"
+	{
+		"sv"		"Inget fallskada"
+	}
+	"noreload"
+	{
+		"sv"		"Utan omladdning"
+	}
+	"noscope kill"
+	{
+		"sv"		"döda utan sikte"
+	}
+	"noselfdamage"
+	{
+		"sv"		"Inget självskada"
+	}
+	"or use buttons below"
+	{
+		"sv"		"eller använd knapparna nedan"
+	}
+	"package"
+	{
+		"sv"		"paket"
+	}
+	"paintball"
+	{
+		"sv"		"kulor"
+	}
+	"painter"
+	{
+		"sv"		"Målare"
+	}
+	"parachute"
+	{
+		"sv"		"Fallskärm"
+	}
+	"particle"
+	{
+		"sv"		"Partiklar"
+	}
+	"pet"
+	{
+		"sv"		"husdjur"
+	}
+	"playerskin"
+	{
+		"sv"		"spelarskinn"
+	}
+	"playing on the server"
+	{
+		"sv"		"spelar på servern"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Du spelade på vår server {1} dagar i rad"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Du kommer att få {1} vid nästa spawn"
+	}
+	"respawn"
+	{
+		"sv"		"Respawn"
+	}
+	"roulette"
+	{
+		"sv"		"Roulette"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Du har nått maxanvändning av ljudet. {1} max användning per karta"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Du har nått maxanvändning av ljudet. {1} max användning per runda"
+	}
+	"saysound"
+	{
+		"sv"		"säg ljud"
+	}
+	"scoreboardtag"
+	{
+		"sv"		"Poängtavla-tag"
+	}
+	"smokegrenade kill"
+	{
+		"sv"		"smokegrenade kill"
+	}
+	"sound"
+	{
+		"sv"		"ljud"
+	}
+	"spawn"
+	{
+		"sv"		"Extra respawn"
+	}
+	"spawneff"
+	{
+		"sv"		"spawn eff:"
+	}
+	"speed"
+	{
+		"sv"		"förmåga"
+	}
+	"spray"
+	{
+		"sv"		"spray"
+	}
+	"start daily challange"
+	{
+		"sv"		"Starta 'dagens utmaning'. Spela de nästa 6 dagarna för att få full bonus"
+	}
+	"taser kill"
+	{
+		"sv"		"taser kill"
+	}
+	"teambet"
+	{
+		"sv"		"TeamBet"
+	}
+	"teamkill"
+	{
+		"sv"		"teamkill"
+	}
+	"tfhat"
+	{
+		"sv"		"byggnadshatt"
+	}
+	"tfhatdye"
+	{
+		"sv"		"hatt färg"
+	}
+	"tfhead"
+	{
+		"sv"		"huvudstorlek"
+	}
+	"tfunusual"
+	{
+		"sv"		"hatt effekt"
+	}
+	"tfweapon"
+	{
+		"sv"		"anpassat vapen"
+	}
+	"tfweaponsize"
+	{
+		"sv"		"vapenstorlek"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Priset kommer att dras om {1} sekunder"
+	}
+	"thirdperson"
+	{
+		"sv"		"tredjeperson"
+	}
+	"throwknife"
+	{
+		"sv"		"Kasta kniv"
+	}
+	"toplists"
+	{
+		"sv"		"Topplistor"
+	}
+	"tracer"
+	{
+		"sv"		"tracer"
+	}
+	"trail"
+	{
+		"sv"		"spår"
+	}
+	"wasted"
+	{
+		"sv"		"slösat"
+	}
+	"watergun"
+	{
+		"sv"		"effekt"
+	}
+	"weapon"
+	{
+		"sv"		"vapen"
+	}
+	"weaponcolor"
+	{
+		"sv"		"vapenfärg"
+	}
+	"weaponmodel"
+	{
+		"sv"		"Vapenmodell"
+	}
+	"weaponskin"
+	{
+		"sv"		"vapenhud"
+	}
+	"win the round"
+	{
+		"sv"		"vinn rundan"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"sv"		"{1} {2} för '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"sv"		"{1} timmar {2} minuter och {3} sekunder"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"sv"		"{1} timme(r) {2} minut(er) och {3} sekund(er)"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"sv"		"{1} minuter och {2} sekunder"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"sv"		"{1} minut(er) och {2} sekund(er)"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"sv"		"{1} sekunder"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"sv"		"{1} sekund(er)"
+	}
+	"zrclass"
+	{
+		"sv"		"spelarklass"
+	}
+}

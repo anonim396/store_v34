@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"ar"		"إلغاء التجارة"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ar"		"هل تريد عرض {1} {2} الخاصة بك؟"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ar"		"هل تريد تبادل {1} {2} الخاصة بك؟"
+	}
+	"Offer"
+	{
+		"ar"		"عرض عنصر"
+	}
+	"Offer item"
+	{
+		"ar"		"عرض هذا العنصر"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"ar"		"شريكك يعرض {1} من الرصيد"
+	}
+	"Partner Item Offer"
+	{
+		"ar"		"شريكك يعرض العناصر التالية:"
+	}
+	"Partner Not Ready"
+	{
+		"ar"		"شريكك غير جاهز بعد."
+	}
+	"Partner Ready"
+	{
+		"ar"		"شريكك جاهز."
+	}
+	"Player Left"
+	{
+		"ar"		"اللاعب الذي أردت التبادل معه غادر اللعبة."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"ar"		"جاهز [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"ar"		"سوف تنتهي التجارة في {1} ثانية..."
+	}
+	"Trade Active"
+	{
+		"ar"		"أنت تتداول بالفعل."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"ar"		"هل ترغب في التداول مع {1}؟"
+	}
+	"Trade Confirm Cancel"
+	{
+		"ar"		"هل ترغب في إلغاء الصفقة؟"
+	}
+	"Trade Cooldown"
+	{
+		"ar"		"يرجى الانتظار بضع دقائق قبل التداول مرة أخرى."
+	}
+	"Trade Menu"
+	{
+		"ar"		"لإعادة فتح قائمة التجارة، اكتب !trade."
+	}
+	"Trade Not Active"
+	{
+		"ar"		"أنت لا تتداول."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"ar"		"شريكك ألغى الصفقة."
+	}
+	"Trade Select Player"
+	{
+		"ar"		"اختر لاعبًا للتداول معه"
+	}
+	"Trade Successful"
+	{
+		"ar"		"تمت الصفقة بنجاح."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ar"		"أنت تتداول مع {1}\n-----------------------------\nلإرسال رصيد اكتب !offer <amount>\nلقد عرضت {2} رصيد"
+	}
+	"Trade item"
+	{
+		"ar"		"تداول هذا العنصر"
+	}
+	"Waiting for confirmation"
+	{
+		"ar"		"يرجى الانتظار للحصول على إجابة من اللاعب المحدد."
+	}
+}

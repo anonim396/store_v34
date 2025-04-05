@@ -1,0 +1,2278 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"ro"		"{1}21 !!! BLACKJACK !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Ai reîncărcat deja configurația. Te rog schimbă sau reîncarcă harta."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Toți jucătorii participanți se deconectează, nimeni nu își primește înapoi {2}, haha. Jackpot-ul a fost {1} {2}!"
+	}
+	"All valid voucher"
+	{
+		"ro"		"Toate voucherele generate și valide sunt:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ro"		"Ai câștigat, dar deja deții {1} ({2}). Articolul a fost vândut pentru {3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ro"		"Deja deții {1} ({2}). Ți s-au returnat {3} {4}"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Sumă: {1}"
+	}
+	"Aura"
+	{
+		"ro"		"Aura:"
+	}
+	"Back"
+	{
+		"ro"		"Înapoi"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"ro"		"Pariu * Multiplicator = Câștigul tău"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Credite bonus: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Pot CT câștigă: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Pariu maxim ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Pariu minim ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ro"		"Pariu aleator ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Pot T câștigă: {1} {2}"
+	}
+	"Bet on"
+	{
+		"ro"		"Pariază pe"
+	}
+	"Bet on a Head/Tail"
+	{
+		"ro"		"Pariu pe Capul/Coada"
+	}
+	"Bet on a color"
+	{
+		"ro"		"Pariază pe o culoare și dacă această culoare este aleasă, câștigi!"
+	}
+	"Bet on a number"
+	{
+		"ro"		"Pariază pe Mic (#1-3), Mare (#4-6) sau un număr exact. Dacă alegerea ta cade pe zaruri, câștigi!"
+	}
+	"Bet on a team"
+	{
+		"ro"		"Pariază pe o echipă și dacă echipa câștigă runda, câștigi!"
+	}
+	"Betting Already Placed"
+	{
+		"ro"		"Ai plasat deja pariu pentru acest tur."
+	}
+	"Betting Invalid Team"
+	{
+		"ro"		"A fost specificat un identificator de echipă invalid."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai pierdut {1} credite la pariu."
+	}
+	"Betting Period Over"
+	{
+		"ro"		"Perioada de pariu a expirat pentru acest tur."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai plasat cu succes un pariu de {1} credite."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Pariul tău a fost de succes. Ai câștigat {1} credite."
+	}
+	"Black"
+	{
+		"ro"		"negru"
+	}
+	"Blackjack Info 1"
+	{
+		"ro"		"Blackjack este un joc în care valoarea cărților din mâna ta trebuie să fie mai mare decât valoarea cărților dealer-ului, fără a depăși 21."
+	}
+	"Blackjack Info 2"
+	{
+		"ro"		"Reguli de numărare:\n- Cartela \"A\" poate fi numărată ca 1/11. Dacă valoarea mâinii depășește 21, această carte trebuie numărată ca 1."
+	}
+	"Blackjack Info 3"
+	{
+		"ro"		"- \"10, J, Q, K\": Se numără ca 10.\n- 2-9 Se numără după valoarea nominală."
+	}
+	"Blackjack Info 4"
+	{
+		"ro"		"- Valoarea mâinii tale trebuie să fie mai aproape de 21, fără a depăși și mai mare decât mâna dealerului pentru a câștiga jocul.\n- \"A\" + carte de valoare 10 = BlackJack. Aceasta este o victorie instantanee."
+	}
+	"Buy"
+	{
+		"ro"		"Cumpără obiect"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Cumpără obiectul ({1})"
+	}
+	"CP Changed color"
+	{
+		"ro"		"Ți-ai schimbat culoarea la: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"ro"		"Opțiune culoare etichetă chat"
+	}
+	"CP Disable Color - Menu"
+	{
+		"ro"		"Dezactivează culoare"
+	}
+	"CP Disabled Color"
+	{
+		"ro"		"Culoare etichetă personalizată dezactivată."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"ro"		"Nu aveți niciun tag de nume echipat"
+	}
+	"CP No file found"
+	{
+		"ro"		"Culoarea etichetei personalizate pentru utilizator a fost dezactivată. Contactați administratorul pentru mai mult suport."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ro"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"ro"		"Afișarea previzualizării etichetei de scor, apăsați butonul TAB."
+	}
+	"Cancel"
+	{
+		"ro"		"Anulează"
+	}
+	"Cant be bought"
+	{
+		"ro"		"Acest obiect nu poate fi cumpărat"
+	}
+	"Cash out"
+	{
+		"ro"		"Retragere"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Schimbă-ți pariu: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai cumpărat un {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ro"		"{1} ți-a trimis un {2} {3} ca un cadou."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ro"		"Ai trimis lui {1} un {2} {3} ca un cadou."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai vândut un {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Ai deschis un recipient și ai găsit {1} credite!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ro"		"{1} a deschis un recipient și a găsit {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ro"		"{1} a deschis un recipient și a găsit {2} ({3})!"
+	}
+	"Check All Voucher"
+	{
+		"ro"		"Verificați toate voucherele valide și disponibile (doar Admin)"
+	}
+	"Check Voucher"
+	{
+		"ro"		"Verificați un voucher"
+	}
+	"Check Your valid Voucher"
+	{
+		"ro"		"Verificați voucherul generat și valid disponibil"
+	}
+	"Choose Number (1:6)"
+	{
+		"ro"		"Alege numărul (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"ro"		"Retragere automată:"
+	}
+	"Client Loadout Reset"
+	{
+		"ro"		"Echipamentul tău a fost resetat."
+	}
+	"Client valid voucher"
+	{
+		"ro"		"Voucherul generat și valid este:\n "
+	}
+	"Close"
+	{
+		"ro"		"Închide"
+	}
+	"ColoredSmoke"
+	{
+		"ro"		"Fum de culoare"
+	}
+	"Command is in-game only"
+	{
+		"ro"		"Trebuie să fii în viață pentru a folosi această comandă."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"ro"		"Configurația a fost reîncărcată. Vă rugăm să reporniți sau să schimbați harta."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ești sigur că vrei să cumperi {1} {2}?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"ro"		"Ești sigur că vrei să oferi {1} {2} lui {3}?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ești sigur că vrei să lași {1} {2} ca cadou?"
+	}
+	"Confirm_No"
+	{
+		"ro"		"Nu"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"ro"		"Ești sigur că vrei să vinzi {1} {2} pentru {3}?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Sunteți sigur că doriți să convertiți {1} ({2}) într-un cupon?\nAVERTISMENT: Dacă obiectul din voucher expiră înainte de a fi răscumpărat.\nAcest voucher va expira."
+	}
+	"Confirm_Yes"
+	{
+		"ro"		"Da"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ro"		"{1} a dat răspunsul corect și a câștigat {2} {3}!"
+	}
+	"Counter-Terrorist"
+	{
+		"ro"		"Contra-terorist"
+	}
+	"Crash Already Start"
+	{
+		"ro"		"Jocul Crash este în prezent în desfășurare. Vă rugăm să așteptați următorul joc."
+	}
+	"Crash Auto Off"
+	{
+		"ro"		"Oprit"
+	}
+	"Crash Auto Off Panel"
+	{
+		"ro"		"Dezactivați retragerea automată"
+	}
+	"Crash Auto On"
+	{
+		"ro"		"Pornit"
+	}
+	"Crash Auto On Panel"
+	{
+		"ro"		"Activați retragerea automată"
+	}
+	"Crash Info 1"
+	{
+		"ro"		"           Ce este/ Cum să joci: Crash"
+	}
+	"Crash Info 2"
+	{
+		"ro"		"- Crash este jocul în care jucătorii pot paria pe un multiplicator, acest multiplicator este legat de o curbă crescătoare care poate colapsa în orice moment."
+	}
+	"Crash Info 3"
+	{
+		"ro"		"- Multiplicatorul începe de la 1.00x și poți retrage în orice moment."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"ro"		"- Valoarea minimă a mizei este {1} {2}. Valoarea maximă a mizei este {3} {4}. Aceste limite pot să se schimbe în timp."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"ro"		"Intrare greșită (trebuie să fie {1} sau mai mult)."
+	}
+	"Crash auto input"
+	{
+		"ro"		"Introduceți valoarea retragerii automate în chat"
+	}
+	"Crash auto input set"
+	{
+		"ro"		"Crash retragerea automată setată"
+	}
+	"Crash set auto"
+	{
+		"ro"		"Setați valoarea retragerii automată"
+	}
+	"Crash!"
+	{
+		"ro"		"Crash!"
+	}
+	"Create Item Voucher"
+	{
+		"ro"		"Creează un voucher pentru obiecte (Doar admin)"
+	}
+	"Create Voucher"
+	{
+		"ro"		"Creează un voucher"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Crearea voucherului a eșuat - Contactați un administrator cu următorul marcaj temporal: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"ro"		"Dăruirea de credite este dezactivată pe acest server."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai lăsat {1} credite ca un cadou."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ro"		"{2} ți-a trimis {1} credite."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ro"		"Ai trimis {1} credite către {2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"ro"		"Nu ai suficiente credite pentru a crea un giveaway."
+	}
+	"Credit Invalid Amount"
+	{
+		"ro"		"Sumă invalidă de credite introdusă."
+	}
+	"Credit No Match"
+	{
+		"ro"		"Nu a fost găsit niciun jucător."
+	}
+	"Credit Not Enough"
+	{
+		"ro"		"Nu ai suficienți credite pentru a cumpăra asta."
+	}
+	"Credit Too Many Matches"
+	{
+		"ro"		"Au fost găsiți mai mulți clienți."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"ro"		"Nu ai suficiente credite pentru a crea un voucher."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ro"		"Ai câștigat {1} credite pentru a-l omorî pe {2}."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai câștigat {1} credite pentru a juca pe server."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"ro"		"{1} a primit {2} credite."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ro"		"Credite: {1}          Pot: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"ro"		"Dezactivat"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"ro"		"Activat"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"ro"		"[Sunet personalizat al armelor]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"ro"		"Meniu de control al volumului sunetului personalizat al armelor"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Volum: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"ro"		"Sunet personalizat al armelor: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"ro"		"Sunet personalizat al armelor este Dezactivat."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"ro"		"Sunetul personalizat al armelor este activat."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Sunetul personalizat al armelor este activat. Volum: {1}"
+	}
+	"CustomModel"
+	{
+		"ro"		"Model personalizat de armă:"
+	}
+	"Damage the crate to open"
+	{
+		"ro"		"Strică cutia pentru a o deschide!"
+	}
+	"Dead heat"
+	{
+		"ro"		"- egalitate -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ro"		"             DEALER     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"ro"		"DEALER"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Reducere: '{1}' este activă! Spor la cumpărături!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Reducere: '{1}' s-a încheiat."
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Reducere: '{1}' a început! Spor la cumpărături!"
+	}
+	"Double"
+	{
+		"ro"		"Dubla"
+	}
+	"Down"
+	{
+		"ro"		"Jos"
+	}
+	"Down2"
+	{
+		"ro"		"                      5 = Jos"
+	}
+	"Drop Gift"
+	{
+		"ro"		"Lăsați ca cadou"
+	}
+	"Edit Amount"
+	{
+		"ro"		"Editează cantitatea: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"ro"		"Vă rugăm să introduceți timpul de expirare (în secunde) pentru obiect în chat!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"ro"		"Format număr invalid. Vă rugăm încercați din nou."
+	}
+	"Enter custom amount"
+	{
+		"ro"		"Vă rugăm să introduceți suma personalizată în chat!"
+	}
+	"Enter maximum value"
+	{
+		"ro"		"Vă rugăm să introduceți valoarea maximă a creditelor în chat!"
+	}
+	"Enter number of vouchers"
+	{
+		"ro"		"Vă rugăm să introduceți numărul de vouchere de creat în chat!"
+	}
+	"Enter value of vouchers"
+	{
+		"ro"		"Vă rugăm să introduceți valoarea voucherului de cumpărat în chat!"
+	}
+	"Enter voucher code"
+	{
+		"ro"		"Vă rugăm să introduceți codul voucherului în chat!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"ro"		"A apărut o eroare la returnarea prețului. Vă rugăm să contactați administratorul"
+	}
+	"Exact #x  = "
+	{
+		"ro"		"Exact #x = "
+	}
+	"Exit"
+	{
+		"ro"		"Ieși"
+	}
+	"Gained"
+	{
+		"ro"		"Câștigat"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ro"		"Câștigat: {1} {2}"
+	}
+	"Game Info"
+	{
+		"ro"		"Informații joc"
+	}
+	"Game in progress"
+	{
+		"ro"		"Jocul tău actual este în desfășurare. Te rugăm să aștepți până când se va încheia."
+	}
+	"Get three on a kind"
+	{
+		"ro"		"Obține trei la fel"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai ridicat {1} credite."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai ridicat un {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"ro"		"Nu există nimeni căruia să îi poți dărui acest obiect."
+	}
+	"Gift Player Left"
+	{
+		"ro"		"Jucătorul selectat a părăsit deja jocul."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ro"		"{1} Pentru a face un giveaway, serverul trebuie să conțină cel puțin {2} jucători."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ro"		"Admin {1} a deschis un giveaway cu <font color='#15fb00'>{2} credite"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"ro"		"|| Giveaway începe în {1} secunde ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"ro"		"{1} {2} a câștigat un giveaway cu {3} credite"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ro"		"{1}\n|| Câștigător: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"ro"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"ro"		"Ai atins numărul maxim de godmode pe care le poți cumpăra în această rundă."
+	}
+	"Godmode Wrong Team"
+	{
+		"ro"		"Nu poți folosi godmode în această echipă."
+	}
+	"Green"
+	{
+		"ro"		"verde"
+	}
+	"HE grenade kill"
+	{
+		"ro"		"ucide cu grenadă HE"
+	}
+	"HUD"
+	{
+		"ro"		"HUD"
+	}
+	"Head"
+	{
+		"ro"		"Cap"
+	}
+	"Health Round Limit"
+	{
+		"ro"		"Ai atins numărul maxim de pachete de sănătate pe care le poți cumpăra în această rundă."
+	}
+	"Help_Back"
+	{
+		"ro"		"Înapoi"
+	}
+	"Help_Exit"
+	{
+		"ro"		"Ieși"
+	}
+	"Hide bullet sparks"
+	{
+		"ro"		"Ascunde scântei de glonț"
+	}
+	"Hide bullet tracer"
+	{
+		"ro"		"Ascunde urmele glonțului"
+	}
+	"Hide gloves"
+	{
+		"ro"		"Ascunde mănuși"
+	}
+	"Hide paintball"
+	{
+		"ro"		"Ascunde paintball"
+	}
+	"Hide particles"
+	{
+		"ro"		"Ascunde particule"
+	}
+	"Hide pets"
+	{
+		"ro"		"Ascunde animale de companie"
+	}
+	"Hide trails"
+	{
+		"ro"		"Ascunde urmele"
+	}
+	"High #4-6"
+	{
+		"ro"		"Înalt #4-6"
+	}
+	"High #4-6 = "
+	{
+		"ro"		"Înalt #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"ro"		"High - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"ro"		"MAI MARE"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Numărul ales este: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Următorul număr a fost: {1}"
+	}
+	"Hit"
+	{
+		"ro"		"Lovitură"
+	}
+	"Hol Info 1"
+	{
+		"ro"		"A fost ales un număr între {1} și {2} pentru a ghici dacă următorul număr va fi mai mare sau mai mic decât numărul ales."
+	}
+	"Hol Info 2"
+	{
+		"ro"		"Dacă alegi corectul, vei câștiga de două ori mai mult decât miza ta."
+	}
+	"Hol Info 3"
+	{
+		"ro"		"Există o pauză de {1} secundă între fiecare joc."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ați plasat cu succes {1} {2}."
+	}
+	"Inventory"
+	{
+		"ro"		"Inventar"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"ro"		"Vă rugăm să așteptați. Inventarul dumneavoastră nu a fost încă încărcat."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ro"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"ro"		"{1}"
+	}
+	"Item Equip"
+	{
+		"ro"		"Echipati acest obiect"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"ro"		"{1} [ECHIPAT]"
+	}
+	"Item Gift"
+	{
+		"ro"		"Dăruiește acest obiect"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"ro"		"{1} (Alegeți un plan)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Vinde pentru {1}"
+	}
+	"Item Unequip"
+	{
+		"ro"		"Dezactivați acest obiect"
+	}
+	"Item Use"
+	{
+		"ro"		"Folosiți acest obiect"
+	}
+	"Item Voucher"
+	{
+		"ro"		"Crează un voucher din obiect"
+	}
+	"Item Voucher disabled"
+	{
+		"ro"		"Crearea voucherului pentru obiect este momentan dezactivată."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ro"		"Ai convertit {1} ({2}) în voucher {3}."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"ro"		"{1} ascuns. Nu îi vei mai vedea."
+	}
+	"Item not found"
+	{
+		"ro"		"Obiectul nu a fost găsit"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"ro"		"{1} este din nou vizibil."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"ro"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"ro"		"Jackpot-ul a fost întrerupt."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Jackpot: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"ro"		"Jetpack este gol"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"ro"		"[Jetpack] Combustibil: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"ro"		"Jetpack a fost reîncărcat"
+	}
+	"Jihad Failed"
+	{
+		"ro"		"Bomba ta a eșuat să explodeze."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"ro"		"Bombă jihad {1} nu a explodat."
+	}
+	"Jihad Wrong Team"
+	{
+		"ro"		"Nu poți folosi bomba în această echipă."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"ro"		"{1} minut(e) înainte de a începe crash-ul."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"ro"		"{1} secundă(e) înainte de a începe crash-ul."
+	}
+	"LevelIcon"
+	{
+		"ro"		"icon nivel"
+	}
+	"Limited"
+	{
+		"ro"		"Limitat - un jucător"
+	}
+	"Lootbox case is opening"
+	{
+		"ro"		"Vă rugăm să așteptați până când cutia anterioară este deschisă"
+	}
+	"Lootbox map ended"
+	{
+		"ro"		"Harta s-a încheiat. Vă rugăm să așteptați următoarea hartă"
+	}
+	"Lootbox round ended"
+	{
+		"ro"		"Runda s-a încheiat. Vă rugăm să așteptați următorul rundă"
+	}
+	"Lootbox warm up"
+	{
+		"ro"		"Nu poți deschide în timpul încălzirii"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Ai pierdut seria ta zilnică de {1} zi/zile."
+	}
+	"Lost bet"
+	{
+		"ro"		"Nu a reușit! Ai pierdut pariul"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai pierdut pariul, deoarece următorul număr a fost: {1}"
+	}
+	"Low #1-3"
+	{
+		"ro"		"Scăzut #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"ro"		"Scăzut #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"ro"		"Low - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"ro"		"MAI MIC"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Avem nevoie de cel puțin {1} jucător(i)"
+	}
+	"Must be Alive"
+	{
+		"ro"		"Trebuie să fii în viață pentru a folosi acest lucru."
+	}
+	"Must be dead"
+	{
+		"ro"		"Trebuie să fii mort pentru a juca"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"ro"		"Multiplicator = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"ro"		"Nu există jackpot activ"
+	}
+	"No active TeamBet"
+	{
+		"ro"		"Nu au fost plasate încă pariu pe echipă"
+	}
+	"No have flag"
+	{
+		"ro"		"Nu ai acces să folosești acest comandă."
+	}
+	"No matching color"
+	{
+		"ro"		"Nu există culoare corespunzătoare, folosiți: r/roșu, b/negru sau g/verde"
+	}
+	"No pick up - back to you"
+	{
+		"ro"		"Nimeni nu a ridicat creditele căzute. Le-ai primit înapoi."
+	}
+	"No pick up - removed"
+	{
+		"ro"		"Nimeni nu a ridicat creditele căzute. Creditele au fost eliminate."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Timpul a expirat. Răspunsul corect a fost {1}."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Nimeni altcineva nu a depus bani în Jackpot. Primești înapoi {1} {2}!"
+	}
+	"Not enough Credits"
+	{
+		"ro"		"Nu ai suficiente credite"
+	}
+	"Now run a giveaway"
+	{
+		"ro"		"Acum se desfășoară un giveaway, încercați din nou în câteva secunde."
+	}
+	"Only number"
+	{
+		"ro"		"Poți scrie doar numere..."
+	}
+	"Override Disabled"
+	{
+		"ro"		"Skin-ul tău nu suportă pălării. Pălăria ta echipată va fi dezactivată."
+	}
+	"Override Enabled"
+	{
+		"ro"		"Skin-ul tău curent nu suportă pălării. Skin-ul tău va fi schimbat."
+	}
+	"Owned"
+	{
+		"ro"		"[Deținut]"
+	}
+	"Package Gift"
+	{
+		"ro"		"Dăruiește acest pachet"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Vinde acest pachet pentru {1}"
+	}
+	"Package Voucher"
+	{
+		"ro"		"Creare voucher din pachet"
+	}
+	"Parachute Empty"
+	{
+		"ro"		"Parasută goală"
+	}
+	"Parachute Reloaded"
+	{
+		"ro"		"Parasută reîncărcată"
+	}
+	"Particles"
+	{
+		"ro"		"Particule:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Plasează {1} {2}"
+	}
+	"Play Preview"
+	{
+		"ro"		"Redau sunetul de previzualizare pentru tine."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ro"		"{1} are {2} credite."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"ro"		"{1} a fost resetat."
+	}
+	"Player Skin module disabled"
+	{
+		"ro"		"Modul Store Player Skin este momentan dezactivat temporar."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"ro"		"{1} a adăugat {2} {3} în jackpot, șansa sa curentă de a câștiga este: {4}% (Jackpot: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ro"		"{1} a pierdut {2} {3} la {4}."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ro"		"{1} a deschis un jackpot cu {2} {3}. Efectuează cash-in pentru a lua acei bani!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ro"		"{1} a câștigat Jackpot-ul cu {2} {3}!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ro"		"{1} a câștigat {2} {3} la {4}."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"ro"		"{1} a câștigat {2} {3} cu un multiplicator de x{4} la {5}."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"ro"		"Noile tale setări vor fi aplicate la următorul spawn."
+	}
+	"Press"
+	{
+		"ro"		"Apăsați"
+	}
+	"Press to Start"
+	{
+		"ro"		"Apasă pentru a începe!"
+	}
+	"Press to Stop"
+	{
+		"ro"		"Apasă pentru a opri!"
+	}
+	"Preview Item"
+	{
+		"ro"		"Previzualizează acest obiect"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Preț: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"ro"		"Cumpără un voucher"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"ro"		"Cât costă {1} {2} {3}? | Premiu: {4} {5}"
+	}
+	"Red"
+	{
+		"ro"		"roșu"
+	}
+	"Redeem Voucher"
+	{
+		"ro"		"Răscumpără un voucher"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Repornire {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"ro"		"Ai atins numărul maxim de respawn-uri pe care le poți cumpăra în această rundă."
+	}
+	"SQL Cooldown"
+	{
+		"ro"		"Din motive de securitate, nu poți trimite mai multe cereri într-o perioadă scurtă."
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"ro"		"-------------- Sugestii din meniul de căutare al magazinului --------------\n - Toate articolele relevante vor fi listate aici\n - Căutarea ta curentă: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"ro"		"Al doilea câștigător nu mai este în joc, ultima încercare de a găsi un nou câștigător."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Trebuie să aștepți {1} secunde înainte de a încerca să folosești din nou acest comandă."
+	}
+	"Show bullet sparks"
+	{
+		"ro"		"Afișează scântei de glonț"
+	}
+	"Show bullet tracer"
+	{
+		"ro"		"Afișează urmele glonțului"
+	}
+	"Show gloves"
+	{
+		"ro"		"Afișează mănuși"
+	}
+	"Show paintball"
+	{
+		"ro"		"Afișează paintball"
+	}
+	"Show particles"
+	{
+		"ro"		"Afișează particule"
+	}
+	"Show pets"
+	{
+		"ro"		"Afișează animale de companie"
+	}
+	"Show trails"
+	{
+		"ro"		"Afișează urme"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Nu poți folosi o valoare mai mică decât valoarea ta minimă ({1})"
+	}
+	"Spacer"
+	{
+		"ro"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Protecție împotriva spamului. Vă rugăm să așteptați {1} secunde."
+	}
+	"Spawn Preview"
+	{
+		"ro"		"Previzualizare generată. Previzualizarea va dispărea în 45 de secunde."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"ro"		"Previzualizare generată. Previzualizarea va dispărea în {1} secunde."
+	}
+	"Start again from begin"
+	{
+		"ro"		"Vă rugăm să începeți din nou de la început"
+	}
+	"Starting"
+	{
+		"ro"		"Începere"
+	}
+	"Stay"
+	{
+		"ro"		"Rămâne"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"ro"		"Ești sigur că vrei să îți resetezi echipamentul? Toate obiectele vor fi dezechipate."
+	}
+	"Successfully purchased voucher"
+	{
+		"ro"		"Ați achiziționat cu succes un voucher"
+	}
+	"TF Wrong Class"
+	{
+		"ro"		"Acest obiect era destinat să fie folosit cu o clasă diferită de jucător."
+	}
+	"Tail"
+	{
+		"ro"		"Coadă"
+	}
+	"TeamBet Already Placed"
+	{
+		"ro"		"Ai plasat deja pariu pentru acest rund."
+	}
+	"TeamBet Invalid Team"
+	{
+		"ro"		"A fost specificat un identificator de echipă invalid."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai pierdut {1} {2} la pariu."
+	}
+	"TeamBet Period Over"
+	{
+		"ro"		"Perioada de pariu pentru această rundă a expirat."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Ai plasat cu succes o pariu de {1} credite."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Pariul tău a fost un succes. Ai câștigat {1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"ro"		"Nu a existat nicio pariu pe cealaltă echipă, așa că ți-ai recuperat creditele."
+	}
+	"Terrorist"
+	{
+		"ro"		"Terorist"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Numărul ales este: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Următorul număr a fost: {1}"
+	}
+	"This is the preview text"
+	{
+		"ro"		"Acesta este textul de previzualizare."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Administratorul a reîncărcat configurația magazinului. Harta va fi reîncărcată în {1} secunde!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"ro"		"Meniu de creare voucher pentru obiecte (Doar admin).\n \nAlege durata obiectului."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"ro"		"Meniu de creare voucher pentru obiecte (Doar admin)"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Credite: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ro"		"Expiră în {1}z {2}h"
+	}
+	"Title Gift"
+	{
+		"ro"		"Alege un jucător căruia să-i trimiteți un cadou"
+	}
+	"Title Store"
+	{
+		"ro"		"Meniu magazin"
+	}
+	"To late chat input"
+	{
+		"ro"		"Intrarea textului tău nu a fost realizată în timpul dat"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Sunt prea multe {1} pe pământ, nu poți să le mai dai acum!"
+	}
+	"Top Credits"
+	{
+		"ro"		"Top credite"
+	}
+	"Top Credits Inv Worth"
+	{
+		"ro"		"Top credite + valoare inventar"
+	}
+	"Top Inv Worth"
+	{
+		"ro"		"Top valoare inventar"
+	}
+	"Top Most Items"
+	{
+		"ro"		"Top cele mai populare obiecte"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Total: {1} {2}"
+	}
+	"Try again"
+	{
+		"ro"		"Încearcă din nou"
+	}
+	"Type in chat !bet"
+	{
+		"ro"		"Scrie în chat !bet <pariu> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"ro"		"Scrie în chat !blackjack <pariu>"
+	}
+	"Type in chat !coinflip"
+	{
+		"ro"		"Scrie în chat !coinflip <pariu> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"ro"		"Scrie în chat !crash <pariu>"
+	}
+	"Type in chat !crowns"
+	{
+		"ro"		"Scrie în chat !crowns <pariu>"
+	}
+	"Type in chat !dice"
+	{
+		"ro"		"Scrie în chat !dice <pariu> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"ro"		"Scrie în chat !jackpot <pariu>"
+	}
+	"Type in chat !roulette"
+	{
+		"ro"		"Scrie în chat !roulette <pariu> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"ro"		"Nelimitat - mai mulți jucători"
+	}
+	"Up"
+	{
+		"ro"		"Sus"
+	}
+	"Value less than 1"
+	{
+		"ro"		"Nu poți folosi o valoare mai mică decât 1."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ro"		"Volumul {1} a fost setat la {2}"
+	}
+	"Voucher Code 17 chars"
+	{
+		"ro"		"Pentru moment, codul voucherului trebuie să aibă exact 17 caractere"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Voucherul are valoarea de {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"ro"		"Voucherul a fost acceptat"
+	}
+	"Voucher accepted Panel"
+	{
+		"ro"		"Voucherul a fost acceptat"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"ro"		"Generezi {1} {2}voucher limitat{3} cu valoare {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"ro"		"Generezi {1} {2}voucher limitat{3} cu valorile {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Codul voucherului introdus a fost deja folosit pe {1}"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Acest voucher expiră pe {1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Codul voucherului introdus a expirat pe {1}"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ro"		"Ai creat un nou voucher {1} cu valoarea {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"ro"		"Puteți găsi codul voucherului și în chat și în consolă"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Cod voucher: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Codul voucherului introdus '{1}' nu este valid!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ro"		"Voucherul include {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"ro"		"Codul voucherului este valid"
+	}
+	"Vouchers"
+	{
+		"ro"		"Voucher"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Trebuie să aștepți {1} până la următoarea sarcină zilnică."
+	}
+	"Wait until next daily 2"
+	{
+		"ro"		"Te-ai înregistrat astăzi. Te rugăm să revii mâine."
+	}
+	"Win = "
+	{
+		"ro"		"Victorie = "
+	}
+	"Winner is not in game anymore"
+	{
+		"ro"		"Câștigătorul nu mai este în joc, încercăm să găsim un nou câștigător."
+	}
+	"Wrong voucher code format"
+	{
+		"ro"		"Codul voucherului are un format greșit. Trebuie să fie XXXXX-XXXXX-XXXXX"
+	}
+	"You"
+	{
+		"ro"		"TU"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"ro"		"Deja ai retras {1} {2} în jackpot. Șansa de câștig actuală: {3}%% Jackpot: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"ro"		"Deja deții obiectul voucherului introdus"
+	}
+	"You already redeemed Voucher"
+	{
+		"ro"		"Deja ai folosit codul voucherului introdus"
+	}
+	"You can start a new Jackpot"
+	{
+		"ro"		"Poți începe un nou Jackpot"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Poți începe un nou Jackpot în {1}."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Nu poți cheltui atât de multe credite (Max: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ați colectat {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"ro"		"Nu ai permisiunea să accesezi acest lucru."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ați scăpat {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"ro"		"Nu ai câștigat puncte în acest runda."
+	}
+	"You earned this round"
+	{
+		"ro"		"Ai câștigat acest runda:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai câștigat {1} {2} pentru "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai câștigat {1} {2} în această rundă"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai primit {1} {2}."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai primit {1} {2}."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai primit un {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai primit un {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Trebuie să cheltuiți cel puțin {1} {2}."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Trebuie să cheltuiți cel puțin {1} {2}."
+	}
+	"You haven't opened the box in given time"
+	{
+		"ro"		"Nu ai deschis cutia în timpul dat. Lootbox-ul s-a întors în inventarul tău"
+	}
+	"You lose"
+	{
+		"ro"		"- ai pierdut"
+	}
+	"You lost with"
+	{
+		"ro"		"Ai pierdut cu"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai pierdut {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"ro"		"Ai stăpânit 'provocarea zilnică'! Încearcă să o înfrunți din nou!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai câștigat {1} {2}"
+	}
+	"You won"
+	{
+		"ro"		"!!! AI CÂȘTIGAT !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai câștigat {1} ({2})!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai câștigat Jackpot-ul cu {1} {2}!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"ro"		"Ai câștigat Jackpot-ul cu {1} {2} minus taxa cazinoului de {3} {4} ({5}%)."
+	}
+	"You won with"
+	{
+		"ro"		"Ai câștigat cu"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"ro"		"Ai câștigat {1} credite cu x{2}."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Vei câștiga {1} {2} mâine!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"ro"		"Pariul tău: {1} {2} - Șansa: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Pariul tău: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"ro"		"Șansa ta actuală de a câștiga s-a schimbat la {1}%"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai câștigat {1} credite pentru uciderea lui {2}."
+	}
+	"admin"
+	{
+		"ro"		"administrator"
+	}
+	"and is limited"
+	{
+		"ro"		"și este limitat"
+	}
+	"and is unlimited"
+	{
+		"ro"		"și este nelimitat"
+	}
+	"arms"
+	{
+		"ro"		"brațe"
+	}
+	"assist a kill"
+	{
+		"ro"		"asistă la ucidere"
+	}
+	"attachment"
+	{
+		"ro"		"Accesoriu"
+	}
+	"backstab kill"
+	{
+		"ro"		"ucide din spate"
+	}
+	"be the MVP"
+	{
+		"ro"		"fii MVP"
+	}
+	"bet x"
+	{
+		"ro"		"pariu x"
+	}
+	"blackjack"
+	{
+		"ro"		"Blackjack"
+	}
+	"bomb defused"
+	{
+		"ro"		"bomba dezamorsată"
+	}
+	"bomb explode"
+	{
+		"ro"		"bomba explodează"
+	}
+	"bomb planted"
+	{
+		"ro"		"bomba plantată"
+	}
+	"bombtweak"
+	{
+		"ro"		"Setare bombă"
+	}
+	"bullet_impact"
+	{
+		"ro"		"Impactul glonțului"
+	}
+	"bulletsparks"
+	{
+		"ro"		"Scântei de glonț"
+	}
+	"bunnyhob"
+	{
+		"ro"		"Săritura iepure"
+	}
+	"bunnyhop"
+	{
+		"ro"		"abilitate"
+	}
+	"casino"
+	{
+		"ro"		"Casino"
+	}
+	"coinflip"
+	{
+		"ro"		"Lansare de monedă"
+	}
+	"command"
+	{
+		"ro"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Vrei să resetezi configurația?\nHarta va fi reîncărcată în {1} secunde!"
+	}
+	"confirm_reload_type_1"
+	{
+		"ro"		"Sigur vrei să resetezi configurația?\nTrebuie să schimbi harta pentru a aplica modificările sau pot apărea erori."
+	}
+	"connect"
+	{
+		"ro"		"Mesaj de conectare"
+	}
+	"crash"
+	{
+		"ro"		"Crash"
+	}
+	"creditstoplist"
+	{
+		"ro"		"credite"
+	}
+	"crowns"
+	{
+		"ro"		"Slot coroane"
+	}
+	"daily"
+	{
+		"ro"		"Bonus zilnic"
+	}
+	"decoy grenade kill"
+	{
+		"ro"		"ucide cu grenadă de diversion"
+	}
+	"dice"
+	{
+		"ro"		"Zar"
+	}
+	"direction"
+	{
+		"ro"		"Direcție"
+	}
+	"discount"
+	{
+		"ro"		"VÂNZARE"
+	}
+	"distance"
+	{
+		"ro"		"Distanță"
+	}
+	"dmgtext"
+	{
+		"ro"		"Vernisaj"
+	}
+	"emote"
+	{
+		"ro"		"Emote"
+	}
+	"escape as VIP"
+	{
+		"ro"		"fugi ca VIP"
+	}
+	"flashbang kill"
+	{
+		"ro"		"ucide cu flashbang"
+	}
+	"flashlight"
+	{
+		"ro"		"Lanterna"
+	}
+	"froggyjump"
+	{
+		"ro"		"Săritura broască"
+	}
+	"gloves"
+	{
+		"ro"		"mănuși"
+	}
+	"glow"
+	{
+		"ro"		"strălucire"
+	}
+	"godmode"
+	{
+		"ro"		"modul zeu"
+	}
+	"gravity"
+	{
+		"ro"		"abilitate"
+	}
+	"grenademodel"
+	{
+		"ro"		"Modelul grenadei"
+	}
+	"grenadeskin"
+	{
+		"ro"		"skin-ul grenadei"
+	}
+	"grenadetrail"
+	{
+		"ro"		"urmă de grenadă"
+	}
+	"hat"
+	{
+		"ro"		"pălărie"
+	}
+	"headshot"
+	{
+		"ro"		"headshot"
+	}
+	"health"
+	{
+		"ro"		"pachet"
+	}
+	"high or low"
+	{
+		"ro"		"Mai mare sau mai mic"
+	}
+	"hiteff"
+	{
+		"ro"		"efectul loviturii:"
+	}
+	"hitsound"
+	{
+		"ro"		"Sunet de lovire"
+	}
+	"hostage rescued"
+	{
+		"ro"		"ostaticul salvat"
+	}
+	"hunterjump"
+	{
+		"ro"		"Săritura vânătorului"
+	}
+	"idle on the server"
+	{
+		"ro"		"inactiv pe server"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"ro"		"în {1}."
+	}
+	"infinityammo"
+	{
+		"ro"		"Munție infinită"
+	}
+	"info"
+	{
+		"ro"		"Panou de informații"
+	}
+	"instabomb"
+	{
+		"ro"		"Plantare instantanee / dezactivare"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"ro"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"ro"		"abilitate"
+	}
+	"items"
+	{
+		"ro"		"Obiecte"
+	}
+	"jackpot"
+	{
+		"ro"		"Jackpot"
+	}
+	"jetpack"
+	{
+		"ro"		"rachetă"
+	}
+	"jihad"
+	{
+		"ro"		"bombă"
+	}
+	"kill"
+	{
+		"ro"		"ucide"
+	}
+	"kill the VIP"
+	{
+		"ro"		"omorâți VIP"
+	}
+	"kill yourself"
+	{
+		"ro"		"ucidete"
+	}
+	"killeff"
+	{
+		"ro"		"efectul uciderii:"
+	}
+	"knife"
+	{
+		"ro"		"cuțit"
+	}
+	"knife kill"
+	{
+		"ro"		"ucide cu cuțit"
+	}
+	"laserdraw"
+	{
+		"ro"		"desen de laser:"
+	}
+	"laserpointer"
+	{
+		"ro"		"Laser pointer"
+	}
+	"lasersight"
+	{
+		"ro"		"vizor cu laser"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"ro"		"ultima actualizare acum {1}"
+	}
+	"light"
+	{
+		"ro"		"Lumina"
+	}
+	"lootbox"
+	{
+		"ro"		"Cutie cu prada"
+	}
+	"mirror"
+	{
+		"ro"		"oglindă"
+	}
+	"molotov kill"
+	{
+		"ro"		"ucide cu molotov"
+	}
+	"msgcolor"
+	{
+		"ro"		"culoare mesaj"
+	}
+	"mvp_sound"
+	{
+		"ro"		"Himne MVP"
+	}
+	"namecolor"
+	{
+		"ro"		"culoare nume"
+	}
+	"nametag"
+	{
+		"ro"		"eticheta nume"
+	}
+	"nearest"
+	{
+		"ro"		"Cel mai apropiat"
+	}
+	"nodiscount"
+	{
+		"ro"		" "
+	}
+	"noduckdelay"
+	{
+		"ro"		"Fără întârziere la ghemuire"
+	}
+	"nofalldamage"
+	{
+		"ro"		"Fără daune de cădere"
+	}
+	"noreload"
+	{
+		"ro"		"Fără reîncărcare"
+	}
+	"noscope kill"
+	{
+		"ro"		"ucide fără țintă"
+	}
+	"noselfdamage"
+	{
+		"ro"		"Fără daune proprii"
+	}
+	"or use buttons below"
+	{
+		"ro"		"sau folosiți butoanele de mai jos"
+	}
+	"package"
+	{
+		"ro"		"pachet"
+	}
+	"paintball"
+	{
+		"ro"		"gloanțe"
+	}
+	"painter"
+	{
+		"ro"		"Vernisaj"
+	}
+	"parachute"
+	{
+		"ro"		"Parasută"
+	}
+	"particle"
+	{
+		"ro"		"Particule"
+	}
+	"pet"
+	{
+		"ro"		"animal de companie"
+	}
+	"playerskin"
+	{
+		"ro"		"skin-ul jucătorului"
+	}
+	"playing on the server"
+	{
+		"ro"		"joacă pe server"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"ro"		"ai jucat pe serverul nostru {1} zile consecutiv"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Vei primi {1} la următoarea apariție"
+	}
+	"respawn"
+	{
+		"ro"		"Reînviere"
+	}
+	"roulette"
+	{
+		"ro"		"Ruletă"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ați atins numărul maxim de utilizări ale sunetului. {1} utilizare maximă pe hartă"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ați atins numărul maxim de utilizări ale sunetului. {1} utilizare maximă pe rundă"
+	}
+	"saysound"
+	{
+		"ro"		"spune sunet"
+	}
+	"scoreboardtag"
+	{
+		"ro"		"Etichetă tabel scor"
+	}
+	"smokegrenade kill"
+	{
+		"ro"		"ucide cu grenadă fumigenă"
+	}
+	"sound"
+	{
+		"ro"		"sunet"
+	}
+	"spawn"
+	{
+		"ro"		"Reînviere suplimentară"
+	}
+	"spawneff"
+	{
+		"ro"		"efectul apariției:"
+	}
+	"speed"
+	{
+		"ro"		"abilitate"
+	}
+	"spray"
+	{
+		"ro"		"spray"
+	}
+	"start daily challange"
+	{
+		"ro"		"începe provocarea zilnică. Joacă în următoarele 6 zile pentru a primi bonusul complet"
+	}
+	"taser kill"
+	{
+		"ro"		"ucide cu taser"
+	}
+	"teambet"
+	{
+		"ro"		"Pariu pe echipă"
+	}
+	"teamkill"
+	{
+		"ro"		"ucide un coleg de echipă"
+	}
+	"tfhat"
+	{
+		"ro"		"pălărie de construcție"
+	}
+	"tfhatdye"
+	{
+		"ro"		"vopsire pălărie"
+	}
+	"tfhead"
+	{
+		"ro"		"mărimea capului"
+	}
+	"tfunusual"
+	{
+		"ro"		"efectul pălăriei"
+	}
+	"tfweapon"
+	{
+		"ro"		"armă personalizată"
+	}
+	"tfweaponsize"
+	{
+		"ro"		"dimensiune armă"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Premiul va fi extras în {1} secunde"
+	}
+	"thirdperson"
+	{
+		"ro"		"a treia persoană"
+	}
+	"throwknife"
+	{
+		"ro"		"Aruncă cuțit"
+	}
+	"toplists"
+	{
+		"ro"		"Listele de top"
+	}
+	"tracer"
+	{
+		"ro"		"trasator"
+	}
+	"trail"
+	{
+		"ro"		"urmă"
+	}
+	"wasted"
+	{
+		"ro"		"risipit"
+	}
+	"watergun"
+	{
+		"ro"		"efect"
+	}
+	"weapon"
+	{
+		"ro"		"armă"
+	}
+	"weaponcolor"
+	{
+		"ro"		"culoare armă"
+	}
+	"weaponmodel"
+	{
+		"ro"		"Model de armă"
+	}
+	"weaponskin"
+	{
+		"ro"		"skin de armă"
+	}
+	"win the round"
+	{
+		"ro"		"câștigă runda"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"ro"		"{1} {2} pentru '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ro"		"{1} ore {2} minute și {3} secunde"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ro"		"{1} oră(e) {2} minut(e) și {3} secundă(e)"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ro"		"{1} minute și {2} secunde"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ro"		"{1} minut(e) și {2} secundă(e)"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"ro"		"{1} secunde"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"ro"		"{1} secundă(e)"
+	}
+	"zrclass"
+	{
+		"ro"		"clasa jucătorului"
+	}
+}

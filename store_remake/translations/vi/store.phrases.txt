@@ -1,0 +1,2278 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"vi"		"{1}21 !!! BLACKJACK !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn đã tải lại cấu hình. Vui lòng thay đổi hoặc tải lại bản đồ."
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Tất cả người chơi tham gia đã ngắt kết nối, không ai nhận lại được {2} của mình, haha. Jackpot là {1} {2}!"
+	}
+	"All valid voucher"
+	{
+		"vi"		"Tất cả mã giảm giá đã tạo và hợp lệ là:\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"vi"		"Bạn đã thắng, nhưng đã sở hữu {1} ({2}). Món đồ đã được bán với giá {3} {4}"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"vi"		"Bạn đã sở hữu {1} ({2}). Bạn đã được hoàn lại {3} {4}"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Số lượng: {1}"
+	}
+	"Aura"
+	{
+		"vi"		"Aura:"
+	}
+	"Back"
+	{
+		"vi"		"Quay lại"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"vi"		"Cược * Nhân = Chiến thắng của bạn"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Điểm thưởng: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Pot CT thắng: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Cược tối đa ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Đặt cược tối thiểu ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"vi"		"Cược ngẫu nhiên ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Pot T thắng: {1} {2}"
+	}
+	"Bet on"
+	{
+		"vi"		"Cược vào"
+	}
+	"Bet on a Head/Tail"
+	{
+		"vi"		"Cược vào Đầu/Tails"
+	}
+	"Bet on a color"
+	{
+		"vi"		"Cược vào một màu và nếu màu này được chọn, bạn sẽ thắng!"
+	}
+	"Bet on a number"
+	{
+		"vi"		"Cược vào Thấp (#1-3), Cao (#4-6) hoặc một số chính xác. Nếu lựa chọn của bạn là kết quả, bạn sẽ thắng!"
+	}
+	"Bet on a team"
+	{
+		"vi"		"Cược vào một đội và nếu đội đó thắng vòng, bạn sẽ thắng!"
+	}
+	"Betting Already Placed"
+	{
+		"vi"		"Bạn đã đặt cược cho vòng này."
+	}
+	"Betting Invalid Team"
+	{
+		"vi"		"Đã chỉ định mã đội không hợp lệ."
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã mất {1} tín dụng từ cược."
+	}
+	"Betting Period Over"
+	{
+		"vi"		"Thời gian đặt cược đã kết thúc cho vòng này."
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã đặt cược thành công {1} tín dụng."
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Cược của bạn đã thành công. Bạn đã thắng {1} tín dụng."
+	}
+	"Black"
+	{
+		"vi"		"đen"
+	}
+	"Blackjack Info 1"
+	{
+		"vi"		"Blackjack là một trò chơi trong đó giá trị của các lá bài trong tay bạn phải cao hơn của nhà cái mà không vượt quá 21."
+	}
+	"Blackjack Info 2"
+	{
+		"vi"		"Quy tắc đếm:\n- Thẻ \"A\" có thể được tính là 1/11. Nếu giá trị của tay vượt quá 21, thẻ này phải được tính là 1."
+	}
+	"Blackjack Info 3"
+	{
+		"vi"		"- \"10, J, Q, K\": Được tính là 10.\n- 2-9 Được tính theo giá trị mặt của chúng."
+	}
+	"Blackjack Info 4"
+	{
+		"vi"		"- Giá trị tay của bạn phải gần 21 mà không vượt qua và phải cao hơn tay của người chia bài để giành chiến thắng.\n- \"A\" + thẻ giá trị 10 = BlackJack. Đây là chiến thắng ngay lập tức."
+	}
+	"Buy"
+	{
+		"vi"		"Mua vật phẩm"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Mua vật phẩm ({1})"
+	}
+	"CP Changed color"
+	{
+		"vi"		"Bạn đã thay đổi màu sắc của mình thành: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"vi"		"Tùy chọn màu thẻ trò chuyện"
+	}
+	"CP Disable Color - Menu"
+	{
+		"vi"		"Tắt màu"
+	}
+	"CP Disabled Color"
+	{
+		"vi"		"Màu sắc thẻ tùy chỉnh đã bị tắt."
+	}
+	"CP No Name Tag Equipped"
+	{
+		"vi"		"Bạn chưa trang bị bất kỳ thẻ tên nào"
+	}
+	"CP No file found"
+	{
+		"vi"		"Màu sắc thẻ tùy chỉnh cho người dùng đã bị vô hiệu hóa. Vui lòng liên hệ với quản trị viên để được hỗ trợ thêm."
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"vi"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"vi"		"Hiển thị trước thẻ bảng điểm, vui lòng nhấn phím TAB."
+	}
+	"Cancel"
+	{
+		"vi"		"Hủy"
+	}
+	"Cant be bought"
+	{
+		"vi"		"Món đồ này không thể mua"
+	}
+	"Cash out"
+	{
+		"vi"		"Rút tiền"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Thay đổi cược của bạn: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã mua một {1} {2}."
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"vi"		"{1} đã gửi cho bạn một {2} {3} làm quà tặng."
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"vi"		"Bạn đã gửi cho {1} một {2} {3} làm quà tặng."
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã bán một {1} {2}."
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn đã mở thùng và tìm thấy {1} tín dụng!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"vi"		"{1} mở thùng và tìm thấy {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"vi"		"{1} mở thùng và tìm thấy {2} ({3})!"
+	}
+	"Check All Voucher"
+	{
+		"vi"		"Kiểm tra tất cả các voucher hợp lệ và có sẵn (Chỉ Admin)"
+	}
+	"Check Voucher"
+	{
+		"vi"		"Kiểm tra voucher"
+	}
+	"Check Your valid Voucher"
+	{
+		"vi"		"Kiểm tra voucher hợp lệ đã tạo của bạn"
+	}
+	"Choose Number (1:6)"
+	{
+		"vi"		"Chọn số (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"vi"		"Rút tiền tự động:"
+	}
+	"Client Loadout Reset"
+	{
+		"vi"		"Trang bị của bạn đã được đặt lại."
+	}
+	"Client valid voucher"
+	{
+		"vi"		"Mã giảm giá đã tạo và hợp lệ của bạn là:\n "
+	}
+	"Close"
+	{
+		"vi"		"Đóng"
+	}
+	"ColoredSmoke"
+	{
+		"vi"		"Khói màu"
+	}
+	"Command is in-game only"
+	{
+		"vi"		"Bạn cần phải còn sống để sử dụng lệnh này."
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"vi"		"Cấu hình đã được tải lại. Vui lòng khởi động lại hoặc thay đổi bản đồ."
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn chắc chắn muốn mua {1} {2}?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"vi"		"Bạn chắc chắn muốn tặng {1} {2} cho {3}?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn chắc chắn muốn thả {1} {2} như món quà?"
+	}
+	"Confirm_No"
+	{
+		"vi"		"Không"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"vi"		"Bạn chắc chắn muốn bán {1} {2} với giá {3}?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn có chắc chắn muốn chuyển đổi {1} ({2}) thành phiếu giảm giá?\nCẢNH BÁO: Nếu vật phẩm trong phiếu giảm giá hết hạn trước khi được đổi.\nPhiếu giảm giá này sẽ hết hạn."
+	}
+	"Confirm_Yes"
+	{
+		"vi"		"Có"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"vi"		"{1} đã trả lời đúng và giành được {2} {3}!"
+	}
+	"Counter-Terrorist"
+	{
+		"vi"		"Chống khủng bố"
+	}
+	"Crash Already Start"
+	{
+		"vi"		"Trò chơi Crash hiện đang tiến hành. Vui lòng chờ trò chơi tiếp theo."
+	}
+	"Crash Auto Off"
+	{
+		"vi"		"Tắt"
+	}
+	"Crash Auto Off Panel"
+	{
+		"vi"		"Tắt rút tiền tự động"
+	}
+	"Crash Auto On"
+	{
+		"vi"		"Bật"
+	}
+	"Crash Auto On Panel"
+	{
+		"vi"		"Bật rút tiền tự động"
+	}
+	"Crash Info 1"
+	{
+		"vi"		"           Crash là gì/ Cách chơi: Crash"
+	}
+	"Crash Info 2"
+	{
+		"vi"		"- Crash là trò chơi mà người chơi có thể cược vào một hệ số, hệ số này liên quan đến một đường cong tăng dần có thể sập bất kỳ lúc nào."
+	}
+	"Crash Info 3"
+	{
+		"vi"		"- Hệ số bắt đầu từ 1.00x và bạn có thể rút tiền bất kỳ lúc nào."
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"vi"		"- Giá trị cược tối thiểu là {1} {2}. Giá trị cược tối đa là {3} {4}. Những giới hạn này có thể thay đổi theo thời gian."
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"vi"		"Dữ liệu nhập không hợp lệ (phải là {1} hoặc cao hơn)."
+	}
+	"Crash auto input"
+	{
+		"vi"		"Nhập giá trị rút tiền tự động của bạn trong trò chuyện"
+	}
+	"Crash auto input set"
+	{
+		"vi"		"Đã đặt rút tiền tự động Crash"
+	}
+	"Crash set auto"
+	{
+		"vi"		"Đặt giá trị rút tiền tự động"
+	}
+	"Crash!"
+	{
+		"vi"		"Crash!"
+	}
+	"Create Item Voucher"
+	{
+		"vi"		"Tạo Mã Giảm Giá Mặt Hàng (Chỉ Admin)"
+	}
+	"Create Voucher"
+	{
+		"vi"		"Tạo voucher"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Tạo phiếu mua hàng thất bại - Liên hệ với quản trị viên với dấu thời gian sau: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"vi"		"Việc tặng tín dụng đã bị vô hiệu hóa trên máy chủ này."
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã thả {1} tín dụng làm quà."
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"vi"		"{2} đã gửi cho bạn {1} tín dụng."
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"vi"		"Bạn đã gửi {1} tín dụng cho {2}."
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"vi"		"Bạn không có đủ tín dụng để tạo giveaway."
+	}
+	"Credit Invalid Amount"
+	{
+		"vi"		"Số lượng tín dụng nhập không hợp lệ."
+	}
+	"Credit No Match"
+	{
+		"vi"		"Không tìm thấy người chơi."
+	}
+	"Credit Not Enough"
+	{
+		"vi"		"Bạn không có đủ tín dụng để mua cái này."
+	}
+	"Credit Too Many Matches"
+	{
+		"vi"		"Tìm thấy nhiều hơn một khách hàng."
+	}
+	"Credit Voucher Not Enough"
+	{
+		"vi"		"Bạn không có đủ tín dụng để tạo voucher."
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"vi"		"Bạn đã kiếm được {1} tín dụng từ việc giết {2}."
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã kiếm được {1} tín dụng từ việc chơi trên máy chủ."
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"vi"		"{1} đã nhận {2} tín dụng."
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"vi"		"Tiền: {1}          Pot: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"vi"		"Đã tắt"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"vi"		"Đã bật"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"vi"		"[Âm thanh vũ khí tùy chỉnh]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"vi"		"Menu điều khiển âm lượng âm thanh vũ khí tùy chỉnh"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Âm lượng: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"vi"		"Âm thanh vũ khí tùy chỉnh: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"vi"		"Âm thanh vũ khí tùy chỉnh Đã tắt."
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"vi"		"Âm thanh vũ khí tùy chỉnh đã bật."
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Âm thanh vũ khí tùy chỉnh đã bật. Âm lượng: {1}"
+	}
+	"CustomModel"
+	{
+		"vi"		"Model vũ khí tùy chỉnh:"
+	}
+	"Damage the crate to open"
+	{
+		"vi"		"Hãy phá hủy thùng để mở!"
+	}
+	"Dead heat"
+	{
+		"vi"		"- hòa -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"vi"		"             NGƯỜI CHIA BÀI     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"vi"		"NGƯỜI CHIA BÀI"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Giảm giá: '{1}' đang hoạt động! Chúc bạn mua sắm vui vẻ!"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Giảm giá: '{1}' đã kết thúc."
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Giảm giá: '{1}' đã bắt đầu! Chúc bạn mua sắm vui vẻ!"
+	}
+	"Double"
+	{
+		"vi"		"Nhân đôi"
+	}
+	"Down"
+	{
+		"vi"		"Xuống"
+	}
+	"Down2"
+	{
+		"vi"		"                      5 = Xuống"
+	}
+	"Drop Gift"
+	{
+		"vi"		"Thả làm quà tặng"
+	}
+	"Edit Amount"
+	{
+		"vi"		"Chỉnh sửa số lượng: "
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"vi"		"Vui lòng nhập thời gian hết hạn (theo giây) của mặt hàng trong chat!"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"vi"		"Định dạng số không hợp lệ. Vui lòng thử lại."
+	}
+	"Enter custom amount"
+	{
+		"vi"		"Vui lòng nhập số tiền tùy chỉnh của bạn trong cuộc trò chuyện!"
+	}
+	"Enter maximum value"
+	{
+		"vi"		"Vui lòng nhập giá trị tối đa của tín dụng trong cuộc trò chuyện!"
+	}
+	"Enter number of vouchers"
+	{
+		"vi"		"Vui lòng nhập số lượng phiếu giảm giá cần tạo trong chat!"
+	}
+	"Enter value of vouchers"
+	{
+		"vi"		"Vui lòng nhập giá trị phiếu giảm giá để mua trong chat!"
+	}
+	"Enter voucher code"
+	{
+		"vi"		"Vui lòng nhập mã phiếu mua hàng của bạn trong cuộc trò chuyện!"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"vi"		"Đã xảy ra lỗi khi nhận lại giá. Vui lòng liên hệ với quản trị viên"
+	}
+	"Exact #x  = "
+	{
+		"vi"		"Chính xác #x = "
+	}
+	"Exit"
+	{
+		"vi"		"Thoát"
+	}
+	"Gained"
+	{
+		"vi"		"Đã nhận"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"vi"		"Đã nhận: {1} {2}"
+	}
+	"Game Info"
+	{
+		"vi"		"Thông tin trò chơi"
+	}
+	"Game in progress"
+	{
+		"vi"		"Trò chơi cược hiện tại của bạn đang diễn ra. Vui lòng chờ cho đến khi nó kết thúc."
+	}
+	"Get three on a kind"
+	{
+		"vi"		"Nhận ba loại giống nhau"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã nhặt lên {1} tín dụng."
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã nhặt lên một {1} {2}."
+	}
+	"Gift No Players"
+	{
+		"vi"		"Không có ai bạn có thể tặng món đồ này."
+	}
+	"Gift Player Left"
+	{
+		"vi"		"Người chơi được chọn đã rời khỏi trò chơi."
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"vi"		"{1} Để thực hiện giveaway, server phải có ít nhất {2} người chơi."
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"vi"		"Quản trị viên {1} đã mở một giveaway với <font color='#15fb00'>{2} tín dụng"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"vi"		"|| Giveaway bắt đầu trong {1} giây nữa ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"vi"		"{1} {2} đã chiến thắng giveaway với {3} tín dụng"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"vi"		"{1}\n|| Người chiến thắng: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"vi"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"vi"		"Bạn đã đạt số lượng tối đa godmode mà bạn có thể mua trong vòng này."
+	}
+	"Godmode Wrong Team"
+	{
+		"vi"		"Bạn không thể sử dụng godmode trong đội này."
+	}
+	"Green"
+	{
+		"vi"		"xanh"
+	}
+	"HE grenade kill"
+	{
+		"vi"		"giết bằng lựu đạn HE"
+	}
+	"HUD"
+	{
+		"vi"		"HUD"
+	}
+	"Head"
+	{
+		"vi"		"Đầu"
+	}
+	"Health Round Limit"
+	{
+		"vi"		"Bạn đã đạt số lượng tối đa các gói y tế mà bạn có thể mua trong vòng này."
+	}
+	"Help_Back"
+	{
+		"vi"		"Quay lại"
+	}
+	"Help_Exit"
+	{
+		"vi"		"Thoát"
+	}
+	"Hide bullet sparks"
+	{
+		"vi"		"Ẩn tia lửa đạn"
+	}
+	"Hide bullet tracer"
+	{
+		"vi"		"Ẩn dấu vết viên đạn"
+	}
+	"Hide gloves"
+	{
+		"vi"		"Ẩn găng tay"
+	}
+	"Hide paintball"
+	{
+		"vi"		"Ẩn bóng sơn"
+	}
+	"Hide particles"
+	{
+		"vi"		"Ẩn hạt"
+	}
+	"Hide pets"
+	{
+		"vi"		"Ẩn thú cưng"
+	}
+	"Hide trails"
+	{
+		"vi"		"Ẩn dấu vết"
+	}
+	"High #4-6"
+	{
+		"vi"		"Cao #4-6"
+	}
+	"High #4-6 = "
+	{
+		"vi"		"Cao #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"vi"		"Cao - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"vi"		"Cao hơn"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Số đã chọn là: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Số tiếp theo là: {1}"
+	}
+	"Hit"
+	{
+		"vi"		"Cú đánh"
+	}
+	"Hol Info 1"
+	{
+		"vi"		"Một số giữa {1} và {2} đã được chọn để bạn đoán xem số tiếp theo sẽ cao hơn hay thấp hơn số đã chọn."
+	}
+	"Hol Info 2"
+	{
+		"vi"		"Nếu bạn chọn đúng, bạn sẽ thắng gấp đôi cược của mình."
+	}
+	"Hol Info 3"
+	{
+		"vi"		"Có một khoảng nghỉ {1} giây giữa mỗi trò chơi."
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã đặt {1} {2} thành công."
+	}
+	"Inventory"
+	{
+		"vi"		"Kho đồ"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"vi"		"Vui lòng đợi. Kho đồ của bạn vẫn chưa được tải."
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"vi"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"vi"		"{1}"
+	}
+	"Item Equip"
+	{
+		"vi"		"Trang bị vật phẩm này"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"vi"		"{1} [ĐƯỢC TRANG BỊ]"
+	}
+	"Item Gift"
+	{
+		"vi"		"Tặng vật phẩm này"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"vi"		"{1} (Chọn kế hoạch)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bán với {1}"
+	}
+	"Item Unequip"
+	{
+		"vi"		"Tháo vật phẩm này"
+	}
+	"Item Use"
+	{
+		"vi"		"Sử dụng vật phẩm này"
+	}
+	"Item Voucher"
+	{
+		"vi"		"Tạo voucher từ vật phẩm"
+	}
+	"Item Voucher disabled"
+	{
+		"vi"		"Tạo voucher cho vật phẩm hiện tại đã bị tắt."
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"vi"		"Bạn đã chuyển {1} ({2}) thành Voucher {3}."
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"vi"		"{1} ẩn. Bạn sẽ không thấy chúng nữa."
+	}
+	"Item not found"
+	{
+		"vi"		"Không tìm thấy vật phẩm"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"vi"		"{1} lại có thể nhìn thấy."
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"vi"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"vi"		"Jackpot bị tạm dừng."
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Jackpot: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"vi"		"Jetpack trống"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"vi"		"[Jetpack] Nhiên liệu: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"vi"		"Jetpack đã được nạp lại"
+	}
+	"Jihad Failed"
+	{
+		"vi"		"Bom của bạn đã không nổ."
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"vi"		"Bom jihad {1} không nổ."
+	}
+	"Jihad Wrong Team"
+	{
+		"vi"		"Bạn không thể sử dụng bom trong đội này."
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"vi"		"{1} phút trước khi crash bắt đầu."
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"vi"		"{1} giây trước khi crash bắt đầu."
+	}
+	"LevelIcon"
+	{
+		"vi"		"biểu tượng cấp độ"
+	}
+	"Limited"
+	{
+		"vi"		"Hạn chế - một người chơi"
+	}
+	"Lootbox case is opening"
+	{
+		"vi"		"Vui lòng chờ đợi cho đến khi hộp trước của bạn được mở"
+	}
+	"Lootbox map ended"
+	{
+		"vi"		"Bản đồ đã kết thúc. Vui lòng chờ đợi bản đồ tiếp theo"
+	}
+	"Lootbox round ended"
+	{
+		"vi"		"Vòng đã kết thúc. Vui lòng chờ đợi vòng tiếp theo"
+	}
+	"Lootbox warm up"
+	{
+		"vi"		"Bạn không thể mở trong khi khởi động"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn đã mất chuỗi ngày {1} của mình."
+	}
+	"Lost bet"
+	{
+		"vi"		"Thất bại! Bạn đã thua cược"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã thua cược vì số tiếp theo là: {1}"
+	}
+	"Low #1-3"
+	{
+		"vi"		"Thấp #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"vi"		"Thấp #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"vi"		"Thấp - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"vi"		"Thấp hơn"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Chúng tôi cần ít nhất {1} người chơi"
+	}
+	"Must be Alive"
+	{
+		"vi"		"Bạn phải sống để sử dụng điều này."
+	}
+	"Must be dead"
+	{
+		"vi"		"Bạn phải chết để chơi"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"vi"		"Nhân = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"vi"		"Không có Jackpot hoạt động"
+	}
+	"No active TeamBet"
+	{
+		"vi"		"Chưa có cược đội nào được đặt"
+	}
+	"No have flag"
+	{
+		"vi"		"Bạn không có quyền truy cập để sử dụng lệnh này."
+	}
+	"No matching color"
+	{
+		"vi"		"Không có màu tương ứng, sử dụng: r/đỏ, b/đen hoặc g/xanh"
+	}
+	"No pick up - back to you"
+	{
+		"vi"		"Không ai nhặt các tín dụng bạn làm rơi. Bạn đã nhận lại chúng."
+	}
+	"No pick up - removed"
+	{
+		"vi"		"Không ai nhặt các tín dụng bạn làm rơi. Các tín dụng đã bị xóa."
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Hết giờ. Câu trả lời đúng là {1}."
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Không ai khác đã rút tiền vào Jackpot. Bạn sẽ nhận lại {1} {2} của mình!"
+	}
+	"Not enough Credits"
+	{
+		"vi"		"Bạn không có đủ tín dụng"
+	}
+	"Now run a giveaway"
+	{
+		"vi"		"Hiện tại đang chạy giveaway, vui lòng thử lại trong vài giây."
+	}
+	"Only number"
+	{
+		"vi"		"Bạn chỉ có thể nhập số..."
+	}
+	"Override Disabled"
+	{
+		"vi"		"Skin hiện tại của bạn không hỗ trợ mũ. Mũ trang bị của bạn sẽ bị vô hiệu hóa."
+	}
+	"Override Enabled"
+	{
+		"vi"		"Skin hiện tại của bạn không hỗ trợ mũ. Skin của bạn sẽ được thay đổi."
+	}
+	"Owned"
+	{
+		"vi"		"[Sở hữu]"
+	}
+	"Package Gift"
+	{
+		"vi"		"Tặng gói này"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bán gói này với giá {1}"
+	}
+	"Package Voucher"
+	{
+		"vi"		"Tạo Voucher từ gói"
+	}
+	"Parachute Empty"
+	{
+		"vi"		"Dù rỗng"
+	}
+	"Parachute Reloaded"
+	{
+		"vi"		"Đã tải lại dù"
+	}
+	"Particles"
+	{
+		"vi"		"Phần tử:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Đặt {1} {2}"
+	}
+	"Play Preview"
+	{
+		"vi"		"Đang phát âm thanh xem trước cho bạn."
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"vi"		"{1} có {2} tín dụng."
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"vi"		"{1} đã được đặt lại."
+	}
+	"Player Skin module disabled"
+	{
+		"vi"		"Mô-đun Store Player Skin hiện đang bị tạm thời vô hiệu hóa."
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"vi"		"{1} đã thêm {2} {3} vào jackpot, cơ hội chiến thắng hiện tại của anh ấy là: {4}% (Jackpot: {5} {6})"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"vi"		"{1} đã mất {2} {3} tại {4}."
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"vi"		"{1} đã mở một jackpot với {2} {3}. Sử dụng cash-in để nhận tiền!"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"vi"		"{1} đã giành chiến thắng Jackpot với {2} {3}!"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"vi"		"{1} đã giành được {2} {3} tại {4}."
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"vi"		"{1} đã thắng {2} {3} với hệ số nhân x{4} tại {5}."
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"vi"		"Cài đặt mới của bạn sẽ được áp dụng khi bạn tái sinh lần tiếp theo."
+	}
+	"Press"
+	{
+		"vi"		"Nhấn"
+	}
+	"Press to Start"
+	{
+		"vi"		"Nhấn để bắt đầu!"
+	}
+	"Press to Stop"
+	{
+		"vi"		"Nhấn để dừng lại!"
+	}
+	"Preview Item"
+	{
+		"vi"		"Xem trước vật phẩm này"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Giá: {1}"
+	}
+	"Purchase Voucher"
+	{
+		"vi"		"Mua voucher"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"vi"		"Bao nhiêu là {1} {2} {3}? | Phần thưởng: {4} {5}"
+	}
+	"Red"
+	{
+		"vi"		"đỏ"
+	}
+	"Redeem Voucher"
+	{
+		"vi"		"Đổi voucher"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Chạy lại {1} {2}"
+	}
+	"Respawn Round Limit"
+	{
+		"vi"		"Bạn đã đạt số lượng tối đa respawn mà bạn có thể mua trong vòng này."
+	}
+	"SQL Cooldown"
+	{
+		"vi"		"Vì lý do bảo mật, bạn không thể gửi nhiều yêu cầu trong thời gian ngắn."
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"vi"		"-------------- Đề xuất từ menu tìm kiếm cửa hàng --------------\n - Tất cả các mặt hàng liên quan sẽ được liệt kê ở đây\n - Chuỗi tìm kiếm hiện tại của bạn: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"vi"		"Người chiến thắng thứ hai không còn trong trò chơi, thử tìm người chiến thắng mới lần cuối."
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn phải đợi {1} giây trước khi thử lại lệnh này."
+	}
+	"Show bullet sparks"
+	{
+		"vi"		"Hiển thị tia lửa đạn"
+	}
+	"Show bullet tracer"
+	{
+		"vi"		"Hiển thị dấu vết viên đạn"
+	}
+	"Show gloves"
+	{
+		"vi"		"Hiển thị găng tay"
+	}
+	"Show paintball"
+	{
+		"vi"		"Hiển thị bóng sơn"
+	}
+	"Show particles"
+	{
+		"vi"		"Hiển thị hạt"
+	}
+	"Show pets"
+	{
+		"vi"		"Hiển thị thú cưng"
+	}
+	"Show trails"
+	{
+		"vi"		"Hiển thị dấu vết"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn không thể sử dụng giá trị nhỏ hơn giá trị tối thiểu của bạn ({1})"
+	}
+	"Spacer"
+	{
+		"vi"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bảo vệ Spam. Vui lòng đợi {1} giây."
+	}
+	"Spawn Preview"
+	{
+		"vi"		"Đã tạo bản xem trước. Bản xem trước sẽ biến mất trong 45 giây."
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"vi"		"Đã tạo bản xem trước. Bản xem trước sẽ biến mất trong {1} giây."
+	}
+	"Start again from begin"
+	{
+		"vi"		"Vui lòng bắt đầu lại từ đầu"
+	}
+	"Starting"
+	{
+		"vi"		"Đang bắt đầu"
+	}
+	"Stay"
+	{
+		"vi"		"Đứng"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"vi"		"Bạn có chắc chắn muốn đặt lại trang bị của mình? Tất cả các vật phẩm sẽ bị tháo ra."
+	}
+	"Successfully purchased voucher"
+	{
+		"vi"		"Bạn đã mua phiếu mua hàng thành công"
+	}
+	"TF Wrong Class"
+	{
+		"vi"		"Món đồ này được thiết kế để sử dụng với lớp người chơi khác."
+	}
+	"Tail"
+	{
+		"vi"		"Đuôi"
+	}
+	"TeamBet Already Placed"
+	{
+		"vi"		"Bạn đã đặt cược cho vòng này."
+	}
+	"TeamBet Invalid Team"
+	{
+		"vi"		"Đã chỉ định mã đội không hợp lệ."
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã mất {1} {2} vào cược."
+	}
+	"TeamBet Period Over"
+	{
+		"vi"		"Thời gian đặt cược cho vòng này đã kết thúc."
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn đã đặt cược thành công {1} tín dụng."
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Cược của bạn đã thành công. Bạn đã thắng {1} {2}."
+	}
+	"TeamBet not betted"
+	{
+		"vi"		"Không có cược vào đội kia, vì vậy bạn đã nhận lại được tín dụng."
+	}
+	"Terrorist"
+	{
+		"vi"		"Khủng bố"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Số đã chọn là: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Số tiếp theo là: {1}"
+	}
+	"This is the preview text"
+	{
+		"vi"		"Đây là văn bản xem trước."
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Quản trị viên đã tải lại cấu hình cửa hàng. Bản đồ sẽ được tải lại trong {1} giây!"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"vi"		"Menu Tạo Mã Giảm Giá Mặt Hàng (Chỉ Admin).\n \nChọn thời gian sử dụng của mặt hàng."
+	}
+	"Title Admin Voucher Menu"
+	{
+		"vi"		"Menu Tạo Mã Giảm Giá Mặt Hàng (Chỉ Admin)"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Tín dụng: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"vi"		"Hết hạn trong {1}ngày {2}giờ"
+	}
+	"Title Gift"
+	{
+		"vi"		"Chọn người chơi để gửi quà"
+	}
+	"Title Store"
+	{
+		"vi"		"Menu cửa hàng"
+	}
+	"To late chat input"
+	{
+		"vi"		"Nhập văn bản của bạn chưa hoàn thành trong thời gian quy định"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Quá nhiều {1} trên mặt đất, bạn không thể thả thêm nữa lúc này!"
+	}
+	"Top Credits"
+	{
+		"vi"		"Top tín dụng"
+	}
+	"Top Credits Inv Worth"
+	{
+		"vi"		"Top tín dụng + giá trị kho"
+	}
+	"Top Inv Worth"
+	{
+		"vi"		"Top giá trị kho"
+	}
+	"Top Most Items"
+	{
+		"vi"		"Những vật phẩm phổ biến nhất"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Tổng cộng: {1} {2}"
+	}
+	"Try again"
+	{
+		"vi"		"Thử lại"
+	}
+	"Type in chat !bet"
+	{
+		"vi"		"Nhập vào trò chuyện !bet <cược> [ct/t]"
+	}
+	"Type in chat !blackjack"
+	{
+		"vi"		"Nhập vào chat !blackjack <cược>"
+	}
+	"Type in chat !coinflip"
+	{
+		"vi"		"Nhập vào trò chuyện !coinflip <cược> [h/t]"
+	}
+	"Type in chat !crash"
+	{
+		"vi"		"Nhập vào chat !crash <cược>"
+	}
+	"Type in chat !crowns"
+	{
+		"vi"		"Nhập vào trò chuyện !crowns <cược>"
+	}
+	"Type in chat !dice"
+	{
+		"vi"		"Gõ trong chat !dice <cược> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"vi"		"Nhập vào trò chuyện !jackpot <cược>"
+	}
+	"Type in chat !roulette"
+	{
+		"vi"		"Nhập vào trò chuyện !roulette <cược> [r/b/g]"
+	}
+	"Unlimited"
+	{
+		"vi"		"Không giới hạn - nhiều người chơi"
+	}
+	"Up"
+	{
+		"vi"		"Lên"
+	}
+	"Value less than 1"
+	{
+		"vi"		"Bạn không thể sử dụng giá trị nhỏ hơn 1."
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"vi"		"Âm lượng {1} đã được đặt thành {2}"
+	}
+	"Voucher Code 17 chars"
+	{
+		"vi"		"Hiện tại mã voucher phải chính xác 17 ký tự"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Phiếu mua hàng có giá trị {1} {2}"
+	}
+	"Voucher accepted"
+	{
+		"vi"		"Voucher đã được chấp nhận"
+	}
+	"Voucher accepted Panel"
+	{
+		"vi"		"Voucher đã được chấp nhận"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"vi"		"Bạn đang tạo {1} {2}voucher giới hạn{3} với giá trị {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"vi"		"Bạn đang tạo {1} {2}voucher giới hạn{3} với giá trị {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Mã phiếu mua hàng đã được sử dụng vào ngày {1}"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Phiếu giảm giá này hết hạn vào {1}"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Mã phiếu mua hàng đã hết hạn vào ngày {1}"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"vi"		"Đã tạo voucher mới {1} với giá trị {2} {3}"
+	}
+	"Voucher in chat and console"
+	{
+		"vi"		"Bạn có thể tìm mã phiếu mua hàng trong trò chuyện và bảng điều khiển"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Mã Voucher: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Mã phiếu mua hàng đã nhập '{1}' không hợp lệ!"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"vi"		"Phiếu mua hàng bao gồm {1} ({2})"
+	}
+	"Voucher valid"
+	{
+		"vi"		"Mã phiếu giảm giá hợp lệ"
+	}
+	"Vouchers"
+	{
+		"vi"		"Voucher"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Bạn phải chờ {1} cho đến khi đến nhiệm vụ hằng ngày tiếp theo."
+	}
+	"Wait until next daily 2"
+	{
+		"vi"		"Bạn đã check-in hôm nay. Vui lòng quay lại vào ngày mai."
+	}
+	"Win = "
+	{
+		"vi"		"Chiến thắng = "
+	}
+	"Winner is not in game anymore"
+	{
+		"vi"		"Người chiến thắng không còn trong trò chơi nữa, chúng tôi đang cố gắng tìm một người chiến thắng mới."
+	}
+	"Wrong voucher code format"
+	{
+		"vi"		"Mã phiếu giảm giá có định dạng sai. Phải là XXXXX-XXXXX-XXXXX"
+	}
+	"You"
+	{
+		"vi"		"BẠN"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"vi"		"Bạn đã rút {1} {2} vào jackpot. Cơ hội thắng hiện tại: {3}%% Jackpot: {4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"vi"		"Bạn đã sở hữu vật phẩm phiếu mua hàng đã nhập"
+	}
+	"You already redeemed Voucher"
+	{
+		"vi"		"Bạn đã sử dụng mã phiếu mua hàng đã nhập"
+	}
+	"You can start a new Jackpot"
+	{
+		"vi"		"Bạn có thể bắt đầu một Jackpot mới"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Bạn có thể bắt đầu một Jackpot mới trong {1}."
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn không thể chi tiêu nhiều tín dụng như vậy (Tối đa: {1} {2})."
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã thu thập {1} {2}"
+	}
+	"You don't have permission"
+	{
+		"vi"		"Bạn không có quyền truy cập vào điều này."
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã làm rơi {1} {2}"
+	}
+	"You earned no points this round"
+	{
+		"vi"		"Bạn không kiếm được điểm trong vòng này."
+	}
+	"You earned this round"
+	{
+		"vi"		"Bạn đã kiếm được vòng này:"
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã kiếm được {1} {2} cho "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã kiếm được {1} {2} trong vòng này"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn nhận được {1} {2}."
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn nhận được {1} {2}."
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã nhận được một {1} ({2})."
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã nhận được một {1} ({2})."
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn phải chi ít nhất {1} {2}."
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn phải chi ít nhất {1} {2}."
+	}
+	"You haven't opened the box in given time"
+	{
+		"vi"		"Bạn chưa mở hộp trong thời gian quy định. Lootbox đã trở lại kho của bạn"
+	}
+	"You lose"
+	{
+		"vi"		"- bạn thua"
+	}
+	"You lost with"
+	{
+		"vi"		"Bạn đã thua với"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn mất {1} {2}"
+	}
+	"You mastered the daily challange"
+	{
+		"vi"		"Bạn đã thành thạo 'thử thách hàng ngày'! Thử đánh bại nó một lần nữa!"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn thắng {1} {2}"
+	}
+	"You won"
+	{
+		"vi"		"!!! BẠN ĐÃ THẮNG !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã thắng {1} ({2})!"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã giành chiến thắng Jackpot với {1} {2}!"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"vi"		"Bạn đã giành chiến thắng Jackpot với {1} {2} trừ đi phí casino {3} {4} ({5}%)."
+	}
+	"You won with"
+	{
+		"vi"		"Bạn đã thắng với"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"vi"		"Bạn đã thắng {1} tín dụng với x{2}."
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn sẽ kiếm được {1} {2} vào ngày mai!"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"vi"		"Đặt cược của bạn: {1} {2} - Cơ hội: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Cược của bạn: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"vi"		"Cơ hội chiến thắng hiện tại của bạn đã thay đổi thành {1}%"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã kiếm được {1} tín dụng khi giết {2}."
+	}
+	"admin"
+	{
+		"vi"		"quản trị viên"
+	}
+	"and is limited"
+	{
+		"vi"		"và bị giới hạn"
+	}
+	"and is unlimited"
+	{
+		"vi"		"và là không giới hạn"
+	}
+	"arms"
+	{
+		"vi"		"cánh tay"
+	}
+	"assist a kill"
+	{
+		"vi"		"hỗ trợ giết người"
+	}
+	"attachment"
+	{
+		"vi"		"Phụ kiện"
+	}
+	"backstab kill"
+	{
+		"vi"		"giết từ phía sau"
+	}
+	"be the MVP"
+	{
+		"vi"		"trở thành MVP"
+	}
+	"bet x"
+	{
+		"vi"		"cược x"
+	}
+	"blackjack"
+	{
+		"vi"		"Blackjack"
+	}
+	"bomb defused"
+	{
+		"vi"		"bom bị vô hiệu hóa"
+	}
+	"bomb explode"
+	{
+		"vi"		"bom nổ"
+	}
+	"bomb planted"
+	{
+		"vi"		"bom đã được trồng"
+	}
+	"bombtweak"
+	{
+		"vi"		"Điều chỉnh bom"
+	}
+	"bullet_impact"
+	{
+		"vi"		"Va chạm viên đạn"
+	}
+	"bulletsparks"
+	{
+		"vi"		"Phát sáng viên đạn"
+	}
+	"bunnyhob"
+	{
+		"vi"		"Nhảy thỏ"
+	}
+	"bunnyhop"
+	{
+		"vi"		"kỹ năng"
+	}
+	"casino"
+	{
+		"vi"		"Casino"
+	}
+	"coinflip"
+	{
+		"vi"		"Quyết định đồng xu"
+	}
+	"command"
+	{
+		"vi"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn có muốn đặt lại cấu hình không?\nBản đồ sẽ được tải lại trong {1} giây!"
+	}
+	"confirm_reload_type_1"
+	{
+		"vi"		"Bạn có chắc muốn đặt lại cấu hình không?\nBạn cần thay đổi bản đồ để áp dụng thay đổi, nếu không có thể xảy ra lỗi."
+	}
+	"connect"
+	{
+		"vi"		"Tin nhắn kết nối"
+	}
+	"crash"
+	{
+		"vi"		"Crash"
+	}
+	"creditstoplist"
+	{
+		"vi"		"tín dụng"
+	}
+	"crowns"
+	{
+		"vi"		"Vị trí vương miện"
+	}
+	"daily"
+	{
+		"vi"		"Thưởng hàng ngày"
+	}
+	"decoy grenade kill"
+	{
+		"vi"		"giết bằng lựu đạn giả"
+	}
+	"dice"
+	{
+		"vi"		"Xúc xắc"
+	}
+	"direction"
+	{
+		"vi"		"Hướng"
+	}
+	"discount"
+	{
+		"vi"		"GIẢM GIÁ"
+	}
+	"distance"
+	{
+		"vi"		"Khoảng cách"
+	}
+	"dmgtext"
+	{
+		"vi"		"Họa sĩ"
+	}
+	"emote"
+	{
+		"vi"		"Emote"
+	}
+	"escape as VIP"
+	{
+		"vi"		"Chạy trốn như VIP"
+	}
+	"flashbang kill"
+	{
+		"vi"		"giết bằng lựu đạn flashbang"
+	}
+	"flashlight"
+	{
+		"vi"		"Đèn pin"
+	}
+	"froggyjump"
+	{
+		"vi"		"Nhảy ếch"
+	}
+	"gloves"
+	{
+		"vi"		"găng tay"
+	}
+	"glow"
+	{
+		"vi"		"ánh sáng"
+	}
+	"godmode"
+	{
+		"vi"		"chế độ thần"
+	}
+	"gravity"
+	{
+		"vi"		"kỹ năng"
+	}
+	"grenademodel"
+	{
+		"vi"		"Mô hình lựu đạn"
+	}
+	"grenadeskin"
+	{
+		"vi"		"da lựu đạn"
+	}
+	"grenadetrail"
+	{
+		"vi"		"vết lựu đạn"
+	}
+	"hat"
+	{
+		"vi"		"mũ"
+	}
+	"headshot"
+	{
+		"vi"		"headshot"
+	}
+	"health"
+	{
+		"vi"		"gói"
+	}
+	"high or low"
+	{
+		"vi"		"Cao hay thấp"
+	}
+	"hiteff"
+	{
+		"vi"		"hiệu ứng va chạm:"
+	}
+	"hitsound"
+	{
+		"vi"		"Âm thanh trúng"
+	}
+	"hostage rescued"
+	{
+		"vi"		"giải cứu con tin"
+	}
+	"hunterjump"
+	{
+		"vi"		"Nhảy thợ săn"
+	}
+	"idle on the server"
+	{
+		"vi"		"nhàn rỗi trên máy chủ"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"vi"		"sau {1}."
+	}
+	"infinityammo"
+	{
+		"vi"		"Đạn vô tận"
+	}
+	"info"
+	{
+		"vi"		"Bảng Thông tin"
+	}
+	"instabomb"
+	{
+		"vi"		"Trồng ngay / gỡ bỏ"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"vi"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"vi"		"kỹ năng"
+	}
+	"items"
+	{
+		"vi"		"Món đồ"
+	}
+	"jackpot"
+	{
+		"vi"		"Jackpot"
+	}
+	"jetpack"
+	{
+		"vi"		"tên lửa"
+	}
+	"jihad"
+	{
+		"vi"		"bom"
+	}
+	"kill"
+	{
+		"vi"		"giết"
+	}
+	"kill the VIP"
+	{
+		"vi"		"giết VIP"
+	}
+	"kill yourself"
+	{
+		"vi"		"tự sát"
+	}
+	"killeff"
+	{
+		"vi"		"hiệu ứng giết:"
+	}
+	"knife"
+	{
+		"vi"		"dao"
+	}
+	"knife kill"
+	{
+		"vi"		"giết bằng dao"
+	}
+	"laserdraw"
+	{
+		"vi"		"vẽ laser:"
+	}
+	"laserpointer"
+	{
+		"vi"		"Con trỏ Laser"
+	}
+	"lasersight"
+	{
+		"vi"		"ống ngắm laser"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"vi"		"cập nhật cuối cùng {1} trước"
+	}
+	"light"
+	{
+		"vi"		"Ánh sáng"
+	}
+	"lootbox"
+	{
+		"vi"		"Hộp loot"
+	}
+	"mirror"
+	{
+		"vi"		"gương"
+	}
+	"molotov kill"
+	{
+		"vi"		"giết bằng molotov"
+	}
+	"msgcolor"
+	{
+		"vi"		"màu tin nhắn"
+	}
+	"mvp_sound"
+	{
+		"vi"		"Quốc ca MVP"
+	}
+	"namecolor"
+	{
+		"vi"		"màu tên"
+	}
+	"nametag"
+	{
+		"vi"		"thẻ tên"
+	}
+	"nearest"
+	{
+		"vi"		"Gần nhất"
+	}
+	"nodiscount"
+	{
+		"vi"		" "
+	}
+	"noduckdelay"
+	{
+		"vi"		"Không có độ trễ khi ngồi xổm"
+	}
+	"nofalldamage"
+	{
+		"vi"		"Không có sát thương do rơi"
+	}
+	"noreload"
+	{
+		"vi"		"Không tải lại"
+	}
+	"noscope kill"
+	{
+		"vi"		"giết không ngắm"
+	}
+	"noselfdamage"
+	{
+		"vi"		"Không có sát thương cho chính mình"
+	}
+	"or use buttons below"
+	{
+		"vi"		"hoặc sử dụng các nút bên dưới"
+	}
+	"package"
+	{
+		"vi"		"gói"
+	}
+	"paintball"
+	{
+		"vi"		"đạn"
+	}
+	"painter"
+	{
+		"vi"		"Họa sĩ"
+	}
+	"parachute"
+	{
+		"vi"		"Rơi dù"
+	}
+	"particle"
+	{
+		"vi"		"Phân tử"
+	}
+	"pet"
+	{
+		"vi"		"thú cưng"
+	}
+	"playerskin"
+	{
+		"vi"		"da của người chơi"
+	}
+	"playing on the server"
+	{
+		"vi"		"đang chơi trên máy chủ"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn đã chơi trên máy chủ của chúng tôi {1} ngày liên tiếp"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Bạn sẽ nhận được {1} trong lần tái sinh tiếp theo"
+	}
+	"respawn"
+	{
+		"vi"		"Tái sinh"
+	}
+	"roulette"
+	{
+		"vi"		"Xoay số"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã đạt số lần sử dụng âm thanh tối đa. {1} sử dụng tối đa trên mỗi bản đồ"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã đạt số lần sử dụng âm thanh tối đa. {1} sử dụng tối đa trên mỗi vòng"
+	}
+	"saysound"
+	{
+		"vi"		"nói âm thanh"
+	}
+	"scoreboardtag"
+	{
+		"vi"		"Thẻ bảng điểm"
+	}
+	"smokegrenade kill"
+	{
+		"vi"		"giết bằng lựu đạn khói"
+	}
+	"sound"
+	{
+		"vi"		"âm thanh"
+	}
+	"spawn"
+	{
+		"vi"		"Tái sinh thêm"
+	}
+	"spawneff"
+	{
+		"vi"		"hiệu ứng sinh ra:"
+	}
+	"speed"
+	{
+		"vi"		"kỹ năng"
+	}
+	"spray"
+	{
+		"vi"		"spray"
+	}
+	"start daily challange"
+	{
+		"vi"		"Bắt đầu 'thử thách hàng ngày'. Chơi trong 6 ngày tới để nhận phần thưởng đầy đủ"
+	}
+	"taser kill"
+	{
+		"vi"		"giết bằng súng điện"
+	}
+	"teambet"
+	{
+		"vi"		"Cá cược đội"
+	}
+	"teamkill"
+	{
+		"vi"		"giết đồng đội"
+	}
+	"tfhat"
+	{
+		"vi"		"mũ xây dựng"
+	}
+	"tfhatdye"
+	{
+		"vi"		"nhuộm mũ"
+	}
+	"tfhead"
+	{
+		"vi"		"kích thước đầu"
+	}
+	"tfunusual"
+	{
+		"vi"		"hiệu ứng mũ"
+	}
+	"tfweapon"
+	{
+		"vi"		"vũ khí tùy chỉnh"
+	}
+	"tfweaponsize"
+	{
+		"vi"		"kích thước vũ khí"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Giải thưởng sẽ được rút trong {1} giây"
+	}
+	"thirdperson"
+	{
+		"vi"		"người thứ ba"
+	}
+	"throwknife"
+	{
+		"vi"		"Ném dao"
+	}
+	"toplists"
+	{
+		"vi"		"Danh sách hàng đầu"
+	}
+	"tracer"
+	{
+		"vi"		"truy vết"
+	}
+	"trail"
+	{
+		"vi"		"vết"
+	}
+	"wasted"
+	{
+		"vi"		"lãng phí"
+	}
+	"watergun"
+	{
+		"vi"		"hiệu ứng"
+	}
+	"weapon"
+	{
+		"vi"		"vũ khí"
+	}
+	"weaponcolor"
+	{
+		"vi"		"màu vũ khí"
+	}
+	"weaponmodel"
+	{
+		"vi"		"Mô hình vũ khí"
+	}
+	"weaponskin"
+	{
+		"vi"		"vỏ vũ khí"
+	}
+	"win the round"
+	{
+		"vi"		"thắng vòng đấu"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"vi"		"{1} {2} cho '{3}'"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"vi"		"{1} giờ {2} phút và {3} giây"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"vi"		"{1} giờ {2} phút và {3} giây"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"vi"		"{1} phút và {2} giây"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"vi"		"{1} phút và {2} giây"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"vi"		"{1} giây"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"vi"		"{1} giây"
+	}
+	"zrclass"
+	{
+		"vi"		"lớp người chơi"
+	}
+}

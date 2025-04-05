@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"jp"		"取引をキャンセル"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"jp"		"あなたの {1} {2} を提供しますか？"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"jp"		"あなたの {1} {2} を交換しますか？"
+	}
+	"Offer"
+	{
+		"jp"		"アイテムを提供"
+	}
+	"Offer item"
+	{
+		"jp"		"このアイテムを提供する"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"jp"		"あなたのパートナーは {1} クレジットを提供します"
+	}
+	"Partner Item Offer"
+	{
+		"jp"		"あなたのパートナーは以下のアイテムを提供します:"
+	}
+	"Partner Not Ready"
+	{
+		"jp"		"あなたのパートナーはまだ準備ができていません。"
+	}
+	"Partner Ready"
+	{
+		"jp"		"あなたのパートナーは準備ができています。"
+	}
+	"Player Left"
+	{
+		"jp"		"取引したかったプレイヤーがゲームを離れました。"
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"jp"		"準備完了 [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"jp"		"取引は {1} 秒後に終了します..."
+	}
+	"Trade Active"
+	{
+		"jp"		"すでに取引中です。"
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"jp"		"{1} と取引しますか？"
+	}
+	"Trade Confirm Cancel"
+	{
+		"jp"		"取引をキャンセルしますか？"
+	}
+	"Trade Cooldown"
+	{
+		"jp"		"取引する前に数分待ってください。"
+	}
+	"Trade Menu"
+	{
+		"jp"		"取引メニューを再度開くには、!trade と入力してください。"
+	}
+	"Trade Not Active"
+	{
+		"jp"		"取引していません。"
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"jp"		"取引相手が取引をキャンセルしました。"
+	}
+	"Trade Select Player"
+	{
+		"jp"		"取引するプレイヤーを選択してください"
+	}
+	"Trade Successful"
+	{
+		"jp"		"取引が成功しました。"
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"jp"		"{1} と取引しています\n-----------------------------\nクレジットを提供するには、!offer <amount> を入力してください\n{2} クレジットを提供しました"
+	}
+	"Trade item"
+	{
+		"jp"		"このアイテムを取引する"
+	}
+	"Waiting for confirmation"
+	{
+		"jp"		"選択したプレイヤーからの返答をお待ちください。"
+	}
+}

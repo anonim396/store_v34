@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"chi"		"取消交易"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"chi"		"你想提供你的 {1} {2} 吗？"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"chi"		"你想交易你的 {1} {2} 吗？"
+	}
+	"Offer"
+	{
+		"chi"		"提供一个物品"
+	}
+	"Offer item"
+	{
+		"chi"		"提供这个物品"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你的伙伴提供 {1} 积分"
+	}
+	"Partner Item Offer"
+	{
+		"chi"		"你的伙伴提供以下物品:"
+	}
+	"Partner Not Ready"
+	{
+		"chi"		"你的伙伴还未准备"
+	}
+	"Partner Ready"
+	{
+		"chi"		"你的伙伴已准备好"
+	}
+	"Player Left"
+	{
+		"chi"		"你想交易的玩家离开了游戏"
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"chi"		"准备 [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"chi"		"交易将在 {1} 秒后结束..."
+	}
+	"Trade Active"
+	{
+		"chi"		"你已经在交易中了"
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"chi"		"你愿意和 {1} 交易吗？"
+	}
+	"Trade Confirm Cancel"
+	{
+		"chi"		"你要取消交易吗？"
+	}
+	"Trade Cooldown"
+	{
+		"chi"		"请等待几分钟再进行交易."
+	}
+	"Trade Menu"
+	{
+		"chi"		"想再次打开交易菜单，聊天输入 !trade"
+	}
+	"Trade Not Active"
+	{
+		"chi"		"你现在不在交易"
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"chi"		"你的伙伴取消了这次交易"
+	}
+	"Trade Select Player"
+	{
+		"chi"		"选择一个玩家进行交易"
+	}
+	"Trade Successful"
+	{
+		"chi"		"交易成功"
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"chi"		"你正在和 {1} 交易中\n-----------------------------\n想提供积分请输入 !offer <数量>\n你提供了 {2} 积分"
+	}
+	"Trade item"
+	{
+		"chi"		"交易这个物品"
+	}
+	"Waiting for confirmation"
+	{
+		"chi"		"请等待已选择玩家的应答"
+	}
+}

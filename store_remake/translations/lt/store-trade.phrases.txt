@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"lt"		"Atšaukti prekybą"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lt"		"Ar norite pasiūlyti savo {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lt"		"Ar norite pasikeisti savo {1} {2}?"
+	}
+	"Offer"
+	{
+		"lt"		"Pasiūlykite daiktą"
+	}
+	"Offer item"
+	{
+		"lt"		"Siūlyti šį daiktą"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Jūsų partneris siūlo {1} kreditą (-ų)"
+	}
+	"Partner Item Offer"
+	{
+		"lt"		"Jūsų partneris siūlo šiuos daiktus:"
+	}
+	"Partner Not Ready"
+	{
+		"lt"		"Jūsų partneris dar nėra pasiruošęs."
+	}
+	"Partner Ready"
+	{
+		"lt"		"Jūsų partneris pasiruošęs."
+	}
+	"Player Left"
+	{
+		"lt"		"Žaidėjas, su kuriuo norėjote prekiauti, paliko žaidimą."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Paruošta [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Prekyba baigsis per {1} sekundes..."
+	}
+	"Trade Active"
+	{
+		"lt"		"Jau prekiaujate."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"lt"		"Ar norite prekiauti su {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"lt"		"Ar norite atšaukti sandorį?"
+	}
+	"Trade Cooldown"
+	{
+		"lt"		"Palaukite kelias minutes prieš prekiaudami vėl."
+	}
+	"Trade Menu"
+	{
+		"lt"		"Norėdami vėl atidaryti prekybos meniu, įrašykite !trade."
+	}
+	"Trade Not Active"
+	{
+		"lt"		"Jūs neprekiaujate."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"lt"		"Jūsų partneris atšaukė sandorį."
+	}
+	"Trade Select Player"
+	{
+		"lt"		"Pasirinkite žaidėją prekybai"
+	}
+	"Trade Successful"
+	{
+		"lt"		"Prekyba sėkmingai baigta."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"lt"		"Jūs prekiaujate su {1}\n-----------------------------\nNorėdami pasiūlyti kreditus, įveskite !offer <amount>\nPasiūlėte {2} kreditų"
+	}
+	"Trade item"
+	{
+		"lt"		"Keisti šį daiktą"
+	}
+	"Waiting for confirmation"
+	{
+		"lt"		"Prašome palaukti pasirinkto žaidėjo atsakymo."
+	}
+}

@@ -1,0 +1,107 @@
+"Phrases"
+{
+	"Cancel"
+	{
+		"lv"		"Atcelt apmaiņu"
+	}
+	"Confirm_Offer_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lv"		"Vai vēlaties piedāvāt savu {1} {2}?"
+	}
+	"Confirm_Trade_Item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lv"		"Vai vēlaties apmainīt savu {1} {2}?"
+	}
+	"Offer"
+	{
+		"lv"		"Piedāvāt objektu"
+	}
+	"Offer item"
+	{
+		"lv"		"Piedāvāt šo priekšmetu"
+	}
+	"Partner Credit Offer"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūsu partneris piedāvā {1} kredītu"
+	}
+	"Partner Item Offer"
+	{
+		"lv"		"Jūsu partneris piedāvā šādus priekšmetus:"
+	}
+	"Partner Not Ready"
+	{
+		"lv"		"Jūsu partneris vēl nav gatavs."
+	}
+	"Partner Ready"
+	{
+		"lv"		"Jūsu partneris ir gatavs."
+	}
+	"Player Left"
+	{
+		"lv"		"Spēlētājs, ar kuru vēlējāties mainīties, ir pametis spēli."
+	}
+	"Ready"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Gatavs [{1}]"
+	}
+	"Ready Timer"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Tirdzniecība beigsies pēc {1} sekundēm..."
+	}
+	"Trade Active"
+	{
+		"lv"		"Jūs jau veicat apmaiņu."
+	}
+	"Trade Confirm"
+	{
+		"#format"	"{1:N}"
+		"lv"		"Vai vēlaties apmainīties ar {1}?"
+	}
+	"Trade Confirm Cancel"
+	{
+		"lv"		"Vai vēlaties atcelt apmaiņu?"
+	}
+	"Trade Cooldown"
+	{
+		"lv"		"Lūdzu, uzgaidiet dažas minūtes pirms nākamās apmaiņas."
+	}
+	"Trade Menu"
+	{
+		"lv"		"Lai atkārtoti tirdzniecības izvēlni, ierakstiet !trade."
+	}
+	"Trade Not Active"
+	{
+		"lv"		"Jūs neveicat apmaiņu."
+	}
+	"Trade Refused"
+	{
+		"#format"	"{1:N}"
+		"lv"		"Jūsu partneris atcēla apmaiņu."
+	}
+	"Trade Select Player"
+	{
+		"lv"		"Izvēlieties spēlētāju apmaiņai"
+	}
+	"Trade Successful"
+	{
+		"lv"		"Apmaina veiksmīgi pabeigta."
+	}
+	"Trade Title"
+	{
+		"#format"	"{1:N},{2:d}"
+		"lv"		"Jūs maināties ar {1}\n-----------------------------\nLai piedāvātu kredītus, ievadiet !offer <amount>\nJūs piedāvājāt {2} kredītus"
+	}
+	"Trade item"
+	{
+		"lv"		"Mainīt šo priekšmetu"
+	}
+	"Waiting for confirmation"
+	{
+		"lv"		"Lūdzu, gaidiet izvēlētā spēlētāja atbildi."
+	}
+}

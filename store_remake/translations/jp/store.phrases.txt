@@ -1,0 +1,2282 @@
+"Phrases"
+{
+	"21Blackjack"
+	{
+		"#format"	"{1:s}"
+		"jp"		"{1}21 !!! ブラックジャック !!!"
+	}
+	"Admin chat reload timer exist"
+	{
+		"#format"	"{1:i}"
+		"jp"		"設定はすでに再読み込みされています。マップを変更または再読み込みしてください。"
+	}
+	"All players disconnect"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"すべての参加プレイヤーが接続を切断し、誰も自分の {2} を戻しません、笑。ジャックポットは {1} {2} でした！"
+	}
+	"All valid voucher"
+	{
+		"jp"		"すべての生成された有効なクーポンは次の通りです：\n "
+	}
+	"Already own item from box. Get Credits back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"jp"		"あなたは勝ちましたが、すでに {1} ({2}) を所有しています。アイテムは {3} {4} で販売されました"
+	}
+	"Already own item from box. Get Credits price back"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"jp"		"すでに {1} ({2}) を持っています。{3} {4} が返金されました"
+	}
+	"Amount"
+	{
+		"#format"	"{1:d}"
+		"jp"		"金額: {1}"
+	}
+	"Aura"
+	{
+		"jp"		"オーラ:"
+	}
+	"Back"
+	{
+		"jp"		"戻る"
+	}
+	"Bet * Multi = Your Win"
+	{
+		"jp"		"賭け * 倍率 = あなたの勝利"
+	}
+	"Bet Bonus"
+	{
+		"#format"	"{1:i}"
+		"jp"		"ボーナスクレジット: {1}."
+	}
+	"Bet CT win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"CT 勝利ポット: {1} {2}"
+	}
+	"Bet Maximum"
+	{
+		"#format"	"{1:i}"
+		"jp"		"最大ベット ({1})"
+	}
+	"Bet Minium"
+	{
+		"#format"	"{1:i}"
+		"jp"		"最小ベット ({1})"
+	}
+	"Bet Random"
+	{
+		"#format"	"{1:i},{2:i}"
+		"jp"		"ランダムベット ({1}-{2})"
+	}
+	"Bet T win: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"T 勝利ポット: {1} {2}"
+	}
+	"Bet on"
+	{
+		"jp"		"ベットする"
+	}
+	"Bet on a Head/Tail"
+	{
+		"jp"		"頭/尾に賭ける"
+	}
+	"Bet on a color"
+	{
+		"jp"		"色に賭けて、その色が選ばれたら勝ち！"
+	}
+	"Bet on a number"
+	{
+		"jp"		"低（#1-3）または高（#4-6）または正確な数字に賭けてください。あなたの選択が出た場合、勝ちます！"
+	}
+	"Bet on a team"
+	{
+		"jp"		"チームに賭けて、そのチームがラウンドに勝ったら勝ち！"
+	}
+	"Betting Already Placed"
+	{
+		"jp"		"このラウンドのベットはすでにお済みです。"
+	}
+	"Betting Invalid Team"
+	{
+		"jp"		"無効なチーム識別子が指定されました。"
+	}
+	"Betting Lost"
+	{
+		"#format"	"{1:d}"
+		"jp"		"あなたはベットで {1} クレジットを失いました。"
+	}
+	"Betting Period Over"
+	{
+		"jp"		"このラウンドのベット時間は終了しました。"
+	}
+	"Betting Placed"
+	{
+		"#format"	"{1:d}"
+		"jp"		"あなたは {1} クレジットのベットを成功裏に置きました。"
+	}
+	"Betting Won"
+	{
+		"#format"	"{1:d}"
+		"jp"		"あなたの賭けは成功しました。あなたは {1} クレジットを獲得しました。"
+	}
+	"Black"
+	{
+		"jp"		"黒"
+	}
+	"Blackjack Info 1"
+	{
+		"jp"		"ブラックジャックは、手札のカードの価値がディーラーよりも高く、21を超えないことが必要なゲームです。"
+	}
+	"Blackjack Info 2"
+	{
+		"jp"		"カウント規則：\n- \"A\" カードは 1 または 11 としてカウントできます。手札の合計が 21 を超える場合、このカードは 1 としてカウントされなければなりません。"
+	}
+	"Blackjack Info 3"
+	{
+		"jp"		"- \"10,J,Q,K\": 10としてカウントされます。\n- 2-9 はそれぞれの面値としてカウントされます。"
+	}
+	"Blackjack Info 4"
+	{
+		"jp"		"- あなたの手の価値は21に近く、ディーラーの手よりも大きくなければなりません。\n- \"A\" + 10のカード = ブラックジャック。これは即勝です。"
+	}
+	"Buy"
+	{
+		"jp"		"アイテムを購入"
+	}
+	"Buy Item"
+	{
+		"#format"	"{1:i}"
+		"jp"		"アイテムを購入 ({1})"
+	}
+	"CP Changed color"
+	{
+		"jp"		"あなたは色を変更しました: "
+	}
+	"CP Chat Tag Color Option"
+	{
+		"jp"		"チャットタグの色オプション"
+	}
+	"CP Disable Color - Menu"
+	{
+		"jp"		"色を無効にする"
+	}
+	"CP Disabled Color"
+	{
+		"jp"		"カスタムタグカラーが無効化されました。"
+	}
+	"CP No Name Tag Equipped"
+	{
+		"jp"		"名前タグが装備されていません"
+	}
+	"CP No file found"
+	{
+		"jp"		"ユーザーのカスタムタグカラーは無効化されました。サポートが必要な場合は管理者に連絡してください。"
+	}
+	"CP Preview"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"jp"		"{1}{2}{3}"
+	}
+	"CP Scoreboard Preview"
+	{
+		"jp"		"スコアボードタグのプレビューを表示しています。TABキーを押してください。"
+	}
+	"Cancel"
+	{
+		"jp"		"キャンセル"
+	}
+	"Cant be bought"
+	{
+		"jp"		"このアイテムは購入できません"
+	}
+	"Cash out"
+	{
+		"jp"		"キャッシュアウト"
+	}
+	"Change your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"ベットを変更: {1} {2}"
+	}
+	"Chat Bought Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"jp"		"あなたは {1} {2} を購入しました。"
+	}
+	"Chat Gift Item Received"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"jp"		"{1} はあなたに {2} {3} をプレゼントしました。"
+	}
+	"Chat Gift Item Sent"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"jp"		"あなたは {1} に {2} {3} をプレゼントしました。"
+	}
+	"Chat Sold Item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"jp"		"あなたは {1} {2} を販売しました。"
+	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"jp"		"あなたはコンテナを開けて{1} クレジットを見つけました！"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"jp"		"{1} はコンテナを開けて {2} ({3}) を見つけました！"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"jp"		"{1} はコンテナを開けて {2} ({3}) を見つけました！"
+	}
+	"Check All Voucher"
+	{
+		"jp"		"すべての有効で利用可能なバウチャーを確認してください（管理者専用）"
+	}
+	"Check Voucher"
+	{
+		"jp"		"バウチャーを確認"
+	}
+	"Check Your valid Voucher"
+	{
+		"jp"		"生成した有効で利用可能なバウチャーを確認"
+	}
+	"Choose Number (1:6)"
+	{
+		"jp"		"数字を選択 (1:6)"
+	}
+	"Client Auto Cashout pref"
+	{
+		"jp"		"自動キャッシュアウト："
+	}
+	"Client Loadout Reset"
+	{
+		"jp"		"あなたの装備はリセットされました。"
+	}
+	"Client valid voucher"
+	{
+		"jp"		"生成された有効なクーポンは次の通りです：\n "
+	}
+	"Close"
+	{
+		"jp"		"閉じる"
+	}
+	"ColoredSmoke"
+	{
+		"jp"		"カラースモーク"
+	}
+	"Command is in-game only"
+	{
+		"jp"		"このコマンドを使用するには生きている必要があります。"
+	}
+	"Config reloaded. Please restart or change map"
+	{
+		"jp"		"設定が再読み込みされました。マップを再起動または変更してください。"
+	}
+	"Confirm_Buy"
+	{
+		"#format"	"{1:s},{2:t}"
+		"jp"		"本当に {1} {2} を購入しますか?"
+	}
+	"Confirm_Gift"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"jp"		"本当に {1} {2} を {3} にプレゼントしますか?"
+	}
+	"Confirm_Gift_Drop"
+	{
+		"#format"	"{1:s},{2:t}"
+		"jp"		"本当に {1} {2} をプレゼントとして落としますか?"
+	}
+	"Confirm_No"
+	{
+		"jp"		"いいえ"
+	}
+	"Confirm_Sell"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"jp"		"本当に {1} {2} を {3} で売りますか?"
+	}
+	"Confirm_Voucher"
+	{
+		"#format"	"{1:s},{2:t}"
+		"jp"		"本当に {1} ({2}) をクーポンに変換してもよろしいですか？\n警告：クーポンのアイテムが使用される前に期限が切れた場合。\nこのクーポンは期限切れになります。"
+	}
+	"Confirm_Yes"
+	{
+		"jp"		"はい"
+	}
+	"CorrectAnswer"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"jp"		"{1} は正しい答えを出し、{2} {3} を獲得しました！"
+	}
+	"Counter-Terrorist"
+	{
+		"jp"		"カウンターテロリスト"
+	}
+	"Crash Already Start"
+	{
+		"jp"		"Crashゲームは現在進行中です。次のゲームをお待ちください。"
+	}
+	"Crash Auto Off"
+	{
+		"jp"		"オフ"
+	}
+	"Crash Auto Off Panel"
+	{
+		"jp"		"自動キャッシュアウトをオフにする"
+	}
+	"Crash Auto On"
+	{
+		"jp"		"オン"
+	}
+	"Crash Auto On Panel"
+	{
+		"jp"		"自動キャッシュアウトをオンにする"
+	}
+	"Crash Info 1"
+	{
+		"jp"		"           何ですか/どうやって遊ぶ: Crash"
+	}
+	"Crash Info 2"
+	{
+		"jp"		"- Crashは、プレイヤーが乗数に賭けることができるゲームで、この乗数は増加する曲線に関連しており、いつでもクラッシュする可能性があります。"
+	}
+	"Crash Info 3"
+	{
+		"jp"		"- マルチプライヤーは1.00xから始まり、いつでもキャッシュアウトできます。"
+	}
+	"Crash Info 4"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"jp"		"- 最小ベット額は {1} {2} です。最大ベット額は {3} {4} です。これらの制限は時間とともに変更される場合があります。"
+	}
+	"Crash Wrong input"
+	{
+		"#format"	"{1:0.2f}"
+		"jp"		"入力間違い（{1}以上でなければなりません）。"
+	}
+	"Crash auto input"
+	{
+		"jp"		"チャットに自動キャッシュアウトの値を入力"
+	}
+	"Crash auto input set"
+	{
+		"jp"		"クラッシュ自動キャッシュアウト設定済み"
+	}
+	"Crash set auto"
+	{
+		"jp"		"自動キャッシュアウトの値を設定"
+	}
+	"Crash!"
+	{
+		"jp"		"クラッシュ！"
+	}
+	"Create Item Voucher"
+	{
+		"jp"		"アイテムクーポンを作成（管理者のみ）"
+	}
+	"Create Voucher"
+	{
+		"jp"		"バウチャーを作成"
+	}
+	"Creating voucher failed"
+	{
+		"#format"	"{1:i}"
+		"jp"		"バウチャーの作成に失敗しました - 次のタイムスタンプで管理者に連絡してください: {1}"
+	}
+	"Credit Gift Disabled"
+	{
+		"jp"		"このサーバーではクレジットギフトが無効です。"
+	}
+	"Credit Gift Dropped"
+	{
+		"#format"	"{1:d}"
+		"jp"		"あなたは{1}クレジットをギフトとして落としました。"
+	}
+	"Credit Gift Received"
+	{
+		"#format"	"{1:d},{2:s}"
+		"jp"		"{2} はあなたに {1} クレジットを送信しました。"
+	}
+	"Credit Gift Sent"
+	{
+		"#format"	"{1:d},{2:s}"
+		"jp"		"あなたは {1} クレジットを {2} に送信しました。"
+	}
+	"Credit Giveaway Not Enough"
+	{
+		"jp"		"ギブアウェイを作成するための十分なクレジットがありません。"
+	}
+	"Credit Invalid Amount"
+	{
+		"jp"		"無効なクレジット額が入力されました。"
+	}
+	"Credit No Match"
+	{
+		"jp"		"プレイヤーが見つかりませんでした。"
+	}
+	"Credit Not Enough"
+	{
+		"jp"		"これを購入するためのクレジットが足りません。"
+	}
+	"Credit Too Many Matches"
+	{
+		"jp"		"複数のクライアントが見つかりました。"
+	}
+	"Credit Voucher Not Enough"
+	{
+		"jp"		"クレジットが足りなくて、バウチャーを作成できません。"
+	}
+	"Credits Earned For Killing"
+	{
+		"#format"	"{1:d},{2:s}"
+		"jp"		"{2} を倒して {1} クレジットを得ました。"
+	}
+	"Credits Earned For Playing"
+	{
+		"#format"	"{1:d}"
+		"jp"		"サーバーでプレイして {1} クレジットを獲得しました。"
+	}
+	"Credits Given"
+	{
+		"#format"	"{1:s}{2:d}"
+		"jp"		"{1} は {2} クレジットを受け取りました。"
+	}
+	"Credits and Pot"
+	{
+		"#format"	"{1:d},{2:d}"
+		"jp"		"クレジット: {1}          ポット: {2}"
+	}
+	"Custom Weapon Sound Disabled"
+	{
+		"jp"		"無効"
+	}
+	"Custom Weapon Sound Enabled"
+	{
+		"jp"		"有効"
+	}
+	"Custom Weapon Sound Menu Tag"
+	{
+		"jp"		"[カスタム武器音]"
+	}
+	"Custom Weapon Sound Menu Title"
+	{
+		"jp"		"カスタム武器音量制御メニュー"
+	}
+	"Custom Weapon Sound Menu Vol"
+	{
+		"#format"	"{1:i}"
+		"jp"		"音量: {1}"
+	}
+	"Custom Weapon Sound Menu Volume"
+	{
+		"#format"	"{1:T}"
+		"jp"		"カスタム武器音: {1}"
+	}
+	"Custom Weapon Sound Text Disable"
+	{
+		"jp"		"カスタム武器音が無効です。"
+	}
+	"Custom Weapon Sound Text Enable"
+	{
+		"jp"		"カスタム武器音が有効です。"
+	}
+	"Custom Weapon Sound Text Volume"
+	{
+		"#format"	"{1:d}"
+		"jp"		"カスタム武器音が有効です。音量: {1}"
+	}
+	"CustomModel"
+	{
+		"jp"		"カスタム武器モデル:"
+	}
+	"Damage the crate to open"
+	{
+		"jp"		"箱を開けるためにダメージを与えろ！"
+	}
+	"Dead heat"
+	{
+		"jp"		"- 引き分け -"
+	}
+	"Deal+-"
+	{
+		"#format"	"{1:d},{2:d}"
+		"jp"		"             ディーラー     +{1}     -{2}"
+	}
+	"Dealer"
+	{
+		"jp"		"ディーラー"
+	}
+	"Discount Active"
+	{
+		"#format"	"{1:s}"
+		"jp"		"割引: '{1}' が有効です！楽しいお買い物を！"
+	}
+	"Discount Ended"
+	{
+		"#format"	"{1:s}"
+		"jp"		"割引: '{1}' が終了しました。"
+	}
+	"Discount Started"
+	{
+		"#format"	"{1:s}"
+		"jp"		"割引: '{1}' が開始されました！楽しいお買い物を！"
+	}
+	"Double"
+	{
+		"jp"		"ダブル"
+	}
+	"Down"
+	{
+		"jp"		"下"
+	}
+	"Down2"
+	{
+		"jp"		"                      5 = 下"
+	}
+	"Drop Gift"
+	{
+		"jp"		"ギフトとして落とす"
+	}
+	"Edit Amount"
+	{
+		"jp"		"編集金額："
+	}
+	"Enter Admin Item Voucher Expiration"
+	{
+		"jp"		"アイテムの有効期限（秒単位）をチャットに入力してください！"
+	}
+	"Enter Admin Item Voucher Expiration Error"
+	{
+		"jp"		"無効な数値形式です。もう一度試してください。"
+	}
+	"Enter custom amount"
+	{
+		"jp"		"チャットにカスタム金額を入力してください！"
+	}
+	"Enter maximum value"
+	{
+		"jp"		"チャットにクレジットの最大値を入力してください！"
+	}
+	"Enter minimum value"
+	{
+		"jp"		"チャットでクレジットの最小値を入力してください！"
+	}
+	"Enter number of vouchers"
+	{
+		"jp"		"チャットで作成するバウチャーの数を入力してください！"
+	}
+	"Enter value of vouchers"
+	{
+		"jp"		"チャットで購入するバウチャーの金額を入力してください！"
+	}
+	"Enter voucher code"
+	{
+		"jp"		"チャットにバウチャーコードを入力してください！"
+	}
+	"Error occured, no price back. Inform admin log"
+	{
+		"jp"		"価格の返金時にエラーが発生しました。管理者に連絡してください"
+	}
+	"Exact #x  = "
+	{
+		"jp"		"正確 #x = "
+	}
+	"Exit"
+	{
+		"jp"		"終了"
+	}
+	"Gained"
+	{
+		"jp"		"獲得"
+	}
+	"Gained x Credits"
+	{
+		"#format"	"{1:d},{2:s}"
+		"jp"		"獲得: {1} {2}"
+	}
+	"Game Info"
+	{
+		"jp"		"ゲーム情報"
+	}
+	"Game in progress"
+	{
+		"jp"		"現在の賭けゲームが進行中です。終了するまでお待ちください。"
+	}
+	"Get three on a kind"
+	{
+		"jp"		"同じものを三つゲット"
+	}
+	"Gift Credit Picked"
+	{
+		"#format"	"{1:d}"
+		"jp"		"あなたは {1} クレジットを拾いました。"
+	}
+	"Gift Item Picked"
+	{
+		"#format"	"{1:s},{2:t}"
+		"jp"		"あなたは {1} {2} を拾いました。"
+	}
+	"Gift No Players"
+	{
+		"jp"		"このアイテムを贈る相手は誰もいません。"
+	}
+	"Gift Player Left"
+	{
+		"jp"		"選択したプレイヤーはすでにゲームを終了しています。"
+	}
+	"Giveaway Minimum Players"
+	{
+		"#format"	"{1:s},{2:i}"
+		"jp"		"{1} ギブアウェイを実行するには、サーバーに少なくとも {2} 人のプレイヤーが必要です。"
+	}
+	"Giveaway announcement"
+	{
+		"#format"	"{1:s},{2:i}"
+		"jp"		"管理者 {1} は {2} クレジットでギブアウェイを開始しました。"
+	}
+	"Giveaway remaining time"
+	{
+		"#format"	"{1:i}"
+		"jp"		"|| ギブアウェイは{1}秒後に開始します ||"
+	}
+	"Giveaway winner chat"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"jp"		"{1} {2} は {3} クレジットでギブアウェイに勝ちました"
+	}
+	"Giveaway winner hint text"
+	{
+		"#format"	"{1:s},{2:s}"
+		"jp"		"{1}\n|| 勝者: {2} ||"
+	}
+	"Giveaway winner in progress"
+	{
+		"#format"	"{1:s}"
+		"jp"		"|| {1} ||"
+	}
+	"Godmode Round Limit"
+	{
+		"jp"		"このラウンドで購入できる最大のゴッドモード数に達しました。"
+	}
+	"Godmode Wrong Team"
+	{
+		"jp"		"このチームではゴッドモードを使用できません。"
+	}
+	"Green"
+	{
+		"jp"		"緑"
+	}
+	"HE grenade kill"
+	{
+		"jp"		"HE 手榴弾キル"
+	}
+	"HUD"
+	{
+		"jp"		"HUD"
+	}
+	"Head"
+	{
+		"jp"		"表"
+	}
+	"Health Round Limit"
+	{
+		"jp"		"このラウンドで購入できる最大の回復パック数に達しました。"
+	}
+	"Help_Back"
+	{
+		"jp"		"戻る"
+	}
+	"Help_Exit"
+	{
+		"jp"		"終了"
+	}
+	"Hide bullet sparks"
+	{
+		"jp"		"弾丸の火花を隠す"
+	}
+	"Hide bullet tracer"
+	{
+		"jp"		"弾道 숨기기"
+	}
+	"Hide gloves"
+	{
+		"jp"		"手袋を隠す"
+	}
+	"Hide paintball"
+	{
+		"jp"		"ペイントボールを隠す"
+	}
+	"Hide particles"
+	{
+		"jp"		"粒子を隠す"
+	}
+	"Hide pets"
+	{
+		"jp"		"ペットを隠す"
+	}
+	"Hide trails"
+	{
+		"jp"		"足跡を隠す"
+	}
+	"High #4-6"
+	{
+		"jp"		"高い #4-6"
+	}
+	"High #4-6 = "
+	{
+		"jp"		"高 #4-6 = "
+	}
+	"High - #4-6 (1:2)"
+	{
+		"jp"		"高 - #4-6 (1:2)"
+	}
+	"Higher"
+	{
+		"jp"		"高い"
+	}
+	"Hint chosen number"
+	{
+		"#format"	"{1:d}"
+		"jp"		"選ばれた数字は: {1}"
+	}
+	"Hint next number"
+	{
+		"#format"	"{1:d}"
+		"jp"		"次の数字は {1} でした。"
+	}
+	"Hit"
+	{
+		"jp"		"ヒット"
+	}
+	"Hol Info 1"
+	{
+		"jp"		"あなたが次の数字が選ばれた数字より大きいか小さいかを予想するために、{1} と {2} の間で数字が選ばれました。"
+	}
+	"Hol Info 2"
+	{
+		"jp"		"正しい選択をすれば、あなたは賭け金の2倍を獲得します。"
+	}
+	"Hol Info 3"
+	{
+		"jp"		"各ゲームの間に {1} 秒の休憩があります。"
+	}
+	"Hol placed"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたは {1} {2} を正常に配置しました。"
+	}
+	"Inventory"
+	{
+		"jp"		"インベントリ"
+	}
+	"Inventory hasn't been fetched"
+	{
+		"jp"		"お待ちください。インベントリはまだ読み込まれていません。"
+	}
+	"Item Available"
+	{
+		"#format"	"{1:s},{2:d}"
+		"jp"		"{1} ({2})"
+	}
+	"Item Bought"
+	{
+		"#format"	"{1:s}"
+		"jp"		"{1}"
+	}
+	"Item Equip"
+	{
+		"jp"		"このアイテムを装備"
+	}
+	"Item Equipped"
+	{
+		"#format"	"{1:s}"
+		"jp"		"{1} [装備済み]"
+	}
+	"Item Gift"
+	{
+		"jp"		"このアイテムを贈る"
+	}
+	"Item Plan Available"
+	{
+		"#format"	"{1:s}"
+		"jp"		"{1} (プランを選択)"
+	}
+	"Item Sell"
+	{
+		"#format"	"{1:d}"
+		"jp"		"これを{1}で売る"
+	}
+	"Item Unequip"
+	{
+		"jp"		"このアイテムを外す"
+	}
+	"Item Use"
+	{
+		"jp"		"このアイテムを使う"
+	}
+	"Item Voucher"
+	{
+		"jp"		"アイテムからバウチャーを作成"
+	}
+	"Item Voucher disabled"
+	{
+		"jp"		"アイテムのためのバウチャー作成は現在無効です。"
+	}
+	"Item Voucher in chat"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"jp"		"あなたは {1} ({2}) をバウチャー {3} に変換しました。"
+	}
+	"Item hidden"
+	{
+		"#format"	"{1:t}"
+		"jp"		"{1} 隠された。もうそれらを見ることはありません。"
+	}
+	"Item not found"
+	{
+		"jp"		"アイテムが見つかりません"
+	}
+	"Item visible"
+	{
+		"#format"	"{1:t}"
+		"jp"		"{1} が再び見えるようになりました。"
+	}
+	"Jackpot chances"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"jp"		"{1} - {2}% ({3} {4})"
+	}
+	"Jackpot paused"
+	{
+		"jp"		"ジャックポットは一時停止中です。"
+	}
+	"Jackpot: x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"ジャックポット: {1} {2}"
+	}
+	"Jetpack Empty"
+	{
+		"jp"		"ジェットパックが空です"
+	}
+	"Jetpack Fuel"
+	{
+		"#format"	"{1:.1f}"
+		"jp"		"[ジェットパック] 燃料: {1}"
+	}
+	"Jetpack Reloaded"
+	{
+		"jp"		"ジェットパックが再充填されました"
+	}
+	"Jihad Failed"
+	{
+		"jp"		"爆弾が爆発しませんでした。"
+	}
+	"Jihad Failed All"
+	{
+		"#format"	"{1:N}"
+		"jp"		"{1} のジハード爆弾は爆発に失敗しました。"
+	}
+	"Jihad Wrong Team"
+	{
+		"jp"		"このチームでは爆弾を使うことができません。"
+	}
+	"Last x mins"
+	{
+		"#format"	"{1:d}"
+		"jp"		"{1} 分前にクラッシュが始まります。"
+	}
+	"Last x secs"
+	{
+		"#format"	"{1:d}"
+		"jp"		"{1} 秒後にクラッシュが始まります。"
+	}
+	"LevelIcon"
+	{
+		"jp"		"レベルアイコン"
+	}
+	"Limited"
+	{
+		"jp"		"制限あり - 一人のプレイヤー"
+	}
+	"Lootbox case is opening"
+	{
+		"jp"		"前のケースが開くまでお待ちください"
+	}
+	"Lootbox map ended"
+	{
+		"jp"		"マップが終了しました。次のマップをお待ちください"
+	}
+	"Lootbox round ended"
+	{
+		"jp"		"ラウンドが終了しました。次のラウンドをお待ちください"
+	}
+	"Lootbox warm up"
+	{
+		"jp"		"ウォームアップ中に開くことはできません"
+	}
+	"Lose Streak Of"
+	{
+		"#format"	"{1:i}"
+		"jp"		"あなたは {1} 日間のデイリーストリークを失いました。"
+	}
+	"Lost bet"
+	{
+		"jp"		"失敗しました！あなたは賭けに負けました"
+	}
+	"Lost next number"
+	{
+		"#format"	"{1:d}"
+		"jp"		"次の数字は {1} だったため、あなたの賭けは負けました。"
+	}
+	"Low #1-3"
+	{
+		"jp"		"低い #1-3"
+	}
+	"Low #1-3' = "
+	{
+		"jp"		"低 #1-3' = "
+	}
+	"Low - #1-3 (1:2)"
+	{
+		"jp"		"低 - #1-3 (1:2)"
+	}
+	"Lower"
+	{
+		"jp"		"低い"
+	}
+	"Min Player"
+	{
+		"#format"	"{1:i}"
+		"jp"		"少なくとも {1} 人のプレイヤーが必要です"
+	}
+	"Must be Alive"
+	{
+		"jp"		"これを使用するには生きている必要があります。"
+	}
+	"Must be dead"
+	{
+		"jp"		"プレイするには死んでいる必要があります"
+	}
+	"Mutli = PotCT + PotT / PotWinningTeam"
+	{
+		"jp"		"倍率 = PotCT + PotT / PotWinningTeam"
+	}
+	"No active Jackpot"
+	{
+		"jp"		"アクティブなジャックポットはありません"
+	}
+	"No active TeamBet"
+	{
+		"jp"		"まだチームベットはありません"
+	}
+	"No have flag"
+	{
+		"jp"		"このコマンドを使用する権限がありません。"
+	}
+	"No matching color"
+	{
+		"jp"		"一致する色はありません。使用してください：r/赤、b/黒 または g/緑"
+	}
+	"No pick up - back to you"
+	{
+		"jp"		"誰もあなたが落としたクレジットを拾いませんでした。あなたはそれを取り戻しました。"
+	}
+	"No pick up - removed"
+	{
+		"jp"		"誰もあなたが落としたクレジットを拾いませんでした。クレジットは削除されました。"
+	}
+	"NoAnswer"
+	{
+		"#format"	"{1:i}"
+		"jp"		"時間切れ。正しい答えは {1} でした。"
+	}
+	"Noone else cashed in"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"他の誰もジャックポットにお金を入れていません。あなたの{1} {2}は返金されます！"
+	}
+	"Not enough Credits"
+	{
+		"jp"		"クレジットが足りません"
+	}
+	"Now run a giveaway"
+	{
+		"jp"		"現在ギブアウェイが実行中です。数秒後に再試行してください。"
+	}
+	"Only number"
+	{
+		"jp"		"数字のみ入力できます..."
+	}
+	"Override Disabled"
+	{
+		"jp"		"あなたのスキンは帽子をサポートしていません。装備中の帽子は無効になります。"
+	}
+	"Override Enabled"
+	{
+		"jp"		"現在のスキンは帽子をサポートしていません。スキンが変更されます。"
+	}
+	"Owned"
+	{
+		"jp"		"[所有]"
+	}
+	"Package Gift"
+	{
+		"jp"		"このパッケージをプレゼントする"
+	}
+	"Package Sell"
+	{
+		"#format"	"{1:d}"
+		"jp"		"このパッケージを {1} で販売します。"
+	}
+	"Package Voucher"
+	{
+		"jp"		"パッケージからバウチャーを作成"
+	}
+	"Parachute Empty"
+	{
+		"jp"		"パラシュート空"
+	}
+	"Parachute Reloaded"
+	{
+		"jp"		"パラシュート再装填"
+	}
+	"Particles"
+	{
+		"jp"		"粒子:"
+	}
+	"Place x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		" {1} {2} を配置"
+	}
+	"Play Preview"
+	{
+		"jp"		"プレビュー音を再生しています。"
+	}
+	"Player Credits"
+	{
+		"#format"	"{1:s},{2:d}"
+		"jp"		"{1} は {2} クレジットを持っています。"
+	}
+	"Player Resetted"
+	{
+		"#format"	"{1:s}"
+		"jp"		"{1} はリセットされました。"
+	}
+	"Player Skin module disabled"
+	{
+		"jp"		"ストアプレイヤースキンモジュールは現在一時的に無効になっています。"
+	}
+	"Player added to jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"jp"		"{1}は{2} {3}をジャックポットに追加しました。現在の勝利確率は{4}%です（ジャックポット: {5} {6}）"
+	}
+	"Player lost x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"jp"		"{1} は {2} {3} を {4} で失いました。"
+	}
+	"Player opened jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"jp"		"{1}は{2} {3}でジャックポットを開きました。そのお金を獲得するためにキャッシュインしてください！"
+	}
+	"Player won the Jackpot"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"jp"		"{1} ジャックポットに {2} {3} で勝ちました！"
+	}
+	"Player won x Credits"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"jp"		"{1} は {2} {3} を {4} で獲得しました。"
+	}
+	"Player won x Credits with X"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"jp"		"{1} は {2} {3} を獲得しました。乗数は x{4} で、{5} で。"
+	}
+	"PlayerSkins Settings Changed"
+	{
+		"jp"		"新しい設定は次のスポーン時に適用されます。"
+	}
+	"Press"
+	{
+		"jp"		"押す"
+	}
+	"Press to Start"
+	{
+		"jp"		"開始するには押してください！"
+	}
+	"Press to Stop"
+	{
+		"jp"		"停止するには押してください！"
+	}
+	"Preview Item"
+	{
+		"jp"		"このアイテムのプレビュー"
+	}
+	"Price"
+	{
+		"#format"	"{1:i}"
+		"jp"		"価格：{1}"
+	}
+	"Purchase Voucher"
+	{
+		"jp"		"バウチャーを購入"
+	}
+	"QuizzGenerated"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"jp"		"{1} {2} {3} はいくらですか？ | 賞品: {4} {5}"
+	}
+	"Red"
+	{
+		"jp"		"赤"
+	}
+	"Redeem Voucher"
+	{
+		"jp"		"バウチャーを交換"
+	}
+	"Rerun x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		" {1} {2} を再実行"
+	}
+	"Respawn Round Limit"
+	{
+		"jp"		"このラウンドで購入できる最大のリスポーン数に達しました。"
+	}
+	"SQL Cooldown"
+	{
+		"jp"		"セキュリティ上の理由から、短期間に複数のリクエストを送信することはできません。"
+	}
+	"Search Info Title"
+	{
+		"#format"	"{1:s}"
+		"jp"		"-------------- 店舗検索メニューの提案 --------------\n -関連するすべてのアイテムがここに表示されます\n - 現在の検索文字列: \"{1}\""
+	}
+	"Second Winner is not in game anymore"
+	{
+		"jp"		"2位の勝者はもうゲームに参加していません。新しい勝者を見つけるための最後の試みです。"
+	}
+	"Seconds to use command"
+	{
+		"#format"	"{1:d}"
+		"jp"		"このコマンドを再度使用するには、{1}秒待つ必要があります。"
+	}
+	"Show bullet sparks"
+	{
+		"jp"		"弾丸の火花を表示"
+	}
+	"Show bullet tracer"
+	{
+		"jp"		"弾道を表示"
+	}
+	"Show gloves"
+	{
+		"jp"		"手袋を表示"
+	}
+	"Show paintball"
+	{
+		"jp"		"ペイントボールを表示"
+	}
+	"Show particles"
+	{
+		"jp"		"粒子を表示"
+	}
+	"Show pets"
+	{
+		"jp"		"ペットを表示"
+	}
+	"Show trails"
+	{
+		"jp"		"トレイルを表示"
+	}
+	"Smaller than min value"
+	{
+		"#format"	"{1:i}"
+		"jp"		"最小値({1})より小さい値を使用することはできません"
+	}
+	"Spacer"
+	{
+		"jp"		"----------------------"
+	}
+	"Spam Cooldown"
+	{
+		"#format"	"{1:i}"
+		"jp"		"スパム保護。{1}秒お待ちください。"
+	}
+	"Spawn Preview"
+	{
+		"jp"		"プレビューが生成されました。プレビューは45秒後に消えます。"
+	}
+	"Spawn Preview - Colored smoke"
+	{
+		"#format"	"{1:.0f}"
+		"jp"		"プレビューが生成されました。プレビューは{1}秒後に消えます。"
+	}
+	"Start again from begin"
+	{
+		"jp"		"最初からやり直してください"
+	}
+	"Starting"
+	{
+		"jp"		"開始"
+	}
+	"Stay"
+	{
+		"jp"		"スタンド"
+	}
+	"Store Confirm Reset Loadout"
+	{
+		"jp"		"本当に装備をリセットしますか？すべてのアイテムは外されます。"
+	}
+	"Successfully purchased voucher"
+	{
+		"jp"		"バウチャーを正常に購入しました"
+	}
+	"TF Wrong Class"
+	{
+		"jp"		"このアイテムは別のプレイヤークラスで使用することを意図していました。"
+	}
+	"Tail"
+	{
+		"jp"		"尾"
+	}
+	"TeamBet Already Placed"
+	{
+		"jp"		"あなたはすでにこのラウンドのベットをしました。"
+	}
+	"TeamBet Invalid Team"
+	{
+		"jp"		"無効なチーム識別子が指定されました。"
+	}
+	"TeamBet Lost"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたはベットで {1} {2} を失いました。"
+	}
+	"TeamBet Period Over"
+	{
+		"jp"		"このラウンドのベッティング期間は終了しました。"
+	}
+	"TeamBet Placed"
+	{
+		"#format"	"{1:i}"
+		"jp"		"あなたは {1} クレジットのベットを正常に行いました。"
+	}
+	"TeamBet Won"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたのベットは成功しました。 {1} {2} を獲得しました。"
+	}
+	"TeamBet not betted"
+	{
+		"jp"		"他のチームにベットはなかったため、クレジットは戻されました。"
+	}
+	"Terrorist"
+	{
+		"jp"		"テロリスト"
+	}
+	"The chosen number"
+	{
+		"#format"	"{1:d}"
+		"jp"		"選ばれた数字は: {1}"
+	}
+	"The next number"
+	{
+		"#format"	"{1:d}"
+		"jp"		"次の数字は {1} でした。"
+	}
+	"This is the preview text"
+	{
+		"jp"		"これはプレビューのテキストです。"
+	}
+	"Timer_Server_ReloadConfig"
+	{
+		"#format"	"{1:i}"
+		"jp"		"管理者が店舗設定を再読み込みしました。マップは{1}秒後に再読み込みされます！"
+	}
+	"Title Admin Voucher Duration Menu"
+	{
+		"jp"		"アイテムクーポン作成メニュー（管理者専用）。\n \nアイテムの有効期限を選択してください。"
+	}
+	"Title Admin Voucher Menu"
+	{
+		"jp"		"アイテムクーポン作成メニュー（管理者専用）"
+	}
+	"Title Credits"
+	{
+		"#format"	"{1:i}"
+		"jp"		"クレジット: {1}"
+	}
+	"Title Expiration"
+	{
+		"#format"	"{1:d},{2:d}"
+		"jp"		"有効期限は {1}日 {2}時間後"
+	}
+	"Title Gift"
+	{
+		"jp"		"贈り物を送るプレイヤーを選んでください"
+	}
+	"Title Store"
+	{
+		"jp"		"ストアメニュー"
+	}
+	"To late chat input"
+	{
+		"jp"		"指定された時間内にテキスト入力が完了していません"
+	}
+	"Too many money on the ground"
+	{
+		"#format"	"{1:s}"
+		"jp"		"地面に {1} が多すぎて、今はそれ以上落とせません！"
+	}
+	"Top Credits"
+	{
+		"jp"		"トップクレジット"
+	}
+	"Top Credits Inv Worth"
+	{
+		"jp"		"トップクレジット + インベントリ価値"
+	}
+	"Top Inv Worth"
+	{
+		"jp"		"トップインベントリ価値"
+	}
+	"Top Most Items"
+	{
+		"jp"		"最も人気のあるアイテム"
+	}
+	"Total Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"合計: {1} {2}"
+	}
+	"Try again"
+	{
+		"jp"		"もう一度試してみてください"
+	}
+	"Type in chat !bet"
+	{
+		"jp"		"チャットに !bet <ベット> [ct/t] を入力してください"
+	}
+	"Type in chat !blackjack"
+	{
+		"jp"		"チャットに !blackjack <ベット> と入力してください"
+	}
+	"Type in chat !coinflip"
+	{
+		"jp"		"チャットに !coinflip <ベット> [h/t] を入力してください"
+	}
+	"Type in chat !crash"
+	{
+		"jp"		"チャットに !crash <ベット> と入力してください"
+	}
+	"Type in chat !crowns"
+	{
+		"jp"		"チャットに !crowns <ベット> を入力してください"
+	}
+	"Type in chat !dice"
+	{
+		"jp"		"チャットに入力 !dice <賭け> [l/h/#]"
+	}
+	"Type in chat !jackpot"
+	{
+		"jp"		"チャットに !jackpot <ベット> を入力してください"
+	}
+	"Type in chat !roulette"
+	{
+		"jp"		"チャットに !roulette <ベット> [r/b/g] を入力してください"
+	}
+	"Unlimited"
+	{
+		"jp"		"無制限 - 複数のプレイヤー"
+	}
+	"Up"
+	{
+		"jp"		"上"
+	}
+	"Value less than 1"
+	{
+		"jp"		"1 未満の値は使用できません。"
+	}
+	"Volume set"
+	{
+		"#format"	"{1:s},{2:s}"
+		"jp"		"{1} の音量が {2} に設定されました"
+	}
+	"Voucher Code 17 chars"
+	{
+		"jp"		"現在、バウチャーコードは正確に17文字でなければなりません"
+	}
+	"Voucher Value"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"このバウチャーの価値は {1} {2} です"
+	}
+	"Voucher accepted"
+	{
+		"jp"		"クーポンが受け入れられました"
+	}
+	"Voucher accepted Panel"
+	{
+		"jp"		"クーポンが受け入れられました"
+	}
+	"Voucher admin generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"jp"		"あなたは {1} {2}制限付きバウチャー{3} を生成しています、価値は {4} {5}"
+	}
+	"Voucher admin min max generated"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"jp"		"あなたは {1} {2}制限付きバウチャー{3} を生成しています、値は {4}-{5} {6}"
+	}
+	"Voucher already redeemed"
+	{
+		"#format"	"{1:s}"
+		"jp"		"入力したバウチャーコードは {1} にすでに引き換えられました"
+	}
+	"Voucher expire"
+	{
+		"#format"	"{1:s}"
+		"jp"		"このバウチャーは {1} に期限切れになります"
+	}
+	"Voucher expired"
+	{
+		"#format"	"{1:s}"
+		"jp"		"入力したバウチャーコードは {1} に期限切れました"
+	}
+	"Voucher in chat"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"jp"		"新しいバウチャー {1} が {2} {3} の価値で作成されました"
+	}
+	"Voucher in chat and console"
+	{
+		"jp"		"バウチャーコードはチャットとコンソールでも見つかります"
+	}
+	"Voucher in console"
+	{
+		"#format"	"{1:s}"
+		"jp"		"クーポンコード: {1}"
+	}
+	"Voucher invalid"
+	{
+		"#format"	"{1:s}"
+		"jp"		"入力したバウチャーコード '{1}' は無効です！"
+	}
+	"Voucher item"
+	{
+		"#format"	"{1:s},{2:s}"
+		"jp"		"このバウチャーには {1} ({2}) が含まれています"
+	}
+	"Voucher valid"
+	{
+		"jp"		"バウチャーコードは有効です"
+	}
+	"Vouchers"
+	{
+		"jp"		"バウチャー"
+	}
+	"Wait until next daily"
+	{
+		"#format"	"{1:s}"
+		"jp"		"次のデイリーまで {1} を待つ必要があります。"
+	}
+	"Wait until next daily 2"
+	{
+		"jp"		"今日はすでにチェックインしました。明日また来てください。"
+	}
+	"Win = "
+	{
+		"jp"		"勝利 = "
+	}
+	"Winner is not in game anymore"
+	{
+		"jp"		"勝者はもうゲームに参加していません。新しい勝者を見つけようとしています。"
+	}
+	"Wrong voucher code format"
+	{
+		"jp"		"バウチャーコードの形式が間違っています。XXXXX-XXXXX-XXXXX である必要があります"
+	}
+	"You"
+	{
+		"jp"		"あなた"
+	}
+	"You already cashed in"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"jp"		"あなたはすでに {1} {2} をジャックポットに現金化しました。現在の当選確率：{3}%% ジャックポット：{4} {5}"
+	}
+	"You already own Voucher item"
+	{
+		"jp"		"入力したバウチャーアイテムはすでに所有しています"
+	}
+	"You already redeemed Voucher"
+	{
+		"jp"		"入力したバウチャーコードはすでに引き換えられています"
+	}
+	"You can start a new Jackpot"
+	{
+		"jp"		"新しいジャックポットを開始できます"
+	}
+	"You can start a new Jackpot in"
+	{
+		"#format"	"{1:s}"
+		"jp"		"新しいジャックポットを{1}後に開始できます。"
+	}
+	"You can't spend that much credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"それほど多くのクレジットを使うことはできません（最大：{1} {2}）。"
+	}
+	"You collected"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたは {1} {2} を収集しました"
+	}
+	"You don't have permission"
+	{
+		"jp"		"これにアクセスする権限がありません。"
+	}
+	"You dropped"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたは {1} {2} を落としました"
+	}
+	"You earned no points this round"
+	{
+		"jp"		"このラウンドではポイントを獲得していません。"
+	}
+	"You earned this round"
+	{
+		"jp"		"あなたはこのラウンドを獲得しました："
+	}
+	"You earned x Credits for"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたは {1} {2} を獲得しました "
+	}
+	"You earned x Credits this round"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"このラウンドで {1} {2} を獲得しました"
+	}
+	"You get x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたは{1} {2}を受け取りました。"
+	}
+	"You get x Credits Panel"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたは{1} {2}を受け取りました。"
+	}
+	"You get x item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"jp"		"あなたは {1} ({2}) を受け取りました。"
+	}
+	"You get x item Panel"
+	{
+		"#format"	"{1:s},{2:t}"
+		"jp"		"あなたは {1} ({2}) を受け取りました。"
+	}
+	"You have to spend at least x credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"少なくとも {1} {2} を使わなければなりません。"
+	}
+	"You have to spend at least x credits."
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"少なくとも {1} {2} を使わなければなりません。"
+	}
+	"You haven't opened the box in given time"
+	{
+		"jp"		"指定された時間内に箱を開けませんでした。ルートボックスはインベントリに戻りました"
+	}
+	"You lose"
+	{
+		"jp"		"- あなたは負けました"
+	}
+	"You lost with"
+	{
+		"jp"		"あなたはこれで負けました"
+	}
+	"You lost x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたは {1} {2} を失いました"
+	}
+	"You mastered the daily challange"
+	{
+		"jp"		"「デイリーチャレンジ」を制覇しました！もう一度挑戦してみてください！"
+	}
+	"You win x Credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたは {1} {2} を獲得しました"
+	}
+	"You won"
+	{
+		"jp"		"!!! あなたは勝ちました !!!"
+	}
+	"You won lootbox item"
+	{
+		"#format"	"{1:s},{2:t}"
+		"jp"		"あなたは {1} ({2}) を獲得しました！"
+	}
+	"You won the Jackpot"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"ジャックポットに {1} {2} で勝ちました！"
+	}
+	"You won the Jackpot - Fee"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"jp"		"ジャックポットに {1} {2} で勝ちましたが、カジノ手数料 {3} {4} ({5}%) が差し引かれます。"
+	}
+	"You won with"
+	{
+		"jp"		"あなたはこれで勝ちました"
+	}
+	"You won x Credits with X"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"jp"		"あなたは {1} クレジットを x{2} の倍率で獲得しました。"
+	}
+	"You'll earn x Credits tomorrow"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"明日 {1} {2} を稼げます！"
+	}
+	"Your Bet - Chance"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"jp"		"あなたの賭け: {1} {2} - チャンス: {3}%"
+	}
+	"Your bet"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"あなたの賭け: {1} {2}"
+	}
+	"Your current winning chance has changed"
+	{
+		"#format"	"{1:.2f}"
+		"jp"		"現在の勝利確率が {1}% に変更されました"
+	}
+	"Zombie Earning Kill"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"{2} を倒して {1} クレジットを獲得しました。"
+	}
+	"admin"
+	{
+		"jp"		"管理者"
+	}
+	"and is limited"
+	{
+		"jp"		"そして制限されています"
+	}
+	"and is unlimited"
+	{
+		"jp"		"そして無制限です"
+	}
+	"arms"
+	{
+		"jp"		"腕"
+	}
+	"assist a kill"
+	{
+		"jp"		"キルのアシスト"
+	}
+	"attachment"
+	{
+		"jp"		"アタッチメント"
+	}
+	"backstab kill"
+	{
+		"jp"		"バックスタブキル"
+	}
+	"be the MVP"
+	{
+		"jp"		"MVPになれ"
+	}
+	"bet x"
+	{
+		"jp"		"賭け x"
+	}
+	"blackjack"
+	{
+		"jp"		"ブラックジャック"
+	}
+	"bomb defused"
+	{
+		"jp"		"爆弾が解除されました"
+	}
+	"bomb explode"
+	{
+		"jp"		"爆弾が爆発"
+	}
+	"bomb planted"
+	{
+		"jp"		"爆弾設置"
+	}
+	"bombtweak"
+	{
+		"jp"		"爆弾調整"
+	}
+	"bullet_impact"
+	{
+		"jp"		"弾丸の衝撃"
+	}
+	"bulletsparks"
+	{
+		"jp"		"弾丸の火花"
+	}
+	"bunnyhob"
+	{
+		"jp"		"ウサギジャンプ"
+	}
+	"bunnyhop"
+	{
+		"jp"		"スキル"
+	}
+	"casino"
+	{
+		"jp"		"カジノ"
+	}
+	"coinflip"
+	{
+		"jp"		"コインフリップ"
+	}
+	"command"
+	{
+		"jp"		""
+	}
+	"confirm_reload_type_0"
+	{
+		"#format"	"{1:i}"
+		"jp"		"設定をリセットしますか？\nマップは{1}秒後に再読み込みされます！"
+	}
+	"confirm_reload_type_1"
+	{
+		"jp"		"設定をリセットしますか？\n変更を適用するにはマップを変更する必要があります、さもないとバグが発生する可能性があります。"
+	}
+	"connect"
+	{
+		"jp"		"接続メッセージ"
+	}
+	"crash"
+	{
+		"jp"		"クラッシュ"
+	}
+	"creditstoplist"
+	{
+		"jp"		"クレジット"
+	}
+	"crowns"
+	{
+		"jp"		"王冠スロット"
+	}
+	"daily"
+	{
+		"jp"		"デイリーボーナス"
+	}
+	"decoy grenade kill"
+	{
+		"jp"		"おとり手榴弾キル"
+	}
+	"dice"
+	{
+		"jp"		"サイコロ"
+	}
+	"direction"
+	{
+		"jp"		"方向"
+	}
+	"discount"
+	{
+		"jp"		"セール"
+	}
+	"distance"
+	{
+		"jp"		"距離"
+	}
+	"dmgtext"
+	{
+		"jp"		"画家"
+	}
+	"emote"
+	{
+		"jp"		"エモート"
+	}
+	"escape as VIP"
+	{
+		"jp"		"VIPとして逃げる"
+	}
+	"flashbang kill"
+	{
+		"jp"		"フラッシュバングキル"
+	}
+	"flashlight"
+	{
+		"jp"		"懐中電灯"
+	}
+	"froggyjump"
+	{
+		"jp"		"カエルジャンプ"
+	}
+	"gloves"
+	{
+		"jp"		"手袋"
+	}
+	"glow"
+	{
+		"jp"		"光"
+	}
+	"godmode"
+	{
+		"jp"		"ゴッドモード"
+	}
+	"gravity"
+	{
+		"jp"		"能力"
+	}
+	"grenademodel"
+	{
+		"jp"		"手榴弾モデル"
+	}
+	"grenadeskin"
+	{
+		"jp"		"手榴弾スキン"
+	}
+	"grenadetrail"
+	{
+		"jp"		"手榴弾の足跡"
+	}
+	"hat"
+	{
+		"jp"		"帽子"
+	}
+	"headshot"
+	{
+		"jp"		"ヘッドショット"
+	}
+	"health"
+	{
+		"jp"		"パック"
+	}
+	"high or low"
+	{
+		"jp"		"高いか低いか"
+	}
+	"hiteff"
+	{
+		"jp"		"ヒットエフェクト:"
+	}
+	"hitsound"
+	{
+		"jp"		"ヒット音"
+	}
+	"hostage rescued"
+	{
+		"jp"		"人質が救出された"
+	}
+	"hunterjump"
+	{
+		"jp"		"ハンタージャンプ"
+	}
+	"idle on the server"
+	{
+		"jp"		"サーバーでアイドル状態"
+	}
+	"in x time"
+	{
+		"#format"	"{1:s}"
+		"jp"		"{1}で。"
+	}
+	"infinityammo"
+	{
+		"jp"		"無限弾薬"
+	}
+	"info"
+	{
+		"jp"		"情報パネル"
+	}
+	"instabomb"
+	{
+		"jp"		"インスタント植え付け / 爆弾解除"
+	}
+	"inv and inv credits"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"jp"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+	"invisibility"
+	{
+		"jp"		"能力"
+	}
+	"items"
+	{
+		"jp"		"アイテム"
+	}
+	"jackpot"
+	{
+		"jp"		"ジャックポット"
+	}
+	"jetpack"
+	{
+		"jp"		"ロケット"
+	}
+	"jihad"
+	{
+		"jp"		"爆弾"
+	}
+	"kill"
+	{
+		"jp"		"殺す"
+	}
+	"kill the VIP"
+	{
+		"jp"		"VIPを殺す"
+	}
+	"kill yourself"
+	{
+		"jp"		"自殺する"
+	}
+	"killeff"
+	{
+		"jp"		"キルエフェクト:"
+	}
+	"knife"
+	{
+		"jp"		"ナイフ"
+	}
+	"knife kill"
+	{
+		"jp"		"ナイフキル"
+	}
+	"laserdraw"
+	{
+		"jp"		"レーザードロー:"
+	}
+	"laserpointer"
+	{
+		"jp"		"レーザーポインター"
+	}
+	"lasersight"
+	{
+		"jp"		"レーザーサイト"
+	}
+	"last update"
+	{
+		"#format"	"{1:s}"
+		"jp"		"最終更新 {1} 前"
+	}
+	"light"
+	{
+		"jp"		"光"
+	}
+	"lootbox"
+	{
+		"jp"		"戦利品箱"
+	}
+	"mirror"
+	{
+		"jp"		"鏡"
+	}
+	"molotov kill"
+	{
+		"jp"		"モロトフキル"
+	}
+	"msgcolor"
+	{
+		"jp"		"メッセージの色"
+	}
+	"mvp_sound"
+	{
+		"jp"		"MVP 賛歌"
+	}
+	"namecolor"
+	{
+		"jp"		"名前の色"
+	}
+	"nametag"
+	{
+		"jp"		"名前タグ"
+	}
+	"nearest"
+	{
+		"jp"		"最寄り"
+	}
+	"nodiscount"
+	{
+		"jp"		" "
+	}
+	"noduckdelay"
+	{
+		"jp"		"しゃがみ遅延なし"
+	}
+	"nofalldamage"
+	{
+		"jp"		"落下ダメージなし"
+	}
+	"noreload"
+	{
+		"jp"		"リロードなし"
+	}
+	"noscope kill"
+	{
+		"jp"		"ノースコープキル"
+	}
+	"noselfdamage"
+	{
+		"jp"		"自分へのダメージなし"
+	}
+	"or use buttons below"
+	{
+		"jp"		"または、下のボタンを使用してください"
+	}
+	"package"
+	{
+		"jp"		"パッケージ"
+	}
+	"paintball"
+	{
+		"jp"		"弾丸"
+	}
+	"painter"
+	{
+		"jp"		"画家"
+	}
+	"parachute"
+	{
+		"jp"		"パラシュート"
+	}
+	"particle"
+	{
+		"jp"		"粒子"
+	}
+	"pet"
+	{
+		"jp"		"ペット"
+	}
+	"playerskin"
+	{
+		"jp"		"プレイヤースキン"
+	}
+	"playing on the server"
+	{
+		"jp"		"サーバーでプレイ中"
+	}
+	"playing x on our server in row"
+	{
+		"#format"	"{1:i}"
+		"jp"		"私たちのサーバーで {1} 日連続でプレイしています"
+	}
+	"received Spawn"
+	{
+		"#format"	"{1:s}"
+		"jp"		"次のスポーンで {1} を受け取ります"
+	}
+	"respawn"
+	{
+		"jp"		"リスポーン"
+	}
+	"roulette"
+	{
+		"jp"		"ルーレット"
+	}
+	"say sound map max uses"
+	{
+		"#format"	"{1:d}"
+		"jp"		"say soundの最大使用回数に達しました。{1} 回/マップの最大使用回数"
+	}
+	"say sound round max uses"
+	{
+		"#format"	"{1:d}"
+		"jp"		"say soundの最大使用回数に達しました。{1} 回/ラウンドの最大使用回数"
+	}
+	"saysound"
+	{
+		"jp"		"音声を言う"
+	}
+	"scoreboardtag"
+	{
+		"jp"		"スコアボードタグ"
+	}
+	"smokegrenade kill"
+	{
+		"jp"		"スモークグレネードキル"
+	}
+	"sound"
+	{
+		"jp"		"音"
+	}
+	"spawn"
+	{
+		"jp"		"追加リスポーン"
+	}
+	"spawneff"
+	{
+		"jp"		"スポーンエフェクト:"
+	}
+	"speed"
+	{
+		"jp"		"能力"
+	}
+	"spray"
+	{
+		"jp"		"スプレー"
+	}
+	"start daily challange"
+	{
+		"jp"		"「デイリーチャレンジ」を開始。次の6日間をプレイして完全なボーナスを受け取ろう"
+	}
+	"taser kill"
+	{
+		"jp"		"テーザーキル"
+	}
+	"teambet"
+	{
+		"jp"		"チームベット"
+	}
+	"teamkill"
+	{
+		"jp"		"チームキル"
+	}
+	"tfhat"
+	{
+		"jp"		"建物の帽子"
+	}
+	"tfhatdye"
+	{
+		"jp"		"帽子染色"
+	}
+	"tfhead"
+	{
+		"jp"		"頭のサイズ"
+	}
+	"tfunusual"
+	{
+		"jp"		"帽子効果"
+	}
+	"tfweapon"
+	{
+		"jp"		"カスタム武器"
+	}
+	"tfweaponsize"
+	{
+		"jp"		"武器サイズ"
+	}
+	"the prize will be drawn in"
+	{
+		"#format"	"{1:s}"
+		"jp"		"賞品は {1} 秒後に抽選されます"
+	}
+	"thirdperson"
+	{
+		"jp"		"第三者"
+	}
+	"throwknife"
+	{
+		"jp"		"ナイフを投げる"
+	}
+	"toplists"
+	{
+		"jp"		"トップリスト"
+	}
+	"tracer"
+	{
+		"jp"		"トレーサー"
+	}
+	"trail"
+	{
+		"jp"		"足跡"
+	}
+	"wasted"
+	{
+		"jp"		"無駄"
+	}
+	"watergun"
+	{
+		"jp"		"効果"
+	}
+	"weapon"
+	{
+		"jp"		"武器"
+	}
+	"weaponcolor"
+	{
+		"jp"		"武器の色"
+	}
+	"weaponmodel"
+	{
+		"jp"		"武器モデル"
+	}
+	"weaponskin"
+	{
+		"jp"		"武器スキン"
+	}
+	"win the round"
+	{
+		"jp"		"ラウンドに勝つ"
+	}
+	"x Credits for"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"jp"		"{1} {2} '{3}' に対して"
+	}
+	"x hours, x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"jp"		"{1} 時間 {2} 分 {3} 秒"
+	}
+	"x hours, x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"jp"		"{1} 時間 {2} 分間 と {3} 秒"
+	}
+	"x minutes, x seconds"
+	{
+		"#format"	"{1:i},{2:i}"
+		"jp"		"{1} 分 {2} 秒"
+	}
+	"x minutes, x seconds toplist"
+	{
+		"#format"	"{1:i},{2:i}"
+		"jp"		"{1} 分と {2} 秒"
+	}
+	"x seconds"
+	{
+		"#format"	"{1:i}"
+		"jp"		"{1} 秒"
+	}
+	"x seconds toplist"
+	{
+		"#format"	"{1:i}"
+		"jp"		"{1} 秒"
+	}
+	"zrclass"
+	{
+		"jp"		"プレイヤークラス"
+	}
+}
