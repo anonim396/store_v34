@@ -55,6 +55,23 @@ public any Native_TogglePlayerTP(Handle plugin, int numParams)
 public void OnPluginStart()
 {
 	RegConsoleCmd("sm_tp", Cmd_ToggleView);
+	HookEvent("player_spawn", Event_PlayerSpawn);
+}
+
+public Action Event_PlayerSpawn(Event event, const char[] name, bool dontBroadcast)
+{
+	int client = GetClientOfUserId(event.GetInt("userid"));
+	if(!IsClientInGame(client))
+		return;
+	
+	if(g_bThirdperson[client])
+	{
+		#if defined _thirdperson_included_
+			ToggleThirdperson(client);
+		#else
+			return;
+		#endif
+	}
 }
 
 public void OnClientDisconnect(int client)

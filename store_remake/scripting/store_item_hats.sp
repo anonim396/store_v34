@@ -5,7 +5,7 @@
 #include <zephstocks>
 
 #include <sdkhooks>
-#include <thirdperson>
+#tryinclude <thirdperson>
 
 
 #pragma newdecls required
@@ -167,23 +167,23 @@ public Action Hats_PlayerSpawn(Handle event, const char[] name, bool dontBroadca
 		return Plugin_Continue;
 		
 	// Support for plugins that set client model
-	CreateTimer(0.1, Hats_PlayerSpawn_Post, GetClientUserId(client));
-		
+	RequestFrame(RequestFrame_Hats_PlayerSpawn_Post, client);
+	
 	return Plugin_Continue;
 }
 
-public Action Hats_PlayerSpawn_Post(Handle timer, any userid)
+public void RequestFrame_Hats_PlayerSpawn_Post(int client)
 {
-	int client = GetClientOfUserId(userid);
+
 	if(!client || !IsClientInGame(client) || !IsPlayerAlive(client) || !(2<=GetClientTeam(client)<=3))
-		return Plugin_Stop;
+		return;
 
 	for(int i=0;i<STORE_MAX_SLOTS;++i)
 	{
 		RemoveHat(client, i);
 		CreateHat(client, -1, i);
 	}
-	return Plugin_Stop;
+	return;
 }
 
 public Action Hats_PlayerRemoveEvent(Handle event, const char[] name, bool dontBroadcast)
@@ -294,9 +294,14 @@ public void RemoveHat(int client,int slot)
 
 public Action Hook_SetTransmit(int ent,int client)
 {
-	if(GetFeatureStatus(FeatureType_Native, "IsPlayerInTP")==FeatureStatus_Available)
-		if(IsPlayerInTP(client))
+	#if defined _thirdperson_included_
+		if(GetFeatureStatus(FeatureType_Native, "IsPlayerInTP")==FeatureStatus_Available)
+			if(IsPlayerInTP(client))
+				return Plugin_Continue;
+	#else
+		if (GetEntProp(client, Prop_Send, "m_iObserverMode") != 0)
 			return Plugin_Continue;
+	#endif
 
 	for(int i=0;i<STORE_MAX_SLOTS;++i)
 		if(ent == g_iClientHats[client][i])
