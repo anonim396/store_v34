@@ -20,7 +20,6 @@ public Plugin myinfo =
 };
 
 #if defined _thirdperson_included_
-
 void ToggleThirdperson(int client)
 {	
 	if (!IsValidClient(client))
@@ -93,7 +92,7 @@ public Action Event_PlayerSpawn(Event event, const char[] name, bool dontBroadca
 		#if defined _thirdperson_included_
 			ToggleThirdperson(client);
 		#else
-			return Plugin_Handled;
+			ToggleThirdpersonSimple(client);
 		#endif
 	}
 	return Plugin_Continue;
