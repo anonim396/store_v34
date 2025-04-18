@@ -2279,4 +2279,2788 @@
 	{
 		"fi"		"pelihahmon luokka"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"{1}21 !!! BLACKJACK !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Olet jo ladannut asetukset. Vaihda tai lataa kartta uudelleen."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Kaikki osallistuvat pelaajat katkeavat yhteyden, kukaan ei saa {2} takaisin, haha. Jackpot oli {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"fi"		"Kaikki luodut ja voimassa olevat kuponkit ovat:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"fi"		"Voitit, mutta omistat jo {1} ({2}). Esine myytiin {3} {4} arvoon"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"fi"		"Olet jo omistanut {1} ({2}). Sinulle on palautettu {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Määrä: {1}"
+	}
+
+	"Aura CM"
+	{
+		"fi"		"Aura:"
+	}
+
+	"Back CM"
+	{
+		"fi"		"Takaisin"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"fi"		"Panoksesi * Kertoimen = Voittoni"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Bonus krediitit: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Pot CT voittaa: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Suurenna veto ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Vähimmäisveto ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"fi"		"Satunnainen veto ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Pot T voittaa: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"fi"		"Vedonlyönti kohteeseen"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"fi"		"Panosta päähän/henkilöön"
+	}
+
+	"Bet on a color CM"
+	{
+		"fi"		"Panosta väriin ja jos tämä väri valitaan, voitat!"
+	}
+
+	"Bet on a number CM"
+	{
+		"fi"		"Panosta Alhaiseen (#1-3), Korkeaan (#4-6) tai tarkkaan numeroon. Jos valintasi osuu, voitat!"
+	}
+
+	"Bet on a team CM"
+	{
+		"fi"		"Panosta joukkueeseen ja jos joukkue voittaa kierroksen, voitat!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"fi"		"Olet jo asettanut vedon tälle kierrokselle."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"fi"		"Määrätty tiimin tunnus on virheellinen."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Hävisit {1} krediteistä vedossa."
+	}
+
+	"Betting Period Over CM"
+	{
+		"fi"		"Vedonlyöntiaika on päättynyt tälle kierrokselle."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Olet onnistuneesti asettanut vedon {1} krediteillä."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Vedonlyöntisi oli onnistunut. Voitit {1} kreditejä."
+	}
+
+	"Black CM"
+	{
+		"fi"		"musta"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"fi"		"Blackjack on peli, jossa korttien arvo kädessäsi täytyy olla suurempi kuin jakajan, eikä ylittää 21."
+	}
+
+	"Buy CM"
+	{
+		"fi"		"Osta esine"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Osta tuote ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"fi"		"Vaihdoit värisi: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"fi"		"Chat-tunnisteen väriasetukset"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"fi"		"Poista väri käytöstä"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"fi"		"Mukautettu tunnisteväri poistettu käytöstä."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"fi"		"Sinulla ei ole varustettuna nimeä"
+	}
+
+	"CP No file found CM"
+	{
+		"fi"		"Käyttäjän mukautettu tunnisteväri on poistettu käytöstä. Ota yhteyttä ylläpitäjään saadaksesi lisätukea."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"fi"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"fi"		"Esikatselussa taulukon tunniste, paina TAB-näppäintä."
+	}
+
+	"Cancel CM"
+	{
+		"fi"		"Peruuta"
+	}
+
+	"Cant be bought CM"
+	{
+		"fi"		"Tätä tuotetta ei voi ostaa"
+	}
+
+	"Cash out CM"
+	{
+		"fi"		"Poistaminen"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Vaihda panostasi: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"fi"		"Olet ostanut {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"fi"		"{1} on lähettänyt sinulle {2} {3} lahjaksi."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"fi"		"Olet lähettänyt {1} {2} {3} lahjaksi."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"fi"		"Olet myynyt {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Avasit säiliön ja löysit {1} krediittiä!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"fi"		"{1} avasi säiliön ja löysi {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"fi"		"{1} avasi säiliön ja löysi {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"fi"		"Tarkista kaikki voimassa olevat ja saatavilla olevat kuponit (vain ylläpitäjille)"
+	}
+
+	"Check Voucher CM"
+	{
+		"fi"		"Tarkista voucher"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"fi"		"Tarkista luotu ja voimassa oleva saatavilla oleva kuponkisi"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"fi"		"Valitse numero (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"fi"		"Automaattinen nosto:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"fi"		"Varusteesi on nollattu."
+	}
+
+	"Client valid voucher CM"
+	{
+		"fi"		"Sinun luotu ja voimassa oleva kuponki on:\n "
+	}
+
+	"Close CM"
+	{
+		"fi"		"Sulje"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"fi"		"Värillinen savu"
+	}
+
+	"Command is in-game only CM"
+	{
+		"fi"		"Sinun täytyy olla elossa käyttääksesi tätä komentoa."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"fi"		"Konfiguraatio ladattiin uudelleen. Käynnistä tai vaihda kartta."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"fi"		"Oletko varma, että haluat ostaa {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"fi"		"Oletko varma, että haluat lahjoittaa {1} {2} {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"fi"		"Oletko varma, että haluat pudottaa {1} {2} lahjaksi?"
+	}
+
+	"Confirm_No CM"
+	{
+		"fi"		"Ei"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"fi"		"Oletko varma, että haluat myydä {1} {2} hintaan {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"fi"		"Oletko varma, että haluat muuntaa {1} ({2}) kupongiksi?\nVAROITUS: Jos kuponissa oleva tuote vanhenee ennen lunastusta.\nTämä kuponki vanhenee."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"fi"		"Kyllä"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"fi"		"{1} sai vastauksen oikein ja voitti {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"fi"		"Counter-Terrorist"
+	}
+
+	"Crash Already Start CM"
+	{
+		"fi"		"Crash-peli on tällä hetkellä käynnissä. Odota seuraavaa peliä."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"fi"		"Pois päältä"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"fi"		"Poista automaattinen nosto käytöstä"
+	}
+
+	"Crash Auto On CM"
+	{
+		"fi"		"Päällä"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"fi"		"Ota automaattinen nosto käyttöön"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"fi"		"           Mikä on/ Kuinka pelata: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"fi"		"- Crash on peli, jossa pelaajat voivat panostaa kertoimeen, joka liittyy nousevaan käyrään, joka voi romahtaa milloin tahansa."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"fi"		"- Kertoimen arvo alkaa 1.00x:stä, ja voit nostaa milloin tahansa."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"fi"		"- Minimipanosarvo on {1} {2}. Maksimipanosarvo on {3} {4}. Nämä rajat voivat muuttua ajan myötä."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"fi"		"Väärä syöte (tämän täytyy olla {1} tai enemmän)."
+	}
+
+	"Crash auto input CM"
+	{
+		"fi"		"Kirjoita automaattinen noston arvo chattiin"
+	}
+
+	"Crash auto input set CM"
+	{
+		"fi"		"Crash auto nosto asetettu"
+	}
+
+	"Crash set auto CM"
+	{
+		"fi"		"Aseta automaattinen noston arvo"
+	}
+
+	"Crash! CM"
+	{
+		"fi"		"Crash!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"fi"		"Luo esineen kuponki (Vain adminille)"
+	}
+
+	"Create Voucher CM"
+	{
+		"fi"		"Luo voucher"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Kuponkien luonti epäonnistui - Ota yhteyttä ylläpitäjään tällä aikaleimalla: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"fi"		"Luoton lahjoittaminen on poistettu käytöstä tällä palvelimella."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Tiputit {1} krediittiä lahjaksi."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"fi"		"{2} on lähettänyt sinulle {1} krediittejä."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"fi"		"Olet lähettänyt {1} krediittejä pelaajalle {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"fi"		"Sinulla ei ole tarpeeksi krediittejä giveawayn luomiseen."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"fi"		"Syötetty virheellinen määrä krediittejä."
+	}
+
+	"Credit No Match CM"
+	{
+		"fi"		"Ei pelaajaa löytynyt."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"fi"		"Sinulla ei ole tarpeeksi krediittejä tämän ostamiseen."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"fi"		"Löytyi useampi kuin yksi asiakas."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"fi"		"Sinulla ei ole tarpeeksi krediittejä luodaksesi voucherin."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"fi"		"Ansaitsit {1} krediittiä {2} tappamisesta."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Ansaitsit {1} krediittiä pelaamalla palvelimella."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"fi"		"{1} on saanut {2} kreditejä."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"fi"		"Luotto: {1}          Potti: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"fi"		"Poistettu käytöstä"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"fi"		"Otettu käyttöön"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"fi"		"[Mukautettu aseen ääni]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"fi"		"Mukautetun aseen äänenvoimakkuuden säätövalikko"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Äänenvoimakkuus: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"fi"		"Mukautettu aseen ääni: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"fi"		"Mukautettu aseen ääni on Poistettu käytöstä."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"fi"		"Mukautettu aseen ääni on käytössä."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Mukautettu aseen ääni on käytössä. Äänenvoimakkuus: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"fi"		"Räätälöity asemalli:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"fi"		"Vahingoita laatikkoa avataksesi sen!"
+	}
+
+	"Dead heat CM"
+	{
+		"fi"		"- tasapeli -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"fi"		"             KÄYNTI     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"fi"		"KÄYNTI"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Alennus: '{1}' on aktiivinen! Hyviä ostoksia!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Alennus: '{1}' on päättynyt."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Alennus: '{1}' on alkanut! Hyviä ostoksia!"
+	}
+
+	"Double CM"
+	{
+		"fi"		"Tupla"
+	}
+
+	"Down CM"
+	{
+		"fi"		"Alas"
+	}
+
+	"Down2 CM"
+	{
+		"fi"		"                      5 = Alas"
+	}
+
+	"Drop Gift CM"
+	{
+		"fi"		"Tiputa lahjaksi"
+	}
+
+	"Edit Amount CM"
+	{
+		"fi"		"Muokkaa määrää: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"fi"		"Ole hyvä ja kirjoita kohteen vanhentumisaika (sekunteina) chattiin!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"fi"		"Virheellinen numeromuoto. Yritä uudelleen."
+	}
+
+	"Enter custom amount CM"
+	{
+		"fi"		"Syötä mukautettu summa keskusteluun!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"fi"		"Syötä keskusteluun luottojen enimmäisarvo!"
+	}
+
+	"Enter minimum value CM"
+	{
+		"fi"		"Anna chatissa vähimmäisarvo krediiteille!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"fi"		"Anna chatissa luotavien voucherien määrä!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"fi"		"Anna ostettavan voucherin arvo chatissa!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"fi"		"Syötä kupongin koodi keskusteluun!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"fi"		"Tapahtui virhe hinnan palautuksessa. Ota yhteyttä ylläpitäjään"
+	}
+
+	"Exact #x  = CM"
+	{
+		"fi"		"Tarkka #x = "
+	}
+
+	"Exit CM"
+	{
+		"fi"		"Poistu"
+	}
+
+	"Gained CM"
+	{
+		"fi"		"Saavutettu"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"fi"		"Saavutettu: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"fi"		"Pelin tiedot"
+	}
+
+	"Game in progress CM"
+	{
+		"fi"		"Nykyinen pelisi on käynnissä. Ole hyvä ja odota, kunnes se on valmis."
+	}
+
+	"Get three on a kind CM"
+	{
+		"fi"		"Saa kolme samanlaista"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Noudit {1} kreditejä."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"fi"		"Noudit {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"fi"		"Ei ole ketään, jolle voit antaa tämän esineen."
+	}
+
+	"Gift Player Left CM"
+	{
+		"fi"		"Valittu pelaaja on jo poistunut pelistä."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"fi"		"{1} Jotta giveaway voidaan tehdä, palvelimella täytyy olla vähintään {2} pelaajaa."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"fi"		"Admin {1} avasi giveaway:n, jossa oli <font color='#15fb00'>{2} krediittiä"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"|| Giveaway alkaa {1} sekunnin kuluttua ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"fi"		"{1} {2} voitti giveawayn {3} krediitillä"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"fi"		"{1}\n|| Voittaja: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"fi"		"Olet saavuttanut maksimimäärän godmodeja, joita voit ostaa tässä kierroksessa."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"fi"		"Et voi käyttää godmodea tässä tiimissä."
+	}
+
+	"Green CM"
+	{
+		"fi"		"vihreä"
+	}
+
+	"HE grenade kill CM"
+	{
+		"fi"		"HE kranaatti tappaa"
+	}
+
+	"HUD CM"
+	{
+		"fi"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"fi"		"Pää"
+	}
+
+	"Health Round Limit CM"
+	{
+		"fi"		"Olet saavuttanut maksimimäärän ensiapupakkauksia, joita voit ostaa tässä kierroksessa."
+	}
+
+	"Help_Back CM"
+	{
+		"fi"		"Takaisin"
+	}
+
+	"Help_Exit CM"
+	{
+		"fi"		"Poistu"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"fi"		"Piilota luotien kipinöitä"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"fi"		"Piilota luotien jäljet"
+	}
+
+	"Hide gloves CM"
+	{
+		"fi"		"Piilota hanskat"
+	}
+
+	"Hide paintball CM"
+	{
+		"fi"		"Piilota paintballit"
+	}
+
+	"Hide particles CM"
+	{
+		"fi"		"Piilota partikkelit"
+	}
+
+	"Hide pets CM"
+	{
+		"fi"		"Piilota lemmikit"
+	}
+
+	"Hide trails CM"
+	{
+		"fi"		"Piilota jäljet"
+	}
+
+	"High #4-6 CM"
+	{
+		"fi"		"Korkea #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"fi"		"Korkea #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"fi"		"High - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"fi"		"KORKEAMPI"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Valittu numero on: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Seuraava numero oli: {1}"
+	}
+
+	"Hit CM"
+	{
+		"fi"		"Isku"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"fi"		"Numero {1} ja {2} väliltä on valittu, jotta voit arvata, onko seuraava numero suurempi vai pienempi valitusta numerosta."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"fi"		"Jos valitset oikean, voitat kaksinkertaisen panoksesi."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"fi"		"Jokaisen pelin välillä on {1} sekunnin tauko."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Olet onnistuneesti asettanut {1} {2}."
+	}
+
+	"Inventory CM"
+	{
+		"fi"		"Varasto"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"fi"		"Please wait. Your inventory hasn't been fetched yet."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"fi"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"fi"		"Varusta tämä esine"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"{1} [VARUSTETTU]"
+	}
+
+	"Item Gift CM"
+	{
+		"fi"		"Lahjoita tämä esine"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"{1} (Valitse suunnitelma)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Myy {1}:llä"
+	}
+
+	"Item Unequip CM"
+	{
+		"fi"		"Poista varustus"
+	}
+
+	"Item Use CM"
+	{
+		"fi"		"Käytä tätä esinettä"
+	}
+
+	"Item Voucher CM"
+	{
+		"fi"		"Luodaan lahjakortti esineestä"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"fi"		"Esineelle luotavan kuponin luominen on tällä hetkellä pois käytöstä."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"fi"		"Olet muuttanut {1} ({2}) lahjakortiksi {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"fi"		"{1} piilotettu. Et näe niitä enää."
+	}
+
+	"Item not found CM"
+	{
+		"fi"		"Esinettä ei löytynyt"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"fi"		"{1} on taas näkyvissä."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"fi"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"fi"		"Jackpot on tauolla."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Jackpot: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"fi"		"Jetpack on tyhjä"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"fi"		"[Jetpack] Polttoaine: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"fi"		"Jetpack on ladattu uudelleen"
+	}
+
+	"Jihad Failed CM"
+	{
+		"fi"		"Pommi ei räjähtänyt."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"fi"		"Jihad-pommi {1} ei räjähtänyt."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"fi"		"Et voi käyttää pommia tässä tiimissä."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"{1} minuuttia ennen kuin crash alkaa."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"{1} sekuntia ennen kuin crash alkaa."
+	}
+
+	"LevelIcon CM"
+	{
+		"fi"		"tason kuvake"
+	}
+
+	"Limited CM"
+	{
+		"fi"		"Rajoitettu - yksi pelaaja"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"fi"		"Ole hyvä ja odota, kunnes edellinen laatikkosi on avattu"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"fi"		"Kartta on päättynyt. Odota seuraavaa karttaa"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"fi"		"Kierros on päättynyt. Odota seuraavaa kierrosta"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"fi"		"Et voi avata lämmittelyn aikana"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Olet menettänyt päivittäisen putkesi {1} päivää."
+	}
+
+	"Lost bet CM"
+	{
+		"fi"		"Epäonnistui! Hävisit vedonlyöntisi"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Hävisit vedon, koska seuraava numero oli: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"fi"		"Matalle #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"fi"		"Matala #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"fi"		"Low - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"fi"		"MATALAMPI"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Tarvitsemme vähintään {1} pelaajaa"
+	}
+
+	"Must be Alive CM"
+	{
+		"fi"		"Sinun täytyy olla elossa käyttääksesi tätä."
+	}
+
+	"Must be dead CM"
+	{
+		"fi"		"Sinun täytyy olla kuollut pelataksesi"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"fi"		"Kerroin = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"fi"		"Ei aktiivista Jackpotia"
+	}
+
+	"No active TeamBet CM"
+	{
+		"fi"		"Ei ole vielä tehty joukkuevedonlyöntejä"
+	}
+
+	"No have flag CM"
+	{
+		"fi"		"Sinulla ei ole oikeuksia käyttää tätä komentoa."
+	}
+
+	"No matching color CM"
+	{
+		"fi"		"Ei vastaavaa väriä, käytä: r/punainen, b/musta tai g/vihreä"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"fi"		"Kukaan ei kerännyt pudonneita krediittejäsi. Saat ne takaisin."
+	}
+
+	"No pick up - removed CM"
+	{
+		"fi"		"Kukaan ei kerännyt pudonneita krediittejäsi. Krediitit poistettiin."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Aika loppui. Oikea vastaus oli {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Ei kukaan muu ole siirtänyt rahaa jackpotille. Saat {1} {2} takaisin!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"fi"		"Sinulla ei ole tarpeeksi krediittejä"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"fi"		"Nyt käynnissä on giveaway, yritä uudelleen muutaman sekunnin kuluttua."
+	}
+
+	"Only number CM"
+	{
+		"fi"		"Voit kirjoittaa vain numeroita..."
+	}
+
+	"Override Disabled CM"
+	{
+		"fi"		"Ihosi ei tue hattuja. Päälläsi oleva hattu poistetaan käytöstä."
+	}
+
+	"Override Enabled CM"
+	{
+		"fi"		"Nykyinen ihosi ei tue hattuja. Ihollesi tehdään muutos."
+	}
+
+	"Owned CM"
+	{
+		"fi"		"[Omistettu]"
+	}
+
+	"Package Gift CM"
+	{
+		"fi"		"Lahjoita tämä paketti"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Myy tämä paketti {1} hintaan"
+	}
+
+	"Package Voucher CM"
+	{
+		"fi"		"Luoda voucher paketista"
+	}
+
+	"Parachute Empty CM"
+	{
+		"fi"		"Pariisi tyhjä"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"fi"		"Pariisi ladattu"
+	}
+
+	"Particles CM"
+	{
+		"fi"		"Hiukkaset:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Aseta {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"fi"		"Soitan esikatselun äänen sinulle."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"fi"		"{1}:llä on {2} krediittiä."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"{1} on nollattu."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"fi"		"Store Player Skin -moduuli on tällä hetkellä tilapäisesti poistettu käytöstä."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"fi"		"{1} on lisännyt {2} {3} jackpotille, hänen nykyinen voittomahdollisuus on: {4}% (Jackpot: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"fi"		"{1} on hävinnyt {2} {3} pelissä {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"fi"		"{1} avasi jättipotin {2} {3} kanssa. Käytä rahaa ottaaksesi rahat!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"fi"		"{1} voitti jättipotin {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"fi"		"{1} on voittanut {2} {3} pelissä {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"fi"		"{1} voitti {2} {3} kertoimella x{4} paikassa {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"fi"		"Uudet asetuksesi otetaan käyttöön seuraavassa spawnissa."
+	}
+
+	"Press CM"
+	{
+		"fi"		"Painaa"
+	}
+
+	"Press to Start CM"
+	{
+		"fi"		"Painaa aloittaaksesi!"
+	}
+
+	"Press to Stop CM"
+	{
+		"fi"		"Painaa pysäyttääksesi!"
+	}
+
+	"Preview Item CM"
+	{
+		"fi"		"Esikatsele tämä tuote"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Hinta: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"fi"		"Osta voucher"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"fi"		"Kuinka paljon on {1} {2} {3}? | Palkinto: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"fi"		"punainen"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"fi"		"Hyödynnä voucher"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Suorita uudelleen {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"fi"		"Olet saavuttanut maksimimäärän respawnia, joita voit ostaa tässä kierroksessa."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"fi"		"Turvallisuussyistä et voi lähettää useita pyyntöjä lyhyessä ajassa."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"fi"		"Toinen voittaja ei ole enää pelissä, viimeinen yritys löytää uusi voittaja."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Sinun täytyy odottaa {1} sekuntia ennen kuin yrität käyttää tätä komentoa uudelleen."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"fi"		"Näytä luotien kipinöitä"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"fi"		"Näytä luotien jäljet"
+	}
+
+	"Show gloves CM"
+	{
+		"fi"		"Näytä hanskat"
+	}
+
+	"Show paintball CM"
+	{
+		"fi"		"Näytä paintballit"
+	}
+
+	"Show particles CM"
+	{
+		"fi"		"Näytä partikkelit"
+	}
+
+	"Show pets CM"
+	{
+		"fi"		"Näytä lemmikit"
+	}
+
+	"Show trails CM"
+	{
+		"fi"		"Näytä jäljet"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Et voi käyttää pienempää arvoa kuin vähimmäisarvosi ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"fi"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Spämisuoja. Ole hyvä ja odota {1} sekuntia."
+	}
+
+	"Spawn Preview CM"
+	{
+		"fi"		"Esikatselu luotiin. Esikatselu katoaa 45 sekunnin kuluttua."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"fi"		"Esikatselu luotiin. Esikatselu katoaa {1} sekunnin kuluttua."
+	}
+
+	"Start again from begin CM"
+	{
+		"fi"		"Alkaa uudelleen alusta"
+	}
+
+	"Starting CM"
+	{
+		"fi"		"Aloittaminen"
+	}
+
+	"Stay CM"
+	{
+		"fi"		"Seiso"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"fi"		"Oletko varma, että haluat nollata varusteesi? Kaikki esineet poistetaan."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"fi"		"Ostit onnistuneesti kupongin"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"fi"		"Tämä esine oli tarkoitettu käytettäväksi toisen pelaajaluokan kanssa."
+	}
+
+	"Tail CM"
+	{
+		"fi"		"Häntä"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"fi"		"Olet jo asettanut panoksesi tälle kierrokselle."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"fi"		"Annettu virheellinen joukkueen tunniste."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Menetit {1} {2} panoksessa."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"fi"		"Vedonlyöntiaika tälle kierrokselle on päättynyt."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Olet onnistuneesti asettanut vedon {1} krediitistä."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Panoksesi oli onnistunut. Voitit {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"fi"		"Toiselle joukkueelle ei ollut panosta, joten sait krediteistäsi takaisin."
+	}
+
+	"Terrorist CM"
+	{
+		"fi"		"Terroristi"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Valittu numero on: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Seuraava numero oli: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"fi"		"Tämä on esikatseluteksti."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Ylläpitäjä on ladannut kaupan asetukset uudelleen. Kartta ladataan {1} sekunnin kuluttua!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"fi"		"Admin Esinekuponin Luomismenu.\n \nValitse esineen kesto."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"fi"		"Admin Esinekuponin Luomismenu"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Luotto: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"fi"		"Vanhenee {1}p {2}t"
+	}
+
+	"Title Gift CM"
+	{
+		"fi"		"Valitse pelaaja, jolle lähetät lahjan"
+	}
+
+	"Title Store CM"
+	{
+		"fi"		"Kaupan valikko"
+	}
+
+	"To late chat input CM"
+	{
+		"fi"		"Tekstisi syöttö ei ole suoritettu annetussa ajassa"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Maassa on liian monta {1}, et voi pudottaa enempää juuri nyt!"
+	}
+
+	"Top Credits CM"
+	{
+		"fi"		"Parhaat Kreditit"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"fi"		"Top Kreditit + Inventaarin Arvo"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"fi"		"Top Inventaarin Arvo"
+	}
+
+	"Top Most Items CM"
+	{
+		"fi"		"Eniten saadut esineet"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Yhteensä: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"fi"		"Yritä uudelleen"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"fi"		"Kirjoita chattiin !bet <panos> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"fi"		"Kirjoita chattiin !blackjack <panos>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"fi"		"Kirjoita chattiin !coinflip <panos> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"fi"		"Kirjoita chattiin !crash <panos>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"fi"		"Kirjoita chattiin !crowns <panos>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"fi"		"Kirjoita chattiin !dice <panos> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"fi"		"Kirjoita chattiin !jackpot <panos>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"fi"		"Kirjoita chattiin !roulette <panos> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"fi"		"Rajoittamaton - useita pelaajia"
+	}
+
+	"Up CM"
+	{
+		"fi"		"Ylös"
+	}
+
+	"Value less than 1 CM"
+	{
+		"fi"		"Et voi käyttää arvoa, joka on pienempi kuin 1."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"fi"		"{1} äänenvoimakkuus asetettu arvoon {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"fi"		"Tällä hetkellä kuponkikoodin täytyy olla tarkalleen 17 merkkiä"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Kuponki on arvoltaan {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"fi"		"Voucher hyväksyttiin"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"fi"		"Voucher hyväksyttiin"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"fi"		"Olet luomassa {1} {2}rajoitettua kuponkia{3} arvolla {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"fi"		"Olet luomassa {1} {2}rajoitettua kuponkia{3} arvoilla {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Syötetty kuponkikoodi on jo lunastettu {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Tämä kuponki vanhenee {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Syötetty kuponkikoodi on vanhentunut {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"fi"		"Uusi lahjakortti {1} luotu arvolla {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"fi"		"Löydät myös kupongin koodin keskustelusta ja konsolista"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Voucher-koodi: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Annettu kuponkikoodi '{1}' ei ole voimassa!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"fi"		"Kuponki sisältää {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"fi"		"Kuponkikoodi on voimassa"
+	}
+
+	"Vouchers CM"
+	{
+		"fi"		"Voucher"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Sinun täytyy odottaa {1} seuraavaan päivittäiseen."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"fi"		"Olet jo kirjautunut tänään. Palaa huomenna."
+	}
+
+	"Win = CM"
+	{
+		"fi"		"Voitto = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"fi"		"Voittaja ei ole enää pelissä, yritämme löytää uuden voittajan."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"fi"		"Kuponkikoodin muoto on väärä. Sen on oltava XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"fi"		"SINÄ"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"fi"		"Olet jo siirtänyt {1} {2} jackpotiin. Nykyinen voittomahdollisuus: {3}%% Jackpot: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"fi"		"Omistat jo syötetyn kuponkiesineen"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"fi"		"Olet jo lunastanut syötetyn kuponkikoodin"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"fi"		"Voit aloittaa uuden Jackpotin"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Voit aloittaa uuden Jackpotin {1} kuluttua."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Et voi käyttää niin monta krediittiä (Maksimi: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Olet kerännyt {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"fi"		"Sinulla ei ole lupaa käyttää tätä."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Sinä pudotit {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"fi"		"Et ansainnut pisteitä tässä kierroksessa."
+	}
+
+	"You earned this round CM"
+	{
+		"fi"		"Ansaitsit tämän kierroksen:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Ansaitsit {1} {2} "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Ansaitsit {1} {2} tällä kierroksella"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Sait {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Sait {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"fi"		"Sait {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"fi"		"Sait {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Sinun täytyy käyttää vähintään {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Sinun täytyy käyttää vähintään {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"fi"		"Et ole avannut laatikkoa annetussa ajassa. Lootbox on palautettu varastoosi"
+	}
+
+	"You lose CM"
+	{
+		"fi"		"- hävisit"
+	}
+
+	"You lost with CM"
+	{
+		"fi"		"Jouduit häviämään sillä"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Hävisit {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"fi"		"Olet hallinnut 'päivittäisen haasteen'! Yritä voittaa se uudestaan!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Voitit {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"fi"		"!!! VOITIT !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"fi"		"Voitit {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Voitit jättipotin {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"fi"		"Voitit jättipotin {1} {2} miinus kasinon palkkio {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"fi"		"Voitit sillä"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"fi"		"Voitit {1} krediittiä x{2} kertoimella."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Ansaitset {1} {2} huomenna!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"fi"		"Vedonlyöntisi: {1} {2} - Mahdollisuus: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Panoksesi: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"fi"		"Nykyinen voittomahdollisuutesi on muuttunut {1}%:iin"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Olet ansainnut {1} krediittejä tappamalla {2}."
+	}
+
+	"admin CM"
+	{
+		"fi"		"ylläpitäjä"
+	}
+
+	"and is limited CM"
+	{
+		"fi"		"ja on rajoitettu"
+	}
+
+	"and is unlimited CM"
+	{
+		"fi"		"ja on rajoittamaton"
+	}
+
+	"arms CM"
+	{
+		"fi"		"kädet"
+	}
+
+	"assist a kill CM"
+	{
+		"fi"		"auttaminen tappoon"
+	}
+
+	"attachment CM"
+	{
+		"fi"		"Lisävaruste"
+	}
+
+	"backstab kill CM"
+	{
+		"fi"		"backstab tappaa"
+	}
+
+	"be the MVP CM"
+	{
+		"fi"		"ole MVP"
+	}
+
+	"bet x CM"
+	{
+		"fi"		"panos x"
+	}
+
+	"blackjack CM"
+	{
+		"fi"		"Blackjack"
+	}
+
+	"bomb defused CM"
+	{
+		"fi"		"pommi purkautuu"
+	}
+
+	"bomb explode CM"
+	{
+		"fi"		"pommi räjähtää"
+	}
+
+	"bomb planted CM"
+	{
+		"fi"		"pommi istutettu"
+	}
+
+	"bombtweak CM"
+	{
+		"fi"		"Pommin säätö"
+	}
+
+	"bullet_impact CM"
+	{
+		"fi"		"Kuulan vaikutus"
+	}
+
+	"bulletsparks CM"
+	{
+		"fi"		"Kuulansyöksysparkeja"
+	}
+
+	"bunnyhob CM"
+	{
+		"fi"		"Kaninhyppy"
+	}
+
+	"bunnyhop CM"
+	{
+		"fi"		"taito"
+	}
+
+	"casino CM"
+	{
+		"fi"		"Casino"
+	}
+
+	"coinflip CM"
+	{
+		"fi"		"Kolikon heitto"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Halutko nollata asetukset?\nKartta ladataan {1} sekunnin kuluttua!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"fi"		"Halutko nollata asetukset?\nSinun täytyy vaihtaa kartta, jotta muutokset tulevat voimaan, muuten voi ilmetä virheitä."
+	}
+
+	"connect CM"
+	{
+		"fi"		"Yhteysviesti"
+	}
+
+	"crash CM"
+	{
+		"fi"		"Crash"
+	}
+
+	"creditstoplist CM"
+	{
+		"fi"		"luotto"
+	}
+
+	"crowns CM"
+	{
+		"fi"		"Kruunupaikka"
+	}
+
+	"daily CM"
+	{
+		"fi"		"Jokapäiväinen bonus"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"fi"		"decoy kranaatti tappaa"
+	}
+
+	"dice CM"
+	{
+		"fi"		"Kuutiot"
+	}
+
+	"direction CM"
+	{
+		"fi"		"Suunta"
+	}
+
+	"discount CM"
+	{
+		"fi"		"ALE"
+	}
+
+	"distance CM"
+	{
+		"fi"		"Etäisyys"
+	}
+
+	"dmgtext CM"
+	{
+		"fi"		"Maalaaja"
+	}
+
+	"emote CM"
+	{
+		"fi"		"Emote"
+	}
+
+	"escape as VIP CM"
+	{
+		"fi"		"Pakene VIP:nä"
+	}
+
+	"flashbang kill CM"
+	{
+		"fi"		"flashbang tappaa"
+	}
+
+	"flashlight CM"
+	{
+		"fi"		"Taskulamppu"
+	}
+
+	"froggyjump CM"
+	{
+		"fi"		"Sammakon Hyppy"
+	}
+
+	"gloves CM"
+	{
+		"fi"		"lapaset"
+	}
+
+	"glow CM"
+	{
+		"fi"		"hehku"
+	}
+
+	"godmode CM"
+	{
+		"fi"		"jumalmoodi"
+	}
+
+	"gravity CM"
+	{
+		"fi"		"kyky"
+	}
+
+	"grenademodel CM"
+	{
+		"fi"		"Granatimalli"
+	}
+
+	"grenadeskin CM"
+	{
+		"fi"		"kranaatin iho"
+	}
+
+	"grenadetrail CM"
+	{
+		"fi"		"kranaatin jälki"
+	}
+
+	"hat CM"
+	{
+		"fi"		"hattu"
+	}
+
+	"headshot CM"
+	{
+		"fi"		"päähänosuma"
+	}
+
+	"health CM"
+	{
+		"fi"		"paketti"
+	}
+
+	"high or low CM"
+	{
+		"fi"		"Korkeampi vai matalampi"
+	}
+
+	"hiteff CM"
+	{
+		"fi"		"iskun effecti:"
+	}
+
+	"hitsound CM"
+	{
+		"fi"		"Osumaääni"
+	}
+
+	"hostage rescued CM"
+	{
+		"fi"		"panttivanki pelastettu"
+	}
+
+	"hunterjump CM"
+	{
+		"fi"		"Metsästäjän Hyppy"
+	}
+
+	"idle on the server CM"
+	{
+		"fi"		"ittumassa palvelimella"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"ajassa {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"fi"		"Äärettömät patruunat"
+	}
+
+	"info CM"
+	{
+		"fi"		"Tietopaneeli"
+	}
+
+	"instabomb CM"
+	{
+		"fi"		"Heti istutus / purku"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"fi"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"fi"		"kyky"
+	}
+
+	"items CM"
+	{
+		"fi"		"Esineet"
+	}
+
+	"jackpot CM"
+	{
+		"fi"		"Jackpot"
+	}
+
+	"jetpack CM"
+	{
+		"fi"		"raketti"
+	}
+
+	"jihad CM"
+	{
+		"fi"		"pommi"
+	}
+
+	"kill CM"
+	{
+		"fi"		"tappa"
+	}
+
+	"kill the VIP CM"
+	{
+		"fi"		"tappa VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"fi"		"tapa itsesi"
+	}
+
+	"killeff CM"
+	{
+		"fi"		"tappoefekti:"
+	}
+
+	"knife CM"
+	{
+		"fi"		"veitsi"
+	}
+
+	"knife kill CM"
+	{
+		"fi"		"puukko tappaa"
+	}
+
+	"laserdraw CM"
+	{
+		"fi"		"laserpiirros:"
+	}
+
+	"laserpointer CM"
+	{
+		"fi"		"Lasermarkkeri"
+	}
+
+	"lasersight CM"
+	{
+		"fi"		"lasermerkki"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"viimeisin päivitys {1} sitten"
+	}
+
+	"light CM"
+	{
+		"fi"		"Valo"
+	}
+
+	"lootbox CM"
+	{
+		"fi"		"Saaliarkku"
+	}
+
+	"mirror CM"
+	{
+		"fi"		"peili"
+	}
+
+	"molotov kill CM"
+	{
+		"fi"		"molotov tappaa"
+	}
+
+	"msgcolor CM"
+	{
+		"fi"		"viestin väri"
+	}
+
+	"mvp_sound CM"
+	{
+		"fi"		"MVP-hymnit"
+	}
+
+	"namecolor CM"
+	{
+		"fi"		"nimen väri"
+	}
+
+	"nametag CM"
+	{
+		"fi"		"nimilappu"
+	}
+
+	"nearest CM"
+	{
+		"fi"		"Lähin"
+	}
+
+	"nodiscount CM"
+	{
+		"fi"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"fi"		"Ei hidastumista kyykistettäessä"
+	}
+
+	"nofalldamage CM"
+	{
+		"fi"		"Ei pudotustapaa"
+	}
+
+	"noreload CM"
+	{
+		"fi"		"Ei ladata"
+	}
+
+	"noscope kill CM"
+	{
+		"fi"		"kill ilman tähtäintä"
+	}
+
+	"noselfdamage CM"
+	{
+		"fi"		"Ei itselleen aiheutettua vahinkoa"
+	}
+
+	"or use buttons below CM"
+	{
+		"fi"		"tai käytä alla olevia painikkeita"
+	}
+
+	"package CM"
+	{
+		"fi"		"paketti"
+	}
+
+	"paintball CM"
+	{
+		"fi"		"kuulat"
+	}
+
+	"painter CM"
+	{
+		"fi"		"Maalaaja"
+	}
+
+	"parachute CM"
+	{
+		"fi"		"Pariisi"
+	}
+
+	"particle CM"
+	{
+		"fi"		"Hiukkaset"
+	}
+
+	"pet CM"
+	{
+		"fi"		"lemmikki"
+	}
+
+	"playerskin CM"
+	{
+		"fi"		"pelihahmo iho"
+	}
+
+	"playing on the server CM"
+	{
+		"fi"		"pelaa palvelimella"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Pelasit palvelimellamme {1} päivää putkeen"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Saat {1} seuraavalla spawnilla"
+	}
+
+	"respawn CM"
+	{
+		"fi"		"Uudelleensyntyminen"
+	}
+
+	"roulette CM"
+	{
+		"fi"		"Ruletti"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Olet saavuttanut sanan äänen maksimikäytön. {1} maksimikäyttöä per kartta"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Olet saavuttanut sanan äänen maksimikäytön. {1} maksimikäyttöä per kierros"
+	}
+
+	"saysound CM"
+	{
+		"fi"		"sano ääni"
+	}
+
+	"scoreboardtag CM"
+	{
+		"fi"		"Taulukkotunnus"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"fi"		"smokegrenade tappaa"
+	}
+
+	"sound CM"
+	{
+		"fi"		"ääni"
+	}
+
+	"spawn CM"
+	{
+		"fi"		"Lisä respawn"
+	}
+
+	"spawneff CM"
+	{
+		"fi"		"synnytysefekti:"
+	}
+
+	"speed CM"
+	{
+		"fi"		"kyky"
+	}
+
+	"spray CM"
+	{
+		"fi"		"suihke"
+	}
+
+	"start daily challange CM"
+	{
+		"fi"		"Aloita 'päivittäinen haaste'. Pelaa seuraavat 6 päivää saadaksesi täyden bonuksen"
+	}
+
+	"taser kill CM"
+	{
+		"fi"		"taser tappaa"
+	}
+
+	"teambet CM"
+	{
+		"fi"		"TeamBet"
+	}
+
+	"teamkill CM"
+	{
+		"fi"		"teamkill"
+	}
+
+	"tfhat CM"
+	{
+		"fi"		"rakennus hattu"
+	}
+
+	"tfhatdye CM"
+	{
+		"fi"		"hattiväri"
+	}
+
+	"tfhead CM"
+	{
+		"fi"		"pään koko"
+	}
+
+	"tfunusual CM"
+	{
+		"fi"		"hatin efekti"
+	}
+
+	"tfweapon CM"
+	{
+		"fi"		"räätälöity ase"
+	}
+
+	"tfweaponsize CM"
+	{
+		"fi"		"aseen koko"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Palkinto arvotaan {1} sekunnin kuluttua"
+	}
+
+	"thirdperson CM"
+	{
+		"fi"		"kolmas persoona"
+	}
+
+	"throwknife CM"
+	{
+		"fi"		"Heihettävä veitsi"
+	}
+
+	"toplists CM"
+	{
+		"fi"		"Top-listat"
+	}
+
+	"tracer CM"
+	{
+		"fi"		"seuranta"
+	}
+
+	"trail CM"
+	{
+		"fi"		"jälki"
+	}
+
+	"wasted CM"
+	{
+		"fi"		"hukattu"
+	}
+
+	"watergun CM"
+	{
+		"fi"		"vaikutus"
+	}
+
+	"weapon CM"
+	{
+		"fi"		"ase"
+	}
+
+	"weaponcolor CM"
+	{
+		"fi"		"aseen väri"
+	}
+
+	"weaponmodel CM"
+	{
+		"fi"		"aseen malli"
+	}
+
+	"weaponskin CM"
+	{
+		"fi"		"aseen ulkoasu"
+	}
+
+	"win the round CM"
+	{
+		"fi"		"voita kierros"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"fi"		"{1} {2} varten '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"fi"		"{1} tuntia {2} minuuttia ja {3} sekuntia"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"fi"		"{1} tunti(a) {2} minuutti(a) ja {3} sekunti(a)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"fi"		"{1} minuuttia ja {2} sekuntia"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"fi"		"{1} minuutti(a) ja {2} sekunti(a)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"{1} sekuntia"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"fi"		"{1} sekunti(a)"
+	}
+
+	"zrclass CM"
+	{
+		"fi"		"pelihahmon luokka"
+	}
 }

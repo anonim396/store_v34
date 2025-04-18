@@ -2279,4 +2279,2788 @@
 	{
 		"lv"		"spēlētāja klase"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"{1}21 !!! BLACKJACK !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs jau esat pārlādējuši konfigurāciju. Lūdzu, mainiet vai pārlādējiet karti."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Visi piedalījušies spēlētāji atvienojas, neviens neatgūs savu {2}, haha. Džekpots bija {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"lv"		"Visi ģenerētie un derīgie kuponi ir:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"lv"		"Jūs uzvarējāt, bet jau pieder {1} ({2}). Priekšmets tika pārdots par {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"lv"		"Jūs jau esat īpašnieks {1} ({2}). Jums tika atmaksāti {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Summa: {1}"
+	}
+
+	"Aura CM"
+	{
+		"lv"		"Aura:"
+	}
+
+	"Back CM"
+	{
+		"lv"		"Atpakaļ"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"lv"		"Likme * Koeficients = Jūsu uzvara"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Bonusa kredīti: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"CT uzvarēja džeku: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Maximālā likme ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Minimālā likme ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"lv"		"Random likme ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"T uzvarēja džeku: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"lv"		"Veikt likmi uz"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"lv"		"Likts uz Galvu/Ķīli"
+	}
+
+	"Bet on a color CM"
+	{
+		"lv"		"Likts uz krāsu un, ja šī krāsa tiek izvēlēta, jūs uzvarat!"
+	}
+
+	"Bet on a number CM"
+	{
+		"lv"		"Likts uz Zemu (#1-3), Augstu (#4-6) vai precīzu skaitli. Ja jūsu izvēle ir izmetusies, jūs uzvarat!"
+	}
+
+	"Bet on a team CM"
+	{
+		"lv"		"Likts uz komandu un, ja komanda uzvar raundu, jūs uzvarat!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"lv"		"Jūs jau esat veicis savu likmi šim raundam."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"lv"		"Norādīts nederīgs komandas identifikators."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūs zaudējāt {1} kredītus likmē."
+	}
+
+	"Betting Period Over CM"
+	{
+		"lv"		"Derīguma periods likmēm šim raundam ir beidzies."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūs veiksmīgi veicāt likmi par {1} kredītiem."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūsu likme bija veiksmīga. Jūs uzvarējāt {1} kredītus."
+	}
+
+	"Black CM"
+	{
+		"lv"		"Melns"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"lv"		"Blackjack ir spēle, kurā jūsu rokās esošo kāršu vērtībai jābūt augstākai par dīlera vērtību, nepārsniedzot 21."
+	}
+
+	"Buy CM"
+	{
+		"lv"		"Pērciet priekšmetu"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Pirkt priekšmetu ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"lv"		"Jūs mainījāt savu krāsu uz: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"lv"		"Čata tagu krāsas opcija"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"lv"		"Atspējot krāsu"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"lv"		"Pielāgota tagu krāsa atspējota."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"lv"		"Nav uzstādīta neviena vārdu etiķete"
+	}
+
+	"CP No file found CM"
+	{
+		"lv"		"Lietotāja pielāgotās tagu krāsas iestatījums ir atspējots. Lūdzu, sazinieties ar administratoru, lai saņemtu papildu atbalstu."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"lv"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"lv"		"Rāda tabulas žīmju priekšskatījumu, lūdzu, nospiediet TAB taustiņu."
+	}
+
+	"Cancel CM"
+	{
+		"lv"		"Atcelt"
+	}
+
+	"Cant be bought CM"
+	{
+		"lv"		"Šo priekšmetu nevar iegādāties"
+	}
+
+	"Cash out CM"
+	{
+		"lv"		"Izņemt"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Mainīt savu likmi: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs esat iegādājies {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lv"		"{1} jums nosūtīja {2} {3} kā dāvanu."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lv"		"Jūs nosūtījāt {1} {2} {3} kā dāvanu."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs esat pārdevusi {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs atvērāt konteineru un atradāt {1} kredītus!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lv"		"{1} atvēra konteineru un atrada {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lv"		"{1} atvēra konteineru un atrada {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"lv"		"Pārbaudiet visus derīgos un pieejamos kuponus (tikai administratoriem)"
+	}
+
+	"Check Voucher CM"
+	{
+		"lv"		"Pārbaudīt kuponu"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"lv"		"Pārbaudiet savu ģenerēto un derīgo pieejamo kuponu"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"lv"		"Izvēlieties numuru (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"lv"		"Automātiskā izņemšana:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"lv"		"Jūsu aprīkojums tika atiestatīts."
+	}
+
+	"Client valid voucher CM"
+	{
+		"lv"		"Jūsu ģenerētais un derīgais kupons ir:\n "
+	}
+
+	"Close CM"
+	{
+		"lv"		"Aizvērt"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"lv"		"Krāsainais dūms"
+	}
+
+	"Command is in-game only CM"
+	{
+		"lv"		"Lai izmantotu šo komandu, jums jābūt dzīvajam."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"lv"		"Konfigurācija tika pārslodēta. Lūdzu, restartējiet vai mainiet karti."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Vai esat pārliecināts, ka vēlaties iegādāties {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"lv"		"Vai esat pārliecināts, ka vēlaties uzdāvināt {1} {2} {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Vai esat pārliecināts, ka vēlaties nomest {1} {2} kā dāvanu?"
+	}
+
+	"Confirm_No CM"
+	{
+		"lv"		"Nē"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"lv"		"Vai esat pārliecināts, ka vēlaties pārdot {1} {2} par {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Vai tiešām vēlaties pārvērst {1} ({2}) kuponā?\nBRĪDINĀJUMS: Ja kuponā esošais priekšmets beidzas pirms izņemšanas.\nŠis kupons beigsies."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"lv"		"Jā"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"lv"		"{1} pareizi atbildēja un laimēja {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"lv"		"Pretterorists"
+	}
+
+	"Crash Already Start CM"
+	{
+		"lv"		"Crash spēle pašlaik notiek. Lūdzu, gaidiet nākamo spēli."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"lv"		"Izslēgts"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"lv"		"Izslēdziet automātisko izņemšanu"
+	}
+
+	"Crash Auto On CM"
+	{
+		"lv"		"Ieslēgts"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"lv"		"Ieslēdziet automātisko izņemšanu"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"lv"		"           Kas ir/ Kā spēlēt: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"lv"		"- Crash ir spēle, kurā spēlētāji var likt uz reizinātāju, šis reizinātājs ir saistīts ar pieaugošu līkni, kas jebkurā brīdī var sabrukt."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"lv"		"- Reizinātājs sākas no 1.00x, un jūs varat izņemt jebkurā laikā."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"lv"		"- Minimālā likmes vērtība ir {1} {2}. Maximālā likmes vērtība ir {3} {4}. Šie ierobežojumi var mainīties ar laiku."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"lv"		"Nepareizs ievads (tam jābūt {1} vai vairāk)."
+	}
+
+	"Crash auto input CM"
+	{
+		"lv"		"Ierakstiet savu automātiskās izņemšanas vērtību čatā"
+	}
+
+	"Crash auto input set CM"
+	{
+		"lv"		"Crash automātiskā izņemšana iestatīta"
+	}
+
+	"Crash set auto CM"
+	{
+		"lv"		"Uzstādiet automātiskās izņemšanas vērtību"
+	}
+
+	"Crash! CM"
+	{
+		"lv"		"Crash!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"lv"		"Izveidot priekšmetu kuponu (tikai administratoriem)"
+	}
+
+	"Create Voucher CM"
+	{
+		"lv"		"Izveidot kuponu"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Kupona izveide neizdevās - Sazinieties ar administratoru ar šo laika zīmogu: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"lv"		"Kredītu dāvināšana šajā serverī ir atspējota."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūs nometāt {1} kredītus kā dāvanu."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lv"		"{2} nosūtīja jums {1} kredītus."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lv"		"Jūs nosūtījāt {1} kredītus spēlētājam {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"lv"		"Jums nav pietiekami kredīti, lai izveidotu giveaway."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"lv"		"Ievadīts nederīgs kredītu daudzums."
+	}
+
+	"Credit No Match CM"
+	{
+		"lv"		"Spēlētājs netika atrasts."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"lv"		"Jums nav pietiekami kredīti, lai iegādātos šo."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"lv"		"Tika atrasti vairāki klienti."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"lv"		"Jums nav pietiekami kredīti, lai izveidotu kuponu."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lv"		"Jūs nopelnījāt {1} kredītus, nogalinot {2}."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūs nopelnījāt {1} kredītus, spēlējot serverī."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"lv"		"{1} ir saņēmis {2} kredītus."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"lv"		"Kredīti: {1}          Pot: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"lv"		"Atspējots"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"lv"		"Ieslēgts"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"lv"		"[Pielāgotais ieroča skaņas]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"lv"		"Pielāgotā ieroča skaņas skaļuma kontroles izvēlne"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Skaļums: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"lv"		"Pielāgotais ieroča skaņas: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"lv"		"Pielāgotā ieroča skaņa ir Atspējota."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"lv"		"Pielāgotā ieroča skaņa ir aktivizēta."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Pielāgotā ieroča skaņa ir aktivizēta. Skaļums: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"lv"		"Pielāgots ieroču modelis:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"lv"		"Sabojājiet kasti, lai to atvērtu!"
+	}
+
+	"Dead heat CM"
+	{
+		"lv"		"- neizšķirts -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"lv"		"             DEALER     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"lv"		"DEALER"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Atlaide: '{1}' ir aktīva! Patīkamu iepirkšanos!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Atlaide: '{1}' ir beigusies."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Atlaide: '{1}' sākusies! Patīkamu iepirkšanos!"
+	}
+
+	"Double CM"
+	{
+		"lv"		"Divkāršot"
+	}
+
+	"Down CM"
+	{
+		"lv"		"Lejā"
+	}
+
+	"Down2 CM"
+	{
+		"lv"		"                      5 = Lejā"
+	}
+
+	"Drop Gift CM"
+	{
+		"lv"		"Atstāt kā dāvanu"
+	}
+
+	"Edit Amount CM"
+	{
+		"lv"		"Rediģēt summu: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"lv"		"Lūdzu ievadiet priekšmeta derīguma termiņu (sekundēs) čatā!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"lv"		"Nederīgs skaitļa formāts. Lūdzu, mēģiniet vēlreiz."
+	}
+
+	"Enter custom amount CM"
+	{
+		"lv"		"Lūdzu, ievadiet savu pielāgoto summu tērzēšanā!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"lv"		"Lūdzu, ievadiet maksimālo kredītu vērtību tērzēšanā!"
+	}
+
+	"Enter minimum value CM"
+	{
+		"lv"		"Lūdzu, ievadiet minimālo kredītu vērtību čatā!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"lv"		"Lūdzu, ievadiet izveidojamo kuponu skaitu čatā!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"lv"		"Lūdzu, ievadiet pirkšanai paredzētā kupona vērtību čatā!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"lv"		"Lūdzu, ievadiet kupona kodu tērzēšanā!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"lv"		"Notika kļūda, atgūstot cenu. Lūdzu, sazinieties ar administratoru"
+	}
+
+	"Exact #x  = CM"
+	{
+		"lv"		"Precīzs #x = "
+	}
+
+	"Exit CM"
+	{
+		"lv"		"Iziet"
+	}
+
+	"Gained CM"
+	{
+		"lv"		"Iegūts"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lv"		"Iegūts: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"lv"		"Spēles informācija"
+	}
+
+	"Game in progress CM"
+	{
+		"lv"		"Jūsu pašreizējā likmes spēle ir procesā. Lūdzu, uzgaidiet līdz tās beigām."
+	}
+
+	"Get three on a kind CM"
+	{
+		"lv"		"Saņem trīs vienādas"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūs paņēmāt {1} kredītus."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs paņēmāt {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"lv"		"Nav neviena, kam jūs varētu dāvināt šo priekšmetu."
+	}
+
+	"Gift Player Left CM"
+	{
+		"lv"		"Izvēlētais spēlētājs jau ir pametis spēli."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"lv"		"{1} Lai veiktu dāvanu izsniegšanu, serverī jābūt vismaz {2} spēlētājiem."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"lv"		"Admins {1} uzsāka giveaway ar <font color='#15fb00'>{2} kredītiem"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"|| Giveaway sākas pēc {1} sekundēm ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"lv"		"{1} {2} laimēja giveaway ar {3} kredītiem"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lv"		"{1}\n|| Uzvarētājs: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"lv"		"Jūs esat sasniedzis maksimālo godmode skaitu, ko varat iegādāties šajā kārtā."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"lv"		"Šajā komandā jūs nevarat izmantot godmode."
+	}
+
+	"Green CM"
+	{
+		"lv"		"zaļš"
+	}
+
+	"HE grenade kill CM"
+	{
+		"lv"		"HE granātas nogalināšana"
+	}
+
+	"HUD CM"
+	{
+		"lv"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"lv"		"Galva"
+	}
+
+	"Health Round Limit CM"
+	{
+		"lv"		"Jūs esat sasniedzis maksimālo veselības paku skaitu, ko varat iegādāties šajā kārtā."
+	}
+
+	"Help_Back CM"
+	{
+		"lv"		"Atpakaļ"
+	}
+
+	"Help_Exit CM"
+	{
+		"lv"		"Izeja"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"lv"		"Paslēpt lodes dzirksteles"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"lv"		"Paslēpt lodes pēdas"
+	}
+
+	"Hide gloves CM"
+	{
+		"lv"		"Paslēpt cimdus"
+	}
+
+	"Hide paintball CM"
+	{
+		"lv"		"Paslēpt paintball"
+	}
+
+	"Hide particles CM"
+	{
+		"lv"		"Paslēpt daļiņas"
+	}
+
+	"Hide pets CM"
+	{
+		"lv"		"Paslēpt mājdzīvniekus"
+	}
+
+	"Hide trails CM"
+	{
+		"lv"		"Paslēpt pēdas"
+	}
+
+	"High #4-6 CM"
+	{
+		"lv"		"Augsts #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"lv"		"Augsts #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"lv"		"Augsts - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"lv"		"VAIRĀK"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Izvēlētais skaitlis ir: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Nākamais skaitlis bija: {1}"
+	}
+
+	"Hit CM"
+	{
+		"lv"		"Trāziens"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"lv"		"Skaitlis starp {1} un {2} tika izvēlēts, lai uzminētu, vai nākamais skaitlis būs lielāks vai mazāks par izvēlēto skaitli."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"lv"		"Ja izvēlies pareizo, tu uzvarēsi divreiz vairāk nekā savu likmi."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"lv"		"Starp katru spēli ir {1} sekunžu pauze."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs esat veiksmīgi ievietojis {1} {2}."
+	}
+
+	"Inventory CM"
+	{
+		"lv"		"Inventārs"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"lv"		"Lūdzu uzgaidiet. Jūsu inventārs vēl nav ielādēts."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"lv"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"lv"		"Iekārtot šo preci"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"{1} [APGĀDĀTS]"
+	}
+
+	"Item Gift CM"
+	{
+		"lv"		"Dāvināt šo preci"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"{1} (Izvēlieties plānu)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Pārdot par {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"lv"		"Noņemiet šo preci"
+	}
+
+	"Item Use CM"
+	{
+		"lv"		"Izmantojiet šo preci"
+	}
+
+	"Item Voucher CM"
+	{
+		"lv"		"Veidot kuponu no priekšmeta"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"lv"		"Piedāvājumu izveide priekš objekta pašlaik ir atspējota."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"lv"		"Jūs esat pārveidojis {1} ({2}) par kuponu {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"lv"		"{1} paslēpts. Jūs vairs neredzēsit tos."
+	}
+
+	"Item not found CM"
+	{
+		"lv"		"Prece nav atrasta"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"lv"		"{1} atkal redzams."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"lv"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"lv"		"Jackpot ir pauzēts."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jackpot: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"lv"		"Jetpack ir tukšs"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"lv"		"[Jetpack] Degviela: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"lv"		"Jetpack ir uzlādēts"
+	}
+
+	"Jihad Failed CM"
+	{
+		"lv"		"Jūsu bumba neeksplodēja."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"lv"		"{1} džihāda bumba neizdevās eksplodēt."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"lv"		"Šajā komandā jūs nevarat izmantot bumbu."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"{1} minūtes pirms crash sākuma."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"{1} sekunde(s) pirms crash sākuma."
+	}
+
+	"LevelIcon CM"
+	{
+		"lv"		"līmeņa ikona"
+	}
+
+	"Limited CM"
+	{
+		"lv"		"Limitēts - viens spēlētājs"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"lv"		"Lūdzu, pagaidiet, līdz jūsu iepriekšējā kaste tiks atvērta"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"lv"		"Karte ir beigusies. Lūdzu, uzgaidiet nākamo karti"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"lv"		"Kārta ir beigusies. Lūdzu, uzgaidiet nākamo kārtu"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"lv"		"Jūs nevarat atvērt sildīšanas laikā"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs esat zaudējis savu ikdienas sēriju {1} dienu."
+	}
+
+	"Lost bet CM"
+	{
+		"lv"		"Neizdevās! Jūs zaudējāt savu likmi"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Tu zaudēji savu likmi, jo nākamais numurs bija: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"lv"		"Zems #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"lv"		"Zems #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"lv"		"Zems - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"lv"		"ZEMĀK"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jums ir nepieciešami vismaz {1} spēlētāji"
+	}
+
+	"Must be Alive CM"
+	{
+		"lv"		"Jums jābūt dzīvam, lai izmantotu šo."
+	}
+
+	"Must be dead CM"
+	{
+		"lv"		"Jums jābūt mirušam, lai spēlētu"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"lv"		"Koeficients = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"lv"		"Nav aktīva džekpota"
+	}
+
+	"No active TeamBet CM"
+	{
+		"lv"		"Vēl nav veiktas nevienas komandas likmes"
+	}
+
+	"No have flag CM"
+	{
+		"lv"		"Jums nav piekļuves, lai izmantotu šo komandu."
+	}
+
+	"No matching color CM"
+	{
+		"lv"		"Nav atbilstošas krāsa, izmantojiet: r/sarkans, b/melns vai g/zaļš"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"lv"		"Neviens nepaņēma jūsu nomestās kredītus. Jūs tos saņēmāt atpakaļ."
+	}
+
+	"No pick up - removed CM"
+	{
+		"lv"		"Neviens nepaņēma jūsu nomestās kredītus. Kredīti tika noņemti."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Laiks beidzies. Pareizā atbilde bija {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Neviens cits nav iemaksājis naudu džekpotā. Jūs saņemat savu {1} {2} atpakaļ!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"lv"		"Tev nav pietiekami kredīti"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"lv"		"Tagad tiek veikts giveaway, mēģiniet vēlreiz pēc dažām sekundēm."
+	}
+
+	"Only number CM"
+	{
+		"lv"		"Jūs varat ievadīt tikai skaitļus..."
+	}
+
+	"Override Disabled CM"
+	{
+		"lv"		"Jūsu skin neatbalsta cepures. Jūsu uzliktā cepure tiks izslēgta."
+	}
+
+	"Override Enabled CM"
+	{
+		"lv"		"Jūsu pašreizējais skin neatbalsta cepures. Jūsu skin tiks mainīts."
+	}
+
+	"Owned CM"
+	{
+		"lv"		"[Īpašumā]"
+	}
+
+	"Package Gift CM"
+	{
+		"lv"		"Dāviniet šo paketi"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Pārdodiet šo paketi par {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"lv"		"Izveidot kuponu no pakas"
+	}
+
+	"Parachute Empty CM"
+	{
+		"lv"		"Izpletne tukšs"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"lv"		"Izpletne atjaunināts"
+	}
+
+	"Particles CM"
+	{
+		"lv"		"Daļiņas:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Novietojiet {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"lv"		"Atskaņoju priekšskatījuma skaņu jums."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"lv"		"{1} ir {2} kredīti."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"{1} ir atiestatīts."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"lv"		"Store Player Skin modulis šobrīd ir īslaicīgi atspējots."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"lv"		"{1} pievienoja {2} {3} džekpotam, viņa pašreizējā uzvarēšanas iespēja ir: {4}% (Džekpots: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"lv"		"{1} zaudēja {2} {3} spēlē {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"lv"		"{1} atvēra džekpotu ar {2} {3}. Iegūstiet naudu, izmantojot naudas iemaksu!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"lv"		"{1} uzvarēja džekpotu ar {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"lv"		"{1} ieguva {2} {3} spēlē {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"lv"		"{1} ieguva {2} {3} ar x{4} reizinātāju pie {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"lv"		"Jūsu jaunās iestatījumi tiks piemēroti nākamajā dzīvotnē."
+	}
+
+	"Press CM"
+	{
+		"lv"		"Spiediet"
+	}
+
+	"Press to Start CM"
+	{
+		"lv"		"Spiediet, lai uzsāktu!"
+	}
+
+	"Press to Stop CM"
+	{
+		"lv"		"Spiediet, lai apstādinātu!"
+	}
+
+	"Preview Item CM"
+	{
+		"lv"		"Pārskats par šo priekšmetu"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Cena: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"lv"		"Pirkt kuponu"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"lv"		"Cik maksā {1} {2} {3}? | Balva: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"lv"		" Sarkans"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"lv"		"Izmantot kuponu"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Palaidiet vēlreiz {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"lv"		"Jūs esat sasniedzis maksimālo respawn skaitu, ko varat iegādāties šajā kārtā."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"lv"		"安全理由で、短時間で複数のリクエストを送信することはできません。"
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"lv"		"Otrais uzvarētājs vairs nav spēlē, pēdējā mēģinājums atrast jaunu uzvarētāju."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Pirms mēģināt vēlreiz izmantot šo komandu, jums jāgaida {1} sekundes."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"lv"		"Rādīt lodes dzirksteles"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"lv"		"Rādīt lodes pēdas"
+	}
+
+	"Show gloves CM"
+	{
+		"lv"		"Rādīt cimdus"
+	}
+
+	"Show paintball CM"
+	{
+		"lv"		"Rādīt paintball"
+	}
+
+	"Show particles CM"
+	{
+		"lv"		"Rādīt daļiņas"
+	}
+
+	"Show pets CM"
+	{
+		"lv"		"Rādīt mājdzīvniekus"
+	}
+
+	"Show trails CM"
+	{
+		"lv"		"Rādīt pēdas"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs nevarat izmantot vērtību, kas ir mazāka par jūsu minimālo vērtību ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"lv"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Spam aizsardzība. Lūdzu, uzgaidiet {1} sekundes."
+	}
+
+	"Spawn Preview CM"
+	{
+		"lv"		"Tika izveidots priekšskatījums. Priekšskatījums pazudīs pēc 45 sekundēm."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"lv"		"Tika izveidots priekšskatījums. Priekšskatījums pazudīs pēc {1} sekundēm."
+	}
+
+	"Start again from begin CM"
+	{
+		"lv"		"Lūdzu, sāciet no sākuma"
+	}
+
+	"Starting CM"
+	{
+		"lv"		"Sākums"
+	}
+
+	"Stay CM"
+	{
+		"lv"		"Stāvēt"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"lv"		"Vai esat pārliecināts, ka vēlaties atiestatīt savu aprīkojumu? Visi priekšmeti tiks noņemti."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"lv"		"Jūs veiksmīgi iegādājāties kuponu"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"lv"		"Šis priekšmets bija paredzēts lietošanai ar citu spēlētāja klasi."
+	}
+
+	"Tail CM"
+	{
+		"lv"		"Astes"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"lv"		"Jūs jau veicāt savu likmi šim raundam."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"lv"		"Norādīts nederīgs komandas identifikators."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Tu zaudēji {1} {2} uz likmes."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"lv"		"Šī raunda likmju periods ir beidzies."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs veiksmīgi veicāt likmi {1} kredītiem."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Tava likme bija veiksmīga. Tu vinnēji {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"lv"		"Nav veikts likmes uz otru komandu, tāpēc jūs saņēmāt kredītus atpakaļ."
+	}
+
+	"Terrorist CM"
+	{
+		"lv"		"Terorists"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Izvēlētais skaitlis ir: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Nākamais skaitlis bija: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"lv"		"Šis ir priekšskatījuma teksts."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Administratora ir pārslēgta veikala konfigurācija. Karte tiks pārslēgta pēc {1} sekundēm!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"lv"		"Administratora priekšmetu kuponu izveides izvēlne.\n \nIzvēlieties priekšmeta ilgumu."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"lv"		"Administratora priekšmetu kuponu izveides izvēlne"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Kredīti: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"lv"		"Derīguma termiņš ir {1}d {2}h"
+	}
+
+	"Title Gift CM"
+	{
+		"lv"		"Izvēlieties spēlētāju, kuram nosūtīt dāvanu"
+	}
+
+	"Title Store CM"
+	{
+		"lv"		"Veikala izvēlne"
+	}
+
+	"To late chat input CM"
+	{
+		"lv"		"Jūsu teksta ievade netika veikta noteiktajā laikā"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Uz zemes ir pārāk daudz {1}, šobrīd nevarat nomest vairāk!"
+	}
+
+	"Top Credits CM"
+	{
+		"lv"		"Top kredīti"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"lv"		"Top kredīti + inventāra vērtība"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"lv"		"Top inventāra vērtība"
+	}
+
+	"Top Most Items CM"
+	{
+		"lv"		"Visbiežāk saņemtie priekšmeti"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Kopā: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"lv"		"Mēģini vēlreiz"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"lv"		"Rakstiet čatā !bet <likme> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"lv"		"Raksti čatā !blackjack <likme>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"lv"		"Rakstiet čatā !coinflip <likme> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"lv"		"Rakstiet čatā !crash <likme>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"lv"		"Rakstiet čatā !crowns <likme>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"lv"		"Ierakstiet čatā !dice <likme> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"lv"		"Rakstiet čatā !jackpot <likme>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"lv"		"Rakstiet čatā !roulette <likme> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"lv"		"Bez ierobežojumiem - vairāki spēlētāji"
+	}
+
+	"Up CM"
+	{
+		"lv"		"Augšup"
+	}
+
+	"Value less than 1 CM"
+	{
+		"lv"		"Jūs nevarat izmantot vērtību, kas ir mazāka par 1."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lv"		"{1} skaļums iestatīts uz {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"lv"		"Šobrīd kupona kodam jābūt tieši 17 rakstzīmēm"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Kuponam ir vērtība {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"lv"		"Voucher tika pieņemts"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"lv"		"Voucher tika pieņemts"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"lv"		"Jūs ģenerējat {1} {2}ierobežotu kuponu{3} ar vērtību {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"lv"		"Jūs ģenerējat {1} {2}ierobežotu kuponu{3} ar vērtībām {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Ievadītais kupona kods jau tika izmantots {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Šis kupons beidzas {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Ievadītais kupona kods beidzās {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"lv"		"Izveidots jauns kupons {1} ar vērtību {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"lv"		"Kupona kodu var atrast arī tērzēšanā un konsolē"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Kupona kods: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Ievadītais kupona kods '{1}' nav derīgs!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lv"		"Kupons ietver {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"lv"		"Kupona kods ir derīgs"
+	}
+
+	"Vouchers CM"
+	{
+		"lv"		"Kupons"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Jums jāgaida {1}, līdz nākamais ikdienas uzdevums."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"lv"		"Jūs jau esat reģistrējies šodien. Lūdzu, atgriezieties rīt."
+	}
+
+	"Win = CM"
+	{
+		"lv"		"Uzvara = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"lv"		"Uzvarētājs vairs nav spēlē, mēģinām atrast jaunu uzvarētāju."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"lv"		"Kupona kods ir nepareizā formātā. Tam jābūt XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"lv"		"TU"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"lv"		"Jūs jau esat izņēmis {1} {2} džekpotā. Pašreizējā uzvaras iespēja: {3}%% Džekpots: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"lv"		"Jūs jau esat īpašnieks ievadītajam kupona priekšmetam"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"lv"		"Jūs jau esat izmantojuši ievadīto kupona kodu"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"lv"		"Jaunu jackpotu jūs varēsiet sākt"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Jaunu jackpotu jūs varēsiet sākt pēc {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs nevarat iztērēt tik daudz kredītu (Maks.: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs savācāt {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"lv"		"Jums nav atļauts piekļūt tam."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs nometāt {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"lv"		"Tu neieguvi punktus šajā kārtā."
+	}
+
+	"You earned this round CM"
+	{
+		"lv"		"Tu nopelnīji šo kārtu:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs nopelnījāt {1} {2} par "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs nopelnījāt {1} {2} šajā raundā"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs saņēmāt {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs saņēmāt {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs saņēmāt {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs saņēmāt {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jums jāiztērē vismaz {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jums jāiztērē vismaz {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"lv"		"Jūs neesat atvēris kasti noteiktajā laikā. Lootbox ir atgriezies jūsu krātuvē"
+	}
+
+	"You lose CM"
+	{
+		"lv"		"- tu zaudēji"
+	}
+
+	"You lost with CM"
+	{
+		"lv"		"Tu zaudēji ar"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs zaudējāt {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"lv"		"Tu esi apguvis 'ikdienas izaicinājumu'! Mēģini to uzvarēt vēlreiz!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs uzvarējāt {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"lv"		"!!! TU UZVARĒJI !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lv"		"Jūs ieguvāt {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūs uzvarējāt džekpotu ar {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"lv"		"Jūs uzvarējāt džekpotu ar {1} {2}, atskaitot kazino maksu {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"lv"		"Tu uzvarēji ar"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"lv"		"Tu ieguvi {1} kredītus ar x{2} reizinātāju."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Rīt nopelnīsi {1} {2}!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"lv"		"Tava likme: {1} {2} - Iespēja: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Jūsu likme: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"lv"		"Jūsu pašreizējā uzvaras iespēja ir mainījusies uz {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Par {2} nogalināšanu nopelnījāt {1} kredītus."
+	}
+
+	"admin CM"
+	{
+		"lv"		"administrators"
+	}
+
+	"and is limited CM"
+	{
+		"lv"		"un ir ierobežots"
+	}
+
+	"and is unlimited CM"
+	{
+		"lv"		"un ir neierobežots"
+	}
+
+	"arms CM"
+	{
+		"lv"		"rokas"
+	}
+
+	"assist a kill CM"
+	{
+		"lv"		"palīdzēt nogalināt"
+	}
+
+	"attachment CM"
+	{
+		"lv"		"Piederums"
+	}
+
+	"backstab kill CM"
+	{
+		"lv"		"noslepkavības nogalināšana"
+	}
+
+	"be the MVP CM"
+	{
+		"lv"		"būt MVP"
+	}
+
+	"bet x CM"
+	{
+		"lv"		"likt x"
+	}
+
+	"blackjack CM"
+	{
+		"lv"		"Blackjack"
+	}
+
+	"bomb defused CM"
+	{
+		"lv"		"bomba deaktivēta"
+	}
+
+	"bomb explode CM"
+	{
+		"lv"		"bomba uzsprāgst"
+	}
+
+	"bomb planted CM"
+	{
+		"lv"		"bomba ielikta"
+	}
+
+	"bombtweak CM"
+	{
+		"lv"		"Bumbas pielāgošana"
+	}
+
+	"bullet_impact CM"
+	{
+		"lv"		"Šāviena ietekme"
+	}
+
+	"bulletsparks CM"
+	{
+		"lv"		"Šāviena dzirksteles"
+	}
+
+	"bunnyhob CM"
+	{
+		"lv"		"Zaķa lēciens"
+	}
+
+	"bunnyhop CM"
+	{
+		"lv"		"prasme"
+	}
+
+	"casino CM"
+	{
+		"lv"		"Kazino"
+	}
+
+	"coinflip CM"
+	{
+		"lv"		"Monētas mešana"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Vai vēlaties atiestatīt konfigurāciju?\nKarte tiks pārslēgta pēc {1} sekundēm!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"lv"		"Vai vēlaties atiestatīt konfigurāciju?\nJums jāmaina karte, lai piemērotu izmaiņas, citādi var rasties kļūdas."
+	}
+
+	"connect CM"
+	{
+		"lv"		"Savienojuma ziņojums"
+	}
+
+	"crash CM"
+	{
+		"lv"		"Crash"
+	}
+
+	"creditstoplist CM"
+	{
+		"lv"		"kredīti"
+	}
+
+	"crowns CM"
+	{
+		"lv"		"Koronu slots"
+	}
+
+	"daily CM"
+	{
+		"lv"		"Ikdienas bonuss"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"lv"		"viltojuma granāta nogalināšana"
+	}
+
+	"dice CM"
+	{
+		"lv"		"Kauliņi"
+	}
+
+	"direction CM"
+	{
+		"lv"		"Virziens"
+	}
+
+	"discount CM"
+	{
+		"lv"		"IZPĀRDOŠANA"
+	}
+
+	"distance CM"
+	{
+		"lv"		"Attālums"
+	}
+
+	"dmgtext CM"
+	{
+		"lv"		"Gleznotājs"
+	}
+
+	"emote CM"
+	{
+		"lv"		"Emote"
+	}
+
+	"escape as VIP CM"
+	{
+		"lv"		"bēgt kā VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"lv"		"flashbang nogalināšana"
+	}
+
+	"flashlight CM"
+	{
+		"lv"		"Лukturis"
+	}
+
+	"froggyjump CM"
+	{
+		"lv"		"Varde lēciens"
+	}
+
+	"gloves CM"
+	{
+		"lv"		"cimdi"
+	}
+
+	"glow CM"
+	{
+		"lv"		"spīdums"
+	}
+
+	"godmode CM"
+	{
+		"lv"		"Dieva režīms"
+	}
+
+	"gravity CM"
+	{
+		"lv"		"spēja"
+	}
+
+	"grenademodel CM"
+	{
+		"lv"		"Granātas modelis"
+	}
+
+	"grenadeskin CM"
+	{
+		"lv"		"granātas āda"
+	}
+
+	"grenadetrail CM"
+	{
+		"lv"		"granātas pēdas"
+	}
+
+	"hat CM"
+	{
+		"lv"		"cepure"
+	}
+
+	"headshot CM"
+	{
+		"lv"		"galvas šāviens"
+	}
+
+	"health CM"
+	{
+		"lv"		"iepakojums"
+	}
+
+	"high or low CM"
+	{
+		"lv"		"Augstāks vai zemāks"
+	}
+
+	"hiteff CM"
+	{
+		"lv"		"trieciena efekts:"
+	}
+
+	"hitsound CM"
+	{
+		"lv"		"Trieciena skaņa"
+	}
+
+	"hostage rescued CM"
+	{
+		"lv"		"glābts ķīlnieks"
+	}
+
+	"hunterjump CM"
+	{
+		"lv"		"Mednieka lēciens"
+	}
+
+	"idle on the server CM"
+	{
+		"lv"		"neaktīvs serverī"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"iekš {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"lv"		"Nerobežotas munīcijas"
+	}
+
+	"info CM"
+	{
+		"lv"		"Informācijas Panelis"
+	}
+
+	"instabomb CM"
+	{
+		"lv"		"Instanta stādīšana / atslēgšana"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"lv"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"lv"		"spēja"
+	}
+
+	"items CM"
+	{
+		"lv"		"Preces"
+	}
+
+	"jackpot CM"
+	{
+		"lv"		"Jackpot"
+	}
+
+	"jetpack CM"
+	{
+		"lv"		"raķete"
+	}
+
+	"jihad CM"
+	{
+		"lv"		"bomba"
+	}
+
+	"kill CM"
+	{
+		"lv"		"nogalināt"
+	}
+
+	"kill the VIP CM"
+	{
+		"lv"		"nogalināt VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"lv"		"nogaliniet sevi"
+	}
+
+	"killeff CM"
+	{
+		"lv"		"nogalināšanas efekts:"
+	}
+
+	"knife CM"
+	{
+		"lv"		"nazis"
+	}
+
+	"knife kill CM"
+	{
+		"lv"		"nazis nogalināšana"
+	}
+
+	"laserdraw CM"
+	{
+		"lv"		"lāzera zīmējums:"
+	}
+
+	"laserpointer CM"
+	{
+		"lv"		"Laseru rādītājs"
+	}
+
+	"lasersight CM"
+	{
+		"lv"		"lāzera tēmēšana"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"pēdējais atjauninājums pirms {1}"
+	}
+
+	"light CM"
+	{
+		"lv"		"Gaisma"
+	}
+
+	"lootbox CM"
+	{
+		"lv"		"Ložu kaste"
+	}
+
+	"mirror CM"
+	{
+		"lv"		"spogulis"
+	}
+
+	"molotov kill CM"
+	{
+		"lv"		"molotov nogalināšana"
+	}
+
+	"msgcolor CM"
+	{
+		"lv"		"ziņojuma krāsa"
+	}
+
+	"mvp_sound CM"
+	{
+		"lv"		"MVP himnas"
+	}
+
+	"namecolor CM"
+	{
+		"lv"		"vārda krāsa"
+	}
+
+	"nametag CM"
+	{
+		"lv"		"vārda uzlīme"
+	}
+
+	"nearest CM"
+	{
+		"lv"		"Tušākais"
+	}
+
+	"nodiscount CM"
+	{
+		"lv"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"lv"		"Nav kavēšanās pietupienā"
+	}
+
+	"nofalldamage CM"
+	{
+		"lv"		"Nav kritiena bojājumu"
+	}
+
+	"noreload CM"
+	{
+		"lv"		"Nav jāielādē"
+	}
+
+	"noscope kill CM"
+	{
+		"lv"		"nogalināt bez mērķa"
+	}
+
+	"noselfdamage CM"
+	{
+		"lv"		"Nav paša bojājumu"
+	}
+
+	"or use buttons below CM"
+	{
+		"lv"		"vai izmantojiet zemāk esošos pogas"
+	}
+
+	"package CM"
+	{
+		"lv"		"iepakojums"
+	}
+
+	"paintball CM"
+	{
+		"lv"		"lodes"
+	}
+
+	"painter CM"
+	{
+		"lv"		"Gleznotājs"
+	}
+
+	"parachute CM"
+	{
+		"lv"		"Paralējo"
+	}
+
+	"particle CM"
+	{
+		"lv"		"Daļiņas"
+	}
+
+	"pet CM"
+	{
+		"lv"		"mājdzīvnieks"
+	}
+
+	"playerskin CM"
+	{
+		"lv"		"spēlētāja āda"
+	}
+
+	"playing on the server CM"
+	{
+		"lv"		"spēlē serverī"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Jūs spēlējāt mūsu serverī {1} dienas pēc kārtas"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Jūs saņemsiet {1} nākamajā atdzimšanā"
+	}
+
+	"respawn CM"
+	{
+		"lv"		"Atkārtošanās"
+	}
+
+	"roulette CM"
+	{
+		"lv"		"Ruletes"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Esat sasniedzis maksimālo skaņas izmantošanas skaitu. {1} maksimālais izmantošanas skaits kartē"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Esat sasniedzis maksimālo skaņas izmantošanas skaitu. {1} maksimālais izmantošanas skaits katrā raundā"
+	}
+
+	"saysound CM"
+	{
+		"lv"		"sakiet skaņu"
+	}
+
+	"scoreboardtag CM"
+	{
+		"lv"		"Reitinga tabulas uzlīme"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"lv"		"smokegranāta nogalināšana"
+	}
+
+	"sound CM"
+	{
+		"lv"		"skaņa"
+	}
+
+	"spawn CM"
+	{
+		"lv"		"Papildu atdzimšana"
+	}
+
+	"spawneff CM"
+	{
+		"lv"		"dzimšanas efekts:"
+	}
+
+	"speed CM"
+	{
+		"lv"		"spēja"
+	}
+
+	"spray CM"
+	{
+		"lv"		"smidzināt"
+	}
+
+	"start daily challange CM"
+	{
+		"lv"		"Sāciet 'ikdienas izaicinājumu'. Spēlējiet nākamās 6 dienas, lai saņemtu pilnu bonusu"
+	}
+
+	"taser kill CM"
+	{
+		"lv"		"taser nogalināšana"
+	}
+
+	"teambet CM"
+	{
+		"lv"		"Komandas likmes"
+	}
+
+	"teamkill CM"
+	{
+		"lv"		"komandas nogalināšana"
+	}
+
+	"tfhat CM"
+	{
+		"lv"		"būvju cepure"
+	}
+
+	"tfhatdye CM"
+	{
+		"lv"		"cepures krāsošana"
+	}
+
+	"tfhead CM"
+	{
+		"lv"		"galvas izmērs"
+	}
+
+	"tfunusual CM"
+	{
+		"lv"		"cepures efekts"
+	}
+
+	"tfweapon CM"
+	{
+		"lv"		"pielāgota ierocis"
+	}
+
+	"tfweaponsize CM"
+	{
+		"lv"		"ierocis lielums"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Balva tiks izlozēta pēc {1} sekundēm"
+	}
+
+	"thirdperson CM"
+	{
+		"lv"		"trešā persona"
+	}
+
+	"throwknife CM"
+	{
+		"lv"		"Metiet nazi"
+	}
+
+	"toplists CM"
+	{
+		"lv"		"Top saraksti"
+	}
+
+	"tracer CM"
+	{
+		"lv"		"sekotājs"
+	}
+
+	"trail CM"
+	{
+		"lv"		"pēdas"
+	}
+
+	"wasted CM"
+	{
+		"lv"		"izšķērdēts"
+	}
+
+	"watergun CM"
+	{
+		"lv"		"efekts"
+	}
+
+	"weapon CM"
+	{
+		"lv"		"ieročs"
+	}
+
+	"weaponcolor CM"
+	{
+		"lv"		"ieroces krāsa"
+	}
+
+	"weaponmodel CM"
+	{
+		"lv"		"ierocēka modelis"
+	}
+
+	"weaponskin CM"
+	{
+		"lv"		"ieroča āda"
+	}
+
+	"win the round CM"
+	{
+		"lv"		"uzvariet raundu"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"lv"		"{1} {2} par '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"lv"		"{1} stundas {2} minūtes un {3} sekundes"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"lv"		"{1} stunda(s) {2} minūte(s) un {3} sekunde(s)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"lv"		"{1} minūtes un {2} sekundes"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"lv"		"{1} minūte(s) un {2} sekunde(s)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"{1} sekundes"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"lv"		"{1} sekunde(s)"
+	}
+
+	"zrclass CM"
+	{
+		"lv"		"spēlētāja klase"
+	}
 }

@@ -104,4 +104,133 @@
 	{
 		"he"		"אנא המתן לתשובת השחקן שנבחר."
 	}
+
+
+	"Cancel CM"
+	{
+		"he"		"בטל את החלפה"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"he"		"האם אתה רוצה להציע את {1} {2} שלך?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"he"		"האם אתה רוצה להחליף את {1} {2} שלך?"
+	}
+
+	"Offer CM"
+	{
+		"he"		"הצע פריט"
+	}
+
+	"Offer item CM"
+	{
+		"he"		"הצע פריט זה"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"he"		"השותף שלך מציע {1} אשראי"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"he"		"השותף שלך מציע את הפריטים הבאים:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"he"		"השותף שלך עדיין לא מוכן."
+	}
+
+	"Partner Ready CM"
+	{
+		"he"		"השותף שלך מוכן."
+	}
+
+	"Player Left CM"
+	{
+		"he"		"השחקן שברצונך להחליף עימו עזב את המשחק."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"he"		"מוכן [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"he"		"המסחר יסתיים בעוד {1} שניות..."
+	}
+
+	"Trade Active CM"
+	{
+		"he"		"אתה כבר מבצע עסקה."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"he"		"האם תרצה לסחור עם {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"he"		"האם תרצה לבטל את העסקה?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"he"		"אנא המתן כמה דקות לפני מסחר חוזר."
+	}
+
+	"Trade Menu CM"
+	{
+		"he"		"כדי לפתוח מחדש את תפריט המסחר, כתוב !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"he"		"אינך מבצע עסקה."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"he"		"השחקן השני ביטל את העסקה."
+	}
+
+	"Trade Select Player CM"
+	{
+		"he"		"בחר שחקן לסחור איתו"
+	}
+
+	"Trade Successful CM"
+	{
+		"he"		"המסחר הושלם בהצלחה."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"he"		"אתה סוחר עם {1}\n-----------------------------\nכדי להציע נקודות, הקלד !offer <amount>\nהצעת {2} נקודות"
+	}
+
+	"Trade item CM"
+	{
+		"he"		"סחור בפריט זה"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"he"		"אנא המתן לתשובת השחקן שנבחר."
+	}
 }

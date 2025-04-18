@@ -2275,4 +2275,2783 @@
 	{
 		"ru"		"класс игрока"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"{1}21 !!! БЛЭКДЖЕК !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Вы уже перезагрузили конфигурацию. Пожалуйста, измените или перезагрузите карту."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Все участники отключаются, никто не получит свои {2} обратно, хах. Джекпот составил {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"ru"		"Все сгенерированные и действительные ваучеры:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ru"		"Вы выиграли, но уже имеете {1} ({2}). Предмет был продан за {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ru"		"Вы уже владеете {1} ({2}). Вам возвращено {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Сумма: {1}"
+	}
+
+	"Aura CM"
+	{
+		"ru"		"Аура:"
+	}
+
+	"Back CM"
+	{
+		"ru"		"Назад"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"ru"		"Ставка * Множитель = Ваша победа"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Бонусные кредиты: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Пот CT выигрывает: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Максимальная ставка ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Минимальная ставка ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ru"		"Случайная ставка ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Пот T выигрывает: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"ru"		"Ставить на"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"ru"		"Ставка на Орел/Решка"
+	}
+
+	"Bet on a color CM"
+	{
+		"ru"		"Сделайте ставку на цвет, и если этот цвет будет выбран, вы выиграете!"
+	}
+
+	"Bet on a number CM"
+	{
+		"ru"		"Сделайте ставку на Низкое (#1-3), Высокое (#4-6) или точное число. Если ваш выбор выпадет, вы выиграете!"
+	}
+
+	"Bet on a team CM"
+	{
+		"ru"		"Сделайте ставку на команду, и если команда выиграет раунд, вы выиграете!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"ru"		"Вы уже сделали ставку на этот раунд."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"ru"		"Указан неверный идентификатор команды."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Вы проиграли {1} кредитов на ставке."
+	}
+
+	"Betting Period Over CM"
+	{
+		"ru"		"Период ставок для этого раунда завершен."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Вы успешно поставили ставку в размере {1} кредитов."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Ваша ставка была успешной. Вы выиграли {1} кредитов."
+	}
+
+	"Black CM"
+	{
+		"ru"		"черный"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"ru"		"Blackjack — это игра, в которой стоимость карт в вашей руке должна быть выше, чем у дилера, не превышая 21."
+	}
+
+	"Buy CM"
+	{
+		"ru"		"Купить предмет"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Купить предмет ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"ru"		"Вы изменили свой цвет на: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"ru"		"Опция цвета тега чата"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"ru"		"Отключить цвет"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"ru"		"Цвет пользовательского тега отключен."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"ru"		"У вас нет ни одной установленной метки имени"
+	}
+
+	"CP No file found CM"
+	{
+		"ru"		"Цвет пользовательского тега для пользователя был отключен. Пожалуйста, свяжитесь с администратором для получения дополнительной поддержки."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ru"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"ru"		"Показ предварительного просмотра тега на табло, пожалуйста, нажмите кнопку TAB."
+	}
+
+	"Cancel CM"
+	{
+		"ru"		"Отмена"
+	}
+
+	"Cant be bought CM"
+	{
+		"ru"		"Этот предмет нельзя купить"
+	}
+
+	"Cash out CM"
+	{
+		"ru"		"Вывод"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Измените свою ставку: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ru"		"Вы купили {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ru"		"{1} отправил вам {2} {3} в подарок."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ru"		"Вы отправили {1} {2} {3} в подарок."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ru"		"Вы продали {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Вы открыли контейнер и нашли {1} кредитов!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ru"		"{1} открыл контейнер и нашел {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ru"		"{1} открыл контейнер и нашел {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"ru"		"Проверьте все действительные и доступные ваучеры (Только для администраторов)"
+	}
+
+	"Check Voucher CM"
+	{
+		"ru"		"Проверить ваучер"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"ru"		"Проверьте свой сгенерированный и действительный доступный ваучер"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"ru"		"Выберите номер (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"ru"		"Авто-кэшаут:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"ru"		"Ваше снаряжение было сброшено."
+	}
+
+	"Client valid voucher CM"
+	{
+		"ru"		"Ваш сгенерированный и действительный ваучер:\n "
+	}
+
+	"Close CM"
+	{
+		"ru"		"Закрыть"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"ru"		"Цветной дым"
+	}
+
+	"Command is in-game only CM"
+	{
+		"ru"		"Вы должны быть живы, чтобы использовать эту команду."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"ru"		"Конфигурация перезагружена. Пожалуйста, перезапустите или смените карту."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ru"		"Вы уверены, что хотите купить {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"ru"		"Вы уверены, что хотите подарить {1} {2} {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ru"		"Вы уверены, что хотите уронить {1} {2} как подарок?"
+	}
+
+	"Confirm_No CM"
+	{
+		"ru"		"Нет"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"ru"		"Вы уверены, что хотите продать {1} {2} за {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ru"		"Вы уверены, что хотите преобразовать {1} ({2}) в купон?\nПРЕДУПРЕЖДЕНИЕ: Если товар в ваучере истечет до его использования.\nЭтот ваучер истечет."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"ru"		"Да"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ru"		"{1} дал правильный ответ и выиграл {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"ru"		"Контртеррорист"
+	}
+
+	"Crash Already Start CM"
+	{
+		"ru"		"Игра Crash в данный момент в процессе. Пожалуйста, подождите следующую игру."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"ru"		"Выкл"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"ru"		"Отключить авто-кэш-аут"
+	}
+
+	"Crash Auto On CM"
+	{
+		"ru"		"Вкл"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"ru"		"Включить авто-кэш-аут"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"ru"		"           Что это/Как играть: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"ru"		"- Crash — это игра, в которой игроки могут ставить на множитель, этот множитель связан с растущей кривой, которая может обрушиться в любой момент."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"ru"		"- Множитель начинается с 1,00x, и вы можете вывести деньги в любое время."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"ru"		"- Минимальное значение ставки составляет {1} {2}. Максимальное значение ставки составляет {3} {4}. Эти лимиты могут изменяться со временем."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"ru"		"Неверный ввод (должно быть {1} или выше)."
+	}
+
+	"Crash auto input CM"
+	{
+		"ru"		"Введите ваше значение авто-кэшаута в чат"
+	}
+
+	"Crash auto input set CM"
+	{
+		"ru"		"Установлен авто-кэш-аут Crash"
+	}
+
+	"Crash set auto CM"
+	{
+		"ru"		"Установить значение авто-кэшаута"
+	}
+
+	"Crash! CM"
+	{
+		"ru"		"Краш!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"ru"		"Создать ваучер на предметы (Только для администраторов)"
+	}
+
+	"Create Voucher CM"
+	{
+		"ru"		"Создать ваучер"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Создание ваучера не удалось - Свяжитесь с администратором с этим временным штампом: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"ru"		"Передача кредитов отключена на этом сервере."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Вы уронили {1} кредитов как подарок."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ru"		"{2} отправил вам {1} кредитов."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ru"		"Вы отправили {1} кредитов игроку {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"ru"		"У вас недостаточно кредитов для создания розыгрыша."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"ru"		"Введена неверная сумма кредитов."
+	}
+
+	"Credit No Match CM"
+	{
+		"ru"		"Не найдено игрока."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"ru"		"У вас недостаточно кредитов, чтобы купить это."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"ru"		"Найдено больше одного клиента."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"ru"		"У вас недостаточно кредитов для создания ваучера."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ru"		"Вы заработали {1} кредитов за убийство {2}."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Вы заработали {1} кредитов за игру на сервере."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"ru"		"{1} получил {2} кредитов."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"		"Кредиты: {1}          Пот: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"ru"		"Отключено"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"ru"		"Включено"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"ru"		"[Кастомный звук оружия]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"ru"		"Меню управления громкостью кастомного звука оружия"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Громкость: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"ru"		"Кастомный звук оружия: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"ru"		"Кастомный звук оружия Отключен."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"ru"		"Кастомный звук оружия включен."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Кастомный звук оружия включен. Громкость: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"ru"		"Пользовательская модель оружия:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"ru"		"Повреди коробку, чтобы открыть!"
+	}
+
+	"Dead heat CM"
+	{
+		"ru"		"- ничья -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"		"             ДИЛЕР     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"ru"		"ДИЛЕР"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Скидка: '{1}' активна! Приятных покупок!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Скидка: '{1}' завершена."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Скидка: '{1}' началась! Приятных покупок!"
+	}
+
+	"Double CM"
+	{
+		"ru"		"Удвоить"
+	}
+
+	"Down CM"
+	{
+		"ru"		"Вниз"
+	}
+
+	"Down2 CM"
+	{
+		"ru"		"                      5 = Вниз"
+	}
+
+	"Drop Gift CM"
+	{
+		"ru"		"Бросить как подарок"
+	}
+
+	"Edit Amount CM"
+	{
+		"ru"		"Редактировать количество: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"ru"		"Пожалуйста, введите время истечения (в секундах) для предмета в чат!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"ru"		"Неверный формат числа. Пожалуйста, попробуйте еще раз."
+	}
+
+	"Enter custom amount CM"
+	{
+		"ru"		"Пожалуйста, введите свою пользовательскую сумму в чате!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"ru"		"Пожалуйста, введите максимальное значение кредитов в чате!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"ru"		"Пожалуйста, введите количество ваучеров для создания в чате!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"ru"		"Пожалуйста, введите сумму ваучера для покупки в чате!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"ru"		"Пожалуйста, введите код ваучера в чате!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"ru"		"Произошла ошибка при возврате цены. Пожалуйста, свяжитесь с администратором"
+	}
+
+	"Exact #x  = CM"
+	{
+		"ru"		"Точное #x = "
+	}
+
+	"Exit CM"
+	{
+		"ru"		"Выход"
+	}
+
+	"Gained CM"
+	{
+		"ru"		"Получено"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ru"		"Получено: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"ru"		"Информация об игре"
+	}
+
+	"Game in progress CM"
+	{
+		"ru"		"Ваша текущая игра в процессе. Пожалуйста, подождите, пока она не завершится."
+	}
+
+	"Get three on a kind CM"
+	{
+		"ru"		"Получите три одинаковых"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Вы подобрали {1} кредитов."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ru"		"Вы подобрали {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"ru"		"Нет никого, кому вы могли бы подарить этот предмет."
+	}
+
+	"Gift Player Left CM"
+	{
+		"ru"		"Выбранный игрок уже покинул игру."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ru"		"{1} Для проведения розыгрыша сервер должен содержать как минимум {2} игроков."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ru"		"Администратор {1} открыл розыгрыш с <font color='#15fb00'>{2} кредитами"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"|| Розыгрыш начнется через {1} секунд ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"ru"		"{1} {2} выиграл гивевей с {3} кредитами"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ru"		"{1}\n|| Победитель: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"ru"		"Вы достигли максимального количества godmode, которые можете купить в этом раунде."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"ru"		"Вы не можете использовать godmode в этой команде."
+	}
+
+	"Green CM"
+	{
+		"ru"		"зелёный"
+	}
+
+	"HE grenade kill CM"
+	{
+		"ru"		"убить гранатой HE"
+	}
+
+	"HUD CM"
+	{
+		"ru"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"ru"		"Орел"
+	}
+
+	"Health Round Limit CM"
+	{
+		"ru"		"Вы достигли максимального количества аптечек, которые можете купить в этом раунде."
+	}
+
+	"Help_Back CM"
+	{
+		"ru"		"Назад"
+	}
+
+	"Help_Exit CM"
+	{
+		"ru"		"Выход"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"ru"		"Скрыть искры от пуль"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"ru"		"Скрыть следы пули"
+	}
+
+	"Hide gloves CM"
+	{
+		"ru"		"Скрыть перчатки"
+	}
+
+	"Hide paintball CM"
+	{
+		"ru"		"Скрыть пейнтбол"
+	}
+
+	"Hide particles CM"
+	{
+		"ru"		"Скрыть частицы"
+	}
+
+	"Hide pets CM"
+	{
+		"ru"		"Скрыть питомцев"
+	}
+
+	"Hide trails CM"
+	{
+		"ru"		"Скрыть следы"
+	}
+
+	"High #4-6 CM"
+	{
+		"ru"		"Высокий #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"ru"		"Высоко #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"ru"		"Высокий - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"ru"		"БОЛЬШЕ"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Выбранное число: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Следующее число было: {1}"
+	}
+
+	"Hit CM"
+	{
+		"ru"		"Удар"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"ru"		"Выбрано число между {1} и {2}, чтобы вы угадали, будет ли следующее число больше или меньше выбранного."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"ru"		"Если вы выберете правильный вариант, вы выиграете в два раза больше своей ставки."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"ru"		"Между каждой игрой есть пауза в {1} секунд(ы)."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы успешно разместили {1} {2}."
+	}
+
+	"Inventory CM"
+	{
+		"ru"		"Инвентарь"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"ru"		"Пожалуйста, подождите. Ваш инвентарь еще не был загружен."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ru"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"ru"		"Оснастите этот предмет"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"{1} [ОСНАЩЕНО]"
+	}
+
+	"Item Gift CM"
+	{
+		"ru"		"Подарить этот предмет"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"{1} (Выберите план)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Продать за {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"ru"		"Снять этот предмет"
+	}
+
+	"Item Use CM"
+	{
+		"ru"		"Использовать этот предмет"
+	}
+
+	"Item Voucher CM"
+	{
+		"ru"		"Создать ваучер из предмета"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"ru"		"Создание ваучеров для предметов в данный момент отключено."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ru"		"Вы конвертировали {1} ({2}) в ваучер {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"ru"		"{1} скрыто. Ты больше не увидишь их."
+	}
+
+	"Item not found CM"
+	{
+		"ru"		"Предмет не найден"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"ru"		"{1} снова виден."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"ru"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"ru"		"Джекпот приостановлен."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Джекпот: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"ru"		"Jetpack пуст"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"ru"		"[Jetpack] Топливо: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"ru"		"Jetpack перезаряжен"
+	}
+
+	"Jihad Failed CM"
+	{
+		"ru"		"Ваша бомба не взорвалась."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"ru"		"Бомба джихада {1} не взорвалась."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"ru"		"Вы не можете использовать бомбу в этой команде."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"{1} минута(ы) до начала краша."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"{1} секунда(ы) до начала краша."
+	}
+
+	"LevelIcon CM"
+	{
+		"ru"		"икона уровня"
+	}
+
+	"Limited CM"
+	{
+		"ru"		"Ограничено - один игрок"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"ru"		"Пожалуйста, подождите, пока не откроется ваша предыдущая коробка"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"ru"		"Карта завершена. Пожалуйста, подождите следующую карту"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"ru"		"Раунд завершен. Пожалуйста, подождите следующий раунд"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"ru"		"Вы не можете открыть во время разминки"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Вы потеряли свою ежедневную серию из {1} день(дней)."
+	}
+
+	"Lost bet CM"
+	{
+		"ru"		"Не удалось! Вы проиграли ставку"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Вы проиграли ставку, потому что следующее число было: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"ru"		"Низкий #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"ru"		"Низко #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"ru"		"Низкий - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"ru"		"НИЖЕ"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Нам нужно хотя бы {1} игрок(ов)"
+	}
+
+	"Must be Alive CM"
+	{
+		"ru"		"Вы должны быть живы, чтобы использовать это."
+	}
+
+	"Must be dead CM"
+	{
+		"ru"		"Ты должен быть мертв, чтобы играть"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"ru"		"Множитель = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"ru"		"Нет активного джекпота"
+	}
+
+	"No active TeamBet CM"
+	{
+		"ru"		"Еще не были сделаны ставки на команду"
+	}
+
+	"No have flag CM"
+	{
+		"ru"		"У вас нет доступа для использования этой команды."
+	}
+
+	"No matching color CM"
+	{
+		"ru"		"Нет подходящего цвета, используйте: r/красный, b/черный или g/зеленый"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"ru"		"Никто не забрал ваши упавшие кредиты. Вы получили их обратно."
+	}
+
+	"No pick up - removed CM"
+	{
+		"ru"		"Никто не забрал ваши упавшие кредиты. Кредиты были удалены."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Время вышло. Правильный ответ был {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Никто другой не внес деньги в джекпот. Вы получаете свои {1} {2} обратно!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"ru"		"У вас недостаточно кредитов"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"ru"		"Сейчас проводится розыгрыш, попробуйте снова через несколько секунд."
+	}
+
+	"Only number CM"
+	{
+		"ru"		"Вы можете вводить только числа..."
+	}
+
+	"Override Disabled CM"
+	{
+		"ru"		"Ваш скин не поддерживает шляпы. Ваш шляпа будет отключена."
+	}
+
+	"Override Enabled CM"
+	{
+		"ru"		"Ваш текущий скин не поддерживает шляпы. Ваш скин будет изменен."
+	}
+
+	"Owned CM"
+	{
+		"ru"		"[Владею]"
+	}
+
+	"Package Gift CM"
+	{
+		"ru"		"Подарить этот пакет"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Продать этот пакет за {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"ru"		"Создать ваучер из пакета"
+	}
+
+	"Parachute Empty CM"
+	{
+		"ru"		"Парашют пуст"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"ru"		"Парашют перезаряжен"
+	}
+
+	"Particles CM"
+	{
+		"ru"		"Частицы:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Поместите {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"ru"		"Проигрываю звук предварительного просмотра для вас."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ru"		"{1} имеет {2} кредитов."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"{1} был сброшен."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"ru"		"Модуль Store Player Skin в данный момент временно отключен."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"ru"		"{1} добавил {2} {3} в джекпот, его текущий шанс на выигрыш: {4}% (Джекпот: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ru"		"{1} потерял {2} {3} в {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ru"		"{1} открыл джекпот с {2} {3}. Сделайте кэш-ин, чтобы забрать эти деньги!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ru"		"{1} выиграл джекпот с {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ru"		"{1} выиграл {2} {3} в {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"ru"		"{1} выиграл {2} {3} с множителем x{4} на {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"ru"		"Ваши новые настройки будут применены при следующем спауне."
+	}
+
+	"Press CM"
+	{
+		"ru"		"Нажмите"
+	}
+
+	"Press to Start CM"
+	{
+		"ru"		"Нажмите, чтобы начать!"
+	}
+
+	"Press to Stop CM"
+	{
+		"ru"		"Нажмите, чтобы остановить!"
+	}
+
+	"Preview Item CM"
+	{
+		"ru"		"Предпросмотр этого предмета"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Цена: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"ru"		"Купить ваучер"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"ru"		"Сколько стоит {1} {2} {3}? | Приз: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"ru"		"красный"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"ru"		"Погасить ваучер"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Повторите {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"ru"		"Вы достигли максимального числа респаунов, которые можете купить в этом раунде."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"ru"		"По соображениям безопасности вы не можете отправлять несколько запросов за короткий промежуток времени."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"ru"		"Второй победитель больше не в игре, последняя попытка найти нового победителя."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Вам нужно подождать {1} секунд перед тем, как снова попробовать использовать эту команду."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"ru"		"Показать искры от пуль"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"ru"		"Показать следы пули"
+	}
+
+	"Show gloves CM"
+	{
+		"ru"		"Показать перчатки"
+	}
+
+	"Show paintball CM"
+	{
+		"ru"		"Показать пейнтбол"
+	}
+
+	"Show particles CM"
+	{
+		"ru"		"Показать частицы"
+	}
+
+	"Show pets CM"
+	{
+		"ru"		"Показать питомцев"
+	}
+
+	"Show trails CM"
+	{
+		"ru"		"Показать следы"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Вы не можете использовать значение меньше вашего минимального значения ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"ru"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Защита от спама. Пожалуйста, подождите {1} секунд."
+	}
+
+	"Spawn Preview CM"
+	{
+		"ru"		"Предпросмотр создан. Предпросмотр исчезнет через 45 секунд."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"ru"		"Предпросмотр создан. Предпросмотр исчезнет через {1} секунд."
+	}
+
+	"Start again from begin CM"
+	{
+		"ru"		"Пожалуйста, начните снова с самого начала"
+	}
+
+	"Starting CM"
+	{
+		"ru"		"Начало"
+	}
+
+	"Stay CM"
+	{
+		"ru"		"Остаться"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"ru"		"Вы уверены, что хотите сбросить свое снаряжение? Все предметы будут сняты."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"ru"		"Вы успешно приобрели ваучер"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"ru"		"Этот предмет был предназначен для использования с другой классом игрока."
+	}
+
+	"Tail CM"
+	{
+		"ru"		"Хвост"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"ru"		"Вы уже сделали ставку на этот раунд."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"ru"		"Указан неверный идентификатор команды."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы проиграли {1} {2} в ставке."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"ru"		"Период ставок для этого раунда завершен."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Вы успешно сделали ставку в размере {1} кредитов."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Ваша ставка была успешной. Вы выиграли {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"ru"		"Не было ставки на другую команду, так что вы получили кредиты обратно."
+	}
+
+	"Terrorist CM"
+	{
+		"ru"		"Террорист"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Выбранное число: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Следующее число было: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"ru"		"Это текст предварительного просмотра."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Администратор перезагрузил конфигурацию магазина. Карта будет перезагружена через {1} секунд!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"ru"		"Меню создания ваучеров для предметов (Только для администраторов).\n \nВыберите продолжительность предмета."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"ru"		"Меню создания ваучеров для предметов (Только для администраторов)"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Кредиты: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ru"		"Истекает через {1}д {2}ч"
+	}
+
+	"Title Gift CM"
+	{
+		"ru"		"Выберите игрока, которому отправить подарок"
+	}
+
+	"Title Store CM"
+	{
+		"ru"		"Меню магазина"
+	}
+
+	"To late chat input CM"
+	{
+		"ru"		"Ваш ввод текста не был завершен в установленное время"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"На земле слишком много {1}, вы не можете бросить больше сейчас!"
+	}
+
+	"Top Credits CM"
+	{
+		"ru"		"Топ кредитов"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"ru"		"Топ кредиты + стоимость инвентаря"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"ru"		"Топ стоимости инвентаря"
+	}
+
+	"Top Most Items CM"
+	{
+		"ru"		"Топ самых популярных предметов"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Итого: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"ru"		"Попробуй снова"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"ru"		"Введите в чат !bet <ставка> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"ru"		"Напишите в чат !blackjack <ставка>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"ru"		"Введите в чат !coinflip <ставка> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"ru"		"Напишите в чате !crash <ставка>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"ru"		"Введите в чат !crowns <ставка>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"ru"		"Напишите в чате !dice <ставка> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"ru"		"Введите в чат !jackpot <ставка>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"ru"		"Введите в чат !roulette <ставка> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"ru"		"Неограничено - несколько игроков"
+	}
+
+	"Up CM"
+	{
+		"ru"		"Вверх"
+	}
+
+	"Value less than 1 CM"
+	{
+		"ru"		"Вы не можете использовать значение меньше 1."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ru"		"Громкость {1} установлена на {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"ru"		"На данный момент код ваучера должен содержать ровно 17 символов"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Ваучер имеет стоимость {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"ru"		"Ваучер был принят"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"ru"		"Ваучер был принят"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"ru"		"Вы генерируете {1} {2}ограниченный ваучер{3} с суммой {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"ru"		"Вы генерируете {1} {2}ограниченный ваучер{3} со значениями {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Введенный код ваучера уже был использован {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Этот ваучер истекает {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Введенный код ваучера истёк {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ru"		"Создан новый ваучер {1} со значением {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"ru"		"Вы можете найти код ваучера также в чате и консоли"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Код ваучера: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Введенный код ваучера '{1}' недействителен!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ru"		"Ваучер включает {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"ru"		"Код ваучера действителен"
+	}
+
+	"Vouchers CM"
+	{
+		"ru"		"Ваучер"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Тебе нужно подождать {1} до следующего ежедневного задания."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"ru"		"Вы уже прошли регистрацию сегодня. Пожалуйста, вернитесь завтра."
+	}
+
+	"Win = CM"
+	{
+		"ru"		"Победа = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"ru"		"Победитель больше не в игре, пытаемся найти нового победителя."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"ru"		"Код ваучера имеет неверный формат. Он должен быть XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"ru"		"ВЫ"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"ru"		"Вы уже вывели {1} {2} в джекпот. Текущий шанс на выигрыш: {3}%% Джекпот: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"ru"		"Вы уже владеете введенным ваучерным предметом"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"ru"		"Вы уже использовали введенный код ваучера"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"ru"		"Вы можете начать новый джекпот"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Вы можете начать новый джекпот через {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы не можете потратить столько кредитов (Макс: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы собрали {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"ru"		"У вас нет прав для доступа к этому."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы уронили {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"ru"		"Ты не заработал очков в этом раунде."
+	}
+
+	"You earned this round CM"
+	{
+		"ru"		"Ты выиграл в этом раунде:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы заработали {1} {2} за "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы заработали {1} {2} в этом раунде"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы получили {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы получили {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ru"		"Вы получили {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ru"		"Вы получили {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы должны потратить хотя бы {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы должны потратить хотя бы {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"ru"		"Вы не открыли коробку за отведенное время. Лутбокс вернулся в ваш инвентарь"
+	}
+
+	"You lose CM"
+	{
+		"ru"		"- ты проиграл"
+	}
+
+	"You lost with CM"
+	{
+		"ru"		"Вы проиграли с"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы потеряли {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"ru"		"Ты освоил 'ежедневное задание'! Попробуй пройти его снова!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы выиграли {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"ru"		"!!! ТЫ ВЫИГРАЛ !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ru"		"Вы выиграли {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы выиграли джекпот с {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"ru"		"Вы выиграли джекпот с {1} {2} минус комиссия казино {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"ru"		"Вы выиграли с"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"ru"		"Вы выиграли {1} кредитов с множителем x{2}."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы получите {1} {2} завтра!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"ru"		"Ваша ставка: {1} {2} - Шанс: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Ваша ставка: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"ru"		"Ваши текущие шансы на победу изменились на {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ru"		"Вы заработали {1} кредиты за убийство {2}."
+	}
+
+	"admin CM"
+	{
+		"ru"		"администратор"
+	}
+
+	"and is limited CM"
+	{
+		"ru"		"и ограничен"
+	}
+
+	"and is unlimited CM"
+	{
+		"ru"		"и не ограничен"
+	}
+
+	"arms CM"
+	{
+		"ru"		"руки"
+	}
+
+	"assist a kill CM"
+	{
+		"ru"		"помощь в убийстве"
+	}
+
+	"attachment CM"
+	{
+		"ru"		"Прикрепление"
+	}
+
+	"backstab kill CM"
+	{
+		"ru"		"удар в спину"
+	}
+
+	"be the MVP CM"
+	{
+		"ru"		"стань MVP"
+	}
+
+	"bet x CM"
+	{
+		"ru"		"ставка x"
+	}
+
+	"blackjack CM"
+	{
+		"ru"		"Блэкджек"
+	}
+
+	"bomb defused CM"
+	{
+		"ru"		"бомба обезврежена"
+	}
+
+	"bomb explode CM"
+	{
+		"ru"		"бомба взорвалась"
+	}
+
+	"bomb planted CM"
+	{
+		"ru"		"бомба установлена"
+	}
+
+	"bombtweak CM"
+	{
+		"ru"		"Настройка бомбы"
+	}
+
+	"bullet_impact CM"
+	{
+		"ru"		"Удар пули"
+	}
+
+	"bulletsparks CM"
+	{
+		"ru"		"Искры от пули"
+	}
+
+	"bunnyhob CM"
+	{
+		"ru"		"Заячий прыжок"
+	}
+
+	"bunnyhop CM"
+	{
+		"ru"		"умение"
+	}
+
+	"casino CM"
+	{
+		"ru"		"Казино"
+	}
+
+	"coinflip CM"
+	{
+		"ru"		"Подбрасывание монеты"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Вы хотите сбросить конфигурацию?\nКарта перезагрузится через {1} секунд!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"ru"		"Вы уверены, что хотите сбросить конфигурацию?\nНеобходимо сменить карту для применения изменений или могут возникнуть ошибки."
+	}
+
+	"connect CM"
+	{
+		"ru"		"Сообщение о подключении"
+	}
+
+	"crash CM"
+	{
+		"ru"		"Краш"
+	}
+
+	"creditstoplist CM"
+	{
+		"ru"		"кредиты"
+	}
+
+	"crowns CM"
+	{
+		"ru"		"Слот корон"
+	}
+
+	"daily CM"
+	{
+		"ru"		"Ежедневный бонус"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"ru"		"убийство с гранатой-обманкой"
+	}
+
+	"dice CM"
+	{
+		"ru"		"Кубик"
+	}
+
+	"direction CM"
+	{
+		"ru"		"Направление"
+	}
+
+	"discount CM"
+	{
+		"ru"		"РАСПРОДАЖА"
+	}
+
+	"distance CM"
+	{
+		"ru"		"Расстояние"
+	}
+
+	"dmgtext CM"
+	{
+		"ru"		"Художник"
+	}
+
+	"emote CM"
+	{
+		"ru"		"Эмот"
+	}
+
+	"escape as VIP CM"
+	{
+		"ru"		"сбежать как VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"ru"		"убить флешкой"
+	}
+
+	"flashlight CM"
+	{
+		"ru"		"Фонарь"
+	}
+
+	"froggyjump CM"
+	{
+		"ru"		"Жабий прыжок"
+	}
+
+	"gloves CM"
+	{
+		"ru"		"перчатки"
+	}
+
+	"glow CM"
+	{
+		"ru"		"свечение"
+	}
+
+	"godmode CM"
+	{
+		"ru"		"режим бога"
+	}
+
+	"gravity CM"
+	{
+		"ru"		"способность"
+	}
+
+	"grenademodel CM"
+	{
+		"ru"		"Модель гранаты"
+	}
+
+	"grenadeskin CM"
+	{
+		"ru"		"кожа гранаты"
+	}
+
+	"grenadetrail CM"
+	{
+		"ru"		"след от гранаты"
+	}
+
+	"hat CM"
+	{
+		"ru"		"шляпа"
+	}
+
+	"headshot CM"
+	{
+		"ru"		"хедшот"
+	}
+
+	"health CM"
+	{
+		"ru"		"пакет"
+	}
+
+	"high or low CM"
+	{
+		"ru"		"Выше или ниже"
+	}
+
+	"hiteff CM"
+	{
+		"ru"		"эффект удара:"
+	}
+
+	"hitsound CM"
+	{
+		"ru"		"Звук попадания"
+	}
+
+	"hostage rescued CM"
+	{
+		"ru"		"освобождён заложник"
+	}
+
+	"hunterjump CM"
+	{
+		"ru"		"Прыжок охотника"
+	}
+
+	"idle on the server CM"
+	{
+		"ru"		"без действия на сервере"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"через {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"ru"		"Бесконечные патроны"
+	}
+
+	"info CM"
+	{
+		"ru"		"Панель информации"
+	}
+
+	"instabomb CM"
+	{
+		"ru"		"Мгновенная посадка / обезвреживание"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"ru"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"ru"		"способность"
+	}
+
+	"items CM"
+	{
+		"ru"		"Предметы"
+	}
+
+	"jackpot CM"
+	{
+		"ru"		"Джекпот"
+	}
+
+	"jetpack CM"
+	{
+		"ru"		"ракета"
+	}
+
+	"jihad CM"
+	{
+		"ru"		"бомба"
+	}
+
+	"kill CM"
+	{
+		"ru"		"убить"
+	}
+
+	"kill the VIP CM"
+	{
+		"ru"		"убить VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"ru"		"убей себя"
+	}
+
+	"killeff CM"
+	{
+		"ru"		"эффект убийства:"
+	}
+
+	"knife CM"
+	{
+		"ru"		"нож"
+	}
+
+	"knife kill CM"
+	{
+		"ru"		"убить ножом"
+	}
+
+	"laserdraw CM"
+	{
+		"ru"		"лазерный рисунок:"
+	}
+
+	"laserpointer CM"
+	{
+		"ru"		"Лазерная указка"
+	}
+
+	"lasersight CM"
+	{
+		"ru"		"лазерный прицел"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"последнее обновление {1} назад"
+	}
+
+	"light CM"
+	{
+		"ru"		"Свет"
+	}
+
+	"lootbox CM"
+	{
+		"ru"		"Ящик с добычей"
+	}
+
+	"mirror CM"
+	{
+		"ru"		"зеркало"
+	}
+
+	"molotov kill CM"
+	{
+		"ru"		"убить молотовым"
+	}
+
+	"msgcolor CM"
+	{
+		"ru"		"цвет сообщения"
+	}
+
+	"mvp_sound CM"
+	{
+		"ru"		"Гимны MVP"
+	}
+
+	"namecolor CM"
+	{
+		"ru"		"цвет имени"
+	}
+
+	"nametag CM"
+	{
+		"ru"		"бирка имени"
+	}
+
+	"nearest CM"
+	{
+		"ru"		"Ближайший"
+	}
+
+	"nodiscount CM"
+	{
+		"ru"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"ru"		"Нет задержки при приседании"
+	}
+
+	"nofalldamage CM"
+	{
+		"ru"		"Нет урона от падения"
+	}
+
+	"noreload CM"
+	{
+		"ru"		"Без перезарядки"
+	}
+
+	"noscope kill CM"
+	{
+		"ru"		"убить без прицела"
+	}
+
+	"noselfdamage CM"
+	{
+		"ru"		"Нет урона себе"
+	}
+
+	"or use buttons below CM"
+	{
+		"ru"		"или используйте кнопки ниже"
+	}
+
+	"package CM"
+	{
+		"ru"		"пакет"
+	}
+
+	"paintball CM"
+	{
+		"ru"		"пули"
+	}
+
+	"painter CM"
+	{
+		"ru"		"Художник"
+	}
+
+	"parachute CM"
+	{
+		"ru"		"Парашют"
+	}
+
+	"particle CM"
+	{
+		"ru"		"Частицы"
+	}
+
+	"pet CM"
+	{
+		"ru"		"домашнее животное"
+	}
+
+	"playerskin CM"
+	{
+		"ru"		"кожа игрока"
+	}
+
+	"playing on the server CM"
+	{
+		"ru"		"играет на сервере"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"Вы играли на нашем сервере {1} день подряд"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Вы получите {1} при следующем респауне"
+	}
+
+	"respawn CM"
+	{
+		"ru"		"Респаун"
+	}
+
+	"roulette CM"
+	{
+		"ru"		"Рулетка"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Вы достигли максимального числа использований звука. {1} максимальное количество использований на карту"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"ru"		"Вы достигли максимального числа использований звука. {1} максимальное количество использований на раунд"
+	}
+
+	"saysound CM"
+	{
+		"ru"		"сказать звук"
+	}
+
+	"scoreboardtag CM"
+	{
+		"ru"		"Тег таблицы лидеров"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"ru"		"убить дымовой гранатой"
+	}
+
+	"sound CM"
+	{
+		"ru"		"звук"
+	}
+
+	"spawn CM"
+	{
+		"ru"		"Дополнительный респаун"
+	}
+
+	"spawneff CM"
+	{
+		"ru"		"эффект спауна:"
+	}
+
+	"speed CM"
+	{
+		"ru"		"способность"
+	}
+
+	"spray CM"
+	{
+		"ru"		"спрей"
+	}
+
+	"start daily challange CM"
+	{
+		"ru"		"Начни 'ежедневное задание'. Играй следующие 6 дней, чтобы получить полный бонус"
+	}
+
+	"taser kill CM"
+	{
+		"ru"		"убить электрошокером"
+	}
+
+	"teambet CM"
+	{
+		"ru"		"Ставка на команду"
+	}
+
+	"teamkill CM"
+	{
+		"ru"		"убить союзника"
+	}
+
+	"tfhat CM"
+	{
+		"ru"		"шапка для строительства"
+	}
+
+	"tfhatdye CM"
+	{
+		"ru"		"окраска шляпы"
+	}
+
+	"tfhead CM"
+	{
+		"ru"		"размер головы"
+	}
+
+	"tfunusual CM"
+	{
+		"ru"		"эффект шляпы"
+	}
+
+	"tfweapon CM"
+	{
+		"ru"		"пользовательское оружие"
+	}
+
+	"tfweaponsize CM"
+	{
+		"ru"		"размер оружия"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Приз будет разыгран через {1} секунд"
+	}
+
+	"thirdperson CM"
+	{
+		"ru"		"третье лицо"
+	}
+
+	"throwknife CM"
+	{
+		"ru"		"Бросить нож"
+	}
+
+	"toplists CM"
+	{
+		"ru"		"Топ-листы"
+	}
+
+	"tracer CM"
+	{
+		"ru"		"трейсер"
+	}
+
+	"trail CM"
+	{
+		"ru"		"след"
+	}
+
+	"wasted CM"
+	{
+		"ru"		"потрачено"
+	}
+
+	"watergun CM"
+	{
+		"ru"		"эффект"
+	}
+
+	"weapon CM"
+	{
+		"ru"		"оружие"
+	}
+
+	"weaponcolor CM"
+	{
+		"ru"		"цвет оружия"
+	}
+
+	"weaponmodel CM"
+	{
+		"ru"		"Модель оружия"
+	}
+
+	"weaponskin CM"
+	{
+		"ru"		"кожа оружия"
+	}
+
+	"win the round CM"
+	{
+		"ru"		"выиграй раунд"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"ru"		"{1} {2} за '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ru"		"{1} часов {2} минут и {3} секунд"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ru"		"{1} час(а) {2} минута(ы) и {3} секунда(ы)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ru"		"{1} минут и {2} секунд"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ru"		"{1} минута(ы) и {2} секунда(ы)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{1} секунд"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{1} секунда(ы)"
+	}
+
+	"zrclass CM"
+	{
+		"ru"		"класс игрока"
+	}
 }

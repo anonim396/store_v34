@@ -104,4 +104,133 @@
 	{
 		"jp"		"選択したプレイヤーからの返答をお待ちください。"
 	}
+
+
+	"Cancel CM"
+	{
+		"jp"		"取引をキャンセル"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"jp"		"あなたの {1} {2} を提供しますか？"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"jp"		"あなたの {1} {2} を交換しますか？"
+	}
+
+	"Offer CM"
+	{
+		"jp"		"アイテムを提供"
+	}
+
+	"Offer item CM"
+	{
+		"jp"		"このアイテムを提供する"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"jp"		"あなたのパートナーは {1} クレジットを提供します"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"jp"		"あなたのパートナーは以下のアイテムを提供します:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"jp"		"あなたのパートナーはまだ準備ができていません。"
+	}
+
+	"Partner Ready CM"
+	{
+		"jp"		"あなたのパートナーは準備ができています。"
+	}
+
+	"Player Left CM"
+	{
+		"jp"		"取引したかったプレイヤーがゲームを離れました。"
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"jp"		"準備完了 [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"jp"		"取引は {1} 秒後に終了します..."
+	}
+
+	"Trade Active CM"
+	{
+		"jp"		"すでに取引中です。"
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"jp"		"{1} と取引しますか？"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"jp"		"取引をキャンセルしますか？"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"jp"		"取引する前に数分待ってください。"
+	}
+
+	"Trade Menu CM"
+	{
+		"jp"		"取引メニューを再度開くには、!trade と入力してください。"
+	}
+
+	"Trade Not Active CM"
+	{
+		"jp"		"取引していません。"
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"jp"		"取引相手が取引をキャンセルしました。"
+	}
+
+	"Trade Select Player CM"
+	{
+		"jp"		"取引するプレイヤーを選択してください"
+	}
+
+	"Trade Successful CM"
+	{
+		"jp"		"取引が成功しました。"
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"jp"		"{1} と取引しています\n-----------------------------\nクレジットを提供するには、!offer <amount> を入力してください\n{2} クレジットを提供しました"
+	}
+
+	"Trade item CM"
+	{
+		"jp"		"このアイテムを取引する"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"jp"		"選択したプレイヤーからの返答をお待ちください。"
+	}
 }

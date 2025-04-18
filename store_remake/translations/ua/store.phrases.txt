@@ -2275,4 +2275,2783 @@
 	{
 		"ua"		"клас гравця"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"{1}21 !!! БЛЕКДЖЕК !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Ви вже перезавантажили конфігурацію. Будь ласка, змініть або перезавантажте карту."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Усі учасники відключаються, ніхто не отримує свої {2} назад, хаха. Джекпот був {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"ua"		"Всі згенеровані та дійсні купони:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ua"		"Ви виграли, але вже маєте {1} ({2}). Предмет був проданий за {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ua"		"Ви вже маєте {1} ({2}). Вам повернуто {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Сума: {1}"
+	}
+
+	"Aura CM"
+	{
+		"ua"		"Аура:"
+	}
+
+	"Back CM"
+	{
+		"ua"		"Назад"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"ua"		"Ставка * Множник = Ваша перемога"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Бонусні кредити: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Pot CT виграв: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Максимальна ставка ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Мінімальна ставка ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ua"		"Випадкова ставка ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Pot T виграв: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"ua"		"Зробити ставку на"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"ua"		"Ставка на Орел/Решка"
+	}
+
+	"Bet on a color CM"
+	{
+		"ua"		"Ставка на колір, і якщо цей колір буде обраний, ви виграєте!"
+	}
+
+	"Bet on a number CM"
+	{
+		"ua"		"Ставка на Низьке (#1-3), Високе (#4-6) або точне число. Якщо ваш вибір випав, ви виграєте!"
+	}
+
+	"Bet on a team CM"
+	{
+		"ua"		"Ставка на команду, і якщо команда виграє раунд, ви виграєте!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"ua"		"Ви вже зробили ставку на цей раунд."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"ua"		"Вказано неправильний ідентифікатор команди."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Ви програли {1} кредитів на ставці."
+	}
+
+	"Betting Period Over CM"
+	{
+		"ua"		"Час ставок для цього раунду завершено."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Ви успішно зробили ставку в {1} кредитів."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Ваша ставка була успішною. Ви виграли {1} кредитів."
+	}
+
+	"Black CM"
+	{
+		"ua"		"чорний"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"ua"		"Blackjack — це гра, в якій вартість карт у вашій руці повинна бути вищою, ніж у дилера, не перевищуючи 21."
+	}
+
+	"Buy CM"
+	{
+		"ua"		"Купити предмет"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Купити предмет ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"ua"		"Ви змінили свій колір на: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"ua"		"Опція кольору мітки чату"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"ua"		"Вимкнути колір"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"ua"		"Користувацький колір етикетки вимкнено."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"ua"		"У вас немає жодної встановленої мітки імені"
+	}
+
+	"CP No file found CM"
+	{
+		"ua"		"Колір користувацького тега для користувача було вимкнено. Будь ласка, зверніться до адміністратора для отримання додаткової підтримки."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ua"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"ua"		"Показ попереднього перегляду етикетки на табло, будь ласка, натисніть кнопку TAB."
+	}
+
+	"Cancel CM"
+	{
+		"ua"		"Скасувати"
+	}
+
+	"Cant be bought CM"
+	{
+		"ua"		"Цей предмет не можна купити"
+	}
+
+	"Cash out CM"
+	{
+		"ua"		"Виведення"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Змініть вашу ставку: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ua"		"Ви купили {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ua"		"{1} надіслав вам {2} {3} як подарунок."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ua"		"Ви надіслали {1} {2} {3} як подарунок."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ua"		"Ви продали {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Ви відкрили контейнер і знайшли {1} кредитів!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ua"		"{1} відкрив контейнер і знайшов {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ua"		"{1} відкрив контейнер і знайшов {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"ua"		"Перевірте всі дійсні та доступні ваучери (Тільки для адміністраторів)"
+	}
+
+	"Check Voucher CM"
+	{
+		"ua"		"Перевірити ваучер"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"ua"		"Перевірте свій згенерований і дійсний доступний ваучер"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"ua"		"Виберіть номер (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"ua"		"Авто-виведення:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"ua"		"Ваше обладнання було скинуто."
+	}
+
+	"Client valid voucher CM"
+	{
+		"ua"		"Ваш згенерований та дійсний купон:\n "
+	}
+
+	"Close CM"
+	{
+		"ua"		"Закрити"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"ua"		"Кольоровий дим"
+	}
+
+	"Command is in-game only CM"
+	{
+		"ua"		"Ви повинні бути живі, щоб використовувати цю команду."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"ua"		"Конфігурацію перезавантажено. Будь ласка, перезавантажте або змініть карту."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ua"		"Ви впевнені, що хочете придбати {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"ua"		"Ви впевнені, що хочете подарувати {1} {2} {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ua"		"Ви впевнені, що хочете залишити {1} {2} як подарунок?"
+	}
+
+	"Confirm_No CM"
+	{
+		"ua"		"Ні"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"ua"		"Ви впевнені, що хочете продати {1} {2} за {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ua"		"Ви впевнені, що хочете перетворити {1} ({2}) на купон?\nПОПЕРЕДЖЕННЯ: Якщо товар у ваучері спливає до того, як його погашено.\nЦей ваучер буде прострочений."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"ua"		"Так"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ua"		"{1} дав правильну відповідь і виграв {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"ua"		"Контртерорист"
+	}
+
+	"Crash Already Start CM"
+	{
+		"ua"		"Гра Crash наразі триває. Будь ласка, чекайте наступну гру."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"ua"		"Вимкнено"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"ua"		"Вимкнути авто-виведення"
+	}
+
+	"Crash Auto On CM"
+	{
+		"ua"		"Увімкнено"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"ua"		"Увімкнути авто-виведення"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"ua"		"           Що це/ Як грати: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"ua"		"- Crash — це гра, в якій гравці можуть ставити на множник, цей множник пов'язаний із зростаючою кривою, яка може обрушитися в будь-який момент."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"ua"		"- Множник починається з 1.00x, і ви можете вивести будь-коли."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"ua"		"- Мінімальна сума ставки: {1} {2}. Максимальна сума ставки: {3} {4}. Ці ліміти можуть змінюватися з часом."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"ua"		"Невірний ввід (повинно бути {1} або більше)."
+	}
+
+	"Crash auto input CM"
+	{
+		"ua"		"Введіть значення авто-виведення в чат"
+	}
+
+	"Crash auto input set CM"
+	{
+		"ua"		"Налаштовано авто-виведення Crash"
+	}
+
+	"Crash set auto CM"
+	{
+		"ua"		"Встановіть значення авто-виведення"
+	}
+
+	"Crash! CM"
+	{
+		"ua"		"Краш!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"ua"		"Створити ваучер на предмети (Тільки адміністратори)"
+	}
+
+	"Create Voucher CM"
+	{
+		"ua"		"Створити ваучер"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Створення ваучера не вдалося - Зв'яжіться з адміністратором із таким часовим штампом: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"ua"		"Дарування кредитів на цьому сервері вимкнено."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Ви скинули {1} кредитів як подарунок."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ua"		"{2} надіслав вам {1} кредитів."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ua"		"Ви відправили {1} кредитів гравцю {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"ua"		"У вас недостатньо кредитів для створення розіграшу."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"ua"		"Введено неправильну кількість кредитів."
+	}
+
+	"Credit No Match CM"
+	{
+		"ua"		"Не знайдено гравця."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"ua"		"У вас недостатньо кредитів, щоб купити це."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"ua"		"Знайдено більше ніж один клієнт."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"ua"		"У вас недостатньо кредитів для створення ваучера."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ua"		"Ви заробили {1} кредитів за вбивство {2}."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Ви заробили {1} кредитів за гру на сервері."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"ua"		"{1} отримав {2} кредитів."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ua"		"Кредити: {1}          Пот: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"ua"		"Вимкнено"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"ua"		"Увімкнено"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"ua"		"[Користувацький звук зброї]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"ua"		"Меню керування гучністю звуку користувацької зброї"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Гучність: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"ua"		"Користувацький звук зброї: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"ua"		"Користувацький звук зброї Вимкнено."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"ua"		"Користувацький звук зброї увімкнено."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Користувацький звук зброї увімкнено. Гучність: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"ua"		"Користувацька модель зброї:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"ua"		"Пошкодьте коробку, щоб відкрити!"
+	}
+
+	"Dead heat CM"
+	{
+		"ua"		"- нічия -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ua"		"             ДИЛЕР     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"ua"		"ДИЛЕР"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Знижка: '{1}' активна! Успішних покупок!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Знижка: '{1}' завершена."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Знижка: '{1}' почалась! Успішних покупок!"
+	}
+
+	"Double CM"
+	{
+		"ua"		"Подвоїти"
+	}
+
+	"Down CM"
+	{
+		"ua"		"Вниз"
+	}
+
+	"Down2 CM"
+	{
+		"ua"		"                      5 = Вниз"
+	}
+
+	"Drop Gift CM"
+	{
+		"ua"		"Кинути як подарунок"
+	}
+
+	"Edit Amount CM"
+	{
+		"ua"		"Редагувати кількість: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"ua"		"Будь ласка, введіть час закінчення терміну дії (в секундах) для предмета в чат!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"ua"		"Невірний формат числа. Будь ласка, спробуйте знову."
+	}
+
+	"Enter custom amount CM"
+	{
+		"ua"		"Будь ласка, введіть свою користувацьку суму в чаті!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"ua"		"Будь ласка, введіть максимальне значення кредитів у чаті!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"ua"		"Будь ласка, введіть кількість ваучерів для створення у чаті!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"ua"		"Будь ласка, введіть суму ваучера для покупки у чаті!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"ua"		"Будь ласка, введіть код ваучера у чаті!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"ua"		"Виникла помилка при поверненні ціни. Будь ласка, зв'яжіться з адміністратором"
+	}
+
+	"Exact #x  = CM"
+	{
+		"ua"		"Точне #x = "
+	}
+
+	"Exit CM"
+	{
+		"ua"		"Вихід"
+	}
+
+	"Gained CM"
+	{
+		"ua"		"Отримано"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ua"		"Отримано: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"ua"		"Інформація про гру"
+	}
+
+	"Game in progress CM"
+	{
+		"ua"		"Ваша поточна гра в процесі. Будь ласка, зачекайте, поки вона завершиться."
+	}
+
+	"Get three on a kind CM"
+	{
+		"ua"		"Отримай три однакові"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Ви підібрали {1} кредитів."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ua"		"Ви підібрали {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"ua"		"Немає нікого, кому ви можете подарувати цей предмет."
+	}
+
+	"Gift Player Left CM"
+	{
+		"ua"		"Вибраний гравець вже покинув гру."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ua"		"{1} Для проведення розіграшу сервер повинен містити як мінімум {2} гравців."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ua"		"Адміністратор {1} відкрив розіграш з <font color='#15fb00'>{2} кредитами"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"|| Розіграш почнеться через {1} секунд ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"ua"		"{1} {2} виграв гівевей з {3} кредитами"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ua"		"{1}\n|| Переможець: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"ua"		"Ви досягли максимального числа godmode, які можете купити в цьому раунді."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"ua"		"Ви не можете використовувати godmode в цій команді."
+	}
+
+	"Green CM"
+	{
+		"ua"		"зелений"
+	}
+
+	"HE grenade kill CM"
+	{
+		"ua"		"вбити гранатою HE"
+	}
+
+	"HUD CM"
+	{
+		"ua"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"ua"		"Голова"
+	}
+
+	"Health Round Limit CM"
+	{
+		"ua"		"Ви досягли максимального числа аптечок, які можете купити в цьому раунді."
+	}
+
+	"Help_Back CM"
+	{
+		"ua"		"Назад"
+	}
+
+	"Help_Exit CM"
+	{
+		"ua"		"Вихід"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"ua"		"Сховати іскри від куль"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"ua"		"Сховати сліди куль"
+	}
+
+	"Hide gloves CM"
+	{
+		"ua"		"Сховати рукавички"
+	}
+
+	"Hide paintball CM"
+	{
+		"ua"		"Сховати пейнтбол"
+	}
+
+	"Hide particles CM"
+	{
+		"ua"		"Сховати частинки"
+	}
+
+	"Hide pets CM"
+	{
+		"ua"		"Сховати домашніх тварин"
+	}
+
+	"Hide trails CM"
+	{
+		"ua"		"Сховати сліди"
+	}
+
+	"High #4-6 CM"
+	{
+		"ua"		"Високий #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"ua"		"Високий #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"ua"		"Високий - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"ua"		"ВИЩЕ"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Вибране число: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Наступне число було: {1}"
+	}
+
+	"Hit CM"
+	{
+		"ua"		"Удар"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"ua"		"Між {1} та {2} було вибрано число, щоб ви вгадали, чи буде наступне число більше або менше за вибране."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"ua"		"Якщо вибереш правильний варіант, виграєш удвічі більше за свою ставку."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"ua"		"Між кожною грою є пауза в {1} секунд(и)."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви успішно розмістили {1} {2}."
+	}
+
+	"Inventory CM"
+	{
+		"ua"		"Інвентар"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"ua"		"Будь ласка, зачекайте. Ваш інвентар ще не був завантажений."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ua"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"ua"		"Оснастити цей предмет"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"{1} [ОСНАЩЕНО]"
+	}
+
+	"Item Gift CM"
+	{
+		"ua"		"Подарувати цей предмет"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"{1} (Виберіть план)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Продати за {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"ua"		"Зняти цей предмет"
+	}
+
+	"Item Use CM"
+	{
+		"ua"		"Використати цей предмет"
+	}
+
+	"Item Voucher CM"
+	{
+		"ua"		"Створити ваучер з предмета"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"ua"		"Створення ваучерів для предметів наразі вимкнено."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ua"		"Ви конвертували {1} ({2}) в ваучер {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"ua"		"{1} приховано. Ти більше не побачиш їх."
+	}
+
+	"Item not found CM"
+	{
+		"ua"		"Товар не знайдений"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"ua"		"{1} знову видимий."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"ua"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"ua"		"Джекпот призупинений."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Джекпот: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"ua"		"Jetpack порожній"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"ua"		"[Jetpack] Паливо: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"ua"		"Jetpack перезавантажено"
+	}
+
+	"Jihad Failed CM"
+	{
+		"ua"		"Ваша бомба не вибухнула."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"ua"		"Бомба джихаду {1} не вибухнула."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"ua"		"Ви не можете використовувати бомбу в цій команді."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"{1} хвилин(и) до початку крашу."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"{1} секунда(и) до початку крашу."
+	}
+
+	"LevelIcon CM"
+	{
+		"ua"		"іконка рівня"
+	}
+
+	"Limited CM"
+	{
+		"ua"		"Обмежено - один гравець"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"ua"		"Будь ласка, зачекайте, поки не відкриється ваша попередня коробка"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"ua"		"Карта завершена. Будь ласка, чекайте наступну карту"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"ua"		"Раунд завершений. Будь ласка, чекайте наступний раунд"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"ua"		"Не можете відкрити під час розігріву"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Ви втратили свою щоденну серію з {1} день(днів)."
+	}
+
+	"Lost bet CM"
+	{
+		"ua"		"Не вдалося! Ви програли ставку"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Ви програли свою ставку, оскільки наступне число було: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"ua"		"Низький #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"ua"		"Низький #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"ua"		"Низький - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"ua"		"НИЖЧЕ"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Нам потрібно хоча б {1} гравець(і)"
+	}
+
+	"Must be Alive CM"
+	{
+		"ua"		"Ви повинні бути живі, щоб використовувати це."
+	}
+
+	"Must be dead CM"
+	{
+		"ua"		"Ти повинен бути мертвим, щоб грати"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"ua"		"Множник = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"ua"		"Немає активного джекпоту"
+	}
+
+	"No active TeamBet CM"
+	{
+		"ua"		"Ще не зроблено жодних ставок на команду"
+	}
+
+	"No have flag CM"
+	{
+		"ua"		"У вас немає доступу до використання цієї команди."
+	}
+
+	"No matching color CM"
+	{
+		"ua"		"Немає відповідного кольору, використовуйте: r/червоний, b/чорний або g/зелений"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"ua"		"Ніхто не підняв ваші втрачені кредити. Ви отримали їх назад."
+	}
+
+	"No pick up - removed CM"
+	{
+		"ua"		"Ніхто не підняв ваші втрачені кредити. Кредити були видалені."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Час вийшов. Правильна відповідь була {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ніхто інший не поклав гроші в джекпот. Ви отримуєте свої {1} {2} назад!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"ua"		"У вас недостатньо кредитів"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"ua"		"Зараз проводиться розіграш, спробуйте ще раз через кілька секунд."
+	}
+
+	"Only number CM"
+	{
+		"ua"		"Ви можете вводити лише числа..."
+	}
+
+	"Override Disabled CM"
+	{
+		"ua"		"Ваш поточний скин не підтримує капелюхи. Ваш капелюх буде вимкнений."
+	}
+
+	"Override Enabled CM"
+	{
+		"ua"		"Ваш поточний скин не підтримує капелюхи. Ваш скин буде змінено."
+	}
+
+	"Owned CM"
+	{
+		"ua"		"[Власник]"
+	}
+
+	"Package Gift CM"
+	{
+		"ua"		"Подарувати цей пакет"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Продайте цей пакет за {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"ua"		"Створити ваучер з пакету"
+	}
+
+	"Parachute Empty CM"
+	{
+		"ua"		"Парашют порожній"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"ua"		"Парашут перезаряджений"
+	}
+
+	"Particles CM"
+	{
+		"ua"		"Частинки:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Помістіть {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"ua"		"Відтворюю звук попереднього перегляду для вас."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ua"		"{1} має {2} кредитів."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"{1} був скинутий."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"ua"		"Модуль Store Player Skin тимчасово вимкнено."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"ua"		"{1} додав {2} {3} до джекпоту, його поточний шанс на виграш: {4}% (Джекпот: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ua"		"{1} програв {2} {3} в {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ua"		"{1} відкрив джекпот з {2} {3}. Зробіть кеш-ін, щоб отримати ці гроші!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ua"		"{1} виграв джекпот з {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ua"		"{1} виграв {2} {3} в {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"ua"		"{1} виграв {2} {3} з множником x{4} на {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"ua"		"Ваші нові налаштування будуть застосовані при наступному спавні."
+	}
+
+	"Press CM"
+	{
+		"ua"		"Натисніть"
+	}
+
+	"Press to Start CM"
+	{
+		"ua"		"Натисніть, щоб почати!"
+	}
+
+	"Press to Stop CM"
+	{
+		"ua"		"Натисніть, щоб зупинити!"
+	}
+
+	"Preview Item CM"
+	{
+		"ua"		"Попередній перегляд цього предмета"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Ціна: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"ua"		"Купити ваучер"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"ua"		"Скільки коштує {1} {2} {3}? | Приз: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"ua"		"червоний"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"ua"		"Обміняти ваучер"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Перезапустіть {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"ua"		"Ви досягли максимального числа респаунів, які можете купити в цьому раунді."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"ua"		"З міркувань безпеки ви не можете надсилати кілька запитів за короткий проміжок часу."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"ua"		"Другий переможець більше не в грі, остання спроба знайти нового переможця."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Вам потрібно почекати {1} секунд, перш ніж спробувати знову використати цю команду."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"ua"		"Показати іскри від куль"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"ua"		"Показати сліди куль"
+	}
+
+	"Show gloves CM"
+	{
+		"ua"		"Показати рукавички"
+	}
+
+	"Show paintball CM"
+	{
+		"ua"		"Показати пейнтбол"
+	}
+
+	"Show particles CM"
+	{
+		"ua"		"Показати частинки"
+	}
+
+	"Show pets CM"
+	{
+		"ua"		"Показати домашніх тварин"
+	}
+
+	"Show trails CM"
+	{
+		"ua"		"Показати сліди"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Ви не можете використовувати значення, менше за ваше мінімальне значення ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"ua"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Захист від спаму. Будь ласка, почекайте {1} секунд."
+	}
+
+	"Spawn Preview CM"
+	{
+		"ua"		"Створено попередній перегляд. Попередній перегляд зникне через 45 секунд."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"ua"		"Створено попередній перегляд. Попередній перегляд зникне через {1} секунд."
+	}
+
+	"Start again from begin CM"
+	{
+		"ua"		"Будь ласка, почніть з початку"
+	}
+
+	"Starting CM"
+	{
+		"ua"		"Початок"
+	}
+
+	"Stay CM"
+	{
+		"ua"		"Залишити"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"ua"		"Ви впевнені, що хочете скинути своє обладнання? Всі предмети будуть зняті."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"ua"		"Ви успішно придбали ваучер"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"ua"		"Цей предмет був призначений для використання з іншою класом гравця."
+	}
+
+	"Tail CM"
+	{
+		"ua"		"Хвіст"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"ua"		"Ви вже зробили ставку на цей раунд."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"ua"		"Вказано невірний ідентифікатор команди."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви втратили {1} {2} на ставці."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"ua"		"Період ставок для цього раунду завершено."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Ви успішно зробили ставку в {1} кредитів."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ваша ставка була успішною. Ви виграли {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"ua"		"Не було ставки на іншу команду, тому ви отримали свої кредити назад."
+	}
+
+	"Terrorist CM"
+	{
+		"ua"		"Терорист"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Вибране число: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Наступне число було: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"ua"		"Це текст попереднього перегляду."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Адміністратор перезавантажив конфігурацію магазину. Карта буде перезавантажена через {1} секунд!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"ua"		"Меню створення ваучерів для предметів (Тільки адміністратори).\n \nВиберіть тривалість предмета."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"ua"		"Меню створення ваучерів для предметів (Тільки адміністратори)"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Кредити: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ua"		"Закінчується через {1}д {2}ч"
+	}
+
+	"Title Gift CM"
+	{
+		"ua"		"Виберіть гравця, якому надіслати подарунок"
+	}
+
+	"Title Store CM"
+	{
+		"ua"		"Меню магазину"
+	}
+
+	"To late chat input CM"
+	{
+		"ua"		"Ваш ввід тексту не був завершений у встановлений час"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"На землі занадто багато {1}, ви не можете кинути більше зараз!"
+	}
+
+	"Top Credits CM"
+	{
+		"ua"		"Топ кредитів"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"ua"		"Топ кредити + вартість інвентарю"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"ua"		"Топ вартості інвентарю"
+	}
+
+	"Top Most Items CM"
+	{
+		"ua"		"Топ найбільш популярних предметів"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Загалом: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"ua"		"Спробуйте ще раз"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"ua"		"Введіть у чат !bet <ставка> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"ua"		"Напишіть в чаті !blackjack <ставка>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"ua"		"Введіть у чат !coinflip <ставка> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"ua"		"Напишіть у чаті !crash <ставка>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"ua"		"Введіть у чат !crowns <ставка>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"ua"		"Напишіть у чаті !dice <ставка> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"ua"		"Введіть у чат !jackpot <ставка>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"ua"		"Введіть у чат !roulette <ставка> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"ua"		"Необмежено - кілька гравців"
+	}
+
+	"Up CM"
+	{
+		"ua"		"Вгору"
+	}
+
+	"Value less than 1 CM"
+	{
+		"ua"		"Ви не можете використовувати значення менше 1."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ua"		"Гучність {1} встановлено на {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"ua"		"Зараз код ваучера повинен містити рівно 17 символів"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ваучер має вартість {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"ua"		"Ваучер був прийнятий"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"ua"		"Ваучер був прийнятий"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"ua"		"Ви генеруєте {1} {2}обмежений ваучер{3} з вартістю {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"ua"		"Ви генеруєте {1} {2}обмежений ваучер{3} зі значеннями {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Введений код ваучера вже було використано {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Цей ваучер закінчується {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Введений код ваучера закінчився {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ua"		"Створено новий ваучер {1} зі значенням {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"ua"		"Ви можете знайти код ваучера у чаті та консолі"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Код ваучера: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Введений код ваучера '{1}' недійсний!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ua"		"Ваучер містить {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"ua"		"Код ваучера дійсний"
+	}
+
+	"Vouchers CM"
+	{
+		"ua"		"Ваучер"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Ти повинен чекати {1} до наступного щоденного завдання."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"ua"		"Ви вже пройшли реєстрацію сьогодні. Будь ласка, поверніться завтра."
+	}
+
+	"Win = CM"
+	{
+		"ua"		"Перемога = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"ua"		"Переможець більше не в грі, намагаємося знайти нового переможця."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"ua"		"Код ваучера має неправильний формат. Він має бути XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"ua"		"ТИ"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"ua"		"Ви вже зняли {1} {2} в джекпот. Поточний шанс на виграш: {3}%% Джекпот: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"ua"		"Ви вже володієте введеним предметом ваучера"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"ua"		"Ви вже використали введений код ваучера"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"ua"		"Ви можете почати новий джекпот"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Ви можете почати новий джекпот через {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви не можете витратити таку кількість кредитів (Макс: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви зібрали {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"ua"		"У вас немає дозволу доступу до цього."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви впустили {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"ua"		"Ти не заробив жодного балу в цьому раунді."
+	}
+
+	"You earned this round CM"
+	{
+		"ua"		"Ти виграв цей раунд:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви заробили {1} {2} за "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви заробили {1} {2} в цьому раунді"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви отримали {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви отримали {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ua"		"Ви отримали {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ua"		"Ви отримали {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви повинні витратити хоча б {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви повинні витратити хоча б {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"ua"		"Ви не відкрили коробку у відведений час. Lootbox повернувся у ваш інвентар"
+	}
+
+	"You lose CM"
+	{
+		"ua"		"- ви програли"
+	}
+
+	"You lost with CM"
+	{
+		"ua"		"Ви програли з"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви втратили {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"ua"		"Ти освоїв 'щоденний виклик'! Спробуй пройти його знову!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви виграли {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"ua"		"!!! ВИ ПЕРЕМОГЛИ !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ua"		"Ви виграли {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви виграли джекпот з {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"ua"		"Ви виграли джекпот з {1} {2}, за вирахуванням комісії казино {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"ua"		"Ви виграли з"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"ua"		"Ви виграли {1} кредитів з множником x{2}."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви заробите {1} {2} завтра!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"ua"		"Ваша ставка: {1} {2} - Шанс: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ваша ставка: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"ua"		"Ваші поточні шанси на перемогу змінилися на {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ua"		"Ви заробили {1} кредити за вбивство {2}."
+	}
+
+	"admin CM"
+	{
+		"ua"		"адміністратор"
+	}
+
+	"and is limited CM"
+	{
+		"ua"		"і обмежений"
+	}
+
+	"and is unlimited CM"
+	{
+		"ua"		"і не обмежений"
+	}
+
+	"arms CM"
+	{
+		"ua"		"руки"
+	}
+
+	"assist a kill CM"
+	{
+		"ua"		"допомогти вбивству"
+	}
+
+	"attachment CM"
+	{
+		"ua"		"Прикріплення"
+	}
+
+	"backstab kill CM"
+	{
+		"ua"		"вбити з-за спини"
+	}
+
+	"be the MVP CM"
+	{
+		"ua"		"стань MVP"
+	}
+
+	"bet x CM"
+	{
+		"ua"		"ставка x"
+	}
+
+	"blackjack CM"
+	{
+		"ua"		"Блекджек"
+	}
+
+	"bomb defused CM"
+	{
+		"ua"		"бомба знешкоджена"
+	}
+
+	"bomb explode CM"
+	{
+		"ua"		"бомба вибухнула"
+	}
+
+	"bomb planted CM"
+	{
+		"ua"		"бомба встановлена"
+	}
+
+	"bombtweak CM"
+	{
+		"ua"		"Налаштування бомби"
+	}
+
+	"bullet_impact CM"
+	{
+		"ua"		"Удар кулі"
+	}
+
+	"bulletsparks CM"
+	{
+		"ua"		"Іскри від кулі"
+	}
+
+	"bunnyhob CM"
+	{
+		"ua"		"Стрибок кролика"
+	}
+
+	"bunnyhop CM"
+	{
+		"ua"		"вміння"
+	}
+
+	"casino CM"
+	{
+		"ua"		"Казино"
+	}
+
+	"coinflip CM"
+	{
+		"ua"		"Підкидання монети"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Ви хочете скинути конфігурацію?\nКарта буде перезавантажена через {1} секунд!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"ua"		"Ви впевнені, що хочете скинути конфігурацію?\nПотрібно змінити карту для застосування змін, інакше можуть виникнути помилки."
+	}
+
+	"connect CM"
+	{
+		"ua"		"Повідомлення про підключення"
+	}
+
+	"crash CM"
+	{
+		"ua"		"Краш"
+	}
+
+	"creditstoplist CM"
+	{
+		"ua"		"кредити"
+	}
+
+	"crowns CM"
+	{
+		"ua"		"Слот корон"
+	}
+
+	"daily CM"
+	{
+		"ua"		"Щоденний бонус"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"ua"		"вбити гранатою-приманкою"
+	}
+
+	"dice CM"
+	{
+		"ua"		"Кубик"
+	}
+
+	"direction CM"
+	{
+		"ua"		"Напрямок"
+	}
+
+	"discount CM"
+	{
+		"ua"		"РАСПРОДАЖА"
+	}
+
+	"distance CM"
+	{
+		"ua"		"Відстань"
+	}
+
+	"dmgtext CM"
+	{
+		"ua"		"Художник"
+	}
+
+	"emote CM"
+	{
+		"ua"		"Емот"
+	}
+
+	"escape as VIP CM"
+	{
+		"ua"		"втікай як VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"ua"		"вбити флешкою"
+	}
+
+	"flashlight CM"
+	{
+		"ua"		"Фонарик"
+	}
+
+	"froggyjump CM"
+	{
+		"ua"		"Стрибок жаби"
+	}
+
+	"gloves CM"
+	{
+		"ua"		"рукавички"
+	}
+
+	"glow CM"
+	{
+		"ua"		"світіння"
+	}
+
+	"godmode CM"
+	{
+		"ua"		"режим бога"
+	}
+
+	"gravity CM"
+	{
+		"ua"		"здібність"
+	}
+
+	"grenademodel CM"
+	{
+		"ua"		"Модель гранати"
+	}
+
+	"grenadeskin CM"
+	{
+		"ua"		"шкіра гранати"
+	}
+
+	"grenadetrail CM"
+	{
+		"ua"		"слід гранати"
+	}
+
+	"hat CM"
+	{
+		"ua"		"капелюх"
+	}
+
+	"headshot CM"
+	{
+		"ua"		"хедшот"
+	}
+
+	"health CM"
+	{
+		"ua"		"пакет"
+	}
+
+	"high or low CM"
+	{
+		"ua"		"Вищий чи нижчий"
+	}
+
+	"hiteff CM"
+	{
+		"ua"		"ефект удару:"
+	}
+
+	"hitsound CM"
+	{
+		"ua"		"Звук удару"
+	}
+
+	"hostage rescued CM"
+	{
+		"ua"		"рятувати заручника"
+	}
+
+	"hunterjump CM"
+	{
+		"ua"		"Стрибок мисливця"
+	}
+
+	"idle on the server CM"
+	{
+		"ua"		"неактивний на сервері"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"за {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"ua"		"Безкінечні патрони"
+	}
+
+	"info CM"
+	{
+		"ua"		"Інформаційна панель"
+	}
+
+	"instabomb CM"
+	{
+		"ua"		"Миттєва посадка / знешкодження"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"ua"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"ua"		"здібність"
+	}
+
+	"items CM"
+	{
+		"ua"		"Речі"
+	}
+
+	"jackpot CM"
+	{
+		"ua"		"Джекпот"
+	}
+
+	"jetpack CM"
+	{
+		"ua"		"ракета"
+	}
+
+	"jihad CM"
+	{
+		"ua"		"бомба"
+	}
+
+	"kill CM"
+	{
+		"ua"		"вбити"
+	}
+
+	"kill the VIP CM"
+	{
+		"ua"		"вбити VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"ua"		"вбий себе"
+	}
+
+	"killeff CM"
+	{
+		"ua"		"ефект вбивства:"
+	}
+
+	"knife CM"
+	{
+		"ua"		"ніж"
+	}
+
+	"knife kill CM"
+	{
+		"ua"		"вбити ножем"
+	}
+
+	"laserdraw CM"
+	{
+		"ua"		"лазерний малюнок:"
+	}
+
+	"laserpointer CM"
+	{
+		"ua"		"Лазерна указка"
+	}
+
+	"lasersight CM"
+	{
+		"ua"		"лазерний приціл"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"остання оновлення {1} тому"
+	}
+
+	"light CM"
+	{
+		"ua"		"Світло"
+	}
+
+	"lootbox CM"
+	{
+		"ua"		"Скриня з видобутком"
+	}
+
+	"mirror CM"
+	{
+		"ua"		"дзеркало"
+	}
+
+	"molotov kill CM"
+	{
+		"ua"		"вбити коктейлем молотова"
+	}
+
+	"msgcolor CM"
+	{
+		"ua"		"колір повідомлення"
+	}
+
+	"mvp_sound CM"
+	{
+		"ua"		"Гімни MVP"
+	}
+
+	"namecolor CM"
+	{
+		"ua"		"колір імені"
+	}
+
+	"nametag CM"
+	{
+		"ua"		"іменна табличка"
+	}
+
+	"nearest CM"
+	{
+		"ua"		"Найближчий"
+	}
+
+	"nodiscount CM"
+	{
+		"ua"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"ua"		"Немає затримки при присіданні"
+	}
+
+	"nofalldamage CM"
+	{
+		"ua"		"Немає пошкоджень від падіння"
+	}
+
+	"noreload CM"
+	{
+		"ua"		"Без перезарядки"
+	}
+
+	"noscope kill CM"
+	{
+		"ua"		"вбити без прицілу"
+	}
+
+	"noselfdamage CM"
+	{
+		"ua"		"Немає пошкоджень собі"
+	}
+
+	"or use buttons below CM"
+	{
+		"ua"		"або використовуйте кнопки нижче"
+	}
+
+	"package CM"
+	{
+		"ua"		"пакет"
+	}
+
+	"paintball CM"
+	{
+		"ua"		"патрони"
+	}
+
+	"painter CM"
+	{
+		"ua"		"Художник"
+	}
+
+	"parachute CM"
+	{
+		"ua"		"Парашут"
+	}
+
+	"particle CM"
+	{
+		"ua"		"Частинки"
+	}
+
+	"pet CM"
+	{
+		"ua"		"домашня тварина"
+	}
+
+	"playerskin CM"
+	{
+		"ua"		"шкіра гравця"
+	}
+
+	"playing on the server CM"
+	{
+		"ua"		"грає на сервері"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"Ви грали на нашому сервері {1} дні поспіль"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Ви отримаєте {1} при наступному спавні"
+	}
+
+	"respawn CM"
+	{
+		"ua"		"Респаун"
+	}
+
+	"roulette CM"
+	{
+		"ua"		"Рулетка"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Ви досягли максимальної кількості використань звуку. {1} максимальна кількість використань на карту"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"ua"		"Ви досягли максимальної кількості використань звуку. {1} максимальна кількість використань на раунд"
+	}
+
+	"saysound CM"
+	{
+		"ua"		"сказати звук"
+	}
+
+	"scoreboardtag CM"
+	{
+		"ua"		"Тег таблиці рахунку"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"ua"		"вбити димовою гранатою"
+	}
+
+	"sound CM"
+	{
+		"ua"		"звук"
+	}
+
+	"spawn CM"
+	{
+		"ua"		"Додатковий респаун"
+	}
+
+	"spawneff CM"
+	{
+		"ua"		"ефект спавну:"
+	}
+
+	"speed CM"
+	{
+		"ua"		"здібність"
+	}
+
+	"spray CM"
+	{
+		"ua"		"спрей"
+	}
+
+	"start daily challange CM"
+	{
+		"ua"		"Почніть 'щоденний виклик'. Грайте наступні 6 днів, щоб отримати повний бонус"
+	}
+
+	"taser kill CM"
+	{
+		"ua"		"вбити електрошокером"
+	}
+
+	"teambet CM"
+	{
+		"ua"		"Командні ставки"
+	}
+
+	"teamkill CM"
+	{
+		"ua"		"вбити товариша по команді"
+	}
+
+	"tfhat CM"
+	{
+		"ua"		"капелюх будівлі"
+	}
+
+	"tfhatdye CM"
+	{
+		"ua"		"фарбування капелюха"
+	}
+
+	"tfhead CM"
+	{
+		"ua"		"розмір голови"
+	}
+
+	"tfunusual CM"
+	{
+		"ua"		"ефект капелюха"
+	}
+
+	"tfweapon CM"
+	{
+		"ua"		"кастомізоване зброя"
+	}
+
+	"tfweaponsize CM"
+	{
+		"ua"		"розмір зброї"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Приз буде розіграно через {1} секунд"
+	}
+
+	"thirdperson CM"
+	{
+		"ua"		"третя особа"
+	}
+
+	"throwknife CM"
+	{
+		"ua"		"Кинути ніж"
+	}
+
+	"toplists CM"
+	{
+		"ua"		"Топ-списки"
+	}
+
+	"tracer CM"
+	{
+		"ua"		"трейсер"
+	}
+
+	"trail CM"
+	{
+		"ua"		"слід"
+	}
+
+	"wasted CM"
+	{
+		"ua"		"марно"
+	}
+
+	"watergun CM"
+	{
+		"ua"		"ефект"
+	}
+
+	"weapon CM"
+	{
+		"ua"		"зброя"
+	}
+
+	"weaponcolor CM"
+	{
+		"ua"		"колір зброї"
+	}
+
+	"weaponmodel CM"
+	{
+		"ua"		"Модель зброї"
+	}
+
+	"weaponskin CM"
+	{
+		"ua"		"шкіра зброї"
+	}
+
+	"win the round CM"
+	{
+		"ua"		"виграй раунд"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"ua"		"{1} {2} за '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ua"		"{1} годин {2} хвилин і {3} секунд"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ua"		"{1} година(и) {2} хвилина(и) і {3} секунда(и)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ua"		"{1} хвилин і {2} секунд"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ua"		"{1} хвилина(и) і {2} секунда(и)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"{1} секунд"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"ua"		"{1} секунда(и)"
+	}
+
+	"zrclass CM"
+	{
+		"ua"		"клас гравця"
+	}
 }

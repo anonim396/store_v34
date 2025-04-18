@@ -104,4 +104,133 @@
 	{
 		"it"		"Attendi la risposta del giocatore selezionato."
 	}
+
+
+	"Cancel CM"
+	{
+		"it"		"Annulla lo scambio"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"it"		"Vuoi offrire il tuo {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"it"		"Vuoi scambiare il tuo {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"it"		"Offri un oggetto"
+	}
+
+	"Offer item CM"
+	{
+		"it"		"Offri questo oggetto"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Il tuo partner offre {1} credito(i)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"it"		"Il tuo partner offre i seguenti oggetti:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"it"		"Il tuo partner non è ancora pronto."
+	}
+
+	"Partner Ready CM"
+	{
+		"it"		"Il tuo partner è pronto."
+	}
+
+	"Player Left CM"
+	{
+		"it"		"Il giocatore con cui volevi fare lo scambio ha lasciato la partita."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Pronto [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Lo scambio terminerà in {1} secondo(i)..."
+	}
+
+	"Trade Active CM"
+	{
+		"it"		"Stai già scambiando."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"it"		"Vuoi scambiare con {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"it"		"Vuoi annullare lo scambio?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"it"		"Attendere alcuni minuti prima di scambiare di nuovo."
+	}
+
+	"Trade Menu CM"
+	{
+		"it"		"Per riaprire il menu scambio, digita !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"it"		"Non stai scambiando."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"it"		"Il tuo partner ha annullato lo scambio."
+	}
+
+	"Trade Select Player CM"
+	{
+		"it"		"Seleziona un giocatore con cui scambiare"
+	}
+
+	"Trade Successful CM"
+	{
+		"it"		"Lo scambio è stato completato con successo."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"it"		"Stai scambiando con {1}\n-----------------------------\nPer offrire crediti, digita !offer <amount>\nHai offerto {2} crediti"
+	}
+
+	"Trade item CM"
+	{
+		"it"		"Scambia questo oggetto"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"it"		"Attendi la risposta del giocatore selezionato."
+	}
 }

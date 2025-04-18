@@ -104,4 +104,133 @@
 	{
 		"fr"		"Veuillez attendre la réponse du joueur sélectionné."
 	}
+
+
+	"Cancel CM"
+	{
+		"fr"		"Annuler l'échange"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"fr"		"Voulez-vous offrir votre {1} {2} ?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"fr"		"Voulez-vous échanger votre {1} {2} ?"
+	}
+
+	"Offer CM"
+	{
+		"fr"		"Offrir un objet"
+	}
+
+	"Offer item CM"
+	{
+		"fr"		"Offrir cet objet"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"fr"		"Votre partenaire offre {1} crédit(s)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"fr"		"Votre partenaire offre les objets suivants :"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"fr"		"Votre partenaire n'est pas encore prêt."
+	}
+
+	"Partner Ready CM"
+	{
+		"fr"		"Votre partenaire est prêt."
+	}
+
+	"Player Left CM"
+	{
+		"fr"		"Le joueur avec lequel vous vouliez échanger a quitté le jeu."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"fr"		"Prêt [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"fr"		"L'échange se terminera dans {1} seconde(s)..."
+	}
+
+	"Trade Active CM"
+	{
+		"fr"		"Vous êtes déjà en train d'échanger."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"fr"		"Voulez-vous échanger avec {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"fr"		"Voulez-vous annuler l'échange?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"fr"		"Veuillez attendre quelques minutes avant de négocier à nouveau."
+	}
+
+	"Trade Menu CM"
+	{
+		"fr"		"Pour rouvrir le menu d'échange, tapez !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"fr"		"Vous n'êtes pas en train d'échanger."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"fr"		"Votre partenaire a annulé l'échange."
+	}
+
+	"Trade Select Player CM"
+	{
+		"fr"		"Sélectionnez un joueur avec qui échanger"
+	}
+
+	"Trade Successful CM"
+	{
+		"fr"		"L'échange s'est terminé avec succès."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"fr"		"Vous échangez avec {1}\n-----------------------------\nPour offrir des crédits, tapez !offer <amount>\nVous avez offert {2} crédits"
+	}
+
+	"Trade item CM"
+	{
+		"fr"		"Échanger cet objet"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"fr"		"Veuillez attendre la réponse du joueur sélectionné."
+	}
 }

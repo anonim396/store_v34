@@ -104,4 +104,133 @@
 	{
 		"pl"		"Proszę czekać na odpowiedź wybranego gracza."
 	}
+
+
+	"Cancel CM"
+	{
+		"pl"		"Anuluj handel"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"pl"		"Czy chcesz zaoferować swój {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"pl"		"Czy chcesz wymienić swój {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"pl"		"Oferuj przedmiot"
+	}
+
+	"Offer item CM"
+	{
+		"pl"		"Zaoferuj ten przedmiot"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"pl"		"Twój partner oferuje {1} kredyt(ów)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"pl"		"Twój partner oferuje następujące przedmioty:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"pl"		"Twój partner jeszcze nie jest gotowy."
+	}
+
+	"Partner Ready CM"
+	{
+		"pl"		"Twój partner jest gotowy."
+	}
+
+	"Player Left CM"
+	{
+		"pl"		"Gracz, z którym chciałeś handlować, opuścił grę."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"pl"		"Gotowy [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"pl"		"Handel zakończy się za {1} sekund(y)..."
+	}
+
+	"Trade Active CM"
+	{
+		"pl"		"Już prowadzisz wymianę."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"pl"		"Czy chcesz handlować z {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"pl"		"Czy chcesz anulować wymianę?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"pl"		"Poczekaj kilka minut przed ponownym handlem."
+	}
+
+	"Trade Menu CM"
+	{
+		"pl"		"Aby ponownie otworzyć menu handlu, wpisz !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"pl"		"Nie prowadzisz wymiany."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"pl"		"Twój partner anulował wymianę."
+	}
+
+	"Trade Select Player CM"
+	{
+		"pl"		"Wybierz gracza do wymiany"
+	}
+
+	"Trade Successful CM"
+	{
+		"pl"		"Wymiana zakończyła się pomyślnie."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"pl"		"Handlujesz z {1}\n-----------------------------\nAby zaoferować kredyty, wpisz !offer <amount>\nZaoferowałeś {2} kredytów"
+	}
+
+	"Trade item CM"
+	{
+		"pl"		"Wymień ten przedmiot"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"pl"		"Proszę czekać na odpowiedź wybranego gracza."
+	}
 }

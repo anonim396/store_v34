@@ -104,4 +104,133 @@
 	{
 		"zho"		"请等待所选玩家的回复"
 	}
+
+
+	"Cancel CM"
+	{
+		"zho"		"取消交易"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"zho"		"你想提供你的 {1} {2} 吗？"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"zho"		"你想交易你的 {1} {2} 吗？"
+	}
+
+	"Offer CM"
+	{
+		"zho"		"提供物品"
+	}
+
+	"Offer item CM"
+	{
+		"zho"		"提供此物品"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"zho"		"你的伙伴提供 {1} 积分"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"zho"		"你的伙伴提供以下物品:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"zho"		"你的伙伴还没有准备好"
+	}
+
+	"Partner Ready CM"
+	{
+		"zho"		"你的伙伴准备好了"
+	}
+
+	"Player Left CM"
+	{
+		"zho"		"你想交易的玩家离开了游戏"
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"zho"		"准备好了 [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"zho"		"交易将在 {1} 秒后结束..."
+	}
+
+	"Trade Active CM"
+	{
+		"zho"		"您已经在交易中了。"
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"zho"		"你愿意和 {1} 交易吗？"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"zho"		"你要取消交易吗？"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"zho"		"请稍等几分钟再进行交易。"
+	}
+
+	"Trade Menu CM"
+	{
+		"zho"		"要重新打开交易菜单，输入 !trade"
+	}
+
+	"Trade Not Active CM"
+	{
+		"zho"		"您没有进行交易。"
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"zho"		"你的伙伴取消了这次交易"
+	}
+
+	"Trade Select Player CM"
+	{
+		"zho"		"选择一个玩家进行交易"
+	}
+
+	"Trade Successful CM"
+	{
+		"zho"		"交易已成功完成。"
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"zho"		"你正在和 {1} 交易\n-----------------------------\n输入 !offer <数量> 以提供积分\n你提供了 {2} 积分"
+	}
+
+	"Trade item CM"
+	{
+		"zho"		"交易此物品"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"zho"		"请等待所选玩家的回复"
+	}
 }

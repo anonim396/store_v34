@@ -2275,4 +2275,2783 @@
 	{
 		"vi"		"lớp người chơi"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"{1}21 !!! BLACKJACK !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn đã tải lại cấu hình. Vui lòng thay đổi hoặc tải lại bản đồ."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Tất cả người chơi tham gia đã ngắt kết nối, không ai nhận lại được {2} của mình, haha. Jackpot là {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"vi"		"Tất cả mã giảm giá đã tạo và hợp lệ là:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"vi"		"Bạn đã thắng, nhưng đã sở hữu {1} ({2}). Món đồ đã được bán với giá {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"vi"		"Bạn đã sở hữu {1} ({2}). Bạn đã được hoàn lại {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Số lượng: {1}"
+	}
+
+	"Aura CM"
+	{
+		"vi"		"Aura:"
+	}
+
+	"Back CM"
+	{
+		"vi"		"Quay lại"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"vi"		"Cược * Nhân = Chiến thắng của bạn"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Điểm thưởng: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Pot CT thắng: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Cược tối đa ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Đặt cược tối thiểu ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"vi"		"Cược ngẫu nhiên ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Pot T thắng: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"vi"		"Cược vào"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"vi"		"Cược vào Đầu/Tails"
+	}
+
+	"Bet on a color CM"
+	{
+		"vi"		"Cược vào một màu và nếu màu này được chọn, bạn sẽ thắng!"
+	}
+
+	"Bet on a number CM"
+	{
+		"vi"		"Cược vào Thấp (#1-3), Cao (#4-6) hoặc một số chính xác. Nếu lựa chọn của bạn là kết quả, bạn sẽ thắng!"
+	}
+
+	"Bet on a team CM"
+	{
+		"vi"		"Cược vào một đội và nếu đội đó thắng vòng, bạn sẽ thắng!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"vi"		"Bạn đã đặt cược cho vòng này."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"vi"		"Đã chỉ định mã đội không hợp lệ."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã mất {1} tín dụng từ cược."
+	}
+
+	"Betting Period Over CM"
+	{
+		"vi"		"Thời gian đặt cược đã kết thúc cho vòng này."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã đặt cược thành công {1} tín dụng."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Cược của bạn đã thành công. Bạn đã thắng {1} tín dụng."
+	}
+
+	"Black CM"
+	{
+		"vi"		"đen"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"vi"		"Blackjack là một trò chơi trong đó giá trị của các lá bài trong tay bạn phải cao hơn của nhà cái mà không vượt quá 21."
+	}
+
+	"Buy CM"
+	{
+		"vi"		"Mua vật phẩm"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Mua vật phẩm ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"vi"		"Bạn đã thay đổi màu sắc của mình thành: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"vi"		"Tùy chọn màu thẻ trò chuyện"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"vi"		"Tắt màu"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"vi"		"Màu sắc thẻ tùy chỉnh đã bị tắt."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"vi"		"Bạn chưa trang bị bất kỳ thẻ tên nào"
+	}
+
+	"CP No file found CM"
+	{
+		"vi"		"Màu sắc thẻ tùy chỉnh cho người dùng đã bị vô hiệu hóa. Vui lòng liên hệ với quản trị viên để được hỗ trợ thêm."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"vi"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"vi"		"Hiển thị trước thẻ bảng điểm, vui lòng nhấn phím TAB."
+	}
+
+	"Cancel CM"
+	{
+		"vi"		"Hủy"
+	}
+
+	"Cant be bought CM"
+	{
+		"vi"		"Món đồ này không thể mua"
+	}
+
+	"Cash out CM"
+	{
+		"vi"		"Rút tiền"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Thay đổi cược của bạn: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã mua một {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"vi"		"{1} đã gửi cho bạn một {2} {3} làm quà tặng."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"vi"		"Bạn đã gửi cho {1} một {2} {3} làm quà tặng."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã bán một {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn đã mở thùng và tìm thấy {1} tín dụng!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"vi"		"{1} mở thùng và tìm thấy {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"vi"		"{1} mở thùng và tìm thấy {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"vi"		"Kiểm tra tất cả các voucher hợp lệ và có sẵn (Chỉ Admin)"
+	}
+
+	"Check Voucher CM"
+	{
+		"vi"		"Kiểm tra voucher"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"vi"		"Kiểm tra voucher hợp lệ đã tạo của bạn"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"vi"		"Chọn số (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"vi"		"Rút tiền tự động:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"vi"		"Trang bị của bạn đã được đặt lại."
+	}
+
+	"Client valid voucher CM"
+	{
+		"vi"		"Mã giảm giá đã tạo và hợp lệ của bạn là:\n "
+	}
+
+	"Close CM"
+	{
+		"vi"		"Đóng"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"vi"		"Khói màu"
+	}
+
+	"Command is in-game only CM"
+	{
+		"vi"		"Bạn cần phải còn sống để sử dụng lệnh này."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"vi"		"Cấu hình đã được tải lại. Vui lòng khởi động lại hoặc thay đổi bản đồ."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn chắc chắn muốn mua {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"vi"		"Bạn chắc chắn muốn tặng {1} {2} cho {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn chắc chắn muốn thả {1} {2} như món quà?"
+	}
+
+	"Confirm_No CM"
+	{
+		"vi"		"Không"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"vi"		"Bạn chắc chắn muốn bán {1} {2} với giá {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn có chắc chắn muốn chuyển đổi {1} ({2}) thành phiếu giảm giá?\nCẢNH BÁO: Nếu vật phẩm trong phiếu giảm giá hết hạn trước khi được đổi.\nPhiếu giảm giá này sẽ hết hạn."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"vi"		"Có"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"vi"		"{1} đã trả lời đúng và giành được {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"vi"		"Chống khủng bố"
+	}
+
+	"Crash Already Start CM"
+	{
+		"vi"		"Trò chơi Crash hiện đang tiến hành. Vui lòng chờ trò chơi tiếp theo."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"vi"		"Tắt"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"vi"		"Tắt rút tiền tự động"
+	}
+
+	"Crash Auto On CM"
+	{
+		"vi"		"Bật"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"vi"		"Bật rút tiền tự động"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"vi"		"           Crash là gì/ Cách chơi: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"vi"		"- Crash là trò chơi mà người chơi có thể cược vào một hệ số, hệ số này liên quan đến một đường cong tăng dần có thể sập bất kỳ lúc nào."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"vi"		"- Hệ số bắt đầu từ 1.00x và bạn có thể rút tiền bất kỳ lúc nào."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"vi"		"- Giá trị cược tối thiểu là {1} {2}. Giá trị cược tối đa là {3} {4}. Những giới hạn này có thể thay đổi theo thời gian."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"vi"		"Dữ liệu nhập không hợp lệ (phải là {1} hoặc cao hơn)."
+	}
+
+	"Crash auto input CM"
+	{
+		"vi"		"Nhập giá trị rút tiền tự động của bạn trong trò chuyện"
+	}
+
+	"Crash auto input set CM"
+	{
+		"vi"		"Đã đặt rút tiền tự động Crash"
+	}
+
+	"Crash set auto CM"
+	{
+		"vi"		"Đặt giá trị rút tiền tự động"
+	}
+
+	"Crash! CM"
+	{
+		"vi"		"Crash!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"vi"		"Tạo Mã Giảm Giá Mặt Hàng (Chỉ Admin)"
+	}
+
+	"Create Voucher CM"
+	{
+		"vi"		"Tạo voucher"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Tạo phiếu mua hàng thất bại - Liên hệ với quản trị viên với dấu thời gian sau: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"vi"		"Việc tặng tín dụng đã bị vô hiệu hóa trên máy chủ này."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã thả {1} tín dụng làm quà."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"vi"		"{2} đã gửi cho bạn {1} tín dụng."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"vi"		"Bạn đã gửi {1} tín dụng cho {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"vi"		"Bạn không có đủ tín dụng để tạo giveaway."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"vi"		"Số lượng tín dụng nhập không hợp lệ."
+	}
+
+	"Credit No Match CM"
+	{
+		"vi"		"Không tìm thấy người chơi."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"vi"		"Bạn không có đủ tín dụng để mua cái này."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"vi"		"Tìm thấy nhiều hơn một khách hàng."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"vi"		"Bạn không có đủ tín dụng để tạo voucher."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"vi"		"Bạn đã kiếm được {1} tín dụng từ việc giết {2}."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã kiếm được {1} tín dụng từ việc chơi trên máy chủ."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"vi"		"{1} đã nhận {2} tín dụng."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"vi"		"Tiền: {1}          Pot: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"vi"		"Đã tắt"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"vi"		"Đã bật"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"vi"		"[Âm thanh vũ khí tùy chỉnh]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"vi"		"Menu điều khiển âm lượng âm thanh vũ khí tùy chỉnh"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Âm lượng: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"vi"		"Âm thanh vũ khí tùy chỉnh: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"vi"		"Âm thanh vũ khí tùy chỉnh Đã tắt."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"vi"		"Âm thanh vũ khí tùy chỉnh đã bật."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Âm thanh vũ khí tùy chỉnh đã bật. Âm lượng: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"vi"		"Model vũ khí tùy chỉnh:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"vi"		"Hãy phá hủy thùng để mở!"
+	}
+
+	"Dead heat CM"
+	{
+		"vi"		"- hòa -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"vi"		"             NGƯỜI CHIA BÀI     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"vi"		"NGƯỜI CHIA BÀI"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Giảm giá: '{1}' đang hoạt động! Chúc bạn mua sắm vui vẻ!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Giảm giá: '{1}' đã kết thúc."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Giảm giá: '{1}' đã bắt đầu! Chúc bạn mua sắm vui vẻ!"
+	}
+
+	"Double CM"
+	{
+		"vi"		"Nhân đôi"
+	}
+
+	"Down CM"
+	{
+		"vi"		"Xuống"
+	}
+
+	"Down2 CM"
+	{
+		"vi"		"                      5 = Xuống"
+	}
+
+	"Drop Gift CM"
+	{
+		"vi"		"Thả làm quà tặng"
+	}
+
+	"Edit Amount CM"
+	{
+		"vi"		"Chỉnh sửa số lượng: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"vi"		"Vui lòng nhập thời gian hết hạn (theo giây) của mặt hàng trong chat!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"vi"		"Định dạng số không hợp lệ. Vui lòng thử lại."
+	}
+
+	"Enter custom amount CM"
+	{
+		"vi"		"Vui lòng nhập số tiền tùy chỉnh của bạn trong cuộc trò chuyện!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"vi"		"Vui lòng nhập giá trị tối đa của tín dụng trong cuộc trò chuyện!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"vi"		"Vui lòng nhập số lượng phiếu giảm giá cần tạo trong chat!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"vi"		"Vui lòng nhập giá trị phiếu giảm giá để mua trong chat!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"vi"		"Vui lòng nhập mã phiếu mua hàng của bạn trong cuộc trò chuyện!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"vi"		"Đã xảy ra lỗi khi nhận lại giá. Vui lòng liên hệ với quản trị viên"
+	}
+
+	"Exact #x  = CM"
+	{
+		"vi"		"Chính xác #x = "
+	}
+
+	"Exit CM"
+	{
+		"vi"		"Thoát"
+	}
+
+	"Gained CM"
+	{
+		"vi"		"Đã nhận"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"vi"		"Đã nhận: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"vi"		"Thông tin trò chơi"
+	}
+
+	"Game in progress CM"
+	{
+		"vi"		"Trò chơi cược hiện tại của bạn đang diễn ra. Vui lòng chờ cho đến khi nó kết thúc."
+	}
+
+	"Get three on a kind CM"
+	{
+		"vi"		"Nhận ba loại giống nhau"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã nhặt lên {1} tín dụng."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã nhặt lên một {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"vi"		"Không có ai bạn có thể tặng món đồ này."
+	}
+
+	"Gift Player Left CM"
+	{
+		"vi"		"Người chơi được chọn đã rời khỏi trò chơi."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"vi"		"{1} Để thực hiện giveaway, server phải có ít nhất {2} người chơi."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"vi"		"Quản trị viên {1} đã mở một giveaway với <font color='#15fb00'>{2} tín dụng"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"|| Giveaway bắt đầu trong {1} giây nữa ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"vi"		"{1} {2} đã chiến thắng giveaway với {3} tín dụng"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"vi"		"{1}\n|| Người chiến thắng: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"vi"		"Bạn đã đạt số lượng tối đa godmode mà bạn có thể mua trong vòng này."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"vi"		"Bạn không thể sử dụng godmode trong đội này."
+	}
+
+	"Green CM"
+	{
+		"vi"		"xanh"
+	}
+
+	"HE grenade kill CM"
+	{
+		"vi"		"giết bằng lựu đạn HE"
+	}
+
+	"HUD CM"
+	{
+		"vi"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"vi"		"Đầu"
+	}
+
+	"Health Round Limit CM"
+	{
+		"vi"		"Bạn đã đạt số lượng tối đa các gói y tế mà bạn có thể mua trong vòng này."
+	}
+
+	"Help_Back CM"
+	{
+		"vi"		"Quay lại"
+	}
+
+	"Help_Exit CM"
+	{
+		"vi"		"Thoát"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"vi"		"Ẩn tia lửa đạn"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"vi"		"Ẩn dấu vết viên đạn"
+	}
+
+	"Hide gloves CM"
+	{
+		"vi"		"Ẩn găng tay"
+	}
+
+	"Hide paintball CM"
+	{
+		"vi"		"Ẩn bóng sơn"
+	}
+
+	"Hide particles CM"
+	{
+		"vi"		"Ẩn hạt"
+	}
+
+	"Hide pets CM"
+	{
+		"vi"		"Ẩn thú cưng"
+	}
+
+	"Hide trails CM"
+	{
+		"vi"		"Ẩn dấu vết"
+	}
+
+	"High #4-6 CM"
+	{
+		"vi"		"Cao #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"vi"		"Cao #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"vi"		"Cao - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"vi"		"Cao hơn"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Số đã chọn là: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Số tiếp theo là: {1}"
+	}
+
+	"Hit CM"
+	{
+		"vi"		"Cú đánh"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"vi"		"Một số giữa {1} và {2} đã được chọn để bạn đoán xem số tiếp theo sẽ cao hơn hay thấp hơn số đã chọn."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"vi"		"Nếu bạn chọn đúng, bạn sẽ thắng gấp đôi cược của mình."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"vi"		"Có một khoảng nghỉ {1} giây giữa mỗi trò chơi."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã đặt {1} {2} thành công."
+	}
+
+	"Inventory CM"
+	{
+		"vi"		"Kho đồ"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"vi"		"Vui lòng đợi. Kho đồ của bạn vẫn chưa được tải."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"vi"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"vi"		"Trang bị vật phẩm này"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"{1} [ĐƯỢC TRANG BỊ]"
+	}
+
+	"Item Gift CM"
+	{
+		"vi"		"Tặng vật phẩm này"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"{1} (Chọn kế hoạch)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bán với {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"vi"		"Tháo vật phẩm này"
+	}
+
+	"Item Use CM"
+	{
+		"vi"		"Sử dụng vật phẩm này"
+	}
+
+	"Item Voucher CM"
+	{
+		"vi"		"Tạo voucher từ vật phẩm"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"vi"		"Tạo voucher cho vật phẩm hiện tại đã bị tắt."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"vi"		"Bạn đã chuyển {1} ({2}) thành Voucher {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"vi"		"{1} ẩn. Bạn sẽ không thấy chúng nữa."
+	}
+
+	"Item not found CM"
+	{
+		"vi"		"Không tìm thấy vật phẩm"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"vi"		"{1} lại có thể nhìn thấy."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"vi"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"vi"		"Jackpot bị tạm dừng."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Jackpot: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"vi"		"Jetpack trống"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"vi"		"[Jetpack] Nhiên liệu: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"vi"		"Jetpack đã được nạp lại"
+	}
+
+	"Jihad Failed CM"
+	{
+		"vi"		"Bom của bạn đã không nổ."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"vi"		"Bom jihad {1} không nổ."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"vi"		"Bạn không thể sử dụng bom trong đội này."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"{1} phút trước khi crash bắt đầu."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"{1} giây trước khi crash bắt đầu."
+	}
+
+	"LevelIcon CM"
+	{
+		"vi"		"biểu tượng cấp độ"
+	}
+
+	"Limited CM"
+	{
+		"vi"		"Hạn chế - một người chơi"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"vi"		"Vui lòng chờ đợi cho đến khi hộp trước của bạn được mở"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"vi"		"Bản đồ đã kết thúc. Vui lòng chờ đợi bản đồ tiếp theo"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"vi"		"Vòng đã kết thúc. Vui lòng chờ đợi vòng tiếp theo"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"vi"		"Bạn không thể mở trong khi khởi động"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn đã mất chuỗi ngày {1} của mình."
+	}
+
+	"Lost bet CM"
+	{
+		"vi"		"Thất bại! Bạn đã thua cược"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã thua cược vì số tiếp theo là: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"vi"		"Thấp #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"vi"		"Thấp #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"vi"		"Thấp - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"vi"		"Thấp hơn"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Chúng tôi cần ít nhất {1} người chơi"
+	}
+
+	"Must be Alive CM"
+	{
+		"vi"		"Bạn phải sống để sử dụng điều này."
+	}
+
+	"Must be dead CM"
+	{
+		"vi"		"Bạn phải chết để chơi"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"vi"		"Nhân = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"vi"		"Không có Jackpot hoạt động"
+	}
+
+	"No active TeamBet CM"
+	{
+		"vi"		"Chưa có cược đội nào được đặt"
+	}
+
+	"No have flag CM"
+	{
+		"vi"		"Bạn không có quyền truy cập để sử dụng lệnh này."
+	}
+
+	"No matching color CM"
+	{
+		"vi"		"Không có màu tương ứng, sử dụng: r/đỏ, b/đen hoặc g/xanh"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"vi"		"Không ai nhặt các tín dụng bạn làm rơi. Bạn đã nhận lại chúng."
+	}
+
+	"No pick up - removed CM"
+	{
+		"vi"		"Không ai nhặt các tín dụng bạn làm rơi. Các tín dụng đã bị xóa."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Hết giờ. Câu trả lời đúng là {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Không ai khác đã rút tiền vào Jackpot. Bạn sẽ nhận lại {1} {2} của mình!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"vi"		"Bạn không có đủ tín dụng"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"vi"		"Hiện tại đang chạy giveaway, vui lòng thử lại trong vài giây."
+	}
+
+	"Only number CM"
+	{
+		"vi"		"Bạn chỉ có thể nhập số..."
+	}
+
+	"Override Disabled CM"
+	{
+		"vi"		"Skin hiện tại của bạn không hỗ trợ mũ. Mũ trang bị của bạn sẽ bị vô hiệu hóa."
+	}
+
+	"Override Enabled CM"
+	{
+		"vi"		"Skin hiện tại của bạn không hỗ trợ mũ. Skin của bạn sẽ được thay đổi."
+	}
+
+	"Owned CM"
+	{
+		"vi"		"[Sở hữu]"
+	}
+
+	"Package Gift CM"
+	{
+		"vi"		"Tặng gói này"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bán gói này với giá {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"vi"		"Tạo Voucher từ gói"
+	}
+
+	"Parachute Empty CM"
+	{
+		"vi"		"Dù rỗng"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"vi"		"Đã tải lại dù"
+	}
+
+	"Particles CM"
+	{
+		"vi"		"Phần tử:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Đặt {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"vi"		"Đang phát âm thanh xem trước cho bạn."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"vi"		"{1} có {2} tín dụng."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"{1} đã được đặt lại."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"vi"		"Mô-đun Store Player Skin hiện đang bị tạm thời vô hiệu hóa."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"vi"		"{1} đã thêm {2} {3} vào jackpot, cơ hội chiến thắng hiện tại của anh ấy là: {4}% (Jackpot: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"vi"		"{1} đã mất {2} {3} tại {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"vi"		"{1} đã mở một jackpot với {2} {3}. Sử dụng cash-in để nhận tiền!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"vi"		"{1} đã giành chiến thắng Jackpot với {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"vi"		"{1} đã giành được {2} {3} tại {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"vi"		"{1} đã thắng {2} {3} với hệ số nhân x{4} tại {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"vi"		"Cài đặt mới của bạn sẽ được áp dụng khi bạn tái sinh lần tiếp theo."
+	}
+
+	"Press CM"
+	{
+		"vi"		"Nhấn"
+	}
+
+	"Press to Start CM"
+	{
+		"vi"		"Nhấn để bắt đầu!"
+	}
+
+	"Press to Stop CM"
+	{
+		"vi"		"Nhấn để dừng lại!"
+	}
+
+	"Preview Item CM"
+	{
+		"vi"		"Xem trước vật phẩm này"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Giá: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"vi"		"Mua voucher"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"vi"		"Bao nhiêu là {1} {2} {3}? | Phần thưởng: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"vi"		"đỏ"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"vi"		"Đổi voucher"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Chạy lại {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"vi"		"Bạn đã đạt số lượng tối đa respawn mà bạn có thể mua trong vòng này."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"vi"		"Vì lý do bảo mật, bạn không thể gửi nhiều yêu cầu trong thời gian ngắn."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"vi"		"Người chiến thắng thứ hai không còn trong trò chơi, thử tìm người chiến thắng mới lần cuối."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn phải đợi {1} giây trước khi thử lại lệnh này."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"vi"		"Hiển thị tia lửa đạn"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"vi"		"Hiển thị dấu vết viên đạn"
+	}
+
+	"Show gloves CM"
+	{
+		"vi"		"Hiển thị găng tay"
+	}
+
+	"Show paintball CM"
+	{
+		"vi"		"Hiển thị bóng sơn"
+	}
+
+	"Show particles CM"
+	{
+		"vi"		"Hiển thị hạt"
+	}
+
+	"Show pets CM"
+	{
+		"vi"		"Hiển thị thú cưng"
+	}
+
+	"Show trails CM"
+	{
+		"vi"		"Hiển thị dấu vết"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn không thể sử dụng giá trị nhỏ hơn giá trị tối thiểu của bạn ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"vi"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bảo vệ Spam. Vui lòng đợi {1} giây."
+	}
+
+	"Spawn Preview CM"
+	{
+		"vi"		"Đã tạo bản xem trước. Bản xem trước sẽ biến mất trong 45 giây."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"vi"		"Đã tạo bản xem trước. Bản xem trước sẽ biến mất trong {1} giây."
+	}
+
+	"Start again from begin CM"
+	{
+		"vi"		"Vui lòng bắt đầu lại từ đầu"
+	}
+
+	"Starting CM"
+	{
+		"vi"		"Đang bắt đầu"
+	}
+
+	"Stay CM"
+	{
+		"vi"		"Đứng"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"vi"		"Bạn có chắc chắn muốn đặt lại trang bị của mình? Tất cả các vật phẩm sẽ bị tháo ra."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"vi"		"Bạn đã mua phiếu mua hàng thành công"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"vi"		"Món đồ này được thiết kế để sử dụng với lớp người chơi khác."
+	}
+
+	"Tail CM"
+	{
+		"vi"		"Đuôi"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"vi"		"Bạn đã đặt cược cho vòng này."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"vi"		"Đã chỉ định mã đội không hợp lệ."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã mất {1} {2} vào cược."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"vi"		"Thời gian đặt cược cho vòng này đã kết thúc."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn đã đặt cược thành công {1} tín dụng."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Cược của bạn đã thành công. Bạn đã thắng {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"vi"		"Không có cược vào đội kia, vì vậy bạn đã nhận lại được tín dụng."
+	}
+
+	"Terrorist CM"
+	{
+		"vi"		"Khủng bố"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Số đã chọn là: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Số tiếp theo là: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"vi"		"Đây là văn bản xem trước."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Quản trị viên đã tải lại cấu hình cửa hàng. Bản đồ sẽ được tải lại trong {1} giây!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"vi"		"Menu Tạo Mã Giảm Giá Mặt Hàng (Chỉ Admin).\n \nChọn thời gian sử dụng của mặt hàng."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"vi"		"Menu Tạo Mã Giảm Giá Mặt Hàng (Chỉ Admin)"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Tín dụng: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"vi"		"Hết hạn trong {1}ngày {2}giờ"
+	}
+
+	"Title Gift CM"
+	{
+		"vi"		"Chọn người chơi để gửi quà"
+	}
+
+	"Title Store CM"
+	{
+		"vi"		"Menu cửa hàng"
+	}
+
+	"To late chat input CM"
+	{
+		"vi"		"Nhập văn bản của bạn chưa hoàn thành trong thời gian quy định"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Quá nhiều {1} trên mặt đất, bạn không thể thả thêm nữa lúc này!"
+	}
+
+	"Top Credits CM"
+	{
+		"vi"		"Top tín dụng"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"vi"		"Top tín dụng + giá trị kho"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"vi"		"Top giá trị kho"
+	}
+
+	"Top Most Items CM"
+	{
+		"vi"		"Những vật phẩm phổ biến nhất"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Tổng cộng: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"vi"		"Thử lại"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"vi"		"Nhập vào trò chuyện !bet <cược> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"vi"		"Nhập vào chat !blackjack <cược>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"vi"		"Nhập vào trò chuyện !coinflip <cược> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"vi"		"Nhập vào chat !crash <cược>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"vi"		"Nhập vào trò chuyện !crowns <cược>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"vi"		"Gõ trong chat !dice <cược> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"vi"		"Nhập vào trò chuyện !jackpot <cược>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"vi"		"Nhập vào trò chuyện !roulette <cược> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"vi"		"Không giới hạn - nhiều người chơi"
+	}
+
+	"Up CM"
+	{
+		"vi"		"Lên"
+	}
+
+	"Value less than 1 CM"
+	{
+		"vi"		"Bạn không thể sử dụng giá trị nhỏ hơn 1."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"vi"		"Âm lượng {1} đã được đặt thành {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"vi"		"Hiện tại mã voucher phải chính xác 17 ký tự"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Phiếu mua hàng có giá trị {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"vi"		"Voucher đã được chấp nhận"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"vi"		"Voucher đã được chấp nhận"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"vi"		"Bạn đang tạo {1} {2}voucher giới hạn{3} với giá trị {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"vi"		"Bạn đang tạo {1} {2}voucher giới hạn{3} với giá trị {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Mã phiếu mua hàng đã được sử dụng vào ngày {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Phiếu giảm giá này hết hạn vào {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Mã phiếu mua hàng đã hết hạn vào ngày {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"vi"		"Đã tạo voucher mới {1} với giá trị {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"vi"		"Bạn có thể tìm mã phiếu mua hàng trong trò chuyện và bảng điều khiển"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Mã Voucher: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Mã phiếu mua hàng đã nhập '{1}' không hợp lệ!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"vi"		"Phiếu mua hàng bao gồm {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"vi"		"Mã phiếu giảm giá hợp lệ"
+	}
+
+	"Vouchers CM"
+	{
+		"vi"		"Voucher"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Bạn phải chờ {1} cho đến khi đến nhiệm vụ hằng ngày tiếp theo."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"vi"		"Bạn đã check-in hôm nay. Vui lòng quay lại vào ngày mai."
+	}
+
+	"Win = CM"
+	{
+		"vi"		"Chiến thắng = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"vi"		"Người chiến thắng không còn trong trò chơi nữa, chúng tôi đang cố gắng tìm một người chiến thắng mới."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"vi"		"Mã phiếu giảm giá có định dạng sai. Phải là XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"vi"		"BẠN"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"vi"		"Bạn đã rút {1} {2} vào jackpot. Cơ hội thắng hiện tại: {3}%% Jackpot: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"vi"		"Bạn đã sở hữu vật phẩm phiếu mua hàng đã nhập"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"vi"		"Bạn đã sử dụng mã phiếu mua hàng đã nhập"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"vi"		"Bạn có thể bắt đầu một Jackpot mới"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Bạn có thể bắt đầu một Jackpot mới trong {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn không thể chi tiêu nhiều tín dụng như vậy (Tối đa: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã thu thập {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"vi"		"Bạn không có quyền truy cập vào điều này."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã làm rơi {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"vi"		"Bạn không kiếm được điểm trong vòng này."
+	}
+
+	"You earned this round CM"
+	{
+		"vi"		"Bạn đã kiếm được vòng này:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã kiếm được {1} {2} cho "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã kiếm được {1} {2} trong vòng này"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn nhận được {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn nhận được {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã nhận được một {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã nhận được một {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn phải chi ít nhất {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn phải chi ít nhất {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"vi"		"Bạn chưa mở hộp trong thời gian quy định. Lootbox đã trở lại kho của bạn"
+	}
+
+	"You lose CM"
+	{
+		"vi"		"- bạn thua"
+	}
+
+	"You lost with CM"
+	{
+		"vi"		"Bạn đã thua với"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn mất {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"vi"		"Bạn đã thành thạo 'thử thách hàng ngày'! Thử đánh bại nó một lần nữa!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn thắng {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"vi"		"!!! BẠN ĐÃ THẮNG !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"vi"		"Bạn đã thắng {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã giành chiến thắng Jackpot với {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"vi"		"Bạn đã giành chiến thắng Jackpot với {1} {2} trừ đi phí casino {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"vi"		"Bạn đã thắng với"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"vi"		"Bạn đã thắng {1} tín dụng với x{2}."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn sẽ kiếm được {1} {2} vào ngày mai!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"vi"		"Đặt cược của bạn: {1} {2} - Cơ hội: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Cược của bạn: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"vi"		"Cơ hội chiến thắng hiện tại của bạn đã thay đổi thành {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Bạn đã kiếm được {1} tín dụng khi giết {2}."
+	}
+
+	"admin CM"
+	{
+		"vi"		"quản trị viên"
+	}
+
+	"and is limited CM"
+	{
+		"vi"		"và bị giới hạn"
+	}
+
+	"and is unlimited CM"
+	{
+		"vi"		"và là không giới hạn"
+	}
+
+	"arms CM"
+	{
+		"vi"		"cánh tay"
+	}
+
+	"assist a kill CM"
+	{
+		"vi"		"hỗ trợ giết người"
+	}
+
+	"attachment CM"
+	{
+		"vi"		"Phụ kiện"
+	}
+
+	"backstab kill CM"
+	{
+		"vi"		"giết từ phía sau"
+	}
+
+	"be the MVP CM"
+	{
+		"vi"		"trở thành MVP"
+	}
+
+	"bet x CM"
+	{
+		"vi"		"cược x"
+	}
+
+	"blackjack CM"
+	{
+		"vi"		"Blackjack"
+	}
+
+	"bomb defused CM"
+	{
+		"vi"		"bom bị vô hiệu hóa"
+	}
+
+	"bomb explode CM"
+	{
+		"vi"		"bom nổ"
+	}
+
+	"bomb planted CM"
+	{
+		"vi"		"bom đã được trồng"
+	}
+
+	"bombtweak CM"
+	{
+		"vi"		"Điều chỉnh bom"
+	}
+
+	"bullet_impact CM"
+	{
+		"vi"		"Va chạm viên đạn"
+	}
+
+	"bulletsparks CM"
+	{
+		"vi"		"Phát sáng viên đạn"
+	}
+
+	"bunnyhob CM"
+	{
+		"vi"		"Nhảy thỏ"
+	}
+
+	"bunnyhop CM"
+	{
+		"vi"		"kỹ năng"
+	}
+
+	"casino CM"
+	{
+		"vi"		"Casino"
+	}
+
+	"coinflip CM"
+	{
+		"vi"		"Quyết định đồng xu"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn có muốn đặt lại cấu hình không?\nBản đồ sẽ được tải lại trong {1} giây!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"vi"		"Bạn có chắc muốn đặt lại cấu hình không?\nBạn cần thay đổi bản đồ để áp dụng thay đổi, nếu không có thể xảy ra lỗi."
+	}
+
+	"connect CM"
+	{
+		"vi"		"Tin nhắn kết nối"
+	}
+
+	"crash CM"
+	{
+		"vi"		"Crash"
+	}
+
+	"creditstoplist CM"
+	{
+		"vi"		"tín dụng"
+	}
+
+	"crowns CM"
+	{
+		"vi"		"Vị trí vương miện"
+	}
+
+	"daily CM"
+	{
+		"vi"		"Thưởng hàng ngày"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"vi"		"giết bằng lựu đạn giả"
+	}
+
+	"dice CM"
+	{
+		"vi"		"Xúc xắc"
+	}
+
+	"direction CM"
+	{
+		"vi"		"Hướng"
+	}
+
+	"discount CM"
+	{
+		"vi"		"GIẢM GIÁ"
+	}
+
+	"distance CM"
+	{
+		"vi"		"Khoảng cách"
+	}
+
+	"dmgtext CM"
+	{
+		"vi"		"Họa sĩ"
+	}
+
+	"emote CM"
+	{
+		"vi"		"Emote"
+	}
+
+	"escape as VIP CM"
+	{
+		"vi"		"Chạy trốn như VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"vi"		"giết bằng lựu đạn flashbang"
+	}
+
+	"flashlight CM"
+	{
+		"vi"		"Đèn pin"
+	}
+
+	"froggyjump CM"
+	{
+		"vi"		"Nhảy ếch"
+	}
+
+	"gloves CM"
+	{
+		"vi"		"găng tay"
+	}
+
+	"glow CM"
+	{
+		"vi"		"ánh sáng"
+	}
+
+	"godmode CM"
+	{
+		"vi"		"chế độ thần"
+	}
+
+	"gravity CM"
+	{
+		"vi"		"kỹ năng"
+	}
+
+	"grenademodel CM"
+	{
+		"vi"		"Mô hình lựu đạn"
+	}
+
+	"grenadeskin CM"
+	{
+		"vi"		"da lựu đạn"
+	}
+
+	"grenadetrail CM"
+	{
+		"vi"		"vết lựu đạn"
+	}
+
+	"hat CM"
+	{
+		"vi"		"mũ"
+	}
+
+	"headshot CM"
+	{
+		"vi"		"headshot"
+	}
+
+	"health CM"
+	{
+		"vi"		"gói"
+	}
+
+	"high or low CM"
+	{
+		"vi"		"Cao hay thấp"
+	}
+
+	"hiteff CM"
+	{
+		"vi"		"hiệu ứng va chạm:"
+	}
+
+	"hitsound CM"
+	{
+		"vi"		"Âm thanh trúng"
+	}
+
+	"hostage rescued CM"
+	{
+		"vi"		"giải cứu con tin"
+	}
+
+	"hunterjump CM"
+	{
+		"vi"		"Nhảy thợ săn"
+	}
+
+	"idle on the server CM"
+	{
+		"vi"		"nhàn rỗi trên máy chủ"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"sau {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"vi"		"Đạn vô tận"
+	}
+
+	"info CM"
+	{
+		"vi"		"Bảng Thông tin"
+	}
+
+	"instabomb CM"
+	{
+		"vi"		"Trồng ngay / gỡ bỏ"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"vi"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"vi"		"kỹ năng"
+	}
+
+	"items CM"
+	{
+		"vi"		"Món đồ"
+	}
+
+	"jackpot CM"
+	{
+		"vi"		"Jackpot"
+	}
+
+	"jetpack CM"
+	{
+		"vi"		"tên lửa"
+	}
+
+	"jihad CM"
+	{
+		"vi"		"bom"
+	}
+
+	"kill CM"
+	{
+		"vi"		"giết"
+	}
+
+	"kill the VIP CM"
+	{
+		"vi"		"giết VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"vi"		"tự sát"
+	}
+
+	"killeff CM"
+	{
+		"vi"		"hiệu ứng giết:"
+	}
+
+	"knife CM"
+	{
+		"vi"		"dao"
+	}
+
+	"knife kill CM"
+	{
+		"vi"		"giết bằng dao"
+	}
+
+	"laserdraw CM"
+	{
+		"vi"		"vẽ laser:"
+	}
+
+	"laserpointer CM"
+	{
+		"vi"		"Con trỏ Laser"
+	}
+
+	"lasersight CM"
+	{
+		"vi"		"ống ngắm laser"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"cập nhật cuối cùng {1} trước"
+	}
+
+	"light CM"
+	{
+		"vi"		"Ánh sáng"
+	}
+
+	"lootbox CM"
+	{
+		"vi"		"Hộp loot"
+	}
+
+	"mirror CM"
+	{
+		"vi"		"gương"
+	}
+
+	"molotov kill CM"
+	{
+		"vi"		"giết bằng molotov"
+	}
+
+	"msgcolor CM"
+	{
+		"vi"		"màu tin nhắn"
+	}
+
+	"mvp_sound CM"
+	{
+		"vi"		"Quốc ca MVP"
+	}
+
+	"namecolor CM"
+	{
+		"vi"		"màu tên"
+	}
+
+	"nametag CM"
+	{
+		"vi"		"thẻ tên"
+	}
+
+	"nearest CM"
+	{
+		"vi"		"Gần nhất"
+	}
+
+	"nodiscount CM"
+	{
+		"vi"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"vi"		"Không có độ trễ khi ngồi xổm"
+	}
+
+	"nofalldamage CM"
+	{
+		"vi"		"Không có sát thương do rơi"
+	}
+
+	"noreload CM"
+	{
+		"vi"		"Không tải lại"
+	}
+
+	"noscope kill CM"
+	{
+		"vi"		"giết không ngắm"
+	}
+
+	"noselfdamage CM"
+	{
+		"vi"		"Không có sát thương cho chính mình"
+	}
+
+	"or use buttons below CM"
+	{
+		"vi"		"hoặc sử dụng các nút bên dưới"
+	}
+
+	"package CM"
+	{
+		"vi"		"gói"
+	}
+
+	"paintball CM"
+	{
+		"vi"		"đạn"
+	}
+
+	"painter CM"
+	{
+		"vi"		"Họa sĩ"
+	}
+
+	"parachute CM"
+	{
+		"vi"		"Rơi dù"
+	}
+
+	"particle CM"
+	{
+		"vi"		"Phân tử"
+	}
+
+	"pet CM"
+	{
+		"vi"		"thú cưng"
+	}
+
+	"playerskin CM"
+	{
+		"vi"		"da của người chơi"
+	}
+
+	"playing on the server CM"
+	{
+		"vi"		"đang chơi trên máy chủ"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Bạn đã chơi trên máy chủ của chúng tôi {1} ngày liên tiếp"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Bạn sẽ nhận được {1} trong lần tái sinh tiếp theo"
+	}
+
+	"respawn CM"
+	{
+		"vi"		"Tái sinh"
+	}
+
+	"roulette CM"
+	{
+		"vi"		"Xoay số"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã đạt số lần sử dụng âm thanh tối đa. {1} sử dụng tối đa trên mỗi bản đồ"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Bạn đã đạt số lần sử dụng âm thanh tối đa. {1} sử dụng tối đa trên mỗi vòng"
+	}
+
+	"saysound CM"
+	{
+		"vi"		"nói âm thanh"
+	}
+
+	"scoreboardtag CM"
+	{
+		"vi"		"Thẻ bảng điểm"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"vi"		"giết bằng lựu đạn khói"
+	}
+
+	"sound CM"
+	{
+		"vi"		"âm thanh"
+	}
+
+	"spawn CM"
+	{
+		"vi"		"Tái sinh thêm"
+	}
+
+	"spawneff CM"
+	{
+		"vi"		"hiệu ứng sinh ra:"
+	}
+
+	"speed CM"
+	{
+		"vi"		"kỹ năng"
+	}
+
+	"spray CM"
+	{
+		"vi"		"spray"
+	}
+
+	"start daily challange CM"
+	{
+		"vi"		"Bắt đầu 'thử thách hàng ngày'. Chơi trong 6 ngày tới để nhận phần thưởng đầy đủ"
+	}
+
+	"taser kill CM"
+	{
+		"vi"		"giết bằng súng điện"
+	}
+
+	"teambet CM"
+	{
+		"vi"		"Cá cược đội"
+	}
+
+	"teamkill CM"
+	{
+		"vi"		"giết đồng đội"
+	}
+
+	"tfhat CM"
+	{
+		"vi"		"mũ xây dựng"
+	}
+
+	"tfhatdye CM"
+	{
+		"vi"		"nhuộm mũ"
+	}
+
+	"tfhead CM"
+	{
+		"vi"		"kích thước đầu"
+	}
+
+	"tfunusual CM"
+	{
+		"vi"		"hiệu ứng mũ"
+	}
+
+	"tfweapon CM"
+	{
+		"vi"		"vũ khí tùy chỉnh"
+	}
+
+	"tfweaponsize CM"
+	{
+		"vi"		"kích thước vũ khí"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Giải thưởng sẽ được rút trong {1} giây"
+	}
+
+	"thirdperson CM"
+	{
+		"vi"		"người thứ ba"
+	}
+
+	"throwknife CM"
+	{
+		"vi"		"Ném dao"
+	}
+
+	"toplists CM"
+	{
+		"vi"		"Danh sách hàng đầu"
+	}
+
+	"tracer CM"
+	{
+		"vi"		"truy vết"
+	}
+
+	"trail CM"
+	{
+		"vi"		"vết"
+	}
+
+	"wasted CM"
+	{
+		"vi"		"lãng phí"
+	}
+
+	"watergun CM"
+	{
+		"vi"		"hiệu ứng"
+	}
+
+	"weapon CM"
+	{
+		"vi"		"vũ khí"
+	}
+
+	"weaponcolor CM"
+	{
+		"vi"		"màu vũ khí"
+	}
+
+	"weaponmodel CM"
+	{
+		"vi"		"Mô hình vũ khí"
+	}
+
+	"weaponskin CM"
+	{
+		"vi"		"vỏ vũ khí"
+	}
+
+	"win the round CM"
+	{
+		"vi"		"thắng vòng đấu"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"vi"		"{1} {2} cho '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"vi"		"{1} giờ {2} phút và {3} giây"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"vi"		"{1} giờ {2} phút và {3} giây"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"vi"		"{1} phút và {2} giây"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"vi"		"{1} phút và {2} giây"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"{1} giây"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"vi"		"{1} giây"
+	}
+
+	"zrclass CM"
+	{
+		"vi"		"lớp người chơi"
+	}
 }

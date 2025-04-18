@@ -104,4 +104,133 @@
 	{
 		"vi"		"Vui lòng chờ câu trả lời từ người chơi đã chọn."
 	}
+
+
+	"Cancel CM"
+	{
+		"vi"		"Hủy bỏ giao dịch"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"vi"		"Bạn có muốn đề nghị {1} {2} của mình không?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"vi"		"Bạn có muốn đổi {1} {2} của mình không?"
+	}
+
+	"Offer CM"
+	{
+		"vi"		"Đề nghị một vật phẩm"
+	}
+
+	"Offer item CM"
+	{
+		"vi"		"Đề nghị vật phẩm này"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Đối tác của bạn đề nghị {1} tín dụng"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"vi"		"Đối tác của bạn đề nghị các vật phẩm sau:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"vi"		"Đối tác của bạn vẫn chưa sẵn sàng."
+	}
+
+	"Partner Ready CM"
+	{
+		"vi"		"Đối tác của bạn đã sẵn sàng."
+	}
+
+	"Player Left CM"
+	{
+		"vi"		"Người chơi bạn muốn giao dịch đã rời khỏi trò chơi."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Sẵn sàng [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"vi"		"Giao dịch sẽ kết thúc trong {1} giây..."
+	}
+
+	"Trade Active CM"
+	{
+		"vi"		"Bạn đã bắt đầu giao dịch."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"vi"		"Bạn có muốn giao dịch với {1} không?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"vi"		"Bạn có muốn hủy giao dịch không?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"vi"		"Vui lòng đợi vài phút trước khi giao dịch lại."
+	}
+
+	"Trade Menu CM"
+	{
+		"vi"		"Để mở lại menu giao dịch, hãy gõ !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"vi"		"Bạn chưa thực hiện giao dịch."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"vi"		"Đối tác của bạn đã hủy giao dịch."
+	}
+
+	"Trade Select Player CM"
+	{
+		"vi"		"Chọn người chơi để giao dịch"
+	}
+
+	"Trade Successful CM"
+	{
+		"vi"		"Giao dịch đã hoàn tất thành công."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"vi"		"Bạn đang giao dịch với {1}\n-----------------------------\nĐể đề nghị tín dụng, nhập !offer <amount>\nBạn đã đề nghị {2} tín dụng"
+	}
+
+	"Trade item CM"
+	{
+		"vi"		"Giao dịch vật phẩm này"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"vi"		"Vui lòng chờ câu trả lời từ người chơi đã chọn."
+	}
 }

@@ -104,4 +104,133 @@
 	{
 		"ro"		"Te rog așteaptă răspunsul jucătorului selectat."
 	}
+
+
+	"Cancel CM"
+	{
+		"ro"		"Anulează schimbul"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ro"		"Vrei să oferi {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ro"		"Vrei să schimbi {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"ro"		"Oferă un obiect"
+	}
+
+	"Offer item CM"
+	{
+		"ro"		"Oferă acest articol"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Partenerul tău oferă {1} credit(e)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"ro"		"Partenerul tău oferă următoarele obiecte:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"ro"		"Partenerul tău nu este încă pregătit."
+	}
+
+	"Partner Ready CM"
+	{
+		"ro"		"Partenerul tău este pregătit."
+	}
+
+	"Player Left CM"
+	{
+		"ro"		"Jucătorul cu care doreai să schimbi a părăsit jocul."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Pregătit [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Comerțul se va încheia în {1} secundă(e)..."
+	}
+
+	"Trade Active CM"
+	{
+		"ro"		"Deja faci un schimb."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"ro"		"Vrei să faci schimb cu {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"ro"		"Vrei să anulezi schimbul?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"ro"		"Vă rugăm să așteptați câteva minute înainte de a face din nou schimb."
+	}
+
+	"Trade Menu CM"
+	{
+		"ro"		"Pentru a redeschide meniul de schimb, scrie !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"ro"		"Nu faci un schimb."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"ro"		"Partenerul tău a anulat schimbul."
+	}
+
+	"Trade Select Player CM"
+	{
+		"ro"		"Selectează un jucător pentru schimb"
+	}
+
+	"Trade Successful CM"
+	{
+		"ro"		"Schimbul s-a încheiat cu succes."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ro"		"Faci schimb cu {1}\n-----------------------------\nPentru a oferi credite, scrie !offer <amount>\nAi oferit {2} credite"
+	}
+
+	"Trade item CM"
+	{
+		"ro"		"Schimbă acest articol"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"ro"		"Te rog așteaptă răspunsul jucătorului selectat."
+	}
 }

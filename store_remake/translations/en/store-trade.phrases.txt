@@ -104,4 +104,133 @@
 	{
 		"en"		"Please wait for the answer of the selected player."
 	}
+
+
+	"Cancel CM"
+	{
+		"en"		"Cancel trade"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Do you want to offer your {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Do you want to trade your {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"en"		"Offer an item"
+	}
+
+	"Offer item CM"
+	{
+		"en"		"Offer this item"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"Your partner offers {1} credit(s)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"en"		"Your partner offers the following items:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"en"		"Your partner is not ready yet."
+	}
+
+	"Partner Ready CM"
+	{
+		"en"		"Your partner is ready."
+	}
+
+	"Player Left CM"
+	{
+		"en"		"The player you wanted to trade with has left the game."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"Ready [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"Trade will end in {1} second(s)..."
+	}
+
+	"Trade Active CM"
+	{
+		"en"		"You are already trading."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"en"		"Would you like to trade with {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"en"		"Would you like to cancel the trade?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"en"		"Please wait a few minutes before trading again."
+	}
+
+	"Trade Menu CM"
+	{
+		"en"		"To reopen the trade menu, type !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"en"		"You are not trading."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"en"		"Your partner has cancelled the trade."
+	}
+
+	"Trade Select Player CM"
+	{
+		"en"		"Select a player to trade with"
+	}
+
+	"Trade Successful CM"
+	{
+		"en"		"The trade has finished successfully."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"en"		"You are trading with {1}\n-----------------------------\nTo offer credits type !offer <amount>\nYou have offered {2} credits"
+	}
+
+	"Trade item CM"
+	{
+		"en"		"Trade this item"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"en"		"Please wait for the answer of the selected player."
+	}
 }

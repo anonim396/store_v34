@@ -2279,4 +2279,2788 @@
 	{
 		"lt"		"žaidėjo klasė"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"{1}21 !!! BLACKJACK !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Jūs jau perkrovėte nustatymus. Prašome pakeisti arba perkrauti žemėlapį."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Visi dalyvaujantys žaidėjai atsijungia, niekas negaus savo {2} atgal, haha. Jackpotas buvo {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"lt"		"Visi sugeneruoti ir galiojantys kuponai yra:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"lt"		"Jūs laimėjote, bet jau turite {1} ({2}). Prekė buvo parduota už {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"lt"		"Jau turite {1} ({2}). Jums grąžinta {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Kiekis: {1}"
+	}
+
+	"Aura CM"
+	{
+		"lt"		"Aura:"
+	}
+
+	"Back CM"
+	{
+		"lt"		"Atgal"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"lt"		"Statymas * Dauginimas = Tavo laimėjimas"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Premijos kreditai: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"CT laimėjo puodą: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Didžiausias statymas ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Minimalus statymas ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"lt"		"Atnaujintas statymas ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"T laimėjo puodą: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"lt"		"Statykite už"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"lt"		"Statyti ant Galvos/Uodegos"
+	}
+
+	"Bet on a color CM"
+	{
+		"lt"		"Statykite ant spalvos ir jei ši spalva bus pasirinkta, laimėsite!"
+	}
+
+	"Bet on a number CM"
+	{
+		"lt"		"Statykite ant Žemo (#1-3), Aukšto (#4-6) arba tikslaus skaičiaus. Jei jūsų pasirinkimas bus išmestas, laimėsite!"
+	}
+
+	"Bet on a team CM"
+	{
+		"lt"		"Statykite ant komandos ir jei komanda laimi ratą, laimėsite!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"lt"		"Jūs jau atlikote statymą šiam raundui."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"lt"		"Nurodytas neteisingas komandos identifikatorius."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Pralašėte {1} kreditų statyme."
+	}
+
+	"Betting Period Over CM"
+	{
+		"lt"		"Laiko tarpas statymams baigėsi šiame raunde."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Jūs sėkmingai atlikote statymą už {1} kreditų."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Jūsų statymas buvo sėkmingas. Laimėjote {1} kreditų."
+	}
+
+	"Black CM"
+	{
+		"lt"		"juoda"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"lt"		"Blackjack yra žaidimas, kuriame jūsų rankos kortų vertė turi būti didesnė už dalintojo vertę, nesulaužiant 21."
+	}
+
+	"Buy CM"
+	{
+		"lt"		"Pirkite prekę"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Pirkti prekę ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"lt"		"Jūs pakeitėte savo spalvą į: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"lt"		"Chat žymės spalvos parinktis"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"lt"		"Išjungti spalvą"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"lt"		"Pasirinktinis žymės spalva išjungta."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"lt"		"Nėra jokių vardinių etikečių"
+	}
+
+	"CP No file found CM"
+	{
+		"lt"		"Vartotojo pasirinktinis žymės spalva buvo išjungta. Norėdami gauti papildomą pagalbą, susisiekite su administratoriumi."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"lt"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"lt"		"Rodyti peržiūros lentelės žymę, paspauskite TAB klavišą."
+	}
+
+	"Cancel CM"
+	{
+		"lt"		"Atšaukti"
+	}
+
+	"Cant be bought CM"
+	{
+		"lt"		"Šio daikto negalima nusipirkti"
+	}
+
+	"Cash out CM"
+	{
+		"lt"		"Išmokėti"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Keiskite savo statymą: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lt"		"Jūs nusipirkote {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lt"		"{1} jums atsiuntė {2} {3} kaip dovaną."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lt"		"Jūs atsiuntėte {1} {2} {3} kaip dovaną."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lt"		"Jūs pardavėte {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Atidarėte konteinerį ir radote {1} kreditų!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lt"		"{1} atidarė konteinerį ir rado {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"lt"		"{1} atidarė konteinerį ir rado {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"lt"		"Patikrinkite visus galiojančius ir prieinamus kuponus (tik administratoriams)"
+	}
+
+	"Check Voucher CM"
+	{
+		"lt"		"Patikrinkite kuponą"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"lt"		"Patikrinkite savo sugeneruotą ir galiojantį prieinamą kuponą"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"lt"		"Pasirinkite skaičių (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"lt"		"Automatinis išėmimas:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"lt"		"Jūsų įranga buvo nustatyta į numatytuosius."
+	}
+
+	"Client valid voucher CM"
+	{
+		"lt"		"Jūsų sugeneruotas ir galiojantis kuponas yra:\n "
+	}
+
+	"Close CM"
+	{
+		"lt"		"Uždaryti"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"lt"		"Spalvotas dūmas"
+	}
+
+	"Command is in-game only CM"
+	{
+		"lt"		"Turite būti gyvas, kad naudotumėte šį komandą."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"lt"		"Konfigūracija buvo perkrauta. Prašome perkrauti arba pakeisti žemėlapį."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lt"		"Ar tikrai norite nusipirkti {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"lt"		"Ar tikrai norite dovanoti {1} {2} {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lt"		"Ar tikrai norite numesti {1} {2} kaip dovaną?"
+	}
+
+	"Confirm_No CM"
+	{
+		"lt"		"Ne"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"lt"		"Ar tikrai norite parduoti {1} {2} už {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lt"		"Ar tikrai norite konvertuoti {1} ({2}) į kuponą?\nĮSPĖJIMAS: Jei kuponų elementas baigiasi prieš jį išpirkiant.\nŠis kuponas baigsis."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"lt"		"Taip"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"lt"		"{1} atsakė teisingai ir laimėjo {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"lt"		"Kontra-terroristas"
+	}
+
+	"Crash Already Start CM"
+	{
+		"lt"		"Crash žaidimas šiuo metu vyksta. Prašome palaukti kitą žaidimą."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"lt"		"Išjungta"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"lt"		"Atjunkite automatinį išėmimą"
+	}
+
+	"Crash Auto On CM"
+	{
+		"lt"		"Įjungta"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"lt"		"Įjunkite automatinį išėmimą"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"lt"		"           Kas yra/ Kaip žaisti: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"lt"		"- Crash yra žaidimas, kuriame žaidėjai gali statyti ant dauginimo koeficiento, šis koeficientas susijęs su didėjančia kreive, kuri gali bet kada sugriauti."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"lt"		"- Dauginimo rodiklis prasideda nuo 1.00x ir galite išsigryninti bet kada."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"lt"		"- Minimalus statymo dydis yra {1} {2}. Didžiausias statymo dydis yra {3} {4}. Šie ribojimai gali keistis su laiku."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"lt"		"Neteisingas įvedimas (turi būti {1} arba daugiau)."
+	}
+
+	"Crash auto input CM"
+	{
+		"lt"		"Įveskite savo automatinio išėmimo vertę į chatą"
+	}
+
+	"Crash auto input set CM"
+	{
+		"lt"		"Crash automatinis išėmimas nustatytas"
+	}
+
+	"Crash set auto CM"
+	{
+		"lt"		"Nustatykite automatinio išėmimo vertę"
+	}
+
+	"Crash! CM"
+	{
+		"lt"		"Crash!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"lt"		"Sukurkite prekių kuponą (tik administratoriams)"
+	}
+
+	"Create Voucher CM"
+	{
+		"lt"		"Sukurti kuponą"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Kupono kūrimas nepavyko - Susisiekite su administratoriumi su šiuo laiko ženklu: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"lt"		"Kreditų dovanojimas yra išjungtas šiame serveryje."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Numetėte {1} kreditų kaip dovaną."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lt"		"{2} išsiuntė jums {1} kreditų."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lt"		"Jūs išsiuntėte {1} kreditų žaidėjui {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"lt"		"Neturite pakankamai kreditų, kad sukurtumėte giveaway."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"lt"		"Įvestas neteisingas kreditų kiekis."
+	}
+
+	"Credit No Match CM"
+	{
+		"lt"		"Žaidėjas nerastas."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"lt"		"Jums trūksta kreditų, kad nusipirktumėte tai."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"lt"		"Rasta daugiau nei vienas klientas."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"lt"		"Neturite pakankamai kreditų, kad sukurtumėte kuponą."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lt"		"Gavai {1} kreditų už {2} nužudymą."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Gavai {1} kreditų žaidžiant serveryje."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"lt"		"{1} gavo {2} kreditų."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"lt"		"Kreditai: {1}          Puodas: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"lt"		"Išjungta"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"lt"		"Įjungta"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"lt"		"[Pasirinktinis ginklo garsas]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"lt"		"Pasirinktinis ginklo garso garsumo kontrolės meniu"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Garso lygis: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"lt"		"Pasirinktinis ginklo garsas: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"lt"		"Pasirinktinis ginklo garsas yra Išjungtas."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"lt"		"Pasirinktinis ginklo garsas įjungtas."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Pasirinktinis ginklo garsas įjungtas. Garso lygis: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"lt"		"Pasirinktinis ginklo modelis:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"lt"		"Pažeiskite dėžę, kad ją atidarytumėte!"
+	}
+
+	"Dead heat CM"
+	{
+		"lt"		"- lygios -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"lt"		"             DALYTOJAS     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"lt"		"DALYTOJAS"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Nuolaida: '{1}' yra aktyvi! Gerų apsipirkimų!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Nuolaida: '{1}' baigėsi."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Nuolaida: '{1}' prasidėjo! Gerų apsipirkimų!"
+	}
+
+	"Double CM"
+	{
+		"lt"		"Padvigubinti"
+	}
+
+	"Down CM"
+	{
+		"lt"		"Žemyn"
+	}
+
+	"Down2 CM"
+	{
+		"lt"		"                      5 = Žemyn"
+	}
+
+	"Drop Gift CM"
+	{
+		"lt"		"Numesti kaip dovaną"
+	}
+
+	"Edit Amount CM"
+	{
+		"lt"		"Redaguoti kiekį: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"lt"		"Prašome įvesti prekių galiojimo laiką (sekundėmis) pokalbyje!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"lt"		"Neteisingas skaičiaus formatas. Bandykite dar kartą."
+	}
+
+	"Enter custom amount CM"
+	{
+		"lt"		"Prašome įvesti savo pasirinktą sumą pokalbyje!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"lt"		"Prašome įvesti didžiausią kreditų vertę pokalbyje!"
+	}
+
+	"Enter minimum value CM"
+	{
+		"lt"		"Prašome įvesti minimalią kreditų vertę pokalbyje!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"lt"		"Prašome įvesti kuriamų kuponų skaičių pokalbyje!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"lt"		"Prašome įvesti perkamo kupono vertę pokalbyje!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"lt"		"Prašome įvesti kupono kodą pokalbyje!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"lt"		"Įvyko klaida grąžinant kainą. Prašome susisiekti su administratoriumi"
+	}
+
+	"Exact #x  = CM"
+	{
+		"lt"		"Tikslus #x = "
+	}
+
+	"Exit CM"
+	{
+		"lt"		"Išeiti"
+	}
+
+	"Gained CM"
+	{
+		"lt"		"Gauta"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"lt"		"Gauta: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"lt"		"Žaidimo informacija"
+	}
+
+	"Game in progress CM"
+	{
+		"lt"		"Jūsų dabartinis statymo žaidimas vyksta. Palaukite, kol jis baigsis."
+	}
+
+	"Get three on a kind CM"
+	{
+		"lt"		"Gauk tris vienodus"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Paėmei {1} kreditų."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lt"		"Paėmei {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"lt"		"Nėra nieko, kam galėtumėte dovanoti šį daiktą."
+	}
+
+	"Gift Player Left CM"
+	{
+		"lt"		"Pasirinktas žaidėjas jau paliko žaidimą."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"lt"		"{1} Norint padaryti giveaway, serveris turi turėti bent {2} žaidėjų."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"lt"		"Administratorius {1} pradėjo giveaway su <font color='#15fb00'>{2} kreditais"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"|| Giveaway prasideda per {1} sekundes ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"lt"		"{1} {2} laimėjo giveaway su {3} kreditais"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lt"		"{1}\n|| Nugalėtojas: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"lt"		"Pasiekėte maksimalią godmode kiekį, kurį galite nusipirkti šiame raunde."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"lt"		"Šiame komandoje negalite naudoti godmode."
+	}
+
+	"Green CM"
+	{
+		"lt"		"žalia"
+	}
+
+	"HE grenade kill CM"
+	{
+		"lt"		"HE granatos nužudymas"
+	}
+
+	"HUD CM"
+	{
+		"lt"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"lt"		"Galva"
+	}
+
+	"Health Round Limit CM"
+	{
+		"lt"		"Pasiekėte maksimalią sveikatos paketų skaičių, kurį galite nusipirkti šį raundą."
+	}
+
+	"Help_Back CM"
+	{
+		"lt"		"Atgal"
+	}
+
+	"Help_Exit CM"
+	{
+		"lt"		"Išeiti"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"lt"		"Slėpti kulkų žiežirbas"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"lt"		"Slėpti kulkų pėdsakus"
+	}
+
+	"Hide gloves CM"
+	{
+		"lt"		"Slėpti pirštines"
+	}
+
+	"Hide paintball CM"
+	{
+		"lt"		"Slėpti paintball"
+	}
+
+	"Hide particles CM"
+	{
+		"lt"		"Slėpti daleles"
+	}
+
+	"Hide pets CM"
+	{
+		"lt"		"Slėpti augintinius"
+	}
+
+	"Hide trails CM"
+	{
+		"lt"		"Slėpti pėdsakus"
+	}
+
+	"High #4-6 CM"
+	{
+		"lt"		"Aukštas #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"lt"		"Aukštas #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"lt"		"Aukštas - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"lt"		"DAUGIAU"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Pasirinktas skaičius yra: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Kitas numeris buvo: {1}"
+	}
+
+	"Hit CM"
+	{
+		"lt"		"Smūgis"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"lt"		"Tarp pasirinkimą buvo pasirinktas skaičius nuo {1} iki {2}, kad atspėtumėte, ar kitas skaičius bus didesnis ar mažesnis nei pasirinktas."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"lt"		"Jei pasirinksite teisingą, laimėsite dvigubai savo statymą."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"lt"		"Tarp kiekvienos žaidimo yra {1} sekundžių pertrauka."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Sėkmingai pastatėte {1} {2}."
+	}
+
+	"Inventory CM"
+	{
+		"lt"		"Inventorius"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"lt"		"Prašome palaukti. Jūsų inventorius dar nebuvo užkrautas."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"lt"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"lt"		"Įrengti šį daiktą"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"{1} [ĮRANGTA]"
+	}
+
+	"Item Gift CM"
+	{
+		"lt"		"Dovanokite šį daiktą"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"{1} (Pasirinkite planą)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Parduoti už {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"lt"		"Nuimti šį daiktą"
+	}
+
+	"Item Use CM"
+	{
+		"lt"		"Naudokite šį daiktą"
+	}
+
+	"Item Voucher CM"
+	{
+		"lt"		"Padaryti kuponą iš daikto"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"lt"		"Kuponų kūrimas prekei šiuo metu yra išjungtas."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"lt"		"Jūs konvertavote {1} ({2}) į kuponą {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"lt"		"{1} paslėpta. Jūs jų daugiau nematysite."
+	}
+
+	"Item not found CM"
+	{
+		"lt"		"Prekė nerasta"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"lt"		"{1} vėl matomas."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"lt"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"lt"		"Jackpotas sustabdytas."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Jackpot: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"lt"		"Jetpack yra tuščias"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"lt"		"[Jetpack] Kuras: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"lt"		"Jetpack įkrovimas baigtas"
+	}
+
+	"Jihad Failed CM"
+	{
+		"lt"		"Jūsų bomba nesprogo."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"lt"		"{1} džihad bombos nesprogo."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"lt"		"Šiame komandoje negalite naudoti bombos."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"{1} minutės iki pradės crash."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"{1} sekundė(ės) iki pradės crash."
+	}
+
+	"LevelIcon CM"
+	{
+		"lt"		"lygio piktograma"
+	}
+
+	"Limited CM"
+	{
+		"lt"		"Ribotas - vienas žaidėjas"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"lt"		"Prašome palaukti, kol jūsų ankstesnė dėžutė bus atidaryta"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"lt"		"Žemėlapis baigtas. Prašome palaukti kitą žemėlapį"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"lt"		"Roundas baigtas. Prašome palaukti kitą raundą"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"lt"		"Negalite atidaryti šildymo metu"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Praradai savo kasdienę seriją {1} dieną(s)."
+	}
+
+	"Lost bet CM"
+	{
+		"lt"		"Nepavyko! Pralaimėjote savo statymą"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Pralaimėjote savo statymą, nes kitas numeris buvo: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"lt"		"Žemas #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"lt"		"Žemas #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"lt"		"Žemas - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"lt"		"MAŽIAU"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Reikia bent {1} žaidėjo"
+	}
+
+	"Must be Alive CM"
+	{
+		"lt"		"Turite būti gyvas, kad naudotumėte tai."
+	}
+
+	"Must be dead CM"
+	{
+		"lt"		"Turi būti miręs, kad galėtum žaisti"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"lt"		"Dauginimas = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"lt"		"Nėra aktyvaus jackpoto"
+	}
+
+	"No active TeamBet CM"
+	{
+		"lt"		"Dar nebuvo atlikta jokių komandos statymų"
+	}
+
+	"No have flag CM"
+	{
+		"lt"		"Neturite prieigos naudoti šį komandą."
+	}
+
+	"No matching color CM"
+	{
+		"lt"		"Nėra atitinkančio spalvos, naudokite: r/raudona, b/juoda arba g/žalia"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"lt"		"Niekas nepakėlė jūsų numestų kreditų. Gavote juos atgal."
+	}
+
+	"No pick up - removed CM"
+	{
+		"lt"		"Niekas nepakėlė jūsų numestų kreditų. Kreditai buvo pašalinti."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Laikas baigėsi. Teisingas atsakymas buvo {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Nieko kito nepadėjo pinigų į jackpotą. Gaunate savo {1} {2} atgal!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"lt"		"Neturite pakankamai kreditų"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"lt"		"Dabar vyksta giveaway, pabandykite dar kartą po kelių sekundžių."
+	}
+
+	"Only number CM"
+	{
+		"lt"		"Galite įvesti tik skaičius..."
+	}
+
+	"Override Disabled CM"
+	{
+		"lt"		"Jūsų skinas nepalaiko skrybėlių. Jūsų užsidėtas skrybėlis bus išjungtas."
+	}
+
+	"Override Enabled CM"
+	{
+		"lt"		"Jūsų dabartinis skinas nepalaiko skrybėlių. Jūsų skinas bus pakeistas."
+	}
+
+	"Owned CM"
+	{
+		"lt"		"[Turima]"
+	}
+
+	"Package Gift CM"
+	{
+		"lt"		"Dovanokite šį paketą"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Parduokite šį paketą už {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"lt"		"Sukurti kuponą iš paketo"
+	}
+
+	"Parachute Empty CM"
+	{
+		"lt"		"Parašiutas tuščias"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"lt"		"Parašiutas pakrautas"
+	}
+
+	"Particles CM"
+	{
+		"lt"		"Dalelės:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Padėkite {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"lt"		"Groju peržiūros garsą jums."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"lt"		"{1} turi {2} kreditų."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"{1} buvo atkurtas."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"lt"		"Store Player Skin modulis šiuo metu yra laikinai išjungtas."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"lt"		"{1} pridėjo {2} {3} į jackpotą, jo dabartinė laimėjimo tikimybė yra: {4}% (Jackpot: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"lt"		"{1} prarado {2} {3} žaidime {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"lt"		"{1} atidarė jackpotą su {2} {3}. Paimkite pinigus, atlikite pinigų įnešimą!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"lt"		"{1} laimėjo Jackpot su {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"lt"		"{1} laimėjo {2} {3} žaidime {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"lt"		"{1} laimėjo {2} {3} su daugybos koeficientu x{4} vietoje {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"lt"		"Nauji nustatymai bus taikomi kitame pasirodyme."
+	}
+
+	"Press CM"
+	{
+		"lt"		"Paspauskite"
+	}
+
+	"Press to Start CM"
+	{
+		"lt"		"Paspauskite, kad pradėtumėte!"
+	}
+
+	"Press to Stop CM"
+	{
+		"lt"		"Paspauskite, kad sustotumėte!"
+	}
+
+	"Preview Item CM"
+	{
+		"lt"		"Peržiūrėti šį daiktą"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Kaina: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"lt"		"Pirkti kuponą"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"lt"		"Kiek kainuoja {1} {2} {3}? | Premija: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"lt"		"raudona"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"lt"		"Naudoti kuponą"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Vėl paleiskite {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"lt"		"Pasiekėte maksimalią respawnų skaičių, kurį galite nusipirkti šiame raunde."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"lt"		"Pour raisons de sécurité, vous ne pouvez pas envoyer plusieurs demandes en peu de temps."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"lt"		"Antrasis nugalėtojas jau nėra žaidime, paskutinis bandymas rasti naują nugalėtoją."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Prieš bandydami vėl naudoti šią komandą, turite palaukti {1} sekundes."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"lt"		"Rodyti kulkų jėgas"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"lt"		"Rodyti kulkų pėdsakus"
+	}
+
+	"Show gloves CM"
+	{
+		"lt"		"Rodyti pirštines"
+	}
+
+	"Show paintball CM"
+	{
+		"lt"		"Rodyti paintball"
+	}
+
+	"Show particles CM"
+	{
+		"lt"		"Rodyti daleles"
+	}
+
+	"Show pets CM"
+	{
+		"lt"		"Rodyti augintinius"
+	}
+
+	"Show trails CM"
+	{
+		"lt"		"Rodyti pėdsakus"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Negalite naudoti mažesnės nei jūsų minimali vertės ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"lt"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Spam apsauga. Prašome palaukti {1} sekundes."
+	}
+
+	"Spawn Preview CM"
+	{
+		"lt"		"Sukurtas peržiūros langas. Peržiūra išnyks po 45 sekundžių."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"lt"		"Sukurtas peržiūros langas. Peržiūra išnyks po {1} sekundžių."
+	}
+
+	"Start again from begin CM"
+	{
+		"lt"		"Prašome pradėti nuo pradžių"
+	}
+
+	"Starting CM"
+	{
+		"lt"		"Pradžia"
+	}
+
+	"Stay CM"
+	{
+		"lt"		"Stovėti"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"lt"		"Ar tikrai norite atstatyti savo įrangą? Visi daiktai bus pašalinti."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"lt"		"Sėkmingai įsigijote kuponą"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"lt"		"Šis daiktas buvo skirtas naudoti su kita žaidėjo klase."
+	}
+
+	"Tail CM"
+	{
+		"lt"		"Uodegą"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"lt"		"Jūs jau atlikote savo statymą šiam ratui."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"lt"		"Nurodytas neteisingas komandos identifikatorius."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Praradai {1} {2} statyme."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"lt"		"Šio rato statymų laikotarpis baigėsi."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Jūs sėkmingai atlikote {1} kreditų statymą."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Tavo statymas buvo sėkmingas. Laimėjai {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"lt"		"Nebuvo atlikta statymas kitai komandai, todėl gavote kreditus atgal."
+	}
+
+	"Terrorist CM"
+	{
+		"lt"		"Teroristas"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Pasirinktas skaičius yra: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Kitas numeris buvo: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"lt"		"Tai yra peržiūros tekstas."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Administratorius perkrovė parduotuvės konfigūraciją. Žemėlapis bus perkrautas per {1} sekundes!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"lt"		"Administratoriaus prekių kuponų kūrimo meniu.\n \nPasirinkite prekių trukmę."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"lt"		"Administratoriaus prekių kuponų kūrimo meniu"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Kreditai: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"lt"		"Galioja {1}d {2}h"
+	}
+
+	"Title Gift CM"
+	{
+		"lt"		"Pasirinkite žaidėją, kuriam norite siųsti dovaną"
+	}
+
+	"Title Store CM"
+	{
+		"lt"		"Parduotuvės meniu"
+	}
+
+	"To late chat input CM"
+	{
+		"lt"		"Jūsų teksto įvestis nebuvo baigta per nustatytą laiką"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Ant žemės yra per daug {1}, šiuo metu negalite numesti daugiau!"
+	}
+
+	"Top Credits CM"
+	{
+		"lt"		"Top kreditai"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"lt"		"Top kreditai + inventoriaus vertė"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"lt"		"Top inventoriaus vertė"
+	}
+
+	"Top Most Items CM"
+	{
+		"lt"		"Populiariausi daiktai"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Bendras: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"lt"		"Bandykite dar kartą"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"lt"		"Įrašykite pokalbyje !bet <statymas> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"lt"		"Įrašykite į pokalbį !blackjack <statymas>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"lt"		"Įrašykite pokalbyje !coinflip <statymas> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"lt"		"Įrašykite pokalbyje !crash <statymas>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"lt"		"Įrašykite pokalbyje !crowns <statymas>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"lt"		"Parašykite į chatą !dice <statymas> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"lt"		"Įrašykite pokalbyje !jackpot <statymas>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"lt"		"Įrašykite pokalbyje !roulette <statymas> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"lt"		"Unikalus - keli žaidėjai"
+	}
+
+	"Up CM"
+	{
+		"lt"		"Į viršų"
+	}
+
+	"Value less than 1 CM"
+	{
+		"lt"		"Negalite naudoti mažesnės nei 1 vertės."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lt"		"{1} garsumas nustatytas į {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"lt"		"Šiuo metu kupono kodas turi būti tiksliai 17 simbolių"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Kuponas turi vertę {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"lt"		"Kuponas buvo priimtas"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"lt"		"Kuponas buvo priimtas"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"lt"		"Generuojate {1} {2}ribotą kuponą{3} su verte {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"lt"		"Generuojate {1} {2}ribotą kuponą{3} su reikšmėmis {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Įvestas kupono kodas jau buvo panaudotas {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Šis kuponas baigiasi {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Įvestas kupono kodas baigėsi {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"lt"		"Sukurtas naujas kuponas {1} su verte {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"lt"		"Kupono kodą galite rasti pokalbyje ir konsolėje"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Kupono kodas: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Įvestas kupono kodas '{1}' negalioja!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lt"		"Kuponas apima {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"lt"		"Kupono kodas yra galiojantis"
+	}
+
+	"Vouchers CM"
+	{
+		"lt"		"Kuponas"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Turite palaukti {1}, kol prasidės kitas kasdieninis."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"lt"		"Jūs šiandien jau patikrinote. Prašome sugrįžti rytoj."
+	}
+
+	"Win = CM"
+	{
+		"lt"		"Peržalimas = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"lt"		"Nugalėtojas jau nėra žaidime, bandome rasti naują nugalėtoją."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"lt"		"Kupono kodas neteisingo formato. Jis turi būti XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"lt"		"TU"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"lt"		"Jūs jau išgryninote {1} {2} į jackpotą. Dabartinė laimėjimo tikimybė: {3}%% Jackpot: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"lt"		"Jūs jau turite įvestą kupono prekę"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"lt"		"Jūs jau iškeitėte įvestą kupono kodą"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"lt"		"Naują jackpotą galite pradėti"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Naują jackpotą galite pradėti po {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Negalite išleisti tiek kredito (Maks.: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Jūs surinkote {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"lt"		"Neturite leidimo pasiekti tai."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Jūs numetėte {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"lt"		"Tu neuždirbai taškų šiame rate."
+	}
+
+	"You earned this round CM"
+	{
+		"lt"		"Tu laimėjai šį raundą:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Jūs uždirbote {1} {2} už "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Šį raundą uždirbote {1} {2}"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Jūs gavote {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Jūs gavote {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lt"		"Jūs gavote {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lt"		"Jūs gavote {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Turite išleisti bent {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Turite išleisti bent {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"lt"		"Neatidarėte dėžutės per nustatytą laiką. Lootbox grįžo į jūsų inventorių"
+	}
+
+	"You lose CM"
+	{
+		"lt"		"- pralaimejai"
+	}
+
+	"You lost with CM"
+	{
+		"lt"		"Tu pralaimi su"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Jūs praradote {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"lt"		"Įveikei 'dienos iššūkį'! Pabandyk įveikti jį dar kartą!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Jūs laimėjote {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"lt"		"!!! TU LAIMEJAI !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"lt"		"Jūs laimėjote {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Jūs laimėjote Jackpot su {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"lt"		"Jūs laimėjote Jackpot su {1} {2} minus kazino mokestį {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"lt"		"Tu laimėjai su"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"lt"		"Tu laimėjai {1} kreditų su x{2} daugybos koeficientu."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Rytoj uždirbsite {1} {2}!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"lt"		"Tavo statymas: {1} {2} - Šansas: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Jūsų statymas: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"lt"		"Jūsų dabartinė laimėjimo tikimybė pasikeitė į {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Už {2} nužudymą gavote {1} kreditų."
+	}
+
+	"admin CM"
+	{
+		"lt"		"administratorius"
+	}
+
+	"and is limited CM"
+	{
+		"lt"		"ir yra ribotas"
+	}
+
+	"and is unlimited CM"
+	{
+		"lt"		"ir yra neribotas"
+	}
+
+	"arms CM"
+	{
+		"lt"		"rankos"
+	}
+
+	"assist a kill CM"
+	{
+		"lt"		"pagalba nužudyme"
+	}
+
+	"attachment CM"
+	{
+		"lt"		"Priedas"
+	}
+
+	"backstab kill CM"
+	{
+		"lt"		"atgalinis smūgis"
+	}
+
+	"be the MVP CM"
+	{
+		"lt"		"būti MVP"
+	}
+
+	"bet x CM"
+	{
+		"lt"		"statyti x"
+	}
+
+	"blackjack CM"
+	{
+		"lt"		"Blackjack"
+	}
+
+	"bomb defused CM"
+	{
+		"lt"		"bomba neutralizuota"
+	}
+
+	"bomb explode CM"
+	{
+		"lt"		"bomba sprogsta"
+	}
+
+	"bomb planted CM"
+	{
+		"lt"		"bomba pasodinta"
+	}
+
+	"bombtweak CM"
+	{
+		"lt"		"Bombos koregavimas"
+	}
+
+	"bullet_impact CM"
+	{
+		"lt"		"Šūvio poveikis"
+	}
+
+	"bulletsparks CM"
+	{
+		"lt"		"Šūvio iskros"
+	}
+
+	"bunnyhob CM"
+	{
+		"lt"		"Kiaulės šuolis"
+	}
+
+	"bunnyhop CM"
+	{
+		"lt"		"įgūdis"
+	}
+
+	"casino CM"
+	{
+		"lt"		"Kazino"
+	}
+
+	"coinflip CM"
+	{
+		"lt"		"Monetos metimas"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Ar norite atstatyti konfigūraciją?\nŽemėlapis bus perkrautas per {1} sekundes!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"lt"		"Ar norite atstatyti konfigūraciją?\nTurite pakeisti žemėlapį, kad pritaikytumėte pakeitimus, kitaip gali atsirasti klaidų."
+	}
+
+	"connect CM"
+	{
+		"lt"		"Prisijungimo pranešimas"
+	}
+
+	"crash CM"
+	{
+		"lt"		"Crash"
+	}
+
+	"creditstoplist CM"
+	{
+		"lt"		"kreditas"
+	}
+
+	"crowns CM"
+	{
+		"lt"		"Karūnų slotas"
+	}
+
+	"daily CM"
+	{
+		"lt"		"Kasdieninis bonusas"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"lt"		"apgaulės granatos nužudymas"
+	}
+
+	"dice CM"
+	{
+		"lt"		"Kauliukai"
+	}
+
+	"direction CM"
+	{
+		"lt"		"Kryptis"
+	}
+
+	"discount CM"
+	{
+		"lt"		"IŠPARDAVIMAS"
+	}
+
+	"distance CM"
+	{
+		"lt"		"Atstumas"
+	}
+
+	"dmgtext CM"
+	{
+		"lt"		"Tapytojas"
+	}
+
+	"emote CM"
+	{
+		"lt"		"Emote"
+	}
+
+	"escape as VIP CM"
+	{
+		"lt"		"Bėk kaip VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"lt"		"flashbang nužudymas"
+	}
+
+	"flashlight CM"
+	{
+		"lt"		"Žibintuvėlis"
+	}
+
+	"froggyjump CM"
+	{
+		"lt"		"Varlės šuolis"
+	}
+
+	"gloves CM"
+	{
+		"lt"		"pirštinės"
+	}
+
+	"glow CM"
+	{
+		"lt"		"švytėjimas"
+	}
+
+	"godmode CM"
+	{
+		"lt"		"Dievo režimas"
+	}
+
+	"gravity CM"
+	{
+		"lt"		"gebėjimas"
+	}
+
+	"grenademodel CM"
+	{
+		"lt"		"Granatos modelis"
+	}
+
+	"grenadeskin CM"
+	{
+		"lt"		"granatos oda"
+	}
+
+	"grenadetrail CM"
+	{
+		"lt"		"granatos pėdsakas"
+	}
+
+	"hat CM"
+	{
+		"lt"		"skrybėlė"
+	}
+
+	"headshot CM"
+	{
+		"lt"		"headshot"
+	}
+
+	"health CM"
+	{
+		"lt"		"paketas"
+	}
+
+	"high or low CM"
+	{
+		"lt"		"Didesnis ar mažesnis"
+	}
+
+	"hiteff CM"
+	{
+		"lt"		"smūgio efektas:"
+	}
+
+	"hitsound CM"
+	{
+		"lt"		"Smūgio garsas"
+	}
+
+	"hostage rescued CM"
+	{
+		"lt"		"išgelbėtas įkaitas"
+	}
+
+	"hunterjump CM"
+	{
+		"lt"		"Medžiotojo šuolis"
+	}
+
+	"idle on the server CM"
+	{
+		"lt"		"neaktyvus serveryje"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"per {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"lt"		"Begaliniai šoviniai"
+	}
+
+	"info CM"
+	{
+		"lt"		"Informacijos Panele"
+	}
+
+	"instabomb CM"
+	{
+		"lt"		"Akimirksniu pasodinti / išminuoti"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"lt"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"lt"		"gebėjimas"
+	}
+
+	"items CM"
+	{
+		"lt"		"Daiktai"
+	}
+
+	"jackpot CM"
+	{
+		"lt"		"Jackpot"
+	}
+
+	"jetpack CM"
+	{
+		"lt"		"raketa"
+	}
+
+	"jihad CM"
+	{
+		"lt"		"bomba"
+	}
+
+	"kill CM"
+	{
+		"lt"		"nužudyti"
+	}
+
+	"kill the VIP CM"
+	{
+		"lt"		"nužudyti VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"lt"		"nukauk save"
+	}
+
+	"killeff CM"
+	{
+		"lt"		"nužudymo efektas:"
+	}
+
+	"knife CM"
+	{
+		"lt"		"peilis"
+	}
+
+	"knife kill CM"
+	{
+		"lt"		"peiliu nužudymas"
+	}
+
+	"laserdraw CM"
+	{
+		"lt"		"laserinis piebrėžimas:"
+	}
+
+	"laserpointer CM"
+	{
+		"lt"		"Laserio žymeklis"
+	}
+
+	"lasersight CM"
+	{
+		"lt"		"lazerių taikiklis"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"paskutinis atnaujinimas prieš {1}"
+	}
+
+	"light CM"
+	{
+		"lt"		"Šviesa"
+	}
+
+	"lootbox CM"
+	{
+		"lt"		"Grobių dėžė"
+	}
+
+	"mirror CM"
+	{
+		"lt"		"veidrodis"
+	}
+
+	"molotov kill CM"
+	{
+		"lt"		"molotov nužudymas"
+	}
+
+	"msgcolor CM"
+	{
+		"lt"		"žinutės spalva"
+	}
+
+	"mvp_sound CM"
+	{
+		"lt"		"MVP himnai"
+	}
+
+	"namecolor CM"
+	{
+		"lt"		"vardas spalva"
+	}
+
+	"nametag CM"
+	{
+		"lt"		"vardas žymė"
+	}
+
+	"nearest CM"
+	{
+		"lt"		"Arčiausias"
+	}
+
+	"nodiscount CM"
+	{
+		"lt"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"lt"		"Jokio delsimo gylėjimo"
+	}
+
+	"nofalldamage CM"
+	{
+		"lt"		"Be kritimo žalos"
+	}
+
+	"noreload CM"
+	{
+		"lt"		"Be persekiojimo"
+	}
+
+	"noscope kill CM"
+	{
+		"lt"		"nužudyti be taikinio"
+	}
+
+	"noselfdamage CM"
+	{
+		"lt"		"Be savęs žalos"
+	}
+
+	"or use buttons below CM"
+	{
+		"lt"		"arba naudokite žemiau esančius mygtukus"
+	}
+
+	"package CM"
+	{
+		"lt"		"paketas"
+	}
+
+	"paintball CM"
+	{
+		"lt"		"kulkos"
+	}
+
+	"painter CM"
+	{
+		"lt"		"Tapytojas"
+	}
+
+	"parachute CM"
+	{
+		"lt"		"Parašiutas"
+	}
+
+	"particle CM"
+	{
+		"lt"		"Dalelės"
+	}
+
+	"pet CM"
+	{
+		"lt"		"auklė"
+	}
+
+	"playerskin CM"
+	{
+		"lt"		"žaidėjo odos"
+	}
+
+	"playing on the server CM"
+	{
+		"lt"		"žaidžia serveryje"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Žaidėte mūsų serveryje {1} dienas iš eilės"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Kitoks {1} bus gautas kitame atsiradime"
+	}
+
+	"respawn CM"
+	{
+		"lt"		"Atkūrimas"
+	}
+
+	"roulette CM"
+	{
+		"lt"		"Ruletė"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Pasiekėte maksimalią garsų naudojimo ribą. {1} maksimali naudojimų skaičius žemėlapyje"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Pasiekėte maksimalią garsų naudojimo ribą. {1} maksimali naudojimų skaičius per raundą"
+	}
+
+	"saysound CM"
+	{
+		"lt"		"sakyk garsą"
+	}
+
+	"scoreboardtag CM"
+	{
+		"lt"		"Rezultatų lentos žymė"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"lt"		"dymo granata nužudymas"
+	}
+
+	"sound CM"
+	{
+		"lt"		"garsas"
+	}
+
+	"spawn CM"
+	{
+		"lt"		"Papildomas atsikūrimas"
+	}
+
+	"spawneff CM"
+	{
+		"lt"		"gimimo efektas:"
+	}
+
+	"speed CM"
+	{
+		"lt"		"gebėjimas"
+	}
+
+	"spray CM"
+	{
+		"lt"		"purškiklis"
+	}
+
+	"start daily challange CM"
+	{
+		"lt"		"Pradėkite 'dienos iššūkį'. Žaiskite kitas 6 dienas, kad gautumėte pilną premiją"
+	}
+
+	"taser kill CM"
+	{
+		"lt"		"taser nužudymas"
+	}
+
+	"teambet CM"
+	{
+		"lt"		"Komandinė statymai"
+	}
+
+	"teamkill CM"
+	{
+		"lt"		"komandos narys nužudymas"
+	}
+
+	"tfhat CM"
+	{
+		"lt"		"pastato skrybėlė"
+	}
+
+	"tfhatdye CM"
+	{
+		"lt"		"skrybėlės dažymas"
+	}
+
+	"tfhead CM"
+	{
+		"lt"		"galvos dydis"
+	}
+
+	"tfunusual CM"
+	{
+		"lt"		"skrybėlės efektas"
+	}
+
+	"tfweapon CM"
+	{
+		"lt"		"pasirinktinis ginklas"
+	}
+
+	"tfweaponsize CM"
+	{
+		"lt"		"ginklo dydis"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Premija bus ištraukiama per {1} sekundes"
+	}
+
+	"thirdperson CM"
+	{
+		"lt"		"trečia asmuo"
+	}
+
+	"throwknife CM"
+	{
+		"lt"		"Meskite peilį"
+	}
+
+	"toplists CM"
+	{
+		"lt"		"Top sąrašai"
+	}
+
+	"tracer CM"
+	{
+		"lt"		"sekiklis"
+	}
+
+	"trail CM"
+	{
+		"lt"		"pėdsakas"
+	}
+
+	"wasted CM"
+	{
+		"lt"		"iššvaistytas"
+	}
+
+	"watergun CM"
+	{
+		"lt"		"efektas"
+	}
+
+	"weapon CM"
+	{
+		"lt"		"ginklas"
+	}
+
+	"weaponcolor CM"
+	{
+		"lt"		"ginklo spalva"
+	}
+
+	"weaponmodel CM"
+	{
+		"lt"		"Ginklo modelis"
+	}
+
+	"weaponskin CM"
+	{
+		"lt"		"ginklo oda"
+	}
+
+	"win the round CM"
+	{
+		"lt"		"laimėkite raundą"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"lt"		"{1} {2} už '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"lt"		"{1} valandos {2} minutės ir {3} sekundės"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"lt"		"{1} valanda(os) {2} minutė(s) ir {3} sekundė(s)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"lt"		"{1} minutės ir {2} sekundės"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"lt"		"{1} minutė(s) ir {2} sekundė(s)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"{1} sekundės"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"lt"		"{1} sekundė(s)"
+	}
+
+	"zrclass CM"
+	{
+		"lt"		"žaidėjo klasė"
+	}
 }

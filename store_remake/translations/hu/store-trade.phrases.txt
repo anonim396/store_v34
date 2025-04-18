@@ -104,4 +104,133 @@
 	{
 		"hu"		"Kérjük, várja meg a kiválasztott játékos válaszát."
 	}
+
+
+	"Cancel CM"
+	{
+		"hu"		"Mégse a cserét"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"hu"		"Szeretnéd felajánlani a {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"hu"		"Szeretnéd kicserélni a {1} {2}-t?"
+	}
+
+	"Offer CM"
+	{
+		"hu"		"Ajánlj egy tárgyat"
+	}
+
+	"Offer item CM"
+	{
+		"hu"		"Ezt az elemet ajánlja fel"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A partnered {1} hitelt ajánl"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"hu"		"A partnered az alábbi tárgyakat kínálja:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"hu"		"A partnered még nincs kész."
+	}
+
+	"Partner Ready CM"
+	{
+		"hu"		"A partnered készen áll."
+	}
+
+	"Player Left CM"
+	{
+		"hu"		"A játékos, akivel cserélni szerettél volna, elhagyta a játékot."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Kész [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A csere {1} másodperc múlva véget ér..."
+	}
+
+	"Trade Active CM"
+	{
+		"hu"		"Már kereskedsz."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"hu"		"Szeretnél kereskedni {1} -val?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"hu"		"Meg szeretnéd szakítani a cserét?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"hu"		"Kérjük, várjon néhány percet, mielőtt újra kereskedne."
+	}
+
+	"Trade Menu CM"
+	{
+		"hu"		"A kereskedési menü újranyitásához írja be: !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"hu"		"Nem kereskedsz."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"hu"		"A partnered megszakította a cserét."
+	}
+
+	"Trade Select Player CM"
+	{
+		"hu"		"Válassz egy játékost a cseréhez"
+	}
+
+	"Trade Successful CM"
+	{
+		"hu"		"A csere sikeresen befejeződött."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"hu"		"Te most {1}-vel kereskedsz\n-----------------------------\nHogy ajánlj kreditet, írj !offer <amount>\nAjánlottál {2} kreditet"
+	}
+
+	"Trade item CM"
+	{
+		"hu"		"Cserélje ezt az elemet"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"hu"		"Kérjük, várja meg a kiválasztott játékos válaszát."
+	}
 }

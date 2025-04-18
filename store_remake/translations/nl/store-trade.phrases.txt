@@ -104,4 +104,133 @@
 	{
 		"nl"		"Wacht alstublieft op het antwoord van de geselecteerde speler."
 	}
+
+
+	"Cancel CM"
+	{
+		"nl"		"Annuleer ruil"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"nl"		"Wil je je {1} {2} aanbieden?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"nl"		"Wil je je {1} {2} ruilen?"
+	}
+
+	"Offer CM"
+	{
+		"nl"		"Bied een item aan"
+	}
+
+	"Offer item CM"
+	{
+		"nl"		"Bied dit item aan"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je partner biedt {1} krediet(ten) aan."
+	}
+
+	"Partner Item Offer CM"
+	{
+		"nl"		"Je partner biedt de volgende items aan:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"nl"		"Je partner is nog niet klaar."
+	}
+
+	"Partner Ready CM"
+	{
+		"nl"		"Je partner is klaar."
+	}
+
+	"Player Left CM"
+	{
+		"nl"		"De speler met wie je wilde handelen heeft het spel verlaten."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Klaar [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"De handel eindigt over {1} seconde(n)..."
+	}
+
+	"Trade Active CM"
+	{
+		"nl"		"Je bent al aan het handelen."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"nl"		"Wil je handelen met {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"nl"		"Wil je de ruil annuleren?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"nl"		"Wacht alstublieft een paar minuten voordat u opnieuw handelt."
+	}
+
+	"Trade Menu CM"
+	{
+		"nl"		"Om het handelsmenu opnieuw te openen, typ !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"nl"		"Je handelt niet."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"nl"		"Je partner heeft de ruil geannuleerd."
+	}
+
+	"Trade Select Player CM"
+	{
+		"nl"		"Selecteer een speler om mee te handelen"
+	}
+
+	"Trade Successful CM"
+	{
+		"nl"		"De ruil is succesvol afgerond."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"nl"		"Je handelt met {1}\n-----------------------------\nOm credits aan te bieden, typ !offer <amount>\nJe hebt {2} credits aangeboden"
+	}
+
+	"Trade item CM"
+	{
+		"nl"		"Ruil dit item"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"nl"		"Wacht alstublieft op het antwoord van de geselecteerde speler."
+	}
 }

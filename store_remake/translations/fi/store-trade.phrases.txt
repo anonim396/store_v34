@@ -104,4 +104,133 @@
 	{
 		"fi"		"Ole hyvä ja odota valitun pelaajan vastausta."
 	}
+
+
+	"Cancel CM"
+	{
+		"fi"		"Peruuta kauppa"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"fi"		"Haluatko tarjota {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"fi"		"Haluatko vaihtaa {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"fi"		"Tarjoa esine"
+	}
+
+	"Offer item CM"
+	{
+		"fi"		"Tarjoa tätä esinettä"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Kumppanisi tarjoaa {1} krediittiä"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"fi"		"Kumppanisi tarjoaa seuraavat esineet:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"fi"		"Kumppanisi ei ole vielä valmis."
+	}
+
+	"Partner Ready CM"
+	{
+		"fi"		"Kumppanisi on valmis."
+	}
+
+	"Player Left CM"
+	{
+		"fi"		"Pelaaja, jonka kanssa halusit tehdä kauppaa, on poistunut pelistä."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Valmis [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"fi"		"Kauppa päättyy {1} sekunnin sisällä..."
+	}
+
+	"Trade Active CM"
+	{
+		"fi"		"Olet jo kaupankäynnissä."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"fi"		"Haluatko käydä kauppaa {1} kanssa?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"fi"		"Haluatko peruuttaa kaupan?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"fi"		"Odota muutama minuutti ennen kaupankäyntiä uudelleen."
+	}
+
+	"Trade Menu CM"
+	{
+		"fi"		"Avaa kauppavalikko uudelleen kirjoittamalla !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"fi"		"Et käy kauppaa."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"fi"		"Kumppanisi peruutti kaupan."
+	}
+
+	"Trade Select Player CM"
+	{
+		"fi"		"Valitse pelaaja kaupankäyntiin"
+	}
+
+	"Trade Successful CM"
+	{
+		"fi"		"Kauppa suoritettiin onnistuneesti."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"fi"		"Käyt kauppaa käyttäjän {1} kanssa\n-----------------------------\nTarjotaksesi krediittejä, kirjoita !offer <amount>\nOlet tarjonnut {2} krediittiä"
+	}
+
+	"Trade item CM"
+	{
+		"fi"		"Vaihda tämä esine"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"fi"		"Ole hyvä ja odota valitun pelaajan vastausta."
+	}
 }

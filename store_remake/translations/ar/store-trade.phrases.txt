@@ -104,4 +104,133 @@
 	{
 		"ar"		"يرجى الانتظار للحصول على إجابة من اللاعب المحدد."
 	}
+
+
+	"Cancel CM"
+	{
+		"ar"		"إلغاء التجارة"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ar"		"هل تريد عرض {1} {2} الخاصة بك؟"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ar"		"هل تريد تبادل {1} {2} الخاصة بك؟"
+	}
+
+	"Offer CM"
+	{
+		"ar"		"عرض عنصر"
+	}
+
+	"Offer item CM"
+	{
+		"ar"		"عرض هذا العنصر"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"ar"		"شريكك يعرض {1} من الرصيد"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"ar"		"شريكك يعرض العناصر التالية:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"ar"		"شريكك غير جاهز بعد."
+	}
+
+	"Partner Ready CM"
+	{
+		"ar"		"شريكك جاهز."
+	}
+
+	"Player Left CM"
+	{
+		"ar"		"اللاعب الذي أردت التبادل معه غادر اللعبة."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"ar"		"جاهز [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"ar"		"سوف تنتهي التجارة في {1} ثانية..."
+	}
+
+	"Trade Active CM"
+	{
+		"ar"		"أنت تتداول بالفعل."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"ar"		"هل ترغب في التداول مع {1}؟"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"ar"		"هل ترغب في إلغاء الصفقة؟"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"ar"		"يرجى الانتظار بضع دقائق قبل التداول مرة أخرى."
+	}
+
+	"Trade Menu CM"
+	{
+		"ar"		"لإعادة فتح قائمة التجارة، اكتب !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"ar"		"أنت لا تتداول."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"ar"		"شريكك ألغى الصفقة."
+	}
+
+	"Trade Select Player CM"
+	{
+		"ar"		"اختر لاعبًا للتداول معه"
+	}
+
+	"Trade Successful CM"
+	{
+		"ar"		"تمت الصفقة بنجاح."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ar"		"أنت تتداول مع {1}\n-----------------------------\nلإرسال رصيد اكتب !offer <amount>\nلقد عرضت {2} رصيد"
+	}
+
+	"Trade item CM"
+	{
+		"ar"		"تداول هذا العنصر"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"ar"		"يرجى الانتظار للحصول على إجابة من اللاعب المحدد."
+	}
 }

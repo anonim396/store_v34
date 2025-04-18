@@ -2279,4 +2279,2788 @@
 	{
 		"bg"		"клас на играча"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"{1}21 !!! БЛЕКДЖЕК !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Вече презаредихте конфигурацията. Моля, променете или презаредете картата."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Всички участващи играчи се изключват, никой не получава обратно своето {2}, хаха. Джакпотът беше {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"bg"		"Всички генерирани и валидни ваучери са:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"bg"		"Спечелихте, но вече притежавате {1} ({2}). Артикулът беше продаден за {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"bg"		"Вие вече притежавате {1} ({2}). Върнати са ви {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Количество: {1}"
+	}
+
+	"Aura CM"
+	{
+		"bg"		"Аура:"
+	}
+
+	"Back CM"
+	{
+		"bg"		"Назад"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"bg"		"Залог * Множител = Твоята победа"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Бонус кредити: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Залог CT печели: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Максимален залог ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Минимален залог ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"bg"		"Случайни залози ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Залог T печели: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"bg"		"Заложете на"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"bg"		"Заложи на глава/опашка"
+	}
+
+	"Bet on a color CM"
+	{
+		"bg"		"Заложете на цвят и ако този цвят бъде избран, вие печелите!"
+	}
+
+	"Bet on a number CM"
+	{
+		"bg"		"Заложете на Ниско (#1-3), Високо (#4-6) или точно число. Ако вашият избор бъде хвърлен, вие печелите!"
+	}
+
+	"Bet on a team CM"
+	{
+		"bg"		"Заложете на отбор и ако отборът спечели кръга, вие печелите!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"bg"		"Вече сте направили залога си за този рунд."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"bg"		"Посочен е невалиден идентификатор на отбора."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Загубихте {1} кредита на залога."
+	}
+
+	"Betting Period Over CM"
+	{
+		"bg"		"Периодът за залагане за този рунд е изтекъл."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Успешно поставихте залог от {1} кредита."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Вашата залог беше успешен. Спечелихте {1} кредита."
+	}
+
+	"Black CM"
+	{
+		"bg"		"черен"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"bg"		"Blackjack е игра, при която стойността на картите в ръката ви трябва да бъде по-висока от тази на дилъра, без да надвишава 21."
+	}
+
+	"Buy CM"
+	{
+		"bg"		"Купи предмет"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Купи елемент ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"bg"		"Променихте цвета на: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"bg"		"Опция за цвят на етикета в чата"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"bg"		"Деактивирай цвета"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"bg"		"Персонализираната цветова марка е деактивирана."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"bg"		"Нямате поставена никаква етикета за име"
+	}
+
+	"CP No file found CM"
+	{
+		"bg"		"Цветът на персонализирания етикет за потребителя е деактивиран. Моля, свържете се с администратора за допълнителна поддръжка."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"bg"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"bg"		"Показване на предварителен преглед на етикет на таблото, моля натиснете бутона TAB."
+	}
+
+	"Cancel CM"
+	{
+		"bg"		"Отмени"
+	}
+
+	"Cant be bought CM"
+	{
+		"bg"		"Този предмет не може да бъде закупен"
+	}
+
+	"Cash out CM"
+	{
+		"bg"		"Изтегляне"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Променете своята залог: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"bg"		"Купихте {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"bg"		"{1} изпрати на вас {2} {3} като подарък."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"bg"		"Изпратихте на {1} {2} {3} като подарък."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"bg"		"Продадохте {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Отворихте контейнер и намерихте {1} кредити!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"bg"		"{1} отвори контейнер и намери {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"bg"		"{1} отвори контейнер и намери {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"bg"		"Проверете всички валидни и налични ваучери (само за администратори)"
+	}
+
+	"Check Voucher CM"
+	{
+		"bg"		"Проверете ваучер"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"bg"		"Проверете своя генериран и валиден наличен ваучер"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"bg"		"Изберете номер (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"bg"		"Автоматично изплащане:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"bg"		"Вашето натоварване беше нулирано."
+	}
+
+	"Client valid voucher CM"
+	{
+		"bg"		"Вашият генериран и валиден ваучер е:\n "
+	}
+
+	"Close CM"
+	{
+		"bg"		"Затвори"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"bg"		"Цветен дим"
+	}
+
+	"Command is in-game only CM"
+	{
+		"bg"		"Трябва да сте живи, за да използвате тази команда."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"bg"		"Конфигурацията е презаредена. Моля, рестартирайте или променете картата."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"bg"		"Сигурни ли сте, че искате да купите {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"bg"		"Сигурни ли сте, че искате да подарите {1} {2} на {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"bg"		"Сигурни ли сте, че искате да хвърлите {1} {2} като подарък?"
+	}
+
+	"Confirm_No CM"
+	{
+		"bg"		"Не"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"bg"		"Сигурни ли сте, че искате да продадете {1} {2} за {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"bg"		"Сигурни ли сте, че искате да конвертирате {1} ({2}) в купон?\nПРЕДУПРЕЖДЕНИЕ: Ако елементът в ваучера изтече преди да бъде осребрен.\nТози ваучер ще изтече."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"bg"		"Да"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"bg"		"{1} даде правилния отговор и спечели {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"bg"		"Контратерорист"
+	}
+
+	"Crash Already Start CM"
+	{
+		"bg"		"Игра Crash в момента е в ход. Моля, изчакайте следващата игра."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"bg"		"Изключено"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"bg"		"Изключете автоматично изплащане"
+	}
+
+	"Crash Auto On CM"
+	{
+		"bg"		"Включено"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"bg"		"Включете автоматично изплащане"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"bg"		"           Какво е/Как да играете: Краш"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"bg"		"- Crash е игра, при която играчите могат да залагат на множител, този множител е свързан с нарастваща крива, която може да се прекрати по всяко време."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"bg"		"- Множителят започва от 1.00x и можете да изтеглите по всяко време."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"bg"		"- Минималната стойност на залога е {1} {2}. Максималната стойност на залога е {3} {4}. Тези лимити може да се променят с времето."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"bg"		"Невалиден вход (трябва да бъде {1} или повече)."
+	}
+
+	"Crash auto input CM"
+	{
+		"bg"		"Напишете стойността за автоматично изплащане в чата"
+	}
+
+	"Crash auto input set CM"
+	{
+		"bg"		"Настройки за автоматично изплащане на Crash"
+	}
+
+	"Crash set auto CM"
+	{
+		"bg"		"Задайте стойност за автоматично изплащане"
+	}
+
+	"Crash! CM"
+	{
+		"bg"		"Крах!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"bg"		"Създайте ваучер за елементи (Само за администратори)"
+	}
+
+	"Create Voucher CM"
+	{
+		"bg"		"Създайте ваучер"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Създаването на ваучера не бе успешно - Свържете се с администратор с този времеви код: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"bg"		"Даряването на кредити е деактивирано на този сървър."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Заредихте {1} кредити като подарък."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"bg"		"{2} изпрати на вас {1} кредити."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"bg"		"Изпратили сте {1} кредити на {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"bg"		"Нямате достатъчно кредити, за да създадете раздаване."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"bg"		"Невалидна сума кредити е въведена."
+	}
+
+	"Credit No Match CM"
+	{
+		"bg"		"Не е намерен играч."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"bg"		"Нямате достатъчно кредити, за да купите това."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"bg"		"Намерени са повече от един клиент."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"bg"		"Нямате достатъчно кредити, за да създадете ваучер."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"bg"		"Спечелихте {1} кредита за убиване на {2}."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Спечелихте {1} кредита за игра на сървъра."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"bg"		"{1} получи {2} кредита."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"bg"		"Кредити: {1}          Пот: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"bg"		"Деактивирано"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"bg"		"Активирано"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"bg"		"[Звукове изпълнение на оръжието]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"bg"		"Меню контрол на звука на оръжията по избор"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Том: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"bg"		"Звук на оръжието по избор: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"bg"		"Звук на оръжието по избор е Деактивиран."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"bg"		"Звук на оръжието по избор е активиран."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Звук на оръжието по избор е активиран. Тегло: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"bg"		"Персонализиран модел на оръжие:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"bg"		"Повреди кутията, за да я отвориш!"
+	}
+
+	"Dead heat CM"
+	{
+		"bg"		"- мъртъв изход -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"bg"		"             ДИЛЪР     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"bg"		"ДИЛЪР"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Отстъпка: '{1}' е активна! Приятно пазаруване!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Отстъпка: '{1}' е приключила."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Отстъпка: '{1}' започна! Приятно пазаруване!"
+	}
+
+	"Double CM"
+	{
+		"bg"		"Двойно"
+	}
+
+	"Down CM"
+	{
+		"bg"		"Надолу"
+	}
+
+	"Down2 CM"
+	{
+		"bg"		"                      5 = Надолу"
+	}
+
+	"Drop Gift CM"
+	{
+		"bg"		"Пусни като подарък"
+	}
+
+	"Edit Amount CM"
+	{
+		"bg"		"Редактиране на количеството: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"bg"		"Моля, въведете времето на изтичане (в секунди) за елемента в чата!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"bg"		"Невалиден формат на числото. Моля, опитайте отново."
+	}
+
+	"Enter custom amount CM"
+	{
+		"bg"		"Моля, въведете своя персонализиран размер в чата!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"bg"		"Моля, въведете максималната стойност на кредитите в чата!"
+	}
+
+	"Enter minimum value CM"
+	{
+		"bg"		"Моля, въведете минималната стойност на кредитите в чата!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"bg"		"Моля, въведете броя на ваучерите, които искате да създадете в чата!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"bg"		"Моля, въведете стойността на ваучера за покупка в чата!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"bg"		"Моля, въведете своя код на ваучера в чата!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"bg"		"Възникна грешка при връщането на цената. Моля, свържете се с администратора"
+	}
+
+	"Exact #x  = CM"
+	{
+		"bg"		"Точно #x = "
+	}
+
+	"Exit CM"
+	{
+		"bg"		"Изход"
+	}
+
+	"Gained CM"
+	{
+		"bg"		"Спечелено"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"bg"		"Спечелено: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"bg"		"Информация за играта"
+	}
+
+	"Game in progress CM"
+	{
+		"bg"		"Вашата текуща игра е в ход. Моля, изчакайте да приключи."
+	}
+
+	"Get three on a kind CM"
+	{
+		"bg"		"Вземи три от същия вид"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Вдигна {1} кредити."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"bg"		"Вдигна {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"bg"		"Няма никого, на когото да подарите този предмет."
+	}
+
+	"Gift Player Left CM"
+	{
+		"bg"		"Избраният играч вече е напуснал играта."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"bg"		"{1} За да се проведе раздаване, сървърът трябва да съдържа поне {2} играчи."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"bg"		"Администратор {1} отвори награда с <font color='#15fb00'>{2} кредита"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"|| Соревнование започва след {1} секунди ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"bg"		"{1} {2} спечели подарък с {3} кредита"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"bg"		"{1}\n|| Победител: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"bg"		"Достигнали сте максималния брой Godmode, които можете да купите този рунд."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"bg"		"Не можеш да използваш godmode в този отбор."
+	}
+
+	"Green CM"
+	{
+		"bg"		"зелен"
+	}
+
+	"HE grenade kill CM"
+	{
+		"bg"		"убийство с HE граната"
+	}
+
+	"HUD CM"
+	{
+		"bg"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"bg"		"Лице"
+	}
+
+	"Health Round Limit CM"
+	{
+		"bg"		"Достигнали сте максималния брой здравни пакети, които можете да купите този рунд."
+	}
+
+	"Help_Back CM"
+	{
+		"bg"		"Назад"
+	}
+
+	"Help_Exit CM"
+	{
+		"bg"		"Изход"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"bg"		"Скрий искрите от куршуми"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"bg"		"Скрий следите на куршумите"
+	}
+
+	"Hide gloves CM"
+	{
+		"bg"		"Скрий ръкавици"
+	}
+
+	"Hide paintball CM"
+	{
+		"bg"		"Скрий боулинг с краской"
+	}
+
+	"Hide particles CM"
+	{
+		"bg"		"Скрий частици"
+	}
+
+	"Hide pets CM"
+	{
+		"bg"		"Скрий домашни любимци"
+	}
+
+	"Hide trails CM"
+	{
+		"bg"		"Скрий пътеки"
+	}
+
+	"High #4-6 CM"
+	{
+		"bg"		"Високо #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"bg"		"Високо #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"bg"		"Висок - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"bg"		"ПО-ВИСОКО"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Избраният номер е: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Следващото число беше: {1}"
+	}
+
+	"Hit CM"
+	{
+		"bg"		"Удари"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"bg"		"Избран е номер между {1} и {2}, за да познаеш дали следващото число ще бъде по-високо или по-ниско от избраното число."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"bg"		"Ако избереш правилното, ще спечелиш два пъти залога си."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"bg"		"Има пауза от {1} секунда между всяка игра."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Успешно поставихте {1} {2}."
+	}
+
+	"Inventory CM"
+	{
+		"bg"		"Инвентар"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"bg"		"Моля, изчакайте. Вашият инвентар още не е зареден."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"bg"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"bg"		"Насочи този елемент"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"{1} [ОБОРУДВАН]"
+	}
+
+	"Item Gift CM"
+	{
+		"bg"		"Подарете този елемент"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"{1} (Изберете план)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Продай за {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"bg"		"Разсъблечи"
+	}
+
+	"Item Use CM"
+	{
+		"bg"		"Използвайте този елемент"
+	}
+
+	"Item Voucher CM"
+	{
+		"bg"		"Създайте ваучер от предмета"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"bg"		"Създаването на ваучер за артикул е в момента деактивирано."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"bg"		"Преобразувахте {1} ({2}) в ваучер {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"bg"		"{1} скрит. Няма да ги виждаш повече."
+	}
+
+	"Item not found CM"
+	{
+		"bg"		"Предмет не е намерен"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"bg"		"{1} отново е видим."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"bg"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"bg"		"Джакпот е паузиран."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Джакпот: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"bg"		"Джети пакът е празен"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"bg"		"[Jetpack] Гориво: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"bg"		"Джети пакът е презареден"
+	}
+
+	"Jihad Failed CM"
+	{
+		"bg"		"Вашата бомба не успя да експлодира."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"bg"		"Бомбата на джихад {1} не е успяла да експлодира."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"bg"		"Не можеш да използваш бомбата в този отбор."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"{1} минути преди началото на краш."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"{1} секунди преди началото на краш."
+	}
+
+	"LevelIcon CM"
+	{
+		"bg"		"икона на ниво"
+	}
+
+	"Limited CM"
+	{
+		"bg"		"Ограничено - един играч"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"bg"		"Моля, изчакайте докато предишната ви кутия бъде отворена"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"bg"		"Картата е приключила. Моля, изчакайте следващата карта"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"bg"		"Кръгът е приключил. Моля, изчакайте следващия кръг"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"bg"		"Не можете да отворите по време на загрявката"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Загубихте своята ежедневна серия от {1} ден(дни)."
+	}
+
+	"Lost bet CM"
+	{
+		"bg"		"Неуспех! Загубихте залога си"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Загубихте залога си, защото следващото число беше: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"bg"		"Ниско #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"bg"		"Ниско #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"bg"		"Нисък - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"bg"		"ПО-НИСКО"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Нуждаем се от поне {1} играч(и)"
+	}
+
+	"Must be Alive CM"
+	{
+		"bg"		"Трябва да си жив, за да използваш това."
+	}
+
+	"Must be dead CM"
+	{
+		"bg"		"Трябва да сте мъртви, за да играете"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"bg"		"Множител = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"bg"		"Няма активен джакпот"
+	}
+
+	"No active TeamBet CM"
+	{
+		"bg"		"Все още не са поставени залози на отбора"
+	}
+
+	"No have flag CM"
+	{
+		"bg"		"Нямате достъп за използване на тази команда."
+	}
+
+	"No matching color CM"
+	{
+		"bg"		"Няма съвпадение с цвят, използвайте: r/червен, b/черен или g/зелен"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"bg"		"Никой не вдигна вашите паднали кредити. Върнахте ги обратно."
+	}
+
+	"No pick up - removed CM"
+	{
+		"bg"		"Никой не вдигна вашите паднали кредити. Кредитите бяха премахнати."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Времето изтече. Правилният отговор беше {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Никой друг не е изтеглил пари в джакпота. Вие получавате обратно {1} {2}!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"bg"		"Нямате достатъчно кредити"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"bg"		"В момента се извършва раздаване, опитайте отново след няколко секунди."
+	}
+
+	"Only number CM"
+	{
+		"bg"		"Можете да въвеждате само числа..."
+	}
+
+	"Override Disabled CM"
+	{
+		"bg"		"Вашият скин не поддържа шапки. Вашата скинирана шапка ще бъде деактивирана."
+	}
+
+	"Override Enabled CM"
+	{
+		"bg"		"Вашият текущ скин не поддържа шапки. Вашият скин ще бъде променен."
+	}
+
+	"Owned CM"
+	{
+		"bg"		"[Притежавано]"
+	}
+
+	"Package Gift CM"
+	{
+		"bg"		"Подарете този пакет"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Продайте този пакет за {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"bg"		"Направете ваучер от пакет"
+	}
+
+	"Parachute Empty CM"
+	{
+		"bg"		"Парашутът е празен"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"bg"		"Парашут презареден"
+	}
+
+	"Particles CM"
+	{
+		"bg"		"Частици:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Поставете {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"bg"		"Възпроизвеждам предварителния звук за вас."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"bg"		"{1} има {2} кредита."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"{1} беше нулиран."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"bg"		"Модулът Store Player Skin в момента е временно деактивиран."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"bg"		"{1} е добавил {2} {3} в джакпота, неговият текущ шанс за печалба е: {4}% (Джакпот: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"bg"		"{1} загуби {2} {3} в {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"bg"		"{1} отвори джакпот с {2} {3}. Прехвърли пари, за да хванеш тези пари!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"bg"		"{1} спечели джакпота с {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"bg"		"{1} спечели {2} {3} в {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"bg"		"{1} спечели {2} {3} с множител x{4} на {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"bg"		"Новите ви настройки ще бъдат приложени при следващото възраждане."
+	}
+
+	"Press CM"
+	{
+		"bg"		"Натиснете"
+	}
+
+	"Press to Start CM"
+	{
+		"bg"		"Натиснете, за да започнете!"
+	}
+
+	"Press to Stop CM"
+	{
+		"bg"		"Натиснете, за да спрете!"
+	}
+
+	"Preview Item CM"
+	{
+		"bg"		"Прегледай този елемент"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Цена: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"bg"		"Купете ваучер"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"bg"		"Колко струва {1} {2} {3}? | Награда: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"bg"		"червен"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"bg"		"Използвай ваучер"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Повторете {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"bg"		"Достигнали сте максималния брой възстановявания, които можете да купите този рунд."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"bg"		"По съображения за сигурност не можете да подадете множество заявки за кратък период от време."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"bg"		"Вторият победител не е в играта повече, последен опит да намерим нов победител."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Трябва да изчакате {1} секунди, преди да опитате да използвате тази команда отново."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"bg"		"Покажи искри от куршуми"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"bg"		"Покажи следите на куршумите"
+	}
+
+	"Show gloves CM"
+	{
+		"bg"		"Покажи ръкавици"
+	}
+
+	"Show paintball CM"
+	{
+		"bg"		"Покажи боулинг с краской"
+	}
+
+	"Show particles CM"
+	{
+		"bg"		"Покажи частици"
+	}
+
+	"Show pets CM"
+	{
+		"bg"		"Покажи домашни любимци"
+	}
+
+	"Show trails CM"
+	{
+		"bg"		"Покажи пътеки"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Не можете да използвате по-малка стойност от минималната ви стойност ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"bg"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Защита от спама. Моля, изчакайте {1} секунди."
+	}
+
+	"Spawn Preview CM"
+	{
+		"bg"		"Създаден е предварителен преглед. Прегледът ще изчезне след 45 секунди."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"bg"		"Създаден е предварителен преглед. Прегледът ще изчезне след {1} секунди."
+	}
+
+	"Start again from begin CM"
+	{
+		"bg"		"Моля, започнете отначало"
+	}
+
+	"Starting CM"
+	{
+		"bg"		"Започва"
+	}
+
+	"Stay CM"
+	{
+		"bg"		"Остани"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"bg"		"Сигурни ли сте, че искате да нулирате оборудването си? Всички предмети ще бъдат премахнати."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"bg"		"Успешно закупихте ваучер"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"bg"		"Този предмет беше предназначен да се използва с различен клас играч."
+	}
+
+	"Tail CM"
+	{
+		"bg"		"Опашка"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"bg"		"Вече сте поставили залог за този рунд."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"bg"		"Посочен невалиден идентификатор на отбора."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Загубихте {1} {2} от залога."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"bg"		"Периодът за залагания за този рунд е приключил."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Успешно сте поставили залог от {1} кредити."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Вашият залог беше успешен. Спечелихте {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"bg"		"Нямаше залог на другия отбор, така че получи обратно кредитите."
+	}
+
+	"Terrorist CM"
+	{
+		"bg"		"Терорист"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Избраният номер е: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Следващото число беше: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"bg"		"Това е текстът на предварителния преглед."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Администраторът е презаредил конфигурацията на магазина. Картата ще бъде презаредена след {1} секунди!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"bg"		"Меню създаване на ваучери за елементи (Само за администратори).\n \nИзберете продължителността на елемента."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"bg"		"Меню създаване на ваучери за елементи (Само за администратори)"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Кредити: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"bg"		"Изтича след {1}д {2}ч"
+	}
+
+	"Title Gift CM"
+	{
+		"bg"		"Изберете играч, на когото да изпратите подарък"
+	}
+
+	"Title Store CM"
+	{
+		"bg"		"Меню на магазина"
+	}
+
+	"To late chat input CM"
+	{
+		"bg"		"Вашият текстов вход не е завършен в даденото време"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Има твърде много {1} на земята, не можете да изпуснете повече в този момент!"
+	}
+
+	"Top Credits CM"
+	{
+		"bg"		"Най-добрите кредити"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"bg"		"Топ кредити + стойност на инвентара"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"bg"		"Топ стойност на инвентара"
+	}
+
+	"Top Most Items CM"
+	{
+		"bg"		"Най-популярни артикули"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Общо: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"bg"		"Опитай отново"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"bg"		"Напишете в чата !bet <залог> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"bg"		"Напишете в чата !blackjack <залог>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"bg"		"Напишете в чата !coinflip <залог> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"bg"		"Напишете в чата !crash <залог>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"bg"		"Напишете в чата !crowns <залог>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"bg"		"Напишете в чата !dice <залог> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"bg"		"Напишете в чата !jackpot <залог>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"bg"		"Напишете в чата !roulette <залог> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"bg"		"Неограничено - няколко играчи"
+	}
+
+	"Up CM"
+	{
+		"bg"		"Нагоре"
+	}
+
+	"Value less than 1 CM"
+	{
+		"bg"		"Не можете да използвате стойност по-малка от 1."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"bg"		"Обем {1} е зададен на {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"bg"		"В момента кодът на ваучера трябва да бъде точно 17 символа"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Ваучерът има стойност {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"bg"		"Ваучерът беше приет"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"bg"		"Ваучерът беше приет"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"bg"		"Генерирате {1} {2}ограничен ваучер{3} с стойност {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"bg"		"Генерирате {1} {2}ограничен ваучер{3} със стойности {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Въведеният код на ваучера вече беше използван на {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Този ваучер изтича на {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Въведеният код на ваучера е изтекъл на {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"bg"		"Създаден нов ваучер {1} с стойност {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"bg"		"Можете да намерите кода на ваучера в чата и конзолата"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Код на ваучера: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Въведеният код на ваучера '{1}' не е валиден!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"bg"		"Ваучерът включва {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"bg"		"Кодът на ваучера е валиден"
+	}
+
+	"Vouchers CM"
+	{
+		"bg"		"Ваучер"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Трябва да изчакате {1}, докато не дойде следващият ден."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"bg"		"Вие вече сте се регистрирали днес. Моля, върнете се утре."
+	}
+
+	"Win = CM"
+	{
+		"bg"		"Победа = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"bg"		"Победителят не е в играта повече, опитваме се да намерим нов победител."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"bg"		"Кодът на ваучера е в грешен формат. Трябва да бъде XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"bg"		"ТИ"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"bg"		"Вие вече изтеглихте {1} {2} в джакпота. Текущ шанс за печалба: {3}%% Джакпот: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"bg"		"Вече притежавате въведения ваучерен артикул"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"bg"		"Вече сте използвали въведения код на ваучера"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"bg"		"Можете да започнете нов джакпот"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Можете да започнете нов джакпот след {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Не можете да похарчите толкова кредити (Макс: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Събрали сте {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"bg"		"Нямате разрешение да получите достъп до това."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Вие изпуснахте {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"bg"		"Не спечели точки в този кръг."
+	}
+
+	"You earned this round CM"
+	{
+		"bg"		"Спечелихте този кръг:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Спечелихте {1} {2} за "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Спечелихте {1} {2} този рунд"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Получихте {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Получихте {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"bg"		"Вие получихте {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"bg"		"Вие получихте {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Трябва да похарчите поне {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Трябва да похарчите поне {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"bg"		"Не сте отворили кутията в даденото време. Кутията с плячка е върната в инвентара ви"
+	}
+
+	"You lose CM"
+	{
+		"bg"		"- загуби"
+	}
+
+	"You lost with CM"
+	{
+		"bg"		"Загуби с"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Загубихте {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"bg"		"Вие овладяхте 'ежедневното предизвикателство'! Опитайте да го победите отново!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Печелите {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"bg"		"!!! СПЕЧЕЛИ !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"bg"		"Спечелихте {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Спечелихте джакпота с {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"bg"		"Спечелихте джакпота с {1} {2} минус таксата за казино от {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"bg"		"Печелиш с"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"bg"		"Ти спечели {1} кредита с x{2}."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Ще спечелите {1} {2} утре!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"bg"		"Залагане: {1} {2} - Шанс: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Твоят залог: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"bg"		"Вашият текущ шанс за победа е променен на {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"bg"		"Спечелихте {1} кредита за убиване на {2}."
+	}
+
+	"admin CM"
+	{
+		"bg"		"админ"
+	}
+
+	"and is limited CM"
+	{
+		"bg"		"и е ограничен"
+	}
+
+	"and is unlimited CM"
+	{
+		"bg"		"и е неограничен"
+	}
+
+	"arms CM"
+	{
+		"bg"		"ръце"
+	}
+
+	"assist a kill CM"
+	{
+		"bg"		"помощ за убийство"
+	}
+
+	"attachment CM"
+	{
+		"bg"		"Прикачка"
+	}
+
+	"backstab kill CM"
+	{
+		"bg"		"убийство с нож"
+	}
+
+	"be the MVP CM"
+	{
+		"bg"		"бъди MVP"
+	}
+
+	"bet x CM"
+	{
+		"bg"		"заложи x"
+	}
+
+	"blackjack CM"
+	{
+		"bg"		"Блекджек"
+	}
+
+	"bomb defused CM"
+	{
+		"bg"		"бомбата обезвредена"
+	}
+
+	"bomb explode CM"
+	{
+		"bg"		"бомбата избухва"
+	}
+
+	"bomb planted CM"
+	{
+		"bg"		"бомбата поставена"
+	}
+
+	"bombtweak CM"
+	{
+		"bg"		"Корекция на бомба"
+	}
+
+	"bullet_impact CM"
+	{
+		"bg"		"Удар на куршума"
+	}
+
+	"bulletsparks CM"
+	{
+		"bg"		"Искри от куршума"
+	}
+
+	"bunnyhob CM"
+	{
+		"bg"		"Зайчешко скачане"
+	}
+
+	"bunnyhop CM"
+	{
+		"bg"		"умение"
+	}
+
+	"casino CM"
+	{
+		"bg"		"Казино"
+	}
+
+	"coinflip CM"
+	{
+		"bg"		"Избор на монета"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"Искате ли да нулирате конфигурацията?\nКартата ще бъде презаредена след {1} секунди!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"bg"		"Искате ли да нулирате конфигурацията?\nТрябва да смените картата, за да я приложите или може да възникнат бъгове."
+	}
+
+	"connect CM"
+	{
+		"bg"		"Сообщение за връзка"
+	}
+
+	"crash CM"
+	{
+		"bg"		"Крах"
+	}
+
+	"creditstoplist CM"
+	{
+		"bg"		"кредити"
+	}
+
+	"crowns CM"
+	{
+		"bg"		"Слот за корони"
+	}
+
+	"daily CM"
+	{
+		"bg"		"Дневен бонус"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"bg"		"убийство с приманка"
+	}
+
+	"dice CM"
+	{
+		"bg"		"Зар"
+	}
+
+	"direction CM"
+	{
+		"bg"		"Посока"
+	}
+
+	"discount CM"
+	{
+		"bg"		"Разпродажба"
+	}
+
+	"distance CM"
+	{
+		"bg"		"Разстояние"
+	}
+
+	"dmgtext CM"
+	{
+		"bg"		"Бояджия"
+	}
+
+	"emote CM"
+	{
+		"bg"		"Емот"
+	}
+
+	"escape as VIP CM"
+	{
+		"bg"		"Избягай като VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"bg"		"убийство с flashbang"
+	}
+
+	"flashlight CM"
+	{
+		"bg"		"Фенерче"
+	}
+
+	"froggyjump CM"
+	{
+		"bg"		"Жабешко скачане"
+	}
+
+	"gloves CM"
+	{
+		"bg"		"ръкавици"
+	}
+
+	"glow CM"
+	{
+		"bg"		"блясък"
+	}
+
+	"godmode CM"
+	{
+		"bg"		"божествен режим"
+	}
+
+	"gravity CM"
+	{
+		"bg"		"способност"
+	}
+
+	"grenademodel CM"
+	{
+		"bg"		"Модел на граната"
+	}
+
+	"grenadeskin CM"
+	{
+		"bg"		"кожа на гранатата"
+	}
+
+	"grenadetrail CM"
+	{
+		"bg"		"след от гранатата"
+	}
+
+	"hat CM"
+	{
+		"bg"		"шапка"
+	}
+
+	"headshot CM"
+	{
+		"bg"		"хедшот"
+	}
+
+	"health CM"
+	{
+		"bg"		"пакет"
+	}
+
+	"high or low CM"
+	{
+		"bg"		"По-високо или по-ниско"
+	}
+
+	"hiteff CM"
+	{
+		"bg"		"ефект на удар:"
+	}
+
+	"hitsound CM"
+	{
+		"bg"		"Звук на попадение"
+	}
+
+	"hostage rescued CM"
+	{
+		"bg"		"Рехабилитиран заложник"
+	}
+
+	"hunterjump CM"
+	{
+		"bg"		"Ловец скок"
+	}
+
+	"idle on the server CM"
+	{
+		"bg"		"неактивен на сървъра"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"за {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"bg"		"Безкрайни патрони"
+	}
+
+	"info CM"
+	{
+		"bg"		"Информационен панел"
+	}
+
+	"instabomb CM"
+	{
+		"bg"		"Инстант растеж / дефюз"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"bg"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"bg"		"способност"
+	}
+
+	"items CM"
+	{
+		"bg"		"Елементи"
+	}
+
+	"jackpot CM"
+	{
+		"bg"		"Джакпот"
+	}
+
+	"jetpack CM"
+	{
+		"bg"		"ракета"
+	}
+
+	"jihad CM"
+	{
+		"bg"		"бомба"
+	}
+
+	"kill CM"
+	{
+		"bg"		"убий"
+	}
+
+	"kill the VIP CM"
+	{
+		"bg"		"Убий VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"bg"		"убий се"
+	}
+
+	"killeff CM"
+	{
+		"bg"		"ефект на убийство:"
+	}
+
+	"knife CM"
+	{
+		"bg"		"нож"
+	}
+
+	"knife kill CM"
+	{
+		"bg"		"убийство с нож"
+	}
+
+	"laserdraw CM"
+	{
+		"bg"		"лазерен рисунък:"
+	}
+
+	"laserpointer CM"
+	{
+		"bg"		"Лазерен показалец"
+	}
+
+	"lasersight CM"
+	{
+		"bg"		"лазерна прицел"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"последно обновено преди {1}"
+	}
+
+	"light CM"
+	{
+		"bg"		"Светлина"
+	}
+
+	"lootbox CM"
+	{
+		"bg"		"Кутия за плячка"
+	}
+
+	"mirror CM"
+	{
+		"bg"		"огледало"
+	}
+
+	"molotov kill CM"
+	{
+		"bg"		"молотово убийство"
+	}
+
+	"msgcolor CM"
+	{
+		"bg"		"цвят на съобщението"
+	}
+
+	"mvp_sound CM"
+	{
+		"bg"		"Антеми на MVP"
+	}
+
+	"namecolor CM"
+	{
+		"bg"		"цвят на името"
+	}
+
+	"nametag CM"
+	{
+		"bg"		"именен знак"
+	}
+
+	"nearest CM"
+	{
+		"bg"		"Най-близо"
+	}
+
+	"nodiscount CM"
+	{
+		"bg"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"bg"		"Без забавяне при клякане"
+	}
+
+	"nofalldamage CM"
+	{
+		"bg"		"Без падане на щети"
+	}
+
+	"noreload CM"
+	{
+		"bg"		"Без презареждане"
+	}
+
+	"noscope kill CM"
+	{
+		"bg"		"убийство без прицел"
+	}
+
+	"noselfdamage CM"
+	{
+		"bg"		"Няма самоувреждане"
+	}
+
+	"or use buttons below CM"
+	{
+		"bg"		"или използвайте бутоните по-долу"
+	}
+
+	"package CM"
+	{
+		"bg"		"пакет"
+	}
+
+	"paintball CM"
+	{
+		"bg"		"куршуми"
+	}
+
+	"painter CM"
+	{
+		"bg"		"Бояджия"
+	}
+
+	"parachute CM"
+	{
+		"bg"		"Парашут"
+	}
+
+	"particle CM"
+	{
+		"bg"		"Частици"
+	}
+
+	"pet CM"
+	{
+		"bg"		"домашен любимец"
+	}
+
+	"playerskin CM"
+	{
+		"bg"		"кожата на играча"
+	}
+
+	"playing on the server CM"
+	{
+		"bg"		"играе на сървъра"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"играят на сървъра ни {1} дни подред"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Ще получите {1} при следващото възраждане"
+	}
+
+	"respawn CM"
+	{
+		"bg"		"Респаун"
+	}
+
+	"roulette CM"
+	{
+		"bg"		"Рулетка"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Достигнахте максималния брой употреби на звукови ефекти за карта. Максимум {1} употреба/и на карта"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"bg"		"Достигнахте максималния брой употреби на звукови ефекти за рунд. {1} максимални употреби на рунд"
+	}
+
+	"saysound CM"
+	{
+		"bg"		"кажи звук"
+	}
+
+	"scoreboardtag CM"
+	{
+		"bg"		"Таг за таблото за резултати"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"bg"		"убийство с димна граната"
+	}
+
+	"sound CM"
+	{
+		"bg"		"звука"
+	}
+
+	"spawn CM"
+	{
+		"bg"		"Допълнително възраждане"
+	}
+
+	"spawneff CM"
+	{
+		"bg"		"ефект на раждане:"
+	}
+
+	"speed CM"
+	{
+		"bg"		"способност"
+	}
+
+	"spray CM"
+	{
+		"bg"		"спрей"
+	}
+
+	"start daily challange CM"
+	{
+		"bg"		"Започнете 'ежедневното предизвикателство'. Играйте следващите 6 дни, за да получите пълния бонус"
+	}
+
+	"taser kill CM"
+	{
+		"bg"		"убийство с тазер"
+	}
+
+	"teambet CM"
+	{
+		"bg"		"Отбор на залози"
+	}
+
+	"teamkill CM"
+	{
+		"bg"		"убийство на съотборник"
+	}
+
+	"tfhat CM"
+	{
+		"bg"		"шапка за сграда"
+	}
+
+	"tfhatdye CM"
+	{
+		"bg"		"боя за шапка"
+	}
+
+	"tfhead CM"
+	{
+		"bg"		"размер на главата"
+	}
+
+	"tfunusual CM"
+	{
+		"bg"		"ефект шапка"
+	}
+
+	"tfweapon CM"
+	{
+		"bg"		"персонализирано оръжие"
+	}
+
+	"tfweaponsize CM"
+	{
+		"bg"		"размер на оръжието"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"bg"		"Наградата ще бъде изтеглена за {1} секунди"
+	}
+
+	"thirdperson CM"
+	{
+		"bg"		"трети човек"
+	}
+
+	"throwknife CM"
+	{
+		"bg"		"Хвърли нож"
+	}
+
+	"toplists CM"
+	{
+		"bg"		"Топ списъци"
+	}
+
+	"tracer CM"
+	{
+		"bg"		"трейсър"
+	}
+
+	"trail CM"
+	{
+		"bg"		"след"
+	}
+
+	"wasted CM"
+	{
+		"bg"		"изхабено"
+	}
+
+	"watergun CM"
+	{
+		"bg"		"ефект"
+	}
+
+	"weapon CM"
+	{
+		"bg"		"оръжие"
+	}
+
+	"weaponcolor CM"
+	{
+		"bg"		"цвят на оръжието"
+	}
+
+	"weaponmodel CM"
+	{
+		"bg"		"Модел на оръжие"
+	}
+
+	"weaponskin CM"
+	{
+		"bg"		"кожа на оръжие"
+	}
+
+	"win the round CM"
+	{
+		"bg"		"спечели рунда"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"bg"		"{1} {2} за '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"bg"		"{1} часа {2} минути и {3} секунди"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"bg"		"{1} час(а) {2} минута(и) и {3} секунда(и)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"bg"		"{1} минути и {2} секунди"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"bg"		"{1} минута(и) и {2} секунда(и)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"{1} секунди"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"bg"		"{1} секунда(и)"
+	}
+
+	"zrclass CM"
+	{
+		"bg"		"клас на играча"
+	}
 }

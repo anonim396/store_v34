@@ -104,4 +104,133 @@
 	{
 		"es"		"Por favor espera la respuesta del jugador seleccionado."
 	}
+
+
+	"Cancel CM"
+	{
+		"es"		"Cancelar intercambio"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"es"		"¿Quieres ofrecer tu {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"es"		"¿Quieres intercambiar tu {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"es"		"Ofrecer un artículo"
+	}
+
+	"Offer item CM"
+	{
+		"es"		"Ofrecer este artículo"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"es"		"Tu compañero ofrece {1} crédito(s)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"es"		"Tu compañero ofrece los siguientes artículos:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"es"		"Tu compañero aún no está listo."
+	}
+
+	"Partner Ready CM"
+	{
+		"es"		"Tu compañero está listo."
+	}
+
+	"Player Left CM"
+	{
+		"es"		"El jugador con el que querías intercambiar ha dejado el juego."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"es"		"Listo [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"es"		"El intercambio terminará en {1} segundo(s)..."
+	}
+
+	"Trade Active CM"
+	{
+		"es"		"Ya estás intercambiando."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"es"		"¿Quieres intercambiar con {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"es"		"¿Quieres cancelar el intercambio?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"es"		"Por favor, espera unos minutos antes de comerciar de nuevo."
+	}
+
+	"Trade Menu CM"
+	{
+		"es"		"Para reabrir el menú de intercambio, escribe !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"es"		"No estás intercambiando."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"es"		"Tu compañero ha cancelado el intercambio."
+	}
+
+	"Trade Select Player CM"
+	{
+		"es"		"Selecciona un jugador para intercambiar"
+	}
+
+	"Trade Successful CM"
+	{
+		"es"		"El intercambio se ha realizado con éxito."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"es"		"Estás intercambiando con {1}\n-----------------------------\nPara ofrecer créditos, escribe !offer <cantidad>\nHas ofrecido {2} créditos"
+	}
+
+	"Trade item CM"
+	{
+		"es"		"Intercambiar este artículo"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"es"		"Por favor espera la respuesta del jugador seleccionado."
+	}
 }

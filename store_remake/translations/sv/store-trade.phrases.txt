@@ -104,4 +104,133 @@
 	{
 		"sv"		"Vänligen vänta på svaret från den valda spelaren."
 	}
+
+
+	"Cancel CM"
+	{
+		"sv"		"Avbryt handel"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sv"		"Vill du erbjuda din {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sv"		"Vill du byta din {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"sv"		"Erbjud en objekt"
+	}
+
+	"Offer item CM"
+	{
+		"sv"		"Erbjud detta föremål"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Din partner erbjuder {1} kredit(er)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"sv"		"Din partner erbjuder följande objekt:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"sv"		"Din partner är inte redo än."
+	}
+
+	"Partner Ready CM"
+	{
+		"sv"		"Din partner är redo."
+	}
+
+	"Player Left CM"
+	{
+		"sv"		"Spelaren du ville byta med har lämnat spelet."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Klar [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"sv"		"Handeln avslutas om {1} sekund(er)..."
+	}
+
+	"Trade Active CM"
+	{
+		"sv"		"Du byter redan."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"sv"		"Vill du byta med {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"sv"		"Vill du avbryta bytet?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"sv"		"Vänta några minuter innan du handlar igen."
+	}
+
+	"Trade Menu CM"
+	{
+		"sv"		"För att öppna handelsmenyn igen, skriv !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"sv"		"Du byter inte."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"sv"		"Din partner har avbrutit bytet."
+	}
+
+	"Trade Select Player CM"
+	{
+		"sv"		"Välj en spelare att byta med"
+	}
+
+	"Trade Successful CM"
+	{
+		"sv"		"Bytet har slutförts framgångsrikt."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"sv"		"Du byter med {1}\n-----------------------------\nFör att erbjuda krediter, skriv !offer <amount>\nDu har erbjudit {2} krediter"
+	}
+
+	"Trade item CM"
+	{
+		"sv"		"Byt detta föremål"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"sv"		"Vänligen vänta på svaret från den valda spelaren."
+	}
 }

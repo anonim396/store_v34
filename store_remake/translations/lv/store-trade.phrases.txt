@@ -104,4 +104,133 @@
 	{
 		"lv"		"Lūdzu, gaidiet izvēlētā spēlētāja atbildi."
 	}
+
+
+	"Cancel CM"
+	{
+		"lv"		"Atcelt apmaiņu"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lv"		"Vai vēlaties piedāvāt savu {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lv"		"Vai vēlaties apmainīt savu {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"lv"		"Piedāvāt objektu"
+	}
+
+	"Offer item CM"
+	{
+		"lv"		"Piedāvāt šo priekšmetu"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Jūsu partneris piedāvā {1} kredītu"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"lv"		"Jūsu partneris piedāvā šādus priekšmetus:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"lv"		"Jūsu partneris vēl nav gatavs."
+	}
+
+	"Partner Ready CM"
+	{
+		"lv"		"Jūsu partneris ir gatavs."
+	}
+
+	"Player Left CM"
+	{
+		"lv"		"Spēlētājs, ar kuru vēlējāties mainīties, ir pametis spēli."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Gatavs [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"lv"		"Tirdzniecība beigsies pēc {1} sekundēm..."
+	}
+
+	"Trade Active CM"
+	{
+		"lv"		"Jūs jau veicat apmaiņu."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"lv"		"Vai vēlaties apmainīties ar {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"lv"		"Vai vēlaties atcelt apmaiņu?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"lv"		"Lūdzu, uzgaidiet dažas minūtes pirms nākamās apmaiņas."
+	}
+
+	"Trade Menu CM"
+	{
+		"lv"		"Lai atkārtoti tirdzniecības izvēlni, ierakstiet !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"lv"		"Jūs neveicat apmaiņu."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"lv"		"Jūsu partneris atcēla apmaiņu."
+	}
+
+	"Trade Select Player CM"
+	{
+		"lv"		"Izvēlieties spēlētāju apmaiņai"
+	}
+
+	"Trade Successful CM"
+	{
+		"lv"		"Apmaina veiksmīgi pabeigta."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"lv"		"Jūs maināties ar {1}\n-----------------------------\nLai piedāvātu kredītus, ievadiet !offer <amount>\nJūs piedāvājāt {2} kredītus"
+	}
+
+	"Trade item CM"
+	{
+		"lv"		"Mainīt šo priekšmetu"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"lv"		"Lūdzu, gaidiet izvēlētā spēlētāja atbildi."
+	}
 }

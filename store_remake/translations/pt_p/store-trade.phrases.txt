@@ -104,4 +104,133 @@
 	{
 		"pt_p"		"Por favor, aguarde a resposta do jogador selecionado."
 	}
+
+
+	"Cancel CM"
+	{
+		"pt_p"		"Cancelar negociação"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"pt_p"		"Você quer oferecer seu {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"pt_p"		"Você quer trocar seu {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"pt_p"		"Oferecer um item"
+	}
+
+	"Offer item CM"
+	{
+		"pt_p"		"Ofereça este item"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"pt_p"		"Seu parceiro oferece {1} crédito(s)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"pt_p"		"Seu parceiro oferece os seguintes itens:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"pt_p"		"Seu parceiro ainda não está pronto."
+	}
+
+	"Partner Ready CM"
+	{
+		"pt_p"		"Seu parceiro está pronto."
+	}
+
+	"Player Left CM"
+	{
+		"pt_p"		"O jogador com quem você queria negociar saiu do jogo."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"pt_p"		"Pronto [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"pt_p"		"A negociação terminará em {1} segundo(s)..."
+	}
+
+	"Trade Active CM"
+	{
+		"pt_p"		"Você já está negociando."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"pt_p"		"Você quer negociar com {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"pt_p"		"Você quer cancelar a negociação?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"pt_p"		"Aguarde alguns minutos antes de negociar novamente."
+	}
+
+	"Trade Menu CM"
+	{
+		"pt_p"		"Para reabrir o menu de troca, digite !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"pt_p"		"Você não está negociando."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"pt_p"		"Seu parceiro cancelou a negociação."
+	}
+
+	"Trade Select Player CM"
+	{
+		"pt_p"		"Selecione um jogador para negociar"
+	}
+
+	"Trade Successful CM"
+	{
+		"pt_p"		"A negociação foi concluída com sucesso."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"pt_p"		"Você está negociando com {1}\n-----------------------------\nPara oferecer créditos, digite !offer <quantidade>\nVocê ofereceu {2} créditos"
+	}
+
+	"Trade item CM"
+	{
+		"pt_p"		"Troque este item"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"pt_p"		"Por favor, aguarde a resposta do jogador selecionado."
+	}
 }

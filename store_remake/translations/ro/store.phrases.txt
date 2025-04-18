@@ -2275,4 +2275,2783 @@
 	{
 		"ro"		"clasa jucătorului"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"{1}21 !!! BLACKJACK !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Ai reîncărcat deja configurația. Te rog schimbă sau reîncarcă harta."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Toți jucătorii participanți se deconectează, nimeni nu își primește înapoi {2}, haha. Jackpot-ul a fost {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"ro"		"Toate voucherele generate și valide sunt:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ro"		"Ai câștigat, dar deja deții {1} ({2}). Articolul a fost vândut pentru {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ro"		"Deja deții {1} ({2}). Ți s-au returnat {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Sumă: {1}"
+	}
+
+	"Aura CM"
+	{
+		"ro"		"Aura:"
+	}
+
+	"Back CM"
+	{
+		"ro"		"Înapoi"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"ro"		"Pariu * Multiplicator = Câștigul tău"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Credite bonus: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Pot CT câștigă: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Pariu maxim ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Pariu minim ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ro"		"Pariu aleator ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Pot T câștigă: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"ro"		"Pariază pe"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"ro"		"Pariu pe Capul/Coada"
+	}
+
+	"Bet on a color CM"
+	{
+		"ro"		"Pariază pe o culoare și dacă această culoare este aleasă, câștigi!"
+	}
+
+	"Bet on a number CM"
+	{
+		"ro"		"Pariază pe Mic (#1-3), Mare (#4-6) sau un număr exact. Dacă alegerea ta cade pe zaruri, câștigi!"
+	}
+
+	"Bet on a team CM"
+	{
+		"ro"		"Pariază pe o echipă și dacă echipa câștigă runda, câștigi!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"ro"		"Ai plasat deja pariu pentru acest tur."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"ro"		"A fost specificat un identificator de echipă invalid."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai pierdut {1} credite la pariu."
+	}
+
+	"Betting Period Over CM"
+	{
+		"ro"		"Perioada de pariu a expirat pentru acest tur."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai plasat cu succes un pariu de {1} credite."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Pariul tău a fost de succes. Ai câștigat {1} credite."
+	}
+
+	"Black CM"
+	{
+		"ro"		"negru"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"ro"		"Blackjack este un joc în care valoarea cărților din mâna ta trebuie să fie mai mare decât valoarea cărților dealer-ului, fără a depăși 21."
+	}
+
+	"Buy CM"
+	{
+		"ro"		"Cumpără obiect"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Cumpără obiectul ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"ro"		"Ți-ai schimbat culoarea la: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"ro"		"Opțiune culoare etichetă chat"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"ro"		"Dezactivează culoare"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"ro"		"Culoare etichetă personalizată dezactivată."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"ro"		"Nu aveți niciun tag de nume echipat"
+	}
+
+	"CP No file found CM"
+	{
+		"ro"		"Culoarea etichetei personalizate pentru utilizator a fost dezactivată. Contactați administratorul pentru mai mult suport."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ro"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"ro"		"Afișarea previzualizării etichetei de scor, apăsați butonul TAB."
+	}
+
+	"Cancel CM"
+	{
+		"ro"		"Anulează"
+	}
+
+	"Cant be bought CM"
+	{
+		"ro"		"Acest obiect nu poate fi cumpărat"
+	}
+
+	"Cash out CM"
+	{
+		"ro"		"Retragere"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Schimbă-ți pariu: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai cumpărat un {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ro"		"{1} ți-a trimis un {2} {3} ca un cadou."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ro"		"Ai trimis lui {1} un {2} {3} ca un cadou."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai vândut un {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Ai deschis un recipient și ai găsit {1} credite!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ro"		"{1} a deschis un recipient și a găsit {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ro"		"{1} a deschis un recipient și a găsit {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"ro"		"Verificați toate voucherele valide și disponibile (doar Admin)"
+	}
+
+	"Check Voucher CM"
+	{
+		"ro"		"Verificați un voucher"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"ro"		"Verificați voucherul generat și valid disponibil"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"ro"		"Alege numărul (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"ro"		"Retragere automată:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"ro"		"Echipamentul tău a fost resetat."
+	}
+
+	"Client valid voucher CM"
+	{
+		"ro"		"Voucherul generat și valid este:\n "
+	}
+
+	"Close CM"
+	{
+		"ro"		"Închide"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"ro"		"Fum de culoare"
+	}
+
+	"Command is in-game only CM"
+	{
+		"ro"		"Trebuie să fii în viață pentru a folosi această comandă."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"ro"		"Configurația a fost reîncărcată. Vă rugăm să reporniți sau să schimbați harta."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ești sigur că vrei să cumperi {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"ro"		"Ești sigur că vrei să oferi {1} {2} lui {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ești sigur că vrei să lași {1} {2} ca cadou?"
+	}
+
+	"Confirm_No CM"
+	{
+		"ro"		"Nu"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"ro"		"Ești sigur că vrei să vinzi {1} {2} pentru {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Sunteți sigur că doriți să convertiți {1} ({2}) într-un cupon?\nAVERTISMENT: Dacă obiectul din voucher expiră înainte de a fi răscumpărat.\nAcest voucher va expira."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"ro"		"Da"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ro"		"{1} a dat răspunsul corect și a câștigat {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"ro"		"Contra-terorist"
+	}
+
+	"Crash Already Start CM"
+	{
+		"ro"		"Jocul Crash este în prezent în desfășurare. Vă rugăm să așteptați următorul joc."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"ro"		"Oprit"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"ro"		"Dezactivați retragerea automată"
+	}
+
+	"Crash Auto On CM"
+	{
+		"ro"		"Pornit"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"ro"		"Activați retragerea automată"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"ro"		"           Ce este/ Cum să joci: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"ro"		"- Crash este jocul în care jucătorii pot paria pe un multiplicator, acest multiplicator este legat de o curbă crescătoare care poate colapsa în orice moment."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"ro"		"- Multiplicatorul începe de la 1.00x și poți retrage în orice moment."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"ro"		"- Valoarea minimă a mizei este {1} {2}. Valoarea maximă a mizei este {3} {4}. Aceste limite pot să se schimbe în timp."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"ro"		"Intrare greșită (trebuie să fie {1} sau mai mult)."
+	}
+
+	"Crash auto input CM"
+	{
+		"ro"		"Introduceți valoarea retragerii automate în chat"
+	}
+
+	"Crash auto input set CM"
+	{
+		"ro"		"Crash retragerea automată setată"
+	}
+
+	"Crash set auto CM"
+	{
+		"ro"		"Setați valoarea retragerii automată"
+	}
+
+	"Crash! CM"
+	{
+		"ro"		"Crash!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"ro"		"Creează un voucher pentru obiecte (Doar admin)"
+	}
+
+	"Create Voucher CM"
+	{
+		"ro"		"Creează un voucher"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Crearea voucherului a eșuat - Contactați un administrator cu următorul marcaj temporal: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"ro"		"Dăruirea de credite este dezactivată pe acest server."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai lăsat {1} credite ca un cadou."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ro"		"{2} ți-a trimis {1} credite."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ro"		"Ai trimis {1} credite către {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"ro"		"Nu ai suficiente credite pentru a crea un giveaway."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"ro"		"Sumă invalidă de credite introdusă."
+	}
+
+	"Credit No Match CM"
+	{
+		"ro"		"Nu a fost găsit niciun jucător."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"ro"		"Nu ai suficienți credite pentru a cumpăra asta."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"ro"		"Au fost găsiți mai mulți clienți."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"ro"		"Nu ai suficiente credite pentru a crea un voucher."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ro"		"Ai câștigat {1} credite pentru a-l omorî pe {2}."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai câștigat {1} credite pentru a juca pe server."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"ro"		"{1} a primit {2} credite."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ro"		"Credite: {1}          Pot: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"ro"		"Dezactivat"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"ro"		"Activat"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"ro"		"[Sunet personalizat al armelor]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"ro"		"Meniu de control al volumului sunetului personalizat al armelor"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Volum: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"ro"		"Sunet personalizat al armelor: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"ro"		"Sunet personalizat al armelor este Dezactivat."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"ro"		"Sunetul personalizat al armelor este activat."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Sunetul personalizat al armelor este activat. Volum: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"ro"		"Model personalizat de armă:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"ro"		"Strică cutia pentru a o deschide!"
+	}
+
+	"Dead heat CM"
+	{
+		"ro"		"- egalitate -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ro"		"             DEALER     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"ro"		"DEALER"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Reducere: '{1}' este activă! Spor la cumpărături!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Reducere: '{1}' s-a încheiat."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Reducere: '{1}' a început! Spor la cumpărături!"
+	}
+
+	"Double CM"
+	{
+		"ro"		"Dubla"
+	}
+
+	"Down CM"
+	{
+		"ro"		"Jos"
+	}
+
+	"Down2 CM"
+	{
+		"ro"		"                      5 = Jos"
+	}
+
+	"Drop Gift CM"
+	{
+		"ro"		"Lăsați ca cadou"
+	}
+
+	"Edit Amount CM"
+	{
+		"ro"		"Editează cantitatea: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"ro"		"Vă rugăm să introduceți timpul de expirare (în secunde) pentru obiect în chat!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"ro"		"Format număr invalid. Vă rugăm încercați din nou."
+	}
+
+	"Enter custom amount CM"
+	{
+		"ro"		"Vă rugăm să introduceți suma personalizată în chat!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"ro"		"Vă rugăm să introduceți valoarea maximă a creditelor în chat!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"ro"		"Vă rugăm să introduceți numărul de vouchere de creat în chat!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"ro"		"Vă rugăm să introduceți valoarea voucherului de cumpărat în chat!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"ro"		"Vă rugăm să introduceți codul voucherului în chat!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"ro"		"A apărut o eroare la returnarea prețului. Vă rugăm să contactați administratorul"
+	}
+
+	"Exact #x  = CM"
+	{
+		"ro"		"Exact #x = "
+	}
+
+	"Exit CM"
+	{
+		"ro"		"Ieși"
+	}
+
+	"Gained CM"
+	{
+		"ro"		"Câștigat"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ro"		"Câștigat: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"ro"		"Informații joc"
+	}
+
+	"Game in progress CM"
+	{
+		"ro"		"Jocul tău actual este în desfășurare. Te rugăm să aștepți până când se va încheia."
+	}
+
+	"Get three on a kind CM"
+	{
+		"ro"		"Obține trei la fel"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai ridicat {1} credite."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai ridicat un {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"ro"		"Nu există nimeni căruia să îi poți dărui acest obiect."
+	}
+
+	"Gift Player Left CM"
+	{
+		"ro"		"Jucătorul selectat a părăsit deja jocul."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ro"		"{1} Pentru a face un giveaway, serverul trebuie să conțină cel puțin {2} jucători."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ro"		"Admin {1} a deschis un giveaway cu <font color='#15fb00'>{2} credite"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"|| Giveaway începe în {1} secunde ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"ro"		"{1} {2} a câștigat un giveaway cu {3} credite"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ro"		"{1}\n|| Câștigător: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"ro"		"Ai atins numărul maxim de godmode pe care le poți cumpăra în această rundă."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"ro"		"Nu poți folosi godmode în această echipă."
+	}
+
+	"Green CM"
+	{
+		"ro"		"verde"
+	}
+
+	"HE grenade kill CM"
+	{
+		"ro"		"ucide cu grenadă HE"
+	}
+
+	"HUD CM"
+	{
+		"ro"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"ro"		"Cap"
+	}
+
+	"Health Round Limit CM"
+	{
+		"ro"		"Ai atins numărul maxim de pachete de sănătate pe care le poți cumpăra în această rundă."
+	}
+
+	"Help_Back CM"
+	{
+		"ro"		"Înapoi"
+	}
+
+	"Help_Exit CM"
+	{
+		"ro"		"Ieși"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"ro"		"Ascunde scântei de glonț"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"ro"		"Ascunde urmele glonțului"
+	}
+
+	"Hide gloves CM"
+	{
+		"ro"		"Ascunde mănuși"
+	}
+
+	"Hide paintball CM"
+	{
+		"ro"		"Ascunde paintball"
+	}
+
+	"Hide particles CM"
+	{
+		"ro"		"Ascunde particule"
+	}
+
+	"Hide pets CM"
+	{
+		"ro"		"Ascunde animale de companie"
+	}
+
+	"Hide trails CM"
+	{
+		"ro"		"Ascunde urmele"
+	}
+
+	"High #4-6 CM"
+	{
+		"ro"		"Înalt #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"ro"		"Înalt #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"ro"		"High - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"ro"		"MAI MARE"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Numărul ales este: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Următorul număr a fost: {1}"
+	}
+
+	"Hit CM"
+	{
+		"ro"		"Lovitură"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"ro"		"A fost ales un număr între {1} și {2} pentru a ghici dacă următorul număr va fi mai mare sau mai mic decât numărul ales."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"ro"		"Dacă alegi corectul, vei câștiga de două ori mai mult decât miza ta."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"ro"		"Există o pauză de {1} secundă între fiecare joc."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ați plasat cu succes {1} {2}."
+	}
+
+	"Inventory CM"
+	{
+		"ro"		"Inventar"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"ro"		"Vă rugăm să așteptați. Inventarul dumneavoastră nu a fost încă încărcat."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ro"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"ro"		"Echipati acest obiect"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"{1} [ECHIPAT]"
+	}
+
+	"Item Gift CM"
+	{
+		"ro"		"Dăruiește acest obiect"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"{1} (Alegeți un plan)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Vinde pentru {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"ro"		"Dezactivați acest obiect"
+	}
+
+	"Item Use CM"
+	{
+		"ro"		"Folosiți acest obiect"
+	}
+
+	"Item Voucher CM"
+	{
+		"ro"		"Crează un voucher din obiect"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"ro"		"Crearea voucherului pentru obiect este momentan dezactivată."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ro"		"Ai convertit {1} ({2}) în voucher {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"ro"		"{1} ascuns. Nu îi vei mai vedea."
+	}
+
+	"Item not found CM"
+	{
+		"ro"		"Obiectul nu a fost găsit"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"ro"		"{1} este din nou vizibil."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"ro"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"ro"		"Jackpot-ul a fost întrerupt."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Jackpot: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"ro"		"Jetpack este gol"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"ro"		"[Jetpack] Combustibil: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"ro"		"Jetpack a fost reîncărcat"
+	}
+
+	"Jihad Failed CM"
+	{
+		"ro"		"Bomba ta a eșuat să explodeze."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"ro"		"Bombă jihad {1} nu a explodat."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"ro"		"Nu poți folosi bomba în această echipă."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"{1} minut(e) înainte de a începe crash-ul."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"{1} secundă(e) înainte de a începe crash-ul."
+	}
+
+	"LevelIcon CM"
+	{
+		"ro"		"icon nivel"
+	}
+
+	"Limited CM"
+	{
+		"ro"		"Limitat - un jucător"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"ro"		"Vă rugăm să așteptați până când cutia anterioară este deschisă"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"ro"		"Harta s-a încheiat. Vă rugăm să așteptați următoarea hartă"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"ro"		"Runda s-a încheiat. Vă rugăm să așteptați următorul rundă"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"ro"		"Nu poți deschide în timpul încălzirii"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Ai pierdut seria ta zilnică de {1} zi/zile."
+	}
+
+	"Lost bet CM"
+	{
+		"ro"		"Nu a reușit! Ai pierdut pariul"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ai pierdut pariul, deoarece următorul număr a fost: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"ro"		"Scăzut #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"ro"		"Scăzut #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"ro"		"Low - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"ro"		"MAI MIC"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Avem nevoie de cel puțin {1} jucător(i)"
+	}
+
+	"Must be Alive CM"
+	{
+		"ro"		"Trebuie să fii în viață pentru a folosi acest lucru."
+	}
+
+	"Must be dead CM"
+	{
+		"ro"		"Trebuie să fii mort pentru a juca"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"ro"		"Multiplicator = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"ro"		"Nu există jackpot activ"
+	}
+
+	"No active TeamBet CM"
+	{
+		"ro"		"Nu au fost plasate încă pariu pe echipă"
+	}
+
+	"No have flag CM"
+	{
+		"ro"		"Nu ai acces să folosești acest comandă."
+	}
+
+	"No matching color CM"
+	{
+		"ro"		"Nu există culoare corespunzătoare, folosiți: r/roșu, b/negru sau g/verde"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"ro"		"Nimeni nu a ridicat creditele căzute. Le-ai primit înapoi."
+	}
+
+	"No pick up - removed CM"
+	{
+		"ro"		"Nimeni nu a ridicat creditele căzute. Creditele au fost eliminate."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Timpul a expirat. Răspunsul corect a fost {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Nimeni altcineva nu a depus bani în Jackpot. Primești înapoi {1} {2}!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"ro"		"Nu ai suficiente credite"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"ro"		"Acum se desfășoară un giveaway, încercați din nou în câteva secunde."
+	}
+
+	"Only number CM"
+	{
+		"ro"		"Poți scrie doar numere..."
+	}
+
+	"Override Disabled CM"
+	{
+		"ro"		"Skin-ul tău nu suportă pălării. Pălăria ta echipată va fi dezactivată."
+	}
+
+	"Override Enabled CM"
+	{
+		"ro"		"Skin-ul tău curent nu suportă pălării. Skin-ul tău va fi schimbat."
+	}
+
+	"Owned CM"
+	{
+		"ro"		"[Deținut]"
+	}
+
+	"Package Gift CM"
+	{
+		"ro"		"Dăruiește acest pachet"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Vinde acest pachet pentru {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"ro"		"Creare voucher din pachet"
+	}
+
+	"Parachute Empty CM"
+	{
+		"ro"		"Parasută goală"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"ro"		"Parasută reîncărcată"
+	}
+
+	"Particles CM"
+	{
+		"ro"		"Particule:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Plasează {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"ro"		"Redau sunetul de previzualizare pentru tine."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ro"		"{1} are {2} credite."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"{1} a fost resetat."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"ro"		"Modul Store Player Skin este momentan dezactivat temporar."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"ro"		"{1} a adăugat {2} {3} în jackpot, șansa sa curentă de a câștiga este: {4}% (Jackpot: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ro"		"{1} a pierdut {2} {3} la {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ro"		"{1} a deschis un jackpot cu {2} {3}. Efectuează cash-in pentru a lua acei bani!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ro"		"{1} a câștigat Jackpot-ul cu {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ro"		"{1} a câștigat {2} {3} la {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"ro"		"{1} a câștigat {2} {3} cu un multiplicator de x{4} la {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"ro"		"Noile tale setări vor fi aplicate la următorul spawn."
+	}
+
+	"Press CM"
+	{
+		"ro"		"Apăsați"
+	}
+
+	"Press to Start CM"
+	{
+		"ro"		"Apasă pentru a începe!"
+	}
+
+	"Press to Stop CM"
+	{
+		"ro"		"Apasă pentru a opri!"
+	}
+
+	"Preview Item CM"
+	{
+		"ro"		"Previzualizează acest obiect"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Preț: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"ro"		"Cumpără un voucher"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"ro"		"Cât costă {1} {2} {3}? | Premiu: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"ro"		"roșu"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"ro"		"Răscumpără un voucher"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Repornire {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"ro"		"Ai atins numărul maxim de respawn-uri pe care le poți cumpăra în această rundă."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"ro"		"Din motive de securitate, nu poți trimite mai multe cereri într-o perioadă scurtă."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"ro"		"Al doilea câștigător nu mai este în joc, ultima încercare de a găsi un nou câștigător."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Trebuie să aștepți {1} secunde înainte de a încerca să folosești din nou acest comandă."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"ro"		"Afișează scântei de glonț"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"ro"		"Afișează urmele glonțului"
+	}
+
+	"Show gloves CM"
+	{
+		"ro"		"Afișează mănuși"
+	}
+
+	"Show paintball CM"
+	{
+		"ro"		"Afișează paintball"
+	}
+
+	"Show particles CM"
+	{
+		"ro"		"Afișează particule"
+	}
+
+	"Show pets CM"
+	{
+		"ro"		"Afișează animale de companie"
+	}
+
+	"Show trails CM"
+	{
+		"ro"		"Afișează urme"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Nu poți folosi o valoare mai mică decât valoarea ta minimă ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"ro"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Protecție împotriva spamului. Vă rugăm să așteptați {1} secunde."
+	}
+
+	"Spawn Preview CM"
+	{
+		"ro"		"Previzualizare generată. Previzualizarea va dispărea în 45 de secunde."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"ro"		"Previzualizare generată. Previzualizarea va dispărea în {1} secunde."
+	}
+
+	"Start again from begin CM"
+	{
+		"ro"		"Vă rugăm să începeți din nou de la început"
+	}
+
+	"Starting CM"
+	{
+		"ro"		"Începere"
+	}
+
+	"Stay CM"
+	{
+		"ro"		"Rămâne"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"ro"		"Ești sigur că vrei să îți resetezi echipamentul? Toate obiectele vor fi dezechipate."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"ro"		"Ați achiziționat cu succes un voucher"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"ro"		"Acest obiect era destinat să fie folosit cu o clasă diferită de jucător."
+	}
+
+	"Tail CM"
+	{
+		"ro"		"Coadă"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"ro"		"Ai plasat deja pariu pentru acest rund."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"ro"		"A fost specificat un identificator de echipă invalid."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai pierdut {1} {2} la pariu."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"ro"		"Perioada de pariu pentru această rundă a expirat."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Ai plasat cu succes o pariu de {1} credite."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Pariul tău a fost un succes. Ai câștigat {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"ro"		"Nu a existat nicio pariu pe cealaltă echipă, așa că ți-ai recuperat creditele."
+	}
+
+	"Terrorist CM"
+	{
+		"ro"		"Terorist"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Numărul ales este: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Următorul număr a fost: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"ro"		"Acesta este textul de previzualizare."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Administratorul a reîncărcat configurația magazinului. Harta va fi reîncărcată în {1} secunde!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"ro"		"Meniu de creare voucher pentru obiecte (Doar admin).\n \nAlege durata obiectului."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"ro"		"Meniu de creare voucher pentru obiecte (Doar admin)"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Credite: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ro"		"Expiră în {1}z {2}h"
+	}
+
+	"Title Gift CM"
+	{
+		"ro"		"Alege un jucător căruia să-i trimiteți un cadou"
+	}
+
+	"Title Store CM"
+	{
+		"ro"		"Meniu magazin"
+	}
+
+	"To late chat input CM"
+	{
+		"ro"		"Intrarea textului tău nu a fost realizată în timpul dat"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Sunt prea multe {1} pe pământ, nu poți să le mai dai acum!"
+	}
+
+	"Top Credits CM"
+	{
+		"ro"		"Top credite"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"ro"		"Top credite + valoare inventar"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"ro"		"Top valoare inventar"
+	}
+
+	"Top Most Items CM"
+	{
+		"ro"		"Top cele mai populare obiecte"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Total: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"ro"		"Încearcă din nou"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"ro"		"Scrie în chat !bet <pariu> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"ro"		"Scrie în chat !blackjack <pariu>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"ro"		"Scrie în chat !coinflip <pariu> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"ro"		"Scrie în chat !crash <pariu>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"ro"		"Scrie în chat !crowns <pariu>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"ro"		"Scrie în chat !dice <pariu> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"ro"		"Scrie în chat !jackpot <pariu>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"ro"		"Scrie în chat !roulette <pariu> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"ro"		"Nelimitat - mai mulți jucători"
+	}
+
+	"Up CM"
+	{
+		"ro"		"Sus"
+	}
+
+	"Value less than 1 CM"
+	{
+		"ro"		"Nu poți folosi o valoare mai mică decât 1."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ro"		"Volumul {1} a fost setat la {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"ro"		"Pentru moment, codul voucherului trebuie să aibă exact 17 caractere"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Voucherul are valoarea de {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"ro"		"Voucherul a fost acceptat"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"ro"		"Voucherul a fost acceptat"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"ro"		"Generezi {1} {2}voucher limitat{3} cu valoare {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"ro"		"Generezi {1} {2}voucher limitat{3} cu valorile {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Codul voucherului introdus a fost deja folosit pe {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Acest voucher expiră pe {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Codul voucherului introdus a expirat pe {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ro"		"Ai creat un nou voucher {1} cu valoarea {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"ro"		"Puteți găsi codul voucherului și în chat și în consolă"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Cod voucher: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Codul voucherului introdus '{1}' nu este valid!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ro"		"Voucherul include {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"ro"		"Codul voucherului este valid"
+	}
+
+	"Vouchers CM"
+	{
+		"ro"		"Voucher"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Trebuie să aștepți {1} până la următoarea sarcină zilnică."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"ro"		"Te-ai înregistrat astăzi. Te rugăm să revii mâine."
+	}
+
+	"Win = CM"
+	{
+		"ro"		"Victorie = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"ro"		"Câștigătorul nu mai este în joc, încercăm să găsim un nou câștigător."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"ro"		"Codul voucherului are un format greșit. Trebuie să fie XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"ro"		"TU"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"ro"		"Deja ai retras {1} {2} în jackpot. Șansa de câștig actuală: {3}%% Jackpot: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"ro"		"Deja deții obiectul voucherului introdus"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"ro"		"Deja ai folosit codul voucherului introdus"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"ro"		"Poți începe un nou Jackpot"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Poți începe un nou Jackpot în {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Nu poți cheltui atât de multe credite (Max: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ați colectat {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"ro"		"Nu ai permisiunea să accesezi acest lucru."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ați scăpat {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"ro"		"Nu ai câștigat puncte în acest runda."
+	}
+
+	"You earned this round CM"
+	{
+		"ro"		"Ai câștigat acest runda:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai câștigat {1} {2} pentru "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai câștigat {1} {2} în această rundă"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai primit {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai primit {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai primit un {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai primit un {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Trebuie să cheltuiți cel puțin {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Trebuie să cheltuiți cel puțin {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"ro"		"Nu ai deschis cutia în timpul dat. Lootbox-ul s-a întors în inventarul tău"
+	}
+
+	"You lose CM"
+	{
+		"ro"		"- ai pierdut"
+	}
+
+	"You lost with CM"
+	{
+		"ro"		"Ai pierdut cu"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai pierdut {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"ro"		"Ai stăpânit 'provocarea zilnică'! Încearcă să o înfrunți din nou!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai câștigat {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"ro"		"!!! AI CÂȘTIGAT !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ro"		"Ai câștigat {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai câștigat Jackpot-ul cu {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"ro"		"Ai câștigat Jackpot-ul cu {1} {2} minus taxa cazinoului de {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"ro"		"Ai câștigat cu"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"ro"		"Ai câștigat {1} credite cu x{2}."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Vei câștiga {1} {2} mâine!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"ro"		"Pariul tău: {1} {2} - Șansa: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Pariul tău: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"ro"		"Șansa ta actuală de a câștiga s-a schimbat la {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Ai câștigat {1} credite pentru uciderea lui {2}."
+	}
+
+	"admin CM"
+	{
+		"ro"		"administrator"
+	}
+
+	"and is limited CM"
+	{
+		"ro"		"și este limitat"
+	}
+
+	"and is unlimited CM"
+	{
+		"ro"		"și este nelimitat"
+	}
+
+	"arms CM"
+	{
+		"ro"		"brațe"
+	}
+
+	"assist a kill CM"
+	{
+		"ro"		"asistă la ucidere"
+	}
+
+	"attachment CM"
+	{
+		"ro"		"Accesoriu"
+	}
+
+	"backstab kill CM"
+	{
+		"ro"		"ucide din spate"
+	}
+
+	"be the MVP CM"
+	{
+		"ro"		"fii MVP"
+	}
+
+	"bet x CM"
+	{
+		"ro"		"pariu x"
+	}
+
+	"blackjack CM"
+	{
+		"ro"		"Blackjack"
+	}
+
+	"bomb defused CM"
+	{
+		"ro"		"bomba dezamorsată"
+	}
+
+	"bomb explode CM"
+	{
+		"ro"		"bomba explodează"
+	}
+
+	"bomb planted CM"
+	{
+		"ro"		"bomba plantată"
+	}
+
+	"bombtweak CM"
+	{
+		"ro"		"Setare bombă"
+	}
+
+	"bullet_impact CM"
+	{
+		"ro"		"Impactul glonțului"
+	}
+
+	"bulletsparks CM"
+	{
+		"ro"		"Scântei de glonț"
+	}
+
+	"bunnyhob CM"
+	{
+		"ro"		"Săritura iepure"
+	}
+
+	"bunnyhop CM"
+	{
+		"ro"		"abilitate"
+	}
+
+	"casino CM"
+	{
+		"ro"		"Casino"
+	}
+
+	"coinflip CM"
+	{
+		"ro"		"Lansare de monedă"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Vrei să resetezi configurația?\nHarta va fi reîncărcată în {1} secunde!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"ro"		"Sigur vrei să resetezi configurația?\nTrebuie să schimbi harta pentru a aplica modificările sau pot apărea erori."
+	}
+
+	"connect CM"
+	{
+		"ro"		"Mesaj de conectare"
+	}
+
+	"crash CM"
+	{
+		"ro"		"Crash"
+	}
+
+	"creditstoplist CM"
+	{
+		"ro"		"credite"
+	}
+
+	"crowns CM"
+	{
+		"ro"		"Slot coroane"
+	}
+
+	"daily CM"
+	{
+		"ro"		"Bonus zilnic"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"ro"		"ucide cu grenadă de diversion"
+	}
+
+	"dice CM"
+	{
+		"ro"		"Zar"
+	}
+
+	"direction CM"
+	{
+		"ro"		"Direcție"
+	}
+
+	"discount CM"
+	{
+		"ro"		"VÂNZARE"
+	}
+
+	"distance CM"
+	{
+		"ro"		"Distanță"
+	}
+
+	"dmgtext CM"
+	{
+		"ro"		"Vernisaj"
+	}
+
+	"emote CM"
+	{
+		"ro"		"Emote"
+	}
+
+	"escape as VIP CM"
+	{
+		"ro"		"fugi ca VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"ro"		"ucide cu flashbang"
+	}
+
+	"flashlight CM"
+	{
+		"ro"		"Lanterna"
+	}
+
+	"froggyjump CM"
+	{
+		"ro"		"Săritura broască"
+	}
+
+	"gloves CM"
+	{
+		"ro"		"mănuși"
+	}
+
+	"glow CM"
+	{
+		"ro"		"strălucire"
+	}
+
+	"godmode CM"
+	{
+		"ro"		"modul zeu"
+	}
+
+	"gravity CM"
+	{
+		"ro"		"abilitate"
+	}
+
+	"grenademodel CM"
+	{
+		"ro"		"Modelul grenadei"
+	}
+
+	"grenadeskin CM"
+	{
+		"ro"		"skin-ul grenadei"
+	}
+
+	"grenadetrail CM"
+	{
+		"ro"		"urmă de grenadă"
+	}
+
+	"hat CM"
+	{
+		"ro"		"pălărie"
+	}
+
+	"headshot CM"
+	{
+		"ro"		"headshot"
+	}
+
+	"health CM"
+	{
+		"ro"		"pachet"
+	}
+
+	"high or low CM"
+	{
+		"ro"		"Mai mare sau mai mic"
+	}
+
+	"hiteff CM"
+	{
+		"ro"		"efectul loviturii:"
+	}
+
+	"hitsound CM"
+	{
+		"ro"		"Sunet de lovire"
+	}
+
+	"hostage rescued CM"
+	{
+		"ro"		"ostaticul salvat"
+	}
+
+	"hunterjump CM"
+	{
+		"ro"		"Săritura vânătorului"
+	}
+
+	"idle on the server CM"
+	{
+		"ro"		"inactiv pe server"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"în {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"ro"		"Munție infinită"
+	}
+
+	"info CM"
+	{
+		"ro"		"Panou de informații"
+	}
+
+	"instabomb CM"
+	{
+		"ro"		"Plantare instantanee / dezactivare"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"ro"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"ro"		"abilitate"
+	}
+
+	"items CM"
+	{
+		"ro"		"Obiecte"
+	}
+
+	"jackpot CM"
+	{
+		"ro"		"Jackpot"
+	}
+
+	"jetpack CM"
+	{
+		"ro"		"rachetă"
+	}
+
+	"jihad CM"
+	{
+		"ro"		"bombă"
+	}
+
+	"kill CM"
+	{
+		"ro"		"ucide"
+	}
+
+	"kill the VIP CM"
+	{
+		"ro"		"omorâți VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"ro"		"ucidete"
+	}
+
+	"killeff CM"
+	{
+		"ro"		"efectul uciderii:"
+	}
+
+	"knife CM"
+	{
+		"ro"		"cuțit"
+	}
+
+	"knife kill CM"
+	{
+		"ro"		"ucide cu cuțit"
+	}
+
+	"laserdraw CM"
+	{
+		"ro"		"desen de laser:"
+	}
+
+	"laserpointer CM"
+	{
+		"ro"		"Laser pointer"
+	}
+
+	"lasersight CM"
+	{
+		"ro"		"vizor cu laser"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"ultima actualizare acum {1}"
+	}
+
+	"light CM"
+	{
+		"ro"		"Lumina"
+	}
+
+	"lootbox CM"
+	{
+		"ro"		"Cutie cu prada"
+	}
+
+	"mirror CM"
+	{
+		"ro"		"oglindă"
+	}
+
+	"molotov kill CM"
+	{
+		"ro"		"ucide cu molotov"
+	}
+
+	"msgcolor CM"
+	{
+		"ro"		"culoare mesaj"
+	}
+
+	"mvp_sound CM"
+	{
+		"ro"		"Himne MVP"
+	}
+
+	"namecolor CM"
+	{
+		"ro"		"culoare nume"
+	}
+
+	"nametag CM"
+	{
+		"ro"		"eticheta nume"
+	}
+
+	"nearest CM"
+	{
+		"ro"		"Cel mai apropiat"
+	}
+
+	"nodiscount CM"
+	{
+		"ro"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"ro"		"Fără întârziere la ghemuire"
+	}
+
+	"nofalldamage CM"
+	{
+		"ro"		"Fără daune de cădere"
+	}
+
+	"noreload CM"
+	{
+		"ro"		"Fără reîncărcare"
+	}
+
+	"noscope kill CM"
+	{
+		"ro"		"ucide fără țintă"
+	}
+
+	"noselfdamage CM"
+	{
+		"ro"		"Fără daune proprii"
+	}
+
+	"or use buttons below CM"
+	{
+		"ro"		"sau folosiți butoanele de mai jos"
+	}
+
+	"package CM"
+	{
+		"ro"		"pachet"
+	}
+
+	"paintball CM"
+	{
+		"ro"		"gloanțe"
+	}
+
+	"painter CM"
+	{
+		"ro"		"Vernisaj"
+	}
+
+	"parachute CM"
+	{
+		"ro"		"Parasută"
+	}
+
+	"particle CM"
+	{
+		"ro"		"Particule"
+	}
+
+	"pet CM"
+	{
+		"ro"		"animal de companie"
+	}
+
+	"playerskin CM"
+	{
+		"ro"		"skin-ul jucătorului"
+	}
+
+	"playing on the server CM"
+	{
+		"ro"		"joacă pe server"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"ai jucat pe serverul nostru {1} zile consecutiv"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Vei primi {1} la următoarea apariție"
+	}
+
+	"respawn CM"
+	{
+		"ro"		"Reînviere"
+	}
+
+	"roulette CM"
+	{
+		"ro"		"Ruletă"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ați atins numărul maxim de utilizări ale sunetului. {1} utilizare maximă pe hartă"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"ro"		"Ați atins numărul maxim de utilizări ale sunetului. {1} utilizare maximă pe rundă"
+	}
+
+	"saysound CM"
+	{
+		"ro"		"spune sunet"
+	}
+
+	"scoreboardtag CM"
+	{
+		"ro"		"Etichetă tabel scor"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"ro"		"ucide cu grenadă fumigenă"
+	}
+
+	"sound CM"
+	{
+		"ro"		"sunet"
+	}
+
+	"spawn CM"
+	{
+		"ro"		"Reînviere suplimentară"
+	}
+
+	"spawneff CM"
+	{
+		"ro"		"efectul apariției:"
+	}
+
+	"speed CM"
+	{
+		"ro"		"abilitate"
+	}
+
+	"spray CM"
+	{
+		"ro"		"spray"
+	}
+
+	"start daily challange CM"
+	{
+		"ro"		"începe provocarea zilnică. Joacă în următoarele 6 zile pentru a primi bonusul complet"
+	}
+
+	"taser kill CM"
+	{
+		"ro"		"ucide cu taser"
+	}
+
+	"teambet CM"
+	{
+		"ro"		"Pariu pe echipă"
+	}
+
+	"teamkill CM"
+	{
+		"ro"		"ucide un coleg de echipă"
+	}
+
+	"tfhat CM"
+	{
+		"ro"		"pălărie de construcție"
+	}
+
+	"tfhatdye CM"
+	{
+		"ro"		"vopsire pălărie"
+	}
+
+	"tfhead CM"
+	{
+		"ro"		"mărimea capului"
+	}
+
+	"tfunusual CM"
+	{
+		"ro"		"efectul pălăriei"
+	}
+
+	"tfweapon CM"
+	{
+		"ro"		"armă personalizată"
+	}
+
+	"tfweaponsize CM"
+	{
+		"ro"		"dimensiune armă"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Premiul va fi extras în {1} secunde"
+	}
+
+	"thirdperson CM"
+	{
+		"ro"		"a treia persoană"
+	}
+
+	"throwknife CM"
+	{
+		"ro"		"Aruncă cuțit"
+	}
+
+	"toplists CM"
+	{
+		"ro"		"Listele de top"
+	}
+
+	"tracer CM"
+	{
+		"ro"		"trasator"
+	}
+
+	"trail CM"
+	{
+		"ro"		"urmă"
+	}
+
+	"wasted CM"
+	{
+		"ro"		"risipit"
+	}
+
+	"watergun CM"
+	{
+		"ro"		"efect"
+	}
+
+	"weapon CM"
+	{
+		"ro"		"armă"
+	}
+
+	"weaponcolor CM"
+	{
+		"ro"		"culoare armă"
+	}
+
+	"weaponmodel CM"
+	{
+		"ro"		"Model de armă"
+	}
+
+	"weaponskin CM"
+	{
+		"ro"		"skin de armă"
+	}
+
+	"win the round CM"
+	{
+		"ro"		"câștigă runda"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"ro"		"{1} {2} pentru '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ro"		"{1} ore {2} minute și {3} secunde"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ro"		"{1} oră(e) {2} minut(e) și {3} secundă(e)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ro"		"{1} minute și {2} secunde"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ro"		"{1} minut(e) și {2} secundă(e)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"{1} secunde"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"ro"		"{1} secundă(e)"
+	}
+
+	"zrclass CM"
+	{
+		"ro"		"clasa jucătorului"
+	}
 }

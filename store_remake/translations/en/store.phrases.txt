@@ -2279,4 +2279,2788 @@
 	{
 		"en"		"player class"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1}21 !!!  BLACKJACK  !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"You have already reload the config. Please change or reload the map."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"All participating players disconnect, nobody get his {2} back, lol. Jackpot was {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"en"		"All generated and valid voucher are:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"en"		"You won, but already own {1} ({2}). Item was sold for {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"en"		"You already own {1} ({2}). You are funded back {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"Amount: {1}"
+	}
+
+	"Aura CM"
+	{
+		"en"		"Aura:"
+	}
+
+	"Back CM"
+	{
+		"en"		"Back"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"en"		"Bet * Multi = Your Win"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Bonus credits: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"Pot CT win: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Bet Maximum ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Bet Minimum ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"Bet Random ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"Pot T win: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"en"		"Bet on"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"en"		"Bet on a Head/Tail"
+	}
+
+	"Bet on a color CM"
+	{
+		"en"		"Bet on a color and if this color is choosen you win!"
+	}
+
+	"Bet on a number CM"
+	{
+		"en"		"Bet on Low (#1-3) on High (#4-6) or a exact number. If you choice is diced you win!"
+	}
+
+	"Bet on a team CM"
+	{
+		"en"		"Bet on a team and if the team win the round you win!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"en"		"You have already placed your bet for the round."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"en"		"Invalid team identifier specified."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"You lost {1} credits on the bet."
+	}
+
+	"Betting Period Over CM"
+	{
+		"en"		"The betting period is over for this round."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"You have successfully placed a bet of {1} credits."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"Your bet was successful. You won {1} credits."
+	}
+
+	"Black CM"
+	{
+		"en"		"black"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"en"		"Blackjack is a game that the card value in your hand must higher than the dealer without exceeding 21"
+	}
+
+	"Buy CM"
+	{
+		"en"		"Buy Item"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Buy Item ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"en"		"You changed your color to: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"en"		"Chat tag color option"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"en"		"Disable color"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"en"		"Custom tag color disabled."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"en"		"You don't have any name tag equipped"
+	}
+
+	"CP No file found CM"
+	{
+		"en"		"The custom tag color for user has been disabled. Please contact admin for further support."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"en"		"Showing preview scoreboard tag, please press TAB button."
+	}
+
+	"Cancel CM"
+	{
+		"en"		"Cancel"
+	}
+
+	"Cant be bought CM"
+	{
+		"en"		"This item can not be bought"
+	}
+
+	"Cash out CM"
+	{
+		"en"		"Cash out"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"Change your bet: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"en"		"You have bought a {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"en"		"{1} has sent you a {2} {3} as a gift."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"en"		"You have sent {1} a {2} {3} as a gift."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"en"		"You have sold a {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"en"		" You have opened a container and found {1} credits!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"en"		"{1} opened a container and found {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"en"		"{1} opened a container and found {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"en"		"Check All valid and available voucher (Admin Only)"
+	}
+
+	"Check Voucher CM"
+	{
+		"en"		"Check a Voucher"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"en"		"Check your generated and valid available voucher"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"en"		"Choose Number (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"en"		"Auto Cashout:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"en"		"Your loadout has been reset."
+	}
+
+	"Client valid voucher CM"
+	{
+		"en"		"Your generated and valid voucher are:\n "
+	}
+
+	"Close CM"
+	{
+		"en"		"Close"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"en"		"Colored Smoke"
+	}
+
+	"Command is in-game only CM"
+	{
+		"en"		"You need to be alive to use this command."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"en"		"Config reloaded. Please restart or change map."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"en"		"Are you sure you want to buy {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"en"		"Are you sure you want to gift {1} {2} to {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"en"		"Are you sure you want to drop {1} {2} as a gift?"
+	}
+
+	"Confirm_No CM"
+	{
+		"en"		"No"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"en"		"Are you sure you want to sell {1} {2} for {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"en"		"Are you sure you want convert {1} ({2}) to coupon?\nWARNING: If item in voucher expires before redeemed.\nThis voucher will be expired."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"en"		"Yes"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"en"		"{1} got the answer right and won {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"en"		"Counter-Terrorist"
+	}
+
+	"Crash Already Start CM"
+	{
+		"en"		"Crash game is currently in progress. Please wait next game."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"en"		"Off"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"en"		"Turn off auto cashout"
+	}
+
+	"Crash Auto On CM"
+	{
+		"en"		"On"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"en"		"Turn on auto cashout"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"en"		"           What is/How to play: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"en"		"- Crash is the game where players can bet on a multiplier, this multiplier related to an increasing curve that can crash at any moment."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"en"		"- The multiplier starts at 1.00x and you can cash out any time."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"en"		"- Minimum bet value is {1} {2}. Maximum bet value is {3} {4}. These limits may change with time."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"en"		"Wrong input (must be {1} or above)."
+	}
+
+	"Crash auto input CM"
+	{
+		"en"		"Type your auto cashout in chat"
+	}
+
+	"Crash auto input set CM"
+	{
+		"en"		"Crash auto cash out set"
+	}
+
+	"Crash set auto CM"
+	{
+		"en"		"Set auto cashout value"
+	}
+
+	"Crash! CM"
+	{
+		"en"		"Crash!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"en"		"Create an Items Voucher (Admin Only)"
+	}
+
+	"Create Voucher CM"
+	{
+		"en"		"Create a Voucher"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Creating voucher failed - Contact an admin with following timestamp: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"en"		"Credit gifting is disabled on this server."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"You dropped {1} credits as a gift."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"en"		"{2} has sent you {1} credits."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"en"		"You have sent {1} credits to {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"en"		"You don't have enough credits to create giveaway."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"en"		"Invalid amount of credits entered."
+	}
+
+	"Credit No Match CM"
+	{
+		"en"		"No player was found."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"en"		"You don't have enough credits to buy this."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"en"		"More than one client were found."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"en"		"You don't have enough credits to create voucher."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"en"		"You earned {1} credits for killing {2}."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"You earned {1} credits for playing on the server."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"en"		"{1} has been given {2} credits."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"Credits: {1}          Pot: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"en"		"Disabled"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"en"		"Enabled"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"en"		"[Custom Weapon Sound]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"en"		"Custom Weapon Sound Volume Control Menu"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Volume: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"en"		"Custom Weapon Sound: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"en"		"Custom Weapon sound is Disabled."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"en"		"Custom Weapon sound is Enabled."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"Custom Weapon sound is Enabled. Volume: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"en"		"Custom Weapon Model:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"en"		"Damage the crate to open!"
+	}
+
+	"Dead heat CM"
+	{
+		"en"		"- dead heat -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"             DEAL     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"en"		"DEALER"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"Discount: '{1}' is active! Happy shopping!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"Discount: '{1}' has ended."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"Discount: '{1}' has started! Happy shopping!"
+	}
+
+	"Double CM"
+	{
+		"en"		"Double"
+	}
+
+	"Down CM"
+	{
+		"en"		"Down"
+	}
+
+	"Down2 CM"
+	{
+		"en"		"                      5 = Down"
+	}
+
+	"Drop Gift CM"
+	{
+		"en"		"Drop as gift"
+	}
+
+	"Edit Amount CM"
+	{
+		"en"		"Edit Amount: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"en"		"Please enter the expiration time (in seconds) for the item in the chat!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"en"		"Invalid number format. Please try again."
+	}
+
+	"Enter custom amount CM"
+	{
+		"en"		"Please enter your custom amount in the chat!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"en"		"Please enter the maximum value of Credits in the chat!"
+	}
+
+	"Enter minimum value CM"
+	{
+		"en"		"Please enter the minimum value of Credits in the chat!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"en"		"Please enter the number of voucher to create in the chat!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"en"		"Please enter the value of voucher to purchase in the chat!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"en"		"Please enter your voucher code in the chat!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"en"		"Error occured on getting price back. Please contact admin"
+	}
+
+	"Exact #x  = CM"
+	{
+		"en"		"Exact #x  = "
+	}
+
+	"Exit CM"
+	{
+		"en"		"Exit"
+	}
+
+	"Gained CM"
+	{
+		"en"		"Gained"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"en"		"Gained: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"en"		"Game Info"
+	}
+
+	"Game in progress CM"
+	{
+		"en"		"Your current bet game is in progress. Please wait until it finished"
+	}
+
+	"Get three on a kind CM"
+	{
+		"en"		"Get three on a kind"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"You picked up {1} credits."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"en"		"You picked up a {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"en"		"There's noone you can gift this item to."
+	}
+
+	"Gift Player Left CM"
+	{
+		"en"		"Selected player has already left the game."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{1} To do a giveaway the server must contain at least {2} players."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"Admin {1} opened a giveaway with <font color='#15fb00'>{2} credits"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"|| Giveaway starts in {1} seconds ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"en"		"{1} {2} won a giveaway with {3} credits"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1}\n|| Winner: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"en"		"You have reached the maximum amount of godmodes you can buy this round."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"en"		"You can't use godmode in this team."
+	}
+
+	"Green CM"
+	{
+		"en"		"green"
+	}
+
+	"HE grenade kill CM"
+	{
+		"en"		"HE grenade kill"
+	}
+
+	"HUD CM"
+	{
+		"en"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"en"		"Head"
+	}
+
+	"Health Round Limit CM"
+	{
+		"en"		"You have reached the maximum amount of health packs you can buy this round."
+	}
+
+	"Help_Back CM"
+	{
+		"en"		"Back"
+	}
+
+	"Help_Exit CM"
+	{
+		"en"		"Exit"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"en"		"Hide bullet sparks"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"en"		"Hide bullet tracers"
+	}
+
+	"Hide gloves CM"
+	{
+		"en"		"Hide gloves"
+	}
+
+	"Hide paintball CM"
+	{
+		"en"		"Hide paintballs"
+	}
+
+	"Hide particles CM"
+	{
+		"en"		"Hide particles"
+	}
+
+	"Hide pets CM"
+	{
+		"en"		"Hide pets"
+	}
+
+	"Hide trails CM"
+	{
+		"en"		"Hide trails"
+	}
+
+	"High #4-6 CM"
+	{
+		"en"		"High #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"en"		"High #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"en"		"High - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"en"		"HIGHER"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"The chosen number is: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"The next number was: {1}"
+	}
+
+	"Hit CM"
+	{
+		"en"		"Hit"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"en"		"A number between {1} to {2} has been chosen for you guess if the next number will be higher or lower than the chosen number."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"en"		"If you choose the good one, you will win twice your bet."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"en"		"There is a {1} second(s) pause between each games."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You have successfully placed {1} {2}."
+	}
+
+	"Inventory CM"
+	{
+		"en"		"Inventory"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"en"		"Please wait. Your inventory hasn't been fetched yet."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"en"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"en"		"Equip this item"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} [EQUIPPED]"
+	}
+
+	"Item Gift CM"
+	{
+		"en"		"gift this item"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} (Choose a plan)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"Sell for {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"en"		"Unequip"
+	}
+
+	"Item Use CM"
+	{
+		"en"		"Use this item"
+	}
+
+	"Item Voucher CM"
+	{
+		"en"		"Make Voucher from item"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"en"		"Voucher creation for item is currently disabled."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"You have convert {1} ({2}) to Voucher {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"en"		"{1} hidden. You wont't see them anymore."
+	}
+
+	"Item not found CM"
+	{
+		"en"		"Item not found"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"en"		"{1}s are visible again."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"en"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"en"		"Jackpot paused."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"Jackpot: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"en"		"Jetpack is empty"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"en"		"[Jetpack] Fuel: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"en"		"Jetpack is reloaded"
+	}
+
+	"Jihad Failed CM"
+	{
+		"en"		"Your bomb has failed to explode."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} jihad bomb has failed to explode."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"en"		"You can't use the bomb in this team."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"{1} minute(s) before crash starts."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"{1} second(s) before crash starts."
+	}
+
+	"LevelIcon CM"
+	{
+		"en"		"level icon"
+	}
+
+	"Limited CM"
+	{
+		"en"		"Limited - one player"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"en"		"Please wait until your previous case has been opened"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"en"		"The map has ended. Please wait for next map"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"en"		"The round has ended. Please wait for new round"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"en"		"You can't open in warmup"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"You have lost your daily streak of {1} day(s)."
+	}
+
+	"Lost bet CM"
+	{
+		"en"		"Failed! You lost your bet"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"You lost your bet, because the next number was: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"en"		"Low #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"en"		"Low #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"en"		"Low - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"en"		"LOWER"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"We need at least {1} player(s) "
+	}
+
+	"Must be Alive CM"
+	{
+		"en"		"You must be alive to use this."
+	}
+
+	"Must be dead CM"
+	{
+		"en"		"You must be dead to play"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"en"		"Multi = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"en"		"No active Jackpot"
+	}
+
+	"No active TeamBet CM"
+	{
+		"en"		"No team bets have been placed yet"
+	}
+
+	"No have flag CM"
+	{
+		"en"		"You don't have access to use this command."
+	}
+
+	"No matching color CM"
+	{
+		"en"		"No matching color, use: r/red, b/black or g/green"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"en"		"No one pick up your dropped credits. You get it back."
+	}
+
+	"No pick up - removed CM"
+	{
+		"en"		"No one pick up your dropped credits. The credits were removed."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Time's up. The correct answer was {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"Noone else cashed into the Jackpot. You get your {1} {2} back!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"en"		"You don't have enough credits"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"en"		"Now running a giveaway, try again in a few seconds."
+	}
+
+	"Only number CM"
+	{
+		"en"		"You can type only numbers..."
+	}
+
+	"Override Disabled CM"
+	{
+		"en"		"Your skin doesn't support hats. Your equipped hat will be disabled."
+	}
+
+	"Override Enabled CM"
+	{
+		"en"		"Your current skin doesn't support hats. Your skin will be changed."
+	}
+
+	"Owned CM"
+	{
+		"en"		"[Owned]"
+	}
+
+	"Package Gift CM"
+	{
+		"en"		"Gift this package"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"Sell this package for {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"en"		"Make Voucher from package"
+	}
+
+	"Parachute Empty CM"
+	{
+		"en"		"Parachute Empty"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"en"		"Parachute Reloaded"
+	}
+
+	"Particles CM"
+	{
+		"en"		"Particles:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"Place {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"en"		"Playing preview sound for you."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"en"		"{1} has {2} credits."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} has been resetted."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"en"		"Store Player Skin module is currently temporarily disabled."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"en"		"{1} has cashed {2} {3} into the jackpot, his current winning chance is:{4}% (Jackpot: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"en"		"{1} has lost {2} {3} at {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"en"		"{1} has opened a jackpot with {2} {3}. Cash-in to grab that money!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"en"		"{1} won the Jackpot with {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"en"		"{1} has won {2} {3} at {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"en"		"{1} has won {2} {3} with multiplier of x{4} at {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"en"		"Your new settings will be applied on next spawn."
+	}
+
+	"Press CM"
+	{
+		"en"		"Press"
+	}
+
+	"Press to Start CM"
+	{
+		"en"		"Press to Start!"
+	}
+
+	"Press to Stop CM"
+	{
+		"en"		"Press to Stop!"
+	}
+
+	"Preview Item CM"
+	{
+		"en"		"Preview This Item"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Price: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"en"		"Purchase a Voucher"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"en"		"How much is {1} {2} {3}? | Prize: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"en"		"red"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"en"		"Redeem a Voucher"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"Rerun {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"en"		"You have reached the maximum number of respawns you can buy this round."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"en"		"For security reasons you can not submit multiple requests in a short period."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"en"		"Second winner is also not in game anymore, last try to find a new winner."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"You have to wait {1} seconds before trying to use this command again."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"en"		"Show bullet sparks"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"en"		"Show bullet tracers"
+	}
+
+	"Show gloves CM"
+	{
+		"en"		"Show gloves"
+	}
+
+	"Show paintball CM"
+	{
+		"en"		"Show paintballs"
+	}
+
+	"Show particles CM"
+	{
+		"en"		"Show particles"
+	}
+
+	"Show pets CM"
+	{
+		"en"		"Show pets"
+	}
+
+	"Show trails CM"
+	{
+		"en"		"Show trails"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"You can't use a smaller value than your min value ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"en"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Spam Protection. Please wait {1} seconds."
+	}
+
+	"Spawn Preview CM"
+	{
+		"en"		"Spawned a preview. Preview will disappear in 45 seconds"
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"en"		"Spawned a preview. Preview will disappear in {1} seconds."
+	}
+
+	"Start again from begin CM"
+	{
+		"en"		"Please start again from begin"
+	}
+
+	"Starting CM"
+	{
+		"en"		"Starting"
+	}
+
+	"Stay CM"
+	{
+		"en"		"Stand"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"en"		"Are you sure you want to reset your loadout? All the item will be unequipped."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"en"		"You successfully purchased a voucher"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"en"		"This item was meant to be used with a different player class."
+	}
+
+	"Tail CM"
+	{
+		"en"		"Tail"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"en"		"You have already placed your bet for the round."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"en"		"Invalid team identifier specified."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You lost {1} {2} on the bet."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"en"		"The betting period is over for this round."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"You have successfully placed a bet of {1} credits."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"Your bet was successful. You won {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"en"		"There was no bet on the other team, so you got the credits back."
+	}
+
+	"Terrorist CM"
+	{
+		"en"		"Terrorist"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"The chosen number is: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"The next number was: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"en"		"This is the preview text."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Admin has reload store config. The map will be reloaded in {1} sec!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"en"		"Admin item Voucher Creator Menu.\n \nChoose the item duration."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"en"		"Admin item Voucher Creator Menu"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Credits: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"Expires in {1}d {2}h"
+	}
+
+	"Title Gift CM"
+	{
+		"en"		"Choose a player to send gift to"
+	}
+
+	"Title Store CM"
+	{
+		"en"		"Store Menu"
+	}
+
+	"To late chat input CM"
+	{
+		"en"		"Your text input has not been done in the given time"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"Too many {1} on the ground, you can't drop more at this time!"
+	}
+
+	"Top Credits CM"
+	{
+		"en"		"Top Credits"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"en"		"Top Credits + Inv Worth"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"en"		"Top Inventory Worth"
+	}
+
+	"Top Most Items CM"
+	{
+		"en"		"Top Most Items"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"Total: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"en"		"Try again"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"en"		"Type in chat !bet <bet> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"en"		"Type in chat !blackjack <bet>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"en"		"Type in chat !coinflip <bet> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"en"		"Type in chat !crash <bet>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"en"		"Type in chat !crowns <bet>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"en"		"Type in chat !dice <bet> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"en"		"Type in chat !jackpot <bet>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"en"		"Type in chat !roulette <bet> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"en"		"Unlimited - several players"
+	}
+
+	"Up CM"
+	{
+		"en"		"Up"
+	}
+
+	"Value less than 1 CM"
+	{
+		"en"		"You can't use a value less than 1."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1} volume set to {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"en"		"For now voucher code should be exactly 17 chars"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"The voucher has the value of {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"en"		"The Voucher was accepted"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"en"		"The Voucher was accepted"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"en"		"You are generating {1} {2}limited voucher{3} with value {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"en"		"You are generating {1} {2}limited voucher{3} with values {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"The entered voucher code was already redeemed on {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"This voucher expires on {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"The entered voucher code has expired on {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"en"		"Created new voucher {1} with value {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"en"		"You can find the voucher code also in chat and console"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"Voucher Code: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"The entered voucher code '{1}' is not valid!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"The voucher includes {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"en"		"The voucher code is valid"
+	}
+
+	"Vouchers CM"
+	{
+		"en"		"Voucher"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"You have to wait {1} until next daily."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"en"		"You have checkin today. Please comeback tomorrow."
+	}
+
+	"Win = CM"
+	{
+		"en"		"Win = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"en"		"Winner is not in game anymore, trying to find a new winner."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"en"		"The voucher code has wrong format. It must be XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"en"		"YOU"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"en"		"You already cashed {1} {2} into the jackpot. Current win chance: {3}%% Jackpot: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"en"		"You already own the entered voucher item"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"en"		"You already redeemed the entered voucher code"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"en"		"You can start a new Jacktop"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"You can start a new Jackpot in {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You can't spend that much credits (Max: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You collected {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"en"		"You don't have permission to access this."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You dropped {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"en"		"You earned no points this round."
+	}
+
+	"You earned this round CM"
+	{
+		"en"		"You earned this round:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You earned {1} {2} for "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You earned {1} {2} this round"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You received {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You received {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"en"		"You received a {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"en"		"You received a {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You have to spend at least {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You have to spend at least {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"en"		"You haven't opened the box in given time. The lootbox is back in your inventory"
+	}
+
+	"You lose CM"
+	{
+		"en"		"- you lost"
+	}
+
+	"You lost with CM"
+	{
+		"en"		"You lost with"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You lost {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"en"		"You mastered the 'daily challange'! Try to beat it again!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You win {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"en"		"!!! YOU WON !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"en"		"You won a {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You won the Jackpot with {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"en"		"You won the Jackpot with {1} {2} minus the casino fee of {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"en"		"You won with"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"en"		"You won {1} credits with x{2}."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You'll earn {1} {2} tomorrow!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"en"		"Your Bet: {1} {2} - Chance: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"Your bet: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"en"		"Your current winning chance has changed to {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You earned {1} credits for killing {2}."
+	}
+
+	"admin CM"
+	{
+		"en"		"admin"
+	}
+
+	"and is limited CM"
+	{
+		"en"		"and is limited"
+	}
+
+	"and is unlimited CM"
+	{
+		"en"		"and is unlimited"
+	}
+
+	"arms CM"
+	{
+		"en"		"arms"
+	}
+
+	"assist a kill CM"
+	{
+		"en"		"assist a kill"
+	}
+
+	"attachment CM"
+	{
+		"en"		"Attachment"
+	}
+
+	"backstab kill CM"
+	{
+		"en"		"backstab kill"
+	}
+
+	"be the MVP CM"
+	{
+		"en"		"be the MVP"
+	}
+
+	"bet x CM"
+	{
+		"en"		"bet x"
+	}
+
+	"blackjack CM"
+	{
+		"en"		"Blackjack"
+	}
+
+	"bomb defused CM"
+	{
+		"en"		"bomb defused"
+	}
+
+	"bomb explode CM"
+	{
+		"en"		"bomb explode"
+	}
+
+	"bomb planted CM"
+	{
+		"en"		"bomb planted"
+	}
+
+	"bombtweak CM"
+	{
+		"en"		"Bomb Tweak"
+	}
+
+	"bullet_impact CM"
+	{
+		"en"		"Bullet impact"
+	}
+
+	"bulletsparks CM"
+	{
+		"en"		"Bullet Sparks"
+	}
+
+	"bunnyhob CM"
+	{
+		"en"		"BunnyHob"
+	}
+
+	"bunnyhop CM"
+	{
+		"en"		"skill"
+	}
+
+	"casino CM"
+	{
+		"en"		"Casino"
+	}
+
+	"coinflip CM"
+	{
+		"en"		"Coinflip"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"Do you want to reset config?\nThe map will be reload after {1} sec!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"en"		"Do you want to reset config?\nYou need to change the map to apply or may get some bugs."
+	}
+
+	"connect CM"
+	{
+		"en"		"Connect Message"
+	}
+
+	"crash CM"
+	{
+		"en"		"Crash"
+	}
+
+	"creditstoplist CM"
+	{
+		"en"		"credits"
+	}
+
+	"crowns CM"
+	{
+		"en"		"Crowns Slot"
+	}
+
+	"daily CM"
+	{
+		"en"		"Daily Bonus"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"en"		"decoy grenade kill"
+	}
+
+	"dice CM"
+	{
+		"en"		"Dice"
+	}
+
+	"direction CM"
+	{
+		"en"		"Direction"
+	}
+
+	"discount CM"
+	{
+		"en"		"SALE"
+	}
+
+	"distance CM"
+	{
+		"en"		"distance"
+	}
+
+	"dmgtext CM"
+	{
+		"en"		"Painter"
+	}
+
+	"emote CM"
+	{
+		"en"		"Emote"
+	}
+
+	"escape as VIP CM"
+	{
+		"en"		"escape as VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"en"		"flashbang kill"
+	}
+
+	"flashlight CM"
+	{
+		"en"		"Flashlight"
+	}
+
+	"froggyjump CM"
+	{
+		"en"		"Froggy Jump"
+	}
+
+	"gloves CM"
+	{
+		"en"		"gloves"
+	}
+
+	"glow CM"
+	{
+		"en"		"glow"
+	}
+
+	"godmode CM"
+	{
+		"en"		"godmode"
+	}
+
+	"gravity CM"
+	{
+		"en"		"ability"
+	}
+
+	"grenademodel CM"
+	{
+		"en"		"Grenade model"
+	}
+
+	"grenadeskin CM"
+	{
+		"en"		"grenade skin"
+	}
+
+	"grenadetrail CM"
+	{
+		"en"		"grenade trail"
+	}
+
+	"hat CM"
+	{
+		"en"		"hat"
+	}
+
+	"headshot CM"
+	{
+		"en"		"headshot"
+	}
+
+	"health CM"
+	{
+		"en"		"pack"
+	}
+
+	"high or low CM"
+	{
+		"en"		"High or Low"
+	}
+
+	"hiteff CM"
+	{
+		"en"		"hit effect:"
+	}
+
+	"hitsound CM"
+	{
+		"en"		"Hitsound"
+	}
+
+	"hostage rescued CM"
+	{
+		"en"		"hostage rescued"
+	}
+
+	"hunterjump CM"
+	{
+		"en"		"Hunter Jump"
+	}
+
+	"idle on the server CM"
+	{
+		"en"		"idle on the server"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"in {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"en"		"Infinity Ammo"
+	}
+
+	"info CM"
+	{
+		"en"		"Info Panel"
+	}
+
+	"instabomb CM"
+	{
+		"en"		"Insta plant / defuse"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"en"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"en"		"ability"
+	}
+
+	"items CM"
+	{
+		"en"		"Items"
+	}
+
+	"jackpot CM"
+	{
+		"en"		"Jackpot"
+	}
+
+	"jetpack CM"
+	{
+		"en"		"rocket"
+	}
+
+	"jihad CM"
+	{
+		"en"		"bomb"
+	}
+
+	"kill CM"
+	{
+		"en"		"kill"
+	}
+
+	"kill the VIP CM"
+	{
+		"en"		"kill the VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"en"		"kill yourself"
+	}
+
+	"killeff CM"
+	{
+		"en"		"kill eff:"
+	}
+
+	"knife CM"
+	{
+		"en"		"knife"
+	}
+
+	"knife kill CM"
+	{
+		"en"		"knife kill"
+	}
+
+	"laserdraw CM"
+	{
+		"en"		"laser draw:"
+	}
+
+	"laserpointer CM"
+	{
+		"en"		"Laser Pointer"
+	}
+
+	"lasersight CM"
+	{
+		"en"		"laser sight"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"last update {1} ago"
+	}
+
+	"light CM"
+	{
+		"en"		"Light"
+	}
+
+	"lootbox CM"
+	{
+		"en"		"Lootbox"
+	}
+
+	"mirror CM"
+	{
+		"en"		"mirror"
+	}
+
+	"molotov kill CM"
+	{
+		"en"		"molotov kill"
+	}
+
+	"msgcolor CM"
+	{
+		"en"		"message color"
+	}
+
+	"mvp_sound CM"
+	{
+		"en"		"MVP anthems"
+	}
+
+	"namecolor CM"
+	{
+		"en"		"name color"
+	}
+
+	"nametag CM"
+	{
+		"en"		"name tag"
+	}
+
+	"nearest CM"
+	{
+		"en"		"Nearest"
+	}
+
+	"nodiscount CM"
+	{
+		"en"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"en"		"No Duck delay"
+	}
+
+	"nofalldamage CM"
+	{
+		"en"		"No Fall Damage"
+	}
+
+	"noreload CM"
+	{
+		"en"		"No Reload"
+	}
+
+	"noscope kill CM"
+	{
+		"en"		"noscope kill"
+	}
+
+	"noselfdamage CM"
+	{
+		"en"		"No Self Damage"
+	}
+
+	"or use buttons below CM"
+	{
+		"en"		"or use buttons below"
+	}
+
+	"package CM"
+	{
+		"en"		"package"
+	}
+
+	"paintball CM"
+	{
+		"en"		"bullets"
+	}
+
+	"painter CM"
+	{
+		"en"		"Painter"
+	}
+
+	"parachute CM"
+	{
+		"en"		"Parachute"
+	}
+
+	"particle CM"
+	{
+		"en"		"Particles"
+	}
+
+	"pet CM"
+	{
+		"en"		"pet"
+	}
+
+	"playerskin CM"
+	{
+		"en"		"player skin"
+	}
+
+	"playing on the server CM"
+	{
+		"en"		"playing on the server"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"playing on our server {1} days in a row"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"You'll receive {1} on next spawn"
+	}
+
+	"respawn CM"
+	{
+		"en"		"Respawn"
+	}
+
+	"roulette CM"
+	{
+		"en"		"Roulette"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"You have reached the max uses of say sound. {1} max use(s) per map"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"en"		"You have reached the max uses of say sound. {1} Max use(s) per round"
+	}
+
+	"saysound CM"
+	{
+		"en"		"say sound"
+	}
+
+	"scoreboardtag CM"
+	{
+		"en"		"Scoreboard Tag"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"en"		"smokegrenade kill"
+	}
+
+	"sound CM"
+	{
+		"en"		"sound"
+	}
+
+	"spawn CM"
+	{
+		"en"		"Spawn xtra"
+	}
+
+	"spawneff CM"
+	{
+		"en"		"spawn eff:"
+	}
+
+	"speed CM"
+	{
+		"en"		"ability"
+	}
+
+	"spray CM"
+	{
+		"en"		"spray"
+	}
+
+	"start daily challange CM"
+	{
+		"en"		"start the 'daily challange'. Play next 6 days to received full bonus"
+	}
+
+	"taser kill CM"
+	{
+		"en"		"taser kill"
+	}
+
+	"teambet CM"
+	{
+		"en"		"TeamBet"
+	}
+
+	"teamkill CM"
+	{
+		"en"		"teamkill"
+	}
+
+	"tfhat CM"
+	{
+		"en"		"building hat"
+	}
+
+	"tfhatdye CM"
+	{
+		"en"		"hat dye"
+	}
+
+	"tfhead CM"
+	{
+		"en"		"head size"
+	}
+
+	"tfunusual CM"
+	{
+		"en"		"hat effect"
+	}
+
+	"tfweapon CM"
+	{
+		"en"		"custom weapon"
+	}
+
+	"tfweaponsize CM"
+	{
+		"en"		"weapon size"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"the prize will be drawn in {1}s"
+	}
+
+	"thirdperson CM"
+	{
+		"en"		"thirdperson"
+	}
+
+	"throwknife CM"
+	{
+		"en"		"Throw Knife"
+	}
+
+	"toplists CM"
+	{
+		"en"		"TopLists"
+	}
+
+	"tracer CM"
+	{
+		"en"		"tracer"
+	}
+
+	"trail CM"
+	{
+		"en"		"trail"
+	}
+
+	"wasted CM"
+	{
+		"en"		"wasted"
+	}
+
+	"watergun CM"
+	{
+		"en"		"effect"
+	}
+
+	"weapon CM"
+	{
+		"en"		"weapon"
+	}
+
+	"weaponcolor CM"
+	{
+		"en"		"weapon color"
+	}
+
+	"weaponmodel CM"
+	{
+		"en"		"Weapon Model"
+	}
+
+	"weaponskin CM"
+	{
+		"en"		"weapon skin"
+	}
+
+	"win the round CM"
+	{
+		"en"		"win the round"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"en"		"{1} {2} for '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"en"		"{1} hours {2} minutes and {3} seconds"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"en"		"{1} hour(s) {2} minute(s) and {3} second(s)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"{1} minutes and {2} seconds"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"{1} minute(s) and {2} second(s)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"{1} seconds"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"en"		"{1} second(s)"
+	}
+
+	"zrclass CM"
+	{
+		"en"		"player class"
+	}
 }

@@ -104,4 +104,133 @@
 	{
 		"de"		"Bitte warten Sie auf die Antwort des ausgewählten Spielers."
 	}
+
+
+	"Cancel CM"
+	{
+		"de"		"Handel abbrechen"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"de"		"Möchtest du deinen {1} {2} anbieten?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"de"		"Möchtest du deinen {1} {2} tauschen?"
+	}
+
+	"Offer CM"
+	{
+		"de"		"Biete einen Gegenstand an"
+	}
+
+	"Offer item CM"
+	{
+		"de"		"Dieses Item anbieten"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"de"		"Dein Partner bietet {1} Kredit(e) an"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"de"		"Dein Partner bietet die folgenden Gegenstände an:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"de"		"Dein Partner ist noch nicht bereit."
+	}
+
+	"Partner Ready CM"
+	{
+		"de"		"Dein Partner ist bereit."
+	}
+
+	"Player Left CM"
+	{
+		"de"		"Der Spieler, mit dem du handeln wolltest, hat das Spiel verlassen."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"de"		"Bereit [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"de"		"Der Handel endet in {1} Sekunde(n)..."
+	}
+
+	"Trade Active CM"
+	{
+		"de"		"Du handelst bereits."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"de"		"Möchtest du mit {1} handeln?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"de"		"Möchtest du den Handel abbrechen?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"de"		"Bitte warte ein paar Minuten, bevor du erneut handelst."
+	}
+
+	"Trade Menu CM"
+	{
+		"de"		"Um das Handelsmenü erneut zu öffnen, tippe !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"de"		"Du handelst nicht."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"de"		"Dein Handelspartner hat den Handel abgebrochen."
+	}
+
+	"Trade Select Player CM"
+	{
+		"de"		"Wähle einen Spieler zum Handeln"
+	}
+
+	"Trade Successful CM"
+	{
+		"de"		"Der Handel wurde erfolgreich abgeschlossen."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"de"		"Du handelst mit {1}\n-----------------------------\nUm Credits anzubieten, gib !offer <amount> ein\nDu hast {2} Credits angeboten"
+	}
+
+	"Trade item CM"
+	{
+		"de"		"Dieses Item tauschen"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"de"		"Bitte warten Sie auf die Antwort des ausgewählten Spielers."
+	}
 }

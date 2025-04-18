@@ -104,4 +104,133 @@
 	{
 		"ko"		"선택한 플레이어의 답변을 기다려주세요."
 	}
+
+
+	"Cancel CM"
+	{
+		"ko"		"거래 취소"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ko"		"당신의 {1} {2} 를 제공하시겠습니까?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ko"		"당신의 {1} {2} 를 교환하시겠습니까?"
+	}
+
+	"Offer CM"
+	{
+		"ko"		"아이템 제안"
+	}
+
+	"Offer item CM"
+	{
+		"ko"		"이 아이템을 제공"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"당신의 파트너는 {1} 크레딧을 제공합니다."
+	}
+
+	"Partner Item Offer CM"
+	{
+		"ko"		"당신의 파트너는 다음 아이템을 제공합니다:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"ko"		"당신의 파트너는 아직 준비되지 않았습니다."
+	}
+
+	"Partner Ready CM"
+	{
+		"ko"		"당신의 파트너는 준비되었습니다."
+	}
+
+	"Player Left CM"
+	{
+		"ko"		"거래하고 싶었던 플레이어가 게임을 떠났습니다."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"준비 완료 [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"거래는 {1} 초 후에 종료됩니다..."
+	}
+
+	"Trade Active CM"
+	{
+		"ko"		"이미 거래 중입니다."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"ko"		"{1} 와(과) 거래하시겠습니까?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"ko"		"거래를 취소하시겠습니까?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"ko"		"거래를 다시 시작하기 전에 몇 분 기다려 주세요."
+	}
+
+	"Trade Menu CM"
+	{
+		"ko"		"거래 메뉴를 다시 열려면 !trade를 입력하세요."
+	}
+
+	"Trade Not Active CM"
+	{
+		"ko"		"거래 중이 아닙니다."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"ko"		"거래 상대가 거래를 취소했습니다."
+	}
+
+	"Trade Select Player CM"
+	{
+		"ko"		"거래할 플레이어를 선택하세요"
+	}
+
+	"Trade Successful CM"
+	{
+		"ko"		"거래가 성공적으로 완료되었습니다."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"ko"		"{1} 님과 거래 중입니다\n-----------------------------\n크레딧을 제공하려면 !offer <amount> 입력\n{2} 크레딧을 제공했습니다"
+	}
+
+	"Trade item CM"
+	{
+		"ko"		"이 아이템을 거래"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"ko"		"선택한 플레이어의 답변을 기다려주세요."
+	}
 }

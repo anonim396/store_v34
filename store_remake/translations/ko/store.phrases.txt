@@ -2279,4 +2279,2788 @@
 	{
 		"ko"		"플레이어 클래스"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"{1}21 !!! 블랙잭 !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"설정이 이미 다시 로드되었습니다. 맵을 변경하거나 다시 로드하십시오."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"모든 참가자들이 연결을 끊고, 누구도 자신의 {2}를 되돌리지 않습니다, 하하. 잭팟은 {1} {2}였습니다!"
+	}
+
+	"All valid voucher CM"
+	{
+		"ko"		"생성된 모든 유효한 쿠폰은 다음과 같습니다:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ko"		"당신은 이겼지만 이미 {1} ({2})을(를) 가지고 있습니다. 아이템은 {3} {4}에 판매되었습니다"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"ko"		"이미 {1} ({2})을(를) 가지고 있습니다. {3} {4}가 환불되었습니다"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"수량: {1}"
+	}
+
+	"Aura CM"
+	{
+		"ko"		"오라:"
+	}
+
+	"Back CM"
+	{
+		"ko"		"뒤로"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"ko"		"베팅 * 배수 = 당신의 승리"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"보너스 크레딧: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"CT 승리 상금: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"최대 베팅 ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"최소 베팅 ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ko"		"무작위 베팅 ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"T 승리 상금: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"ko"		"베팅하기"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"ko"		"머리/꼬리에 내기"
+	}
+
+	"Bet on a color CM"
+	{
+		"ko"		"색상에 내기, 이 색상이 선택되면 이깁니다!"
+	}
+
+	"Bet on a number CM"
+	{
+		"ko"		"낮음 (#1-3), 높음 (#4-6) 또는 정확한 숫자에 내기. 당신의 선택이 던져지면 이깁니다!"
+	}
+
+	"Bet on a team CM"
+	{
+		"ko"		"팀에 내기, 그리고 그 팀이 라운드를 이기면 이깁니다!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"ko"		"이 라운드에 대한 베팅을 이미 하셨습니다."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"ko"		"잘못된 팀 식별자가 지정되었습니다."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"당신은 내기에서 {1} 크레딧을 잃었습니다."
+	}
+
+	"Betting Period Over CM"
+	{
+		"ko"		"이 라운드의 베팅 시간이 종료되었습니다."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"당신은 {1} 크레딧에 베팅을 성공적으로 했습니다."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"당신의 베팅이 성공적이었습니다. 당신은 {1} 크레딧을 획득했습니다."
+	}
+
+	"Black CM"
+	{
+		"ko"		"검정"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"ko"		"블랙잭은 손에 있는 카드의 가치가 딜러보다 높고 21을 넘지 않아야 하는 게임입니다."
+	}
+
+	"Buy CM"
+	{
+		"ko"		"아이템 구매"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"아이템 구매 ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"ko"		"색을 변경했습니다: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"ko"		"채팅 태그 색상 옵션"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"ko"		"색상 비활성화"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"ko"		"사용자 정의 태그 색상 비활성화됨"
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"ko"		"이름 태그가 장착되지 않았습니다"
+	}
+
+	"CP No file found CM"
+	{
+		"ko"		"사용자 정의 태그 색상이 비활성화되었습니다. 추가 지원을 원하시면 관리자에게 문의하세요."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ko"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"ko"		"점수판 미리보기를 표시 중입니다. TAB 키를 눌러주세요."
+	}
+
+	"Cancel CM"
+	{
+		"ko"		"취소"
+	}
+
+	"Cant be bought CM"
+	{
+		"ko"		"이 아이템은 구매할 수 없습니다"
+	}
+
+	"Cash out CM"
+	{
+		"ko"		"출금"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"배팅 변경: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ko"		"당신은 {1} {2} 를 구매했습니다."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ko"		"{1}는 당신에게 {2} {3}를 선물했습니다."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ko"		"당신은 {1}에게 {2} {3}를 선물했습니다."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ko"		"당신은 {1} {2} 를 판매했습니다."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"당신은 컨테이너를 열고 {1} 크레딧을 찾았습니다!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ko"		"{1} 컨테이너를 열고 {2} ({3})을(를) 찾았습니다!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"ko"		"{1} 컨테이너를 열고 {2} ({3})을(를) 찾았습니다!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"ko"		"모든 유효하고 사용 가능한 쿠폰을 확인하세요 (관리자 전용)"
+	}
+
+	"Check Voucher CM"
+	{
+		"ko"		"바우처 확인"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"ko"		"생성된 유효하고 사용 가능한 쿠폰을 확인하세요"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"ko"		"번호 선택 (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"ko"		"자동 출금:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"ko"		"당신의 장비가 리셋되었습니다."
+	}
+
+	"Client valid voucher CM"
+	{
+		"ko"		"생성된 유효한 쿠폰은 다음과 같습니다:\n "
+	}
+
+	"Close CM"
+	{
+		"ko"		"닫기"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"ko"		"컬러 연기"
+	}
+
+	"Command is in-game only CM"
+	{
+		"ko"		"이 명령어를 사용하려면 살아 있어야 합니다."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"ko"		"구성이 다시 로드되었습니다. 맵을 재시작하거나 변경해 주세요."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ko"		"{1} {2}를 구매하시겠습니까?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"ko"		"{1} {2}를 {3}에게 선물하시겠습니까?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ko"		"{1} {2}를 선물로 버리시겠습니까?"
+	}
+
+	"Confirm_No CM"
+	{
+		"ko"		"아니요"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"ko"		"{1} {2}를 {3}에 팔겠습니까?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ko"		"정말로 {1} ({2})을(를) 쿠폰으로 변환하시겠습니까?\n경고: 쿠폰의 아이템이 교환되기 전에 만료되면.\n이 쿠폰은 만료됩니다."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"ko"		"네"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ko"		"{1} 가 정답을 맞히고 {2} {3} 을/를 얻었습니다!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"ko"		"대테러"
+	}
+
+	"Crash Already Start CM"
+	{
+		"ko"		"Crash 게임이 현재 진행 중입니다. 다음 게임을 기다려주세요."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"ko"		"끄기"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"ko"		"자동 출금을 끄세요"
+	}
+
+	"Crash Auto On CM"
+	{
+		"ko"		"켜기"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"ko"		"자동 출금을 켜세요"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"ko"		"           무엇인가/ 어떻게 플레이하나요: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"ko"		"- Crash는 플레이어가 배율에 베팅할 수 있는 게임으로, 이 배율은 언제든지 충돌할 수 있는 증가하는 곡선과 관련이 있습니다."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"ko"		"- 배율은 1.00x에서 시작하며 언제든지 출금할 수 있습니다."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"ko"		"- 최소 베팅 금액은 {1} {2}입니다. 최대 베팅 금액은 {3} {4}입니다. 이러한 제한은 시간이 지남에 따라 변경될 수 있습니다."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"ko"		"잘못된 입력({1} 이상이어야 합니다)."
+	}
+
+	"Crash auto input CM"
+	{
+		"ko"		"채팅에 자동 출금 값을 입력하세요"
+	}
+
+	"Crash auto input set CM"
+	{
+		"ko"		"크래시 자동 출금 설정됨"
+	}
+
+	"Crash set auto CM"
+	{
+		"ko"		"자동 출금 값을 설정"
+	}
+
+	"Crash! CM"
+	{
+		"ko"		"크래쉬!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"ko"		"아이템 쿠폰 만들기 (관리자 전용)"
+	}
+
+	"Create Voucher CM"
+	{
+		"ko"		"바우처 생성"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"바우처 생성 실패 - 다음 타임스탬프로 관리자에게 문의하세요: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"ko"		"이 서버에서는 크레딧 선물이 비활성화되어 있습니다."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"당신은 {1} 크레딧을 선물로 떨어뜨렸습니다."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ko"		"{2}는 당신에게 {1} 크레딧을 보냈습니다."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ko"		"당신은 {2}에게 {1} 크레딧을 보냈습니다."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"ko"		"기브어웨이를 만들기 위한 충분한 크레딧이 없습니다."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"ko"		"유효하지 않은 크레딧 양이 입력되었습니다."
+	}
+
+	"Credit No Match CM"
+	{
+		"ko"		"플레이어가 발견되지 않았습니다."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"ko"		"이것을 구매할 크레딧이 충분하지 않습니다."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"ko"		"하나 이상의 클라이언트가 발견되었습니다."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"ko"		"바우처를 만들기 위한 충분한 크레딧이 없습니다."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ko"		"{2} 를 처치하여 {1} 크레딧을 얻었습니다."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"서버에서 플레이하여 {1} 크레딧을 얻었습니다."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"ko"		"{1}은 {2} 크레딧을 받았습니다."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ko"		"크레딧: {1}          팟: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"ko"		"비활성화됨"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"ko"		"사용 가능"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"ko"		"[사용자 정의 무기 소리]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"ko"		"사용자 정의 무기 소리 볼륨 제어 메뉴"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"볼륨: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"ko"		"사용자 정의 무기 소리: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"ko"		"사용자 정의 무기 소리가 비활성화됨."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"ko"		"사용자 정의 무기 소리가 활성화되었습니다."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"사용자 정의 무기 소리가 활성화되었습니다. 볼륨: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"ko"		"커스텀 무기 모델:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"ko"		"상자를 열려면 상자에 데미지를 입히세요!"
+	}
+
+	"Dead heat CM"
+	{
+		"ko"		"- 무승부 -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ko"		"             딜러     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"ko"		"딜러"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"할인: '{1}' 활성화됨! 즐거운 쇼핑 되세요!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"할인: '{1}' 종료됨."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"할인: '{1}' 시작! 즐거운 쇼핑 되세요!"
+	}
+
+	"Double CM"
+	{
+		"ko"		"더블"
+	}
+
+	"Down CM"
+	{
+		"ko"		"아래"
+	}
+
+	"Down2 CM"
+	{
+		"ko"		"                      5 = 아래"
+	}
+
+	"Drop Gift CM"
+	{
+		"ko"		"선물로 드랍"
+	}
+
+	"Edit Amount CM"
+	{
+		"ko"		"수량 편집: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"ko"		"아이템의 만료 시간을 (초 단위) 채팅에 입력하세요!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"ko"		"유효하지 않은 숫자 형식입니다. 다시 시도하십시오."
+	}
+
+	"Enter custom amount CM"
+	{
+		"ko"		"채팅에 사용자 지정 금액을 입력하세요!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"ko"		"채팅에 크레딧의 최대 값을 입력하세요!"
+	}
+
+	"Enter minimum value CM"
+	{
+		"ko"		"채팅에서 크레딧의 최소값을 입력하세요!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"ko"		"채팅에서 생성할 바우처 수를 입력하세요!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"ko"		"채팅에서 구매할 바우처 가치를 입력하세요!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"ko"		"채팅에 바우처 코드를 입력하세요!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"ko"		"가격을 돌려받는 중에 오류가 발생했습니다. 관리자에게 문의하십시오"
+	}
+
+	"Exact #x  = CM"
+	{
+		"ko"		"정확한 #x = "
+	}
+
+	"Exit CM"
+	{
+		"ko"		"종료"
+	}
+
+	"Gained CM"
+	{
+		"ko"		"획득"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"ko"		"획득: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"ko"		"게임 정보"
+	}
+
+	"Game in progress CM"
+	{
+		"ko"		"현재 베팅 게임이 진행 중입니다. 완료될 때까지 기다려 주세요."
+	}
+
+	"Get three on a kind CM"
+	{
+		"ko"		"같은 종류 3개 얻기"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"당신은 {1} 크레딧을 주웠습니다."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ko"		"당신은 {1} {2}을(를) 주웠습니다."
+	}
+
+	"Gift No Players CM"
+	{
+		"ko"		"이 아이템을 선물할 사람이 없습니다."
+	}
+
+	"Gift Player Left CM"
+	{
+		"ko"		"선택한 플레이어는 이미 게임을 떠났습니다."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ko"		"{1} 기브어웨이를 하려면 서버에 최소한 {2}명의 플레이어가 있어야 합니다."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"ko"		"관리자 {1}는 {2} 크레딧으로 기브어웨이를 시작했습니다."
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"|| 기브어웨이는 {1}초 후에 시작됩니다 ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"ko"		"{1} {2}는 {3} 크레딧으로 기브어웨이를 이겼습니다"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ko"		"{1}\n|| 승자: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"ko"		"이번 라운드에서 구매할 수 있는 최대 신모드 수에 도달했습니다."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"ko"		"이 팀에서는 신모드를 사용할 수 없습니다."
+	}
+
+	"Green CM"
+	{
+		"ko"		"초록색"
+	}
+
+	"HE grenade kill CM"
+	{
+		"ko"		"HE 수류탄 킬"
+	}
+
+	"HUD CM"
+	{
+		"ko"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"ko"		"앞면"
+	}
+
+	"Health Round Limit CM"
+	{
+		"ko"		"이번 라운드에서 구매할 수 있는 최대 체력 팩 수에 도달했습니다."
+	}
+
+	"Help_Back CM"
+	{
+		"ko"		"뒤로"
+	}
+
+	"Help_Exit CM"
+	{
+		"ko"		"종료"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"ko"		"총알 불꽃 숨기기"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"ko"		"총알 자취 숨기기"
+	}
+
+	"Hide gloves CM"
+	{
+		"ko"		"장갑 숨기기"
+	}
+
+	"Hide paintball CM"
+	{
+		"ko"		"페인트볼 숨기기"
+	}
+
+	"Hide particles CM"
+	{
+		"ko"		"입자 숨기기"
+	}
+
+	"Hide pets CM"
+	{
+		"ko"		"애완동물 숨기기"
+	}
+
+	"Hide trails CM"
+	{
+		"ko"		"자취 숨기기"
+	}
+
+	"High #4-6 CM"
+	{
+		"ko"		"높음 #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"ko"		"높음 #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"ko"		"높음 - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"ko"		"더 높음"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"선택된 숫자는: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"다음 숫자는 {1} 이었습니다."
+	}
+
+	"Hit CM"
+	{
+		"ko"		"히트"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"ko"		"다음 숫자가 선택된 숫자보다 높거나 낮을지를 맞추기 위해 {1}과 {2} 사이에서 숫자가 선택되었습니다."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"ko"		"올바른 선택을 하면, 당신은 배팅한 금액의 두 배를 얻습니다."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"ko"		"각 게임 사이에 {1} 초의 휴식이 있습니다."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신은 {1} {2}을 성공적으로 배치했습니다."
+	}
+
+	"Inventory CM"
+	{
+		"ko"		"인벤토리"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"ko"		"잠시만 기다려 주세요. 인벤토리가 아직 로드되지 않았습니다."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ko"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"ko"		"이 아이템을 장착"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"{1} [장착됨]"
+	}
+
+	"Item Gift CM"
+	{
+		"ko"		"이 아이템을 선물하기"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"{1} (플랜을 선택)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"이것을 {1}에 판매"
+	}
+
+	"Item Unequip CM"
+	{
+		"ko"		"이 아이템을 해제"
+	}
+
+	"Item Use CM"
+	{
+		"ko"		"이 아이템 사용"
+	}
+
+	"Item Voucher CM"
+	{
+		"ko"		"아이템에서 바우처 만들기"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"ko"		"아이템에 대한 바우처 생성이 현재 비활성화되었습니다."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"ko"		"당신은 {1} ({2})을(를) 바우처 {3}로 변환했습니다."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"ko"		"{1} 숨겨짐. 더 이상 그것들을 볼 수 없습니다."
+	}
+
+	"Item not found CM"
+	{
+		"ko"		"아이템을 찾을 수 없습니다"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"ko"		"{1} 다시 보입니다."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"ko"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"ko"		"잭팟이 일시 중지되었습니다."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"잭팟: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"ko"		"제트팩이 비었습니다"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"ko"		"[제트팩] 연료: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"ko"		"제트팩이 재장전되었습니다"
+	}
+
+	"Jihad Failed CM"
+	{
+		"ko"		"폭탄이 폭발하지 않았습니다."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"ko"		"{1} 지하드 폭탄이 폭발에 실패했습니다."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"ko"		"이 팀에서는 폭탄을 사용할 수 없습니다."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"{1} 분 후 크래시가 시작됩니다."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"{1} 초 후 크래시가 시작됩니다."
+	}
+
+	"LevelIcon CM"
+	{
+		"ko"		"레벨 아이콘"
+	}
+
+	"Limited CM"
+	{
+		"ko"		"제한 - 한 플레이어"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"ko"		"이전 케이스가 열릴 때까지 기다려 주세요"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"ko"		"맵이 끝났습니다. 다음 맵을 기다려 주세요"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"ko"		"라운드가 끝났습니다. 다음 라운드를 기다려 주세요"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"ko"		"워밍업 중에는 열 수 없습니다"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"당신은 {1} 일간의 일일 연승을 잃었습니다."
+	}
+
+	"Lost bet CM"
+	{
+		"ko"		"실패! 당신은 내기를 잃었습니다"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"다음 숫자가 {1} 이었기 때문에 당신은 내기를 잃었습니다."
+	}
+
+	"Low #1-3 CM"
+	{
+		"ko"		"낮음 #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"ko"		"낮음 #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"ko"		"낮음 - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"ko"		"더 낮음"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"최소 {1}명의 플레이어가 필요합니다"
+	}
+
+	"Must be Alive CM"
+	{
+		"ko"		"이것을 사용하려면 살아 있어야 합니다."
+	}
+
+	"Must be dead CM"
+	{
+		"ko"		"플레이하려면 죽어야 합니다"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"ko"		"배수 = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"ko"		"활성화된 잭팟이 없습니다"
+	}
+
+	"No active TeamBet CM"
+	{
+		"ko"		"아직 팀 베팅이 이루어지지 않았습니다"
+	}
+
+	"No have flag CM"
+	{
+		"ko"		"이 명령어를 사용할 권한이 없습니다."
+	}
+
+	"No matching color CM"
+	{
+		"ko"		"일치하는 색상이 없습니다. 사용: r/빨강, b/검정 또는 g/초록"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"ko"		"아무도 떨어뜨린 크레딧을 주우지 않았습니다. 크레딧을 다시 받았습니다."
+	}
+
+	"No pick up - removed CM"
+	{
+		"ko"		"아무도 떨어뜨린 크레딧을 주우지 않았습니다. 크레딧은 제거되었습니다."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"시간 초과. 정답은 {1} 이었습니다."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"다른 누구도 잭팟에 현금을 입금하지 않았습니다. {1} {2}가 반환됩니다!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"ko"		"크레딧이 부족합니다"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"ko"		"지금 기브어웨이가 진행 중입니다. 몇 초 후에 다시 시도해 주세요."
+	}
+
+	"Only number CM"
+	{
+		"ko"		"숫자만 입력할 수 있습니다..."
+	}
+
+	"Override Disabled CM"
+	{
+		"ko"		"현재 스킨은 모자를 지원하지 않습니다. 장착된 모자는 비활성화됩니다."
+	}
+
+	"Override Enabled CM"
+	{
+		"ko"		"현재 스킨은 모자를 지원하지 않습니다. 스킨이 변경됩니다."
+	}
+
+	"Owned CM"
+	{
+		"ko"		"[소유]"
+	}
+
+	"Package Gift CM"
+	{
+		"ko"		"이 패키지를 선물로 주기"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"이 패키지를 {1}에 판매합니다."
+	}
+
+	"Package Voucher CM"
+	{
+		"ko"		"패키지에서 바우처 만들기"
+	}
+
+	"Parachute Empty CM"
+	{
+		"ko"		"낙하산 비어 있음"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"ko"		"낙하산 재장전"
+	}
+
+	"Particles CM"
+	{
+		"ko"		"입자:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"{1} {2} 을 배치"
+	}
+
+	"Play Preview CM"
+	{
+		"ko"		"미리보기 소리를 재생하고 있습니다."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"ko"		"{1}는 {2} 크레딧을 가지고 있습니다."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"{1} 가 리셋되었습니다."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"ko"		"스토어 플레이어 스킨 모듈이 현재 일시적으로 비활성화되었습니다."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"ko"		"{1}는 {2} {3}을(를) 잭팟에 추가했습니다. 현재의 당첨 확률은 {4}%입니다(잭팟: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ko"		"{1}은 {4}에서 {2} {3}을(를) 잃었습니다."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ko"		"{1}는 {2} {3}으로 잭팟을 열었습니다. 그 돈을 얻으려면 캐시인 하세요!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"ko"		"{1}는 {2} {3}으로 잭팟에 당첨되었습니다!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"ko"		"{1}은 {4}에서 {2} {3}을(를) 획득했습니다."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"ko"		"{1}은(는) {2} {3}를 x{4} 배수로 {5}에서 얻었습니다."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"ko"		"새로운 설정은 다음 스폰에서 적용됩니다."
+	}
+
+	"Press CM"
+	{
+		"ko"		"누르세요"
+	}
+
+	"Press to Start CM"
+	{
+		"ko"		"시작하려면 누르세요!"
+	}
+
+	"Press to Stop CM"
+	{
+		"ko"		"중지하려면 누르세요!"
+	}
+
+	"Preview Item CM"
+	{
+		"ko"		"이 아이템 미리보기"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"가격: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"ko"		"바우처 구매"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"ko"		"{1} {2} {3} 는 얼마인가요? | 상금: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"ko"		"빨간색"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"ko"		"바우처 사용"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"{1} {2} 을 다시 실행"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"ko"		"이번 라운드에서 구매할 수 있는 최대 리스폰 수에 도달했습니다."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"ko"		"보안상의 이유로 짧은 시간 내에 여러 요청을 보낼 수 없습니다."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"ko"		"두 번째 우승자가 더 이상 게임에 없습니다. 새로운 우승자를 찾으려는 마지막 시도입니다."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"이 명령을 다시 사용하려면 {1}초를 기다려야 합니다."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"ko"		"총알 불꽃 표시"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"ko"		"총알 자취 표시"
+	}
+
+	"Show gloves CM"
+	{
+		"ko"		"장갑 표시"
+	}
+
+	"Show paintball CM"
+	{
+		"ko"		"페인트볼 표시"
+	}
+
+	"Show particles CM"
+	{
+		"ko"		"입자 표시"
+	}
+
+	"Show pets CM"
+	{
+		"ko"		"애완동물 표시"
+	}
+
+	"Show trails CM"
+	{
+		"ko"		"자취 표시"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"최소값({1})보다 작은 값을 사용할 수 없습니다"
+	}
+
+	"Spacer CM"
+	{
+		"ko"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"스팸 보호. {1}초 기다려 주세요."
+	}
+
+	"Spawn Preview CM"
+	{
+		"ko"		"미리보기가 생성되었습니다. 미리보기는 45초 후에 사라집니다."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"ko"		"미리보기가 생성되었습니다. 미리보기는 {1}초 후에 사라집니다."
+	}
+
+	"Start again from begin CM"
+	{
+		"ko"		"처음부터 다시 시작하세요"
+	}
+
+	"Starting CM"
+	{
+		"ko"		"시작"
+	}
+
+	"Stay CM"
+	{
+		"ko"		"스탠드"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"ko"		"정말로 장비를 초기화하시겠습니까? 모든 아이템이 해제됩니다."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"ko"		"바우처를 성공적으로 구매했습니다"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"ko"		"이 아이템은 다른 플레이어 클래스를 사용하기 위해 의도되었습니다."
+	}
+
+	"Tail CM"
+	{
+		"ko"		"꼬리"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"ko"		"이미 이 라운드에 대한 베팅을 했습니다."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"ko"		"잘못된 팀 식별자가 지정되었습니다."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신은 베팅에서 {1} {2}을(를) 잃었습니다."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"ko"		"이번 라운드의 베팅 기간이 끝났습니다."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"당신은 {1} 크레딧의 베팅을 성공적으로 했습니다."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신의 베팅은 성공적이었습니다. {1} {2}을(를) 획득했습니다."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"ko"		"다른 팀에 베팅이 없었으므로 크레딧이 반환되었습니다."
+	}
+
+	"Terrorist CM"
+	{
+		"ko"		"테러리스트"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"선택된 숫자는: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"다음 숫자는 {1} 이었습니다."
+	}
+
+	"This is the preview text CM"
+	{
+		"ko"		"이것은 미리보기 텍스트입니다."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"관리자가 상점 구성을 다시 로드했습니다. 맵은 {1}초 후에 다시 로드됩니다!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"ko"		"아이템 쿠폰 생성 메뉴 (관리자 전용).\n \n아이템 지속 시간을 선택하세요."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"ko"		"아이템 쿠폰 생성 메뉴 (관리자 전용)"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"크레딧: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"ko"		"만료일 {1}일 {2}시간"
+	}
+
+	"Title Gift CM"
+	{
+		"ko"		"선물을 보낼 플레이어를 선택하세요"
+	}
+
+	"Title Store CM"
+	{
+		"ko"		"상점 메뉴"
+	}
+
+	"To late chat input CM"
+	{
+		"ko"		"주어진 시간 내에 텍스트 입력이 완료되지 않았습니다"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"지면에 {1}이 너무 많아서 지금은 더 이상 떨어뜨릴 수 없습니다!"
+	}
+
+	"Top Credits CM"
+	{
+		"ko"		"상위 크레딧"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"ko"		"상위 크레딧 + 인벤토리 가치"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"ko"		"상위 인벤토리 가치"
+	}
+
+	"Top Most Items CM"
+	{
+		"ko"		"가장 인기 있는 아이템"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"합계: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"ko"		"다시 시도하세요"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"ko"		"채팅에 !bet <베팅> [ct/t] 을 입력하세요"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"ko"		"채팅에 !blackjack <배팅> 을 입력하세요"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"ko"		"채팅에 !coinflip <베팅> [h/t] 을 입력하세요"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"ko"		"채팅에 !crash <배팅> 을 입력하세요"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"ko"		"채팅에 !crowns <베팅> 을 입력하세요"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"ko"		"채팅에 입력 !dice <베팅> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"ko"		"채팅에 !jackpot <베팅> 을 입력하세요"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"ko"		"채팅에 !roulette <베팅> [r/b/g] 을 입력하세요"
+	}
+
+	"Unlimited CM"
+	{
+		"ko"		"무제한 - 여러 플레이어"
+	}
+
+	"Up CM"
+	{
+		"ko"		"위"
+	}
+
+	"Value less than 1 CM"
+	{
+		"ko"		"1보다 작은 값을 사용할 수 없습니다."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ko"		"{1} 볼륨이 {2}로 설정되었습니다"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"ko"		"현재 바우처 코드는 정확히 17자로 되어야 합니다"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"이 바우처의 가치는 {1} {2} 입니다"
+	}
+
+	"Voucher accepted CM"
+	{
+		"ko"		"바우처가 수락되었습니다"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"ko"		"바우처가 수락되었습니다"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"ko"		"{1} {2}한정 바우처{3}를 생성 중이며, 값은 {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"ko"		"당신은 {1} {2}한정 쿠폰{3}을 생성하고 있습니다, 값은 {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"입력한 바우처 코드는 이미 {1} 에 사용되었습니다"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"이 바우처는 {1}에 만료됩니다"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"입력한 바우처 코드가 {1} 에 만료되었습니다"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"ko"		"새로운 바우처 {1}가 {2} {3} 의 가치로 생성되었습니다."
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"ko"		"바우처 코드는 채팅 및 콘솔에서도 찾을 수 있습니다"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"바우처 코드: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"입력한 바우처 코드 '{1}'는 유효하지 않습니다!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"ko"		"이 바우처에는 {1} ({2}) 가 포함되어 있습니다"
+	}
+
+	"Voucher valid CM"
+	{
+		"ko"		"바우처 코드가 유효합니다"
+	}
+
+	"Vouchers CM"
+	{
+		"ko"		"바우처"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"다음 일일 미션까지 {1} 을(를) 기다려야 합니다."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"ko"		"오늘은 이미 체크인 했습니다. 내일 다시 오세요."
+	}
+
+	"Win = CM"
+	{
+		"ko"		"승리 = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"ko"		"우승자가 더 이상 게임에 없습니다. 새로운 우승자를 찾으려고 합니다."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"ko"		"바우처 코드 형식이 잘못되었습니다. XXXXX-XXXXX-XXXXX 형식이어야 합니다"
+	}
+
+	"You CM"
+	{
+		"ko"		"너"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"ko"		"이미 {1} {2}를 잭팟에 현금화했습니다. 현재 승리 확률: {3}%% 잭팟: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"ko"		"입력한 바우처 아이템을 이미 소유하고 있습니다"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"ko"		"입력한 바우처 코드를 이미 사용했습니다"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"ko"		"새로운 잭팟을 시작할 수 있습니다."
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"새로운 잭팟을 {1} 후에 시작할 수 있습니다."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"그렇게 많은 크레딧을 사용할 수 없습니다 (최대: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신은 {1} {2} 를 모았습니다"
+	}
+
+	"You don't have permission CM"
+	{
+		"ko"		"이것에 접근할 권한이 없습니다."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신은 {1} {2} 를 떨어뜨렸습니다"
+	}
+
+	"You earned no points this round CM"
+	{
+		"ko"		"이번 라운드에서는 점수를 얻지 않았습니다."
+	}
+
+	"You earned this round CM"
+	{
+		"ko"		"이번 라운드를 얻었습니다:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신은 {1} {2}을(를) 얻었습니다 "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"이번 라운드에서 {1} {2} 을(를) 획득했습니다"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신은 {1} {2}을 받았습니다."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신은 {1} {2}을 받았습니다."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ko"		"당신은 {1} ({2})를 받았습니다."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ko"		"당신은 {1} ({2})를 받았습니다."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"최소한 {1} {2}를 사용해야 합니다."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"최소한 {1} {2}를 사용해야 합니다."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"ko"		"주어진 시간 내에 상자를 열지 않았습니다. 루트박스가 인벤토리로 돌아왔습니다"
+	}
+
+	"You lose CM"
+	{
+		"ko"		"- 당신은 졌습니다"
+	}
+
+	"You lost with CM"
+	{
+		"ko"		"이것으로 졌습니다"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신은 {1} {2}을/를 잃었습니다"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"ko"		"'데일리 챌린지'를 마스터했습니다! 다시 도전해 보세요!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신은 {1} {2}을/를 이겼습니다"
+	}
+
+	"You won CM"
+	{
+		"ko"		"!!! 당신이 이겼습니다 !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"ko"		"당신은 {1} ({2})을(를) 획득했습니다!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신은 {1} {2}으로 잭팟에 당첨되었습니다!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"ko"		"당신은 {1} {2}으로 잭팟을 획득했지만, 카지노 수수료 {3} {4} ({5}%)가 차감됩니다."
+	}
+
+	"You won with CM"
+	{
+		"ko"		"이것으로 이겼습니다"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"ko"		"당신은 x{2} 배수로 {1} 크레딧을 얻었습니다."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"내일 {1} {2} 을(를) 벌게 됩니다!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"ko"		"당신의 배팅: {1} {2} - 기회: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"당신의 베팅: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"ko"		"현재 승리 확률이 {1}%로 변경되었습니다"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"{2} 를 처치하여 {1} 크레딧을 획득했습니다."
+	}
+
+	"admin CM"
+	{
+		"ko"		"관리자"
+	}
+
+	"and is limited CM"
+	{
+		"ko"		"그리고 제한되어 있습니다"
+	}
+
+	"and is unlimited CM"
+	{
+		"ko"		"그리고 무제한입니다"
+	}
+
+	"arms CM"
+	{
+		"ko"		"팔"
+	}
+
+	"assist a kill CM"
+	{
+		"ko"		"킬 어시스트"
+	}
+
+	"attachment CM"
+	{
+		"ko"		"부착물"
+	}
+
+	"backstab kill CM"
+	{
+		"ko"		"백스탭 킬"
+	}
+
+	"be the MVP CM"
+	{
+		"ko"		"MVP가 되다"
+	}
+
+	"bet x CM"
+	{
+		"ko"		"내기 x"
+	}
+
+	"blackjack CM"
+	{
+		"ko"		"블랙잭"
+	}
+
+	"bomb defused CM"
+	{
+		"ko"		"폭탄 해제"
+	}
+
+	"bomb explode CM"
+	{
+		"ko"		"폭탄 폭발"
+	}
+
+	"bomb planted CM"
+	{
+		"ko"		"폭탄 설치"
+	}
+
+	"bombtweak CM"
+	{
+		"ko"		"폭탄 조정"
+	}
+
+	"bullet_impact CM"
+	{
+		"ko"		"총알 충격"
+	}
+
+	"bulletsparks CM"
+	{
+		"ko"		"총알 불꽃"
+	}
+
+	"bunnyhob CM"
+	{
+		"ko"		"토끼 점프"
+	}
+
+	"bunnyhop CM"
+	{
+		"ko"		"기술"
+	}
+
+	"casino CM"
+	{
+		"ko"		"카지노"
+	}
+
+	"coinflip CM"
+	{
+		"ko"		"동전 던지기"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"구성을 재설정하시겠습니까?\n맵은 {1}초 후에 다시 로드됩니다!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"ko"		"구성을 재설정하시겠습니까?\n변경 사항을 적용하려면 맵을 변경해야 합니다. 그렇지 않으면 버그가 발생할 수 있습니다."
+	}
+
+	"connect CM"
+	{
+		"ko"		"연결 메시지"
+	}
+
+	"crash CM"
+	{
+		"ko"		"크래쉬"
+	}
+
+	"creditstoplist CM"
+	{
+		"ko"		"크레딧"
+	}
+
+	"crowns CM"
+	{
+		"ko"		"왕관 슬롯"
+	}
+
+	"daily CM"
+	{
+		"ko"		"일일 보너스"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"ko"		"미끼 수류탄 킬"
+	}
+
+	"dice CM"
+	{
+		"ko"		"주사위"
+	}
+
+	"direction CM"
+	{
+		"ko"		"방향"
+	}
+
+	"discount CM"
+	{
+		"ko"		"세일"
+	}
+
+	"distance CM"
+	{
+		"ko"		"거리"
+	}
+
+	"dmgtext CM"
+	{
+		"ko"		"화가"
+	}
+
+	"emote CM"
+	{
+		"ko"		"이모트"
+	}
+
+	"escape as VIP CM"
+	{
+		"ko"		"VIP로 탈출하기"
+	}
+
+	"flashbang kill CM"
+	{
+		"ko"		"플래시뱅 킬"
+	}
+
+	"flashlight CM"
+	{
+		"ko"		"손전등"
+	}
+
+	"froggyjump CM"
+	{
+		"ko"		"개구리 점프"
+	}
+
+	"gloves CM"
+	{
+		"ko"		"장갑"
+	}
+
+	"glow CM"
+	{
+		"ko"		"빛"
+	}
+
+	"godmode CM"
+	{
+		"ko"		"갓모드"
+	}
+
+	"gravity CM"
+	{
+		"ko"		"능력"
+	}
+
+	"grenademodel CM"
+	{
+		"ko"		"수류탄 모델"
+	}
+
+	"grenadeskin CM"
+	{
+		"ko"		"수류탄 스킨"
+	}
+
+	"grenadetrail CM"
+	{
+		"ko"		"수류탄 자국"
+	}
+
+	"hat CM"
+	{
+		"ko"		"모자"
+	}
+
+	"headshot CM"
+	{
+		"ko"		"헤드샷"
+	}
+
+	"health CM"
+	{
+		"ko"		"팩"
+	}
+
+	"high or low CM"
+	{
+		"ko"		"높거나 낮음"
+	}
+
+	"hiteff CM"
+	{
+		"ko"		"타격 효과:"
+	}
+
+	"hitsound CM"
+	{
+		"ko"		"타격음"
+	}
+
+	"hostage rescued CM"
+	{
+		"ko"		"인질 구조"
+	}
+
+	"hunterjump CM"
+	{
+		"ko"		"헌터 점프"
+	}
+
+	"idle on the server CM"
+	{
+		"ko"		"서버에서 유휴 상태"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"{1} 내."
+	}
+
+	"infinityammo CM"
+	{
+		"ko"		"무한 탄약"
+	}
+
+	"info CM"
+	{
+		"ko"		"정보 패널"
+	}
+
+	"instabomb CM"
+	{
+		"ko"		"즉시 심기 / 해체"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"ko"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"ko"		"능력"
+	}
+
+	"items CM"
+	{
+		"ko"		"아이템"
+	}
+
+	"jackpot CM"
+	{
+		"ko"		"잭팟"
+	}
+
+	"jetpack CM"
+	{
+		"ko"		"로켓"
+	}
+
+	"jihad CM"
+	{
+		"ko"		"폭탄"
+	}
+
+	"kill CM"
+	{
+		"ko"		"죽이다"
+	}
+
+	"kill the VIP CM"
+	{
+		"ko"		"VIP를 죽여라"
+	}
+
+	"kill yourself CM"
+	{
+		"ko"		"자살하다"
+	}
+
+	"killeff CM"
+	{
+		"ko"		"킬 효과:"
+	}
+
+	"knife CM"
+	{
+		"ko"		"칼"
+	}
+
+	"knife kill CM"
+	{
+		"ko"		"칼 킬"
+	}
+
+	"laserdraw CM"
+	{
+		"ko"		"레이저 드로우:"
+	}
+
+	"laserpointer CM"
+	{
+		"ko"		"레이저 포인터"
+	}
+
+	"lasersight CM"
+	{
+		"ko"		"레이저 조준기"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"마지막 업데이트 {1} 전"
+	}
+
+	"light CM"
+	{
+		"ko"		"빛"
+	}
+
+	"lootbox CM"
+	{
+		"ko"		"전리품 상자"
+	}
+
+	"mirror CM"
+	{
+		"ko"		"거울"
+	}
+
+	"molotov kill CM"
+	{
+		"ko"		"몰로토프 킬"
+	}
+
+	"msgcolor CM"
+	{
+		"ko"		"메시지 색상"
+	}
+
+	"mvp_sound CM"
+	{
+		"ko"		"MVP 찬가"
+	}
+
+	"namecolor CM"
+	{
+		"ko"		"이름 색상"
+	}
+
+	"nametag CM"
+	{
+		"ko"		"이름 태그"
+	}
+
+	"nearest CM"
+	{
+		"ko"		"가장 가까운"
+	}
+
+	"nodiscount CM"
+	{
+		"ko"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"ko"		"엎드리기 지연 없음"
+	}
+
+	"nofalldamage CM"
+	{
+		"ko"		"낙하 피해 없음"
+	}
+
+	"noreload CM"
+	{
+		"ko"		"리로드 없음"
+	}
+
+	"noscope kill CM"
+	{
+		"ko"		"노스코프 킬"
+	}
+
+	"noselfdamage CM"
+	{
+		"ko"		"자기 자신에게 피해 없음"
+	}
+
+	"or use buttons below CM"
+	{
+		"ko"		"또는 아래 버튼을 사용하세요"
+	}
+
+	"package CM"
+	{
+		"ko"		"패키지"
+	}
+
+	"paintball CM"
+	{
+		"ko"		"총알"
+	}
+
+	"painter CM"
+	{
+		"ko"		"화가"
+	}
+
+	"parachute CM"
+	{
+		"ko"		"낙하산"
+	}
+
+	"particle CM"
+	{
+		"ko"		"입자"
+	}
+
+	"pet CM"
+	{
+		"ko"		"애완 동물"
+	}
+
+	"playerskin CM"
+	{
+		"ko"		"플레이어 스킨"
+	}
+
+	"playing on the server CM"
+	{
+		"ko"		"서버에서 플레이 중"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"우리 서버에서 {1} 일 연속으로 플레이 중"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"다음 스폰에서 {1} 을 받게 됩니다"
+	}
+
+	"respawn CM"
+	{
+		"ko"		"리스폰"
+	}
+
+	"roulette CM"
+	{
+		"ko"		"룰렛"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"say sound의 최대 사용 횟수에 도달했습니다. {1} 번/맵당 최대 사용 횟수"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"ko"		"say sound의 최대 사용 횟수에 도달했습니다. {1} 번/라운드당 최대 사용 횟수"
+	}
+
+	"saysound CM"
+	{
+		"ko"		"소리 말하기"
+	}
+
+	"scoreboardtag CM"
+	{
+		"ko"		"점수판 태그"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"ko"		"스모크 수류탄 킬"
+	}
+
+	"sound CM"
+	{
+		"ko"		"소리"
+	}
+
+	"spawn CM"
+	{
+		"ko"		"추가 리스폰"
+	}
+
+	"spawneff CM"
+	{
+		"ko"		"스폰 효과:"
+	}
+
+	"speed CM"
+	{
+		"ko"		"능력"
+	}
+
+	"spray CM"
+	{
+		"ko"		"스프레이"
+	}
+
+	"start daily challange CM"
+	{
+		"ko"		"'데일리 챌린지'를 시작하세요. 다음 6일 동안 플레이하여 전체 보너스를 받으세요"
+	}
+
+	"taser kill CM"
+	{
+		"ko"		"테이저 킬"
+	}
+
+	"teambet CM"
+	{
+		"ko"		"팀베팅"
+	}
+
+	"teamkill CM"
+	{
+		"ko"		"팀킬"
+	}
+
+	"tfhat CM"
+	{
+		"ko"		"건물 모자"
+	}
+
+	"tfhatdye CM"
+	{
+		"ko"		"모자 염색"
+	}
+
+	"tfhead CM"
+	{
+		"ko"		"머리 크기"
+	}
+
+	"tfunusual CM"
+	{
+		"ko"		"모자 효과"
+	}
+
+	"tfweapon CM"
+	{
+		"ko"		"맞춤형 무기"
+	}
+
+	"tfweaponsize CM"
+	{
+		"ko"		"무기 크기"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"상금은 {1}초 후에 추첨됩니다"
+	}
+
+	"thirdperson CM"
+	{
+		"ko"		"3인칭"
+	}
+
+	"throwknife CM"
+	{
+		"ko"		"칼 던지기"
+	}
+
+	"toplists CM"
+	{
+		"ko"		"상위 목록"
+	}
+
+	"tracer CM"
+	{
+		"ko"		"추적기"
+	}
+
+	"trail CM"
+	{
+		"ko"		"발자국"
+	}
+
+	"wasted CM"
+	{
+		"ko"		"낭비"
+	}
+
+	"watergun CM"
+	{
+		"ko"		"효과"
+	}
+
+	"weapon CM"
+	{
+		"ko"		"무기"
+	}
+
+	"weaponcolor CM"
+	{
+		"ko"		"무기 색상"
+	}
+
+	"weaponmodel CM"
+	{
+		"ko"		"무기 모델"
+	}
+
+	"weaponskin CM"
+	{
+		"ko"		"무기 스킨"
+	}
+
+	"win the round CM"
+	{
+		"ko"		"라운드 승리"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"ko"		"{1} {2} '{3}'에 대해"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ko"		"{1} 시간 {2} 분 {3} 초"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"ko"		"{1} 시간 {2} 분과 {3} 초"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ko"		"{1} 분 {2} 초"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"ko"		"{1} 분과 {2} 초"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"{1} 초"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"ko"		"{1} 초"
+	}
+
+	"zrclass CM"
+	{
+		"ko"		"플레이어 클래스"
+	}
 }

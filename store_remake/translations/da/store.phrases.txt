@@ -2279,4 +2279,2788 @@
 	{
 		"da"		"spiller klasse"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1}21 !!! BLACKJACK !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Du har allerede genindlæst konfigurationen. Venligst skift eller genindlæs kortet."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Alle deltagende spillere frakobles, ingen får sitt {2} tilbake, haha. Jackpot var {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"da"		"Alle genererede og gyldige kuponer er:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"da"		"Du vandt, men ejer allerede {1} ({2}). Objektet blev solgt for {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"da"		"Du ejer allerede {1} ({2}). Du har fået {3} {4} tilbage"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Beløb: {1}"
+	}
+
+	"Aura CM"
+	{
+		"da"		"Aura:"
+	}
+
+	"Back CM"
+	{
+		"da"		"Tilbage"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"da"		"Indsats * Multiplikator = Din sejr"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Bonus credits: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Pot CT vinder: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Maximumbet ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Minimumbet ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"da"		"Random bet ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Pot T vinder: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"da"		"Satse på"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"da"		"Ast på hoved/hal"
+	}
+
+	"Bet on a color CM"
+	{
+		"da"		"Spil på en farve, og hvis denne farve vælges, vinder du!"
+	}
+
+	"Bet on a number CM"
+	{
+		"da"		"Spil på Lav (#1-3), Høj (#4-6) eller et præcist tal. Hvis dit valg bliver kastet, vinder du!"
+	}
+
+	"Bet on a team CM"
+	{
+		"da"		"Spil på et hold, og hvis holdet vinder runden, vinder du!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"da"		"Du har allerede placeret dit væddemål for denne runde."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"da"		"Der er angivet en ugyldig team-identifikator."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du tabte {1} kreditter på væddemålet."
+	}
+
+	"Betting Period Over CM"
+	{
+		"da"		"Væddemålsperioden er over for denne runde."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du har med succes lagt et væddemål på {1} kreditter."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Din indsats var vellykket. Du vandt {1} kreditter."
+	}
+
+	"Black CM"
+	{
+		"da"		"sort"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"da"		"Blackjack er et spil, hvor værdien af dine kort skal være højere end dealerens, uden at overskride 21."
+	}
+
+	"Buy CM"
+	{
+		"da"		"Køb Genstand"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Køb vare ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"da"		"Du ændrede din farve til: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"da"		"Indstilling af chat-tag farve"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"da"		"Deaktiver farve"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"da"		"Egen farve for tag er deaktiveret."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"da"		"Du har ikke nogen navnetag udstyret"
+	}
+
+	"CP No file found CM"
+	{
+		"da"		"Brugerens tilpassede tag-farve er deaktiveret. Kontakt venligst administratoren for yderligere support."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"da"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"da"		"Viser forhåndsvisning af scorebord-tag, tryk venligst på TAB-knappen."
+	}
+
+	"Cancel CM"
+	{
+		"da"		"Annuller"
+	}
+
+	"Cant be bought CM"
+	{
+		"da"		"Denne vare kan ikke købes"
+	}
+
+	"Cash out CM"
+	{
+		"da"		"Udbetaling"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Skift din indsats: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du har købt en {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"da"		"{1} har sendt dig en {2} {3} som gave."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"da"		"Du har sendt {1} en {2} {3} som gave."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du har solgt en {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Du åbnede en container og fandt {1} credits!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"da"		"{1} åbnede en container og fandt {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"da"		"{1} åbnede en container og fandt {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"da"		"Tjek alle gyldige og tilgængelige vouchers (Kun Admin)"
+	}
+
+	"Check Voucher CM"
+	{
+		"da"		"Tjek en voucher"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"da"		"Tjek din genererede og gyldige tilgængelige voucher"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"da"		"Vælg nummer (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"da"		"Automatisk udbetaling:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"da"		"Din udstyr er blevet nulstillet."
+	}
+
+	"Client valid voucher CM"
+	{
+		"da"		"Din genererede og gyldige kupon er:\n "
+	}
+
+	"Close CM"
+	{
+		"da"		"Luk"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"da"		"Farvet røg"
+	}
+
+	"Command is in-game only CM"
+	{
+		"da"		"Du skal være i live for at bruge denne kommando."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"da"		"Konfigurationen er genindlæst. Venligst genstart eller skift kort."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Er du sikker på, at du vil købe {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"da"		"Er du sikker på, at du vil give {1} {2} til {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Er du sikker på, at du vil droppe {1} {2} som gave?"
+	}
+
+	"Confirm_No CM"
+	{
+		"da"		"Nej"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"da"		"Er du sikker på, at du vil sælge {1} {2} for {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Er du sikker på, at du vil konvertere {1} ({2}) til kupon?\nADVARSEL: Hvis varen i kuponen udløber, før den er indløst.\nDenne kupon vil udløbe."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"da"		"Ja"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"da"		"{1} fik svaret rigtigt og vandt {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"da"		"Counter-Terrorist"
+	}
+
+	"Crash Already Start CM"
+	{
+		"da"		"Crash-spillet er i øjeblikket i gang. Vent venligst på næste spil."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"da"		"Slukket"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"da"		"Slå automatisk udbetaling fra"
+	}
+
+	"Crash Auto On CM"
+	{
+		"da"		"Tændt"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"da"		"Slå automatisk udbetaling til"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"da"		"           Hvad er/ Hvordan spiller man: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"da"		"- Crash er et spil, hvor spillere kan satse på en multiplikator, denne multiplikator er relateret til en stigende kurve, der kan krasje når som helst."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"da"		"- Multiplikatoren starter ved 1.00x, og du kan udbetale når som helst."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"da"		"- Den minimale indsatsværdi er {1} {2}. Den maksimale indsatsværdi er {3} {4}. Disse grænser kan ændre sig med tiden."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"da"		"Forkert input (skal være {1} eller højere)."
+	}
+
+	"Crash auto input CM"
+	{
+		"da"		"Skriv din automatiske udbetalingsværdi i chatten"
+	}
+
+	"Crash auto input set CM"
+	{
+		"da"		"Crash auto cashout sat"
+	}
+
+	"Crash set auto CM"
+	{
+		"da"		"Sæt automatisk udbetalingsværdi"
+	}
+
+	"Crash! CM"
+	{
+		"da"		"Crash!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"da"		"Opret en varevoucher (Kun admin)"
+	}
+
+	"Create Voucher CM"
+	{
+		"da"		"Opret en voucher"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Oprettelse af voucher mislykkedes - Kontakt en admin med følgende tidsstempel: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"da"		"Kreditgave er deaktiveret på denne server."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du droppede {1} credits som gave."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"da"		"{2} har sendt dig {1} kreditter."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"da"		"Du har sendt {1} kreditter til {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"da"		"Du har ikke nok kreditter til at oprette en giveaway."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"da"		"Ugyldig mængde kreditter indtastet."
+	}
+
+	"Credit No Match CM"
+	{
+		"da"		"Der blev ikke fundet nogen spiller."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"da"		"Du har ikke nok kreditter til at købe dette."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"da"		"Der blev fundet mere end én klient."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"da"		"Du har ikke nok credits til at oprette et voucher."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"da"		"Du tjente {1} kreditter for at dræbe {2}."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du tjente {1} kreditter for at spille på serveren."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"da"		"{1} har fået {2} credits."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"da"		"Kreditter: {1}          Pulje: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"da"		"Deaktiveret"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"da"		"Aktiveret"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"da"		"[Brugerdefineret våbenlyd]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"da"		"Menu til styring af volumen for brugerdefineret våbenlyd"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Volumen: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"da"		"Brugerdefineret våbenlyd: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"da"		"Brugerdefineret våbenlyd er Deaktiveret."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"da"		"Brugerdefineret våbenlyd er aktiveret."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Brugerdefineret våbenlyd er aktiveret. Volumen: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"da"		"Brugerdefineret våbenmodel:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"da"		"Skad boksen for at åbne!"
+	}
+
+	"Dead heat CM"
+	{
+		"da"		"- uafgjort -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"da"		"             DEAL     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"da"		"DEALER"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Rabatten: '{1}' er aktiv! God shopping!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Rabatten: '{1}' er slut!"
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Rabatten: '{1}' er startet! God shopping!"
+	}
+
+	"Double CM"
+	{
+		"da"		"Doble"
+	}
+
+	"Down CM"
+	{
+		"da"		"Ned"
+	}
+
+	"Down2 CM"
+	{
+		"da"		"                      5 = Ned"
+	}
+
+	"Drop Gift CM"
+	{
+		"da"		"Drop som gave"
+	}
+
+	"Edit Amount CM"
+	{
+		"da"		"Rediger mængde: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"da"		"Indtast venligst udløbstiden (i sekunder) for objektet i chatten!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"da"		"Ugyldigt nummerformat. Prøv igen."
+	}
+
+	"Enter custom amount CM"
+	{
+		"da"		"Indtast venligst dit tilpassede beløb i chatten!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"da"		"Indtast venligst den maksimale værdi af kreditter i chatten!"
+	}
+
+	"Enter minimum value CM"
+	{
+		"da"		"Indtast venligst minimumsværdien af kreditter i chatten!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"da"		"Indtast venligst antallet af vouchers, der skal oprettes i chatten!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"da"		"Indtast venligst værdien af den voucher, der skal købes i chatten!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"da"		"Indtast venligst din voucher-kode i chatten!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"da"		"Der opstod en fejl under tilbagebetaling af prisen. Kontakt venligst en administrator"
+	}
+
+	"Exact #x  = CM"
+	{
+		"da"		"Præcis #x = "
+	}
+
+	"Exit CM"
+	{
+		"da"		"Afslut"
+	}
+
+	"Gained CM"
+	{
+		"da"		"Optjent"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"da"		"Optjent: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"da"		"Spilinfo"
+	}
+
+	"Game in progress CM"
+	{
+		"da"		"Dit nuværende væddemål er i gang. Venligst vent indtil det er færdigt."
+	}
+
+	"Get three on a kind CM"
+	{
+		"da"		"Få tre på én gang"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du har samlet {1} kreditter."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du har samlet en {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"da"		"Der er ingen, du kan give denne vare til."
+	}
+
+	"Gift Player Left CM"
+	{
+		"da"		"Den valgte spiller er allerede forladt spillet."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"da"		"{1} For at lave et giveaway, skal serveren indeholde mindst {2} spillere."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"da"		"Admin {1} åbnede et giveaway med <font color='#15fb00'>{2} credits"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"|| Giveaway starter om {1} sekunder ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"da"		"{1} {2} vandt et giveaway med {3} kreditter"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"da"		"{1}\n|| Vinder: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"da"		"Du har nået det maksimale antal godmodes, du kan købe denne runde."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"da"		"Du kan ikke bruge godmode i dette hold."
+	}
+
+	"Green CM"
+	{
+		"da"		"grøn"
+	}
+
+	"HE grenade kill CM"
+	{
+		"da"		"HE granat kill"
+	}
+
+	"HUD CM"
+	{
+		"da"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"da"		"Hoved"
+	}
+
+	"Health Round Limit CM"
+	{
+		"da"		"Du har nået det maksimale antal sundhedspakker, du kan købe denne runde."
+	}
+
+	"Help_Back CM"
+	{
+		"da"		"Tilbage"
+	}
+
+	"Help_Exit CM"
+	{
+		"da"		"Afslut"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"da"		"Skjul kuglestråler"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"da"		"Skjul skudspor"
+	}
+
+	"Hide gloves CM"
+	{
+		"da"		"Skjul handsker"
+	}
+
+	"Hide paintball CM"
+	{
+		"da"		"Skjul paintballs"
+	}
+
+	"Hide particles CM"
+	{
+		"da"		"Skjul partikler"
+	}
+
+	"Hide pets CM"
+	{
+		"da"		"Skjul kæledyr"
+	}
+
+	"Hide trails CM"
+	{
+		"da"		"Skjul spor"
+	}
+
+	"High #4-6 CM"
+	{
+		"da"		"Høj #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"da"		"Høj #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"da"		"High - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"da"		"HØJERE"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Det valgte nummer er: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Det næste nummer var: {1}"
+	}
+
+	"Hit CM"
+	{
+		"da"		"Hit"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"da"		"Et tal mellem {1} og {2} er blevet valgt for dig at gætte, om det næste tal vil være højere eller lavere end det valgte tal."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"da"		"Hvis du vælger den rigtige, vinder du dobbelt så meget som din indsats."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"da"		"Der er en pause på {1} sekund(er) mellem hvert spil."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du har med succes placeret {1} {2}."
+	}
+
+	"Inventory CM"
+	{
+		"da"		"Inventar"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"da"		"Vent venligst. Dit inventar er ikke blevet hentet endnu."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"da"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"da"		"Udstyr denne genstand"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1} [UDSTYRET]"
+	}
+
+	"Item Gift CM"
+	{
+		"da"		"Giv denne genstand"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1} (Vælg en plan)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Sælg for {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"da"		"Fjern udstyr"
+	}
+
+	"Item Use CM"
+	{
+		"da"		"Brug denne genstand"
+	}
+
+	"Item Voucher CM"
+	{
+		"da"		"Lav voucher fra genstand"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"da"		"Oprettelse af voucher for genstand er i øjeblikket deaktiveret."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"da"		"Du har konverteret {1} ({2}) til voucher {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"da"		"{1} skjult. Du vil ikke se dem mere."
+	}
+
+	"Item not found CM"
+	{
+		"da"		"Varen blev ikke fundet"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"da"		"{1} er synlige igen."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"da"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"da"		"Jackpot er sat på pause."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Jackpot: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"da"		"Jetpack er tom"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"da"		"[Jetpack] Brændstof: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"da"		"Jetpack er genindlæst"
+	}
+
+	"Jihad Failed CM"
+	{
+		"da"		"Din bombe mislykkedes at eksplodere."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"da"		"{1} jihad bombe mislykkedes med at eksplodere."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"da"		"Du kan ikke bruge bomben i dette hold."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"{1} minut(ter) før crash starter."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"{1} sekund(er) før crash starter."
+	}
+
+	"LevelIcon CM"
+	{
+		"da"		"niveau ikon"
+	}
+
+	"Limited CM"
+	{
+		"da"		"Begrænset - én spiller"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"da"		"Vent venligst, indtil din forrige kasse er åbnet"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"da"		"Kortet er slut. Vent venligst på næste kort"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"da"		"Runden er slut. Vent venligst på næste runde"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"da"		"Du kan ikke åbne under opvarmning"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Du har mistet din daglige streak af {1} dag(e)."
+	}
+
+	"Lost bet CM"
+	{
+		"da"		"Fejlet! Du tabte din indsats"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du tabte din indsats, fordi det næste nummer var: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"da"		"Lav #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"da"		"Lav #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"da"		"Low - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"da"		"LÆNGERE"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Vi har brug for mindst {1} spiller(e)"
+	}
+
+	"Must be Alive CM"
+	{
+		"da"		"Du skal være i live for at bruge dette."
+	}
+
+	"Must be dead CM"
+	{
+		"da"		"Du skal være død for at spille"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"da"		"Multiplikator = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"da"		"Ingen aktiv Jackpot"
+	}
+
+	"No active TeamBet CM"
+	{
+		"da"		"Der er ikke blevet placeret nogen holdindsatser endnu"
+	}
+
+	"No have flag CM"
+	{
+		"da"		"Du har ikke adgang til at bruge denne kommando."
+	}
+
+	"No matching color CM"
+	{
+		"da"		"Intet matchende farve, brug: r/rød, b/sort eller g/grøn"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"da"		"Der er ikke nogen der har samlet dine faldne kreditter op. Du får dem tilbage."
+	}
+
+	"No pick up - removed CM"
+	{
+		"da"		"Der er ikke nogen der har samlet dine faldne kreditter op. Kreditterne blev fjernet."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Tiden er ude. Det rigtige svar var {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Der er ikke andre, der har indløst penge i jackpotten. Du får dine {1} {2} tilbage!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"da"		"Du har ikke nok kreditter"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"da"		"Nu kører en giveaway, prøv igen om få sekunder."
+	}
+
+	"Only number CM"
+	{
+		"da"		"Du kan kun skrive tal..."
+	}
+
+	"Override Disabled CM"
+	{
+		"da"		"Din skin understøtter ikke hatte. Din udstyrede hat vil blive deaktiveret."
+	}
+
+	"Override Enabled CM"
+	{
+		"da"		"Din nuværende hud understøtter ikke hatte. Din hud vil blive ændret."
+	}
+
+	"Owned CM"
+	{
+		"da"		"[Ejet]"
+	}
+
+	"Package Gift CM"
+	{
+		"da"		"Giv denne pakke som gave"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Sælg denne pakke for {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"da"		"Opret voucher fra pakken"
+	}
+
+	"Parachute Empty CM"
+	{
+		"da"		"Parachute Tom"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"da"		"Parachute Genopladet"
+	}
+
+	"Particles CM"
+	{
+		"da"		"Partikler:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Placer {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"da"		"Afspiller forhåndsvisningslyd for dig."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"da"		"{1} har {2} kreditter."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1} er blevet nulstillet."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"da"		"Store Player Skin-modulet er i øjeblikket midlertidigt deaktiveret."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"da"		"{1} har sat {2} {3} ind i jackpot, hans nuværende vinderchance er: {4}% (Jackpot: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"da"		"{1} har tabt {2} {3} på {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"da"		"{1} har åbnet en jackpot med {2} {3}. Indløs for at få pengene!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"da"		"{1} vandt jackpotten med {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"da"		"{1} har vundet {2} {3} på {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"da"		"{1} har vundet {2} {3} med multiplikator x{4} på {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"da"		"Dine nye indstillinger vil blive anvendt ved næste spawn."
+	}
+
+	"Press CM"
+	{
+		"da"		"Tryk"
+	}
+
+	"Press to Start CM"
+	{
+		"da"		"Tryk for at starte!"
+	}
+
+	"Press to Stop CM"
+	{
+		"da"		"Tryk for at stoppe!"
+	}
+
+	"Preview Item CM"
+	{
+		"da"		"Forhåndsvis dette element"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Pris: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"da"		"Køb en voucher"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"da"		"Hvor meget er {1} {2} {3}? | Præmie: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"da"		"rød"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"da"		"Indløs en voucher"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Kør igen {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"da"		"Du har nået det maksimale antal respawns, du kan købe denne runde."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"da"		"Af sikkerhedsmæssige årsager kan du ikke sende flere anmodninger på kort tid."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"da"		"Den anden vinder er heller ikke længere i spil, sidste forsøg på at finde en ny vinder."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du skal vente {1} sekunder, før du kan prøve at bruge denne kommando igen."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"da"		"Vis kuglestråler"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"da"		"Vis skudspor"
+	}
+
+	"Show gloves CM"
+	{
+		"da"		"Vis handsker"
+	}
+
+	"Show paintball CM"
+	{
+		"da"		"Vis paintballs"
+	}
+
+	"Show particles CM"
+	{
+		"da"		"Vis partikler"
+	}
+
+	"Show pets CM"
+	{
+		"da"		"Vis kæledyr"
+	}
+
+	"Show trails CM"
+	{
+		"da"		"Vis spor"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Du kan ikke bruge en mindre værdi end din minimumsværdi ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"da"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Spam beskyttelse. Vent venligst {1} sekunder."
+	}
+
+	"Spawn Preview CM"
+	{
+		"da"		"Spawnet en forhåndsvisning. Forhåndsvisningen forsvinder om 45 sekunder."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"da"		"Spawnet en forhåndsvisning. Forhåndsvisningen forsvinder om {1} sekunder."
+	}
+
+	"Start again from begin CM"
+	{
+		"da"		"Venligst start igen fra starten"
+	}
+
+	"Starting CM"
+	{
+		"da"		"Starter"
+	}
+
+	"Stay CM"
+	{
+		"da"		"Stå"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"da"		"Er du sikker på, at du vil nulstille dit udstyr? Alle genstande vil blive fjernet."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"da"		"Du har succesfuldt købt en voucher"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"da"		"Dette objekt var beregnet til at blive brugt med en anden spillerklasse."
+	}
+
+	"Tail CM"
+	{
+		"da"		"Haleben"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"da"		"Du har allerede placeret dit væddemål for denne runde."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"da"		"Ugyldigt holdidentifikator angivet."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du tabte {1} {2} på væddemålet."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"da"		"Væddemålsperioden er slut for denne runde."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Du har med succes placeret et væddemål på {1} kreditter."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Dit væddemål var en succes. Du vandt {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"da"		"Der var ikke noget væddemål på det andet hold, så du fik dine kreditter tilbage."
+	}
+
+	"Terrorist CM"
+	{
+		"da"		"Terrorist"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Det valgte nummer er: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Det næste nummer var: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"da"		"Dette er preview-teksten."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Admin har genindlæst butikskonfigurationen. Kortet vil blive genindlæst om {1} sekunder!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"da"		"Admin Varevoucher Skaber Menu.\n \nVælg varens varighed."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"da"		"Admin Varevoucher Skaber Menu"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Kreditter: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"da"		"Udløber om {1}d {2}t"
+	}
+
+	"Title Gift CM"
+	{
+		"da"		"Vælg en spiller at sende gave til"
+	}
+
+	"Title Store CM"
+	{
+		"da"		"Butiks Menu"
+	}
+
+	"To late chat input CM"
+	{
+		"da"		"Din tekstinput er ikke blevet gjort inden for den givne tid"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Der er for mange {1} på jorden, du kan ikke droppe flere på nuværende tidspunkt!"
+	}
+
+	"Top Credits CM"
+	{
+		"da"		"Top Kreditter"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"da"		"Top Kreditter + Inventar Værdi"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"da"		"Top Inventar Værdi"
+	}
+
+	"Top Most Items CM"
+	{
+		"da"		"Top Mest Items"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Total: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"da"		"Prøv igen"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"da"		"Skriv i chatten !bet <indsats> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"da"		"Skriv i chatten !blackjack <indsats>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"da"		"Skriv i chatten !coinflip <indsats> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"da"		"Skriv i chatten !crash <indsats>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"da"		"Skriv i chatten !crowns <indsats>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"da"		"Skriv i chatten !dice <indsats> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"da"		"Skriv i chatten !jackpot <indsats>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"da"		"Skriv i chatten !roulette <indsats> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"da"		"Ubegrænset - flere spillere"
+	}
+
+	"Up CM"
+	{
+		"da"		"Op"
+	}
+
+	"Value less than 1 CM"
+	{
+		"da"		"Du kan ikke bruge en værdi mindre end 1."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"da"		"{1} volumen sat til {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"da"		"For nu skal voucher-koden være præcis 17 tegn"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Voucheren har en værdi på {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"da"		"Voucher blev accepteret"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"da"		"Voucher blev accepteret"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"da"		"Du genererer {1} {2}begrænset voucher{3} med værdi {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"da"		"Du genererer {1} {2}begrænset voucher{3} med værdierne {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Den indtastede voucherkode blev allerede indløst den {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Denne voucher udløber den {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Den indtastede voucherkode er udløbet den {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"da"		"Du har oprettet en ny voucher {1} med værdi {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"da"		"Du kan også finde voucher-koden i chatten og konsollen"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Voucher kode: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Den indtastede voucherkode '{1}' er ikke gyldig!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"da"		"Voucheren inkluderer {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"da"		"Voucherkoden er gyldig"
+	}
+
+	"Vouchers CM"
+	{
+		"da"		"Voucher"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Du skal vente {1} indtil næste daglige."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"da"		"Du har allerede tjekket ind i dag. Venligst kom tilbage i morgen."
+	}
+
+	"Win = CM"
+	{
+		"da"		"Vinder = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"da"		"Vinderen er ikke længere i spil, vi prøver at finde en ny vinder."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"da"		"Voucherkoden har forkert format. Den skal være XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"da"		"DU"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"da"		"Du har allerede indløst {1} {2} i jackpotten. Aktuel vinderchance: {3}%% Jackpot: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"da"		"Du ejer allerede den indtastede vouchergenstand"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"da"		"Du har allerede indløst den indtastede voucherkode"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"da"		"Du kan starte en ny Jackpot"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Du kan starte en ny Jackpot om {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du kan ikke bruge så mange kreditter (Max: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du har samlet {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"da"		"Du har ikke tilladelse til at få adgang til dette."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du droppede {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"da"		"Du tjente ingen point i denne runde."
+	}
+
+	"You earned this round CM"
+	{
+		"da"		"Du tjente denne runde:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du tjente {1} {2} for "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du tjente {1} {2} denne runde"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du har modtaget {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du har modtaget {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du modtog en {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du modtog en {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du skal bruge mindst {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du skal bruge mindst {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"da"		"Du har ikke åbnet boksen i den angivne tid. Lootboksen er tilbage i din inventar"
+	}
+
+	"You lose CM"
+	{
+		"da"		"- du tabte"
+	}
+
+	"You lost with CM"
+	{
+		"da"		"Du tabte med"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du tabte {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"da"		"Du har mestret 'daglig udfordring'! Prøv at slå den igen!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du vinder {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"da"		"!!! DU VANDT !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"da"		"Du vandt {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du vandt jackpotten med {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"da"		"Du vandt jackpotten med {1} {2} minus kasinoafgiften på {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"da"		"Du vandt med"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"da"		"Du vandt {1} kreditter med x{2}."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du vil tjene {1} {2} i morgen!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"da"		"Din indsats: {1} {2} - Chance: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Din indsats: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"da"		"Din nuværende vinderchance er ændret til {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du har tjent {1} kreditter for at dræbe {2}."
+	}
+
+	"admin CM"
+	{
+		"da"		"admin"
+	}
+
+	"and is limited CM"
+	{
+		"da"		"og er begrænset"
+	}
+
+	"and is unlimited CM"
+	{
+		"da"		"og er ubegrænset"
+	}
+
+	"arms CM"
+	{
+		"da"		"hænder"
+	}
+
+	"assist a kill CM"
+	{
+		"da"		"assistér et drab"
+	}
+
+	"attachment CM"
+	{
+		"da"		"Vedhæftning"
+	}
+
+	"backstab kill CM"
+	{
+		"da"		"backstab kill"
+	}
+
+	"be the MVP CM"
+	{
+		"da"		"være MVP"
+	}
+
+	"bet x CM"
+	{
+		"da"		"indsats x"
+	}
+
+	"blackjack CM"
+	{
+		"da"		"Blackjack"
+	}
+
+	"bomb defused CM"
+	{
+		"da"		"bombe desarmeret"
+	}
+
+	"bomb explode CM"
+	{
+		"da"		"bomben eksploderer"
+	}
+
+	"bomb planted CM"
+	{
+		"da"		"bombe plantet"
+	}
+
+	"bombtweak CM"
+	{
+		"da"		"Bombenjustering"
+	}
+
+	"bullet_impact CM"
+	{
+		"da"		"Skudimpact"
+	}
+
+	"bulletsparks CM"
+	{
+		"da"		"Projektildråber"
+	}
+
+	"bunnyhob CM"
+	{
+		"da"		"Kaninhop"
+	}
+
+	"bunnyhop CM"
+	{
+		"da"		"færdighed"
+	}
+
+	"casino CM"
+	{
+		"da"		"Casino"
+	}
+
+	"coinflip CM"
+	{
+		"da"		"Møntflip"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Vil du nulstille konfigurationen?\nKortet vil blive genindlæst om {1} sekunder!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"da"		"Vil du nulstille konfigurationen?\nDu skal ændre kortet for at anvende ændringerne, ellers kan der opstå fejl."
+	}
+
+	"connect CM"
+	{
+		"da"		"Connect Besked"
+	}
+
+	"crash CM"
+	{
+		"da"		"Crash"
+	}
+
+	"creditstoplist CM"
+	{
+		"da"		"kreditter"
+	}
+
+	"crowns CM"
+	{
+		"da"		"Krone Slot"
+	}
+
+	"daily CM"
+	{
+		"da"		"Daglig bonus"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"da"		"decoy granat kill"
+	}
+
+	"dice CM"
+	{
+		"da"		"Terning"
+	}
+
+	"direction CM"
+	{
+		"da"		"Retning"
+	}
+
+	"discount CM"
+	{
+		"da"		"UDSALG"
+	}
+
+	"distance CM"
+	{
+		"da"		"Afdstand"
+	}
+
+	"dmgtext CM"
+	{
+		"da"		"Maler"
+	}
+
+	"emote CM"
+	{
+		"da"		"Emote"
+	}
+
+	"escape as VIP CM"
+	{
+		"da"		"Flygt som VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"da"		"flashbang kill"
+	}
+
+	"flashlight CM"
+	{
+		"da"		"Lommelygte"
+	}
+
+	"froggyjump CM"
+	{
+		"da"		"Frø Hop"
+	}
+
+	"gloves CM"
+	{
+		"da"		"handsker"
+	}
+
+	"glow CM"
+	{
+		"da"		"glød"
+	}
+
+	"godmode CM"
+	{
+		"da"		"gudemode"
+	}
+
+	"gravity CM"
+	{
+		"da"		"evne"
+	}
+
+	"grenademodel CM"
+	{
+		"da"		"Granatmodel"
+	}
+
+	"grenadeskin CM"
+	{
+		"da"		"granat skin"
+	}
+
+	"grenadetrail CM"
+	{
+		"da"		"granat spor"
+	}
+
+	"hat CM"
+	{
+		"da"		"hue"
+	}
+
+	"headshot CM"
+	{
+		"da"		"headshot"
+	}
+
+	"health CM"
+	{
+		"da"		"pakke"
+	}
+
+	"high or low CM"
+	{
+		"da"		"Højere eller lavere"
+	}
+
+	"hiteff CM"
+	{
+		"da"		"hit eff:"
+	}
+
+	"hitsound CM"
+	{
+		"da"		"Slagslyd"
+	}
+
+	"hostage rescued CM"
+	{
+		"da"		"gidseltagende reddet"
+	}
+
+	"hunterjump CM"
+	{
+		"da"		"Jæger Hop"
+	}
+
+	"idle on the server CM"
+	{
+		"da"		"inaktiv på serveren"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"i {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"da"		"Uendelige patroner"
+	}
+
+	"info CM"
+	{
+		"da"		"Info Panel"
+	}
+
+	"instabomb CM"
+	{
+		"da"		"Instant plante / defuse"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"da"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"da"		"evne"
+	}
+
+	"items CM"
+	{
+		"da"		"Genstande"
+	}
+
+	"jackpot CM"
+	{
+		"da"		"Jackpot"
+	}
+
+	"jetpack CM"
+	{
+		"da"		"raket"
+	}
+
+	"jihad CM"
+	{
+		"da"		"bombe"
+	}
+
+	"kill CM"
+	{
+		"da"		"dræbe"
+	}
+
+	"kill the VIP CM"
+	{
+		"da"		"dræb VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"da"		"dræb dig selv"
+	}
+
+	"killeff CM"
+	{
+		"da"		"dræb eff:"
+	}
+
+	"knife CM"
+	{
+		"da"		"kniv"
+	}
+
+	"knife kill CM"
+	{
+		"da"		"knife kill"
+	}
+
+	"laserdraw CM"
+	{
+		"da"		"laser draw:"
+	}
+
+	"laserpointer CM"
+	{
+		"da"		"Laserpeger"
+	}
+
+	"lasersight CM"
+	{
+		"da"		"laser sigte"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"sidste opdatering {1} siden"
+	}
+
+	"light CM"
+	{
+		"da"		"Lys"
+	}
+
+	"lootbox CM"
+	{
+		"da"		"Lootbox"
+	}
+
+	"mirror CM"
+	{
+		"da"		"spejl"
+	}
+
+	"molotov kill CM"
+	{
+		"da"		"molotov dræbe"
+	}
+
+	"msgcolor CM"
+	{
+		"da"		"beskedfarve"
+	}
+
+	"mvp_sound CM"
+	{
+		"da"		"MVP hymner"
+	}
+
+	"namecolor CM"
+	{
+		"da"		"navnfarve"
+	}
+
+	"nametag CM"
+	{
+		"da"		"navneskilt"
+	}
+
+	"nearest CM"
+	{
+		"da"		"Nærmeste"
+	}
+
+	"nodiscount CM"
+	{
+		"da"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"da"		"Intet forsinkelse ved ducking"
+	}
+
+	"nofalldamage CM"
+	{
+		"da"		"Intet faldskader"
+	}
+
+	"noreload CM"
+	{
+		"da"		"Intet genindlæsning"
+	}
+
+	"noscope kill CM"
+	{
+		"da"		"noscope dræbe"
+	}
+
+	"noselfdamage CM"
+	{
+		"da"		"Ingen selvskade"
+	}
+
+	"or use buttons below CM"
+	{
+		"da"		"eller brug knapperne nedenfor"
+	}
+
+	"package CM"
+	{
+		"da"		"pakke"
+	}
+
+	"paintball CM"
+	{
+		"da"		"projektiler"
+	}
+
+	"painter CM"
+	{
+		"da"		"Maler"
+	}
+
+	"parachute CM"
+	{
+		"da"		"Fallskærm"
+	}
+
+	"particle CM"
+	{
+		"da"		"Partikler"
+	}
+
+	"pet CM"
+	{
+		"da"		"husdyr"
+	}
+
+	"playerskin CM"
+	{
+		"da"		"spiller skin"
+	}
+
+	"playing on the server CM"
+	{
+		"da"		"spiller på serveren"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"Spillede på vores server i {1} dage i træk"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Du vil modtage {1} ved næste spawn"
+	}
+
+	"respawn CM"
+	{
+		"da"		"Respawn"
+	}
+
+	"roulette CM"
+	{
+		"da"		"Roulette"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du har nået maksimalt antal brug af lydeffekter. {1} maksimalt antal brug pr. kort"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Du har nået maksimalt antal brug af lydeffekter. {1} maksimalt antal brug pr. runde"
+	}
+
+	"saysound CM"
+	{
+		"da"		"sig lyd"
+	}
+
+	"scoreboardtag CM"
+	{
+		"da"		"Scoreboard tag"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"da"		"smokegrenade kill"
+	}
+
+	"sound CM"
+	{
+		"da"		"lyd"
+	}
+
+	"spawn CM"
+	{
+		"da"		"Ekstra respawn"
+	}
+
+	"spawneff CM"
+	{
+		"da"		"spawn eff:"
+	}
+
+	"speed CM"
+	{
+		"da"		"evne"
+	}
+
+	"spray CM"
+	{
+		"da"		"sprøjt"
+	}
+
+	"start daily challange CM"
+	{
+		"da"		"Start 'daglig udfordring'. Spil de næste 6 dage for at modtage fuld bonus"
+	}
+
+	"taser kill CM"
+	{
+		"da"		"taser kill"
+	}
+
+	"teambet CM"
+	{
+		"da"		"TeamBet"
+	}
+
+	"teamkill CM"
+	{
+		"da"		"teamkill"
+	}
+
+	"tfhat CM"
+	{
+		"da"		"bygning hat"
+	}
+
+	"tfhatdye CM"
+	{
+		"da"		"hatt farve"
+	}
+
+	"tfhead CM"
+	{
+		"da"		"hovedstørrelse"
+	}
+
+	"tfunusual CM"
+	{
+		"da"		"hueffekt"
+	}
+
+	"tfweapon CM"
+	{
+		"da"		"brugerdefineret våben"
+	}
+
+	"tfweaponsize CM"
+	{
+		"da"		"våben størrelse"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Præmien vil blive trukket om {1} sekunder"
+	}
+
+	"thirdperson CM"
+	{
+		"da"		"tredjeperson"
+	}
+
+	"throwknife CM"
+	{
+		"da"		"Kast kniv"
+	}
+
+	"toplists CM"
+	{
+		"da"		"Toplister"
+	}
+
+	"tracer CM"
+	{
+		"da"		"sporingslinje"
+	}
+
+	"trail CM"
+	{
+		"da"		"spor"
+	}
+
+	"wasted CM"
+	{
+		"da"		"tabt"
+	}
+
+	"watergun CM"
+	{
+		"da"		"effekt"
+	}
+
+	"weapon CM"
+	{
+		"da"		"våben"
+	}
+
+	"weaponcolor CM"
+	{
+		"da"		"våbenfarve"
+	}
+
+	"weaponmodel CM"
+	{
+		"da"		"Våbenmodel"
+	}
+
+	"weaponskin CM"
+	{
+		"da"		"våbenhud"
+	}
+
+	"win the round CM"
+	{
+		"da"		"vinde runden"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"da"		"{1} {2} for '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"da"		"{1} timer {2} minutter og {3} sekunder"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"da"		"{1} time(r) {2} minut(ter) og {3} sekund(er)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"da"		"{1} minutter og {2} sekunder"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"da"		"{1} minut(ter) og {2} sekund(er)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"{1} sekunder"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"da"		"{1} sekund(er)"
+	}
+
+	"zrclass CM"
+	{
+		"da"		"spiller klasse"
+	}
 }

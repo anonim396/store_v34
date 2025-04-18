@@ -104,4 +104,133 @@
 	{
 		"no"		"Vennligst vent på svaret fra den valgte spilleren."
 	}
+
+
+	"Cancel CM"
+	{
+		"no"		"Avbryt handel"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"no"		"Vil du tilby din {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"no"		"Vil du bytte din {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"no"		"Tilby en gjenstand"
+	}
+
+	"Offer item CM"
+	{
+		"no"		"Tilby dette elementet"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"no"		"Partneren din tilbyr {1} kreditt(er)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"no"		"Partneren din tilbyr følgende varer:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"no"		"Partneren din er ikke klar ennå."
+	}
+
+	"Partner Ready CM"
+	{
+		"no"		"Partneren din er klar."
+	}
+
+	"Player Left CM"
+	{
+		"no"		"Spilleren du ville handle med, har forlatt spillet."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"no"		"Klar [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"no"		"Handelen avsluttes om {1} sekund(er)..."
+	}
+
+	"Trade Active CM"
+	{
+		"no"		"Du handler allerede."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"no"		"Vil du handle med {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"no"		"Vil du avbryte handelen?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"no"		"Vennligst vent noen minutter før du handler igjen."
+	}
+
+	"Trade Menu CM"
+	{
+		"no"		"For å åpne handelsmenyen på nytt, skriv !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"no"		"Du handler ikke."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"no"		"Din partner har avbrutt handelen."
+	}
+
+	"Trade Select Player CM"
+	{
+		"no"		"Velg en spiller å handle med"
+	}
+
+	"Trade Successful CM"
+	{
+		"no"		"Handelen ble fullført vellykket."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"no"		"Du handler med {1}\n-----------------------------\nFor å tilby kreditter, skriv !offer <amount>\nDu har tilbudt {2} kreditter"
+	}
+
+	"Trade item CM"
+	{
+		"no"		"Bytt dette elementet"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"no"		"Vennligst vent på svaret fra den valgte spilleren."
+	}
 }

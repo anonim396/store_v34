@@ -2279,4 +2279,2788 @@
 	{
 		"hu"		"játékos típus"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1}21 !!! BLACKJACK !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Már újratöltötted a konfigurációt. Kérlek, változtass vagy töltsd újra a térképet."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Az összes résztvevő játékos leválik, senki sem kapja vissza a {2}-t, haha. A jackpot {1} {2} volt!"
+	}
+
+	"All valid voucher CM"
+	{
+		"hu"		"Az összes generált és érvényes kupon:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"hu"		"Nyertél, de már rendelkezel a(z) {1} ({2}). Az elem el lett adva {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"hu"		"Ez már a tiéd {1} ({2}). Visszakaptad {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Összeg: {1}"
+	}
+
+	"Aura CM"
+	{
+		"hu"		"Aura:"
+	}
+
+	"Back CM"
+	{
+		"hu"		"Vissza"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"hu"		"Fogadás * Szorzó = A nyereményed"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Bónusz kreditek: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Pot CT nyer: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Maximális tét ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Minimális tét ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"hu"		"Véletlenszerű fogadás ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Pot T nyer: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"hu"		"Téte a"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"hu"		"Fogadj fej/farok"
+	}
+
+	"Bet on a color CM"
+	{
+		"hu"		"Fogadj egy színre, és ha ezt a színt választják, nyersz!"
+	}
+
+	"Bet on a number CM"
+	{
+		"hu"		"Fogadj alacsonyra (#1-3), magasra (#4-6) vagy egy pontos számra. Ha a választásod dobásra kerül, nyersz!"
+	}
+
+	"Bet on a team CM"
+	{
+		"hu"		"Fogadj egy csapatra, és ha a csapat megnyeri a kört, nyersz!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"hu"		"Ebben a körben már fogadtál."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"hu"		"Helytelen csapat azonosító."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} kreditet vesztettél a fogadáson."
+	}
+
+	"Betting Period Over CM"
+	{
+		"hu"		"Ebben a körben már nem fogadhatsz."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Sikeresen fogadtál {1} kredit értékben."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Sikeres volt a fogadásod. Nyertél {1} kreditet."
+	}
+
+	"Black CM"
+	{
+		"hu"		"fekete"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"hu"		"A Blackjack egy olyan játék, ahol a kezében lévő kártyák összértékének nagyobbnak kell lennie, mint a dealeré, anélkül hogy meghaladná a 21-et."
+	}
+
+	"Buy CM"
+	{
+		"hu"		"Vásárolj tárgyat"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Vásárolj tárgyat ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"hu"		"Meghatároztad a színt: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"hu"		"Chat címke szín beállítás"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"hu"		"Szín kikapcsolása"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"hu"		"Egyéni címke szín letiltva."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"hu"		"Nincs névtábla felszerelve"
+	}
+
+	"CP No file found CM"
+	{
+		"hu"		"A felhasználó egyedi címke színe le lett tiltva. Kérjük, vegye fel a kapcsolatot az adminisztrátorral további támogatásért."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"hu"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"hu"		"Előnézeti táblázat címke megjelenítése, kérjük, nyomja meg a TAB billentyűt."
+	}
+
+	"Cancel CM"
+	{
+		"hu"		"Mégsem"
+	}
+
+	"Cant be bought CM"
+	{
+		"hu"		"Ez a tétel nem vásárolható meg"
+	}
+
+	"Cash out CM"
+	{
+		"hu"		"Megállítás"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Változtassa meg a fogadását: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"A következőt vetted: {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"hu"		"{1} a következőt küldte neked: {2} {3}."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"hu"		"A következőt küldted: {2} {3} neki: {1}."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"A következőt adtad el: {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Kinyitottál egy tartályt, és találtál {1} kreditet!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"hu"		"{1} kinyitott egy tartályt és talált {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"hu"		"{1} kinyitott egy tartályt és talált {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"hu"		"Ellenőrizd az összes érvényes és elérhető kupont (csak Admin)"
+	}
+
+	"Check Voucher CM"
+	{
+		"hu"		"Szerezze meg a kupon részleteit"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"hu"		"Ellenőrizze a generált és érvényes elérhető kupont"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"hu"		"Válassz számot (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"hu"		"Automatikus kifizetés:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"hu"		"A felszerelésed vissza lett állítva."
+	}
+
+	"Client valid voucher CM"
+	{
+		"hu"		"A generált és érvényes kuponod:\n "
+	}
+
+	"Close CM"
+	{
+		"hu"		"Bezárás"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"hu"		"Színes füst"
+	}
+
+	"Command is in-game only CM"
+	{
+		"hu"		"Élőnek kell lenned, hogy használd ezt a parancsot."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"hu"		"A konfiguráció újra lett töltve. Kérlek, indítsd újra vagy változtass térképet."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Biztosan meg akarod venni a következőt: {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"hu"		"Biztosan el akarod ajándékozni a következőt: {1} {2} neki: {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Biztosan el akarod ajándékozni a következőt: {1} {2}?"
+	}
+
+	"Confirm_No CM"
+	{
+		"hu"		"Nem"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"hu"		"Biztosan el akarod adni a következőt: {1} {2}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Biztos, hogy szeretnéd átváltani a {1} ({2}) kupont?\nFIGYELEM: Ha a voucherben lévő termék lejár a beváltás előtt.\nEz a voucher lejár."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"hu"		"Igen"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"hu"		"{1} leírta a helyes választ és nyert {2} kreditet!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"hu"		"Ellenterrorista"
+	}
+
+	"Crash Already Start CM"
+	{
+		"hu"		"A Crash még jelenleg tart. Kérlek várd meg a következő játékot."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"hu"		"Ki"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"hu"		"Kapcsolja ki az automatikus kifizetést"
+	}
+
+	"Crash Auto On CM"
+	{
+		"hu"		"Be"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"hu"		"Kapcsolja be az automatikus kifizetést"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"hu"		"           Mi is a Crash/Hogy kell játszani a Crasht"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"hu"		"- A Crash az a játék, ahol a játékosok fogadhatnak és van egy szorzó, ami egy növekvő görbéhez kapcsolódik, és ez a görbe bármikor összeomolhat."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"hu"		"- A szorzó 1,00x -nál kezdődik, és bármikor lehetőség van a megállításra."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"hu"		"- A minimum tét értéke {1} kredit. A maximális tét értéke {3} kredit. Ezek a határok idővel változhatnak."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"hu"		"Hibás bemenet (a minimális érték {1} vagy több kell)."
+	}
+
+	"Crash auto input CM"
+	{
+		"hu"		"Írd be az automatikus kifizetés értékét a csevegésbe"
+	}
+
+	"Crash auto input set CM"
+	{
+		"hu"		"Crash automatikus kifizetés beállítva"
+	}
+
+	"Crash set auto CM"
+	{
+		"hu"		"Állítsa be az automatikus kifizetési értéket"
+	}
+
+	"Crash! CM"
+	{
+		"hu"		"Vége!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"hu"		"Hozzon létre egy tétel kupon (Csak Admin)"
+	}
+
+	"Create Voucher CM"
+	{
+		"hu"		"Hozzon létre egy kupont"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Kupon létrehozása sikertelen - Lépjen kapcsolatba egy adminnal ezzel az időbélyeggel: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"hu"		"A szerveren a kreditek ajándékozása ki van kapcsolva."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} kreditet ajándékoztál el."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"hu"		"{2} {1} kreditet küldött neked."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"hu"		"{1} kreditet küldtél neki: {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"hu"		"Nincs elég kredited a giveaway létrehozásához."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"hu"		"Hibás összeget adtál meg."
+	}
+
+	"Credit No Match CM"
+	{
+		"hu"		"Nincs ilyen játékos."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"hu"		"Nincs elég kredited ehhez."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"hu"		"Több mint egy játékos van ilyen névvel."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"hu"		"Nincs elég kredited ahhoz, hogy kuponot hozz létre."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"hu"		"{2} megölésével {1} kreditet szereztél."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} kreditet szereztél az itt töltött időért."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"hu"		"{1} {2} kreditet kapott."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"hu"		"Kreditek: {1}         Tét: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"hu"		"Letiltva"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"hu"		"Engedélyezve"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"hu"		"[Egyedi fegyver hang]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"hu"		"Egyedi fegyverhang hangerőszabályzó menü"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Hangerő: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"hu"		"Egyedi fegyver hang: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"hu"		"Az egyedi fegyverhang Letiltva."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"hu"		"Az egyedi fegyverhang engedélyezve van."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Az egyedi fegyverhang engedélyezve van. Hangerő: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"hu"		"Testreszabott fegyvermodell:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"hu"		"Törd el a ládát, hogy kinyisd!"
+	}
+
+	"Dead heat CM"
+	{
+		"hu"		"- holtverseny -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"hu"		"             RENDBEN     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"hu"		"OSZTÓ"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Kedvezmény: '{1}' aktív! Jó vásárlást!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Kedvezmény: '{1}' véget ért."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Kedvezmény: '{1}' elindult! Jó vásárlást!"
+	}
+
+	"Double CM"
+	{
+		"hu"		"Duplázás"
+	}
+
+	"Down CM"
+	{
+		"hu"		"Lefelé"
+	}
+
+	"Down2 CM"
+	{
+		"hu"		"                      5 = Lefelé"
+	}
+
+	"Drop Gift CM"
+	{
+		"hu"		"Ajándékcsomagként eldobás"
+	}
+
+	"Edit Amount CM"
+	{
+		"hu"		"Összeg módosítása: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"hu"		"Kérlek, írd be az elem lejárati idejét (másodpercekben) a chaten!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"hu"		"Érvénytelen számformátum. Kérlek próbáld újra."
+	}
+
+	"Enter custom amount CM"
+	{
+		"hu"		"Kérjük, írja be az egyéni összeget a csevegésbe!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"hu"		"Kérjük, írja be a hitelek maximális értékét a csevegésbe!"
+	}
+
+	"Enter minimum value CM"
+	{
+		"hu"		"Kérlek, add meg a minimális kreditértéket a csevegésben!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"hu"		"Kérlek, add meg a létrehozandó utalványok számát a csevegésben!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"hu"		"Kérlek, add meg a vásárlásra szánt utalvány értékét a csevegésben!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"hu"		"Kérjük, írja be a kuponkódját a csevegésbe!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"hu"		"Hiba történt az ár visszatérítésekor. Kérjük, lépjen kapcsolatba az adminisztrátorral"
+	}
+
+	"Exact #x  = CM"
+	{
+		"hu"		"Pontos #x = "
+	}
+
+	"Exit CM"
+	{
+		"hu"		"Kilépés"
+	}
+
+	"Gained CM"
+	{
+		"hu"		"Nyereményed"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"hu"		"Nyereményed: {1} kredit"
+	}
+
+	"Game Info CM"
+	{
+		"hu"		"Játék információk"
+	}
+
+	"Game in progress CM"
+	{
+		"hu"		"A jelenlegi fogadásos játékod folyamatban van. Kérlek, várj, amíg befejeződik."
+	}
+
+	"Get three on a kind CM"
+	{
+		"hu"		"Szerezz három egyformát"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} kreditet vettél fel."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"A következőt vetted fel {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"hu"		"Nincs senki akinek odatudnád adni ezt a tárgyat."
+	}
+
+	"Gift Player Left CM"
+	{
+		"hu"		"A kiválasztott játékos már elhagyta a játékot."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"hu"		"{1} Ahhoz, hogy ajándékozást tartsunk, a szervernek legalább {2} játékost kell tartalmaznia."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"hu"		"Admin {1} indított egy ajándékot <font color='#15fb00'>{2} kredittel"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"|| A giveaway {1} másodperc múlva kezdődik ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"hu"		"{1} {2} nyert egy giveawayt {3} kredittel"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"hu"		"{1}\n|| Nyertes: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"hu"		"Ebben a körben már elég örök életet vettél."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"hu"		"Ebben a csapatban nem használhatod az örök életet."
+	}
+
+	"Green CM"
+	{
+		"hu"		"zöld"
+	}
+
+	"HE grenade kill CM"
+	{
+		"hu"		"HE gránát kill"
+	}
+
+	"HUD CM"
+	{
+		"hu"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"hu"		"Fej"
+	}
+
+	"Health Round Limit CM"
+	{
+		"hu"		"Ebben a körben már elég életet vettél."
+	}
+
+	"Help_Back CM"
+	{
+		"hu"		"Back"
+	}
+
+	"Help_Exit CM"
+	{
+		"hu"		"Exit"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"hu"		"Rejtsd el a golyó szikráit"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"hu"		"Rejtse el a golyónyomokat"
+	}
+
+	"Hide gloves CM"
+	{
+		"hu"		"Rejtsd el a kesztyűket"
+	}
+
+	"Hide paintball CM"
+	{
+		"hu"		"Rejtsd el a festék golyókat"
+	}
+
+	"Hide particles CM"
+	{
+		"hu"		"Rejtsd el a részecskéket"
+	}
+
+	"Hide pets CM"
+	{
+		"hu"		"Rejtsd el a házikedvenceket"
+	}
+
+	"Hide trails CM"
+	{
+		"hu"		"Nyomok elrejtése"
+	}
+
+	"High #4-6 CM"
+	{
+		"hu"		"Magas #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"hu"		"Magas #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"hu"		"Magas - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"hu"		"NAGYOBB"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A kiválasztott szám: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A következő szám: {1}"
+	}
+
+	"Hit CM"
+	{
+		"hu"		"Lap kérés"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"hu"		"Egy szám {1} és {2} között kiválasztásra kerül és neked el kell döntened az a szám nagyobb vagy kisebb a kiválasztott számnál."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"hu"		"Ha sikerül a jót kiválasztani, akkor a téted kétszeresét nyered."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"hu"		"Minden játék között {1} másodperc szünet van."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Sikeresen fogadtál {1} kredit összegben."
+	}
+
+	"Inventory CM"
+	{
+		"hu"		"Leltár"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"hu"		"Várj egy kicsit. A tárgyaid még nem töltöttek be."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"hu"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"hu"		"Tárgy felvétele"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1} [FELVÉVE]"
+	}
+
+	"Item Gift CM"
+	{
+		"hu"		"Ajándékozd ezt a tárgyat"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1} (Válassz időszakot)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Eladás {1} kreditért"
+	}
+
+	"Item Unequip CM"
+	{
+		"hu"		"Tárgy levétele"
+	}
+
+	"Item Use CM"
+	{
+		"hu"		"Tárgy használata"
+	}
+
+	"Item Voucher CM"
+	{
+		"hu"		"Voucher készítése az objektumból"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"hu"		"Az itemekhez tartozó kupon létrehozása jelenleg le van tiltva."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"hu"		"Átváltottad {1} ({2}) voucherre {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"hu"		"{1} elrejtve. Többé nem fogod őket látni."
+	}
+
+	"Item not found CM"
+	{
+		"hu"		"Tárgy nem található"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"hu"		"{1} újra látható."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"hu"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"hu"		"A jackpot szüneteltetve."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Jackpot: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"hu"		"Jetpack üres"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"hu"		"[Jetpack] Üzemanyag: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"hu"		"Jetpack újratöltve"
+	}
+
+	"Jihad Failed CM"
+	{
+		"hu"		"A robbantás sikertelen volt."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"hu"		"A {1} jihad bomba nem robbant fel."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"hu"		"Ebben a csapatban nem használhatod a bombát."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} perc mielőtt elkezdődik a crash."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"{1} másodperc mielőtt elkezdődik a crash."
+	}
+
+	"LevelIcon CM"
+	{
+		"hu"		"szint ikon"
+	}
+
+	"Limited CM"
+	{
+		"hu"		"Limitált - egy játékos"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"hu"		"Kérlek, várj, amíg az előző ládád megnyílik"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"hu"		"A térkép véget ért. Kérlek, várj a következő térképre"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"hu"		"A kör véget ért. Kérlek, várj a következő körre"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"hu"		"Nem nyithatod meg a ládát bemelegítés alatt"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Elvesztetted a napi sorozatodat {1} nap(ok)."
+	}
+
+	"Lost bet CM"
+	{
+		"hu"		"Nem sikerült! Elvesztetted a fogadásod"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Elvesztetted a tétet, mivel a következő szám a {1} lett volna."
+	}
+
+	"Low #1-3 CM"
+	{
+		"hu"		"Alacsony #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"hu"		"Alacsony #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"hu"		"Alacsony - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"hu"		"KISEBB"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Szükségünk van legalább {1} játékosra"
+	}
+
+	"Must be Alive CM"
+	{
+		"hu"		"Élned kell, hogy használd ezt."
+	}
+
+	"Must be dead CM"
+	{
+		"hu"		"Halotnak kell lenned ahhoz, hogy játssz"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"hu"		"Szorzó = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"hu"		"Nincs aktív jackpot"
+	}
+
+	"No active TeamBet CM"
+	{
+		"hu"		"Még nem történt csapatfogadás"
+	}
+
+	"No have flag CM"
+	{
+		"hu"		"Nincs hozzáférésed ehhez a parancshoz."
+	}
+
+	"No matching color CM"
+	{
+		"hu"		"Nem megfelelő szín, használd: r/piros, b/fekete vagy g/zöld"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"hu"		"Senki nem vette fel az eldobott krediteket. Visszakaptad."
+	}
+
+	"No pick up - removed CM"
+	{
+		"hu"		"Senki nem vette fel az eldobott krediteket. A kreditek törlésre kerültek."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Lejárt az idő. A helyes válasz a(z) {1} volt."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Senki más nem helyezett pénzt a jackpotba. Visszakapod a {1} {2}!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"hu"		"Nincs elég kredited"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"hu"		"Most giveaway folyik, próbáld újra néhány másodperc múlva."
+	}
+
+	"Only number CM"
+	{
+		"hu"		"Csak számokat írhatsz be..."
+	}
+
+	"Override Disabled CM"
+	{
+		"hu"		"A jelenlegi skined nem támogatja a sapkákat. A sapkád nem tudod felvenni."
+	}
+
+	"Override Enabled CM"
+	{
+		"hu"		"A jelenlegi skined nem támogatja a sapkákat. A skined megváltoztatjuk, hogy tudd viselni a sapkád."
+	}
+
+	"Owned CM"
+	{
+		"hu"		"[Birtokolt]"
+	}
+
+	"Package Gift CM"
+	{
+		"hu"		"Csomag elajándékozása"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Csomag eladása {1} kreditért"
+	}
+
+	"Package Voucher CM"
+	{
+		"hu"		"Voucher készítése csomagból"
+	}
+
+	"Parachute Empty CM"
+	{
+		"hu"		"Ejátszó üres"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"hu"		"Ejátszó újratöltve"
+	}
+
+	"Particles CM"
+	{
+		"hu"		"Részecskék:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Helyezd el {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"hu"		"Előnézeti hangot játszom le neked."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"hu"		"{1} {2} kredittel rendelkezik."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1} nullázva lett."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"hu"		"A Store Játékos Skin modulja jelenleg kivan kapcsolva."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"hu"		"{1} hozzáadott {2} {3} a jackpothoz, jelenlegi nyerési esélye: {4}% (Jackpot: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"hu"		"{1} elveszítette {2} {3} a {4}-ben."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"hu"		"{1} megnyitotta a jackpotot {2} {3} összeggel. Vegyél pénzt, hogy megszerezd a pénzt!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"hu"		"{1} nyerte meg a Jackpotot {2} {3}-val!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"hu"		"{1} nyert {2} {3} a {4}-ben."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"hu"		"{1} nyert {2} kreditet x{4} szorzóval a {5} játékon."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"hu"		"Az új beállításaid a következő élettől fognak működni."
+	}
+
+	"Press CM"
+	{
+		"hu"		"Nyomd meg"
+	}
+
+	"Press to Start CM"
+	{
+		"hu"		"Nyomj a kezdéshez!"
+	}
+
+	"Press to Stop CM"
+	{
+		"hu"		"Nyomj a megállításhoz!"
+	}
+
+	"Preview Item CM"
+	{
+		"hu"		"Előnézet ezen a tárgyon"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Ár: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"hu"		"Vásárolj kupont"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"hu"		"Mennyibe kerül {1} {2} {3}? | Nyeremény: {4} kredit"
+	}
+
+	"Red CM"
+	{
+		"hu"		"piros"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"hu"		"Beváltani a kupont"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Futtasd újra {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"hu"		"Ebben a körben már elég újraéledést vettél."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"hu"		"Biztonsági okokból nem küldhet több kérést rövid időn belül."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"hu"		"A második nyertes már nincs a játékban, utolsó próbálkozás új nyertes keresésére."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Várnod kell {1} másodpercet, hogy használhasd újra a parancsot."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"hu"		"Mutasd a golyó szikráit"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"hu"		"Mutasd a golyónyomokat"
+	}
+
+	"Show gloves CM"
+	{
+		"hu"		"Mutasd a kesztyűket"
+	}
+
+	"Show paintball CM"
+	{
+		"hu"		"Mutasd a festék golyókat"
+	}
+
+	"Show particles CM"
+	{
+		"hu"		"Mutasd a részecskéket"
+	}
+
+	"Show pets CM"
+	{
+		"hu"		"Mutasd a házikedvenceket"
+	}
+
+	"Show trails CM"
+	{
+		"hu"		"Nyomok megjelenítése"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Nem használhatsz kisebb értéket, mint a minimum értéked ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"hu"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Spam védelem. Kérjük várjon {1} másodpercet."
+	}
+
+	"Spawn Preview CM"
+	{
+		"hu"		"Előnézet létrehozva. Az előnézet 45 másodperc múlva eltűnik."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"hu"		"Előnézet létrehozva. Az előnézet {1} másodperc múlva eltűnik."
+	}
+
+	"Start again from begin CM"
+	{
+		"hu"		"Kérlek kezdj újra az elejétől"
+	}
+
+	"Starting CM"
+	{
+		"hu"		"Kezdés"
+	}
+
+	"Stay CM"
+	{
+		"hu"		"Tartózkodás"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"hu"		"Biztos vagy benne, hogy vissza akarod állítani a felszerelésedet? Minden tárgy eltávolításra kerül."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"hu"		"Sikeresen vásárolt egy kupont"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"hu"		"Ez a tárgy egy másik kaszthoz való."
+	}
+
+	"Tail CM"
+	{
+		"hu"		"Farok"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"hu"		"Már megtetted a fogadásod erre a körre."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"hu"		"Érvénytelen csapatazonosító van megadva."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Elvesztetted {1} {2} a fogadásban."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"hu"		"A fogadási időszak véget ért erre a körre."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Sikeresen tettél egy fogadást {1} kredittel."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"A fogadásod sikeres volt. Nyertél {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"hu"		"Nem volt fogadás a másik csapatra, így visszakaptad a krediteket."
+	}
+
+	"Terrorist CM"
+	{
+		"hu"		"Terrorista"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A kiválasztott szám: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"A következő szám: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"hu"		"Ez az előnézeti szöveg."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Az admin újratöltötte az áruház beállításait. A térkép újratöltődik {1} másodpercen belül!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"hu"		"Admin tétel kupon létrehozó menü.\n \nVálassza ki az elem időtartamát."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"hu"		"Admin tétel kupon létrehozó menü"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Kreditek: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"hu"		"Lejár {1}n {2}ó múlva"
+	}
+
+	"Title Gift CM"
+	{
+		"hu"		"Válassz egy játékost ajándékozáshoz"
+	}
+
+	"Title Store CM"
+	{
+		"hu"		"Bolt Menü"
+	}
+
+	"To late chat input CM"
+	{
+		"hu"		"A szöveges bemenetet nem végezted el az adott időn belül"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Túl sok kredit van a földön, nem tudsz jelenleg eldobni többet!"
+	}
+
+	"Top Credits CM"
+	{
+		"hu"		"Legjobb kreditek"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"hu"		"Top kreditek + készlet érték"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"hu"		"Top készlet érték"
+	}
+
+	"Top Most Items CM"
+	{
+		"hu"		"A legnépszerűbb tárgyak"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Összesen: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"hu"		"Próbáld újra"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"hu"		"Írj a chatu-ba !bet <fogadás> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"hu"		"Írd be a csevegésbe: !blackjack <tét>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"hu"		"Írj a chatu-ba !coinflip <fogadás> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"hu"		"Írd be: !crash <tét>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"hu"		"Írj a chatu-ba !crowns <fogadás>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"hu"		"Írj be a csevegésbe !dice <fogadás> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"hu"		"Írj a chatu-ba !jackpot <fogadás>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"hu"		"Írj a chatu-ba !roulette <fogadás> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"hu"		"Nem korlátozott - több játékos"
+	}
+
+	"Up CM"
+	{
+		"hu"		"Felfelé"
+	}
+
+	"Value less than 1 CM"
+	{
+		"hu"		"Nem használhatsz 1-nél kisebb értéket."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"hu"		"A(z) {1} hangerő beállítva {2}-ra"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"hu"		"Jelenleg a kupon kódjának pontosan 17 karakterből kell állnia"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"A kupon értéke {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"hu"		"A voucher elfogadva"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"hu"		"A voucher elfogadva"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"hu"		"Generálod a {1} {2}korlátozott kupon{3} értékkel {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"hu"		"Generálsz {1} {2}korlátozott kupont{3} az alábbi értékekkel: {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"A megadott kuponkód már fel lett használva ekkor: {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Ez a kupon lejár ekkor: {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"A megadott kuponkód lejárt ekkor: {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"hu"		"Létrehozott új voucher {1} értéke {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"hu"		"A kupon kódját a csevegésben és a konzolon is megtalálhatja"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Kupon kódja: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"A megadott kuponkód '{1}' nem érvényes!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"hu"		"A kupon tartalmazza {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"hu"		"A kuponkód érvényes"
+	}
+
+	"Vouchers CM"
+	{
+		"hu"		"Kupon"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Várnod kell {1}, amíg elérkezik a következő napi."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"hu"		"Már bejelentkeztél ma. Kérlek térj חחר holnap."
+	}
+
+	"Win = CM"
+	{
+		"hu"		"Győzelem = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"hu"		"A nyertes már nincs a játékban, próbálunk találni egy új nyertest."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"hu"		"A kuponkód formátuma helytelen. Ennek XXXXX-XXXXX-XXXXX kell lennie"
+	}
+
+	"You CM"
+	{
+		"hu"		"NEKED"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"hu"		"Ön már készpénzesítette {1} {2} a jackpotba. Jelenlegi nyerési esély: {3}%% Jackpot: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"hu"		"Már birtoklod a megadott kupon tárgyat"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"hu"		"Már beváltottad a megadott kuponkódot"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"hu"		"Új jackpotot indíthatsz"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Új jackpotot indíthatsz {1} múlva."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Nem költhetsz ennyi kreditet (Max: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Összegyűjtöttél {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"hu"		"Nincs jogosultságod ehhez."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Eltörted {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"hu"		"Nem szereztél pontokat ebben a körben."
+	}
+
+	"You earned this round CM"
+	{
+		"hu"		"Te nyerted ezt a kört:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Szereztél {1} {2} ezért: "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Szereztél {1} {2} ebben a körben"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Megkaptad a {1} {2}-t."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Megkaptad a {1} {2}-t."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Kapottál egy {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Kapottál egy {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Legalább {1} {2} összeget kell költened."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Legalább {1} {2} összeget kell költened."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"hu"		"Nem nyitottad meg a dobozt a megadott időn belül. A lootbox visszakerült a készletedbe"
+	}
+
+	"You lose CM"
+	{
+		"hu"		"- vesztettél -"
+	}
+
+	"You lost with CM"
+	{
+		"hu"		"Vesztettél ezzel"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Elvesztettél {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"hu"		"Megnyerted a 'napi kihívást'! Próbáld meg legyőzni újra!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Nyertél {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"hu"		"!!! NYERTÉL !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"hu"		"Nyertél egy {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Te nyerted meg a Jackpotot {1} {2}-val!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"hu"		"Te nyerted meg a Jackpotot {1} {2}-val a kaszinó díja {3} {4} ({5}%) levonásával!"
+	}
+
+	"You won with CM"
+	{
+		"hu"		"Nyertél ezzel"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"hu"		"Nyertél {1} kreditet x{2} szorzóval."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Holnap {1} {2} fogsz keresni!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"hu"		"A téted: {1} {2} - Esély: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"A fogadásod: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"hu"		"A jelenlegi nyerési esélyed megváltozott {1}% -ra"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Nyertél {1} kreditet {2} megöléséért."
+	}
+
+	"admin CM"
+	{
+		"hu"		"állat"
+	}
+
+	"and is limited CM"
+	{
+		"hu"		"és korlátozott"
+	}
+
+	"and is unlimited CM"
+	{
+		"hu"		"és korlátlan"
+	}
+
+	"arms CM"
+	{
+		"hu"		"karok"
+	}
+
+	"assist a kill CM"
+	{
+		"hu"		"segítség a gyilkossághoz"
+	}
+
+	"attachment CM"
+	{
+		"hu"		"Felcsatolás"
+	}
+
+	"backstab kill CM"
+	{
+		"hu"		"hátbaszúrásos kill"
+	}
+
+	"be the MVP CM"
+	{
+		"hu"		"legyél a MVP"
+	}
+
+	"bet x CM"
+	{
+		"hu"		"fogadás x"
+	}
+
+	"blackjack CM"
+	{
+		"hu"		"Blackjack"
+	}
+
+	"bomb defused CM"
+	{
+		"hu"		"bombát hatástalanították"
+	}
+
+	"bomb explode CM"
+	{
+		"hu"		"robban a bomba"
+	}
+
+	"bomb planted CM"
+	{
+		"hu"		"bombát elhelyezték"
+	}
+
+	"bombtweak CM"
+	{
+		"hu"		"Bomba beállítása"
+	}
+
+	"bullet_impact CM"
+	{
+		"hu"		"Golyó ütése"
+	}
+
+	"bulletsparks CM"
+	{
+		"hu"		"Lövés szikrák"
+	}
+
+	"bunnyhob CM"
+	{
+		"hu"		"Nyúl ugrás"
+	}
+
+	"bunnyhop CM"
+	{
+		"hu"		"képesség"
+	}
+
+	"casino CM"
+	{
+		"hu"		"Kaszino"
+	}
+
+	"coinflip CM"
+	{
+		"hu"		"Érmefeldobás"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Szeretnéd visszaállítani a beállításokat?\nA térkép {1} másodpercen belül újratöltődik!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"hu"		"Szeretnéd visszaállítani a beállításokat?\nA térképet kell módosítani a változtatások alkalmazásához, különben hibák léphetnek fel."
+	}
+
+	"connect CM"
+	{
+		"hu"		"Kapcsolódási üzenet"
+	}
+
+	"crash CM"
+	{
+		"hu"		"Crash"
+	}
+
+	"creditstoplist CM"
+	{
+		"hu"		"hitelt"
+	}
+
+	"crowns CM"
+	{
+		"hu"		"Korona slot"
+	}
+
+	"daily CM"
+	{
+		"hu"		"Napi bónusz"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"hu"		"decoy gránát kill"
+	}
+
+	"dice CM"
+	{
+		"hu"		"Kocka"
+	}
+
+	"direction CM"
+	{
+		"hu"		"Irány"
+	}
+
+	"discount CM"
+	{
+		"hu"		"KEDVEZMÉNY"
+	}
+
+	"distance CM"
+	{
+		"hu"		"Távolság"
+	}
+
+	"dmgtext CM"
+	{
+		"hu"		"Festő"
+	}
+
+	"emote CM"
+	{
+		"hu"		"Emote"
+	}
+
+	"escape as VIP CM"
+	{
+		"hu"		"Menekülj VIP-ként"
+	}
+
+	"flashbang kill CM"
+	{
+		"hu"		"flashbang kill"
+	}
+
+	"flashlight CM"
+	{
+		"hu"		"Zseblámpa"
+	}
+
+	"froggyjump CM"
+	{
+		"hu"		"Béka ugrás"
+	}
+
+	"gloves CM"
+	{
+		"hu"		"kesztyűk"
+	}
+
+	"glow CM"
+	{
+		"hu"		"ragyogás"
+	}
+
+	"godmode CM"
+	{
+		"hu"		"örök élet"
+	}
+
+	"gravity CM"
+	{
+		"hu"		"képesség"
+	}
+
+	"grenademodel CM"
+	{
+		"hu"		"Gránát modell"
+	}
+
+	"grenadeskin CM"
+	{
+		"hu"		"gránát skin"
+	}
+
+	"grenadetrail CM"
+	{
+		"hu"		"gránát csík"
+	}
+
+	"hat CM"
+	{
+		"hu"		"sapka"
+	}
+
+	"headshot CM"
+	{
+		"hu"		"fejbelövés"
+	}
+
+	"health CM"
+	{
+		"hu"		"csomag"
+	}
+
+	"high or low CM"
+	{
+		"hu"		"Nagyobb vagy Kisebb"
+	}
+
+	"hiteff CM"
+	{
+		"hu"		"ütés effekt:"
+	}
+
+	"hitsound CM"
+	{
+		"hu"		"Találati hang"
+	}
+
+	"hostage rescued CM"
+	{
+		"hu"		"megmentett túsz"
+	}
+
+	"hunterjump CM"
+	{
+		"hu"		"Vadász ugrás"
+	}
+
+	"idle on the server CM"
+	{
+		"hu"		"inaktív a szerveren"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"{1}-ben."
+	}
+
+	"infinityammo CM"
+	{
+		"hu"		"Végtelen lőszer"
+	}
+
+	"info CM"
+	{
+		"hu"		"Információs Panel"
+	}
+
+	"instabomb CM"
+	{
+		"hu"		"Azonnali ültetés / feloldás"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"hu"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"hu"		"képesség"
+	}
+
+	"items CM"
+	{
+		"hu"		"Tárgyak"
+	}
+
+	"jackpot CM"
+	{
+		"hu"		"Jackpot"
+	}
+
+	"jetpack CM"
+	{
+		"hu"		"rakéta"
+	}
+
+	"jihad CM"
+	{
+		"hu"		"bomba"
+	}
+
+	"kill CM"
+	{
+		"hu"		"ölj"
+	}
+
+	"kill the VIP CM"
+	{
+		"hu"		"ölje meg a VIP-t"
+	}
+
+	"kill yourself CM"
+	{
+		"hu"		"ölj meg magad"
+	}
+
+	"killeff CM"
+	{
+		"hu"		"gyilkosság effekt:"
+	}
+
+	"knife CM"
+	{
+		"hu"		"kés"
+	}
+
+	"knife kill CM"
+	{
+		"hu"		"késsel való gyilkosság"
+	}
+
+	"laserdraw CM"
+	{
+		"hu"		"lézer rajz:"
+	}
+
+	"laserpointer CM"
+	{
+		"hu"		" lézermutató"
+	}
+
+	"lasersight CM"
+	{
+		"hu"		"lézer"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"utolsó frissítés {1} előtt"
+	}
+
+	"light CM"
+	{
+		"hu"		"Fény"
+	}
+
+	"lootbox CM"
+	{
+		"hu"		"Zsákmányláda"
+	}
+
+	"mirror CM"
+	{
+		"hu"		"tükör"
+	}
+
+	"molotov kill CM"
+	{
+		"hu"		"molotov kill"
+	}
+
+	"msgcolor CM"
+	{
+		"hu"		"üzenet szín"
+	}
+
+	"mvp_sound CM"
+	{
+		"hu"		"MVP himnuszok"
+	}
+
+	"namecolor CM"
+	{
+		"hu"		"név szín"
+	}
+
+	"nametag CM"
+	{
+		"hu"		"név tag"
+	}
+
+	"nearest CM"
+	{
+		"hu"		"Legközelebbi"
+	}
+
+	"nodiscount CM"
+	{
+		"hu"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"hu"		"Nem késlekedés guggoláskor"
+	}
+
+	"nofalldamage CM"
+	{
+		"hu"		"Nem esésből származó kár"
+	}
+
+	"noreload CM"
+	{
+		"hu"		"Nincs újratöltés"
+	}
+
+	"noscope kill CM"
+	{
+		"hu"		"kill célzás nélkül"
+	}
+
+	"noselfdamage CM"
+	{
+		"hu"		"Nincs saját sebzés"
+	}
+
+	"or use buttons below CM"
+	{
+		"hu"		"vagy használja az alábbi gombokat"
+	}
+
+	"package CM"
+	{
+		"hu"		"csomag"
+	}
+
+	"paintball CM"
+	{
+		"hu"		"golyók"
+	}
+
+	"painter CM"
+	{
+		"hu"		"Festő"
+	}
+
+	"parachute CM"
+	{
+		"hu"		"Ejtoernyő"
+	}
+
+	"particle CM"
+	{
+		"hu"		"Részecskék"
+	}
+
+	"pet CM"
+	{
+		"hu"		"állat"
+	}
+
+	"playerskin CM"
+	{
+		"hu"		"játékos skin"
+	}
+
+	"playing on the server CM"
+	{
+		"hu"		"játszik a szerveren"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Játszottál a szerverünkön {1} napot egymás után"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"A következő megjelenéskor megkapod a {1}-et."
+	}
+
+	"respawn CM"
+	{
+		"hu"		"Újraéledés"
+	}
+
+	"roulette CM"
+	{
+		"hu"		"Rulett"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Elérted a maximális 'say sound' használatot. {1} maximális használat/térkép"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"hu"		"Elérted a maximális 'say sound' használatot. {1} maximális használat/kör"
+	}
+
+	"saysound CM"
+	{
+		"hu"		"mond hang"
+	}
+
+	"scoreboardtag CM"
+	{
+		"hu"		"Pontozó tábla címke"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"hu"		"füstgránát kill"
+	}
+
+	"sound CM"
+	{
+		"hu"		"hang"
+	}
+
+	"spawn CM"
+	{
+		"hu"		"Extra újraéledés"
+	}
+
+	"spawneff CM"
+	{
+		"hu"		"spawneffekt:"
+	}
+
+	"speed CM"
+	{
+		"hu"		"képesség"
+	}
+
+	"spray CM"
+	{
+		"hu"		"spray"
+	}
+
+	"start daily challange CM"
+	{
+		"hu"		"Kezdd el a 'napi kihívást'. Játssz a következő 6 napban, hogy megkapd a teljes bónuszt"
+	}
+
+	"taser kill CM"
+	{
+		"hu"		"taser kill"
+	}
+
+	"teambet CM"
+	{
+		"hu"		"Csapatfogadás"
+	}
+
+	"teamkill CM"
+	{
+		"hu"		"teamkill"
+	}
+
+	"tfhat CM"
+	{
+		"hu"		"építmény sapka"
+	}
+
+	"tfhatdye CM"
+	{
+		"hu"		"sapka szín"
+	}
+
+	"tfhead CM"
+	{
+		"hu"		"fej méret"
+	}
+
+	"tfunusual CM"
+	{
+		"hu"		"sapka effekt"
+	}
+
+	"tfweapon CM"
+	{
+		"hu"		"saját fegyver"
+	}
+
+	"tfweaponsize CM"
+	{
+		"hu"		"fegyver méret"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"A nyeremény {1} másodperc múlva lesz kisorsolva"
+	}
+
+	"thirdperson CM"
+	{
+		"hu"		"harmadik személy"
+	}
+
+	"throwknife CM"
+	{
+		"hu"		"Kés dobása"
+	}
+
+	"toplists CM"
+	{
+		"hu"		"Legjobb listák"
+	}
+
+	"tracer CM"
+	{
+		"hu"		"lézer"
+	}
+
+	"trail CM"
+	{
+		"hu"		"csík"
+	}
+
+	"wasted CM"
+	{
+		"hu"		"elvesztegetve"
+	}
+
+	"watergun CM"
+	{
+		"hu"		"effekt"
+	}
+
+	"weapon CM"
+	{
+		"hu"		"fegyver"
+	}
+
+	"weaponcolor CM"
+	{
+		"hu"		"fegyver szín"
+	}
+
+	"weaponmodel CM"
+	{
+		"hu"		"Fegyver modell"
+	}
+
+	"weaponskin CM"
+	{
+		"hu"		"fegyver skin"
+	}
+
+	"win the round CM"
+	{
+		"hu"		"nyerd meg a kört"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"hu"		"{1} {2} ezért '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"hu"		"{1} óra {2} perc és {3} másodperc"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"hu"		"{1} óra {2} perc és {3} másodperc"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"hu"		"{1} perc és {2} másodperc"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"hu"		"{1} perc és {2} másodperc"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"{1} másodperc"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"hu"		"{1} másodperc"
+	}
+
+	"zrclass CM"
+	{
+		"hu"		"játékos típus"
+	}
 }

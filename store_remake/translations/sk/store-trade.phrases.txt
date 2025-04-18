@@ -104,4 +104,133 @@
 	{
 		"sk"		"Prosím, počkajte na odpoveď vybraného hráča."
 	}
+
+
+	"Cancel CM"
+	{
+		"sk"		"Zrušiť obchod"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sk"		"Chcete ponúknuť svoj {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"sk"		"Chcete vymeniť svoj {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"sk"		"Ponúknuť predmet"
+	}
+
+	"Offer item CM"
+	{
+		"sk"		"Ponúknuť túto položku"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Váš partner ponúka {1} kredit(ov)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"sk"		"Váš partner ponúka nasledujúce predmety:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"sk"		"Váš partner ešte nie je pripravený."
+	}
+
+	"Partner Ready CM"
+	{
+		"sk"		"Váš partner je pripravený."
+	}
+
+	"Player Left CM"
+	{
+		"sk"		"Hráč, s ktorým ste chceli obchodovať, opustil hru."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Pripravený [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"sk"		"Obchod skončí za {1} sekúnd..."
+	}
+
+	"Trade Active CM"
+	{
+		"sk"		"Už obchodujete."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"sk"		"Chcete obchodovať s {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"sk"		"Chcete zrušiť obchod?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"sk"		"Počkajte niekoľko minút pred ďalším obchodom."
+	}
+
+	"Trade Menu CM"
+	{
+		"sk"		"Pre znovu otvorenie ponuky obchodu napíšte !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"sk"		"Neobchodujete."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"sk"		"Váš partner zrušil obchod."
+	}
+
+	"Trade Select Player CM"
+	{
+		"sk"		"Vyberte hráča na obchod"
+	}
+
+	"Trade Successful CM"
+	{
+		"sk"		"Obchod bol úspešne dokončený."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"sk"		"Obchodujete s {1}\n-----------------------------\nNa ponuku kreditov napíšte !offer <amount>\nPonúkli ste {2} kreditov"
+	}
+
+	"Trade item CM"
+	{
+		"sk"		"Vymeniť túto položku"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"sk"		"Prosím, počkajte na odpoveď vybraného hráča."
+	}
 }

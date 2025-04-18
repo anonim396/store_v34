@@ -104,4 +104,133 @@
 	{
 		"da"		"Vent venligst på svar fra den valgte spiller."
 	}
+
+
+	"Cancel CM"
+	{
+		"da"		"Annuller handel"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"da"		"Vil du tilbyde din {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"da"		"Vil du handle din {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"da"		"Tilbyd en vare"
+	}
+
+	"Offer item CM"
+	{
+		"da"		"Tilbyd dette element"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Din partner tilbyder {1} kredit(er)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"da"		"Din partner tilbyder følgende varer:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"da"		"Din partner er ikke klar endnu."
+	}
+
+	"Partner Ready CM"
+	{
+		"da"		"Din partner er klar."
+	}
+
+	"Player Left CM"
+	{
+		"da"		"Den spiller, du ville handle med, har forladt spillet."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Klar [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"da"		"Handelen slutter om {1} sekund(er)..."
+	}
+
+	"Trade Active CM"
+	{
+		"da"		"Du handler allerede."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"da"		"Vil du handle med {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"da"		"Vil du annullere handlen?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"da"		"Vent venligst et par minutter, før du handler igen."
+	}
+
+	"Trade Menu CM"
+	{
+		"da"		"For at åbne handelsmenuen igen, skriv !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"da"		"Du handler ikke."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"da"		"Din partner har annulleret handlen."
+	}
+
+	"Trade Select Player CM"
+	{
+		"da"		"Vælg en spiller at handle med"
+	}
+
+	"Trade Successful CM"
+	{
+		"da"		"Handlen blev gennemført succesfuldt."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"da"		"Du handler med {1}\n-----------------------------\nFor at tilbyde kreditter, skriv !offer <amount>\nDu har tilbudt {2} kreditter"
+	}
+
+	"Trade item CM"
+	{
+		"da"		"Byt dette element"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"da"		"Vent venligst på svar fra den valgte spiller."
+	}
 }

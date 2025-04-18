@@ -2279,4 +2279,2788 @@
 	{
 		"it"		"classe del giocatore"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"{1}21 !!! BLACKJACK !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Hai già ricaricato la configurazione. Per favore, cambia o ricarica la mappa."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Tutti i giocatori partecipanti si disconnettono, nessuno riavrà il suo {2}, haha. Il jackpot era {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"it"		"Tutti i voucher generati e validi sono:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"it"		"Hai vinto, ma possiedi già {1} ({2}). L'oggetto è stato venduto per {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"it"		"Hai già {1} ({2}). Ti sono stati restituiti {3} {4}"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Quantità: {1}"
+	}
+
+	"Aura CM"
+	{
+		"it"		"Aura:"
+	}
+
+	"Back CM"
+	{
+		"it"		"Indietro"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"it"		"Scommessa * Moltiplicatore = La tua vittoria"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Crediti bonus: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Vincita CT: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Scommessa massima ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Scommessa minima ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"it"		"Scommessa casuale ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Vincita T: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"it"		"Scommetti su"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"it"		"Scommettere su Testa/Coda"
+	}
+
+	"Bet on a color CM"
+	{
+		"it"		"Scommetti su un colore e se quel colore viene scelto, vinci!"
+	}
+
+	"Bet on a number CM"
+	{
+		"it"		"Scommetti su Basso (#1-3), Alto (#4-6) o un numero esatto. Se la tua scelta viene tirata, vinci!"
+	}
+
+	"Bet on a team CM"
+	{
+		"it"		"Scommetti su una squadra e se la squadra vince il round, vinci!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"it"		"Hai già piazzato la tua scommessa per questo turno."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"it"		"È stato specificato un identificatore di squadra non valido."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Hai perso {1} crediti sulla scommessa."
+	}
+
+	"Betting Period Over CM"
+	{
+		"it"		"Il periodo di scommesse è terminato per questo turno."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Hai piazzato con successo una scommessa di {1} crediti."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"La tua scommessa è stata vincente. Hai vinto {1} crediti."
+	}
+
+	"Black CM"
+	{
+		"it"		"nero"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"it"		"Blackjack è un gioco in cui il valore delle carte nella tua mano deve essere maggiore di quello del mazziere senza superare 21."
+	}
+
+	"Buy CM"
+	{
+		"it"		"Compra oggetto"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Compra oggetto ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"it"		"Hai cambiato il tuo colore in: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"it"		"Opzione colore etichetta chat"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"it"		"Disabilita il colore"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"it"		"Colore tag personalizzato disabilitato."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"it"		"Non hai alcuna etichetta del nome equipaggiata"
+	}
+
+	"CP No file found CM"
+	{
+		"it"		"Il colore della tag personalizzata per l'utente è stato disabilitato. Contatta l'amministratore per ulteriore supporto."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"it"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"it"		"Visualizzazione dell'anteprima del tag della classifica, premi il tasto TAB."
+	}
+
+	"Cancel CM"
+	{
+		"it"		"Annulla"
+	}
+
+	"Cant be bought CM"
+	{
+		"it"		"Questo oggetto non può essere acquistato"
+	}
+
+	"Cash out CM"
+	{
+		"it"		"Ritirare"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Cambia la tua scommessa: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"it"		"Hai comprato un {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"it"		"{1} ti ha inviato un {2} {3} come regalo."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"it"		"Hai inviato a {1} un {2} {3} come regalo."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"it"		"Hai venduto un {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Hai aperto un contenitore e trovato {1} crediti!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"it"		"{1} ha aperto un contenitore e ha trovato {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"it"		"{1} ha aperto un contenitore e ha trovato {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"it"		"Controlla tutti i voucher validi e disponibili (Solo Admin)"
+	}
+
+	"Check Voucher CM"
+	{
+		"it"		"Verifica un voucher"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"it"		"Controlla il tuo voucher generato e valido disponibile"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"it"		"Scegli un numero (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"it"		"Cashout automatico:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"it"		"Il tuo equipaggiamento è stato ripristinato."
+	}
+
+	"Client valid voucher CM"
+	{
+		"it"		"Il tuo voucher generato e valido è:\n "
+	}
+
+	"Close CM"
+	{
+		"it"		"Chiudi"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"it"		"Fumo colorato"
+	}
+
+	"Command is in-game only CM"
+	{
+		"it"		"Devi essere vivo per usare questo comando."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"it"		"La configurazione è stata ricaricata. Per favore riavvia o cambia la mappa."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"it"		"Sei sicuro di voler acquistare {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"it"		"Sei sicuro di voler regalare {1} {2} a {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"it"		"Sei sicuro di voler lasciare {1} {2} come regalo?"
+	}
+
+	"Confirm_No CM"
+	{
+		"it"		"No"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"it"		"Sei sicuro di voler vendere {1} {2} per {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"it"		"Sei sicuro di voler convertire {1} ({2}) in coupon?\nATTENZIONE: Se l'elemento nel voucher scade prima di essere riscattato.\nQuesto voucher scadrà."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"it"		"Sì"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"it"		"{1} ha dato la risposta giusta e ha vinto {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"it"		"Contro-terrorista"
+	}
+
+	"Crash Already Start CM"
+	{
+		"it"		"Il gioco Crash è attualmente in corso. Si prega di attendere il prossimo gioco."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"it"		"Spento"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"it"		"Disattiva il cashout automatico"
+	}
+
+	"Crash Auto On CM"
+	{
+		"it"		"Acceso"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"it"		"Attiva il cashout automatico"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"it"		"           Cos'è/ Come giocare: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"it"		"- Crash è il gioco in cui i giocatori possono scommettere su un moltiplicatore, questo moltiplicatore è legato a una curva crescente che può collassare in qualsiasi momento."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"it"		"- Il moltiplicatore inizia da 1.00x e puoi prelevare in qualsiasi momento."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"it"		"- Il valore minimo della scommessa è {1} {2}. Il valore massimo della scommessa è {3} {4}. Questi limiti potrebbero cambiare nel tempo."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"it"		"Input errato (deve essere {1} o superiore)."
+	}
+
+	"Crash auto input CM"
+	{
+		"it"		"Scrivi il tuo valore di cashout automatico in chat"
+	}
+
+	"Crash auto input set CM"
+	{
+		"it"		"Crash auto cashout impostato"
+	}
+
+	"Crash set auto CM"
+	{
+		"it"		"Imposta il valore di cashout automatico"
+	}
+
+	"Crash! CM"
+	{
+		"it"		"Crash!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"it"		"Crea un voucher per articoli (Solo Admin)"
+	}
+
+	"Create Voucher CM"
+	{
+		"it"		"Crea un voucher"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Creazione del voucher non riuscita - Contatta un amministratore con il seguente timestamp: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"it"		"L'invio di crediti è disabilitato su questo server."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Hai lasciato cadere {1} crediti come regalo."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"it"		"{2} ti ha inviato {1} crediti."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"it"		"Hai inviato {1} crediti a {2}."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"it"		"Non hai abbastanza crediti per creare un giveaway."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"it"		"Importo di crediti non valido inserito."
+	}
+
+	"Credit No Match CM"
+	{
+		"it"		"Nessun giocatore trovato."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"it"		"Non hai abbastanza crediti per acquistare questo."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"it"		"È stato trovato più di un client."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"it"		"Non hai abbastanza crediti per creare un voucher."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"it"		"Hai guadagnato {1} crediti per aver ucciso {2}."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Hai guadagnato {1} crediti per aver giocato sul server."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"it"		"{1} ha ricevuto {2} crediti."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"it"		"Crediti: {1}          Pot: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"it"		"Disabilitato"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"it"		"Abilitato"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"it"		"[Suono personalizzato dell'arma]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"it"		"Menu di controllo del volume del suono personalizzato dell'arma"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Volume: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"it"		"Suono personalizzato dell'arma: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"it"		"Il suono personalizzato dell'arma è Disabilitato."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"it"		"Il suono personalizzato dell'arma è attivato."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Il suono personalizzato dell'arma è attivato. Volume: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"it"		"Modello arma personalizzato:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"it"		"Danneggia la cassa per aprirla!"
+	}
+
+	"Dead heat CM"
+	{
+		"it"		"- pareggio -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"it"		"             DEAL     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"it"		"DEALER"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Sconto: '{1}' è attivo! Buon shopping!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Sconto: '{1}' è terminato."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Sconto: '{1}' è iniziato! Buon shopping!"
+	}
+
+	"Double CM"
+	{
+		"it"		"Raddoppiare"
+	}
+
+	"Down CM"
+	{
+		"it"		"In basso"
+	}
+
+	"Down2 CM"
+	{
+		"it"		"                      5 = In basso"
+	}
+
+	"Drop Gift CM"
+	{
+		"it"		"Lascia come regalo"
+	}
+
+	"Edit Amount CM"
+	{
+		"it"		"Modifica quantità: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"it"		"Per favore inserisci il tempo di scadenza (in secondi) per l'articolo nella chat!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"it"		"Formato numero non valido. Riprova."
+	}
+
+	"Enter custom amount CM"
+	{
+		"it"		"Si prega di inserire l'importo personalizzato nella chat!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"it"		"Si prega di inserire il valore massimo dei crediti nella chat!"
+	}
+
+	"Enter minimum value CM"
+	{
+		"it"		"Per favore, inserisci il valore minimo dei crediti nella chat!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"it"		"Per favore, inserisci il numero di voucher da creare nella chat!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"it"		"Per favore, inserisci il valore del voucher da acquistare nella chat!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"it"		"Si prega di inserire il codice del voucher nella chat!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"it"		"Si è verificato un errore durante il rimborso del prezzo. Si prega di contattare l'amministratore"
+	}
+
+	"Exact #x  = CM"
+	{
+		"it"		"Esatto #x = "
+	}
+
+	"Exit CM"
+	{
+		"it"		"Esci"
+	}
+
+	"Gained CM"
+	{
+		"it"		"Guadagnato"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"it"		"Guadagnato: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"it"		"Info gioco"
+	}
+
+	"Game in progress CM"
+	{
+		"it"		"Il tuo gioco di scommessa attuale è in corso. Attendere il completamento."
+	}
+
+	"Get three on a kind CM"
+	{
+		"it"		"Prendi tre uguali"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Hai raccolto {1} crediti."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"it"		"Hai raccolto un {1} {2}."
+	}
+
+	"Gift No Players CM"
+	{
+		"it"		"Non c'è nessuno a cui puoi regalare questo oggetto."
+	}
+
+	"Gift Player Left CM"
+	{
+		"it"		"Il giocatore selezionato ha già lasciato la partita."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"it"		"{1} Per fare un giveaway il server deve contenere almeno {2} giocatori."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"it"		"L'admin {1} ha aperto un giveaway con <font color='#15fb00'>{2} crediti"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"|| Il giveaway inizia tra {1} secondi ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"it"		"{1} {2} ha vinto un giveaway con {3} crediti"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"it"		"{1}\n|| Vincitore: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"it"		"Hai raggiunto il numero massimo di godmode che puoi acquistare in questo round."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"it"		"Non puoi usare godmode in questa squadra."
+	}
+
+	"Green CM"
+	{
+		"it"		"verde"
+	}
+
+	"HE grenade kill CM"
+	{
+		"it"		"uccisione con granata HE"
+	}
+
+	"HUD CM"
+	{
+		"it"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"it"		"Testa"
+	}
+
+	"Health Round Limit CM"
+	{
+		"it"		"Hai raggiunto il numero massimo di kit medici che puoi acquistare in questo round."
+	}
+
+	"Help_Back CM"
+	{
+		"it"		"Torna"
+	}
+
+	"Help_Exit CM"
+	{
+		"it"		"Esci"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"it"		"Nascondi scintille di proiettile"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"it"		"Nascondi tracce di proiettile"
+	}
+
+	"Hide gloves CM"
+	{
+		"it"		"Nascondi guanti"
+	}
+
+	"Hide paintball CM"
+	{
+		"it"		"Nascondi paintball"
+	}
+
+	"Hide particles CM"
+	{
+		"it"		"Nascondi particelle"
+	}
+
+	"Hide pets CM"
+	{
+		"it"		"Nascondi animali domestici"
+	}
+
+	"Hide trails CM"
+	{
+		"it"		"Nascondi tracce"
+	}
+
+	"High #4-6 CM"
+	{
+		"it"		"Alto #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"it"		"Alto #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"it"		"Alto - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"it"		"PIÙ ALTO"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Il numero scelto è: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Il numero successivo era: {1}"
+	}
+
+	"Hit CM"
+	{
+		"it"		"Colpo"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"it"		"Un numero tra {1} e {2} è stato scelto per indovinare se il prossimo numero sarà maggiore o minore del numero scelto."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"it"		"Se scegli quello giusto, vincerai il doppio della tua scommessa."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"it"		"Ci sono {1} secondo(i) di pausa tra ogni gioco."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai piazzato con successo {1} {2}."
+	}
+
+	"Inventory CM"
+	{
+		"it"		"Inventario"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"it"		"Per favore aspetta. Il tuo inventario non è stato ancora caricato."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"it"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"it"		"Equipaggia questo oggetto"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"{1} [EQUIPAGGIATO]"
+	}
+
+	"Item Gift CM"
+	{
+		"it"		"Regala questo oggetto"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"{1} (Scegli un piano)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Vendi per {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"it"		"Rimuovi questo oggetto"
+	}
+
+	"Item Use CM"
+	{
+		"it"		"Usa questo oggetto"
+	}
+
+	"Item Voucher CM"
+	{
+		"it"		"Crea un voucher dall'oggetto"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"it"		"La creazione di voucher per l'articolo è attualmente disabilitata."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"it"		"Hai convertito {1} ({2}) in voucher {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"it"		"{1} nascosto. Non li vedrai più."
+	}
+
+	"Item not found CM"
+	{
+		"it"		"Oggetto non trovato"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"it"		"{1} è di nuovo visibile."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"it"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"it"		"Jackpot in pausa."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Jackpot: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"it"		"Jetpack è vuoto"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"it"		"[Jetpack] Carburante: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"it"		"Jetpack ricaricato"
+	}
+
+	"Jihad Failed CM"
+	{
+		"it"		"La tua bomba non è esplosa."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"it"		"La bomba jihad {1} non è esplosa."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"it"		"Non puoi usare la bomba in questa squadra."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"{1} minuto(i) prima che inizi il crash."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"{1} secondo(i) prima che inizi il crash."
+	}
+
+	"LevelIcon CM"
+	{
+		"it"		"icona di livello"
+	}
+
+	"Limited CM"
+	{
+		"it"		"Limitato - un giocatore"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"it"		"Attendi che la tua cassa precedente venga aperta"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"it"		"La mappa è finita. Per favore, aspetta la prossima mappa"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"it"		"Il round è finito. Per favore, aspetta il prossimo round"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"it"		"Non puoi aprire durante il riscaldamento"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Hai perso la tua serie giornaliera di {1} giorno(i)."
+	}
+
+	"Lost bet CM"
+	{
+		"it"		"Fallito! Hai perso la tua scommessa"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Hai perso la tua scommessa, perché il numero successivo era: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"it"		"Basso #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"it"		"Basso #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"it"		"Basso - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"it"		"PIÙ BASSO"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Abbiamo bisogno di almeno {1} giocatore/i"
+	}
+
+	"Must be Alive CM"
+	{
+		"it"		"Devi essere vivo per usare questo."
+	}
+
+	"Must be dead CM"
+	{
+		"it"		"Devi essere morto per giocare"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"it"		"Moltiplicatore = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"it"		"Nessun jackpot attivo"
+	}
+
+	"No active TeamBet CM"
+	{
+		"it"		"Non sono state effettuate scommesse sul team"
+	}
+
+	"No have flag CM"
+	{
+		"it"		"Non hai accesso per usare questo comando."
+	}
+
+	"No matching color CM"
+	{
+		"it"		"Nessun colore corrispondente, usa: r/rosso, b/nero o g/verde"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"it"		"Nessuno ha preso i tuoi crediti caduti. Li hai ricevuti indietro."
+	}
+
+	"No pick up - removed CM"
+	{
+		"it"		"Nessuno ha preso i tuoi crediti caduti. I crediti sono stati rimossi."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Il tempo è scaduto. La risposta corretta era {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Nessun altro ha versato soldi nel jackpot. Ottieni indietro i tuoi {1} {2}!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"it"		"Non hai abbastanza crediti"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"it"		"Adesso è in corso un giveaway, riprova tra qualche secondo."
+	}
+
+	"Only number CM"
+	{
+		"it"		"Puoi digitare solo numeri..."
+	}
+
+	"Override Disabled CM"
+	{
+		"it"		"La tua skin non supporta i cappelli. Il cappello equipaggiato sarà disabilitato."
+	}
+
+	"Override Enabled CM"
+	{
+		"it"		"La tua skin attuale non supporta i cappelli. La tua skin verrà cambiata."
+	}
+
+	"Owned CM"
+	{
+		"it"		"[Posseduto]"
+	}
+
+	"Package Gift CM"
+	{
+		"it"		"Regala questo pacchetto"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Vendi questo pacchetto per {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"it"		"Fai un voucher dal pacchetto"
+	}
+
+	"Parachute Empty CM"
+	{
+		"it"		"Paracadute vuoto"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"it"		"Paracadute ricaricato"
+	}
+
+	"Particles CM"
+	{
+		"it"		"Particelle:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Posiziona {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"it"		"Sto riproducendo l'audio di anteprima per te."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"it"		"{1} ha {2} crediti."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"{1} è stato ripristinato."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"it"		"Il modulo Store Player Skin è attualmente disabilitato temporaneamente."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"it"		"{1} ha aggiunto {2} {3} al jackpot, la sua attuale probabilità di vincita è: {4}% (Jackpot: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"it"		"{1} ha perso {2} {3} su {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"it"		"{1} ha aperto un jackpot con {2} {3}. Fai Cash-in per prendere quei soldi!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"it"		"{1} ha vinto il Jackpot con {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"it"		"{1} ha vinto {2} {3} su {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"it"		"{1} ha vinto {2} {3} con un moltiplicatore di x{4} a {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"it"		"Le tue nuove impostazioni saranno applicate al prossimo spawn."
+	}
+
+	"Press CM"
+	{
+		"it"		"Premi"
+	}
+
+	"Press to Start CM"
+	{
+		"it"		"Premi per iniziare!"
+	}
+
+	"Press to Stop CM"
+	{
+		"it"		"Premi per fermare!"
+	}
+
+	"Preview Item CM"
+	{
+		"it"		"Anteprima di questo oggetto"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Prezzo: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"it"		"Acquista un voucher"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"it"		"Quanto vale {1} {2} {3}? | Premio: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"it"		"rosso"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"it"		"Riscattare un voucher"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Riesegui {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"it"		"Hai raggiunto il numero massimo di respawn che puoi acquistare in questo round."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"it"		"Per motivi di sicurezza non puoi inviare più richieste in un breve periodo di tempo."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"it"		"Il secondo vincitore non è più nel gioco, ultimo tentativo di trovare un nuovo vincitore."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Devi aspettare {1} secondi prima di provare a usare di nuovo questo comando."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"it"		"Mostra scintille di proiettile"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"it"		"Mostra tracce di proiettile"
+	}
+
+	"Show gloves CM"
+	{
+		"it"		"Mostra guanti"
+	}
+
+	"Show paintball CM"
+	{
+		"it"		"Mostra paintball"
+	}
+
+	"Show particles CM"
+	{
+		"it"		"Mostra particelle"
+	}
+
+	"Show pets CM"
+	{
+		"it"		"Mostra animali domestici"
+	}
+
+	"Show trails CM"
+	{
+		"it"		"Mostra tracce"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Non puoi usare un valore inferiore al tuo valore minimo ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"it"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Protezione dallo spam. Per favore aspetta {1} secondi."
+	}
+
+	"Spawn Preview CM"
+	{
+		"it"		"Anteprima generata. L'anteprima scomparirà tra 45 secondi."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"it"		"Anteprima generata. L'anteprima scomparirà tra {1} secondi."
+	}
+
+	"Start again from begin CM"
+	{
+		"it"		"Per favore, inizia di nuovo dall'inizio"
+	}
+
+	"Starting CM"
+	{
+		"it"		"Inizio"
+	}
+
+	"Stay CM"
+	{
+		"it"		"Stare"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"it"		"Sei sicuro di voler ripristinare il tuo equipaggiamento? Tutti gli oggetti saranno rimossi."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"it"		"Hai acquistato con successo un voucher"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"it"		"Questo oggetto doveva essere usato con una classe di giocatore diversa."
+	}
+
+	"Tail CM"
+	{
+		"it"		"Coda"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"it"		"Hai già piazzato la tua scommessa per questo round."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"it"		"È stato specificato un identificatore di squadra non valido."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai perso {1} {2} sulla scommessa."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"it"		"Il periodo di scommesse per questo round è terminato."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Hai piazzato con successo una scommessa di {1} crediti."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"La tua scommessa è stata un successo. Hai vinto {1} {2}."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"it"		"Non c'era nessuna scommessa sull'altra squadra, quindi hai ricevuto i crediti indietro."
+	}
+
+	"Terrorist CM"
+	{
+		"it"		"Terrorista"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Il numero scelto è: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Il numero successivo era: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"it"		"Questo è il testo di anteprima."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"L'amministratore ha ricaricato la configurazione del negozio. La mappa verrà ricaricata tra {1} secondi!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"it"		"Menu di creazione del voucher per articoli (Solo Admin).\n \nScegli la durata dell'articolo."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"it"		"Menu di creazione del voucher per articoli (Solo Admin)"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Crediti: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"it"		"Scade tra {1}g {2}h"
+	}
+
+	"Title Gift CM"
+	{
+		"it"		"Scegli un giocatore a cui inviare un regalo"
+	}
+
+	"Title Store CM"
+	{
+		"it"		"Menu del negozio"
+	}
+
+	"To late chat input CM"
+	{
+		"it"		"La tua immissione di testo non è stata completata nel tempo dato"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Ci sono troppi {1} a terra, non puoi lasciarne altri per ora!"
+	}
+
+	"Top Credits CM"
+	{
+		"it"		"Top crediti"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"it"		"Top crediti + valore inventario"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"it"		"Top valore inventario"
+	}
+
+	"Top Most Items CM"
+	{
+		"it"		"I più popolari articoli"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Totale: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"it"		"Riprova"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"it"		"Scrivi nella chat !bet <scommessa> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"it"		"Scrivi nella chat !blackjack <scommessa>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"it"		"Scrivi nella chat !coinflip <scommessa> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"it"		"Scrivi in chat !crash <scommessa>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"it"		"Scrivi nella chat !crowns <scommessa>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"it"		"Scrivi in chat !dice <scommessa> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"it"		"Scrivi nella chat !jackpot <scommessa>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"it"		"Scrivi nella chat !roulette <scommessa> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"it"		"Illimitato - più giocatori"
+	}
+
+	"Up CM"
+	{
+		"it"		"In alto"
+	}
+
+	"Value less than 1 CM"
+	{
+		"it"		"Non puoi usare un valore inferiore a 1."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"it"		"Volume di {1} impostato su {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"it"		"Per ora il codice del voucher deve essere esattamente di 17 caratteri"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Il voucher ha un valore di {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"it"		"Il voucher è stato accettato"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"it"		"Il voucher è stato accettato"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"it"		"Stai generando {1} {2}voucher limitato{3} con valore {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"it"		"Stai generando {1} {2}voucher limitato{3} con valori {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Il codice voucher inserito è già stato riscattato il {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Questo voucher scade il {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Il codice voucher inserito è scaduto il {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"it"		"Creato nuovo voucher {1} con valore {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"it"		"Puoi trovare il codice del voucher anche nella chat e nella console"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Codice del voucher: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Il codice voucher inserito '{1}' non è valido!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"it"		"Il voucher include {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"it"		"Il codice voucher è valido"
+	}
+
+	"Vouchers CM"
+	{
+		"it"		"Voucher"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Devi aspettare {1} fino al prossimo giornaliero."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"it"		"Hai già effettuato il check-in oggi. Torna domani."
+	}
+
+	"Win = CM"
+	{
+		"it"		"Vittoria = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"it"		"Il vincitore non è più nel gioco, stiamo cercando un nuovo vincitore."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"it"		"Il codice voucher ha un formato errato. Deve essere XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"it"		"TU"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"it"		"Hai già incassato {1} {2} nel jackpot. Probabilità di vincita attuale: {3}%% Jackpot: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"it"		"Hai già l'oggetto del voucher inserito"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"it"		"Hai già riscattato il codice voucher inserito"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"it"		"Puoi avviare un nuovo Jackpot"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Puoi avviare un nuovo Jackpot in {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Non puoi spendere così tanti crediti (Max: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai raccolto {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"it"		"Non hai il permesso di accedere a questo."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai lasciato cadere {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"it"		"Non hai guadagnato punti in questo round."
+	}
+
+	"You earned this round CM"
+	{
+		"it"		"Hai guadagnato questo round:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai guadagnato {1} {2} per "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai guadagnato {1} {2} in questo round"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai ricevuto {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai ricevuto {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"it"		"Hai ricevuto un {1} ({2})."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"it"		"Hai ricevuto un {1} ({2})."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Devi spendere almeno {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Devi spendere almeno {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"it"		"Non hai aperto la scatola nel tempo stabilito. La lootbox è tornata nel tuo inventario"
+	}
+
+	"You lose CM"
+	{
+		"it"		"- hai perso"
+	}
+
+	"You lost with CM"
+	{
+		"it"		"Hai perso con"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai perso {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"it"		"Hai padroneggiato la 'sfida quotidiana'! Prova a batterla di nuovo!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai vinto {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"it"		"!!! HAI VINTO !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"it"		"Hai vinto un {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai vinto il Jackpot con {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"it"		"Hai vinto il Jackpot con {1} {2} meno la tassa del casinò di {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"it"		"Hai vinto con"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"it"		"Hai vinto {1} crediti con x{2}."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Guadagnerai {1} {2} domani!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"it"		"La tua scommessa: {1} {2} - Possibilità: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"La tua scommessa: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"it"		"La tua attuale probabilità di vincita è cambiata a {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Hai guadagnato {1} crediti per aver ucciso {2}."
+	}
+
+	"admin CM"
+	{
+		"it"		"admin"
+	}
+
+	"and is limited CM"
+	{
+		"it"		"ed è limitato"
+	}
+
+	"and is unlimited CM"
+	{
+		"it"		"ed è illimitato"
+	}
+
+	"arms CM"
+	{
+		"it"		"braccia"
+	}
+
+	"assist a kill CM"
+	{
+		"it"		"assisti ad un omicidio"
+	}
+
+	"attachment CM"
+	{
+		"it"		"Accessorio"
+	}
+
+	"backstab kill CM"
+	{
+		"it"		"uccisione alle spalle"
+	}
+
+	"be the MVP CM"
+	{
+		"it"		"essere l'MVP"
+	}
+
+	"bet x CM"
+	{
+		"it"		"scommettere x"
+	}
+
+	"blackjack CM"
+	{
+		"it"		"Blackjack"
+	}
+
+	"bomb defused CM"
+	{
+		"it"		"bomba disinnescata"
+	}
+
+	"bomb explode CM"
+	{
+		"it"		"la bomba esplode"
+	}
+
+	"bomb planted CM"
+	{
+		"it"		"bomba piantata"
+	}
+
+	"bombtweak CM"
+	{
+		"it"		"Modifica bomba"
+	}
+
+	"bullet_impact CM"
+	{
+		"it"		"Impatto del proiettile"
+	}
+
+	"bulletsparks CM"
+	{
+		"it"		"Scintille di proiettile"
+	}
+
+	"bunnyhob CM"
+	{
+		"it"		"Salto del Coniglio"
+	}
+
+	"bunnyhop CM"
+	{
+		"it"		"abilità"
+	}
+
+	"casino CM"
+	{
+		"it"		"Casino"
+	}
+
+	"coinflip CM"
+	{
+		"it"		"Lancio della moneta"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Vuoi ripristinare la configurazione?\nLa mappa sarà ricaricata dopo {1} secondi!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"it"		"Vuoi ripristinare la configurazione?\nDevi cambiare la mappa per applicare le modifiche o potrebbero verificarsi dei bug."
+	}
+
+	"connect CM"
+	{
+		"it"		"Messaggio di Connessione"
+	}
+
+	"crash CM"
+	{
+		"it"		"Crash"
+	}
+
+	"creditstoplist CM"
+	{
+		"it"		"crediti"
+	}
+
+	"crowns CM"
+	{
+		"it"		"Slot corone"
+	}
+
+	"daily CM"
+	{
+		"it"		"Bonus giornaliero"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"it"		"uccisione con granata ingannevole"
+	}
+
+	"dice CM"
+	{
+		"it"		"Dado"
+	}
+
+	"direction CM"
+	{
+		"it"		"Direzione"
+	}
+
+	"discount CM"
+	{
+		"it"		"SALDI"
+	}
+
+	"distance CM"
+	{
+		"it"		"Distanza"
+	}
+
+	"dmgtext CM"
+	{
+		"it"		"Pittrice"
+	}
+
+	"emote CM"
+	{
+		"it"		"Emote"
+	}
+
+	"escape as VIP CM"
+	{
+		"it"		"Scappa come VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"it"		"uccisione con flashbang"
+	}
+
+	"flashlight CM"
+	{
+		"it"		"Torcia"
+	}
+
+	"froggyjump CM"
+	{
+		"it"		"Salto della Rana"
+	}
+
+	"gloves CM"
+	{
+		"it"		"guanti"
+	}
+
+	"glow CM"
+	{
+		"it"		"luce"
+	}
+
+	"godmode CM"
+	{
+		"it"		"godmode"
+	}
+
+	"gravity CM"
+	{
+		"it"		"abilità"
+	}
+
+	"grenademodel CM"
+	{
+		"it"		"Modello di granata"
+	}
+
+	"grenadeskin CM"
+	{
+		"it"		"skin della granata"
+	}
+
+	"grenadetrail CM"
+	{
+		"it"		"traccia della granata"
+	}
+
+	"hat CM"
+	{
+		"it"		"cappello"
+	}
+
+	"headshot CM"
+	{
+		"it"		"colpo alla testa"
+	}
+
+	"health CM"
+	{
+		"it"		"pacchetto"
+	}
+
+	"high or low CM"
+	{
+		"it"		"Alto o basso"
+	}
+
+	"hiteff CM"
+	{
+		"it"		"effetto colpo:"
+	}
+
+	"hitsound CM"
+	{
+		"it"		"Suono dell'impatto"
+	}
+
+	"hostage rescued CM"
+	{
+		"it"		"ostaggio salvato"
+	}
+
+	"hunterjump CM"
+	{
+		"it"		"Salto del Cacciatore"
+	}
+
+	"idle on the server CM"
+	{
+		"it"		"fermo sul server"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"in {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"it"		"Munizioni infinite"
+	}
+
+	"info CM"
+	{
+		"it"		"Pannello Informazioni"
+	}
+
+	"instabomb CM"
+	{
+		"it"		"Pianta / disinnesco immediato"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"it"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"it"		"abilità"
+	}
+
+	"items CM"
+	{
+		"it"		"Oggetti"
+	}
+
+	"jackpot CM"
+	{
+		"it"		"Jackpot"
+	}
+
+	"jetpack CM"
+	{
+		"it"		"razzo"
+	}
+
+	"jihad CM"
+	{
+		"it"		"bomba"
+	}
+
+	"kill CM"
+	{
+		"it"		"uccidi"
+	}
+
+	"kill the VIP CM"
+	{
+		"it"		"uccidi il VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"it"		"ucciditi"
+	}
+
+	"killeff CM"
+	{
+		"it"		"effetto uccisione:"
+	}
+
+	"knife CM"
+	{
+		"it"		"coltello"
+	}
+
+	"knife kill CM"
+	{
+		"it"		"uccisione con coltello"
+	}
+
+	"laserdraw CM"
+	{
+		"it"		"laser draw:"
+	}
+
+	"laserpointer CM"
+	{
+		"it"		"Indicatore laser"
+	}
+
+	"lasersight CM"
+	{
+		"it"		"mirino laser"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"ultimo aggiornamento {1} fa"
+	}
+
+	"light CM"
+	{
+		"it"		"Luce"
+	}
+
+	"lootbox CM"
+	{
+		"it"		"Cassa di bottino"
+	}
+
+	"mirror CM"
+	{
+		"it"		"specchio"
+	}
+
+	"molotov kill CM"
+	{
+		"it"		"uccisione con molotov"
+	}
+
+	"msgcolor CM"
+	{
+		"it"		"colore del messaggio"
+	}
+
+	"mvp_sound CM"
+	{
+		"it"		"Inni MVP"
+	}
+
+	"namecolor CM"
+	{
+		"it"		"colore del nome"
+	}
+
+	"nametag CM"
+	{
+		"it"		"etichetta del nome"
+	}
+
+	"nearest CM"
+	{
+		"it"		"Più vicino"
+	}
+
+	"nodiscount CM"
+	{
+		"it"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"it"		"Nessun ritardo nell'abbassamento"
+	}
+
+	"nofalldamage CM"
+	{
+		"it"		"Nessun danno da caduta"
+	}
+
+	"noreload CM"
+	{
+		"it"		"Non ricaricare"
+	}
+
+	"noscope kill CM"
+	{
+		"it"		"uccidi senza mirino"
+	}
+
+	"noselfdamage CM"
+	{
+		"it"		"Nessun danno a te stesso"
+	}
+
+	"or use buttons below CM"
+	{
+		"it"		"oppure usa i pulsanti qui sotto"
+	}
+
+	"package CM"
+	{
+		"it"		"pacchetto"
+	}
+
+	"paintball CM"
+	{
+		"it"		"proiettili"
+	}
+
+	"painter CM"
+	{
+		"it"		"Pittrice"
+	}
+
+	"parachute CM"
+	{
+		"it"		"Paracadute"
+	}
+
+	"particle CM"
+	{
+		"it"		"Particelle"
+	}
+
+	"pet CM"
+	{
+		"it"		"animale domestico"
+	}
+
+	"playerskin CM"
+	{
+		"it"		"skin del giocatore"
+	}
+
+	"playing on the server CM"
+	{
+		"it"		"giocando sul server"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"Hai giocato nel nostro server per {1} giorni consecutivi"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Riceverai {1} alla prossima apparizione"
+	}
+
+	"respawn CM"
+	{
+		"it"		"Respawn"
+	}
+
+	"roulette CM"
+	{
+		"it"		"Roulette"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Hai raggiunto il numero massimo di utilizzi del suono. {1} utilizzo/i massimo/i per mappa"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"it"		"Hai raggiunto il numero massimo di utilizzi del suono. {1} utilizzo/i massimo/i per turno"
+	}
+
+	"saysound CM"
+	{
+		"it"		"dire suono"
+	}
+
+	"scoreboardtag CM"
+	{
+		"it"		"Tag della classifica"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"it"		"uccisione con granata fumogena"
+	}
+
+	"sound CM"
+	{
+		"it"		"suono"
+	}
+
+	"spawn CM"
+	{
+		"it"		"Respawn extra"
+	}
+
+	"spawneff CM"
+	{
+		"it"		"effetto spawn:"
+	}
+
+	"speed CM"
+	{
+		"it"		"abilità"
+	}
+
+	"spray CM"
+	{
+		"it"		"spray"
+	}
+
+	"start daily challange CM"
+	{
+		"it"		"Inizia la 'sfida quotidiana'. Gioca nei prossimi 6 giorni per ricevere il bonus completo"
+	}
+
+	"taser kill CM"
+	{
+		"it"		"uccisione con taser"
+	}
+
+	"teambet CM"
+	{
+		"it"		"Scommessa di squadra"
+	}
+
+	"teamkill CM"
+	{
+		"it"		"uccidere un compagno di squadra"
+	}
+
+	"tfhat CM"
+	{
+		"it"		"cappello da costruzione"
+	}
+
+	"tfhatdye CM"
+	{
+		"it"		"tinta per cappello"
+	}
+
+	"tfhead CM"
+	{
+		"it"		"dimensione della testa"
+	}
+
+	"tfunusual CM"
+	{
+		"it"		"effetto del cappello"
+	}
+
+	"tfweapon CM"
+	{
+		"it"		"arma personalizzata"
+	}
+
+	"tfweaponsize CM"
+	{
+		"it"		"dimensione dell'arma"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Il premio verrà estratto tra {1} secondi"
+	}
+
+	"thirdperson CM"
+	{
+		"it"		"terza persona"
+	}
+
+	"throwknife CM"
+	{
+		"it"		"Lancia coltello"
+	}
+
+	"toplists CM"
+	{
+		"it"		"Liste dei migliori"
+	}
+
+	"tracer CM"
+	{
+		"it"		"tracciante"
+	}
+
+	"trail CM"
+	{
+		"it"		"traccia"
+	}
+
+	"wasted CM"
+	{
+		"it"		"sprecato"
+	}
+
+	"watergun CM"
+	{
+		"it"		"effetto"
+	}
+
+	"weapon CM"
+	{
+		"it"		"arma"
+	}
+
+	"weaponcolor CM"
+	{
+		"it"		"colore dell'arma"
+	}
+
+	"weaponmodel CM"
+	{
+		"it"		"Modello dell'arma"
+	}
+
+	"weaponskin CM"
+	{
+		"it"		"skin arma"
+	}
+
+	"win the round CM"
+	{
+		"it"		"vinci il round"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"it"		"{1} {2} per '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"it"		"{1} ore {2} minuti e {3} secondi"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"it"		"{1} ora(e) {2} minuto(i) e {3} secondo(i)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"it"		"{1} minuti e {2} secondi"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"it"		"{1} minuto(i) e {2} secondo(i)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"{1} secondi"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"it"		"{1} secondo(i)"
+	}
+
+	"zrclass CM"
+	{
+		"it"		"classe del giocatore"
+	}
 }

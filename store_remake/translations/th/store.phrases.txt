@@ -2275,4 +2275,2783 @@
 	{
 		"th"		"ประเภทผู้เล่น"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"{1}21 !!! แบล็คแจ็ค !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"คุณได้โหลดการตั้งค่าใหม่แล้ว กรุณาเปลี่ยนหรือโหลดแผนที่ใหม่"
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"ผู้เล่นทั้งหมดที่เข้าร่วมตัดการเชื่อมต่อ ไม่มีใครได้รับ {2} ของเขากลับไป ฮ่าฮ่า แจ็คพอตคือ {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"th"		"คูปองที่สร้างขึ้นและมีผลบังคับใช้ทั้งหมดคือ:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"th"		"คุณชนะแล้ว แต่มี {1} ({2}) อยู่แล้ว รายการถูกขายในราคา {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"th"		"คุณมี {1} ({2}) อยู่แล้ว คุณได้รับ {3} {4} คืน"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"จำนวน: {1}"
+	}
+
+	"Aura CM"
+	{
+		"th"		"ออร่า"
+	}
+
+	"Back CM"
+	{
+		"th"		"กลับ"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"th"		"เดิมพัน * คูณ = การชนะของคุณ"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"โบนัสเครดิต: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"Pot CT ชนะ: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"เดิมพันสูงสุด ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"เดิมพันขั้นต่ำ ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"th"		"เดิมพันแบบสุ่ม ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"Pot T ชนะ: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"th"		"เดิมพันที่"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"th"		"เดิมพันที่หัว/หาง"
+	}
+
+	"Bet on a color CM"
+	{
+		"th"		"เดิมพันที่สีและถ้าสีนี้ถูกเลือกคุณชนะ!"
+	}
+
+	"Bet on a number CM"
+	{
+		"th"		"เดิมพันที่ต่ำ (#1-3), สูง (#4-6) หรือหมายเลขที่แน่นอน ถ้าตัวเลือกของคุณทอยได้คุณจะชนะ!"
+	}
+
+	"Bet on a team CM"
+	{
+		"th"		"เดิมพันที่ทีมและถ้าทีมนั้นชนะรอบคุณชนะ!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"th"		"คุณได้วางเดิมพันสำหรับรอบนี้แล้ว"
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"th"		"ระบุทีมไม่ถูกต้อง"
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณสูญเสีย {1} เครดิตจากการเดิมพัน"
+	}
+
+	"Betting Period Over CM"
+	{
+		"th"		"หมดเวลาการเดิมพันสำหรับรอบนี้"
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณได้เดิมพันสำเร็จ {1} เครดิต"
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"การเดิมพันของคุณสำเร็จ คุณชนะ {1} เครดิต"
+	}
+
+	"Black CM"
+	{
+		"th"		"สีดำ"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"th"		"แบล็คแจ็คเป็นเกมที่มูลค่าของไพ่ในมือคุณต้องสูงกว่าเจ้ามือโดยไม่เกิน 21"
+	}
+
+	"Buy CM"
+	{
+		"th"		"ซื้อไอเทม"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"ซื้อไอเทม ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"th"		"คุณเปลี่ยนสีของคุณเป็น: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"th"		"ตัวเลือกสีแท็กแชท"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"th"		"ปิดการใช้งานสี"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"th"		"สีแท็กที่กำหนดเองถูกปิดใช้งาน"
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"th"		"คุณไม่มีป้ายชื่อที่ติดตั้ง"
+	}
+
+	"CP No file found CM"
+	{
+		"th"		"สีแท็กที่กำหนดเองสำหรับผู้ใช้ถูกปิดใช้งาน โปรดติดต่อผู้ดูแลระบบสำหรับการสนับสนุนเพิ่มเติม"
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"th"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"th"		"แสดงตัวอย่างแท็กกระดานคะแนน โปรดกดปุ่ม TAB"
+	}
+
+	"Cancel CM"
+	{
+		"th"		"ยกเลิก"
+	}
+
+	"Cant be bought CM"
+	{
+		"th"		"ไม่สามารถซื้อไอเทมนี้ได้"
+	}
+
+	"Cash out CM"
+	{
+		"th"		"ถอนเงิน"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"เปลี่ยนการเดิมพันของคุณ: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"th"		"คุณได้ซื้อ {1} {2}."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"th"		"{1} ได้ส่ง {2} {3} ให้คุณเป็นของขวัญ."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"th"		"คุณได้ส่ง {1} {2} {3} เป็นของขวัญ."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"th"		"คุณได้ขาย {1} {2}."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"คุณเปิดกล่องและพบ {1} เครดิต!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"th"		"{1} เปิดกล่องและพบ {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"th"		"{1} เปิดกล่องและพบ {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"th"		"ตรวจสอบคูปองที่ถูกต้องและสามารถใช้งานได้ทั้งหมด (เฉพาะผู้ดูแลระบบ)"
+	}
+
+	"Check Voucher CM"
+	{
+		"th"		"ตรวจสอบบัตรกำนัล"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"th"		"ตรวจสอบคูปองที่ถูกสร้างและมีอยู่ที่ถูกต้อง"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"th"		"เลือกหมายเลข (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"th"		"การถอนอัตโนมัติ:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"th"		"อุปกรณ์ของคุณถูกรีเซ็ตแล้ว"
+	}
+
+	"Client valid voucher CM"
+	{
+		"th"		"คูปองที่สร้างขึ้นและมีผลบังคับใช้ของคุณคือ:\n "
+	}
+
+	"Close CM"
+	{
+		"th"		"ปิด"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"th"		"ควันสี"
+	}
+
+	"Command is in-game only CM"
+	{
+		"th"		"คุณต้องมีชีวิตอยู่เพื่อใช้คำสั่งนี้"
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"th"		"การตั้งค่าถูกโหลดใหม่ กรุณารีสตาร์ทหรือลองเปลี่ยนแผนที่"
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"th"		"คุณแน่ใจหรือไม่ว่าต้องการซื้อ {1} {2}?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"th"		"คุณแน่ใจหรือไม่ว่าต้องการมอบ {1} {2} ให้ {3}?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"th"		"คุณแน่ใจหรือไม่ว่าต้องการทิ้ง {1} {2} เป็นของขวัญ?"
+	}
+
+	"Confirm_No CM"
+	{
+		"th"		"ไม่"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"th"		"คุณแน่ใจหรือไม่ว่าต้องการขาย {1} {2} ด้วยราคา {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"th"		"คุณมั่นใจหรือไม่ว่าต้องการแปลง {1} ({2}) เป็นคูปอง?\nคำเตือน: หากไอเท็มในคูปองหมดอายุก่อนแลกรับ\nคูปองนี้จะหมดอายุ"
+	}
+
+	"Confirm_Yes CM"
+	{
+		"th"		"ใช่"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"th"		"{1} ตอบถูกและได้รับ {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"th"		"ต่อต้านผู้ก่อการร้าย"
+	}
+
+	"Crash Already Start CM"
+	{
+		"th"		"เกม Crash กำลังดำเนินการอยู่ในขณะนี้ กรุณารอเกมถัดไป"
+	}
+
+	"Crash Auto Off CM"
+	{
+		"th"		"ปิด"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"th"		"ปิดการถอนอัตโนมัติ"
+	}
+
+	"Crash Auto On CM"
+	{
+		"th"		"เปิด"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"th"		"เปิดการถอนอัตโนมัติ"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"th"		"           อะไรคือ/วิธีการเล่น: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"th"		"- Crash เป็นเกมที่ผู้เล่นสามารถเดิมพันกับตัวคูณ ซึ่งตัวคูณนี้เกี่ยวข้องกับเส้นโค้งที่เพิ่มขึ้นซึ่งอาจเกิดการล้มเหลวได้ตลอดเวลา"
+	}
+
+	"Crash Info 3 CM"
+	{
+		"th"		"- ตัวคูณเริ่มต้นที่ 1.00x และคุณสามารถถอนเงินได้ตลอดเวลา"
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"th"		"- มูลค่าเดิมพันขั้นต่ำคือ {1} {2} มูลค่าเดิมพันสูงสุดคือ {3} {4} ข้อจำกัดเหล่านี้อาจเปลี่ยนแปลงตามเวลา"
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"th"		"ป้อนข้อมูลผิด (ต้องเป็น {1} หรือมากกว่า)"
+	}
+
+	"Crash auto input CM"
+	{
+		"th"		"พิมพ์ค่าถอนอัตโนมัติของคุณในแชท"
+	}
+
+	"Crash auto input set CM"
+	{
+		"th"		"ตั้งค่าการถอนอัตโนมัติ Crash"
+	}
+
+	"Crash set auto CM"
+	{
+		"th"		"ตั้งค่ามูลค่าการถอนอัตโนมัติ"
+	}
+
+	"Crash! CM"
+	{
+		"th"		"คราช!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"th"		"สร้างคูปองสินค้า (เฉพาะผู้ดูแลระบบ)"
+	}
+
+	"Create Voucher CM"
+	{
+		"th"		"สร้างบัตรกำนัล"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"การสร้างบัตรกำนัลล้มเหลว - ติดต่อผู้ดูแลระบบพร้อมตราประทับเวลา: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"th"		"การมอบเครดิตถูกปิดการใช้งานในเซิร์ฟเวอร์นี้."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณทิ้ง {1} เครดิตเป็นของขวัญ"
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"th"		"{2} ได้ส่ง {1} เครดิตให้กับคุณ"
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"th"		"คุณได้ส่ง {1} เครดิตไปยัง {2}"
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"th"		"คุณไม่มีเครดิตเพียงพอในการสร้างกิจกรรมแจกของ"
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"th"		"จำนวนเครดิตที่ป้อนไม่ถูกต้อง."
+	}
+
+	"Credit No Match CM"
+	{
+		"th"		"ไม่พบผู้เล่น"
+	}
+
+	"Credit Not Enough CM"
+	{
+		"th"		"คุณไม่มีเครดิตเพียงพอที่จะซื้อสิ่งนี้"
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"th"		"พบลูกค้ามากกว่าหนึ่งราย"
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"th"		"คุณไม่มีเครดิตเพียงพอในการสร้างคูปอง"
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"th"		"คุณได้รับ {1} เครดิตจากการฆ่า {2}"
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณได้รับ {1} เครดิตจากการเล่นบนเซิร์ฟเวอร์"
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"th"		"{1} ได้รับ {2} เครดิต."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"th"		"เครดิต: {1}          หม้อ: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"th"		"ปิดการใช้งาน"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"th"		"เปิดใช้งาน"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"th"		"[เสียงอาวุธที่กำหนดเอง]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"th"		"เมนูควบคุมระดับเสียงของเสียงอาวุธที่กำหนดเอง"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"ระดับเสียง: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"th"		"เสียงอาวุธที่กำหนดเอง: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"th"		"เสียงอาวุธที่กำหนดเอง ปิดการใช้งาน."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"th"		"เสียงอาวุธที่กำหนดเองเปิดใช้งาน"
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"เสียงอาวุธที่กำหนดเองเปิดใช้งาน. ระดับเสียง: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"th"		"โมเดลอาวุธแบบกำหนดเอง:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"th"		"ทำลายกล่องเพื่อเปิด!"
+	}
+
+	"Dead heat CM"
+	{
+		"th"		"- เสมอ -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"th"		"             ตัวแทนจำหน่าย     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"th"		"ตัวแทนจำหน่าย"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"ส่วนลด: '{1}' เปิดใช้งานแล้ว! ช็อปปิ้งสนุก!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"ส่วนลด: '{1}' สิ้นสุดแล้ว."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"ส่วนลด: '{1}' เริ่มแล้ว! ช็อปปิ้งสนุก!"
+	}
+
+	"Double CM"
+	{
+		"th"		"คู่"
+	}
+
+	"Down CM"
+	{
+		"th"		"ลง"
+	}
+
+	"Down2 CM"
+	{
+		"th"		"                      5 = ลง"
+	}
+
+	"Drop Gift CM"
+	{
+		"th"		"ทิ้งเป็นของขวัญ"
+	}
+
+	"Edit Amount CM"
+	{
+		"th"		"แก้ไขจำนวน: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"th"		"โปรดกรอกเวลาหมดอายุ (เป็นวินาที) สำหรับไอเท็มในแชท!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"th"		"รูปแบบตัวเลขไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง"
+	}
+
+	"Enter custom amount CM"
+	{
+		"th"		"กรุณาใส่จำนวนเงินที่กำหนดเองของคุณในแชท!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"th"		"กรุณาใส่ค่ามากที่สุดของเครดิตในแชท!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"th"		"โปรดป้อนจำนวนบัตรกำนัลที่จะสร้างในแชท!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"th"		"โปรดป้อนมูลค่าของบัตรกำนัลที่จะซื้อในแชท!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"th"		"กรุณาใส่รหัสคูปองของคุณในแชท!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"th"		"เกิดข้อผิดพลาดขณะรับเงินคืนราคา กรุณาติดต่อผู้ดูแล"
+	}
+
+	"Exact #x  = CM"
+	{
+		"th"		"แม่นยำ #x = "
+	}
+
+	"Exit CM"
+	{
+		"th"		"ออก"
+	}
+
+	"Gained CM"
+	{
+		"th"		"ได้รับ"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"th"		"ได้รับ: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"th"		"ข้อมูลเกม"
+	}
+
+	"Game in progress CM"
+	{
+		"th"		"เกมเดิมพันปัจจุบันของคุณกำลังดำเนินอยู่ โปรดรอจนกว่าจะเสร็จสิ้น"
+	}
+
+	"Get three on a kind CM"
+	{
+		"th"		"รับสามแบบเดียวกัน"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณเก็บ {1} เครดิต"
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"th"		"คุณเก็บ {1} {2} ขึ้นมา"
+	}
+
+	"Gift No Players CM"
+	{
+		"th"		"ไม่มีใครที่คุณสามารถมอบไอเทมนี้ให้"
+	}
+
+	"Gift Player Left CM"
+	{
+		"th"		"ผู้เล่นที่เลือกได้ออกจากเกมแล้ว"
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"th"		"{1} เพื่อจัดกิจกรรมแจกของเซิร์ฟเวอร์ต้องมีผู้เล่นอย่างน้อย {2} คน"
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"th"		"ผู้ดูแล {1} ได้เปิดการแจกของรางวัลพร้อม <font color='#15fb00'>{2} เครดิต"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"|| การแจกของรางวัลเริ่มต้นใน {1} วินาที ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"th"		"{1} {2} ชนะกิจกรรมแจกของรางวัลด้วย {3} เครดิต"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"th"		"{1}\n|| ผู้ชนะ: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"th"		"คุณได้ถึงจำนวนสูงสุดของโหมดพระเจ้าในรอบนี้"
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"th"		"คุณไม่สามารถใช้โหมดพระเจ้าในทีมนี้"
+	}
+
+	"Green CM"
+	{
+		"th"		"สีเขียว"
+	}
+
+	"HE grenade kill CM"
+	{
+		"th"		"ฆ่าด้วยระเบิด HE"
+	}
+
+	"HUD CM"
+	{
+		"th"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"th"		"หัว"
+	}
+
+	"Health Round Limit CM"
+	{
+		"th"		"คุณได้ถึงจำนวนสูงสุดของชุดบำรุงสุขภาพที่คุณสามารถซื้อในรอบนี้"
+	}
+
+	"Help_Back CM"
+	{
+		"th"		"กลับ"
+	}
+
+	"Help_Exit CM"
+	{
+		"th"		"ออก"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"th"		"ซ่อนประกายกระสุน"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"th"		"ซ่อนรอยกระสุน"
+	}
+
+	"Hide gloves CM"
+	{
+		"th"		"ซ่อนถุงมือ"
+	}
+
+	"Hide paintball CM"
+	{
+		"th"		"ซ่อนลูกบอลเพนท์บอล"
+	}
+
+	"Hide particles CM"
+	{
+		"th"		"ซ่อนอนุภาค"
+	}
+
+	"Hide pets CM"
+	{
+		"th"		"ซ่อนสัตว์เลี้ยง"
+	}
+
+	"Hide trails CM"
+	{
+		"th"		"ซ่อนรอยทาง"
+	}
+
+	"High #4-6 CM"
+	{
+		"th"		"สูง #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"th"		"สูง #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"th"		"สูง - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"th"		"สูงขึ้น"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"หมายเลขที่เลือกคือ: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"หมายเลขถัดไปคือ: {1}"
+	}
+
+	"Hit CM"
+	{
+		"th"		"การตี"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"th"		"หมายเลขระหว่าง {1} ถึง {2} ถูกเลือกให้คุณทายว่าหมายเลขถัดไปจะสูงกว่าหรือต่ำกว่าหมายเลขที่เลือก"
+	}
+
+	"Hol Info 2 CM"
+	{
+		"th"		"ถ้าคุณเลือกตัวเลือกที่ถูกต้อง คุณจะชนะสองเท่าของเงินเดิมพันของคุณ"
+	}
+
+	"Hol Info 3 CM"
+	{
+		"th"		"มีการหยุดพัก {1} วินาทีระหว่างแต่ละเกม"
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณได้วาง {1} {2} สำเร็จ."
+	}
+
+	"Inventory CM"
+	{
+		"th"		"คลังสินค้า"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"th"		"กรุณารอ ข้อมูลสินค้าของคุณยังไม่ได้รับการดึง"
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"th"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"th"		"ติดตั้งไอเทมนี้"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"{1} [ติดตั้งแล้ว]"
+	}
+
+	"Item Gift CM"
+	{
+		"th"		"มอบไอเทมนี้"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"{1} (เลือกแผน)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"ขายที่ {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"th"		"ถอดไอเทมนี้"
+	}
+
+	"Item Use CM"
+	{
+		"th"		"ใช้ไอเทมนี้"
+	}
+
+	"Item Voucher CM"
+	{
+		"th"		"ทำคูปองจากไอเท็ม"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"th"		"การสร้างคูปองสำหรับไอเท็มถูกปิดใช้งานในขณะนี้"
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"th"		"คุณได้แปลง {1} ({2}) เป็นคูปอง {3}"
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"th"		"{1} ซ่อน. คุณจะไม่เห็นพวกมันอีกต่อไป"
+	}
+
+	"Item not found CM"
+	{
+		"th"		"ไม่พบไอเทม"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"th"		"{1} เห็นได้อีกครั้ง"
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"th"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"th"		"แจ็คพอตถูกพัก"
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"แจ็คพอต: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"th"		"เจ็ทแพ็คหมดแล้ว"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"th"		"[Jetpack] น้ำมัน: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"th"		"เจ็ทแพ็คถูกรีโหลดแล้ว"
+	}
+
+	"Jihad Failed CM"
+	{
+		"th"		"ระเบิดของคุณไม่สามารถระเบิดได้"
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"th"		"ระเบิดญิฮาด {1} ล้มเหลวในการระเบิด"
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"th"		"คุณไม่สามารถใช้ระเบิดในทีมนี้"
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"{1} นาที ก่อนที่การคราชจะเริ่มต้น"
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"{1} วินาที ก่อนที่การคราชจะเริ่มต้น"
+	}
+
+	"LevelIcon CM"
+	{
+		"th"		"ไอคอนระดับ"
+	}
+
+	"Limited CM"
+	{
+		"th"		"จำกัด - ผู้เล่นเดียว"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"th"		"กรุณารอจนกว่ากล่องก่อนหน้าของคุณจะเปิด"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"th"		"แผนที่จบลงแล้ว กรุณารอแผนที่ถัดไป"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"th"		"รอบจบแล้ว กรุณารอรอบถัดไป"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"th"		"คุณไม่สามารถเปิดในระหว่างการอุ่นเครื่อง"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"คุณได้สูญเสียสตรีคประจำวันของคุณที่ {1} วัน"
+	}
+
+	"Lost bet CM"
+	{
+		"th"		"ล้มเหลว! คุณเสียเดิมพัน"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณแพ้การเดิมพัน เพราะหมายเลขถัดไปคือ: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"th"		"ต่ำ #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"th"		"ต่ำ #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"th"		"ต่ำ - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"th"		"ต่ำลง"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"เราต้องการผู้เล่นอย่างน้อย {1} คน"
+	}
+
+	"Must be Alive CM"
+	{
+		"th"		"คุณต้องมีชีวิตอยู่เพื่อใช้สิ่งนี้"
+	}
+
+	"Must be dead CM"
+	{
+		"th"		"คุณต้องตายเพื่อเล่น"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"th"		"ตัวคูณ = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"th"		"ไม่มีแจ็คพอตที่ใช้งาน"
+	}
+
+	"No active TeamBet CM"
+	{
+		"th"		"ยังไม่มีการเดิมพันทีม"
+	}
+
+	"No have flag CM"
+	{
+		"th"		"คุณไม่มีสิทธิ์ใช้งานคำสั่งนี้"
+	}
+
+	"No matching color CM"
+	{
+		"th"		"ไม่มีสีที่ตรงกัน ใช้: r/แดง, b/ดำ หรือ g/เขียว"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"th"		"ไม่มีใครหยิบเครดิตที่คุณทิ้งไว้ เครดิตได้ถูกส่งคืนให้คุณ"
+	}
+
+	"No pick up - removed CM"
+	{
+		"th"		"ไม่มีใครหยิบเครดิตที่คุณทิ้งไว้ เครดิตถูกลบออก"
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"หมดเวลาแล้ว คำตอบที่ถูกต้องคือ {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"ไม่มีใครอื่นที่ได้ฝากเงินในแจ็คพอต คุณจะได้รับ {1} {2} ของคุณคืน!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"th"		"คุณไม่มีเครดิตเพียงพอ"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"th"		"ตอนนี้กำลังทำกิจกรรมแจกของ ลองใหม่อีกครั้งในไม่กี่วินาที"
+	}
+
+	"Only number CM"
+	{
+		"th"		"คุณสามารถพิมพ์ได้แค่ตัวเลข..."
+	}
+
+	"Override Disabled CM"
+	{
+		"th"		"ผิวของคุณไม่รองรับหมวก หมวกที่ติดตั้งจะถูกปิดใช้งาน"
+	}
+
+	"Override Enabled CM"
+	{
+		"th"		"ผิวของคุณไม่รองรับหมวก ผิวของคุณจะถูกเปลี่ยนแปลง"
+	}
+
+	"Owned CM"
+	{
+		"th"		"[เป็นเจ้าของ]"
+	}
+
+	"Package Gift CM"
+	{
+		"th"		"มอบของขวัญแพ็คเกจนี้"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"ขายแพ็คเกจนี้ในราคา {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"th"		"ทำ voucher จากแพ็คเกจ"
+	}
+
+	"Parachute Empty CM"
+	{
+		"th"		"ร่มร่อนว่าง"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"th"		"ร่มร่อนโหลดใหม่"
+	}
+
+	"Particles CM"
+	{
+		"th"		"อนุภาค:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"วาง {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"th"		"กำลังเล่นเสียงตัวอย่างสำหรับคุณ"
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"th"		"{1} มี {2} เครดิต"
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"{1} ถูกรีเซ็ต"
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"th"		"โมดูล Store Player Skin ถูกปิดการใช้งานชั่วคราว"
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"th"		"{1} ได้เพิ่ม {2} {3} ลงในแจ็คพอต โอกาสในการชนะปัจจุบันของเขาคือ: {4}% (แจ็คพอต: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"th"		"{1} แพ้ {2} {3} ที่ {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"th"		"{1} เปิดแจ็คพอตด้วย {2} {3} ใช้เงินสดเพื่อรับเงิน!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"th"		"{1} ชนะรางวัลแจ็คพอตด้วย {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"th"		"{1} ชนะ {2} {3} ที่ {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"th"		"{1} ชนะ {2} {3} กับตัวคูณ x{4} ที่ {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"th"		"การตั้งค่าของคุณจะถูกใช้ในการเกิดใหม่ครั้งถัดไป"
+	}
+
+	"Press CM"
+	{
+		"th"		"กด"
+	}
+
+	"Press to Start CM"
+	{
+		"th"		"กดเพื่อเริ่ม!"
+	}
+
+	"Press to Stop CM"
+	{
+		"th"		"กดเพื่อหยุด!"
+	}
+
+	"Preview Item CM"
+	{
+		"th"		"ดูตัวอย่างไอเทมนี้"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"ราคา: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"th"		"ซื้อบัตรกำนัล"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"th"		"ราคาของ {1} {2} {3} คือเท่าไหร่? | รางวัล: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"th"		"สีแดง"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"th"		"แลกรับบัตรกำนัล"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"เรียกใช้ใหม่ {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"th"		"คุณได้ถึงจำนวนสูงสุดของการเกิดใหม่ที่คุณสามารถซื้อในรอบนี้"
+	}
+
+	"SQL Cooldown CM"
+	{
+		"th"		" aus Sicherheitsgründen können Sie nicht mehrere Anfragen in kurzer Zeit senden"
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"th"		"ผู้ชนะที่สองก็ไม่อยู่ในเกมอีกต่อไป พยายามครั้งสุดท้ายในการหาผู้ชนะใหม่"
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณต้องรอ {1} วินาที ก่อนที่คุณจะลองใช้คำสั่งนี้อีกครั้ง"
+	}
+
+	"Show bullet sparks CM"
+	{
+		"th"		"แสดงประกายกระสุน"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"th"		"แสดงรอยกระสุน"
+	}
+
+	"Show gloves CM"
+	{
+		"th"		"แสดงถุงมือ"
+	}
+
+	"Show paintball CM"
+	{
+		"th"		"แสดงลูกบอลเพนท์บอล"
+	}
+
+	"Show particles CM"
+	{
+		"th"		"แสดงอนุภาค"
+	}
+
+	"Show pets CM"
+	{
+		"th"		"แสดงสัตว์เลี้ยง"
+	}
+
+	"Show trails CM"
+	{
+		"th"		"แสดงรอยทาง"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"คุณไม่สามารถใช้ค่าน้อยกว่าค่าต่ำสุดของคุณ ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"th"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"การป้องกันสแปม กรุณารอ {1} วินาที"
+	}
+
+	"Spawn Preview CM"
+	{
+		"th"		"สร้างตัวอย่างแล้ว ตัวอย่างจะหายไปใน 45 วินาที"
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"th"		"สร้างตัวอย่างแล้ว ตัวอย่างจะหายไปใน {1} วินาที"
+	}
+
+	"Start again from begin CM"
+	{
+		"th"		"โปรดเริ่มใหม่จากต้น"
+	}
+
+	"Starting CM"
+	{
+		"th"		"เริ่มต้น"
+	}
+
+	"Stay CM"
+	{
+		"th"		"ยืน"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"th"		"คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตอุปกรณ์ของคุณ? รายการทั้งหมดจะถูกถอดออก"
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"th"		"คุณซื้อคูปองสำเร็จแล้ว"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"th"		"ไอเท็มนี้ถูกออกแบบมาให้ใช้กับคลาสผู้เล่นที่แตกต่างกัน"
+	}
+
+	"Tail CM"
+	{
+		"th"		"หาง"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"th"		"คุณได้วางเดิมพันในรอบนี้แล้ว"
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"th"		"ระบุรหัสทีมที่ไม่ถูกต้อง"
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณสูญเสีย {1} {2} ในการเดิมพัน"
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"th"		"หมดเวลาวางเดิมพันสำหรับรอบนี้"
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"คุณได้วางเดิมพันจำนวน {1} เครดิตสำเร็จ"
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"การเดิมพันของคุณสำเร็จ คุณชนะ {1} {2}"
+	}
+
+	"TeamBet not betted CM"
+	{
+		"th"		"ไม่มีการเดิมพันในทีมอื่น ดังนั้นคุณจึงได้รับเครดิตกลับ"
+	}
+
+	"Terrorist CM"
+	{
+		"th"		"ผู้ก่อการร้าย"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"หมายเลขที่เลือกคือ: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"หมายเลขถัดไปคือ: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"th"		"นี่คือลิงก์ข้อความตัวอย่าง"
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"ผู้ดูแลระบบได้โหลดการตั้งค่าร้านใหม่แล้ว แผนที่จะโหลดใหม่ใน {1} วินาที!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"th"		"เมนูสร้างคูปองสินค้า (เฉพาะผู้ดูแลระบบ).\n \nเลือกระยะเวลาในการใช้งานของไอเทม"
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"th"		"เมนูสร้างคูปองสินค้า (เฉพาะผู้ดูแลระบบ)"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"เครดิต: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"th"		"หมดอายุใน {1}วัน {2}ชั่วโมง"
+	}
+
+	"Title Gift CM"
+	{
+		"th"		"เลือกผู้เล่นเพื่อส่งของขวัญ"
+	}
+
+	"Title Store CM"
+	{
+		"th"		"เมนูร้านค้า"
+	}
+
+	"To late chat input CM"
+	{
+		"th"		"การป้อนข้อความของคุณยังไม่เสร็จในเวลาที่กำหนด"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"มี {1} มากเกินไปบนพื้น คุณไม่สามารถทิ้งได้อีกในขณะนี้!"
+	}
+
+	"Top Credits CM"
+	{
+		"th"		"เครดิตสูงสุด"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"th"		"อันดับเครดิต + ค่าสินค้าคงคลังสูงสุด"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"th"		"อันดับค่าสินค้าคงคลังสูงสุด"
+	}
+
+	"Top Most Items CM"
+	{
+		"th"		"รายการยอดนิยม"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"รวมทั้งหมด: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"th"		"ลองอีกครั้ง"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"th"		"พิมพ์ในแชท !bet <เดิมพัน> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"th"		"พิมพ์ในแชท !blackjack <เดิมพัน>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"th"		"พิมพ์ในแชท !coinflip <เดิมพัน> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"th"		"พิมพ์ในแชท !crash <เดิมพัน>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"th"		"พิมพ์ในแชท !crowns <เดิมพัน>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"th"		"พิมพ์ในแชท !dice <การเดิมพัน> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"th"		"พิมพ์ในแชท !jackpot <เดิมพัน>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"th"		"พิมพ์ในแชท !roulette <เดิมพัน> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"th"		"ไม่จำกัด - หลายผู้เล่น"
+	}
+
+	"Up CM"
+	{
+		"th"		"ขึ้น"
+	}
+
+	"Value less than 1 CM"
+	{
+		"th"		"คุณไม่สามารถใช้ค่าต่ำกว่า 1 ได้"
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"th"		"ตั้งค่าระดับเสียงของ {1} เป็น {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"th"		"ตอนนี้รหัสคูปองต้องมี 17 ตัวอักษรพอดี"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"บัตรกำนัลมีมูลค่า {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"th"		"คูปองถูกยอมรับ"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"th"		"คูปองถูกยอมรับ"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"th"		"คุณกำลังสร้าง {1} {2}บัตรของขวัญที่จำกัด{3} ด้วยมูลค่า {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"th"		"คุณกำลังสร้าง {1} {2}คูปองที่จำกัด{3} ด้วยค่าตั้งแต่ {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"รหัสบัตรกำนัลที่ป้อนถูกใช้ไปแล้วเมื่อ {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"บัตรกำนัลนี้หมดอายุในวันที่ {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"รหัสบัตรกำนัลที่ป้อนได้หมดอายุเมื่อ {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"th"		"สร้างคูปองใหม่ {1} ด้วยมูลค่า {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"th"		"คุณสามารถพบรหัสบัตรกำนัลในแชทและคอนโซล"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"รหัสบัตรกำนัล: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"รหัสบัตรกำนัลที่ป้อน '{1}' ไม่ถูกต้อง!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"th"		"บัตรกำนัลมี {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"th"		"รหัสบัตรกำนัลใช้ได้"
+	}
+
+	"Vouchers CM"
+	{
+		"th"		"บัตรกำนัล"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"คุณต้องรอ {1} จนกว่าจะถึงกิจกรรมประจำวันถัดไป"
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"th"		"คุณได้เช็คอินวันนี้แล้ว กรุณากลับมาใหม่พรุ่งนี้"
+	}
+
+	"Win = CM"
+	{
+		"th"		"ชนะ = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"th"		"ผู้ชนะไม่อยู่ในเกมอีกต่อไป กำลังพยายามหาผู้ชนะใหม่"
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"th"		"รหัสบัตรกำนัลอยู่ในรูปแบบผิดพลาด ต้องเป็น XXXXX-XXXXX-XXXXX"
+	}
+
+	"You CM"
+	{
+		"th"		"คุณ"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"th"		"คุณได้ถอน {1} {2} ในแจ็คพอตแล้ว โอกาสชนะปัจจุบัน: {3}%% แจ็คพอต: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"th"		"คุณเป็นเจ้าของไอเทมบัตรกำนัลที่ป้อนไปแล้ว"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"th"		"คุณได้ใช้รหัสบัตรกำนัลที่ป้อนไปแล้ว"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"th"		"คุณสามารถเริ่มแจ็คพอตใหม่"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"คุณสามารถเริ่มแจ็คพอตใหม่ใน {1}"
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณไม่สามารถใช้เครดิตได้มากขนาดนั้น (สูงสุด: {1} {2})"
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณเก็บ {1} {2}"
+	}
+
+	"You don't have permission CM"
+	{
+		"th"		"คุณไม่มีสิทธิ์เข้าถึงสิ่งนี้"
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณทิ้ง {1} {2}"
+	}
+
+	"You earned no points this round CM"
+	{
+		"th"		"คุณไม่ได้คะแนนในรอบนี้"
+	}
+
+	"You earned this round CM"
+	{
+		"th"		"คุณทำคะแนนในรอบนี้:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณได้รับ {1} {2} สำหรับ "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณได้รับ {1} {2} ในรอบนี้"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณได้รับ {1} {2}."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณได้รับ {1} {2}."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"th"		"คุณได้รับ {1} ({2})"
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"th"		"คุณได้รับ {1} ({2})"
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณต้องใช้จ่ายอย่างน้อย {1} {2}."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณต้องใช้จ่ายอย่างน้อย {1} {2}."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"th"		"คุณไม่ได้เปิดกล่องในเวลาที่กำหนด กล่องของรางวัลได้กลับไปยังอินเวนทอรีของคุณ"
+	}
+
+	"You lose CM"
+	{
+		"th"		"- คุณแพ้"
+	}
+
+	"You lost with CM"
+	{
+		"th"		"คุณแพ้ด้วย"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณสูญเสีย {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"th"		"คุณทำสำเร็จ 'ความท้าทายประจำวัน'! ลองเอาชนะมันอีกครั้ง!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณชนะ {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"th"		"!!! คุณชนะ !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"th"		"คุณชนะ {1} ({2})!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณชนะรางวัลแจ็คพอตด้วย {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"th"		"คุณชนะรางวัลแจ็คพอตด้วย {1} {2} ลบค่าธรรมเนียมคาสิโน {3} {4} ({5}%)"
+	}
+
+	"You won with CM"
+	{
+		"th"		"คุณชนะด้วย"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"th"		"คุณชนะ {1} เครดิตกับ x{2}."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณจะได้รับ {1} {2} พรุ่งนี้!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"th"		"การเดิมพันของคุณ: {1} {2} - โอกาส: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"การเดิมพันของคุณ: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"th"		"โอกาสการชนะปัจจุบันของคุณได้เปลี่ยนเป็น {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"คุณได้รับ {1} เครดิตจากการฆ่า {2}"
+	}
+
+	"admin CM"
+	{
+		"th"		"ผู้ดูแล"
+	}
+
+	"and is limited CM"
+	{
+		"th"		"และมีข้อจำกัด"
+	}
+
+	"and is unlimited CM"
+	{
+		"th"		"และไม่จำกัด"
+	}
+
+	"arms CM"
+	{
+		"th"		"แขน"
+	}
+
+	"assist a kill CM"
+	{
+		"th"		"ช่วยฆ่า"
+	}
+
+	"attachment CM"
+	{
+		"th"		"อุปกรณ์เสริม"
+	}
+
+	"backstab kill CM"
+	{
+		"th"		"ฆ่าจากด้านหลัง"
+	}
+
+	"be the MVP CM"
+	{
+		"th"		"เป็น MVP"
+	}
+
+	"bet x CM"
+	{
+		"th"		"เดิมพัน x"
+	}
+
+	"blackjack CM"
+	{
+		"th"		"แบล็คแจ็ค"
+	}
+
+	"bomb defused CM"
+	{
+		"th"		"ระเบิดถูกทำลาย"
+	}
+
+	"bomb explode CM"
+	{
+		"th"		"ระเบิดระเบิด"
+	}
+
+	"bomb planted CM"
+	{
+		"th"		"ระเบิดถูกวาง"
+	}
+
+	"bombtweak CM"
+	{
+		"th"		"ปรับระเบิด"
+	}
+
+	"bullet_impact CM"
+	{
+		"th"		"ผลกระทบของกระสุน"
+	}
+
+	"bulletsparks CM"
+	{
+		"th"		"ประกายกระสุน"
+	}
+
+	"bunnyhob CM"
+	{
+		"th"		"กระโดดกระต่าย"
+	}
+
+	"bunnyhop CM"
+	{
+		"th"		"ทักษะ"
+	}
+
+	"casino CM"
+	{
+		"th"		"คาสิโน"
+	}
+
+	"coinflip CM"
+	{
+		"th"		"การโยนเหรียญ"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"คุณต้องการรีเซ็ตการตั้งค่าหรือไม่?\nแผนที่จะโหลดใหม่ใน {1} วินาที!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"th"		"คุณแน่ใจว่าต้องการรีเซ็ตการตั้งค่าหรือไม่?\nคุณต้องเปลี่ยนแผนที่เพื่อใช้การเปลี่ยนแปลง มิฉะนั้นอาจเกิดข้อผิดพลาดได้"
+	}
+
+	"connect CM"
+	{
+		"th"		"ข้อความการเชื่อมต่อ"
+	}
+
+	"crash CM"
+	{
+		"th"		"คราช"
+	}
+
+	"creditstoplist CM"
+	{
+		"th"		"เครดิต"
+	}
+
+	"crowns CM"
+	{
+		"th"		"ช่องมงกุฎ"
+	}
+
+	"daily CM"
+	{
+		"th"		"โบนัสรายวัน"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"th"		"ฆ่าด้วยระเบิดลวง"
+	}
+
+	"dice CM"
+	{
+		"th"		"ลูกเต๋า"
+	}
+
+	"direction CM"
+	{
+		"th"		"ทิศทาง"
+	}
+
+	"discount CM"
+	{
+		"th"		"SALE"
+	}
+
+	"distance CM"
+	{
+		"th"		"ระยะทาง"
+	}
+
+	"dmgtext CM"
+	{
+		"th"		"จิตรกร"
+	}
+
+	"emote CM"
+	{
+		"th"		"อิโมจิ"
+	}
+
+	"escape as VIP CM"
+	{
+		"th"		"หนีเป็น VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"th"		"ฆ่าด้วยระเบิดแฟลช"
+	}
+
+	"flashlight CM"
+	{
+		"th"		"ไฟฉาย"
+	}
+
+	"froggyjump CM"
+	{
+		"th"		"กระโดดกบ"
+	}
+
+	"gloves CM"
+	{
+		"th"		"ถุงมือ"
+	}
+
+	"glow CM"
+	{
+		"th"		"แสง"
+	}
+
+	"godmode CM"
+	{
+		"th"		"โหมดเทพ"
+	}
+
+	"gravity CM"
+	{
+		"th"		"ความสามารถ"
+	}
+
+	"grenademodel CM"
+	{
+		"th"		"โมเดลระเบิดมือ"
+	}
+
+	"grenadeskin CM"
+	{
+		"th"		"ผิวระเบิดมือ"
+	}
+
+	"grenadetrail CM"
+	{
+		"th"		"รอยเท้าระเบิดมือ"
+	}
+
+	"hat CM"
+	{
+		"th"		"หมวก"
+	}
+
+	"headshot CM"
+	{
+		"th"		"ยิงเข้าหัว"
+	}
+
+	"health CM"
+	{
+		"th"		"ชุด"
+	}
+
+	"high or low CM"
+	{
+		"th"		"สูงหรือต่ำ"
+	}
+
+	"hiteff CM"
+	{
+		"th"		"ผลกระทบการโจมตี:"
+	}
+
+	"hitsound CM"
+	{
+		"th"		"เสียงการโจมตี"
+	}
+
+	"hostage rescued CM"
+	{
+		"th"		"ช่วยเหลือลูกประกัน"
+	}
+
+	"hunterjump CM"
+	{
+		"th"		"กระโดดนักล่า"
+	}
+
+	"idle on the server CM"
+	{
+		"th"		"อยู่เฉยๆ บนเซิร์ฟเวอร์"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"ใน {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"th"		"กระสุนไม่มีที่สิ้นสุด"
+	}
+
+	"info CM"
+	{
+		"th"		"แผงข้อมูล"
+	}
+
+	"instabomb CM"
+	{
+		"th"		"ปลูกทันที / ถอดอุปกรณ์"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"th"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"th"		"ความสามารถ"
+	}
+
+	"items CM"
+	{
+		"th"		"รายการ"
+	}
+
+	"jackpot CM"
+	{
+		"th"		"แจ็คพอต"
+	}
+
+	"jetpack CM"
+	{
+		"th"		"จรวด"
+	}
+
+	"jihad CM"
+	{
+		"th"		"ระเบิด"
+	}
+
+	"kill CM"
+	{
+		"th"		"ฆ่า"
+	}
+
+	"kill the VIP CM"
+	{
+		"th"		"ฆ่า VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"th"		"ฆ่าตัวตาย"
+	}
+
+	"killeff CM"
+	{
+		"th"		"ผลการฆ่า:"
+	}
+
+	"knife CM"
+	{
+		"th"		"มีด"
+	}
+
+	"knife kill CM"
+	{
+		"th"		"ฆ่าด้วยมีด"
+	}
+
+	"laserdraw CM"
+	{
+		"th"		"วาดเลเซอร์:"
+	}
+
+	"laserpointer CM"
+	{
+		"th"		"ปากกาลaser"
+	}
+
+	"lasersight CM"
+	{
+		"th"		"เลเซอร์ส่อง"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"การอัปเดตล่าสุด {1} ที่แล้ว"
+	}
+
+	"light CM"
+	{
+		"th"		"แสง"
+	}
+
+	"lootbox CM"
+	{
+		"th"		"กล่องของรางวัล"
+	}
+
+	"mirror CM"
+	{
+		"th"		"กระจก"
+	}
+
+	"molotov kill CM"
+	{
+		"th"		"ฆ่าด้วยมอลotov"
+	}
+
+	"msgcolor CM"
+	{
+		"th"		"สีข้อความ"
+	}
+
+	"mvp_sound CM"
+	{
+		"th"		"เพลง MVP"
+	}
+
+	"namecolor CM"
+	{
+		"th"		"สีชื่อ"
+	}
+
+	"nametag CM"
+	{
+		"th"		"ป้ายชื่อ"
+	}
+
+	"nearest CM"
+	{
+		"th"		"ใกล้ที่สุด"
+	}
+
+	"nodiscount CM"
+	{
+		"th"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"th"		"ไม่มีความล่าช้าในการหมอบ"
+	}
+
+	"nofalldamage CM"
+	{
+		"th"		"ไม่มีความเสียหายจากการตก"
+	}
+
+	"noreload CM"
+	{
+		"th"		"ไม่ต้องโหลดใหม่"
+	}
+
+	"noscope kill CM"
+	{
+		"th"		"ฆ่าโดยไม่ใช้สโคป"
+	}
+
+	"noselfdamage CM"
+	{
+		"th"		"ไม่มีความเสียหายจากตัวเอง"
+	}
+
+	"or use buttons below CM"
+	{
+		"th"		"หรือใช้ปุ่มด้านล่าง"
+	}
+
+	"package CM"
+	{
+		"th"		"แพ็คเกจ"
+	}
+
+	"paintball CM"
+	{
+		"th"		"กระสุน"
+	}
+
+	"painter CM"
+	{
+		"th"		"จิตรกร"
+	}
+
+	"parachute CM"
+	{
+		"th"		"ร่มชูชีพ"
+	}
+
+	"particle CM"
+	{
+		"th"		"อนุภาค"
+	}
+
+	"pet CM"
+	{
+		"th"		"สัตว์เลี้ยง"
+	}
+
+	"playerskin CM"
+	{
+		"th"		"ผิวตัวละคร"
+	}
+
+	"playing on the server CM"
+	{
+		"th"		"เล่นบนเซิร์ฟเวอร์"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"คุณเล่นบนเซิร์ฟเวอร์ของเรามา {1} วันติดต่อกัน"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"คุณจะได้รับ {1} เมื่อเกิดใหม่ครั้งถัดไป"
+	}
+
+	"respawn CM"
+	{
+		"th"		"ฟื้นคืนชีพ"
+	}
+
+	"roulette CM"
+	{
+		"th"		"รูเล็ต"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณได้ใช้เสียงสูงสุดแล้ว. {1} ใช้เสียงสูงสุดต่อแผนที่"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณได้ใช้เสียงสูงสุดแล้ว. {1} ใช้เสียงสูงสุดต่อรอบ"
+	}
+
+	"saysound CM"
+	{
+		"th"		"พูดเสียง"
+	}
+
+	"scoreboardtag CM"
+	{
+		"th"		"แท็กกระดานคะแนน"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"th"		"ฆ่าด้วยระเบิดควัน"
+	}
+
+	"sound CM"
+	{
+		"th"		"เสียง"
+	}
+
+	"spawn CM"
+	{
+		"th"		"ฟื้นคืนชีพเพิ่มเติม"
+	}
+
+	"spawneff CM"
+	{
+		"th"		"ผลการเกิด:"
+	}
+
+	"speed CM"
+	{
+		"th"		"ความสามารถ"
+	}
+
+	"spray CM"
+	{
+		"th"		"สเปรย์"
+	}
+
+	"start daily challange CM"
+	{
+		"th"		"เริ่ม 'ความท้าทายประจำวัน' เล่นต่อไป 6 วันเพื่อรับโบนัสเต็ม"
+	}
+
+	"taser kill CM"
+	{
+		"th"		"ฆ่าด้วยเทเซอร์"
+	}
+
+	"teambet CM"
+	{
+		"th"		"TeamBet"
+	}
+
+	"teamkill CM"
+	{
+		"th"		"ฆ่าทีม"
+	}
+
+	"tfhat CM"
+	{
+		"th"		"หมวกอาคาร"
+	}
+
+	"tfhatdye CM"
+	{
+		"th"		"ย้อมสีหมวก"
+	}
+
+	"tfhead CM"
+	{
+		"th"		"ขนาดหัว"
+	}
+
+	"tfunusual CM"
+	{
+		"th"		"เอฟเฟกต์หมวก"
+	}
+
+	"tfweapon CM"
+	{
+		"th"		"อาวุธที่กำหนดเอง"
+	}
+
+	"tfweaponsize CM"
+	{
+		"th"		"ขนาดอาวุธ"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"รางวัลจะถูกจับใน {1} วินาที"
+	}
+
+	"thirdperson CM"
+	{
+		"th"		"บุคคลที่สาม"
+	}
+
+	"throwknife CM"
+	{
+		"th"		"โยนมีด"
+	}
+
+	"toplists CM"
+	{
+		"th"		"รายการยอดนิยม"
+	}
+
+	"tracer CM"
+	{
+		"th"		"ตัวติดตาม"
+	}
+
+	"trail CM"
+	{
+		"th"		"รอยเท้า"
+	}
+
+	"wasted CM"
+	{
+		"th"		"สูญเสีย"
+	}
+
+	"watergun CM"
+	{
+		"th"		"ผลกระทบ"
+	}
+
+	"weapon CM"
+	{
+		"th"		"อาวุธ"
+	}
+
+	"weaponcolor CM"
+	{
+		"th"		"สีอาวุธ"
+	}
+
+	"weaponmodel CM"
+	{
+		"th"		"โมเดลอาวุธ"
+	}
+
+	"weaponskin CM"
+	{
+		"th"		"ผิวอาวุธ"
+	}
+
+	"win the round CM"
+	{
+		"th"		"ชนะรอบ"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"th"		"{1} {2} สำหรับ '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"th"		"{1} ชั่วโมง {2} นาที และ {3} วินาที"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"th"		"{1} ชั่วโมง {2} นาที และ {3} วินาที"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"th"		"{1} นาที และ {2} วินาที"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"th"		"{1} นาที และ {2} วินาที"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"{1} วินาที"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"th"		"{1} วินาที"
+	}
+
+	"zrclass CM"
+	{
+		"th"		"ประเภทผู้เล่น"
+	}
 }

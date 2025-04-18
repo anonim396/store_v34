@@ -104,4 +104,133 @@
 	{
 		"lt"		"Prašome palaukti pasirinkto žaidėjo atsakymo."
 	}
+
+
+	"Cancel CM"
+	{
+		"lt"		"Atšaukti prekybą"
+	}
+
+	"Confirm_Offer_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lt"		"Ar norite pasiūlyti savo {1} {2}?"
+	}
+
+	"Confirm_Trade_Item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"lt"		"Ar norite pasikeisti savo {1} {2}?"
+	}
+
+	"Offer CM"
+	{
+		"lt"		"Pasiūlykite daiktą"
+	}
+
+	"Offer item CM"
+	{
+		"lt"		"Siūlyti šį daiktą"
+	}
+
+	"Partner Credit Offer CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Jūsų partneris siūlo {1} kreditą (-ų)"
+	}
+
+	"Partner Item Offer CM"
+	{
+		"lt"		"Jūsų partneris siūlo šiuos daiktus:"
+	}
+
+	"Partner Not Ready CM"
+	{
+		"lt"		"Jūsų partneris dar nėra pasiruošęs."
+	}
+
+	"Partner Ready CM"
+	{
+		"lt"		"Jūsų partneris pasiruošęs."
+	}
+
+	"Player Left CM"
+	{
+		"lt"		"Žaidėjas, su kuriuo norėjote prekiauti, paliko žaidimą."
+	}
+
+	"Ready CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Paruošta [{1}]"
+	}
+
+	"Ready Timer CM"
+	{
+		"#format"	"{1:d}"
+		"lt"		"Prekyba baigsis per {1} sekundes..."
+	}
+
+	"Trade Active CM"
+	{
+		"lt"		"Jau prekiaujate."
+	}
+
+	"Trade Confirm CM"
+	{
+		"#format"	"{1:N}"
+		"lt"		"Ar norite prekiauti su {1}?"
+	}
+
+	"Trade Confirm Cancel CM"
+	{
+		"lt"		"Ar norite atšaukti sandorį?"
+	}
+
+	"Trade Cooldown CM"
+	{
+		"lt"		"Palaukite kelias minutes prieš prekiaudami vėl."
+	}
+
+	"Trade Menu CM"
+	{
+		"lt"		"Norėdami vėl atidaryti prekybos meniu, įrašykite !trade."
+	}
+
+	"Trade Not Active CM"
+	{
+		"lt"		"Jūs neprekiaujate."
+	}
+
+	"Trade Refused CM"
+	{
+		"#format"	"{1:N}"
+		"lt"		"Jūsų partneris atšaukė sandorį."
+	}
+
+	"Trade Select Player CM"
+	{
+		"lt"		"Pasirinkite žaidėją prekybai"
+	}
+
+	"Trade Successful CM"
+	{
+		"lt"		"Prekyba sėkmingai baigta."
+	}
+
+	"Trade Title CM"
+	{
+		"#format"	"{1:N},{2:d}"
+		"lt"		"Jūs prekiaujate su {1}\n-----------------------------\nNorėdami pasiūlyti kreditus, įveskite !offer <amount>\nPasiūlėte {2} kreditų"
+	}
+
+	"Trade item CM"
+	{
+		"lt"		"Keisti šį daiktą"
+	}
+
+	"Waiting for confirmation CM"
+	{
+		"lt"		"Prašome palaukti pasirinkto žaidėjo atsakymo."
+	}
 }

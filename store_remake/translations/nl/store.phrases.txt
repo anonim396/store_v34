@@ -2279,4 +2279,2788 @@
 	{
 		"nl"		"speler klasse"
 	}
+
+
+	"21Blackjack CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"{1}21 !!! BLACKJACK !!!"
+	}
+
+	"Admin chat reload timer exist CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Je hebt de configuratie al opnieuw geladen. Wijzig of herlaad de map."
+	}
+
+	"All players disconnect CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Alle deelnemende spelers worden losgekoppeld, niemand krijgt zijn {2} terug, haha. De jackpot was {1} {2}!"
+	}
+
+	"All valid voucher CM"
+	{
+		"nl"		"Alle gegenereerde en geldige vouchers zijn:\n "
+	}
+
+	"Already own item from box. Get Credits back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"nl"		"Je hebt gewonnen, maar bezit al {1} ({2}). Het item werd verkocht voor {3} {4}"
+	}
+
+	"Already own item from box. Get Credits price back CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i},{4:s}"
+		"nl"		"Je hebt {1} ({2}) al. Je hebt {3} {4} teruggekregen"
+	}
+
+	"Amount CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Bedrag: {1}"
+	}
+
+	"Aura CM"
+	{
+		"nl"		"Aura:"
+	}
+
+	"Back CM"
+	{
+		"nl"		"Terug"
+	}
+
+	"Bet * Multi = Your Win CM"
+	{
+		"nl"		"Wedden * Vermenigvuldiger = Jouw winst"
+	}
+
+	"Bet Bonus CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Bonus credits: {1}."
+	}
+
+	"Bet CT win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Pot CT wint: {1} {2}"
+	}
+
+	"Bet Maximum CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Maximale inzet ({1})"
+	}
+
+	"Bet Minium CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Minimale inzet ({1})"
+	}
+
+	"Bet Random CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"nl"		"Random inzet ({1}-{2})"
+	}
+
+	"Bet T win: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Pot T wint: {1} {2}"
+	}
+
+	"Bet on CM"
+	{
+		"nl"		"Wedden op"
+	}
+
+	"Bet on a Head/Tail CM"
+	{
+		"nl"		"Wed op Hoofd/Tail"
+	}
+
+	"Bet on a color CM"
+	{
+		"nl"		"Wed op een kleur en als deze kleur wordt gekozen, win je!"
+	}
+
+	"Bet on a number CM"
+	{
+		"nl"		"Wed op Laag (#1-3), Hoog (#4-6) of een exact nummer. Als je keuze wordt gegooid, win je!"
+	}
+
+	"Bet on a team CM"
+	{
+		"nl"		"Wed op een team en als het team de ronde wint, win je!"
+	}
+
+	"Betting Already Placed CM"
+	{
+		"nl"		"Je hebt je weddenschap voor deze ronde al geplaatst."
+	}
+
+	"Betting Invalid Team CM"
+	{
+		"nl"		"Ongeldige teamidentificatie opgegeven."
+	}
+
+	"Betting Lost CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je hebt {1} credits verloren bij de weddenschap."
+	}
+
+	"Betting Period Over CM"
+	{
+		"nl"		"De weddenschapstijd voor deze ronde is voorbij."
+	}
+
+	"Betting Placed CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je hebt succesvol een weddenschap van {1} credits geplaatst."
+	}
+
+	"Betting Won CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je weddenschap was succesvol. Je hebt {1} credits gewonnen."
+	}
+
+	"Black CM"
+	{
+		"nl"		"zwart"
+	}
+
+	"Blackjack Info 1 CM"
+	{
+		"nl"		"Blackjack is een spel waarbij de waarde van de kaarten in jouw hand hoger moet zijn dan die van de dealer zonder 21 te overschrijden."
+	}
+
+	"Buy CM"
+	{
+		"nl"		"Koop item"
+	}
+
+	"Buy Item CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Koop item ({1})"
+	}
+
+	"CP Changed color CM"
+	{
+		"nl"		"Je hebt je kleur veranderd naar: "
+	}
+
+	"CP Chat Tag Color Option CM"
+	{
+		"nl"		"Optie voor chat-tag kleur"
+	}
+
+	"CP Disable Color - Menu CM"
+	{
+		"nl"		"Deactiveer kleur"
+	}
+
+	"CP Disabled Color CM"
+	{
+		"nl"		"Aangepaste tag kleur is uitgeschakeld."
+	}
+
+	"CP No Name Tag Equipped CM"
+	{
+		"nl"		"Je hebt geen naamtag uitgerust"
+	}
+
+	"CP No file found CM"
+	{
+		"nl"		"De aangepaste tag-kleur voor de gebruiker is uitgeschakeld. Neem contact op met de beheerder voor verdere ondersteuning."
+	}
+
+	"CP Preview CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"nl"		"{1}{2}{3}"
+	}
+
+	"CP Scoreboard Preview CM"
+	{
+		"nl"		"Scorebord-tag preview tonen, druk op de TAB-knop."
+	}
+
+	"Cancel CM"
+	{
+		"nl"		"Annuleren"
+	}
+
+	"Cant be bought CM"
+	{
+		"nl"		"Dit item kan niet worden gekocht"
+	}
+
+	"Cash out CM"
+	{
+		"nl"		"Cash out"
+	}
+
+	"Change your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Verander je inzet: {1} {2}"
+	}
+
+	"Chat Bought Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"nl"		"Je hebt een {1} {2} gekocht."
+	}
+
+	"Chat Gift Item Received CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"nl"		"{1} heeft je een {2} {3} als cadeau gestuurd."
+	}
+
+	"Chat Gift Item Sent CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"nl"		"Je hebt {1} een {2} {3} als cadeau gestuurd."
+	}
+
+	"Chat Sold Item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"nl"		"Je hebt een {1} {2} verkocht."
+	}
+
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Je opende een container en vond {1} credits!"
+	}
+
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"nl"		"{1} opende een container en vond {2} ({3})!"
+	}
+
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"nl"		"{1} opende een container en vond {2} ({3})!"
+	}
+
+	"Check All Voucher CM"
+	{
+		"nl"		"Controleer alle geldige en beschikbare vouchers (Alleen Admin)"
+	}
+
+	"Check Voucher CM"
+	{
+		"nl"		"Controleer een voucher"
+	}
+
+	"Check Your valid Voucher CM"
+	{
+		"nl"		"Controleer je gegenereerde en geldige beschikbare voucher"
+	}
+
+	"Choose Number (1:6) CM"
+	{
+		"nl"		"Kies nummer (1:6)"
+	}
+
+	"Client Auto Cashout pref CM"
+	{
+		"nl"		"Automatische uitbetaling:"
+	}
+
+	"Client Loadout Reset CM"
+	{
+		"nl"		"Je uitrusting is gereset."
+	}
+
+	"Client valid voucher CM"
+	{
+		"nl"		"Je gegenereerde en geldige voucher is:\n "
+	}
+
+	"Close CM"
+	{
+		"nl"		"Sluiten"
+	}
+
+	"ColoredSmoke CM"
+	{
+		"nl"		"Gekleurde rook"
+	}
+
+	"Command is in-game only CM"
+	{
+		"nl"		"Je moet in leven zijn om deze opdracht te gebruiken."
+	}
+
+	"Config reloaded. Please restart or change map CM"
+	{
+		"nl"		"De configuratie is opnieuw geladen. Start opnieuw of verander de kaart."
+	}
+
+	"Confirm_Buy CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"nl"		"Weet je zeker dat je {1} {2} wilt kopen?"
+	}
+
+	"Confirm_Gift CM"
+	{
+		"#format"	"{1:s},{2:t},{3:s}"
+		"nl"		"Weet je zeker dat je {1} {2} aan {3} wilt geven?"
+	}
+
+	"Confirm_Gift_Drop CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"nl"		"Weet je zeker dat je {1} {2} als cadeau wilt droppen?"
+	}
+
+	"Confirm_No CM"
+	{
+		"nl"		"Nee"
+	}
+
+	"Confirm_Sell CM"
+	{
+		"#format"	"{1:s},{2:t},{3:d}"
+		"nl"		"Weet je zeker dat je {1} {2} wilt verkopen voor {3}?"
+	}
+
+	"Confirm_Voucher CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"nl"		"Ben je zeker dat je {1} ({2}) naar een coupon wilt converteren?\nWAARSCHUWING: Als het item in de coupon verloopt voordat het ingewisseld is.\nDeze coupon vervalt."
+	}
+
+	"Confirm_Yes CM"
+	{
+		"nl"		"Ja"
+	}
+
+	"CorrectAnswer CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"nl"		"{1} had het juiste antwoord en won {2} {3}!"
+	}
+
+	"Counter-Terrorist CM"
+	{
+		"nl"		"Counter-Terrorist"
+	}
+
+	"Crash Already Start CM"
+	{
+		"nl"		"Crash-spel is momenteel bezig. Wacht alstublieft op het volgende spel."
+	}
+
+	"Crash Auto Off CM"
+	{
+		"nl"		"Uit"
+	}
+
+	"Crash Auto Off Panel CM"
+	{
+		"nl"		"Zet automatische uitbetaling uit"
+	}
+
+	"Crash Auto On CM"
+	{
+		"nl"		"Aan"
+	}
+
+	"Crash Auto On Panel CM"
+	{
+		"nl"		"Zet automatische uitbetaling aan"
+	}
+
+	"Crash Info 1 CM"
+	{
+		"nl"		"           Wat is/ Hoe te spelen: Crash"
+	}
+
+	"Crash Info 2 CM"
+	{
+		"nl"		"- Crash is het spel waarbij spelers kunnen inzetten op een vermenigvuldiger, deze vermenigvuldiger is gerelateerd aan een oplopende curve die op elk moment kan instorten."
+	}
+
+	"Crash Info 3 CM"
+	{
+		"nl"		"- De vermenigvuldiger begint bij 1.00x en je kunt op elk moment uitcashen."
+	}
+
+	"Crash Info 4 CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s}"
+		"nl"		"- De minimale inzetwaarde is {1} {2}. De maximale inzetwaarde is {3} {4}. Deze limieten kunnen in de loop van de tijd veranderen."
+	}
+
+	"Crash Wrong input CM"
+	{
+		"#format"	"{1:0.2f}"
+		"nl"		"Verkeerde invoer (moet {1} of meer zijn)."
+	}
+
+	"Crash auto input CM"
+	{
+		"nl"		"Typ je automatische uitbetalingswaarde in de chat"
+	}
+
+	"Crash auto input set CM"
+	{
+		"nl"		"Crash auto uitbetaling ingesteld"
+	}
+
+	"Crash set auto CM"
+	{
+		"nl"		"Stel de automatische uitbetalingswaarde in"
+	}
+
+	"Crash! CM"
+	{
+		"nl"		"Crash!"
+	}
+
+	"Create Item Voucher CM"
+	{
+		"nl"		"Maak een artikelvoucher (Alleen admin)"
+	}
+
+	"Create Voucher CM"
+	{
+		"nl"		"Maak voucher"
+	}
+
+	"Creating voucher failed CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Voucher aanmaken mislukt - Neem contact op met een admin met de volgende tijdstempel: {1}"
+	}
+
+	"Credit Gift Disabled CM"
+	{
+		"nl"		"Kredieten geven is uitgeschakeld op deze server."
+	}
+
+	"Credit Gift Dropped CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je hebt {1} credits als cadeau laten vallen."
+	}
+
+	"Credit Gift Received CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"nl"		"{2} heeft je {1} credits gestuurd."
+	}
+
+	"Credit Gift Sent CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"nl"		"Je hebt {1} credits naar {2} gestuurd."
+	}
+
+	"Credit Giveaway Not Enough CM"
+	{
+		"nl"		"Je hebt niet genoeg credits om een giveaway te maken."
+	}
+
+	"Credit Invalid Amount CM"
+	{
+		"nl"		"Ongeldig bedrag aan kredieten ingevoerd."
+	}
+
+	"Credit No Match CM"
+	{
+		"nl"		"Geen speler gevonden."
+	}
+
+	"Credit Not Enough CM"
+	{
+		"nl"		"Je hebt niet genoeg kredieten om dit te kopen."
+	}
+
+	"Credit Too Many Matches CM"
+	{
+		"nl"		"Er werden meer dan één client gevonden."
+	}
+
+	"Credit Voucher Not Enough CM"
+	{
+		"nl"		"Je hebt niet genoeg credits om een voucher aan te maken."
+	}
+
+	"Credits Earned For Killing CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"nl"		"Je hebt {1} credits verdiend door {2} te doden."
+	}
+
+	"Credits Earned For Playing CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je hebt {1} credits verdiend door te spelen op de server."
+	}
+
+	"Credits Given CM"
+	{
+		"#format"	"{1:s}{2:d}"
+		"nl"		"{1} heeft {2} credits ontvangen."
+	}
+
+	"Credits and Pot CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"nl"		"Credits: {1}          Pot: {2}"
+	}
+
+	"Custom Weapon Sound Disabled CM"
+	{
+		"nl"		"Uitgeschakeld"
+	}
+
+	"Custom Weapon Sound Enabled CM"
+	{
+		"nl"		"Ingeschakeld"
+	}
+
+	"Custom Weapon Sound Menu Tag CM"
+	{
+		"nl"		"[Aangepast wapen geluid]"
+	}
+
+	"Custom Weapon Sound Menu Title CM"
+	{
+		"nl"		"Aangepaste wapen geluid volume controle menu"
+	}
+
+	"Custom Weapon Sound Menu Vol CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Volume: {1}"
+	}
+
+	"Custom Weapon Sound Menu Volume CM"
+	{
+		"#format"	"{1:T}"
+		"nl"		"Aangepast wapen geluid: {1}"
+	}
+
+	"Custom Weapon Sound Text Disable CM"
+	{
+		"nl"		"Aangepast wapen geluid is Uitgeschakeld."
+	}
+
+	"Custom Weapon Sound Text Enable CM"
+	{
+		"nl"		"Aangepast wapen geluid is ingeschakeld."
+	}
+
+	"Custom Weapon Sound Text Volume CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Aangepast wapen geluid is ingeschakeld. Volume: {1}"
+	}
+
+	"CustomModel CM"
+	{
+		"nl"		"Aangepast wapenmodel:"
+	}
+
+	"Damage the crate to open CM"
+	{
+		"nl"		"Beschadig de crate om hem te openen!"
+	}
+
+	"Dead heat CM"
+	{
+		"nl"		"- gelijkspel -"
+	}
+
+	"Deal+- CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"nl"		"             DEALER     +{1}     -{2}"
+	}
+
+	"Dealer CM"
+	{
+		"nl"		"DEALER"
+	}
+
+	"Discount Active CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Korting: '{1}' is actief! Veel winkelplezier!"
+	}
+
+	"Discount Ended CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Korting: '{1}' is beëindigd."
+	}
+
+	"Discount Started CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Korting: '{1}' is begonnen! Veel winkelplezier!"
+	}
+
+	"Double CM"
+	{
+		"nl"		"Dubbel"
+	}
+
+	"Down CM"
+	{
+		"nl"		"Omlaag"
+	}
+
+	"Down2 CM"
+	{
+		"nl"		"                      5 = Omlaag"
+	}
+
+	"Drop Gift CM"
+	{
+		"nl"		"Laat vallen als cadeau"
+	}
+
+	"Edit Amount CM"
+	{
+		"nl"		"Bewerk hoeveelheid: "
+	}
+
+	"Enter Admin Item Voucher Expiration CM"
+	{
+		"nl"		"Voer de vervaltijd (in seconden) voor het item in de chat in!"
+	}
+
+	"Enter Admin Item Voucher Expiration Error CM"
+	{
+		"nl"		"Ongeldig nummerformaat. Probeer het opnieuw."
+	}
+
+	"Enter custom amount CM"
+	{
+		"nl"		"Voer uw aangepaste bedrag in de chat in!"
+	}
+
+	"Enter maximum value CM"
+	{
+		"nl"		"Voer de maximale waarde van credits in de chat in!"
+	}
+
+	"Enter minimum value CM"
+	{
+		"nl"		"Voer de minimale kredietwaarde in de chat in!"
+	}
+
+	"Enter number of vouchers CM"
+	{
+		"nl"		"Voer het aantal te maken vouchers in de chat in!"
+	}
+
+	"Enter value of vouchers CM"
+	{
+		"nl"		"Voer de waarde van de te kopen voucher in de chat in!"
+	}
+
+	"Enter voucher code CM"
+	{
+		"nl"		"Voer uw vouchercode in de chat in!"
+	}
+
+	"Error occured, no price back. Inform admin log CM"
+	{
+		"nl"		"Er is een fout opgetreden bij het terugkrijgen van de prijs. Neem contact op met de beheerder"
+	}
+
+	"Exact #x  = CM"
+	{
+		"nl"		"Exact #x = "
+	}
+
+	"Exit CM"
+	{
+		"nl"		"Afsluiten"
+	}
+
+	"Gained CM"
+	{
+		"nl"		"Verkregen"
+	}
+
+	"Gained x Credits CM"
+	{
+		"#format"	"{1:d},{2:s}"
+		"nl"		"Verkregen: {1} {2}"
+	}
+
+	"Game Info CM"
+	{
+		"nl"		"Spelinformatie"
+	}
+
+	"Game in progress CM"
+	{
+		"nl"		"Je huidige wedspel is bezig. Wacht totdat het is afgelopen."
+	}
+
+	"Get three on a kind CM"
+	{
+		"nl"		"Pak drie van dezelfde"
+	}
+
+	"Gift Credit Picked CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je hebt {1} credits opgepakt."
+	}
+
+	"Gift Item Picked CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"nl"		"Je hebt een {1} {2} opgepakt."
+	}
+
+	"Gift No Players CM"
+	{
+		"nl"		"Er is niemand aan wie je dit item kunt geven."
+	}
+
+	"Gift Player Left CM"
+	{
+		"nl"		"De geselecteerde speler is al uit het spel."
+	}
+
+	"Giveaway Minimum Players CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"nl"		"{1} Om een giveaway te doen, moet de server ten minste {2} spelers bevatten."
+	}
+
+	"Giveaway announcement CM"
+	{
+		"#format"	"{1:s},{2:i}"
+		"nl"		"Admin {1} opende een giveaway met <font color='#15fb00'>{2} credits"
+	}
+
+	"Giveaway remaining time CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"|| De giveaway begint over {1} seconden ||"
+	}
+
+	"Giveaway winner chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:i}"
+		"nl"		"{1} {2} won een giveaway met {3} credits"
+	}
+
+	"Giveaway winner hint text CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"nl"		"{1}\n|| Winnaar: {2} ||"
+	}
+
+	"Giveaway winner in progress CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"|| {1} ||"
+	}
+
+	"Godmode Round Limit CM"
+	{
+		"nl"		"Je hebt de maximale hoeveelheid godmodes bereikt die je deze ronde kunt kopen."
+	}
+
+	"Godmode Wrong Team CM"
+	{
+		"nl"		"Je kunt godmode niet gebruiken in dit team."
+	}
+
+	"Green CM"
+	{
+		"nl"		"groen"
+	}
+
+	"HE grenade kill CM"
+	{
+		"nl"		"HE granaten kill"
+	}
+
+	"HUD CM"
+	{
+		"nl"		"HUD"
+	}
+
+	"Head CM"
+	{
+		"nl"		"Kop"
+	}
+
+	"Health Round Limit CM"
+	{
+		"nl"		"Je hebt het maximale aantal gezondheidskits bereikt die je deze ronde kunt kopen."
+	}
+
+	"Help_Back CM"
+	{
+		"nl"		"Terug"
+	}
+
+	"Help_Exit CM"
+	{
+		"nl"		"Afsluiten"
+	}
+
+	"Hide bullet sparks CM"
+	{
+		"nl"		"Verberg kogel vonken"
+	}
+
+	"Hide bullet tracer CM"
+	{
+		"nl"		"Verberg kogelsporen"
+	}
+
+	"Hide gloves CM"
+	{
+		"nl"		"Verberg handschoenen"
+	}
+
+	"Hide paintball CM"
+	{
+		"nl"		"Verberg paintballs"
+	}
+
+	"Hide particles CM"
+	{
+		"nl"		"Verberg deeltjes"
+	}
+
+	"Hide pets CM"
+	{
+		"nl"		"Verberg huisdieren"
+	}
+
+	"Hide trails CM"
+	{
+		"nl"		"Verberg sporen"
+	}
+
+	"High #4-6 CM"
+	{
+		"nl"		"Hoog #4-6"
+	}
+
+	"High #4-6 = CM"
+	{
+		"nl"		"Hoog #4-6 = "
+	}
+
+	"High - #4-6 (1:2) CM"
+	{
+		"nl"		"Hoog - #4-6 (1:2)"
+	}
+
+	"Higher CM"
+	{
+		"nl"		"HOGER"
+	}
+
+	"Hint chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Het gekozen nummer is: {1}"
+	}
+
+	"Hint next number CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Het volgende nummer was: {1}"
+	}
+
+	"Hit CM"
+	{
+		"nl"		"Hit"
+	}
+
+	"Hol Info 1 CM"
+	{
+		"nl"		"Een getal tussen {1} en {2} is voor jou gekozen, om te raden of het volgende getal hoger of lager zal zijn dan het gekozen getal."
+	}
+
+	"Hol Info 2 CM"
+	{
+		"nl"		"Als je de juiste kiest, win je twee keer je inzet."
+	}
+
+	"Hol Info 3 CM"
+	{
+		"nl"		"Er is een pauze van {1} seconde tussen elk spel."
+	}
+
+	"Hol placed CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je hebt succesvol {1} {2} geplaatst."
+	}
+
+	"Inventory CM"
+	{
+		"nl"		"Inventaris"
+	}
+
+	"Inventory hasn't been fetched CM"
+	{
+		"nl"		"Even geduld aub. Je inventaris is nog niet geladen."
+	}
+
+	"Item Available CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"nl"		"{1} ({2})"
+	}
+
+	"Item Bought CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"{1}"
+	}
+
+	"Item Equip CM"
+	{
+		"nl"		"Uitrust dit item"
+	}
+
+	"Item Equipped CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"{1} [UITGERUST]"
+	}
+
+	"Item Gift CM"
+	{
+		"nl"		"Geef dit item cadeau"
+	}
+
+	"Item Plan Available CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"{1} (Kies een plan)"
+	}
+
+	"Item Sell CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Verkoop voor {1}"
+	}
+
+	"Item Unequip CM"
+	{
+		"nl"		"Verwijder deze uitrusting"
+	}
+
+	"Item Use CM"
+	{
+		"nl"		"Gebruik dit item"
+	}
+
+	"Item Voucher CM"
+	{
+		"nl"		"Maak voucher van item"
+	}
+
+	"Item Voucher disabled CM"
+	{
+		"nl"		"Het aanmaken van een voucher voor het item is momenteel uitgeschakeld."
+	}
+
+	"Item Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"nl"		"Je hebt {1} ({2}) omgezet naar voucher {3}."
+	}
+
+	"Item hidden CM"
+	{
+		"#format"	"{1:t}"
+		"nl"		"{1} verborgen. Je zult ze niet meer zien."
+	}
+
+	"Item not found CM"
+	{
+		"nl"		"Item niet gevonden"
+	}
+
+	"Item visible CM"
+	{
+		"#format"	"{1:t}"
+		"nl"		"{1} is weer zichtbaar."
+	}
+
+	"Jackpot chances CM"
+	{
+		"#format"	"{1:N},{2:.2f},{3:i},{4:s}"
+		"nl"		"{1} - {2}% ({3} {4})"
+	}
+
+	"Jackpot paused CM"
+	{
+		"nl"		"Jackpot gepauzeerd."
+	}
+
+	"Jackpot: x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Jackpot: {1} {2}"
+	}
+
+	"Jetpack Empty CM"
+	{
+		"nl"		"Jetpack is leeg"
+	}
+
+	"Jetpack Fuel CM"
+	{
+		"#format"	"{1:.1f}"
+		"nl"		"[Jetpack] Brandstof: {1}"
+	}
+
+	"Jetpack Reloaded CM"
+	{
+		"nl"		"Jetpack is opnieuw geladen"
+	}
+
+	"Jihad Failed CM"
+	{
+		"nl"		"Je bom is niet geëxplodeerd."
+	}
+
+	"Jihad Failed All CM"
+	{
+		"#format"	"{1:N}"
+		"nl"		"{1} jihad bom is niet geëxplodeerd."
+	}
+
+	"Jihad Wrong Team CM"
+	{
+		"nl"		"Je kunt de bom niet gebruiken in dit team."
+	}
+
+	"Last x mins CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"{1} minuut(en) voordat de crash begint."
+	}
+
+	"Last x secs CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"{1} seconde(n) voordat de crash begint."
+	}
+
+	"LevelIcon CM"
+	{
+		"nl"		"level icoon"
+	}
+
+	"Limited CM"
+	{
+		"nl"		"Beperkt - één speler"
+	}
+
+	"Lootbox case is opening CM"
+	{
+		"nl"		"Wacht alstublieft totdat je vorige case is geopend"
+	}
+
+	"Lootbox map ended CM"
+	{
+		"nl"		"De kaart is afgelopen. Wacht alstublieft op de volgende kaart"
+	}
+
+	"Lootbox round ended CM"
+	{
+		"nl"		"De ronde is afgelopen. Wacht alstublieft op de volgende ronde"
+	}
+
+	"Lootbox warm up CM"
+	{
+		"nl"		"Je kunt niet openen tijdens de opwarming"
+	}
+
+	"Lose Streak Of CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Je hebt je dagelijkse reeks van {1} dag(en) verloren."
+	}
+
+	"Lost bet CM"
+	{
+		"nl"		"Mislukt! Je hebt je weddenschap verloren"
+	}
+
+	"Lost next number CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je hebt je inzet verloren omdat het volgende nummer was: {1}"
+	}
+
+	"Low #1-3 CM"
+	{
+		"nl"		"Laag #1-3"
+	}
+
+	"Low #1-3' = CM"
+	{
+		"nl"		"Laag #1-3' = "
+	}
+
+	"Low - #1-3 (1:2) CM"
+	{
+		"nl"		"Laag - #1-3 (1:2)"
+	}
+
+	"Lower CM"
+	{
+		"nl"		"Laag"
+	}
+
+	"Min Player CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"We hebben minstens {1} speler(s) nodig"
+	}
+
+	"Must be Alive CM"
+	{
+		"nl"		"Je moet in leven zijn om dit te gebruiken."
+	}
+
+	"Must be dead CM"
+	{
+		"nl"		"Je moet dood zijn om te spelen"
+	}
+
+	"Mutli = PotCT + PotT / PotWinningTeam CM"
+	{
+		"nl"		"Vermenigvuldiger = PotCT + PotT / PotWinningTeam"
+	}
+
+	"No active Jackpot CM"
+	{
+		"nl"		"Geen actieve jackpot"
+	}
+
+	"No active TeamBet CM"
+	{
+		"nl"		"Er zijn nog geen teamweddenschappen geplaatst"
+	}
+
+	"No have flag CM"
+	{
+		"nl"		"Je hebt geen toegang om deze opdracht te gebruiken."
+	}
+
+	"No matching color CM"
+	{
+		"nl"		"Geen overeenkomende kleur, gebruik: r/rood, b/zwart of g/groen"
+	}
+
+	"No pick up - back to you CM"
+	{
+		"nl"		"Niemand heeft je gevallen credits opgepakt. Je hebt ze teruggekregen."
+	}
+
+	"No pick up - removed CM"
+	{
+		"nl"		"Niemand heeft je gevallen credits opgepakt. De credits zijn verwijderd."
+	}
+
+	"NoAnswer CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Tijd om. Het juiste antwoord was {1}."
+	}
+
+	"Noone else cashed in CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Niemand anders heeft geld in de jackpot gestort. Je krijgt je {1} {2} terug!"
+	}
+
+	"Not enough Credits CM"
+	{
+		"nl"		"Je hebt niet genoeg credits"
+	}
+
+	"Now run a giveaway CM"
+	{
+		"nl"		"Er wordt nu een giveaway uitgevoerd, probeer het over een paar seconden opnieuw."
+	}
+
+	"Only number CM"
+	{
+		"nl"		"Je kunt alleen cijfers typen..."
+	}
+
+	"Override Disabled CM"
+	{
+		"nl"		"Je huid ondersteunt geen hoeden. Je uitrustingshoed wordt uitgeschakeld."
+	}
+
+	"Override Enabled CM"
+	{
+		"nl"		"Je huidige skin ondersteunt geen hoeden. Je skin wordt gewijzigd."
+	}
+
+	"Owned CM"
+	{
+		"nl"		"[Bezitten]"
+	}
+
+	"Package Gift CM"
+	{
+		"nl"		"Geef dit pakket cadeau"
+	}
+
+	"Package Sell CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Verkoop dit pakket voor {1}"
+	}
+
+	"Package Voucher CM"
+	{
+		"nl"		"Maak voucher uit pakket"
+	}
+
+	"Parachute Empty CM"
+	{
+		"nl"		"Parachute leeg"
+	}
+
+	"Parachute Reloaded CM"
+	{
+		"nl"		"Vliegtuig parachute opnieuw geladen"
+	}
+
+	"Particles CM"
+	{
+		"nl"		"Deeltjes:"
+	}
+
+	"Place x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Plaats {1} {2}"
+	}
+
+	"Play Preview CM"
+	{
+		"nl"		"Speel previewgeluid voor je."
+	}
+
+	"Player Credits CM"
+	{
+		"#format"	"{1:s},{2:d}"
+		"nl"		"{1} heeft {2} credits."
+	}
+
+	"Player Resetted CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"{1} is opnieuw ingesteld."
+	}
+
+	"Player Skin module disabled CM"
+	{
+		"nl"		"Store Player Skin-module is momenteel tijdelijk uitgeschakeld."
+	}
+
+	"Player added to jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:.2f},{5:i},{6:s}"
+		"nl"		"{1} heeft {2} {3} toegevoegd aan de jackpot, zijn huidige winkans is: {4}% (Jackpot: {5} {6})"
+	}
+
+	"Player lost x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"nl"		"{1} heeft {2} {3} verloren bij {4}."
+	}
+
+	"Player opened jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"nl"		"{1} heeft een jackpot geopend met {2} {3}. Doe cash-in om dat geld te pakken!"
+	}
+
+	"Player won the Jackpot CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s}"
+		"nl"		"{1} heeft de Jackpot gewonnen met {2} {3}!"
+	}
+
+	"Player won x Credits CM"
+	{
+		"#format"	"{1:N},{2:i},{3:s},{4:s}"
+		"nl"		"{1} heeft {2} {3} gewonnen bij {4}."
+	}
+
+	"Player won x Credits with X CM"
+	{
+		"#format"	"{1:N},{2:d},{3:s},{4:2.2f},{5:s}"
+		"nl"		"{1} heeft {2} {3} gewonnen met een vermenigvuldiger van x{4} bij {5}."
+	}
+
+	"PlayerSkins Settings Changed CM"
+	{
+		"nl"		"Je nieuwe instellingen worden toegepast bij de volgende spawn."
+	}
+
+	"Press CM"
+	{
+		"nl"		"Druk"
+	}
+
+	"Press to Start CM"
+	{
+		"nl"		"Druk om te starten!"
+	}
+
+	"Press to Stop CM"
+	{
+		"nl"		"Druk om te stoppen!"
+	}
+
+	"Preview Item CM"
+	{
+		"nl"		"Bekijk dit item"
+	}
+
+	"Price CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Prijs: {1}"
+	}
+
+	"Purchase Voucher CM"
+	{
+		"nl"		"Aankoop voucher"
+	}
+
+	"QuizzGenerated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:i},{5:s}"
+		"nl"		"Hoeveel is {1} {2} {3}? | Prijs: {4} {5}"
+	}
+
+	"Red CM"
+	{
+		"nl"		"rood"
+	}
+
+	"Redeem Voucher CM"
+	{
+		"nl"		"Voucher inwisselen"
+	}
+
+	"Rerun x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Herstart {1} {2}"
+	}
+
+	"Respawn Round Limit CM"
+	{
+		"nl"		"Je hebt het maximale aantal respawns bereikt die je deze ronde kunt kopen."
+	}
+
+	"SQL Cooldown CM"
+	{
+		"nl"		"Om veiligheidsredenen kunt u niet meerdere verzoeken in korte tijd indienen."
+	}
+
+	"Second Winner is not in game anymore CM"
+	{
+		"nl"		"De tweede winnaar is ook niet meer in het spel, laatste poging om een nieuwe winnaar te vinden."
+	}
+
+	"Seconds to use command CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je moet {1} seconden wachten voordat je deze opdracht opnieuw probeert te gebruiken."
+	}
+
+	"Show bullet sparks CM"
+	{
+		"nl"		"Toon kogel vonken"
+	}
+
+	"Show bullet tracer CM"
+	{
+		"nl"		"Toon kogelsporen"
+	}
+
+	"Show gloves CM"
+	{
+		"nl"		"Toon handschoenen"
+	}
+
+	"Show paintball CM"
+	{
+		"nl"		"Toon paintballs"
+	}
+
+	"Show particles CM"
+	{
+		"nl"		"Toon deeltjes"
+	}
+
+	"Show pets CM"
+	{
+		"nl"		"Toon huisdieren"
+	}
+
+	"Show trails CM"
+	{
+		"nl"		"Toon sporen"
+	}
+
+	"Smaller than min value CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Je kunt geen kleinere waarde gebruiken dan je minimumwaarde ({1})"
+	}
+
+	"Spacer CM"
+	{
+		"nl"		"----------------------"
+	}
+
+	"Spam Cooldown CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Spam bescherming. Wacht alstublieft {1} seconden."
+	}
+
+	"Spawn Preview CM"
+	{
+		"nl"		"Preview is gegenereerd. De preview verdwijnt over 45 seconden."
+	}
+
+	"Spawn Preview - Colored smoke CM"
+	{
+		"#format"	"{1:.0f}"
+		"nl"		"Preview is gegenereerd. De preview verdwijnt over {1} seconden."
+	}
+
+	"Start again from begin CM"
+	{
+		"nl"		"Begin alstublieft opnieuw vanaf het begin"
+	}
+
+	"Starting CM"
+	{
+		"nl"		"Starten"
+	}
+
+	"Stay CM"
+	{
+		"nl"		"Blijven"
+	}
+
+	"Store Confirm Reset Loadout CM"
+	{
+		"nl"		"Weet je zeker dat je je uitrusting wilt resetten? Alle items worden verwijderd."
+	}
+
+	"Successfully purchased voucher CM"
+	{
+		"nl"		"Je hebt succesvol een voucher gekocht"
+	}
+
+	"TF Wrong Class CM"
+	{
+		"nl"		"Dit item was bedoeld om te worden gebruikt met een andere spelerklasse."
+	}
+
+	"Tail CM"
+	{
+		"nl"		"Staart"
+	}
+
+	"TeamBet Already Placed CM"
+	{
+		"nl"		"Je hebt al je weddenschap voor deze ronde geplaatst."
+	}
+
+	"TeamBet Invalid Team CM"
+	{
+		"nl"		"Ongeldige teamidentifier opgegeven."
+	}
+
+	"TeamBet Lost CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je hebt {1} {2} verloren op de weddenschap."
+	}
+
+	"TeamBet Period Over CM"
+	{
+		"nl"		"De weddenschapperiode is voorbij voor deze ronde."
+	}
+
+	"TeamBet Placed CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Je hebt succesvol een weddenschap van {1} credits geplaatst."
+	}
+
+	"TeamBet Won CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je weddenschap was succesvol. Je hebt {1} {2} gewonnen."
+	}
+
+	"TeamBet not betted CM"
+	{
+		"nl"		"Er werd geen weddenschap op het andere team geplaatst, dus je kreeg de credits terug."
+	}
+
+	"Terrorist CM"
+	{
+		"nl"		"Terrorist"
+	}
+
+	"The chosen number CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Het gekozen nummer is: {1}"
+	}
+
+	"The next number CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Het volgende nummer was: {1}"
+	}
+
+	"This is the preview text CM"
+	{
+		"nl"		"Dit is de preview tekst."
+	}
+
+	"Timer_Server_ReloadConfig CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"De beheerder heeft de winkelconfiguratie opnieuw geladen. De kaart wordt opnieuw geladen na {1} seconden!"
+	}
+
+	"Title Admin Voucher Duration Menu CM"
+	{
+		"nl"		"Admin artikelvoucher maker menu.\n \nKies de duur van het item."
+	}
+
+	"Title Admin Voucher Menu CM"
+	{
+		"nl"		"Admin artikelvoucher maker menu"
+	}
+
+	"Title Credits CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Credits: {1}"
+	}
+
+	"Title Expiration CM"
+	{
+		"#format"	"{1:d},{2:d}"
+		"nl"		"Vervalt in {1}d {2}u"
+	}
+
+	"Title Gift CM"
+	{
+		"nl"		"Kies een speler om een cadeau naar te sturen"
+	}
+
+	"Title Store CM"
+	{
+		"nl"		"Winkelmenu"
+	}
+
+	"To late chat input CM"
+	{
+		"nl"		"Je tekstinvoer is niet voltooid binnen de gegeven tijd"
+	}
+
+	"Too many money on the ground CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Er ligt te veel {1} op de grond, je kunt op dit moment geen meer laten vallen!"
+	}
+
+	"Top Credits CM"
+	{
+		"nl"		"Top Credits"
+	}
+
+	"Top Credits Inv Worth CM"
+	{
+		"nl"		"Top Credits + Inventariswaarde"
+	}
+
+	"Top Inv Worth CM"
+	{
+		"nl"		"Top Inventariswaarde"
+	}
+
+	"Top Most Items CM"
+	{
+		"nl"		"Meest populaire items"
+	}
+
+	"Total Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Totaal: {1} {2}"
+	}
+
+	"Try again CM"
+	{
+		"nl"		"Probeer het opnieuw"
+	}
+
+	"Type in chat !bet CM"
+	{
+		"nl"		"Typ in de chat !bet <inzet> [ct/t]"
+	}
+
+	"Type in chat !blackjack CM"
+	{
+		"nl"		"Typ in de chat !blackjack <inzet>"
+	}
+
+	"Type in chat !coinflip CM"
+	{
+		"nl"		"Typ in de chat !coinflip <inzet> [h/t]"
+	}
+
+	"Type in chat !crash CM"
+	{
+		"nl"		"Typ in chat !crash <weddenschap>"
+	}
+
+	"Type in chat !crowns CM"
+	{
+		"nl"		"Typ in de chat !crowns <inzet>"
+	}
+
+	"Type in chat !dice CM"
+	{
+		"nl"		"Typ in de chat !dice <weddenschap> [l/h/#]"
+	}
+
+	"Type in chat !jackpot CM"
+	{
+		"nl"		"Typ in de chat !jackpot <inzet>"
+	}
+
+	"Type in chat !roulette CM"
+	{
+		"nl"		"Typ in de chat !roulette <inzet> [r/b/g]"
+	}
+
+	"Unlimited CM"
+	{
+		"nl"		"Onbeperkt - meerdere spelers"
+	}
+
+	"Up CM"
+	{
+		"nl"		"Omhoog"
+	}
+
+	"Value less than 1 CM"
+	{
+		"nl"		"Je kunt geen waarde kleiner dan 1 gebruiken."
+	}
+
+	"Volume set CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"nl"		"Volume van {1} ingesteld op {2}"
+	}
+
+	"Voucher Code 17 chars CM"
+	{
+		"nl"		"Voor nu moet de voucher-code precies 17 tekens bevatten"
+	}
+
+	"Voucher Value CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"De voucher heeft een waarde van {1} {2}"
+	}
+
+	"Voucher accepted CM"
+	{
+		"nl"		"De voucher is geaccepteerd"
+	}
+
+	"Voucher accepted Panel CM"
+	{
+		"nl"		"De voucher is geaccepteerd"
+	}
+
+	"Voucher admin generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:s}"
+		"nl"		"Je genereert {1} {2}beperkte voucher{3} met waarde {4} {5}"
+	}
+
+	"Voucher admin min max generated CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s},{4:i},{5:i},{6:s}"
+		"nl"		"Je genereert {1} {2}beperkte voucher{3} met waarden {4}-{5} {6}"
+	}
+
+	"Voucher already redeemed CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"De ingevoerde vouchercode is al ingewisseld op {1}"
+	}
+
+	"Voucher expire CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Deze voucher verloopt op {1}"
+	}
+
+	"Voucher expired CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"De ingevoerde vouchercode is verlopen op {1}"
+	}
+
+	"Voucher in chat CM"
+	{
+		"#format"	"{1:s},{2:i},{3:s}"
+		"nl"		"Nieuw voucher {1} aangemaakt met waarde {2} {3}"
+	}
+
+	"Voucher in chat and console CM"
+	{
+		"nl"		"Je kunt de vouchercode ook in de chat en console vinden"
+	}
+
+	"Voucher in console CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Voucher Code: {1}"
+	}
+
+	"Voucher invalid CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"De ingevoerde vouchercode '{1}' is niet geldig!"
+	}
+
+	"Voucher item CM"
+	{
+		"#format"	"{1:s},{2:s}"
+		"nl"		"De voucher bevat {1} ({2})"
+	}
+
+	"Voucher valid CM"
+	{
+		"nl"		"De vouchercode is geldig"
+	}
+
+	"Vouchers CM"
+	{
+		"nl"		"Voucher"
+	}
+
+	"Wait until next daily CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Je moet {1} wachten tot de volgende dagelijkse."
+	}
+
+	"Wait until next daily 2 CM"
+	{
+		"nl"		"Je hebt vandaag al ingecheckt. Kom morgen terug."
+	}
+
+	"Win = CM"
+	{
+		"nl"		"Winst = "
+	}
+
+	"Winner is not in game anymore CM"
+	{
+		"nl"		"De winnaar is niet meer in het spel, we proberen een nieuwe winnaar te vinden."
+	}
+
+	"Wrong voucher code format CM"
+	{
+		"nl"		"De vouchercode heeft een verkeerd formaat. Het moet XXXXX-XXXXX-XXXXX zijn"
+	}
+
+	"You CM"
+	{
+		"nl"		"JIJ"
+	}
+
+	"You already cashed in CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.1f},{4:i},{5:s}"
+		"nl"		"Je hebt al {1} {2} in de jackpot gestort. Huidige winstkans: {3}%% Jackpot: {4} {5}"
+	}
+
+	"You already own Voucher item CM"
+	{
+		"nl"		"Je bezit het ingevoerde vouchervoorwerp al"
+	}
+
+	"You already redeemed Voucher CM"
+	{
+		"nl"		"Je hebt de ingevoerde vouchercode al ingewisseld"
+	}
+
+	"You can start a new Jackpot CM"
+	{
+		"nl"		"Je kunt een nieuwe Jackpot starten"
+	}
+
+	"You can start a new Jackpot in CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Je kunt een nieuwe Jackpot starten in {1}."
+	}
+
+	"You can't spend that much credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je kunt niet zoveel credits uitgeven (Max: {1} {2})."
+	}
+
+	"You collected CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je hebt {1} {2} verzameld"
+	}
+
+	"You don't have permission CM"
+	{
+		"nl"		"Je hebt geen toestemming om toegang te krijgen tot dit."
+	}
+
+	"You dropped CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je hebt {1} {2} laten vallen"
+	}
+
+	"You earned no points this round CM"
+	{
+		"nl"		"Je hebt geen punten verdiend deze ronde."
+	}
+
+	"You earned this round CM"
+	{
+		"nl"		"Je hebt deze ronde verdiend:"
+	}
+
+	"You earned x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je hebt {1} {2} verdiend voor "
+	}
+
+	"You earned x Credits this round CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je hebt {1} {2} in deze ronde verdiend"
+	}
+
+	"You get x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je hebt {1} {2} ontvangen."
+	}
+
+	"You get x Credits Panel CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je hebt {1} {2} ontvangen."
+	}
+
+	"You get x item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"nl"		"Je hebt een {1} ({2}) ontvangen."
+	}
+
+	"You get x item Panel CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"nl"		"Je hebt een {1} ({2}) ontvangen."
+	}
+
+	"You have to spend at least x credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je moet minstens {1} {2} uitgeven."
+	}
+
+	"You have to spend at least x credits. CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je moet minstens {1} {2} uitgeven."
+	}
+
+	"You haven't opened the box in given time CM"
+	{
+		"nl"		"Je hebt de doos niet geopend binnen de gegeven tijd. De lootbox is terug in je inventaris"
+	}
+
+	"You lose CM"
+	{
+		"nl"		"- je hebt verloren"
+	}
+
+	"You lost with CM"
+	{
+		"nl"		"Je verloor met"
+	}
+
+	"You lost x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je verloor {1} {2}"
+	}
+
+	"You mastered the daily challange CM"
+	{
+		"nl"		"Je hebt de 'dagelijkse uitdaging' beheerst! Probeer het opnieuw te verslaan!"
+	}
+
+	"You win x Credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je wint {1} {2}"
+	}
+
+	"You won CM"
+	{
+		"nl"		"!!! JIJ HEBT GEWONNEN !!!"
+	}
+
+	"You won lootbox item CM"
+	{
+		"#format"	"{1:s},{2:t}"
+		"nl"		"Je hebt {1} ({2}) gewonnen!"
+	}
+
+	"You won the Jackpot CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je hebt de Jackpot gewonnen met {1} {2}!"
+	}
+
+	"You won the Jackpot - Fee CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i}"
+		"nl"		"Je hebt de Jackpot gewonnen met {1} {2} min de casino kosten van {3} {4} ({5}%)."
+	}
+
+	"You won with CM"
+	{
+		"nl"		"Je won met"
+	}
+
+	"You won x Credits with X CM"
+	{
+		"#format"	"{1:d},{2:2.2f}"
+		"nl"		"Je hebt {1} credits gewonnen met x{2}."
+	}
+
+	"You'll earn x Credits tomorrow CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je verdient {1} {2} morgen!"
+	}
+
+	"Your Bet - Chance CM"
+	{
+		"#format"	"{1:i},{2:s},{3:.2f}"
+		"nl"		"Je inzet: {1} {2} - Kans: {3}%"
+	}
+
+	"Your bet CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je weddenschap: {1} {2}"
+	}
+
+	"Your current winning chance has changed CM"
+	{
+		"#format"	"{1:.2f}"
+		"nl"		"Je huidige winstkans is gewijzigd naar {1}%"
+	}
+
+	"Zombie Earning Kill CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Je hebt {1} credits verdiend door {2} te doden."
+	}
+
+	"admin CM"
+	{
+		"nl"		"admin"
+	}
+
+	"and is limited CM"
+	{
+		"nl"		"en is beperkt"
+	}
+
+	"and is unlimited CM"
+	{
+		"nl"		"en is onbeperkt"
+	}
+
+	"arms CM"
+	{
+		"nl"		"armen"
+	}
+
+	"assist a kill CM"
+	{
+		"nl"		"help bij moord"
+	}
+
+	"attachment CM"
+	{
+		"nl"		"Accessoire"
+	}
+
+	"backstab kill CM"
+	{
+		"nl"		"backstab kill"
+	}
+
+	"be the MVP CM"
+	{
+		"nl"		"wees de MVP"
+	}
+
+	"bet x CM"
+	{
+		"nl"		"weddenschap x"
+	}
+
+	"blackjack CM"
+	{
+		"nl"		"Blackjack"
+	}
+
+	"bomb defused CM"
+	{
+		"nl"		"bom ontmanteld"
+	}
+
+	"bomb explode CM"
+	{
+		"nl"		"bom ontploft"
+	}
+
+	"bomb planted CM"
+	{
+		"nl"		"bom geplant"
+	}
+
+	"bombtweak CM"
+	{
+		"nl"		"Bom aanpassing"
+	}
+
+	"bullet_impact CM"
+	{
+		"nl"		"Kogel impact"
+	}
+
+	"bulletsparks CM"
+	{
+		"nl"		"Kogelvonken"
+	}
+
+	"bunnyhob CM"
+	{
+		"nl"		"Hazen Sprong"
+	}
+
+	"bunnyhop CM"
+	{
+		"nl"		"vaardigheid"
+	}
+
+	"casino CM"
+	{
+		"nl"		"Casino"
+	}
+
+	"coinflip CM"
+	{
+		"nl"		"Munt flip"
+	}
+
+	"confirm_reload_type_0 CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Wil je de configuratie resetten?\nDe kaart wordt opnieuw geladen na {1} seconden!"
+	}
+
+	"confirm_reload_type_1 CM"
+	{
+		"nl"		"Wil je de configuratie resetten?\nJe moet de kaart wijzigen om de wijzigingen toe te passen, anders kunnen er bugs optreden."
+	}
+
+	"connect CM"
+	{
+		"nl"		"Verbindingsbericht"
+	}
+
+	"crash CM"
+	{
+		"nl"		"Crash"
+	}
+
+	"creditstoplist CM"
+	{
+		"nl"		"credits"
+	}
+
+	"crowns CM"
+	{
+		"nl"		"Kroon Slot"
+	}
+
+	"daily CM"
+	{
+		"nl"		"Dagelijkse bonus"
+	}
+
+	"decoy grenade kill CM"
+	{
+		"nl"		"decoy granaat kill"
+	}
+
+	"dice CM"
+	{
+		"nl"		"Dobbelsteen"
+	}
+
+	"direction CM"
+	{
+		"nl"		"Richting"
+	}
+
+	"discount CM"
+	{
+		"nl"		"SALE"
+	}
+
+	"distance CM"
+	{
+		"nl"		"Afstand"
+	}
+
+	"dmgtext CM"
+	{
+		"nl"		"Schilder"
+	}
+
+	"emote CM"
+	{
+		"nl"		"Emote"
+	}
+
+	"escape as VIP CM"
+	{
+		"nl"		"Ontsnap als VIP"
+	}
+
+	"flashbang kill CM"
+	{
+		"nl"		"flashbang kill"
+	}
+
+	"flashlight CM"
+	{
+		"nl"		"Zaklamp"
+	}
+
+	"froggyjump CM"
+	{
+		"nl"		"Frog Jump"
+	}
+
+	"gloves CM"
+	{
+		"nl"		"handschoenen"
+	}
+
+	"glow CM"
+	{
+		"nl"		"gloed"
+	}
+
+	"godmode CM"
+	{
+		"nl"		"godmode"
+	}
+
+	"gravity CM"
+	{
+		"nl"		"vaardigheid"
+	}
+
+	"grenademodel CM"
+	{
+		"nl"		"Granaatmodel"
+	}
+
+	"grenadeskin CM"
+	{
+		"nl"		"granaat skin"
+	}
+
+	"grenadetrail CM"
+	{
+		"nl"		"granaat spoor"
+	}
+
+	"hat CM"
+	{
+		"nl"		"hoed"
+	}
+
+	"headshot CM"
+	{
+		"nl"		"headshot"
+	}
+
+	"health CM"
+	{
+		"nl"		"pakket"
+	}
+
+	"high or low CM"
+	{
+		"nl"		"Hoger of lager"
+	}
+
+	"hiteff CM"
+	{
+		"nl"		"hit effect:"
+	}
+
+	"hitsound CM"
+	{
+		"nl"		"Impactgeluid"
+	}
+
+	"hostage rescued CM"
+	{
+		"nl"		"gijzelaar gered"
+	}
+
+	"hunterjump CM"
+	{
+		"nl"		"Jager Sprong"
+	}
+
+	"idle on the server CM"
+	{
+		"nl"		"inactief op de server"
+	}
+
+	"in x time CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"in {1}."
+	}
+
+	"infinityammo CM"
+	{
+		"nl"		"Oneindige munitie"
+	}
+
+	"info CM"
+	{
+		"nl"		"Info Paneel"
+	}
+
+	"instabomb CM"
+	{
+		"nl"		"Direct planten / ontmantelen"
+	}
+
+	"inv and inv credits CM"
+	{
+		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
+		"nl"		"    {1}. {2}:   {3} {4} ({5} {6})"
+	}
+
+	"invisibility CM"
+	{
+		"nl"		"vaardigheid"
+	}
+
+	"items CM"
+	{
+		"nl"		"Items"
+	}
+
+	"jackpot CM"
+	{
+		"nl"		"Jackpot"
+	}
+
+	"jetpack CM"
+	{
+		"nl"		"raket"
+	}
+
+	"jihad CM"
+	{
+		"nl"		"bom"
+	}
+
+	"kill CM"
+	{
+		"nl"		"moord"
+	}
+
+	"kill the VIP CM"
+	{
+		"nl"		"vermoord de VIP"
+	}
+
+	"kill yourself CM"
+	{
+		"nl"		"moord jezelf"
+	}
+
+	"killeff CM"
+	{
+		"nl"		"kill effect:"
+	}
+
+	"knife CM"
+	{
+		"nl"		"mes"
+	}
+
+	"knife kill CM"
+	{
+		"nl"		"mes kill"
+	}
+
+	"laserdraw CM"
+	{
+		"nl"		"laser draw:"
+	}
+
+	"laserpointer CM"
+	{
+		"nl"		"Laserpointer"
+	}
+
+	"lasersight CM"
+	{
+		"nl"		"laser richtkijker"
+	}
+
+	"last update CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"laatste update {1} geleden"
+	}
+
+	"light CM"
+	{
+		"nl"		"Licht"
+	}
+
+	"lootbox CM"
+	{
+		"nl"		"Loobox"
+	}
+
+	"mirror CM"
+	{
+		"nl"		"spiegel"
+	}
+
+	"molotov kill CM"
+	{
+		"nl"		"molotov kill"
+	}
+
+	"msgcolor CM"
+	{
+		"nl"		"berichtkleur"
+	}
+
+	"mvp_sound CM"
+	{
+		"nl"		"MVP hymnes"
+	}
+
+	"namecolor CM"
+	{
+		"nl"		"naamkleur"
+	}
+
+	"nametag CM"
+	{
+		"nl"		"naamlabel"
+	}
+
+	"nearest CM"
+	{
+		"nl"		"Meest dichtbij"
+	}
+
+	"nodiscount CM"
+	{
+		"nl"		" "
+	}
+
+	"noduckdelay CM"
+	{
+		"nl"		"Geen vertraging bij hurken"
+	}
+
+	"nofalldamage CM"
+	{
+		"nl"		"Geen val schade"
+	}
+
+	"noreload CM"
+	{
+		"nl"		"Geen herladen"
+	}
+
+	"noscope kill CM"
+	{
+		"nl"		"kill zonder richtkijker"
+	}
+
+	"noselfdamage CM"
+	{
+		"nl"		"Geen zelf schade"
+	}
+
+	"or use buttons below CM"
+	{
+		"nl"		"of gebruik de knoppen hieronder"
+	}
+
+	"package CM"
+	{
+		"nl"		"pakket"
+	}
+
+	"paintball CM"
+	{
+		"nl"		"kogels"
+	}
+
+	"painter CM"
+	{
+		"nl"		"Schilder"
+	}
+
+	"parachute CM"
+	{
+		"nl"		"Vallende schirm"
+	}
+
+	"particle CM"
+	{
+		"nl"		"Deeltjes"
+	}
+
+	"pet CM"
+	{
+		"nl"		"huisdier"
+	}
+
+	"playerskin CM"
+	{
+		"nl"		"speler skin"
+	}
+
+	"playing on the server CM"
+	{
+		"nl"		"aan het spelen op de server"
+	}
+
+	"playing x on our server in row CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Je hebt {1} dagen op ons server gespeeld"
+	}
+
+	"received Spawn CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Je ontvangt {1} bij de volgende spawn"
+	}
+
+	"respawn CM"
+	{
+		"nl"		"Respawn"
+	}
+
+	"roulette CM"
+	{
+		"nl"		"Roulette"
+	}
+
+	"say sound map max uses CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je hebt het maximale aantal zeg-geluiden bereikt. {1} maximaal gebruik per map"
+	}
+
+	"say sound round max uses CM"
+	{
+		"#format"	"{1:d}"
+		"nl"		"Je hebt het maximale aantal zeg-geluiden bereikt. {1} maximaal gebruik per ronde"
+	}
+
+	"saysound CM"
+	{
+		"nl"		"zeg geluid"
+	}
+
+	"scoreboardtag CM"
+	{
+		"nl"		"Scoreboard tag"
+	}
+
+	"smokegrenade kill CM"
+	{
+		"nl"		"smokegrenade kill"
+	}
+
+	"sound CM"
+	{
+		"nl"		"geluid"
+	}
+
+	"spawn CM"
+	{
+		"nl"		"Extra respawn"
+	}
+
+	"spawneff CM"
+	{
+		"nl"		"spawn effect:"
+	}
+
+	"speed CM"
+	{
+		"nl"		"vaardigheid"
+	}
+
+	"spray CM"
+	{
+		"nl"		"spray"
+	}
+
+	"start daily challange CM"
+	{
+		"nl"		"Begin de 'dagelijkse uitdaging'. Speel de komende 6 dagen om de volledige bonus te ontvangen"
+	}
+
+	"taser kill CM"
+	{
+		"nl"		"taser kill"
+	}
+
+	"teambet CM"
+	{
+		"nl"		"TeamBet"
+	}
+
+	"teamkill CM"
+	{
+		"nl"		"teamkill"
+	}
+
+	"tfhat CM"
+	{
+		"nl"		"gebouw hoed"
+	}
+
+	"tfhatdye CM"
+	{
+		"nl"		"hoed verf"
+	}
+
+	"tfhead CM"
+	{
+		"nl"		"hoofdmaat"
+	}
+
+	"tfunusual CM"
+	{
+		"nl"		"hoed effect"
+	}
+
+	"tfweapon CM"
+	{
+		"nl"		"aangepast wapen"
+	}
+
+	"tfweaponsize CM"
+	{
+		"nl"		"wapengrootte"
+	}
+
+	"the prize will be drawn in CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"De prijs wordt getrokken in {1} seconden"
+	}
+
+	"thirdperson CM"
+	{
+		"nl"		"derde persoon"
+	}
+
+	"throwknife CM"
+	{
+		"nl"		"Gooi mes"
+	}
+
+	"toplists CM"
+	{
+		"nl"		"Toplijsten"
+	}
+
+	"tracer CM"
+	{
+		"nl"		"tracer"
+	}
+
+	"trail CM"
+	{
+		"nl"		"spoor"
+	}
+
+	"wasted CM"
+	{
+		"nl"		"verspild"
+	}
+
+	"watergun CM"
+	{
+		"nl"		"effect"
+	}
+
+	"weapon CM"
+	{
+		"nl"		"wapen"
+	}
+
+	"weaponcolor CM"
+	{
+		"nl"		"wapenkleur"
+	}
+
+	"weaponmodel CM"
+	{
+		"nl"		"Wapenmodel"
+	}
+
+	"weaponskin CM"
+	{
+		"nl"		"wapenskin"
+	}
+
+	"win the round CM"
+	{
+		"nl"		"win de ronde"
+	}
+
+	"x Credits for CM"
+	{
+		"#format"	"{1:i},{2:s},{3:s}"
+		"nl"		"{1} {2} voor '{3}'"
+	}
+
+	"x hours, x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"nl"		"{1} uren {2} minuten en {3} seconden"
+	}
+
+	"x hours, x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i},{3:i}"
+		"nl"		"{1} uur(u) {2} minuut(en) en {3} seconde(n)"
+	}
+
+	"x minutes, x seconds CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"nl"		"{1} minuten en {2} seconden"
+	}
+
+	"x minutes, x seconds toplist CM"
+	{
+		"#format"	"{1:i},{2:i}"
+		"nl"		"{1} minuut(en) en {2} seconde(n)"
+	}
+
+	"x seconds CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"{1} seconden"
+	}
+
+	"x seconds toplist CM"
+	{
+		"#format"	"{1:i}"
+		"nl"		"{1} seconde(n)"
+	}
+
+	"zrclass CM"
+	{
+		"nl"		"speler klasse"
+	}
 }
