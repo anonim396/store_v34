@@ -1,14 +1,4 @@
 //////////////////////////////
-//		DEFINITIONS			//
-//////////////////////////////
-
-#define PLUGIN_NAME "Store - The Resurrection with preview system"
-#define PLUGIN_AUTHOR "Zephyrus, nuclear silo, AiDN, anonim396"
-#define PLUGIN_DESCRIPTION "A completely new Store system with preview rewritten by nuclear silo"
-#define PLUGIN_VERSION "7.1.3"
-#define PLUGIN_URL ""
-
-//////////////////////////////
 //			INCLUDES		//
 //////////////////////////////
 
@@ -17,9 +7,8 @@
 #include <sdkhooks>
 #include <cstrike>
 
-//#tryinclude <clientmod>          
-//#tryinclude <clientmod/multicolors>
-//#tryinclude <chatmodern>
+#tryinclude <clientmod>          
+#tryinclude <clientmod/multicolors>
 
 #undef REQUIRE_EXTENSIONS
 #undef REQUIRE_PLUGIN
@@ -27,28 +16,25 @@
 #include <zephstocks>
 #include <adminmenu>
 
-//#include <tf2>
-//#include <tf2_stocks>
-//#include <tf2items>
-//#include <gifts>
-//#include <scp>
-//#include <thirdperson>
-//#include <saxtonhale>
-
 
 #pragma semicolon 1
 #pragma newdecls required
 
-//////////////////////////////////
-//		GLOBAL VARIABLES		//
-//////////////////////////////////
+//////////////////////////////
+//		CHANGE IF YOU WANT	//
+//////////////////////////////
 
-#if defined _chat_modern_included
-	ChatModern chatm;
+char g_sChatPrefix[128]		=	"\x04[Store] \x01";
+
+#if defined _clientmod_included
+char g_sChatPrefix_CM[128]	=	"{forestgreen}[Store] {snow}";
 #endif
 
+//////////////////////////////
+//		GLOBAL VARIABLES	//
+//////////////////////////////
+
 char g_szGameDir[64];
-char g_sChatPrefix[128];
 
 Handle g_hCustomCredits = INVALID_HANDLE;
 
@@ -75,7 +61,7 @@ int hTime;
 Handle ReloadTimer = INVALID_HANDLE;
 
 //////////////////////////////
-//			Core Dependence Files			//
+//	Core Dependence Files	//
 //////////////////////////////
 #include "store/api.sp"
 #include "store/cvars.sp"
@@ -125,26 +111,19 @@ Handle ReloadTimer = INVALID_HANDLE;
 //#include "store/modules/sprays.sp"
 //#include "store/modules/admin.sp"
 //#include "store_misc_voucher.sp"
-#include "store/modules/store_misc_toplists.sp"
+//#include "store/modules/store_misc_toplists.sp"
 
-//uncomment the next line if you using valve weapon skin and knives (warning, this may cause your server get banned. Please use at your own risk)
-//#define WEAPONS_KNIVES
-#if defined WEAPONS_KNIVES
-	#include "store/modules/knife.sp"
-	#include "store/modules/weaponskins.sp"
-#endif
-
-//////////////////////////////////
-//		PLUGIN DEFINITION		//
-//////////////////////////////////
+//////////////////////////////
+//		PLUGIN DEFINITION	//
+//////////////////////////////
 
 public Plugin myinfo = 
 {
-	name = PLUGIN_NAME,
-	author = PLUGIN_AUTHOR,
-	description = PLUGIN_DESCRIPTION,
-	version = PLUGIN_VERSION,
-	url = PLUGIN_URL
+	name = "Store - The Resurrection with preview system",
+	author = "Zephyrus, nuclear silo, AiDN, anonim396",
+	description = "A completely new Store system with preview rewritten by nuclear silo, ported to v34 anonim396",
+	version = "7.1.3",
+	url = "https://github.com/nuclearsilo583/zephyrus-store-preview-new-syntax"
 };
 
 //////////////////////////////
@@ -154,10 +133,6 @@ public Plugin myinfo =
 public void OnPluginStart()
 {
 	RegPluginLibrary("store_zephyrus");
-	
-	#if defined _chat_modern_included
-		chatm = new ChatModern(GetEngineVersion());
-	#endif
 	
 	// Setting default values
 	for(int i=1;i<=MaxClients;++i)
@@ -219,11 +194,6 @@ public void OnPluginStart()
 	//AdminGroup_OnPluginStart();
 	//Vounchers_OnPluginStart();
 	
-	#if defined WEAPONS_KNIVES
-		Knives_OnPluginStart();
-		WeaponSkins_OnPluginStart();
-	#endif
-	
 	// Initialize handles
 	g_hCustomCredits = CreateArray(3);
 	
@@ -275,9 +245,9 @@ public void OnLibraryAdded(const char[] name)
 	//ZRClass_OnLibraryAdded(name);
 }
 
-//////////////////////////////////////
-//		REST OF PLUGIN FORWARDS		//
-//////////////////////////////////////
+//////////////////////////////
+//	REST OF PLUGIN FORWARDS	//
+//////////////////////////////
 
 public void OnMapStart()
 {
@@ -301,7 +271,7 @@ public void OnConfigsExecuted()
 	//Jetpack_OnConfigsExecuted();
 	//Jihad_OnConfigsExecuted();
 	
-	Store_Cvars_OnConfigsExecuted(); // store/cvars.sp
+	//Store_Cvars_OnConfigsExecuted(); // store/cvars.sp
 	
 	// Call foward Store_OnConfigsExecuted
 	Store_Forward_OnConfigsExecuted(); // store/configs.sp
@@ -361,13 +331,7 @@ public void OnClientPostAdminCheck(int client)
 public void OnClientPutInServer(int client)
 {
 	if(IsFakeClient(client))
-	return;
-	//WeaponColors_OnClientPutInServer(client);
-	#if defined WEAPONS_KNIVES
-		Knives_OnClientPutInServer(client);
-		WeaponSkins_OnClientPutInServer(client);
-	#endif
-	
+	return;	
 }
 
 public void OnClientDisconnect(int client)
@@ -460,3 +424,35 @@ public SMCResult Config_EndSection(Handle parser)
 public void Config_End(Handle parser, bool halted, bool failed) 
 {
 }
+/*
+void NotifyToChat(int client, const char[] format, any ...)
+{
+	char buffer[256];
+	VFormat(buffer, sizeof(buffer), format, 3);
+
+	#if defined _clientmod_included
+		MC_PrintToChat(client, buffer);
+		C_PrintToChat(client, buffer);
+	#else
+		PrintToChat(client, buffer);
+	#endif
+}
+
+void NotifyToChatAll(const char[] format, any ...)
+{
+	char buffer[256];
+	VFormat(buffer, sizeof(buffer), format, 2);
+
+	for (int client = 1; client <= MaxClients; client++)
+	{
+		if (!IsClientInGame(client))
+			continue;
+
+		#if defined _clientmod_included
+			MC_PrintToChat(client, buffer);
+			C_PrintToChat(client, buffer);
+		#else
+			PrintToChat(client, buffer);
+		#endif
+	}
+}*/

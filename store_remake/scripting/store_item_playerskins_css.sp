@@ -1,4 +1,6 @@
 #pragma semicolon 1
+#pragma newdecls required
+
 #include <sourcemod>
 #include <sdktools>
 #include <sdkhooks>
@@ -6,15 +8,15 @@
 
 #include <store>
 #include <zephstocks>
-//#pragma newdecls required
+
+#tryinclude <clientmod>          
+#tryinclude <clientmod/multicolors>
 
 enum struct PlayerSkin
 {
 	char szModel[PLATFORM_MAX_PATH];
-	char szArms[PLATFORM_MAX_PATH];
 	int iSkin;
 	int iBody;
-	//bool:bTemporary,
 	int iTeam;
 	int nModelIndex;
 }
@@ -22,16 +24,6 @@ enum struct PlayerSkin
 PlayerSkin g_ePlayerSkins[STORE_MAX_ITEMS];
 
 int g_iPlayerSkins = 0;
-//new g_iTempSkins[MAXPLAYERS+1];
-
-//int g_cvarSkinChangeInstant = -1;
-//new g_cvarSkinForceChange = -1;
-//new g_cvarSkinForceChangeCT = -1;
-//new g_cvarSkinForceChangeT = -1;
-int g_cvarSkinDelay = -1;
-
-//new bool:g_bTForcedSkin = false;
-//new bool:g_bCTForcedSkin = false;
 
 Handle g_hTimerPreview[MAXPLAYERS + 1];
 
@@ -41,14 +33,18 @@ int g_bSkinEnable;
 
 int g_iPreviewEntity[MAXPLAYERS + 1] = {INVALID_ENT_REFERENCE, ...};
 
-char g_sChatPrefix[128];
+char g_sChatPrefix[128]		=	"\x04[Store] \x01";
+
+#if defined _clientmod_included
+char g_sChatPrefix_CM[128]	=	"{forestgreen}[Store] {snow}";
+#endif
 
 public Plugin myinfo = 
 {
 	name = "Store - Player Skin Module (No ZR version)",
-	author = "nuclear silo", // If you should change the code, even for your private use, please PLEASE add your name to the author here
+	author = "nuclear silo, anonim396", // If you should change the code, even for your private use, please PLEASE add your name to the author here
 	description = "",
-	version = "1.0", // If you should change the code, even for your private use, please PLEASE make a mark here at the version number
+	version = "1.1", // If you should change the code, even for your private use, please PLEASE make a mark here at the version number
 	url = ""
 }
 
@@ -59,26 +55,10 @@ public void OnPluginStart()
 	GetGameFolderName(m_szGameDir, sizeof(m_szGameDir));
 	
 	Store_RegisterHandler("playerskin", "model", PlayerSkins_OnMapStart, PlayerSkins_Reset, PlayerSkins_Config, PlayerSkins_Equip, PlayerSkins_Remove, true);
-	//Store_RegisterHandler("playerskin_temp", "model", PlayerSkins_OnMapStart, PlayerSkins_Reset, PlayerSkins_Config, PlayerSkins_Equip, PlayerSkins_Remove, false);
-
-	//g_cvarSkinChangeInstant = RegisterConVar("sm_store_playerskin_instant", "1", "Defines whether the skin should be changed instantly or on next spawn.", TYPE_INT);
-	//g_cvarSkinForceChange = RegisterConVar("sm_store_playerskin_force_default", "0", "If it's set to 1, default skins will be enforced.", TYPE_INT);
-	//g_cvarSkinForceChangeCT = RegisterConVar("sm_store_playerskin_default_ct", "", "Path of the default CT skin.", TYPE_STRING);
-	//g_cvarSkinForceChangeT = RegisterConVar("sm_store_playerskin_default_t", "", "Path of the default T skin.", TYPE_STRING);
-	g_cvarSkinDelay = RegisterConVar("sm_store_playerskin_delay", "2", "Delay after spawn before applying the skin. -1 means no delay", TYPE_FLOAT);
 	g_bSkinEnable = RegisterConVar("sm_store_playerskin_enable", "1", "Enable the player skin module", TYPE_INT);
-	//g_cvarSkinChangeInstant = RegisterConVar("sm_store_playerskin_instant", "1", "Defines whether the skin should be changed instantly or on next spawn.", TYPE_INT);
 	
 	
 	HookEvent("player_spawn", PlayerSkins_PlayerSpawn);
-	//HookEvent("player_death", PlayerSkins_PlayerDeath);
-
-	//g_bZombieMode = (FindPluginByFile("zombiereloaded")==INVALID_HANDLE?false:true);
-}
-
-public void Store_OnConfigExecuted(char[] prefix)
-{
-	strcopy(g_sChatPrefix, sizeof(g_sChatPrefix), prefix);
 }
 
 public void PlayerSkins_OnMapStart()
@@ -87,12 +67,6 @@ public void PlayerSkins_OnMapStart()
 	{
 		g_ePlayerSkins[i].nModelIndex = PrecacheModel2(g_ePlayerSkins[i].szModel, true);
 		Downloader_AddFileToDownloadsTable(g_ePlayerSkins[i].szModel);
-
-		if(g_ePlayerSkins[i].szArms[0]!=0)
-		{
-			PrecacheModel2(g_ePlayerSkins[i].szArms, true);
-			Downloader_AddFileToDownloadsTable(g_ePlayerSkins[i].szArms);
-		}
 	}
 }
 
@@ -106,81 +80,61 @@ public bool PlayerSkins_Config(Handle &kv, int itemid)
 	Store_SetDataIndex(itemid, g_iPlayerSkins);
 	
 	KvGetString(kv, "model", g_ePlayerSkins[g_iPlayerSkins].szModel, PLATFORM_MAX_PATH);
-	KvGetString(kv, "arms", g_ePlayerSkins[g_iPlayerSkins].szArms, PLATFORM_MAX_PATH);
 	g_ePlayerSkins[g_iPlayerSkins].iSkin = KvGetNum(kv, "skin");
 	g_ePlayerSkins[g_iPlayerSkins].iBody = KvGetNum(kv, "body", -1);
 	g_ePlayerSkins[g_iPlayerSkins].iTeam = KvGetNum(kv, "team");
-	//g_ePlayerSkins[g_iPlayerSkins][bTemporary] = (KvGetNum(kv, "temporary")?true:false);
 	
 	if(FileExists(g_ePlayerSkins[g_iPlayerSkins].szModel, true))
 	{
 		++g_iPlayerSkins;
 		return true;
 	}
-	
-	return false;
+	else
+	{
+		LogError("PlayerSkin config error: Model file not found [%s]", g_ePlayerSkins[g_iPlayerSkins].szModel);
+		return false;
+	}
 }
 
 public int PlayerSkins_Equip(int client, int id)
 {
 	int m_iData = Store_GetDataIndex(id);
-	//int iIndex =  Store_GetDataIndex(id);
-	if (g_eCvars[g_bSkinEnable].aCache == 1)
-	{
-		if(IsPlayerAlive(client) && IsValidClient(client, true) && GetClientTeam(client)==g_ePlayerSkins[m_iData].iTeam)
-		{
-			Store_SetClientModel(client, g_ePlayerSkins[m_iData].szModel, g_ePlayerSkins[m_iData].iSkin, g_ePlayerSkins[m_iData].iBody, g_ePlayerSkins[m_iData].szArms, m_iData);
-		}
-		/*else
-		{
-			if(Store_IsClientLoaded(client))
-				CPrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
 
-			if(g_ePlayerSkins[m_iData][bTemporary])
-			{
-				g_iTempSkins[client] = m_iData;
-				return -1;
-			}
-		}*/
+	int skinTeam = g_ePlayerSkins[m_iData].iTeam;
+	int clientTeam = GetClientTeam(client);
+	
+	if (g_eCvars[g_bSkinEnable].aCache == 1)
+	{	
+		if(IsPlayerAlive(client) && IsValidClient(client, true) && (skinTeam == 4 || clientTeam == skinTeam))
+		{
+			Store_SetClientModel(client, g_ePlayerSkins[m_iData].szModel, g_ePlayerSkins[m_iData].iSkin, g_ePlayerSkins[m_iData].iBody);
+		}
 		
 		else if(Store_IsClientLoaded(client))
 		{
-			#if defined _clientmod_included && defined _chat_modern_included
-				MC_PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-				if (!CM_IsClientModUser(client))
-				chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-				#else
-				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-					#else
-					#if defined _chat_modern_included
-						chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-						#else
-						PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-					#endif
-				#endif
+			#if defined _clientmod_included
+				MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "PlayerSkins Settings Changed CM");
+				C_PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
+			#else
+				PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
 			#endif
 		}
 	}
 	else
 	{
-	#if defined _clientmod_included && defined _chat_modern_included
-		MC_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-		if (!CM_IsClientModUser(client))
-		chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-		#else
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Player Skin module disabled CM");
 			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-			#else
-			#if defined _chat_modern_included
-				chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-				#else
-				PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-			#endif
+		#else
+			PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
 		#endif
-	#endif
+		return -1;
+	}
+	
+	if (!IsValidClient(client, true))
+	{
+		LogError("Attempted to equip skin for invalid client %d", client);
+		return -1;
 	}
 	
 	return (g_ePlayerSkins[Store_GetDataIndex(id)].iTeam)-2;
@@ -199,42 +153,22 @@ public int PlayerSkins_Remove(int client,int id)
 		}
 		else
 		{
-			#if defined _clientmod_included && defined _chat_modern_included
-				MC_PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-				if (!CM_IsClientModUser(client))
-				chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-				#else
-				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-					#else
-					#if defined _chat_modern_included
-						chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-						#else
-						PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
-					#endif
-				#endif
+			#if defined _clientmod_included
+				MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "PlayerSkins Settings Changed CM");
+				C_PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
+			#else
+				PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
 			#endif
 		}
 	}
 	else
 	{
-		#if defined _clientmod_included && defined _chat_modern_included
-				MC_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-				if (!CM_IsClientModUser(client))
-				chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-				#else
-				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-					#else
-					#if defined _chat_modern_included
-						chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-						#else
-						PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-					#endif
-				#endif
-			#endif
+		#if defined _clientmod_included
+			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Player Skin module disabled CM");
+			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+		#else
+			PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+		#endif
 	}
 	
 	return view_as<int>(g_ePlayerSkins[Store_GetDataIndex(id)].iTeam)-2;
@@ -248,98 +182,46 @@ public Action PlayerSkins_PlayerSpawn(Event event,const char[] name,bool dontBro
 		if(!IsClientInGame(client) || !IsPlayerAlive(client) || !(2<=GetClientTeam(client)<=3))
 			return Plugin_Continue;
 		
-		float Delay = view_as<float>(g_eCvars[g_cvarSkinDelay].aCache);
-		
-		CreateTimer(Delay, PlayerSkins_PlayerSpawnPost, GetClientUserId(client));
+		RequestFrame(RequestFrame_PlayerSkins_PlayerSpawnPost, client);
 	}
 	else
 	{
-		#if defined _clientmod_included && defined _chat_modern_included
-				MC_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-				if (!CM_IsClientModUser(client))
-				chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-				#else
-				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-					#else
-					#if defined _chat_modern_included
-						chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-						#else
-						PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
-					#endif
-				#endif
-			#endif
+		#if defined _clientmod_included
+			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Player Skin module disabled CM");
+			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+		#else
+			PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+		#endif
 	}
 	
 	return Plugin_Continue;
 }
-/*
-public Action:PlayerSkins_PlayerSpawnPost(Handle:timer, any:userid)
+
+public void RequestFrame_PlayerSkins_PlayerSpawnPost(int client)
 {
-	int client = GetClientOfUserId(userid);
-	//int iIndex =  Store_GetDataIndex(id);
 	if(!client || !IsClientInGame(client))
-		return Plugin_Stop;
+		return;
 
 	if (IsValidClient(client, true) && !IsPlayerAlive(client))
-		return Plugin_Stop;
-	
-	new m_iEquipped = Store_GetEquippedItem(client, "playerskin", GetClientTeam(client)-2);
-	if(m_iEquipped < 0)
-		return Plugin_Stop;
-	
-	decl m_iData;
-	m_iData = Store_GetDataIndex(m_iEquipped);
-	Store_SetClientModel(client, g_ePlayerSkins[m_iData].szModel, g_ePlayerSkins[m_iData].iSkin, g_ePlayerSkins[m_iData].iBody, g_ePlayerSkins[m_iData].szArms, m_iData);
-
-	else if(g_eCvars[g_cvarSkinForceChange].aCache)
-	{
-		new m_iTeam = GetClientTeam(client);
-		if(m_iTeam == 2 && g_bTForcedSkin)
-			Store_SetClientModel(client, g_eCvars[g_cvarSkinForceChangeT][sCache], m_iData);
-		else if(m_iTeam == 3 && g_bCTForcedSkin)
-			Store_SetClientModel(client, g_eCvars[g_cvarSkinForceChangeCT][sCache], m_iData);
-	}
-	return Plugin_Stop;
-}*/
-
-public Action PlayerSkins_PlayerSpawnPost(Handle timer, any userid)
-{
-	int client = GetClientOfUserId(userid);
-	//int iIndex =  Store_GetDataIndex(id);
-	if(!client || !IsClientInGame(client))
-		return Plugin_Stop;
-
-	if (IsValidClient(client, true) && !IsPlayerAlive(client))
-		return Plugin_Stop;
+		return;
 		
 	int m_iEquipped = Store_GetEquippedItem(client, "playerskin", 2);
 	if(m_iEquipped < 0)
 		m_iEquipped = Store_GetEquippedItem(client, "playerskin", GetClientTeam(client)-2);
+	
 	if(m_iEquipped >= 0)
 	{
 		int m_iData = Store_GetDataIndex(m_iEquipped);
-		Store_SetClientModel(client, g_ePlayerSkins[m_iData].szModel, g_ePlayerSkins[m_iData].iSkin, g_ePlayerSkins[m_iData].iBody, g_ePlayerSkins[m_iData].szArms, m_iData);
+		Store_SetClientModel(client, g_ePlayerSkins[m_iData].szModel, g_ePlayerSkins[m_iData].iSkin, g_ePlayerSkins[m_iData].iBody);
 	}
-	/*else if(g_eCvars[g_cvarSkinForceChange].aCache)
-	{
-		new m_iTeam = GetClientTeam(client);
-		if(m_iTeam == 2 && g_bTForcedSkin)
-			Store_SetClientModel(client, g_eCvars[g_cvarSkinForceChangeT][sCache], m_iData);
-		else if(m_iTeam == 3 && g_bCTForcedSkin)
-			Store_SetClientModel(client, g_eCvars[g_cvarSkinForceChangeCT][sCache], m_iData);
-	}*/
-	return Plugin_Stop;
+
+	return;
 }
 
-void Store_SetClientModel(int client, const char[] model, const int skin=0, const int body=0, const char[] arms="", int index)
+void Store_SetClientModel(int client, const char[] model, const int skin=0, const int body=0)
 {
 
 	SetEntityModel(client, model);
-	//SetEntPropString(client, Prop_Send, "m_szArmsModel", arms);
-	if (arms[0] == 0)
-		return;
 
 	SetEntProp(client, Prop_Send, "m_nSkin", skin);
 	
@@ -348,73 +230,7 @@ void Store_SetClientModel(int client, const char[] model, const int skin=0, cons
         // set?
 		SetEntProp(client, Prop_Send, "m_nBody", body);
     }
-	
-	//CreateTimer(0.15, Timer_RemovePlayerWeapon, GetClientUserId(client));
-	RemoveClientGloves(client, index);
 }
-
-public Action Timer_RemovePlayerWeapon(Handle timer, int userid)
-{
-	int client = GetClientOfUserId(userid);
-
-	if (!client || !IsClientConnected(client) || !IsPlayerAlive(client))
-		return Plugin_Stop;
-
-	int iWeapon = GetEntPropEnt(client, Prop_Send, "m_hActiveWeapon");
-
-	if (iWeapon == -1)
-		return Plugin_Stop;
-
-	RemovePlayerItem(client, iWeapon);
-	DataPack pack = new DataPack();
-	pack.WriteCell(iWeapon);
-	pack.WriteCell(GetClientUserId(client));
-	CreateTimer(0.15, Timer_GivePlayerWeapon, pack);
-
-	return Plugin_Stop;
-}
-
-public Action Timer_GivePlayerWeapon(Handle timer, DataPack pack)
-{
-	pack.Reset();
-	int iWeapon = pack.ReadCell();
-	int client = GetClientOfUserId(pack.ReadCell());
-	if (0 < client <= MAXPLAYERS && IsClientConnected(client) && IsPlayerAlive(client))
-	{
-		EquipPlayerWeapon(client, iWeapon);
-	}
-	delete pack;
-
-	return Plugin_Stop;
-}
-
-
-void RemoveClientGloves(int client, int index = -1)
-{
-	if (index == -1 && GetEquippedSkin(client) <= 0)
-		return;
-	
-	if(!IsClientInGame(client) && GetEquippedSkin(client) <= 0)
-		return;
-	int gloves = GetEntPropEnt(client, Prop_Send, "m_hMyWearables");
-	if (gloves != -1)
-	{
-		AcceptEntityInput(gloves, "KillHierarchy");
-	}
-}
-
-int GetEquippedSkin(int client)
-{
-	return Store_GetEquippedItem(client, "playerskin", GetClientTeam(client)-2);
-}
-
-/*
-public Action:PlayerSkins_PlayerDeath(Handle:event,const String:name[],bool:dontBroadcast)
-{
-	new client = GetClientOfUserId(GetEventInt(event, "userid"));
-	g_iTempSkins[client] = -1;
-	return Plugin_Continue;
-}*/
 
 public void Store_OnPreviewItem(int client, char[] type, int index)
 {
@@ -422,6 +238,12 @@ public void Store_OnPreviewItem(int client, char[] type, int index)
 		return;
 
 	int iPreview = CreateEntityByName("prop_dynamic_override"); //prop_physics_multiplayer
+	
+	if (iPreview == -1)
+	{
+		LogError("Failed to create preview entity for client %d", client);
+		return;
+	}
 	
 	if (g_hTimerPreview[client] != null) 
 	{
@@ -438,15 +260,12 @@ public void Store_OnPreviewItem(int client, char[] type, int index)
 
 	AcceptEntityInput(iPreview, "Enable");
 
-	//SetEntProp(iPreview, Prop_Send, "m_bShouldGlow", true, true);
-	//SetEntProp(iPreview, Prop_Send, "m_nGlowStyle", 0);
 	SetEntProp(iPreview, Prop_Send, "m_nSkin", g_ePlayerSkins[index].iSkin);
+	
 	if (g_ePlayerSkins[index].iBody > 0)
 	{
 		SetEntProp(iPreview, Prop_Send, "m_nBody", g_ePlayerSkins[index].iBody);
 	}
-	//SetEntPropFloat(iPreview, Prop_Send, "m_flGlowMaxDist", 2000.0);
-
 
 	float fOrigin[3], fAngles[3], fRad[2], fPosition[3];
 
@@ -484,21 +303,11 @@ public void Store_OnPreviewItem(int client, char[] type, int index)
 
 	g_hTimerPreview[client] = CreateTimer(45.0, Timer_KillPreview, client);
 
-	#if defined _clientmod_included && defined _chat_modern_included
-		MC_PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview", client);
-		if (!CM_IsClientModUser(client))
-		chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview", client);
-		#else
-		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview", client);
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview", client);
-			#else
-			#if defined _chat_modern_included
-				chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview", client);
-				#else
-				PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview", client);
-			#endif
-		#endif
+	#if defined _clientmod_included
+		MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Spawn Preview CM");
+		C_PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview");
+	#else
+		PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview");
 	#endif
 }
 
@@ -525,6 +334,11 @@ public Action Timer_KillPreview(Handle timer, int client)
 		{
 			SDKUnhook(entity, SDKHook_SetTransmit, Hook_SetTransmit_Preview);
 			AcceptEntityInput(entity, "Kill");
+		}
+		else
+		{
+			LogError("Timer_KillPreview: Invalid or non-existent entity for client %d", client);
+			return Plugin_Stop;
 		}
 	}
 	g_iPreviewEntity[client] = INVALID_ENT_REFERENCE;

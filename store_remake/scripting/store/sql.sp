@@ -439,48 +439,30 @@ public void SQLCallback_ResetPlayer(Handle owner, Handle hndl, const char[] erro
 			SQL_TVoid(g_hDatabase, m_szQuery);
 
 			//ChatAll("%t", "Player Resetted", m_szAuthId);
-			#if defined _clientmod_included && defined _chat_modern_included
-				for (int i = 1; i <= MaxClients; i++)
-				{
-					MC_PrintToChat(i, "%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
-					if (!CM_IsClientModUser(i))
-						chatm.CPrintToChat(i, "%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
-				}
-			#else
+			//NotifyToChatAll("%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
+			for (int i = 1; i <= MaxClients; i++)
+			{
+				if (!IsClientInGame(i))
+					continue;
+
 				#if defined _clientmod_included
-					for (int i = 1; i <= MaxClients; i++)
-					{
-						MC_PrintToChat(i, "%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
-						C_PrintToChat(i, "%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
-					}
+					MC_PrintToChat(i, "%s%t", g_sChatPrefix_CM, "Player Resetted CM", m_szAuthId);
+					C_PrintToChat(i, "%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
 				#else
-					#if defined _chat_modern_included
-						chatm.CPrintToChatAll("%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
-					#else
-						PrintToChatAll("%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
-					#endif
+					PrintToChat(i, "%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
 				#endif
-			#endif
+			}
 		}
 		else
 			if(client)
 			{
 				//Chat(client, "%t", "Credit No Match");
-				#if defined _clientmod_included && defined _chat_modern_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
-					if (!CM_IsClientModUser(client))
-						chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
+				//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
+				#if defined _clientmod_included
+					MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit No Match CM");
+					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
 				#else
-					#if defined _clientmod_included
-						MC_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
-						C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
-					#else
-						#if defined _chat_modern_included
-							chatm.CPrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
-						#else
-							PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
-						#endif
-					#endif
+					PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
 				#endif
 			}
 	}

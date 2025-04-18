@@ -32,21 +32,12 @@ public Action Event_PlayerDeath(Event event, char[] name, bool dontBroadcast)
 		if(g_eCvars[g_cvarCreditMessages].aCache)
 		{
 			//Chat(attacker, "%t", "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
-			#if defined _clientmod_included && defined _chat_modern_included
+			//NotifyToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
+			#if defined _clientmod_included
 				MC_PrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
-				if (!CM_IsClientModUser(attacker))
-					chatm.CPrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
+				C_PrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
 			#else
-				#if defined _clientmod_included
-					MC_PrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
-					C_PrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
-				#else
-					#if defined _chat_modern_included
-						chatm.CPrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
-					#else
-						PrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
-					#endif
-				#endif
+				PrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
 			#endif
 		}
 		Store_LogMessage(attacker, g_eCvars[g_cvarCreditAmountKill].aCache, "Earned for killing");
