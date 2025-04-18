@@ -5,30 +5,39 @@
 #include <sdktools>
 #tryinclude <thirdperson>
 
+#define OBSERVER_MODE_NONE 0
+#define OBSERVER_MODE_THIRD_PERSON 1
+
 bool g_bThirdperson[MAXPLAYERS + 1];
+ConVar g_hAllowThirdperson;
 
 public Plugin myinfo = 
 {
 	name		= "Simple Thirdperson API",
 	author		= "ChatGPT + anonim396",
 	description	= "Toggle between first and thirdperson",
-	version		= "1.1"
+	version		= "1.2"
 };
 
 #if defined _thirdperson_included_
 
-ConVar g_hAllowThirdperson;
-
 void ToggleThirdperson(int client)
-{
-	g_hAllowThirdperson = FindConVar("se_allow_thirdperson");
-	if(g_hAllowThirdperson == null || GetConVarInt(g_hAllowThirdperson) < 1)
+{	
+	if (!IsValidClient(client))
+	{
+		LogError("Invalid client %d in ToggleThirdperson", client);
+		return;
+	}
+	
+	if(g_hAllowThirdperson != null && GetConVarInt(g_hAllowThirdperson) > 0)
+	{
+		ClientCommand(client, g_bThirdperson[client] ? "thirdperson" : "firstperson");
+	}
+	else
 	{
 		PrintToConsole(client, "[SM] The se_allow_thirdperson command was not found or was equal to 0, using an alternative method.");
 		ToggleThirdpersonSimple(client);
 	}
-	else
-		ClientCommand(client, g_bThirdperson[client] ? "thirdperson" : "firstperson");
 }
 
 public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
@@ -40,7 +49,13 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max
 
 public any Native_IsPlayerInTP(Handle plugin, int numParams)
 {
-	return g_bThirdperson[GetNativeCell(1)];
+	int client = GetNativeCell(1);
+	if (!IsValidClient(client)) 
+	{
+		LogError("Invalid client index %d in Native_IsPlayerInTP", client);
+		return false;
+	}
+	return g_bThirdperson[client];
 }
 
 public any Native_TogglePlayerTP(Handle plugin, int numParams)
@@ -53,38 +68,59 @@ public any Native_TogglePlayerTP(Handle plugin, int numParams)
 #endif
 
 public void OnPluginStart()
-{
+{	
 	RegConsoleCmd("sm_tp", Cmd_ToggleView);
 	HookEvent("player_spawn", Event_PlayerSpawn);
 }
 
 public Action Event_PlayerSpawn(Event event, const char[] name, bool dontBroadcast)
-{
+{	
 	int client = GetClientOfUserId(event.GetInt("userid"));
-	if(!IsClientInGame(client))
-		return;
+	
+	if (!IsValidClient(client)) 
+	{
+		LogError("Invalid client %d in Event_PlayerSpawn", client);
+		return Plugin_Continue;
+	}
+	
+	if (g_hAllowThirdperson == null)
+	{
+		g_hAllowThirdperson = FindConVar("se_allow_thirdperson");
+	}
 	
 	if(g_bThirdperson[client])
 	{
 		#if defined _thirdperson_included_
 			ToggleThirdperson(client);
 		#else
-			return;
+			return Plugin_Handled;
 		#endif
 	}
+	return Plugin_Continue;
 }
 
 public void OnClientDisconnect(int client)
 {
+	if (!IsValidClient(client)) return;
 	g_bThirdperson[client] = false;
 }
 
 public Action Cmd_ToggleView(int client, int args)
 {
-	if(!IsClientInGame(client) || !IsPlayerAlive(client))
+	if (!IsValidClient(client))
+	{
+		LogError("Invalid client %d in Cmd_ToggleView", client);
 		return Plugin_Handled;
+	}
 
-	g_bThirdperson[client] = !g_bThirdperson[client];
+	if(GetConVarInt(g_hAllowThirdperson) > 0 && g_bThirdperson[client] == true)
+	{
+		SetEntProp(client, Prop_Send, "m_iObserverMode", 0);
+		SetEntProp(client, Prop_Send, "m_bDrawViewmodel", 1);
+	}
+
+
+	g_bThirdperson[client] ^= true;
 
 	#if defined _thirdperson_included_
 		ToggleThirdperson(client);
@@ -96,20 +132,18 @@ public Action Cmd_ToggleView(int client, int args)
 }
 
 void ToggleThirdpersonSimple(int client)
+{	
+	SetObserverMode(client, g_bThirdperson[client]);
+}
+
+void SetObserverMode(int client, bool thirdPerson)
+{	
+	SetEntPropEnt(client, Prop_Send, "m_hObserverTarget", 0);
+	SetEntProp(client, Prop_Send, "m_iObserverMode", thirdPerson ? OBSERVER_MODE_THIRD_PERSON : OBSERVER_MODE_NONE);
+	SetEntProp(client, Prop_Send, "m_bDrawViewmodel", !thirdPerson);
+}
+
+bool IsValidClient(int client)
 {
-	if(g_bThirdperson[client])
-	{
-		float offset[3] = {-100.0, 0.0, 15.0};
-		SetEntPropEnt(client, Prop_Send, "m_hObserverTarget", 0);
-		SetEntProp(client, Prop_Send, "m_iObserverMode", 1);
-		SetEntProp(client, Prop_Send, "m_bDrawViewmodel", 1);
-		SetEntProp(client, Prop_Send, "m_iFOV", 90);
-		SetEntPropVector(client, Prop_Send, "m_vecThirdPersonViewOffset", offset);
-	}
-	else
-	{
-		SetEntProp(client, Prop_Send, "m_iObserverMode", 0);
-		SetEntProp(client, Prop_Send, "m_bDrawViewmodel", 1);
-		SetEntProp(client, Prop_Send, "m_iFOV", 90);
-	}
+	return (0 < client <= MaxClients) && IsClientInGame(client) && IsPlayerAlive(client);
 }
