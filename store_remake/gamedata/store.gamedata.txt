@@ -1,5 +1,18 @@
 "Games"
 {
+	"#default"
+	{
+		"Offsets"
+		{
+			"EntityListeners"
+			{
+				"windows"	"65572"
+				"linux"		"65572"
+				"mac"		"65572"
+			}
+		}
+	}
+	
 	"cstrike"
 	{
 		"Signatures"
@@ -9,6 +22,21 @@
 				"library"		"server"
 				"linux"		"@_ZN14CBaseAnimating16LookupAttachmentEPKc"
 				"windows"	"\xE8\x2A\x2A\x2A\x2A\x85\xC0\x75\x2A\xC2\x04\x00\x8B\x4C\x24\x04"
+			}
+		}
+		
+		"Offsets"
+		{
+			"Weapon_ShootPosition"
+			{
+				"windows" "263"
+				"linux" "264"
+			}
+			
+			"SetModel"
+			{
+				"windows" "24"
+				"linux" "25"
 			}
 		}
 	}
