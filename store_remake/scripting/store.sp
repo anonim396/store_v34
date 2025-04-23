@@ -1,27 +1,24 @@
 //////////////////////////////
 //			INCLUDES		//
 //////////////////////////////
+#pragma semicolon 1
+#pragma newdecls required
 
 #include <sourcemod>
 #include <sdktools>
 #include <sdkhooks>
+#include <clientprefs>
 #include <cstrike>
-
-#tryinclude <clientmod>          
-#tryinclude <clientmod/multicolors>
-
-#undef REQUIRE_EXTENSIONS
-#undef REQUIRE_PLUGIN
 #include <store>
 #include <zephstocks>
 #include <adminmenu>
 
-
-#pragma semicolon 1
-#pragma newdecls required
+#tryinclude <thirdperson>
+#tryinclude <clientmod>          
+#tryinclude <clientmod/multicolors>
 
 //////////////////////////////
-//		CHANGE IF YOU WANT	//
+//	CHANGE THIS IF YOU WANT	//
 //////////////////////////////
 
 char g_sChatPrefix[128]		=	"\x04[Store] \x01";
@@ -33,6 +30,9 @@ char g_sChatPrefix_CM[128]	=	"{forestgreen}[Store] {snow}";
 //////////////////////////////
 //		GLOBAL VARIABLES	//
 //////////////////////////////
+Handle g_hTimerPreview[MAXPLAYERS + 1];
+
+int g_iPreviewEntity[MAXPLAYERS + 1] = {INVALID_ENT_REFERENCE, ...};
 
 char g_szGameDir[64];
 
@@ -78,9 +78,9 @@ Handle ReloadTimer = INVALID_HANDLE;
 //////////////////////////////
 //			MODULES			//
 //////////////////////////////
-//#include "store/modules/hats.sp"
+#include "store/modules/hats.sp"
 //#include "store/modules/tracers.sp"
-//#include "store/modules/playerskins.sp"
+#include "store/modules/playerskins.sp"
 //#include "store/modules/trails.sp"
 //#include "store/modules/grenskins.sp"
 //#include "store/modules/grentrails.sp"
@@ -107,7 +107,7 @@ Handle ReloadTimer = INVALID_HANDLE;
 //#include "store/modules/sounds.sp"
 //#include "store/modules/attributes.sp"
 //#include "store/modules/respawn.sp"
-//#include "store/modules/pets.sp"
+#include "store/modules/pets.sp"
 //#include "store/modules/sprays.sp"
 //#include "store/modules/admin.sp"
 //#include "store_misc_voucher.sp"
@@ -159,10 +159,10 @@ public void OnPluginStart()
 	
 	// Initialize the modules	
 	
-	//Hats_OnPluginStart();
+	Hats_OnPluginStart();
 	//Tracers_OnPluginStart();
 	//Trails_OnPluginStart();
-	//PlayerSkins_OnPluginStart();
+	PlayerSkins_OnPluginStart();
 	//GrenadeSkins_OnPluginStart();
 	//GrenadeTrails_OnPluginStart();
 	//WeaponColors_OnPluginStart();
@@ -189,7 +189,7 @@ public void OnPluginStart()
 	//Sounds_OnPluginStart();
 	//Attributes_OnPluginStart();
 	//Respawn_OnPluginStart();
-	//Pets_OnPluginStart();
+	Pets_OnPluginStart();
 	//Sprays_OnPluginStart();
 	//AdminGroup_OnPluginStart();
 	//Vounchers_OnPluginStart();
@@ -221,6 +221,48 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error,int err_max)
 	return APLRes_Success;
 }
 
+public void Store_OnPreviewItem(int client, char[] type, int index)
+{
+	Function fn;
+
+	if (StrEqual(type, "pet"))
+	{
+		fn = GetFunctionByName(INVALID_HANDLE, "Pets_OnPreviewItem");
+		if (fn != INVALID_FUNCTION)
+		{
+			Call_StartFunction(INVALID_HANDLE, fn);
+			Call_PushCell(client);
+			Call_PushString(type);
+			Call_PushCell(index);
+			Call_Finish();
+		}
+	}
+	else if (StrEqual(type, "playerskin"))
+	{
+		fn = GetFunctionByName(INVALID_HANDLE, "PlayerSkin_OnPreviewItem");
+		if (fn != INVALID_FUNCTION)
+		{
+			Call_StartFunction(INVALID_HANDLE, fn);
+			Call_PushCell(client);
+			Call_PushString(type);
+			Call_PushCell(index);
+			Call_Finish();
+		}
+	}
+	else if (StrEqual(type, "hat"))
+	{
+		fn = GetFunctionByName(INVALID_HANDLE, "Hats_OnPreviewItem");
+		if (fn != INVALID_FUNCTION)
+		{
+			Call_StartFunction(INVALID_HANDLE, fn);
+			Call_PushCell(client);
+			Call_PushString(type);
+			Call_PushCell(index);
+			Call_Finish();
+		}
+	}
+}
+
 public void OnAllPluginsLoaded()
 {
 	Store_Configs_OnAllPluginLoaded(); // store/configs.sp
@@ -241,8 +283,7 @@ public void OnPluginEnd()
 
 public void OnLibraryAdded(const char[] name)
 {
-	//PlayerSkins_OnLibraryAdded(name);
-	//ZRClass_OnLibraryAdded(name);
+	
 }
 
 //////////////////////////////
@@ -314,10 +355,9 @@ public void OnClientConnected(int client)
 		}
 	}
 	
-	//PlayerSkins_OnClientConnected(client);
 	//Jetpack_OnClientConnected(client);
 	//ZRClass_OnClientConnected(client);
-	//Pets_OnClientConnected(client);
+	Pets_OnClientConnected(client);
 	//Sprays_OnClientConnected(client);
 }
 
@@ -340,7 +380,7 @@ public void OnClientDisconnect(int client)
 	return;
 	
 	//Betting_OnClientDisconnect(client);
-	//Pets_OnClientDisconnect(client);
+	Pets_OnClientDisconnect(client);
 	
 	Store_SaveClientData(client);
 	Store_SaveClientInventory(client);
@@ -365,7 +405,7 @@ public Action OnPlayerRunCmd(int client, int& buttons, int& impulse, float vel[3
 	
 	//Jetpack_OnPlayerRunCmd(client, buttons);
 	//LaserSight_OnPlayerRunCmd(client);
-	//Pets_OnPlayerRunCmd(client, tickcount);
+	Pets_OnPlayerRunCmd(client, tickcount);
 	//Sprays_OnPlayerRunCmd(client, buttons);
 	//m_iRet = Bunnyhop_OnPlayerRunCmd(client, buttons);
 	
@@ -424,35 +464,12 @@ public SMCResult Config_EndSection(Handle parser)
 public void Config_End(Handle parser, bool halted, bool failed) 
 {
 }
-/*
-void NotifyToChat(int client, const char[] format, any ...)
-{
-	char buffer[256];
-	VFormat(buffer, sizeof(buffer), format, 3);
 
-	#if defined _clientmod_included
-		MC_PrintToChat(client, buffer);
-		C_PrintToChat(client, buffer);
-	#else
-		PrintToChat(client, buffer);
-	#endif
+stock bool IsValidClient(int client, bool nobots = true)
+{ 
+    if (client <= 0 || client > MaxClients || !IsClientConnected(client) || (nobots && IsFakeClient(client)))
+    {
+        return false; 
+    }
+    return IsClientInGame(client); 
 }
-
-void NotifyToChatAll(const char[] format, any ...)
-{
-	char buffer[256];
-	VFormat(buffer, sizeof(buffer), format, 2);
-
-	for (int client = 1; client <= MaxClients; client++)
-	{
-		if (!IsClientInGame(client))
-			continue;
-
-		#if defined _clientmod_included
-			MC_PrintToChat(client, buffer);
-			C_PrintToChat(client, buffer);
-		#else
-			PrintToChat(client, buffer);
-		#endif
-	}
-}*/
