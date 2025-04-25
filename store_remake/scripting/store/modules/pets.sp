@@ -118,13 +118,12 @@ public bool Pets_Config(KeyValues &kv, int itemid)
 
 public int Pets_Equip(int client, int itemid)
 {
-	if(g_eCvars[g_bPetEnable].aCache != 1)
+	if(g_eCvars[g_bPetEnable].aCache != 1 || !IsValidClient(client, true))
 		return -1;
 
 	g_iSelectedPet[client] = Store_GetDataIndex(itemid);
-	ResetPet(client);
-	if(IsPlayerAlive(client))
-		CreatePet(client);
+	
+	RequestFrame(RequestFrame_CreatePetPost, client);
 
 	return 0;
 }

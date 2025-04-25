@@ -145,7 +145,7 @@ public bool Hats_Config(KeyValues &kv, int itemid)
 
 public int Hats_Equip(int client,int id)
 {
-	if(!IsClientInGame(client) || !IsPlayerAlive(client) || !(2<=GetClientTeam(client)<=3) || g_eCvars[g_bHatEnable].aCache != 1)
+	if(!IsValidClient(client, true) || GetClientTeam(client) < 2 || g_eCvars[g_bHatEnable].aCache != 1)
 		return -1;
 	int m_iData = Store_GetDataIndex(id);
 	RemoveHat(client, g_eHats[m_iData].iSlot);
