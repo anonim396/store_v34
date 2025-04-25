@@ -1,25 +1,14 @@
 "Store"
 {
-	"Main Info Panel"
-	{
-		"Shop Toplists"
-		{
-			"type"							"link"
-			"command"						"sm_toplists" // put the top list command here. This is a command executed via store menu.
-			"unique_id"						"uid_toplists_toplists"
-		}
-	}
-	
 	"Скины"
 	{
 		"Тест скин"
 		{
 			"model" "models/player/ct_sas.mdl"
-			"arms" ""
-			"team" "4" // (For CSGO and CSS: Ts = 2 , CT = 3, both = 4) (For L4D2: Survivor = 2; Infected = 3; Both = 4)
+			"team" "4" // (T = 2 , CT = 3, both = 4)
 			"type" "playerskin"
-			"preview" "1" // Enable the preview for this item, only item that support preview can use this feature
-			"unique_id" "uid_model_1" // You must have "unique_id" 
+			"preview" "1"
+			"unique_id" "uid_playerskin_1"
 			"price" "0"
 		}
 	}
@@ -28,14 +17,98 @@
 	{
 		"Тест шляпа"
 		{	
-			"model" "models/player/t_leet.mdl"
-			"position" "0.0 -1.0 12.1" // I can't help much at this config. You need to identify the config by yourself
-			"angles" "0.0 0.0 0.0" // I can't help much at this config. You need to identify the config by yourself
-			"type" "hat"
-			"unique_id" "uid_model_2"
-			"preview" "1"
-			"slot" "1" // Same as custom_model module. Only 5 slot available at the same time (0->5). You can only equip 5 types at the same times (wings, hats, facemarks, ... etc)
-			"price" "0"
+			"model"				"models/player/t_leet.mdl"
+			"position"			"0.0 -1.0 12.1"
+			"angles"			"0.0 0.0 0.0"
+			"type"				"hat"
+			"unique_id"			"uid_hat_1"
+			"preview"			"1"
+			"bonemerge"			"0"
+			"team"				"4"
+			"slot"				"1" // Same as custom_model module. Only 5 slot available at the same time (0->5). You can only equip 5 types at the same times (wings, hats, facemarks, ... etc)
+			"attachment"		"forward"
+			"price"				"0"
 		}
 	}
+	
+	"Pets"
+	{
+		"Pet"
+		{	
+			"model"				"models/player/t_leet.mdl"
+			"position"			"25.0 -20.0 0.0"
+			"angles"			"0.0 340.0 0.0"
+			"idle"				"Idle_lower"
+			"idle2"				"Run_lower"
+			"run"				"Run_lower"
+			"spawn"				"speaker_testpose"
+			"death"				"Death1"
+			"spawn_delay"		"1.0"
+			"preview"			"1"
+			"type"				"pet"
+			"unique_id"			"uid_pet_1"
+			"price"				"0"
+		}
+	}
+	
+	"Tracer"
+	{
+		"Rainbow"
+		{
+			"color"				"0 0 125"
+			"rainbow"			"1"
+			"price"				"0"
+			"type"				"tracer"
+			"unique_id"			"uid_tracer_blue"
+		}
+	}
+
+	"Grenade Skins"
+	{
+		"HE Grenade"
+		{
+			"Orange"
+			{
+				"model" "models/props/cs_italy/orange.mdl"
+				"grenade" "hegrenade"
+				"preview" "1"
+				"price" "60"
+				"type" "grenadeskin"
+			}
+
+			"Tortoise"
+			{
+				"model" "models/props/de_tides/vending_turtle.mdl"
+				"grenade" "hegrenade"
+				"price" "60"
+				"preview" "1"
+				"type" "grenadeskin"
+			}
+		}
+		
+		"Flashbang"
+		{	
+			"Banana"
+			{
+				"model" "models/props/cs_italy/bananna.mdl"
+				"grenade" "flashbang"
+				"price" "60"
+				"preview" "1"
+				"type" "grenadeskin"
+			}
+		}
+		
+		"Smokegrenade"
+		{
+			"Watermelon"
+			{
+				"model" "models/props_junk/watermelon01.mdl"
+				"grenade" "smokegrenade"
+				"price" "60"
+				"preview" "1"
+				"type" "grenadeskin"
+			}
+		}
+	}
+
 }
