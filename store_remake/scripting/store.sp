@@ -79,10 +79,10 @@ Handle ReloadTimer = INVALID_HANDLE;
 //			MODULES			//
 //////////////////////////////
 #include "store/modules/hats.sp"
-//#include "store/modules/tracers.sp"
+#include "store/modules/tracers.sp"
 #include "store/modules/playerskins.sp"
-//#include "store/modules/trails.sp"
-//#include "store/modules/grenskins.sp"
+#include "store/modules/trails.sp"
+#include "store/modules/grenskins.sp"
 //#include "store/modules/grentrails.sp"
 //#include "store/modules/weaponcolors.sp"
 //#include "store/modules/paintball.sp"
@@ -160,10 +160,10 @@ public void OnPluginStart()
 	// Initialize the modules	
 	
 	Hats_OnPluginStart();
-	//Tracers_OnPluginStart();
-	//Trails_OnPluginStart();
+	Tracers_OnPluginStart();
+	Trails_OnPluginStart();
 	PlayerSkins_OnPluginStart();
-	//GrenadeSkins_OnPluginStart();
+	GrenadeSkins_OnPluginStart();
 	//GrenadeTrails_OnPluginStart();
 	//WeaponColors_OnPluginStart();
 	//TFSupport_OnPluginStart();
@@ -323,14 +323,14 @@ public void OnConfigsExecuted()
 
 public void OnGameFrame()
 {
-	//Trails_OnGameFrame();
+	Trails_OnGameFrame();
 	//TFWeapon_OnGameFrame();
 	//TFHead_OnGameFrame();
 }
 
 public void OnEntityCreated(int entity, const char[] classname)
 {
-	//GrenadeSkins_OnEntityCreated(entity, classname);
+	GrenadeSkins_OnEntityCreated(entity, classname);
 	//GrenadeTrails_OnEntityCreated(entity, classname);
 }
 
