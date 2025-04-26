@@ -74,9 +74,11 @@ public bool GrenadeSkins_Config(KeyValues &kv, int itemid)
 
     if (configValid)
     {
+		//FIX ME
+        GrenadeSkins_OnMapStart();
+		//
         g_eGrenadeSkins[g_iGrenadeSkins] = grenadeSkin;
         g_iGrenadeSkins++;
-        GrenadeSkins_OnMapStart();
         return true;
     }
 
