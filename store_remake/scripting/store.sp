@@ -83,8 +83,8 @@ Handle ReloadTimer = INVALID_HANDLE;
 #include "store/modules/playerskins.sp"
 #include "store/modules/trails.sp"
 #include "store/modules/grenskins.sp"
-//#include "store/modules/grentrails.sp"
-//#include "store/modules/weaponcolors.sp"
+#include "store/modules/grentrails.sp"
+#include "store/modules/weaponcolors.sp"
 //#include "store/modules/paintball.sp"
 //#include "store/modules/betting.sp"
 //#include "store/modules/watergun.sp"
@@ -164,9 +164,8 @@ public void OnPluginStart()
 	Trails_OnPluginStart();
 	PlayerSkins_OnPluginStart();
 	GrenadeSkins_OnPluginStart();
-	//GrenadeTrails_OnPluginStart();
-	//WeaponColors_OnPluginStart();
-	//TFSupport_OnPluginStart();
+	GrenadeTrails_OnPluginStart();
+	WeaponColors_OnPluginStart();
 	//Paintball_OnPluginStart();
 	//Watergun_OnPluginStart();
 	//Betting_OnPluginStart();
@@ -213,8 +212,6 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error,int err_max)
 {
 	Store_Natives_OnNativeInit(); // store/natives.sp
 	Store_Forward_OnForwardInit(); // store/forwards.sp
-	
-	MarkNativeAsOptional("HideTrails_ShouldHide");
 	
 	//RegPluginLibrary("store");
 	
@@ -331,7 +328,7 @@ public void OnGameFrame()
 public void OnEntityCreated(int entity, const char[] classname)
 {
 	GrenadeSkins_OnEntityCreated(entity, classname);
-	//GrenadeTrails_OnEntityCreated(entity, classname);
+	GrenadeTrails_OnEntityCreated(entity, classname);
 }
 
 //////////////////////////////
