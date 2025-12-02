@@ -49,26 +49,22 @@ public Action Command_Store(int client,int params)
 {
 	if(g_eCvars[g_cvarRequiredFlag].aCache && !GetClientPrivilege(client, g_eCvars[g_cvarRequiredFlag].aCache))
 	{
-		//Chat(client, "%t", "You dont have permission");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "You dont have permission CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "You dont have permission CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "You dont have permission");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "You dont have permission");
 		#endif
 		return Plugin_Handled;
 	}
 	
 	if((g_eClients[client].iCredits == -1 && g_eClients[client].iItems == -1) || !g_eClients[client].bLoaded)
 	{
-		//Chat(client, "%t", "Inventory hasnt been fetched");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Inventory hasnt been fetched CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Inventory hasnt been fetched CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#endif
 		return Plugin_Handled;
 	}
@@ -102,26 +98,22 @@ public Action Command_Inventory(int client,int params)
 {
 	if(g_eCvars[g_cvarRequiredFlag].aCache && !GetClientPrivilege(client, g_eCvars[g_cvarRequiredFlag].aCache))
 	{
-		//Chat(client, "%t", "You dont have permission");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "You dont have permission CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "You dont have permission CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "You dont have permission");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "You dont have permission");
 		#endif
 		return Plugin_Handled;
 	}
 	
 	if((g_eClients[client].iCredits == -1 && g_eClients[client].iItems == -1) || !g_eClients[client].bLoaded)
 	{
-		//Chat(client, "%t", "Inventory hasnt been fetched");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Inventory hasnt been fetched CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Inventory hasnt been fetched CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#endif
 		return Plugin_Handled;
 	}
@@ -138,13 +130,11 @@ public Action Command_Gift(int client,int params)
 {
 	if(!g_eCvars[g_cvarCreditGiftEnabled].aCache)
 	{
-		//Chat(client, "%t", "Credit Gift Disabled");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit Gift Disabled");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit Gift Disabled CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Gift Disabled");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Gift Disabled CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Gift Disabled");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Gift Disabled");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Gift Disabled");
 		#endif
 
 		return Plugin_Handled;
@@ -156,13 +146,11 @@ public Action Command_Gift(int client,int params)
 	int m_iCredits = StringToInt(m_szTmp);
 	if(g_eClients[client].iCredits<m_iCredits || m_iCredits<=0)
 	{
-		//Chat(client, "%t", "Credit Invalid Amount");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit Invalid Amount");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit Invalid Amount CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Invalid Amount");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Invalid Amount CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Invalid Amount");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Invalid Amount");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Invalid Amount");
 		#endif		
 		return Plugin_Handled;
 	}
@@ -174,26 +162,22 @@ public Action Command_Gift(int client,int params)
 	int m_clients = ProcessTargetString(m_szTmp, 0, m_iTargets, 1, 0, STRING(m_szTmp), m_bTmp);
 	if(m_clients>2)
 	{
-		//Chat(client, "%t", "Credit Too Many Matches");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit Too Many Matches");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit Too Many Matches CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Too Many Matches");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Too Many Matches CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Too Many Matches");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Too Many Matches");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Too Many Matches");
 		#endif
 		return Plugin_Handled;
 	}
 	
 	if(m_clients != 1)
 	{
-		//Chat(client, "%t", "Credit No Match");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit No Match CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit No Match CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit No Match");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Credit No Match");
 		#endif
 		return Plugin_Handled;
 	}
@@ -203,21 +187,17 @@ public Action Command_Gift(int client,int params)
 	g_eClients[client].iCredits -= m_iCredits;
 	g_eClients[m_iReceiver].iCredits += m_iCredits;
 	
-	//Chat(client, "%t", "Credit Gift Sent", m_iCredits, g_eClients[m_iReceiver].szName_Client);
-	//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit Gift Sent", m_iCredits, g_eClients[m_iReceiver].szName_Client);
 	#if defined _clientmod_included
-		MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit Gift Sent CM", m_iCredits, g_eClients[m_iReceiver].szName_Client);
-		C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Gift Sent", m_iCredits, g_eClients[m_iReceiver].szName_Client);
+		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Gift Sent CM", m_iCredits, g_eClients[m_iReceiver].szName_Client);
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Gift Sent", m_iCredits, g_eClients[m_iReceiver].szName_Client);
 	#else
-		PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Gift Sent", m_iCredits, g_eClients[m_iReceiver].szName_Client);
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Gift Sent", m_iCredits, g_eClients[m_iReceiver].szName_Client);
 	#endif
-	//Chat(m_iReceiver, "%t", "Credit Gift Received", m_iCredits, g_eClients[client].szName_Client);
-	//NotifyToChat(m_iReceiver, "%s%t", g_sChatPrefix, "Credit Gift Received", m_iCredits, g_eClients[client].szName_Client);
 	#if defined _clientmod_included
-		MC_PrintToChat(m_iReceiver, "%s%t", g_sChatPrefix_CM, "Credit Gift Received CM", m_iCredits, g_eClients[client].szName_Client);
-		C_PrintToChat(m_iReceiver, "%s%t", g_sChatPrefix, "Credit Gift Received", m_iCredits, g_eClients[client].szName_Client);
+		MC_PrintToChat(m_iReceiver, "%s %t", g_sChatPrefix_CM, "Credit Gift Received CM", m_iCredits, g_eClients[client].szName_Client);
+		C_PrintToChat(m_iReceiver, "%s %t", g_sChatPrefix, "Credit Gift Received", m_iCredits, g_eClients[client].szName_Client);
 	#else
-		PrintToChat(m_iReceiver, "%s%t", g_sChatPrefix, "Credit Gift Received", m_iCredits, g_eClients[client].szName_Client);
+		PrintToChat(m_iReceiver, "%s %t", g_sChatPrefix, "Credit Gift Received", m_iCredits, g_eClients[client].szName_Client);
 	#endif
 	
 	Store_LogMessage(m_iReceiver, m_iCredits, "Gifted by %N", client);
@@ -230,20 +210,18 @@ public Action Command_GiveCredits(int client,int params)
 {
 	if(client && !GetClientPrivilege(client, g_eCvars[g_cvarAdminFlag].aCache))
 	{
-		//Chat(client, "%t", "You dont have permission");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "You dont have permission CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "You dont have permission CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "You dont have permission");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "You dont have permission");
 		#endif
 		return Plugin_Handled;
 	}
 	
 	char m_szTmp[64];
 	if(!GetCmdArg(2, STRING(m_szTmp)))
-	ReplyToCommand(client, "%s Usage: sm_givecredits <target> <credits>", g_sChatPrefix);
+	ReplyToCommand(client, "%sUsage: sm_givecredits <target> <credits>", g_sChatPrefix);
 	
 	int m_iCredits = StringToInt(m_szTmp);
 	
@@ -268,18 +246,16 @@ public Action Command_GiveCredits(int client,int params)
 				SQL_FormatQuery(g_hDatabase, STRING(m_szQuery), "UPDATE store_players SET credits=credits+%d WHERE authid='%s'", m_iCredits, m_szTmp[8]);
 			}
 			SQL_TVoid(g_hDatabase, m_szQuery);
-			//ChatAll("%t", "Credits Given", m_szTmp[8], m_iCredits);
-			//NotifyToChatAll("%s%t", g_sChatPrefix, "Credits Given", m_szTmp[8], m_iCredits);
 			for (int i = 1; i <= MaxClients; i++)
 			{
 				if (!IsClientInGame(i))
 					continue;
 
 				#if defined _clientmod_included
-					MC_PrintToChat(i, "%s%t", g_sChatPrefix_CM, "Credits Given CM", m_szTmp[8], m_iCredits);
-					C_PrintToChat(i, "%s%t", g_sChatPrefix, "Credits Given", m_szTmp[8], m_iCredits);
+					MC_PrintToChat(i, "%s %t", g_sChatPrefix_CM, "Credits Given CM", m_szTmp[8], m_iCredits);
+					C_PrintToChat(i, "%s %t", g_sChatPrefix, "Credits Given", m_szTmp[8], m_iCredits);
 				#else
-					PrintToChat(i, "%s%t", g_sChatPrefix, "Credits Given", m_szTmp[8], m_iCredits);
+					PrintToChat(i, "%s %t", g_sChatPrefix, "Credits Given", m_szTmp[8], m_iCredits);
 				#endif
 			}
 			m_iReceiver = -1;
@@ -318,13 +294,11 @@ public Action Command_GiveCredits(int client,int params)
 		{
 			if(client)
 			{
-				//Chat(client, "%t", "Credit Too Many Matches");
-				//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit Too Many Matches");
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit Too Many Matches CM");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Too Many Matches");
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Too Many Matches CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Too Many Matches");
 				#else
-					PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Too Many Matches");
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Too Many Matches");
 				#endif
 			}
 			else
@@ -334,13 +308,11 @@ public Action Command_GiveCredits(int client,int params)
 		{
 			if(client)
 			{
-				//Chat(client, "%t", "Credit No Match");
-				//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit No Match CM");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit No Match CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit No Match");
 				#else
-					PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Credit No Match");
 				#endif
 			}
 			else
@@ -359,40 +331,34 @@ public Action Command_GiveCredits(int client,int params)
 		{
 			if(client)
 			{
-				//Chat(client, "%t", "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
-				//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[m_iReceiver].szName_Client, m_iCredits);
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[m_iReceiver].szName_Client, m_iCredits);
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
 				#else
-					PrintToChat(client, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
 				#endif
 			}
 			else
 			ReplyToCommand(client, "%t", "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
-			//Chat(m_iReceiver, "%t", "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
-			//NotifyToChat(m_iReceiver, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
 			#if defined _clientmod_included
-				MC_PrintToChat(m_iReceiver, "%s%t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[m_iReceiver].szName_Client, m_iCredits);
-				C_PrintToChat(m_iReceiver, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
+				MC_PrintToChat(m_iReceiver, "%s %t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[m_iReceiver].szName_Client, m_iCredits);
+				C_PrintToChat(m_iReceiver, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
 			#else
-				PrintToChat(m_iReceiver, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
+				PrintToChat(m_iReceiver, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
 			#endif
 		}
 		else if(g_eCvars[g_cvarSilent].aCache == 0)
 		{
-			//ChatAll("%t", "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
-			//NotifyToChatAll("%s%t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
 			for (int i = 1; i <= MaxClients; i++)
 			{
 				if (!IsClientInGame(i))
 					continue;
 
 				#if defined _clientmod_included
-					MC_PrintToChat(i, "%s%t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[m_iReceiver].szName_Client, m_iCredits);
-					C_PrintToChat(i, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
+					MC_PrintToChat(i, "%s %t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[m_iReceiver].szName_Client, m_iCredits);
+					C_PrintToChat(i, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
 				#else
-					PrintToChat(i, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
+					PrintToChat(i, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[m_iReceiver].szName_Client, m_iCredits);
 				#endif
 			}
 		}
@@ -411,13 +377,11 @@ public Action Command_ResetPlayer(int client,int params)
 {
 	if(client && !GetClientPrivilege(client, g_eCvars[g_cvarAdminFlag].aCache))
 	{
-		//Chat(client, "%t", "You dont have permission");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "You dont have permission CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "You dont have permission CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "You dont have permission");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "You dont have permission");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "You dont have permission");
 		#endif
 		return Plugin_Handled;
 	}
@@ -444,26 +408,22 @@ public Action Command_ResetPlayer(int client,int params)
 		int m_clients = ProcessTargetString(m_szTmp, 0, m_iTargets, 1, 0, STRING(m_szTmp), m_bTmp);
 		if(m_clients>2)
 		{
-			//Chat(client, "%t", "Credit Too Many Matches");
-			//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit Too Many Matches");
 			#if defined _clientmod_included
-				MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit Too Many Matches CM");
-				C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Too Many Matches");
+				MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Too Many Matches CM");
+				C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Too Many Matches");
 			#else
-				PrintToChat(client, "%s%t", g_sChatPrefix, "Credit Too Many Matches");
+				PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Too Many Matches");
 			#endif
 			return Plugin_Handled;
 		}
 		
 		if(m_clients != 1)
 		{
-			//Chat(client, "%t", "Credit No Match");
-			//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
 			#if defined _clientmod_included
-				MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit No Match CM");
-				C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
+				MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit No Match CM");
+				C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit No Match");
 			#else
-				PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
+				PrintToChat(client, "%s %t", g_sChatPrefix, "Credit No Match");
 			#endif
 			return Plugin_Handled;
 		}
@@ -478,18 +438,17 @@ public Action Command_ResetPlayer(int client,int params)
 		g_eClients[m_iReceiver].iCredits = 0;
 		for(int i=0;i<g_eClients[m_iReceiver].iItems;++i)
 		Store_RemoveItem(m_iReceiver, g_eClientItems[m_iReceiver][i].iUniqueId);
-		//ChatAll("%t", "Player Resetted", g_eClients[m_iReceiver].szName_Client);
-		//NotifyToChatAll("%s%t", g_sChatPrefix, "Player Resetted", g_eClients[m_iReceiver].szName_Client);
+	
 		for (int i = 1; i <= MaxClients; i++)
 		{
 			if (!IsClientInGame(i))
 				continue;
 
 			#if defined _clientmod_included
-				MC_PrintToChat(i, "%s%t", g_sChatPrefix_CM, "Player Resetted CM", g_eClients[m_iReceiver].szName_Client);
-				C_PrintToChat(i, "%s%t", g_sChatPrefix, "Player Resetted", g_eClients[m_iReceiver].szName_Client);
+				MC_PrintToChat(i, "%s %t", g_sChatPrefix_CM, "Player Resetted CM", g_eClients[m_iReceiver].szName_Client);
+				C_PrintToChat(i, "%s %t", g_sChatPrefix, "Player Resetted", g_eClients[m_iReceiver].szName_Client);
 			#else
-				PrintToChat(i, "%s%t", g_sChatPrefix, "Player Resetted", g_eClients[m_iReceiver].szName_Client);
+				PrintToChat(i, "%s %t", g_sChatPrefix, "Player Resetted", g_eClients[m_iReceiver].szName_Client);
 			#endif
 		}
 	}
@@ -501,32 +460,27 @@ public Action Command_Credits(int client,int params)
 {	
 	if(g_eClients[client].iCredits == -1 && g_eClients[client].iItems == -1)
 	{
-		//Chat(client, "%t", "Inventory hasnt been fetched");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Inventory hasnt been fetched CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Inventory hasnt been fetched CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#endif
 		return Plugin_Handled;
 	}
 	
 	if(g_iSpam[client]<GetTime())
 	{
-		//CPrintToChatAll("%t", "Player Credits", g_eClients[client][szName_Client], g_eClients[client][iCredits]);
-		//ChatAll("%t", "Player Credits", g_eClients[client].szName_Client, g_eClients[client].iCredits);
-		//NotifyToChatAll("%s%t", g_sChatPrefix, "Player Credits", g_eClients[client].szName_Client, g_eClients[client].iCredits);
 		for (int i = 1; i <= MaxClients; i++)
 		{
 			if (!IsClientInGame(i))
 				continue;
 
 			#if defined _clientmod_included
-				MC_PrintToChat(i, "%s%t", g_sChatPrefix_CM, "Player Credits CM", g_eClients[client].szName_Client, g_eClients[client].iCredits);
-				C_PrintToChat(i, "%s%t", g_sChatPrefix, "Player Credits", g_eClients[client].szName_Client, g_eClients[client].iCredits);
+				MC_PrintToChat(i, "%s %t", g_sChatPrefix_CM, "Player Credits CM", g_eClients[client].szName_Client, g_eClients[client].iCredits);
+				C_PrintToChat(i, "%s %t", g_sChatPrefix, "Player Credits", g_eClients[client].szName_Client, g_eClients[client].iCredits);
 			#else
-				PrintToChat(i, "%s%t", g_sChatPrefix, "Player Credits", g_eClients[client].szName_Client, g_eClients[client].iCredits);
+				PrintToChat(i, "%s %t", g_sChatPrefix, "Player Credits", g_eClients[client].szName_Client, g_eClients[client].iCredits);
 			#endif
 		}
 		g_iSpam[client] = GetTime()+12;
@@ -586,7 +540,6 @@ public Action Command_ReloadConfig(int client, int args)
 	else
 	{
 		Store_ReloadConfig();
-		//ReplyToCommand(client, "%s %s", g_sChatPrefix, "Config reloaded. Please restart or change map");
 		ReplyToCommand(client, "%s %t", g_sChatPrefix, "Config reloaded. Please restart or change map");
 	}
 	
@@ -600,13 +553,11 @@ public Action Command_ResetLoadout(int client, int args)
 	
 	if((g_eClients[client].iCredits == -1 && g_eClients[client].iItems == -1) || !g_eClients[client].bLoaded)
 	{
-		//Chat(client, "%t", "Inventory hasnt been fetched");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Inventory hasnt been fetched CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Inventory hasnt been fetched CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Inventory hasnt been fetched");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Inventory hasnt been fetched");
 		#endif
 		return Plugin_Handled;
 	}

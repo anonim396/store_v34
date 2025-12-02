@@ -79,12 +79,11 @@ public int MenuHandler_Plan(Menu menu, MenuAction action, int client, int param2
 			//}
 			else 
 			{
-				//NotifyToChat(client, "%s%s", g_sChatPrefix, " Preview disabled");
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%s", g_sChatPrefix_CM, " Preview disabled CM");
-					C_PrintToChat(client, "%s%s", g_sChatPrefix, " Preview disabled");
+					MC_PrintToChat(client, "%s %s", g_sChatPrefix_CM, " Preview disabled CM");
+					C_PrintToChat(client, "%s %s", g_sChatPrefix, " Preview disabled");
 				#else
-					PrintToChat(client, "%s%s", g_sChatPrefix, " Preview disabled");
+					PrintToChat(client, "%s %s", g_sChatPrefix, " Preview disabled");
 				#endif
 				DisplayPlanMenu(client, itemid);
 			}

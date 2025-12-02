@@ -31,13 +31,11 @@ public Action Event_PlayerDeath(Event event, char[] name, bool dontBroadcast)
 		g_eClients[attacker].iCredits += GetMultipliedCredits(attacker, g_eCvars[g_cvarCreditAmountKill].aCache);
 		if(g_eCvars[g_cvarCreditMessages].aCache)
 		{
-			//Chat(attacker, "%t", "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
-			//NotifyToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
 			#if defined _clientmod_included
-				MC_PrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
-				C_PrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
+				MC_PrintToChat(attacker, "%s %t", g_sChatPrefix_CM, "Credits Earned For Killing CM", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
+				C_PrintToChat(attacker, "%s %t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
 			#else
-				PrintToChat(attacker, "%s%t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
+				PrintToChat(attacker, "%s %t", g_sChatPrefix, "Credits Earned For Killing", g_eCvars[g_cvarCreditAmountKill].aCache, g_eClients[victim].szName_Client);
 			#endif
 		}
 		Store_LogMessage(attacker, g_eCvars[g_cvarCreditAmountKill].aCache, "Earned for killing");

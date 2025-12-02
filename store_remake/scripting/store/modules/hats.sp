@@ -228,10 +228,10 @@ void CreateHat(int client,int itemid=-1,int slot=0)
 			}
 			else
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Unsupported Model CM", g_eHats[m_iData].szAttachment, sModel);
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Unsupported Model", g_eHats[m_iData].szAttachment, sModel);
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Unsupported Model CM", g_eHats[m_iData].szAttachment, sModel);
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Unsupported Model", g_eHats[m_iData].szAttachment, sModel);
 				#else
-					PrintToChat(client, "%s%t", g_sChatPrefix, "Unsupported Model", g_eHats[m_iData].szAttachment, sModel);
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Unsupported Model", g_eHats[m_iData].szAttachment, sModel);
 				#endif
 				return;
 		}
@@ -380,19 +380,19 @@ public void Store_OnClientModelChanged(int client, char[] model)
 			if(g_eCvars[g_cvarOverrideEnabled].aCache)
 			{
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%t", "Override Enabled");
-					C_PrintToChat(client, "%t", "Override Enabled");
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Enabled CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Enabled");
 				#else
-					PrintToChat(client, "%t", "Override Enabled");
+					PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Enabled");
 				#endif
 			}
 			else
 			{
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%t", "Override Disabled");
-					C_PrintToChat(client, "%t", "Override Disabled");
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Disabled CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Disabled");
 				#else
-					PrintToChat(client, "%t", "Override Disabled");
+					PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Disabled");
 				#endif
 			}
 	}
@@ -466,10 +466,10 @@ public void Hats_OnPreviewItem(int client, char[] type, int index)
 	g_hTimerPreview[client] = CreateTimer(45.0, Hats_Timer_KillPreview, client);
 
 	#if defined _clientmod_included
-		MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Spawn Preview CM", client);
-		C_PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview", client);
+		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Spawn Preview CM", client);
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview", client);
 	#else
-		PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview", client);
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview", client);
 	#endif
 }
 

@@ -446,10 +446,10 @@ public void SQLCallback_ResetPlayer(Handle owner, Handle hndl, const char[] erro
 					continue;
 
 				#if defined _clientmod_included
-					MC_PrintToChat(i, "%s%t", g_sChatPrefix_CM, "Player Resetted CM", m_szAuthId);
-					C_PrintToChat(i, "%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
+					MC_PrintToChat(i, "%s %t", g_sChatPrefix_CM, "Player Resetted CM", m_szAuthId);
+					C_PrintToChat(i, "%s %t", g_sChatPrefix, "Player Resetted", m_szAuthId);
 				#else
-					PrintToChat(i, "%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);
+					PrintToChat(i, "%s %t", g_sChatPrefix, "Player Resetted", m_szAuthId);
 				#endif
 			}
 		}
@@ -459,10 +459,10 @@ public void SQLCallback_ResetPlayer(Handle owner, Handle hndl, const char[] erro
 				//Chat(client, "%t", "Credit No Match");
 				//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credit No Match CM");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit No Match CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit No Match");
 				#else
-					PrintToChat(client, "%s%t", g_sChatPrefix, "Credit No Match");
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Credit No Match");
 				#endif
 			}
 	}

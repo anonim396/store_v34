@@ -14,13 +14,11 @@ public int MenuHandler_Gift(Handle menu, MenuAction action,int client,int param2
 			m_iReceiver = GetClientOfUserId(param2);
 			if(!m_iReceiver)
 			{
-				//Chat(client, "%t", "Gift Player Left");
-				//NotifyToChat(client, "%s%t", g_sChatPrefix, "Gift Player Left");
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Gift Player Left CM");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Gift Player Left");
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Player Left CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Gift Player Left");
 				#else
-					PrintToChat(client, "%s%t", g_sChatPrefix, "Gift Player Left");
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Gift Player Left");
 				#endif
 				return 0;
 			}
@@ -37,13 +35,11 @@ public int MenuHandler_Gift(Handle menu, MenuAction action,int client,int param2
 			m_iReceiver = GetClientOfUserId(m_iId);
 			if(!m_iReceiver)
 			{
-				//Chat(client, "%t", "Gift Player Left");
-				//NotifyToChat(client, "%s%t", g_sChatPrefix, "Gift Player Left");
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Gift Player Left CM");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Gift Player Left");
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Player Left CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Gift Player Left");
 				#else
-					PrintToChat(client, "%s%t", g_sChatPrefix, "Gift Player Left");
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Gift Player Left");
 				#endif
 				return 0;
 			}
@@ -124,13 +120,11 @@ public void FakeMenuHandler_StoreReloadConfig(Handle menu, MenuAction action, in
 			{
 				if(ReloadTimer != INVALID_HANDLE)
 				{
-					//Chat(client, "%t", "Admin chat reload timer exist");
-					//NotifyToChat(client, "%s%t", g_sChatPrefix, "Admin chat reload timer exist");
 					#if defined _clientmod_included
-						MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Admin chat reload timer exist CM");
-						C_PrintToChat(client, "%s%t", g_sChatPrefix, "Admin chat reload timer exist");
+						MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Admin chat reload timer exist CM");
+						C_PrintToChat(client, "%s %t", g_sChatPrefix, "Admin chat reload timer exist");
 					#else
-						PrintToChat(client, "%s%t", g_sChatPrefix, "Admin chat reload timer exist");
+						PrintToChat(client, "%s %t", g_sChatPrefix, "Admin chat reload timer exist");
 					#endif
 				}
 				else
@@ -142,13 +136,11 @@ public void FakeMenuHandler_StoreReloadConfig(Handle menu, MenuAction action, in
 			else
 			{
 				Store_ReloadConfig();
-				//Chat(client, "%s", "Config reloaded. Please restart or change map");
-				//NotifyToChat(client, "%s%t", g_sChatPrefix, "Config reloaded. Please restart or change map");
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Config reloaded. Please restart or change map CM");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Config reloaded. Please restart or change map");
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Config reloaded. Please restart or change map CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Config reloaded. Please restart or change map");
 				#else
-					PrintToChat(client, "%s%t", g_sChatPrefix, "Config reloaded. Please restart or change map");
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Config reloaded. Please restart or change map");
 				#endif
 			}
 		}
@@ -166,12 +158,11 @@ public void FakeMenuHandler_StoreResetLoadout(Handle menu, MenuAction action, in
 		if(menu == INVALID_HANDLE)
 		{
 			Store_Player_ResetLoadout(client);
-			//NotifyToChat(client, "%s%t", g_sChatPrefix, "Client Loadout Reset");
 			#if defined _clientmod_included
-				MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Client Loadout Reset CM");
-				C_PrintToChat(client, "%s%t", g_sChatPrefix, "Client Loadout Reset");
+				MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Client Loadout Reset CM");
+				C_PrintToChat(client, "%s %t", g_sChatPrefix, "Client Loadout Reset");
 			#else
-				PrintToChat(client, "%s%t", g_sChatPrefix, "Client Loadout Reset");
+				PrintToChat(client, "%s %t", g_sChatPrefix, "Client Loadout Reset");
 			#endif
 		}
 	}

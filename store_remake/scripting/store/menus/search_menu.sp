@@ -13,12 +13,11 @@ void Store_ItemName(int client, char[] sItemName)
 	if(iItemCount <= 0)
 	{
 		//Not Found
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Item not found");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Item not found CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Item not found");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Item not found CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Item not found");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Item not found");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Item not found");
 		#endif
 	}
 	else

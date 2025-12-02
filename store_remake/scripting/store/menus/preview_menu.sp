@@ -180,12 +180,11 @@ public int MenuHandler_Preview(Menu menu, MenuAction action, int client, int par
 
 			if (!IsPlayerAlive(client))
 			{
-				//NotifyToChat(client, "%s%t", g_sChatPrefix, "Must be Alive");
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Must be Alive CM");
-					C_PrintToChat(client, "%s%t", g_sChatPrefix, "Must be Alive");
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Must be Alive CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Must be Alive");
 				#else
-					PrintToChat(client, "%s%t", g_sChatPrefix, "Must be Alive");
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Must be Alive");
 				#endif
 				DisplayPreviewMenu(client, itemid);
 				return 0;
@@ -198,12 +197,11 @@ public int MenuHandler_Preview(Menu menu, MenuAction action, int client, int par
 			}
 			else
 			{
-				//NotifyToChat(client, "%s%s", g_sChatPrefix, " Preview disabled");
 				#if defined _clientmod_included
-					MC_PrintToChat(client, "%s%s", g_sChatPrefix_CM, " Preview disabled CM");
-					C_PrintToChat(client, "%s%s", g_sChatPrefix, " Preview disabled");
+					MC_PrintToChat(client, "%s %s", g_sChatPrefix_CM, " Preview disabled CM");
+					C_PrintToChat(client, "%s %s", g_sChatPrefix, " Preview disabled");
 				#else
-					PrintToChat(client, "%s%s", g_sChatPrefix, " Preview disabled");
+					PrintToChat(client, "%s %s", g_sChatPrefix, " Preview disabled");
 				#endif
 				DisplayPreviewMenu(client, itemid);
 			}

@@ -545,10 +545,10 @@ public void Pets_OnPreviewItem(int client, char[] type, int index)
 	g_hTimerPreview[client] = CreateTimer(45.0, Timer_KillPreview, client);
 
 	#if defined _clientmod_included
-		MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Spawn Preview CM", client);
-		C_PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview", client);
+		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Spawn Preview CM", client);
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview", client);
 	#else
-		PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview", client);
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview", client);
 	#endif
 }
 

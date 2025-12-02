@@ -59,7 +59,7 @@ public int WeaponColors_Equip(int client, int id)
 	for (int i = 0; i < MAX_WEAPONS_IN_INVENTORY; ++i)
 	{
 		int m_iEntity = GetEntPropEnt(client, Prop_Send, "m_hMyWeapons", i);
-		if (m_iEntity != -1)
+		if (IsValidEntity(m_iEntity) && m_iEntity < sizeof(g_bColored) - 1)
 		{
 			WeaponColors_WeaponCanUse(client, m_iEntity);
 		}
@@ -72,7 +72,7 @@ public int WeaponColors_Remove(int client)
 	for (int i = 0; i < MAX_WEAPONS_IN_INVENTORY; ++i)
 	{
 		int m_iEntity = GetEntPropEnt(client, Prop_Send, "m_hMyWeapons", i);
-		if (IsValidEntity(m_iEntity) && m_iEntity < sizeof(g_bColored))
+		if (IsValidEntity(m_iEntity) && m_iEntity < sizeof(g_bColored) - 1)
 		{
 			SetEntityRenderColor(m_iEntity, 255, 255, 255, 255);
 			g_bColored[m_iEntity] = false;
@@ -83,7 +83,7 @@ public int WeaponColors_Remove(int client)
 
 public Action CS_OnCSWeaponDrop(int client, int weaponIndex)
 {
-	if (g_iWeaponColors == 0)
+	if (g_iWeaponColors == 0 || weaponIndex < 0 || !g_bColored[weaponIndex])
 		return Plugin_Continue;
 	if (g_bClearColorOnDrop[Store_GetDataIndex(Store_GetEquippedItem(client, "weaponcolor", 0))])
 	{
@@ -98,7 +98,7 @@ public Action CS_OnCSWeaponDrop(int client, int weaponIndex)
 
 public Action WeaponColors_WeaponCanUse(int client, int weapon)
 {
-	if (g_iWeaponColors == 0 || g_bColored[weapon])
+	if (g_iWeaponColors == 0 || g_bColored[weapon] || weapon < 0)
 		return Plugin_Continue;
 	Handle data = CreateDataPack();
 	WritePackCell(data, GetClientUserId(client));

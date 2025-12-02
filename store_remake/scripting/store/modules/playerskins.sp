@@ -82,10 +82,10 @@ public int PlayerSkins_Equip(int client, int id)
 		else if(Store_IsClientLoaded(client))
 		{
 			#if defined _clientmod_included
-				MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "PlayerSkins Settings Changed CM");
-				C_PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
+				MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "PlayerSkins Settings Changed CM");
+				C_PrintToChat(client, "%s %t", g_sChatPrefix, "PlayerSkins Settings Changed");
 			#else
-				PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
+				PrintToChat(client, "%s %t", g_sChatPrefix, "PlayerSkins Settings Changed");
 			#endif
 		}
 	}
@@ -93,10 +93,10 @@ public int PlayerSkins_Equip(int client, int id)
 	else
 	{
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Player Skin module disabled CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Player Skin module disabled CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Player Skin module disabled");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Player Skin module disabled");
 		#endif
 		return -1;
 	}
@@ -109,10 +109,10 @@ public int PlayerSkins_Remove(int client, int id)
 	if (g_eCvars[g_bSkinEnable].aCache != 1)
 	{
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Player Skin module disabled CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Player Skin module disabled CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Player Skin module disabled");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Player Skin module disabled");
 		#endif
 	}
 	
@@ -123,10 +123,10 @@ public int PlayerSkins_Remove(int client, int id)
 	else
 	{
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "PlayerSkins Settings Changed CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "PlayerSkins Settings Changed CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "PlayerSkins Settings Changed");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "PlayerSkins Settings Changed");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "PlayerSkins Settings Changed");
 		#endif
 	}
 	
@@ -147,10 +147,10 @@ public Action PlayerSkins_PlayerSpawn(Event event, const char[] name, bool dontB
 	else
 	{
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Player Skin module disabled CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Player Skin module disabled CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Player Skin module disabled");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Player Skin module disabled");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Player Skin module disabled");
 		#endif
 	}
 	
@@ -266,10 +266,10 @@ public void PlayerSkin_OnPreviewItem(int client, char[] type, int index)
 	g_hTimerPreview[client] = CreateTimer(45.0, PlayerSkin_Timer_KillPreview, client);
 
 	#if defined _clientmod_included
-		MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Spawn Preview CM");
-		C_PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview");
+		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Spawn Preview CM");
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview");
 	#else
-		PrintToChat(client, "%s%t", g_sChatPrefix, "Spawn Preview");
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview");
 	#endif
 }
 

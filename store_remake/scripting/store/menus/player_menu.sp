@@ -28,13 +28,11 @@ public void DisplayPlayerMenu(int client)
 		CloseHandle(m_hMenu);
 		g_iMenuNum[client] = 1;
 		DisplayItemMenu(client, g_iSelectedItem[client]);
-		//Chat(client, "%t", "Gift No Players");
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Gift No Players");
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Gift No Players CM");
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Gift No Players");
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift No Players CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Gift No Players");
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Gift No Players");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Gift No Players");
 		#endif
 	}
 	else

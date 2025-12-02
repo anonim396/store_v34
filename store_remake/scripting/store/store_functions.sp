@@ -114,12 +114,11 @@ public Action Timer_CreditTimer(Handle timer, any userid)
 		g_eClients[client].iCredits += m_iCredits;
 		if(g_eCvars[g_cvarCreditMessages].aCache)
 		{
-			//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credits Earned For Playing", m_iCredits);
 			#if defined _clientmod_included
-				MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credits Earned For Playing CM", m_iCredits);
-				C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credits Earned For Playing", m_iCredits);
+				MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credits Earned For Playing CM", m_iCredits);
+				C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credits Earned For Playing", m_iCredits);
 			#else
-				PrintToChat(client, "%s%t", g_sChatPrefix, "Credits Earned For Playing", m_iCredits);
+				PrintToChat(client, "%s %t", g_sChatPrefix, "Credits Earned For Playing", m_iCredits);
 			#endif
 		}
 		Store_LogMessage(client, m_iCredits, "Earned for playing");
@@ -300,13 +299,12 @@ void Store_BuyItem(int client,int itemid,int plan=-1)
 	
 	Store_LogMessage(client, -g_eItems[itemid].iPrice, "Bought a %s %s", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
 	Store_SQLLogMessage(client, LOG_EVENT, "Bought a %s %s.", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
-	
-	//NotifyToChat(client, "%s%t", g_sChatPrefix, "Chat Bought Item", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);	
+
 	#if defined _clientmod_included
-		MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Chat Bought Item CM", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
-		C_PrintToChat(client, "%s%t", g_sChatPrefix, "Chat Bought Item", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
+		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Chat Bought Item CM", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Chat Bought Item", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
 	#else
-		PrintToChat(client, "%s%t", g_sChatPrefix, "Chat Bought Item", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Chat Bought Item", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
 	#endif
 	
 	Store_SaveClientData(client);
@@ -331,12 +329,11 @@ public void Store_SellItem(int client,int itemid)
 	
 	g_eClients[client].iCredits += m_iCredits;
 
-	//NotifyToChat(client, "%s%t", g_sChatPrefix, "Chat Sold Item", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
 	#if defined _clientmod_included
-		MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Chat Sold Item CM", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
-		C_PrintToChat(client, "%s%t", g_sChatPrefix, "Chat Sold Item", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
+		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Chat Sold Item CM", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Chat Sold Item", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
 	#else
-		PrintToChat(client, "%s%t", g_sChatPrefix, "Chat Sold Item", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Chat Sold Item", g_eItems[itemid].szName, g_eTypeHandlers[g_eItems[itemid].iHandler].szType);
 	#endif
 	
 	Store_UnequipItem(client, itemid);
@@ -372,20 +369,17 @@ public void Store_GiftItem(int client,int receiver,int item)
 	
 	++g_eClients[receiver].iItems;
 	
-	//NotifyToChat(client, "%s%t", g_sChatPrefix, "Chat Gift Item Sent", g_eClients[receiver].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
 	#if defined _clientmod_included
-		MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Chat Gift Item Sent CM", g_eClients[receiver].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
-		C_PrintToChat(client, "%s%t", g_sChatPrefix, "Chat Gift Item Sent", g_eClients[receiver].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
+		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Chat Gift Item Sent CM", g_eClients[receiver].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Chat Gift Item Sent", g_eClients[receiver].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
 	#else
-		PrintToChat(client, "%s%t", g_sChatPrefix, "Chat Gift Item Sent", g_eClients[receiver].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Chat Gift Item Sent", g_eClients[receiver].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
 	#endif
-
-	//NotifyToChat(receiver, "%s%t", g_sChatPrefix, "Chat Gift Item Received", g_eClients[target].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
 	#if defined _clientmod_included
-		MC_PrintToChat(receiver, "%s%t", g_sChatPrefix_CM, "Chat Gift Item Received CM", g_eClients[target].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
-		C_PrintToChat(receiver, "%s%t", g_sChatPrefix, "Chat Gift Item Received", g_eClients[target].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
+		MC_PrintToChat(receiver, "%s %t", g_sChatPrefix_CM, "Chat Gift Item Received CM", g_eClients[target].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
+		C_PrintToChat(receiver, "%s %t", g_sChatPrefix, "Chat Gift Item Received", g_eClients[target].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
 	#else
-		PrintToChat(receiver, "%s%t", g_sChatPrefix, "Chat Gift Item Received", g_eClients[target].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
+		PrintToChat(receiver, "%s %t", g_sChatPrefix, "Chat Gift Item Received", g_eClients[target].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType);
 	#endif
 	
 	Store_SQLLogMessage(0, LOG_EVENT, "%s gift %s (%s) to %s", g_eClients[target].szName_Client, g_eItems[m_iId].szName, g_eTypeHandlers[g_eItems[m_iId].iHandler].szType, g_eClients[receiver].szName_Client);
@@ -418,19 +412,16 @@ public Action Timer_ReloadConfig(Handle timer, DataPack pack)
 	{
 		if(g_eCvars[gc_iReloadNotify].aCache)
 		{
-			//CPrintToChatAll("%t" , "Timer_Server_ReloadConfig", time);
-			//ChatAll("%t" , "Timer_Server_ReloadConfig", hTime);			
-			//NotifyToChatAll("%s%t", g_sChatPrefix, "Timer_Server_ReloadConfig", hTime);
 			for (int i = 1; i <= MaxClients; i++)
 			{
 				if (!IsClientInGame(i))
 					continue;
 
 				#if defined _clientmod_included
-					MC_PrintToChat(i, "%s%t", g_sChatPrefix_CM, "Timer_Server_ReloadConfig CM", hTime);
-					C_PrintToChat(i, "%s%t", g_sChatPrefix, "Timer_Server_ReloadConfig", hTime);
+					MC_PrintToChat(i, "%s %t", g_sChatPrefix_CM, "Timer_Server_ReloadConfig CM", hTime);
+					C_PrintToChat(i, "%s %t", g_sChatPrefix, "Timer_Server_ReloadConfig", hTime);
 				#else
-					PrintToChat(i, "%s%t", g_sChatPrefix, "Timer_Server_ReloadConfig", hTime);
+					PrintToChat(i, "%s %t", g_sChatPrefix, "Timer_Server_ReloadConfig", hTime);
 				#endif
 			}
 		}
@@ -696,12 +687,11 @@ stock void AdminGiveCredits(int client, int m_iCredits)
 	{
 		if(client)
 		{
-			//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
 			#if defined _clientmod_included
-				MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[client].szName_Client, m_iCredits);
-				C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
+				MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[client].szName_Client, m_iCredits);
+				C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
 			#else
-				PrintToChat(client, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
+				PrintToChat(client, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
 			#endif
 		}
 		else
@@ -709,28 +699,25 @@ stock void AdminGiveCredits(int client, int m_iCredits)
 			ReplyToCommand(client, "%t", "Credits Given", g_eClients[client].szName_Client, m_iCredits);
 		}
 
-		//NotifyToChat(client, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
 		#if defined _clientmod_included
-			MC_PrintToChat(client, "%s%t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[client].szName_Client, m_iCredits);
-			C_PrintToChat(client, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[client].szName_Client, m_iCredits);
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
 		#else
-			PrintToChat(client, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
 		#endif
 	}
 	else if(g_eCvars[g_cvarSilent].aCache == 0)
 	{
-		//ChatAll("%t", "Credits Given", g_eClients[client].szName_Client, m_iCredits);
-		//NotifyToChatAll("%s%t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
 		for (int i = 1; i <= MaxClients; i++)
 		{
 			if (!IsClientInGame(i))
 				continue;
 
 			#if defined _clientmod_included
-				MC_PrintToChat(i, "%s%t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[client].szName_Client, m_iCredits);
-				C_PrintToChat(i, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
+				MC_PrintToChat(i, "%s %t", g_sChatPrefix_CM, "Credits Given CM", g_eClients[client].szName_Client, m_iCredits);
+				C_PrintToChat(i, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
 			#else
-				PrintToChat(i, "%s%t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
+				PrintToChat(i, "%s %t", g_sChatPrefix, "Credits Given", g_eClients[client].szName_Client, m_iCredits);
 			#endif
 		}
 	}
