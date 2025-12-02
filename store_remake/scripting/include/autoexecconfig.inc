@@ -79,9 +79,6 @@ static int g_bCreateDirectoryMode = FPERM_U_READ|FPERM_U_WRITE|FPERM_U_EXEC|FPER
 static int g_iLastFindResult;
 static int g_iLastAppendResult;
 
-
-
-
 /**
  * Returns the last result from the parser.
  *
@@ -91,10 +88,6 @@ stock int AutoExecConfig_GetFindResult()
 {
 	return g_iLastFindResult;
 }
-
-
-
-
 
 /**
  * Returns the last result from the appender.
@@ -106,7 +99,6 @@ stock int AutoExecConfig_GetAppendResult()
 	return g_iLastAppendResult;
 }
 
-
 /**
  * Set if the config file should be created by the autoexecconfig include itself if it doesn't exist.
  *
@@ -117,7 +109,6 @@ stock void AutoExecConfig_SetCreateFile(bool create)
 {
 	g_bCreateFile = create;
 }
-
 
 /**
  * Set if the config file's folder should be created by the autoexecconfig include itself if it doesn't exist.
@@ -133,7 +124,6 @@ stock void AutoExecConfig_SetCreateDirectory(bool create, int mode=FPERM_U_READ|
 	g_bCreateDirectoryMode = mode;
 }
 
-
 /**
  * Returns if the config file should be created if it doesn't exist.
  *
@@ -143,7 +133,6 @@ stock bool AutoExecConfig_GetCreateFile()
 {
 	return g_bCreateFile;
 }
-
 
 /**
  * Set the plugin for which the config file should be created.
@@ -158,7 +147,6 @@ stock void AutoExecConfig_SetPlugin(Handle plugin)
 	g_hPluginHandle = plugin;
 }
 
-
 /**
  * Returns the plugin's handle for which the config file is created.
  *
@@ -168,7 +156,6 @@ stock Handle AutoExecConfig_GetPlugin()
 {
 	return g_hPluginHandle;
 }
-
 
 /**
  * Set the global autoconfigfile used by functions of this file.
@@ -190,11 +177,6 @@ stock bool AutoExecConfig_SetFile(char[] file, char[] folder="sourcemod")
 	// Format the filename
 	return AutoExecConfig_FormatFileName(g_sConfigFile, sizeof(g_sConfigFile), folder) == AUTOEXEC_FORMAT_SUCCESS;
 }
-
-
-
-
-
 
 /**
  * Get the formatted autoconfigfile used by functions of this file.
@@ -218,11 +200,6 @@ stock bool AutoExecConfig_GetFile(char[] buffer,int size)
 	return false;
 }
 
-
-
-
-
-
 /**
  * Creates a convar and appends it to the autoconfigfile if not found.
  * FCVAR_DONTRECORD will be skipped.
@@ -238,6 +215,7 @@ stock bool AutoExecConfig_GetFile(char[] buffer,int size)
  * @return                    A handle to the newly created convar. If the convar already exists, a handle to it will still be returned.
  * @error                     Convar name is blank or is the same as an existing console command.
 */
+
 stock ConVar AutoExecConfig_CreateConVar(const char[] name, const char[] defaultValue, const char[] description="", int flags=0, bool hasMin=false, float min=0.0, bool hasMax=false, float max=0.0)
 {
 	// If configfile was set and convar has no dontrecord flag
@@ -256,7 +234,7 @@ stock ConVar AutoExecConfig_CreateConVar(const char[] name, const char[] default
 		// We only add this convar if it doesn't exist, or the file doesn't exist and it should be auto-generated
 		if (g_iLastFindResult == AUTOEXEC_FIND_NOT_FOUND || (g_iLastFindResult == AUTOEXEC_FIND_FILE_NOT_FOUND && g_bCreateFile))
 		{
-			g_iLastAppendResult = AutoExecConfig_AppendValue(name, defaultValue, description, hasMin, min, hasMax, max);
+			g_iLastAppendResult = AutoExecConfig_AppendValue(name, defaultValue, description, flags, hasMin, min, hasMax, max);
 		}
 	}
 	
@@ -264,9 +242,6 @@ stock ConVar AutoExecConfig_CreateConVar(const char[] name, const char[] default
 	// Create the convar
 	return CreateConVar(name, defaultValue, description, flags, hasMin, min, hasMax, max);
 }
-
-
-
 
 /**
  * Executes the autoconfigfile and adds it to the OnConfigsExecuted forward.
@@ -279,10 +254,6 @@ stock void AutoExecConfig_ExecuteFile()
 	// Only let sourcemod create the file, if we didn't do that already. 
 	AutoExecConfig(!g_bCreateFile, g_sRawFileName, g_sFolderPath);
 }
-
-
-
-
 
 /**
  * Formats a autoconfigfile, prefixes path and adds .cfg extension if missing.
@@ -347,11 +318,6 @@ stock static int AutoExecConfig_FormatFileName(char[] buffer, int size, char[] f
 	return AUTOEXEC_FORMAT_SUCCESS;
 }
 
-
-
-
-
-
 /**
  * Appends a convar to the global autoconfigfile
  *
@@ -365,8 +331,9 @@ stock static int AutoExecConfig_FormatFileName(char[] buffer, int size, char[] f
  * @param max                 Maximum floating point value that the convar can have if hasMax is true.
  * @return                    Returns one of the AUTOEXEC_APPEND values
 */
-stock int AutoExecConfig_AppendValue(const char[] name, const char[] defaultValue, const char[] description, bool hasMin, float min, bool hasMax, float max)
+stock int AutoExecConfig_AppendValue(const char[] name, const char[] defaultValue, const char[] description, int flags, bool hasMin, float min, bool hasMax, float max)
 {
+	#pragma unused flags
 	// No config set
 	if (strlen(g_sConfigFile) < 1)
 	{
@@ -469,11 +436,6 @@ stock int AutoExecConfig_AppendValue(const char[] name, const char[] defaultValu
 	
 	return AUTOEXEC_APPEND_FILE_NOT_FOUND;
 }
-
-
-
-
-
 
 /**
  * Returns a convar's value from the global autoconfigfile
@@ -619,16 +581,12 @@ stock int AutoExecConfig_FindValue(const char[] cvar, char[] value, int size, bo
 	return AUTOEXEC_FIND_FILE_NOT_FOUND;
 }
 
-
-
-
-
-
 /**
  * Cleans the global autoconfigfile from too much spaces
  *
  * @return        One of the AUTOEXEC_CLEAN values.
 */
+
 stock int AutoExecConfig_CleanFile()
 {
 	// No config set
@@ -726,11 +684,6 @@ stock int AutoExecConfig_CleanFile()
 	return AUTOEXEC_CLEAN_SUCCESS;
 }
 
-
-
-
-
-
 /**
  * Returns how many times the given char occures in the given string.
  *
@@ -752,11 +705,6 @@ stock static int GetCharCountInStr(int character, const char[] str)
 	
 	return count;
 }
-
-
-
-
-
 
 #pragma deprecated
 stock bool AutoExecConfig_CacheConvars()

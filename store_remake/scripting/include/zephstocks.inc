@@ -303,7 +303,7 @@ stock int GetClientBySteamID(char[] steamid)
 	return 0;
 }
 
-/*stock void GetClientSightEnd(int client, float out[3])
+stock void GetClientSightEnd(int client, float out[3])
 {
 	float m_fEyes[3];
 	float m_fAngles[3];
@@ -312,7 +312,7 @@ stock int GetClientBySteamID(char[] steamid)
 	TR_TraceRayFilter(m_fEyes, m_fAngles, MASK_PLAYERSOLID, RayType_Infinite, TraceRayDontHitPlayers);
 	if(TR_DidHit())
 		TR_GetEndPosition(out);
-}*/
+}
 
 stock int GetClientByIP(char[] ip)
 {
@@ -371,14 +371,14 @@ public int MenuHandler_CloseClientMenu(Menu menu, MenuAction action, int client,
 
 }*/
 
-public bool TraceRayDontHitSelf(any entity,any mask, any data)
+public bool TraceRayDontHitSelf(int entity,int mask, any data)
 {
 	if(entity == data)
 		return false;
 	return true;
 }
 
-public bool TraceRayDontHitPlayers(any entity,any mask, any data)
+public bool TraceRayDontHitPlayers(int entity,int mask, any data)
 {
 	if(0 < entity <= MaxClients)
 		return false;
@@ -492,13 +492,14 @@ stock void ClearTimer(Handle &timer)
 	}
 }
 
-stock bool ShouldHappen(any chance)
+stock bool ShouldHappen(int chance)
 {
 	return (GetRandomInt(1, 100)<=chance?true:false);
 }
 
 stock any Downloader_ParseMDL(const char[] model, char[] internal,any maxlen1, char[][] files,any maxsize,any maxlen2)
 {
+	#pragma unused maxsize
 	if(!FileExists2(model))
 		return 0;
 
@@ -510,9 +511,6 @@ stock any Downloader_ParseMDL(const char[] model, char[] internal,any maxlen1, c
 	any m_iDirOffset = 0;
 	any m_iNameOffset = 0;
 	any m_iIdx = 0;
-
-	if(m_iNum == maxsize)
-		return 0;
 
 	Handle m_hFile = OpenFile2(model, "rb");
 	if(m_hFile==INVALID_HANDLE)
