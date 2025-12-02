@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"ko"			"모델 {2}이(가) 이 모자의 부착 지점 {1}을 지원하지 않습니다. 기본 모델을 사용하세요."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"ko"			"모델 {2}이(가) 이 모자의 부착 지점 {1}을 지원하지 않습니다. 기본 모델을 사용하세요."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"ko"		"인벤토리"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"ko"		"잠시만 기다려 주세요. 인벤토리가 아직 로드되지 않았습니다."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"ko"		"당신은 {1} {2} 를 모았습니다"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"ko"		"이것에 접근할 권한이 없습니다."
 	}
@@ -3226,7 +3236,7 @@
 		"ko"		"인벤토리"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"ko"		"잠시만 기다려 주세요. 인벤토리가 아직 로드되지 않았습니다."
 	}
@@ -4168,7 +4178,7 @@
 		"ko"		"당신은 {1} {2} 를 모았습니다"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"ko"		"이것에 접근할 권한이 없습니다."
 	}

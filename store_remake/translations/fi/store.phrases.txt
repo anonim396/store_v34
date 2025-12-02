@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"fi"			"Mallisi {2} ei tue liitospistettä {1} tälle hatulle. Käytä oletusmallia."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"fi"			"Mallisi {2} ei tue liitospistettä {1} tälle hatulle. Käytä oletusmallia."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,9 +790,9 @@
 	{
 		"fi"		"Varasto"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
-		"fi"		"Please wait. Your inventory hasn't been fetched yet."
+		"fi"		"Please wait. Your Inventory hasnt been fetched yet."
 	}
 	"Item Available"
 	{
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"fi"		"Olet kerännyt {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"fi"		"Sinulla ei ole lupaa käyttää tätä."
 	}
@@ -3226,9 +3236,9 @@
 		"fi"		"Varasto"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
-		"fi"		"Please wait. Your inventory hasn't been fetched yet."
+		"fi"		"Please wait. Your Inventory hasnt been fetched yet."
 	}
 
 	"Item Available CM"
@@ -4168,7 +4178,7 @@
 		"fi"		"Olet kerännyt {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"fi"		"Sinulla ei ole lupaa käyttää tätä."
 	}

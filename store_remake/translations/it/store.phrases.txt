@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"it"			"Il tuo modello {2} non supporta il punto di attacco {1} per questo cappello. Usa il modello predefinito."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"it"			"Il tuo modello {2} non supporta il punto di attacco {1} per questo cappello. Usa il modello predefinito."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"it"		"Inventario"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"it"		"Per favore aspetta. Il tuo inventario non è stato ancora caricato."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"it"		"Hai raccolto {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"it"		"Non hai il permesso di accedere a questo."
 	}
@@ -3226,7 +3236,7 @@
 		"it"		"Inventario"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"it"		"Per favore aspetta. Il tuo inventario non è stato ancora caricato."
 	}
@@ -4168,7 +4178,7 @@
 		"it"		"Hai raccolto {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"it"		"Non hai il permesso di accedere a questo."
 	}

@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"โมเดล {2} ของคุณไม่รองรับจุดติดตั้ง {1} สำหรับหมวกใบนี้ ใช้โมเดลเริ่มต้น"
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"โมเดล {2} ของคุณไม่รองรับจุดติดตั้ง {1} สำหรับหมวกใบนี้ ใช้โมเดลเริ่มต้น"
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -776,7 +786,7 @@
 	{
 		"th"		"คลังสินค้า"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"th"		"กรุณารอ ข้อมูลสินค้าของคุณยังไม่ได้รับการดึง"
 	}
@@ -1547,7 +1557,7 @@
 		"#format"	"{1:i},{2:s}"
 		"th"		"คุณเก็บ {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"th"		"คุณไม่มีสิทธิ์เข้าถึงสิ่งนี้"
 	}
@@ -3217,7 +3227,7 @@
 		"th"		"คลังสินค้า"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"th"		"กรุณารอ ข้อมูลสินค้าของคุณยังไม่ได้รับการดึง"
 	}
@@ -4159,7 +4169,7 @@
 		"th"		"คุณเก็บ {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"th"		"คุณไม่มีสิทธิ์เข้าถึงสิ่งนี้"
 	}

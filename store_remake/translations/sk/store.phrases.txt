@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"sk"			"Váš model {2} nepodporuje prichytávací bod {1} pre tento klobúk. Použite predvolený model."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"sk"			"Váš model {2} nepodporuje prichytávací bod {1} pre tento klobúk. Použite predvolený model."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -776,7 +786,7 @@
 	{
 		"sk"		"Inventár"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"sk"		"Prosím počkajte. Váš inventár ešte nebol načítaný."
 	}
@@ -1547,7 +1557,7 @@
 		"#format"	"{1:i},{2:s}"
 		"sk"		"Získali ste {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"sk"		"Nemáte povolenie na prístup k tomuto."
 	}
@@ -3217,7 +3227,7 @@
 		"sk"		"Inventár"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"sk"		"Prosím počkajte. Váš inventár ešte nebol načítaný."
 	}
@@ -4159,7 +4169,7 @@
 		"sk"		"Získali ste {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"sk"		"Nemáte povolenie na prístup k tomuto."
 	}

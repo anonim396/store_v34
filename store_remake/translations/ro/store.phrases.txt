@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"ro"			"Modelul dvs. {2} nu suportă punctul de atașare {1} pentru această pălărie. Folosiți modelul implicit."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"ro"			"Modelul dvs. {2} nu suportă punctul de atașare {1} pentru această pălărie. Folosiți modelul implicit."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -776,7 +786,7 @@
 	{
 		"ro"		"Inventar"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"ro"		"Vă rugăm să așteptați. Inventarul dumneavoastră nu a fost încă încărcat."
 	}
@@ -1547,7 +1557,7 @@
 		"#format"	"{1:i},{2:s}"
 		"ro"		"Ați colectat {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"ro"		"Nu ai permisiunea să accesezi acest lucru."
 	}
@@ -3217,7 +3227,7 @@
 		"ro"		"Inventar"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"ro"		"Vă rugăm să așteptați. Inventarul dumneavoastră nu a fost încă încărcat."
 	}
@@ -4159,7 +4169,7 @@
 		"ro"		"Ați colectat {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"ro"		"Nu ai permisiunea să accesezi acest lucru."
 	}

@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"nl"			"Je model {2} ondersteunt het bevestigingspunt {1} niet voor deze hoed. Gebruik het standaardmodel."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"nl"			"Je model {2} ondersteunt het bevestigingspunt {1} niet voor deze hoed. Gebruik het standaardmodel."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"nl"		"Inventaris"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"nl"		"Even geduld aub. Je inventaris is nog niet geladen."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"nl"		"Je hebt {1} {2} verzameld"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"nl"		"Je hebt geen toestemming om toegang te krijgen tot dit."
 	}
@@ -3226,7 +3236,7 @@
 		"nl"		"Inventaris"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"nl"		"Even geduld aub. Je inventaris is nog niet geladen."
 	}
@@ -4168,7 +4178,7 @@
 		"nl"		"Je hebt {1} {2} verzameld"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"nl"		"Je hebt geen toestemming om toegang te krijgen tot dit."
 	}

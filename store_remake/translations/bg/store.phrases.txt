@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"bg"			"Вашият модел {2} не поддържа точка за прикачване {1} за тази шапка. Използвайте модела по подразбиране."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"bg"			"Вашият модел {2} не поддържа точка за прикачване {1} за тази шапка. Използвайте модела по подразбиране."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"bg"		"Инвентар"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"bg"		"Моля, изчакайте. Вашият инвентар още не е зареден."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"bg"		"Събрали сте {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"bg"		"Нямате разрешение да получите достъп до това."
 	}
@@ -3226,7 +3236,7 @@
 		"bg"		"Инвентар"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"bg"		"Моля, изчакайте. Вашият инвентар още не е зареден."
 	}
@@ -4168,7 +4178,7 @@
 		"bg"		"Събрали сте {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"bg"		"Нямате разрешение да получите достъп до това."
 	}

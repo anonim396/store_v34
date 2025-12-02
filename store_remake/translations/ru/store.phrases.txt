@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"ru"			"Ваша модель {2} не поддерживает точку крепления {1} для этой шляпы. Используйте стандартную модель."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"ru"			"Ваша модель {2} не поддерживает точку крепления {1} для этой шляпы. Используйте стандартную модель."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -776,7 +786,7 @@
 	{
 		"ru"		"Инвентарь"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"ru"		"Пожалуйста, подождите. Ваш инвентарь еще не был загружен."
 	}
@@ -1547,7 +1557,7 @@
 		"#format"	"{1:i},{2:s}"
 		"ru"		"Вы собрали {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"ru"		"У вас нет прав для доступа к этому."
 	}
@@ -3217,7 +3227,7 @@
 		"ru"		"Инвентарь"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"ru"		"Пожалуйста, подождите. Ваш инвентарь еще не был загружен."
 	}
@@ -4159,7 +4169,7 @@
 		"ru"		"Вы собрали {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"ru"		"У вас нет прав для доступа к этому."
 	}

@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"sv"			"Din modell {2} stöder inte fästpunkten {1} för denna hatt. Använd standardmodellen."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"sv"			"Din modell {2} stöder inte fästpunkten {1} för denna hatt. Använd standardmodellen."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -776,7 +786,7 @@
 	{
 		"sv"		"Inventarie"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"sv"		"Vänligen vänta. Ditt inventarie har inte hämtats än."
 	}
@@ -1547,7 +1557,7 @@
 		"#format"	"{1:i},{2:s}"
 		"sv"		"Du samlade {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"sv"		"Du har inte behörighet att få åtkomst till detta."
 	}
@@ -3217,7 +3227,7 @@
 		"sv"		"Inventarie"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"sv"		"Vänligen vänta. Ditt inventarie har inte hämtats än."
 	}
@@ -4159,7 +4169,7 @@
 		"sv"		"Du samlade {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"sv"		"Du har inte behörighet att få åtkomst till detta."
 	}

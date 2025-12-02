@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"de"			"Dein Modell {2} unterstützt nicht den Befestigungspunkt {1} für diesen Hut. Verwende das Standardmodell."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"de"			"Dein Modell {2} unterstützt nicht den Befestigungspunkt {1} für diesen Hut. Verwende das Standardmodell."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"de"		"Inventar"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"de"		"Bitte warten. Dein Inventar wurde noch nicht geladen."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"de"		"Du hast {1} {2} gesammelt"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"de"		"Du hast keine Berechtigung, darauf zuzugreifen."
 	}
@@ -3226,7 +3236,7 @@
 		"de"		"Inventar"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"de"		"Bitte warten. Dein Inventar wurde noch nicht geladen."
 	}
@@ -4168,7 +4178,7 @@
 		"de"		"Du hast {1} {2} gesammelt"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"de"		"Du hast keine Berechtigung, darauf zuzugreifen."
 	}

@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"tr"			"Modeliniz {2}, bu şapka için {1} bağlantı noktasını desteklemiyor. Varsayılan modeli kullanın."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"tr"			"Modeliniz {2}, bu şapka için {1} bağlantı noktasını desteklemiyor. Varsayılan modeli kullanın."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -776,7 +786,7 @@
 	{
 		"tr"		"Envanter"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"tr"		"Lütfen bekleyin. Envanteriniz henüz alınmadı."
 	}
@@ -1547,7 +1557,7 @@
 		"#format"	"{1:i},{2:s}"
 		"tr"		"Topladığınız {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"tr"		"Bu alana erişim izniniz yok."
 	}
@@ -3217,7 +3227,7 @@
 		"tr"		"Envanter"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"tr"		"Lütfen bekleyin. Envanteriniz henüz alınmadı."
 	}
@@ -4159,7 +4169,7 @@
 		"tr"		"Topladığınız {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"tr"		"Bu alana erişim izniniz yok."
 	}

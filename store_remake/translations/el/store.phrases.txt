@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"el"			"Το μοντέλο σας {2} δεν υποστηρίζει το σημείο συσχέτισης {1} για αυτό το καπέλο. Χρησιμοποιήστε το προεπιλεγμένο μοντέλο."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"el"			"Το μοντέλο σας {2} δεν υποστηρίζει το σημείο συσχέτισης {1} για αυτό το καπέλο. Χρησιμοποιήστε το προεπιλεγμένο μοντέλο."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"el"		"Αποθεματικό"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"el"		"Παρακαλώ περιμένετε. Το απόθεμά σας δεν έχει φορτωθεί ακόμα."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"el"		"Μαζέψατε {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"el"		"Δεν έχετε άδεια να έχετε πρόσβαση σε αυτό."
 	}
@@ -3226,7 +3236,7 @@
 		"el"		"Αποθεματικό"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"el"		"Παρακαλώ περιμένετε. Το απόθεμά σας δεν έχει φορτωθεί ακόμα."
 	}
@@ -4168,7 +4178,7 @@
 		"el"		"Μαζέψατε {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"el"		"Δεν έχετε άδεια να έχετε πρόσβαση σε αυτό."
 	}

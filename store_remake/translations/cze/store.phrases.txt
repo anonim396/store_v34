@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"bg"		"Váš model {2} nepodporuje připojovací bod {1} pro tento klobouk. Použijte výchozí model."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"bg"		"Váš model {2} nepodporuje připojovací bod {1} pro tento klobouk. Použijte výchozí model."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"cze"		"Inventář"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"cze"		"Prosím čekejte. Váš inventář ještě nebyl načten."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"cze"		"Sebrali jste {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"cze"		"Nemáte oprávnění k přístupu."
 	}
@@ -3226,7 +3236,7 @@
 		"cze"		"Inventář"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"cze"		"Prosím čekejte. Váš inventář ještě nebyl načten."
 	}
@@ -4168,7 +4178,7 @@
 		"cze"		"Sebrali jste {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"cze"		"Nemáte oprávnění k přístupu."
 	}

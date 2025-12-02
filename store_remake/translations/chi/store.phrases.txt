@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"chi"			"您的模型 {2} 不支持此帽子的附着点 {1}。请使用默认模型。"
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"chi"			"您的模型 {2} 不支持此帽子的附着点 {1}。请使用默认模型。"
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"chi"		"库存"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"chi"		"请等待 数据可能未连接成功,或服务器数据正在维护,如果不是全部玩家,建议尝试重新加入服务器!."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"chi"		"您收集了 {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"chi"		"发生错误,无权使用"
 	}
@@ -3226,7 +3236,7 @@
 		"chi"		"库存"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"chi"		"请等待 数据可能未连接成功,或服务器数据正在维护,如果不是全部玩家,建议尝试重新加入服务器!."
 	}
@@ -4168,7 +4178,7 @@
 		"chi"		"您收集了 {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"chi"		"发生错误,无权使用"
 	}

@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"hu"			"A {2} modellje nem támogatja a {1} csatolási pontot ehhez a kalaphoz. Használja az alapértelmezett modellt."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"hu"			"A {2} modellje nem támogatja a {1} csatolási pontot ehhez a kalaphoz. Használja az alapértelmezett modellt."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"hu"		"Leltár"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"hu"		"Várj egy kicsit. A tárgyaid még nem töltöttek be."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"hu"		"Összegyűjtöttél {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"hu"		"Nincs jogosultságod ehhez."
 	}
@@ -3226,7 +3236,7 @@
 		"hu"		"Leltár"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"hu"		"Várj egy kicsit. A tárgyaid még nem töltöttek be."
 	}
@@ -4168,7 +4178,7 @@
 		"hu"		"Összegyűjtöttél {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"hu"		"Nincs jogosultságod ehhez."
 	}

@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"ua"			"Ваша модель {2} не підтримує точку кріплення {1} для цього капелюха. Використовуйте стандартну модель."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"ua"			"Ваша модель {2} не підтримує точку кріплення {1} для цього капелюха. Використовуйте стандартну модель."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -776,7 +786,7 @@
 	{
 		"ua"		"Інвентар"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"ua"		"Будь ласка, зачекайте. Ваш інвентар ще не був завантажений."
 	}
@@ -1547,7 +1557,7 @@
 		"#format"	"{1:i},{2:s}"
 		"ua"		"Ви зібрали {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"ua"		"У вас немає дозволу доступу до цього."
 	}
@@ -3217,7 +3227,7 @@
 		"ua"		"Інвентар"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"ua"		"Будь ласка, зачекайте. Ваш інвентар ще не був завантажений."
 	}
@@ -4159,7 +4169,7 @@
 		"ua"		"Ви зібрали {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"ua"		"У вас немає дозволу доступу до цього."
 	}

@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"lt"			"Jūsų modelis {2} nepalaiko {1} pritvirtinimo taško šiai skrybėlei. Naudokite numatytąjį modelį."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"lt"			"Jūsų modelis {2} nepalaiko {1} pritvirtinimo taško šiai skrybėlei. Naudokite numatytąjį modelį."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"lt"		"Inventorius"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"lt"		"Prašome palaukti. Jūsų inventorius dar nebuvo užkrautas."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"lt"		"Jūs surinkote {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"lt"		"Neturite leidimo pasiekti tai."
 	}
@@ -3226,7 +3236,7 @@
 		"lt"		"Inventorius"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"lt"		"Prašome palaukti. Jūsų inventorius dar nebuvo užkrautas."
 	}
@@ -4168,7 +4178,7 @@
 		"lt"		"Jūs surinkote {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"lt"		"Neturite leidimo pasiekti tai."
 	}

@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"vi"			"Mô hình {2} của bạn không hỗ trợ điểm đính kèm {1} cho chiếc mũ này. Sử dụng mô hình mặc định."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"vi"			"Mô hình {2} của bạn không hỗ trợ điểm đính kèm {1} cho chiếc mũ này. Sử dụng mô hình mặc định."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -776,7 +786,7 @@
 	{
 		"vi"		"Kho đồ"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"vi"		"Vui lòng đợi. Kho đồ của bạn vẫn chưa được tải."
 	}
@@ -1547,7 +1557,7 @@
 		"#format"	"{1:i},{2:s}"
 		"vi"		"Bạn đã thu thập {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"vi"		"Bạn không có quyền truy cập vào điều này."
 	}
@@ -3217,7 +3227,7 @@
 		"vi"		"Kho đồ"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"vi"		"Vui lòng đợi. Kho đồ của bạn vẫn chưa được tải."
 	}
@@ -4159,7 +4169,7 @@
 		"vi"		"Bạn đã thu thập {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"vi"		"Bạn không có quyền truy cập vào điều này."
 	}

@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"he"			"הדגם שלך {2} אינו תומך בנקודת החיבור {1} לכובע זה. השתמש בדגם ברירת המחדל."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"he"			"הדגם שלך {2} אינו תומך בנקודת החיבור {1} לכובע זה. השתמש בדגם ברירת המחדל."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"he"		"מלאי"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"he"		"בבקשה חכה. המלאי שלך עדיין לא טען."
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"he"		"אתה אספת {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"he"		"אין לך הרשאה לגשת לזה."
 	}
@@ -3226,7 +3236,7 @@
 		"he"		"מלאי"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"he"		"בבקשה חכה. המלאי שלך עדיין לא טען."
 	}
@@ -4168,7 +4178,7 @@
 		"he"		"אתה אספת {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"he"		"אין לך הרשאה לגשת לזה."
 	}

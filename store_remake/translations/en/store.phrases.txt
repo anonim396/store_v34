@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Your model {2} does not support attachment point {1} for this hat. Use default model."
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"Your model {2} does not support attachment point {1} for this hat. Use default model."
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,9 +790,9 @@
 	{
 		"en"		"Inventory"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
-		"en"		"Please wait. Your inventory hasn't been fetched yet."
+		"en"		"Please wait. Your Inventory hasnt been fetched yet."
 	}
 	"Item Available"
 	{
@@ -1551,9 +1561,9 @@
 		"#format"	"{1:i},{2:s}"
 		"en"		"You collected {1} {2}"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
-		"en"		"You don't have permission to access this."
+		"en"		"You dont have permission to access this."
 	}
 	"You dropped"
 	{
@@ -3226,9 +3236,9 @@
 		"en"		"Inventory"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
-		"en"		"Please wait. Your inventory hasn't been fetched yet."
+		"en"		"Please wait. Your Inventory hasnt been fetched yet."
 	}
 
 	"Item Available CM"
@@ -4168,9 +4178,9 @@
 		"en"		"You collected {1} {2}"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
-		"en"		"You don't have permission to access this."
+		"en"		"You dont have permission to access this."
 	}
 
 	"You dropped CM"

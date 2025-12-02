@@ -1,5 +1,15 @@
 "Phrases"
 {
+	"Unsupported Model CM"
+	{
+		"#format"		"{1:s},{2:s}"
+		"jp"			"あなたのモデル {2} はこの帽子のアタッチメントポイント {1} をサポートしていません。デフォルトモデルを使用してください。"
+	}
+	"Unsupported Model"
+	{
+		"#format"		"{1:s},{2:s}"
+		"jp"			"あなたのモデル {2} はこの帽子のアタッチメントポイント {1} をサポートしていません。デフォルトモデルを使用してください。"
+	}
 	"21Blackjack"
 	{
 		"#format"	"{1:s}"
@@ -780,7 +790,7 @@
 	{
 		"jp"		"インベントリ"
 	}
-	"Inventory hasn't been fetched"
+	"Inventory hasnt been fetched"
 	{
 		"jp"		"お待ちください。インベントリはまだ読み込まれていません。"
 	}
@@ -1551,7 +1561,7 @@
 		"#format"	"{1:i},{2:s}"
 		"jp"		"あなたは {1} {2} を収集しました"
 	}
-	"You don't have permission"
+	"You dont have permission"
 	{
 		"jp"		"これにアクセスする権限がありません。"
 	}
@@ -3226,7 +3236,7 @@
 		"jp"		"インベントリ"
 	}
 
-	"Inventory hasn't been fetched CM"
+	"Inventory hasnt been fetched CM"
 	{
 		"jp"		"お待ちください。インベントリはまだ読み込まれていません。"
 	}
@@ -4168,7 +4178,7 @@
 		"jp"		"あなたは {1} {2} を収集しました"
 	}
 
-	"You don't have permission CM"
+	"You dont have permission CM"
 	{
 		"jp"		"これにアクセスする権限がありません。"
 	}
