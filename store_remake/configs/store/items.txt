@@ -1,37 +1,499 @@
 "Store"
 {
-	"Скины"
+	"Attributes"//Не работает
 	{
-		"Тест скин"
+		"Test Health"
 		{
-			"model" "models/player/ct_sas.mdl"
-			"team" "4" // (T = 2 , CT = 3, both = 4)
-			"type" "playerskin"
-			"preview" "1"
-			"unique_id" "uid_playerskin_1"
+			"health" "200"
 			"price" "0"
+			"type" "attribute"
+			"unique_id" "uid_attribute_health"
+		}
+		
+		"Test Armor"
+		{
+			"armor" "100"
+			"price" "0"
+			"type" "attribute"
+			"unique_id" "uid_attribute_armor"
+		}
+		
+		"Test Gravity"
+		{
+			"gravity" "0.5"
+			"price" "0"
+			"type" "attribute"
+			"unique_id" "uid_attribute_gravity"
 		}
 	}
-	
-	"Шляпы"
+
+	"Bullet Impact"
 	{
-		"Тест шляпа"
-		{	
-			"model"				"models/player/t_leet.mdl"
-			"position"			"0.0 -1.0 12.1"
-			"angles"			"0.0 0.0 0.0"
-			"type"				"hat"
-			"unique_id"			"uid_hat_1"
-			"preview"			"1"
-			"bonemerge"			"0"
-			"team"				"4"
-			"slot"				"1" // Same as custom_model module. Only 5 slot available at the same time (0->5). You can only equip 5 types at the same times (wings, hats, facemarks, ... etc)
-			"attachment"		"forward"
-			"price"				"0"
+		"Tracer"
+		{
+			"Blue"
+			{
+				"color" "0 0 125"
+				"price" "0"
+				"type" "tracer"
+				"unique_id" "uid_tracer_blue"
+			}
 		}
 	}
-	
-	"Pets"
+
+	"Bulletsparks"//Не работает
+	{
+		"Default"
+		{
+			"price" "0"
+			"type" "bulletsparks"
+			"unique_id" "uid_bulletsparks_default"
+		}
+	}
+
+	"Bunnyhop"
+	{
+		"Auto Bunnyhop"
+		{
+			"price" "0"
+			"type" "bunnyhop"
+			"unique_id" "uid_bunnyhop_auto"
+		}
+	}
+
+	"Chat Stuff"
+	{
+		"Message Color"
+		{
+			"White"
+			{
+				"color" "{white}"
+				"unique_id" "uid_msgcolor_white"
+				"price" "0"
+				"type" "msgcolor"
+			}
+			"Green"
+			{
+				"color" "{green}"
+				"unique_id" "uid_msgcolor_green"
+				"price" "0"
+				"type" "msgcolor"
+			}
+		}
+		
+		"Name Color"
+		{
+			"White"
+			{
+				"color" "{white}"
+				"unique_id" "uid_namecolor_white"
+				"price" "0"
+				"type" "namecolor"
+			}
+			"Green"
+			{
+				"color" "{green}"
+				"unique_id" "uid_namecolor_green"
+				"price" "0"
+				"type" "namecolor"
+			}
+		}
+		
+		"Name Tag"
+		{
+			"Test Tag"
+			{
+				"tag" "{lime}[Lime] "
+				"price" "0"
+				"type" "nametag"
+				"unique_id" "uid_nametag_test_lime"
+			}
+			"Test Tag Green"
+			{
+				"tag" "{green}[Green] "
+				"price" "0"
+				"type" "nametag"
+				"unique_id" "uid_nametag_test_green"
+			}
+		}
+	}
+
+	"Commands"
+	{
+		"Test Command"
+		{
+			"command" "say {name} has activated test command!"
+			"time" "30"
+			"price" "0"
+			"type" "command"
+			"unique_id" "uid_command_test"
+		}
+		
+		"Respawn Command"
+		{
+			"command" "sm_respawn {clientid}"//Должен быть плагин добавляющий sm_respawn
+			"price" "0"
+			"type" "command"
+			"unique_id" "uid_command_respawn"
+		}
+	}
+
+	"Colored Smoke"//Нет модуля
+	{
+		"Green Smoke"
+		{
+			"rgb color" "0 255 0"
+			"unique_id" "uid_smoke_green"
+			"price" "0"
+			"material" "particle/particle_smokegrenade1.vmt"
+			"type" "ColoredSmoke"
+		}
+	}
+
+	"Doors"//Не тестировалось
+	{
+		"Test Door Control"
+		{
+			"targetname" "test_door"
+			"price" "0"
+			"type" "door"
+			"unique_id" "uid_door_test"
+		}
+	}
+
+	"Glow Effects"
+	{
+		"Blue Glow"
+		{
+			"color" "0 0 255"
+			"brightness" "5"
+			"style" "0"
+			"distance" "200.0"
+			"radius" "100.0"
+			"price" "0"
+			"type" "glow"
+			"unique_id" "uid_glow_blue"
+		}
+		
+		"Red Glow"
+		{
+			"color" "255 0 0"
+			"brightness" "8"
+			"style" "1"
+			"distance" "300.0"
+			"radius" "150.0"
+			"price" "0"
+			"type" "glow"
+			"unique_id" "uid_glow_red"
+		}
+	}
+
+	"Godmode"
+	{
+		"Godmode 10s"
+		{
+			"duration" "10"
+			"price" "0"
+			"type" "godmode"
+			"unique_id" "uid_godmode_10s"
+		}
+		
+		"Godmode 30s"
+		{
+			"duration" "30"
+			"price" "0"
+			"type" "godmode"
+			"unique_id" "uid_godmode_30s"
+		}
+	}
+
+	"Gravity"
+	{
+		"Low Gravity"
+		{
+			"gravity" "50"
+			"duration" "30"
+			"price" "0"
+			"type" "gravity"
+			"unique_id" "uid_gravity_low"
+		}
+		
+		"Moon Gravity"
+		{
+			"gravity" "25"
+			"duration" "45"
+			"price" "0"
+			"type" "gravity"
+			"unique_id" "uid_gravity_moon"
+		}
+		
+		"High Gravity"
+		{
+			"gravity" "200"
+			"duration" "60"
+			"price" "0"
+			"type" "gravity"
+			"unique_id" "uid_gravity_high"
+		}
+	}
+
+	"Grenade Skins"
+	{
+		"Flashbang"
+		{
+			"Banana"
+			{
+				"model" "models/props/cs_italy/bananna.mdl"
+				"grenade" "flashbang"
+				"price" "0"
+				"type" "grenadeskin"
+				"unique_id" "uid_flashbang_default"
+			}
+		}
+		
+		"HE Grenade"
+		{
+			"Orange"
+			{
+				"model" "models/props/cs_italy/orange.mdl"
+				"grenade" "hegrenade"
+				"price" "0"
+				"type" "grenadeskin"
+				"unique_id" "uid_hegrenade_default"
+			}
+		}
+		
+		"Smokegrenade"
+		{
+			"Watermelon"
+			{
+				"model" "models/props_junk/watermelon01.mdl"
+				"grenade" "smokegrenade"
+				"price" "0"
+				"type" "grenadeskin"
+				"unique_id" "uid_smokegrenade_default"
+			}
+		}
+	}
+
+	"Grenade Trails"//Не работает
+	{
+		"Default Trail"
+		{
+			"material" "materials/sprites/laserbeam.vmt"
+			"price" "0"
+			"type" "grenadetrail"
+			"color" "255 255 255 255"
+			"unique_id" "uid_grenadetrail_default"
+		}
+	}
+
+	"Health"
+	{
+		"+50 Health"
+		{
+			"health" "50"
+			"price" "0"
+			"type" "health"
+			"unique_id" "uid_health_50"
+		}
+		
+		"+100 Health"
+		{
+			"health" "100"
+			"price" "0"
+			"type" "health"
+			"unique_id" "uid_health_100"
+		}
+		
+		"Full Heal"
+		{
+			"health" "500"
+			"price" "0"
+			"type" "health"
+			"unique_id" "uid_health_full"
+		}
+	}
+
+	"Invisibility" //Не работает
+	{
+		"Full Invisibility 30s"
+		{
+			"invisibility" "1"  // Почти полностью невидимый
+			"duration" "30"
+			"price" "0"
+			"type" "invisibility"
+			"unique_id" "uid_invisibility_full_30s"
+		}
+		
+		"Partial Invisibility 60s"
+		{
+			"invisibility" "128"  // Наполовину видимый
+			"duration" "60"
+			"price" "0"
+			"type" "invisibility"
+			"unique_id" "uid_invisibility_partial_60s"
+		}
+	}
+
+	"Info"
+	{
+		"Test Info"
+		{
+			"text" "This is a test information block"
+			"type" "info"
+			"unique_id" "uid_info_test"
+		}
+	}
+
+	"Jetpack"//Непонятно работает
+	{
+		"Basic Jetpack"
+		{
+			"price" "0"
+			"type" "jetpack"
+			"unique_id" "uid_jetpack_basic"
+		}
+		
+		"Advanced Jetpack"
+		{
+			"fuel" "2.0"
+			"regen" "0.2"
+			"force" "15.0"
+			"price" "0"
+			"type" "jetpack"
+			"unique_id" "uid_jetpack_advanced"
+		}
+	}
+
+	"Jihad"
+	{
+		"Suicide Bomb"
+		{
+			"damage" "500"
+			"radius" "300"
+			"delay" "3.0"
+			"price" "0"
+			"type" "jihad"
+			"unique_id" "uid_jihad_suicide"
+		}
+		
+		"Mini Jihad"
+		{
+			"damage" "200"
+			"radius" "150"
+			"delay" "1.5"
+			"price" "0"
+			"type" "jihad"
+			"unique_id" "uid_jihad_mini"
+		}
+	}
+
+	"Knives"//Не применимо в css
+	{
+		"Default Knife"
+		{
+			"entity" "weapon_knife"
+			"defindex" "42"
+			"price" "0"
+			"type" "knife"
+			"unique_id" "uid_knife_default"
+		}
+		
+		"Golden Knife"
+		{
+			"entity" "weapon_knifegg"
+			"defindex" "41"
+			"price" "0"
+			"type" "knife"
+			"unique_id" "uid_knife_golden"
+		}
+		
+		"Bayonet"
+		{
+			"entity" "weapon_bayonet"
+			"defindex" "500"
+			"price" "0"
+			"type" "knife"
+			"unique_id" "uid_knife_bayonet"
+		}
+	}
+
+	"Laser Sight"//Не работает
+	{
+		"Blue Laser"
+		{
+			"color" "0 0 125"
+			"price" "0"
+			"type" "lasersight"
+			"unique_id" "uid_lasersight_blue"
+		}
+	}
+
+	"Main Info Panel"
+	{
+		"Test Command"
+		{
+			"type" "link"
+			"command" "sm_test"
+			"unique_id" "uid_cmd_test"
+		}
+		
+		"Test Info Panel"
+		{
+			"text" "Test information panel"
+			"type" "info"
+			"unique_id" "uid_info_panel_test"
+		}
+	}
+
+	"PaintBall"
+	{
+		"Default Paintball"
+		{
+			"type" "paintball"
+			"Decals"
+			{
+				"default"
+				{
+					"material" "sprites/laserbeam.vmt"
+				}
+			}
+			"price" "0"
+			"unique_id" "uid_paintball_default"
+		}
+	}
+
+	"Particle Effect"//Нет модуля
+	{
+		"Kill Effect"
+		{
+			"Test Effect"
+			{
+				"name" "explosion_core_05"
+				"file" "particles/explosions.pcf"
+				"type" "particle"
+				"slot" "kill"
+				"unique_id" "uid_particle_kill_test"
+				"price" "0"
+			}
+		}
+		
+		"Spawn Effect"
+		{
+			"Test Effect"
+			{
+				"name" "electrical_arc_01_system"
+				"file" "particles/electrical.pcf"
+				"type" "particle"
+				"slot" "spawn"
+				"unique_id" "uid_particle_spawn_test"
+				"price" "0"
+			}
+		}
+	}
+
+	"Pets"//Нужно выбрать или питомец сбоку или преследует игрока
 	{
 		"Pet"
 		{	
@@ -46,69 +508,220 @@
 			"spawn_delay"		"1.0"
 			"preview"			"1"
 			"type"				"pet"
-			"unique_id"			"uid_pet_1"
+			"unique_id"			"uid_pet_test"
 			"price"				"0"
 		}
 	}
-	
-	"Tracer"
-	{
-		"Rainbow"
-		{
-			"color"				"0 0 125"
-			"rainbow"			"1"
-			"price"				"0"
-			"type"				"tracer"
-			"unique_id"			"uid_tracer_blue"
-		}
-	}
 
-	"Grenade Skins"
+	"Respawn"
 	{
-		"HE Grenade"
+		"Instant Respawn"
 		{
-			"Orange"
-			{
-				"model" "models/props/cs_italy/orange.mdl"
-				"grenade" "hegrenade"
-				"preview" "1"
-				"price" "60"
-				"type" "grenadeskin"
-			}
-
-			"Tortoise"
-			{
-				"model" "models/props/de_tides/vending_turtle.mdl"
-				"grenade" "hegrenade"
-				"price" "60"
-				"preview" "1"
-				"type" "grenadeskin"
-			}
+			"price" "0"
+			"type" "respawn"
+			"unique_id" "uid_respawn_instant"
 		}
 		
-		"Flashbang"
+		"Delayed Respawn"
+		{
+			"delay" "5"
+			"price" "0"
+			"type" "respawn"
+			"unique_id" "uid_respawn_delayed"
+		}
+	}
+
+	"Hats"
+	{
+		"Test Hat"
 		{	
-			"Banana"
-			{
-				"model" "models/props/cs_italy/bananna.mdl"
-				"grenade" "flashbang"
-				"price" "60"
-				"preview" "1"
-				"type" "grenadeskin"
-			}
+			"model"				"models/player/t_leet.mdl"
+			"position"			"0.0 -1.0 12.1"
+			"angles"			"0.0 0.0 0.0"
+			"type"				"hat"
+			"unique_id"			"uid_hat_test"
+			"preview"			"1"
+			"bonemerge"			"0"
+			"team"				"4"
+			"slot"				"1"
+			"attachment"		"forward"
+			"price"				"0"
+		}
+	}
+
+	"Player Skins"
+	{
+		"Test CT Skin"
+		{
+			"model" "models/player/t_leet.mdl"
+			"team" "3"
+			"type" "playerskin"
+			"unique_id" "uid_playerskin_ct"
+			"price" "0"
 		}
 		
-		"Smokegrenade"
+		"Test T Skin"
 		{
-			"Watermelon"
+			"model" "models/player/t_leet.mdl"
+			"team" "2"
+			"type" "playerskin"
+			"unique_id" "uid_playerskin_t"
+			"price" "0"
+		}
+	}
+
+	"Sounds"//Не работает
+	{
+		"Test Sound"
+		{
+			"Test Sound 1"
 			{
-				"model" "models/props_junk/watermelon01.mdl"
-				"grenade" "smokegrenade"
-				"price" "60"
-				"preview" "1"
-				"type" "grenadeskin"
+				"sound" "buttons/button9.wav"
+				"unique_id" "uid_saysound_test1"
+				"price" "0"
 			}
 		}
 	}
 
+	"Speed"
+	{
+		"Speed Boost 30s"
+		{
+			"speed" "1.5"
+			"duration" "30"
+			"price" "0"
+			"type" "speed"
+			"unique_id" "uid_speed_boost_30s"
+		}
+		
+		"Super Speed 60s"
+		{
+			"speed" "2.0"
+			"duration" "60"
+			"price" "0"
+			"type" "speed"
+			"unique_id" "uid_speed_super_60s"
+		}
+	}
+
+	"Sprays"//Не тестировалось, не работает
+	{
+		"Default Spray"
+		{
+			"material" "materials/sprites/laserbeam.vmt"
+			"unique_id" "uid_spray_default"
+			"type" "spray"
+			"price" "0"
+		}
+		
+		"Test Spray"
+		{
+			"material" "materials/sprites/laserbeam.vmt"
+			"unique_id" "uid_spray_test"
+			"type" "spray"
+			"price" "0"
+		}
+	}
+
+	"Trails"
+	{
+		"Default Trail"
+		{
+			"material" "materials/sprites/laserbeam.vmt"
+			"price" "0"
+			"color" "255 255 255 255"
+			"type" "trail"
+			"unique_id" "uid_trail_default"
+		}
+	}
+
+	"Vips"//Не тестировалось
+	{
+		"Test VIP"
+		{
+			"flags" "a"
+			"type" "admin"
+			"group" "TestVIP"
+			"immunity" "10"
+			"unique_id" "uid_vip_test"
+			"price" "0"
+		}
+	}
+
+	"Watergun"
+	{
+		"Basic Watergun"
+		{
+			"damage" "10"
+			"range" "500"
+			"cooldown" "0.5"
+			"price" "0"
+			"type" "watergun"
+			"unique_id" "uid_watergun_basic"
+		}
+		
+		"Powerful Watergun"
+		{
+			"damage" "25"
+			"range" "800"
+			"cooldown" "0.3"
+			"price" "0"
+			"type" "watergun"
+			"unique_id" "uid_watergun_powerful"
+		}
+	}
+
+	"Weapons"
+	{
+		"AK-47"
+		{
+			"weapon" "weapon_ak47"
+			"price" "0"
+			"type" "weapon"
+			"unique_id" "uid_weapon_ak47"
+		}
+		
+		"M4A1"
+		{
+			"weapon" "weapon_m4a1"
+			"price" "0"
+			"type" "weapon"
+			"unique_id" "uid_weapon_m4a1"
+		}
+		
+		"AWP"
+		{
+			"weapon" "weapon_awp"
+			"price" "0"
+			"type" "weapon"
+			"unique_id" "uid_weapon_awp"
+		}
+	}
+
+	"Weapon Colors"
+	{
+		"Red Weapon"
+		{
+			"color" "255 0 0 255"
+			"price" "0"
+			"type" "weaponcolor"
+			"unique_id" "uid_weaponcolor_red"
+		}
+		
+		"Blue Weapon"
+		{
+			"color" "0 0 255 255"
+			"price" "0"
+			"type" "weaponcolor"
+			"unique_id" "uid_weaponcolor_blue"
+		}
+		
+		"Green Weapon"
+		{
+			"color" "0 255 0 255"
+			"price" "0"
+			"type" "weaponcolor"
+			"unique_id" "uid_weaponcolor_green"
+		}
+	}
 }
