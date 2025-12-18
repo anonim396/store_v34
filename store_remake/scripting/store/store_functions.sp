@@ -31,18 +31,30 @@ void StoreLogMessage(int client = 0, int level, const char[] message, any ...)
 	if (g_eCvars[g_cvarPluginsLogging].aCache == 2)
 	{
 		char sQuery[1024];
-		if (g_bMySQL)
+		char driver[12];
+		SQL_ReadDriver(g_hDatabase, driver, sizeof(driver));
+		
+		if (driver[0] == 'm') // mysql
 		{
 			SQL_FormatQuery(g_hDatabase, sQuery, sizeof(sQuery),
-				"INSERT IGNORE INTO store_plugin_logs (level, player_id, reason, date, name, steam) " ...
-				"VALUES ('%s', %i, '%s', CURRENT_TIMESTAMP, '%s', '%s')",
+				"INSERT IGNORE INTO store_plugin_logs (level, player_id, reason, date, name, steam) "
+				... "VALUES ('%s', %i, '%s', CURRENT_TIMESTAMP, '%s', '%s')",
 				sLevel, client > 0 ? g_eClients[client].iId_Client : 0, sReason, name, steamid);
 		}
-		else
+		else if (driver[0] == 'p') // postgresql
+		{
+			// PostgreSQL не поддерживает INSERT IGNORE, используем ON CONFLICT
+			SQL_FormatQuery(g_hDatabase, sQuery, sizeof(sQuery),
+				"INSERT INTO store_plugin_logs (level, player_id, reason, date, name, steam) "
+				... "VALUES ('%s', %i, '%s', CURRENT_TIMESTAMP, '%s', '%s') "
+				... "ON CONFLICT (id) DO NOTHING",
+				sLevel, client > 0 ? g_eClients[client].iId_Client : 0, sReason, name, steamid);
+		}
+		else // sqlite
 		{
 			SQL_FormatQuery(g_hDatabase, sQuery, sizeof(sQuery),
-				"INSERT INTO store_plugin_logs (level, player_id, reason, date, name, steam) " ...
-				"VALUES ('%s', %i, '%s', CURRENT_TIMESTAMP, '%s', '%s')",
+				"INSERT OR IGNORE INTO store_plugin_logs (level, player_id, reason, date, name, steam) "
+				... "VALUES ('%s', %i, '%s', CURRENT_TIMESTAMP, '%s', '%s')",
 				sLevel, client > 0 ? g_eClients[client].iId_Client : 0, sReason, name, steamid);
 		}
 		SQL_TQuery(g_hDatabase, SQLCallback_Void_Error, sQuery);
@@ -237,11 +249,41 @@ public void Store_SaveClientData(int client)
 	return;
 	
 	char m_szQuery[256];
-	if(g_bMySQL)
-	Format(STRING(m_szQuery), "UPDATE store_players SET `credits`=GREATEST(`credits`+%d,0), `date_of_last_join`=%d, `name`='%s' WHERE `id`=%d", g_eClients[client].iCredits-g_eClients[client].iOriginalCredits, g_eClients[client].iDateOfLastJoin, g_eClients[client].szNameEscaped, g_eClients[client].iId_Client);
-	else
-	Format(STRING(m_szQuery), "UPDATE store_players SET `credits`=MAX(`credits`+%d,0), `date_of_last_join`=%d, `name`='%s' WHERE `id`=%d", g_eClients[client].iCredits-g_eClients[client].iOriginalCredits, g_eClients[client].iDateOfLastJoin, g_eClients[client].szNameEscaped, g_eClients[client].iId_Client);
-	
+	char driver[12];
+	SQL_ReadDriver(g_hDatabase, driver, sizeof(driver));
+
+	int creditDiff = g_eClients[client].iCredits - g_eClients[client].iOriginalCredits;
+
+	if(driver[0] == 'm') // mysql
+	{
+		Format(STRING(m_szQuery), 
+			"UPDATE store_players SET `credits`=GREATEST(`credits`+%d,0), "
+			... "`date_of_last_join`=%d, `name`='%s' WHERE `id`=%d", 
+			creditDiff, 
+			g_eClients[client].iDateOfLastJoin, 
+			g_eClients[client].szNameEscaped, 
+			g_eClients[client].iId_Client);
+	}
+	else if(driver[0] == 'p') // postgresql
+	{
+		Format(STRING(m_szQuery), 
+			"UPDATE store_players SET credits = GREATEST(credits + %d, 0), "
+			... "date_of_last_join = %d, name = '%s' WHERE id = %d", 
+			creditDiff, 
+			g_eClients[client].iDateOfLastJoin, 
+			g_eClients[client].szNameEscaped, 
+			g_eClients[client].iId_Client);
+	}
+	else // sqlite
+	{
+		Format(STRING(m_szQuery), 
+			"UPDATE store_players SET `credits`=MAX(`credits`+%d,0), "
+			... "`date_of_last_join`=%d, `name`='%s' WHERE `id`=%d", 
+			creditDiff, 
+			g_eClients[client].iDateOfLastJoin, 
+			g_eClients[client].szNameEscaped, 
+			g_eClients[client].iId_Client);
+	}
 	g_eClients[client].iOriginalCredits = g_eClients[client].iCredits;
 	
 	SQL_TVoid(g_hDatabase, m_szQuery);

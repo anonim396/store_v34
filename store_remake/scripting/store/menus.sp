@@ -10,7 +10,7 @@
 //////////////////////////////
 void DisplayStoreMenu(int client,int parent=-1,int last=-1)
 {
-	if(!client || !IsClientInGame(client))
+	if(!client || !IsValidClient(client))
 		return;
 
 	g_iMenuNum[client] = 1;

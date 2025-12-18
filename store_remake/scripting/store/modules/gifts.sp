@@ -1,10 +1,9 @@
-// Если Gifts не найден, выдаем ошибку компиляции
-#if !defined _gifts_included
-	#error "This module requires Chat Processor. Please install it from: https://github.com/azalty/sm-zeph-gifts"
-#endif
-
-#include <sourcemod>
+// Если Gifts не найден, выдаем предупреждение
 #include <gifts>
+#if !defined _gifts_included
+	#warning "This module requires Gifts plugin. Please install it from: https://github.com/azalty/sm-zeph-gifts"
+	public void Gifts_OnPluginStart(){}
+#else
 
 int g_cvarGiftsEnabled;
 int g_cvarGiftsMinimum;
@@ -36,9 +35,9 @@ public Action Command_Drop(int client, int args)
 	{
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "You dont have permission CM");
-			C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "You dont have permission");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "You dont have permission");
 		#else
-			PrintToChat(client, "%s %t", g_sChatPrefix_CM, "You dont have permission");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "You dont have permission");
 		#endif
 		return Plugin_Handled;
 	}
@@ -47,9 +46,9 @@ public Action Command_Drop(int client, int args)
 	{
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Gift Disabled CM");
-			C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Gift Disabled");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Gift Disabled");
 		#else
-			PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Gift Disabled");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Gift Disabled");
 		#endif
 		return Plugin_Handled;
 	}
@@ -58,9 +57,9 @@ public Action Command_Drop(int client, int args)
 	{
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Must be Alive CM");
-			C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Must be Alive");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Must be Alive");
 		#else
-			PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Must be Alive");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Must be Alive");
 		#endif
 		return Plugin_Handled;
 	}
@@ -73,9 +72,9 @@ public Action Command_Drop(int client, int args)
 	{
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Invalid Amount CM");
-			C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Invalid Amount");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Invalid Amount");
 		#else
-			PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Invalid Amount");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Invalid Amount");
 		#endif
 		return Plugin_Handled;
 	}
@@ -89,9 +88,9 @@ public Action Command_Drop(int client, int args)
 
 	#if defined _clientmod_included
 		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Gift Dropped CM", m_iCredits);
-		C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Gift Dropped", m_iCredits);
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Gift Dropped", m_iCredits);
 	#else
-		PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Credit Gift Dropped", m_iCredits);
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Credit Gift Dropped", m_iCredits);
 	#endif
 
 	Store_LogMessage(client, -m_iCredits, "Dropped %d credits on the ground", m_iCredits);
@@ -180,9 +179,9 @@ public void Gifts_OnPickUp(int client)
 	
 	#if defined _clientmod_included
 		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Credit Picked CM", m_iCredits);
-		C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Credit Picked", m_iCredits);
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Gift Credit Picked", m_iCredits);
 	#else
-		PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Credit Picked", m_iCredits);
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Gift Credit Picked", m_iCredits);
 	#endif
 	
 }
@@ -210,9 +209,9 @@ public void Gifts_OnPickUpItem(int client, int data, int owner)
 	
 	#if defined _clientmod_included
 		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Item Picked CM", m_eItem.szName, m_eHandler.szType);
-		C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Item Picked", m_eItem.szName, m_eHandler.szType);
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Gift Item Picked", m_eItem.szName, m_eHandler.szType);
 	#else
-		PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Item Picked", m_eItem.szName, m_eHandler.szType);
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Gift Item Picked", m_eItem.szName, m_eHandler.szType);
 	#endif
 
 	Store_LogMessage(client, 0, "Picked up a gift containing the following item: %s", m_eItem.szName);
@@ -227,10 +226,11 @@ public void Gifts_OnPickUpCredit(int client, int data, int owner)
 	
 	#if defined _clientmod_included
 		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Credit Picked CM", data);
-		C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Credit Picked", data);
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Gift Credit Picked", data);
 	#else
-		PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Gift Credit Picked", data);
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Gift Credit Picked", data);
 	#endif
 
 	Store_LogMessage(client, data, "Picked up a gift containing %d credits", data);
 }
+#endif

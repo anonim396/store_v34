@@ -17,9 +17,8 @@ public void SQLCallback_Connect(Handle owner, Handle hndl, const char[] error, a
 		char m_szDriver[2];
 		SQL_ReadDriver(g_hDatabase, STRING(m_szDriver));
 
-		if(m_szDriver[0] == 'm')
+		if(m_szDriver[0] == 'm') // mysql
 		{
-			g_bMySQL = true;
 			SQL_TVoid(g_hDatabase, "CREATE TABLE IF NOT EXISTS `store_players` (\
 										  `id` int(11) NOT NULL AUTO_INCREMENT,\
 										  `authid` varchar(32) NOT NULL,\
@@ -87,7 +86,69 @@ public void SQLCallback_Connect(Handle owner, Handle hndl, const char[] error, a
 										  PRIMARY KEY (`id`)\
 										) ENGINE=InnoDB AUTO_INCREMENT=0 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci");
 		}
-		else
+		else if(m_szDriver[0] == 'p') // postgresql
+		{
+			SQL_TVoid(g_hDatabase, "CREATE TABLE IF NOT EXISTS store_players (\
+										  id SERIAL PRIMARY KEY,\
+										  authid VARCHAR(32) UNIQUE NOT NULL,\
+										  name VARCHAR(64) NOT NULL,\
+										  credits INTEGER NOT NULL DEFAULT 0,\
+										  date_of_join INTEGER NOT NULL,\
+										  date_of_last_join INTEGER NOT NULL\
+										)");
+			
+			SQL_TVoid(g_hDatabase, "CREATE TABLE IF NOT EXISTS store_items (\
+										  id SERIAL PRIMARY KEY,\
+										  player_id INTEGER NOT NULL,\
+										  type VARCHAR(16) NOT NULL,\
+										  unique_id VARCHAR(256) NOT NULL,\
+										  date_of_purchase INTEGER NOT NULL,\
+										  date_of_expiration INTEGER NOT NULL,\
+										  price_of_purchase INTEGER DEFAULT 0\
+										)");
+			
+			SQL_TVoid(g_hDatabase, "CREATE TABLE IF NOT EXISTS store_equipment (\
+										  player_id INTEGER NOT NULL,\
+										  type VARCHAR(16) NOT NULL,\
+										  unique_id VARCHAR(256) NOT NULL,\
+										  slot INTEGER NOT NULL,\
+										  PRIMARY KEY (player_id, type)\
+										)");
+			
+			SQL_TVoid(g_hDatabase, "CREATE TABLE IF NOT EXISTS store_logs (\
+										  id SERIAL PRIMARY KEY,\
+										  player_id INTEGER NOT NULL,\
+										  credits INTEGER NOT NULL,\
+										  reason VARCHAR(256) NOT NULL,\
+										  date TIMESTAMP DEFAULT CURRENT_TIMESTAMP\
+										)");
+			
+			SQL_TVoid(g_hDatabase, "CREATE TABLE IF NOT EXISTS store_plugin_logs (\
+										  id SERIAL PRIMARY KEY,\
+										  level VARCHAR(8) NOT NULL,\
+										  name VARCHAR(64) NOT NULL DEFAULT '',\
+										  steam VARCHAR(64) NOT NULL DEFAULT '',\
+										  player_id INTEGER NOT NULL,\
+										  reason VARCHAR(256) NOT NULL,\
+										  date TIMESTAMP DEFAULT CURRENT_TIMESTAMP\
+										)");
+			
+			SQL_TVoid(g_hDatabase, "CREATE TABLE IF NOT EXISTS store_menu (\
+										  id SERIAL PRIMARY KEY,\
+										  parent_id INTEGER NOT NULL DEFAULT -1,\
+										  item_price INTEGER NOT NULL,\
+										  item_type VARCHAR(64) NOT NULL,\
+										  item_flag VARCHAR(64) NOT NULL,\
+										  item_name VARCHAR(64) NOT NULL,\
+										  additional_info TEXT NOT NULL,\
+										  item_status SMALLINT NOT NULL,\
+										  supported_game VARCHAR(64) NOT NULL\
+										)");
+			
+			// Устанавливаем кодировку UTF-8 для PostgreSQL
+			SQL_TVoid(g_hDatabase, "SET client_encoding = 'UTF8'");
+		}
+		else // sqlite (по умолчанию)
 		{
 			SQL_TVoid(g_hDatabase, "CREATE TABLE IF NOT EXISTS `store_players` (\
 										  `id` INTEGER PRIMARY KEY AUTOINCREMENT,\

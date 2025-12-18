@@ -34,9 +34,9 @@ public int Respawn_Equip(int client, int id)
 	{
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Respawn Round Limit CM");
-			C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Respawn Round Limit");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Respawn Round Limit");
 		#else
-			PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Respawn Round Limit");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Respawn Round Limit");
 		#endif
 		return 1;
 	}

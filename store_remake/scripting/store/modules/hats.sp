@@ -227,6 +227,7 @@ void CreateHat(int client,int itemid=-1,int slot=0)
 					return;
 			}
 			else
+			{
 				#if defined _clientmod_included
 					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Unsupported Model CM", g_eHats[m_iData].szAttachment, sModel);
 					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Unsupported Model", g_eHats[m_iData].szAttachment, sModel);
@@ -234,6 +235,7 @@ void CreateHat(int client,int itemid=-1,int slot=0)
 					PrintToChat(client, "%s %t", g_sChatPrefix, "Unsupported Model", g_eHats[m_iData].szAttachment, sModel);
 				#endif
 				return;
+			}
 		}
 		
 		// Calculate the final position and angles for the hat
@@ -313,9 +315,13 @@ public Action Hook_SetTransmit(int ent, int client)
 		if(GetFeatureStatus(FeatureType_Native, "IsPlayerInTP")==FeatureStatus_Available)
 			if(IsPlayerInTP(client))
 				return Plugin_Continue;
+			else
+				return Plugin_Handled;
 	#else
 		if (GetEntProp(client, Prop_Send, "m_iObserverMode") != 0)
 			return Plugin_Continue;
+		else
+			return Plugin_Handled;
 	#endif
 
 	for(int i=0;i<STORE_MAX_SLOTS;++i)
@@ -381,18 +387,18 @@ public void Store_OnClientModelChanged(int client, char[] model)
 			{
 				#if defined _clientmod_included
 					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Enabled CM");
-					C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Enabled");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Override Enabled");
 				#else
-					PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Enabled");
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Override Enabled");
 				#endif
 			}
 			else
 			{
 				#if defined _clientmod_included
 					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Disabled CM");
-					C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Disabled");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Override Disabled");
 				#else
-					PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Override Disabled");
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Override Disabled");
 				#endif
 			}
 	}

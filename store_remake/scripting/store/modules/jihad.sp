@@ -77,9 +77,9 @@ public int Jihad_Equip(int client, int id)
 	{
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Jihad Wrong Team CM");
-			C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Jihad Wrong Team");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Jihad Wrong Team");
 		#else
-			PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Jihad Wrong Team");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Jihad Wrong Team");
 		#endif
 		return 1;
 	}
@@ -118,9 +118,9 @@ public Action Jihad_TriggerBomb(Handle timer, DataPack data)
 	{
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Jihad Failed CM");
-			C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Jihad Failed");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Jihad Failed");
 		#else
-			PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Jihad Failed");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Jihad Failed");
 		#endif
 		return Plugin_Stop;
 	}

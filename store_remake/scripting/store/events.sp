@@ -27,7 +27,6 @@ public Action Event_PlayerDeath(Event event, char[] name, bool dontBroadcast)
 
 	if(g_eCvars[g_cvarCreditAmountKill].aCache)
 	{
-		//g_eClients[attacker][iCredits] += g_eCvars[g_cvarCreditAmountKill].aCache;
 		g_eClients[attacker].iCredits += GetMultipliedCredits(attacker, g_eCvars[g_cvarCreditAmountKill].aCache);
 		if(g_eCvars[g_cvarCreditMessages].aCache)
 		{
@@ -50,10 +49,6 @@ public Action Event_PlayerSpawn(Event event, char[] name, bool dontBroadcast)
 
 	if(!IsClientInGame(client))
 		return Plugin_Continue;
-
-#if !defined STANDALONE_BUILD
-	//Health_OnPlayerSpawn(client);
-#endif
 		
 	return Plugin_Continue;
 }
@@ -63,7 +58,7 @@ public Action OnClientChangeName(Handle event, const char[] name, bool dontBroad
 	int client = GetClientOfUserId(GetEventInt(event, "userid"));
 	if (!IsClientConnected(client) || IsFakeClient(client))
 		return Plugin_Continue;
-	if (IsClientConnected(client))
+	if (IsClientConnected(client) && g_hDatabase != null)
 	{
 		char clientnewname[MAX_NAME_LENGTH];
 		GetEventString(event, "newname", clientnewname, sizeof(clientnewname));
@@ -72,10 +67,28 @@ public Action OnClientChangeName(Handle event, const char[] name, bool dontBroad
 		
 		char query[10000];
 		{
-			Format(query, sizeof(query), "UPDATE `store_players` SET name='%s' WHERE authid = '%s';", Eclientnewname, g_eClients[client].szAuthId);
+			char m_szDriver[2];
+			SQL_ReadDriver(g_hDatabase, STRING(m_szDriver));
+
+			if(m_szDriver[0] == 'm') // mysql
+			{
+				FormatEx(query, sizeof(query), "UPDATE `store_players` SET `name` = '%s' WHERE `authid` = '%s';", Eclientnewname, g_eClients[client].szAuthId);
+			}
+			else if(m_szDriver[0] == 'p') // postgresql
+			{
+				FormatEx(query, sizeof(query),"UPDATE store_players SET name = '%s' WHERE authid = '%s';", Eclientnewname, g_eClients[client].szAuthId);
+			}
+			else // sqlite (по умолчанию)
+			{
+				FormatEx(query, sizeof(query), "UPDATE store_players SET name = '%s' WHERE authid = '%s';", Eclientnewname, g_eClients[client].szAuthId);
+			}
 			
 			SQL_TQuery(g_hDatabase, SQLCallback_NoError, query);
 		}
+	}
+	else
+	{
+		LogMessage("[Store] (OnClientChangeName) Database not connected or deferring name update");
 	}
 	return Plugin_Continue;
 }

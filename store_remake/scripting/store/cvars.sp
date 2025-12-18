@@ -94,7 +94,6 @@ void Store_Cvars_OnPluginStart()
 	#if defined _clientmod_included
 	g_cvarChatTagCM.AddChangeHook(OnSettingChanged);
 	#endif
-	
 	g_cvarChatTag.AddChangeHook(OnSettingChanged);
 	
 	// After every module was loaded we are ready to generate the cfg

@@ -26,7 +26,10 @@ void Store_Commands_OnPluginStart()
 public Action Command_Say(int client, const char[] command,int argc)
 {
 	if(argc > 0)
-	{
+	{		
+		if(!client || !IsValidClient(client))
+			return Plugin_Continue;
+		
 		char m_szArg[65];
 		GetCmdArg(1, STRING(m_szArg));
 		if(m_szArg[0] == g_iPublicChatTrigger)
@@ -47,6 +50,9 @@ public Action Command_Say(int client, const char[] command,int argc)
 
 public Action Command_Store(int client,int params)
 {
+	if(!client || !IsValidClient(client))
+			return Plugin_Continue;
+
 	if(g_eCvars[g_cvarRequiredFlag].aCache && !GetClientPrivilege(client, g_eCvars[g_cvarRequiredFlag].aCache))
 	{
 		#if defined _clientmod_included
@@ -96,6 +102,9 @@ public Action Command_Store(int client,int params)
 
 public Action Command_Inventory(int client,int params)
 {
+	if(!client || !IsValidClient(client))
+			return Plugin_Continue;
+
 	if(g_eCvars[g_cvarRequiredFlag].aCache && !GetClientPrivilege(client, g_eCvars[g_cvarRequiredFlag].aCache))
 	{
 		#if defined _clientmod_included
@@ -128,6 +137,9 @@ public Action Command_Inventory(int client,int params)
 
 public Action Command_Gift(int client,int params)
 {
+	if(!client || !IsValidClient(client))
+			return Plugin_Continue;
+
 	if(!g_eCvars[g_cvarCreditGiftEnabled].aCache)
 	{
 		#if defined _clientmod_included
@@ -208,6 +220,9 @@ public Action Command_Gift(int client,int params)
 
 public Action Command_GiveCredits(int client,int params)
 {
+	if(!client || !IsValidClient(client))
+			return Plugin_Continue;
+
 	if(client && !GetClientPrivilege(client, g_eCvars[g_cvarAdminFlag].aCache))
 	{
 		#if defined _clientmod_included
@@ -237,9 +252,19 @@ public Action Command_GiveCredits(int client,int params)
 		if(m_iReceiver == 0)
 		{
 			char m_szQuery[512];
-			if(g_bMySQL)
+			char driver[12];
+			SQL_ReadDriver(g_hDatabase, STRING(driver));
+			if(driver[0] == 'm') // mysql
 			SQL_FormatQuery(g_hDatabase, STRING(m_szQuery), "INSERT IGNORE INTO store_players (authid, credits) VALUES ('%s', %d) ON DUPLICATE KEY UPDATE credits=credits+%d", m_szTmp[8], m_iCredits, m_iCredits);
-			else
+			else if(driver[0] == 'p') // postgresql
+			{
+				// PostgreSQL использует ON CONFLICT для обработки дубликатов
+				SQL_FormatQuery(g_hDatabase, STRING(m_szQuery), 
+					"INSERT INTO store_players (authid, credits) VALUES ('%s', %d) " ...
+					"ON CONFLICT (authid) DO UPDATE SET credits = store_players.credits + %d", 
+					m_szTmp[8], m_iCredits, m_iCredits);
+			}
+			else // sqlite
 			{
 				SQL_FormatQuery(g_hDatabase, STRING(m_szQuery), "INSERT OR IGNORE INTO store_players (authid) VALUES ('%s')", m_szTmp[8]);
 				SQL_TVoid(g_hDatabase, m_szQuery);
@@ -375,6 +400,9 @@ public Action Command_GiveCredits(int client,int params)
 
 public Action Command_ResetPlayer(int client,int params)
 {
+	if(!client || !IsValidClient(client))
+			return Plugin_Continue;
+
 	if(client && !GetClientPrivilege(client, g_eCvars[g_cvarAdminFlag].aCache))
 	{
 		#if defined _clientmod_included
@@ -458,6 +486,9 @@ public Action Command_ResetPlayer(int client,int params)
 
 public Action Command_Credits(int client,int params)
 {	
+	if(!client || !IsValidClient(client))
+			return Plugin_Continue;
+
 	if(g_eClients[client].iCredits == -1 && g_eClients[client].iItems == -1)
 	{
 		#if defined _clientmod_included
@@ -528,7 +559,9 @@ public Action Command_CustomCredits(int params)
 
 public Action Command_ReloadConfig(int client, int args)
 {
-	
+	if(!client || !IsValidClient(client))
+			return Plugin_Continue;
+
 	if(g_eCvars[g_cvarConfirmation].aCache)
 	{
 		char buffer[128];
@@ -548,8 +581,8 @@ public Action Command_ReloadConfig(int client, int args)
 
 public Action Command_ResetLoadout(int client, int args)
 {
-	if(!client)
-	return Plugin_Handled;
+	if(!client || !IsValidClient(client))
+			return Plugin_Continue;
 	
 	if((g_eClients[client].iCredits == -1 && g_eClients[client].iItems == -1) || !g_eClients[client].bLoaded)
 	{

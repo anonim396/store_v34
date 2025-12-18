@@ -46,9 +46,9 @@ public int Godmode_Equip(int client, int id)
 	{
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Godmode Round Limit CM");
-			C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Godmode Round Limit");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Godmode Round Limit");
 		#else
-			PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Godmode Round Limit");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Godmode Round Limit");
 		#endif
 		return 1;
 	}
@@ -57,9 +57,9 @@ public int Godmode_Equip(int client, int id)
 	{
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Godmode Wrong Team CM");
-			C_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Godmode Wrong Team");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Godmode Wrong Team");
 		#else
-			PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Godmode Wrong Team");
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Godmode Wrong Team");
 		#endif
 		return 1;
 	}

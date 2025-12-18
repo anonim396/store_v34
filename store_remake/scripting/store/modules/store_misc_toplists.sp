@@ -2,7 +2,6 @@ ConVar gc_iMaxShown;
 ConVar gc_iUpdateInterval;
 
 char g_sCreditsName[128] = "credits";
-
 char g_sMenuItem[64];
 char g_sMenuExit[64];
 
@@ -14,8 +13,9 @@ int g_iUpdateTime;
 #define TL_ITEMS 1
 #define TL_INV 2
 #define TL_INV_CREDITS 3
-// TODO? Equipt Worth?
-ArrayList g_aTopLists[4];
+#define TL_EQUIP_WORTH 4
+
+ArrayList g_aTopLists[5];
 
 public void TopLists_OnPluginStart()
 {
@@ -24,6 +24,7 @@ public void TopLists_OnPluginStart()
 	RegConsoleCmd("sm_topitems", Command_Items);
 	RegConsoleCmd("sm_topworth", Command_InventarWorth);
 	RegConsoleCmd("sm_toptotal", Command_InventarAndCreditsWorth);
+	RegConsoleCmd("sm_topequipped", Command_EquippedWorth);
 
 	AutoExecConfig_SetFile("toplist", "sourcemod/store");
 	AutoExecConfig_SetCreateFile(true);
@@ -35,17 +36,19 @@ public void TopLists_OnPluginStart()
 	AutoExecConfig_CleanFile();
 
 	g_aTopLists[TL_CREDITS] = new ArrayList();
+	g_aTopLists[TL_ITEMS] = new ArrayList();
 	g_aTopLists[TL_INV] = new ArrayList();
 	g_aTopLists[TL_INV_CREDITS] = new ArrayList();
-	g_aTopLists[TL_ITEMS] = new ArrayList();
+	g_aTopLists[TL_EQUIP_WORTH] = new ArrayList();
 }
 
 void Menu_TopLists(int client)
 {
-	Menu menu = new Menu(Handler_TopLists);
+	Menu menu = new Menu(Handler_TopLists, MENU_ACTIONS_ALL);
 
-	char sBuffer[128];
-	int i_Credits = Store_GetClientCredits(client); // Get credits
+	char sBuffer[256];
+	int i_Credits = Store_GetClientCredits(client);
+	
 	Format(sBuffer, sizeof(sBuffer), "%t - %s\n%t", "Title Store", "toplists", "Title Credits", i_Credits);
 	menu.SetTitle(sBuffer);
 
@@ -57,9 +60,11 @@ void Menu_TopLists(int client)
 	menu.AddItem("2", sBuffer);
 	Format(sBuffer, sizeof(sBuffer), "%t", "Top Credits Inv Worth");
 	menu.AddItem("3", sBuffer);
+	Format(sBuffer, sizeof(sBuffer), "%t", "Top Equipped Worth");
+	menu.AddItem("4", sBuffer);
 
-	menu.ExitBackButton = true;
 	menu.ExitButton = true;
+	menu.ExitBackButton = true;
 	menu.Display(client, MENU_TIME_FOREVER);
 }
 
@@ -67,14 +72,8 @@ public int Handler_TopLists(Menu menu, MenuAction action, int client, int param2
 {
 	if (action == MenuAction_Select)
 	{
-		if(param2 == 0)
-			g_iList[client] = TL_CREDITS;
-		else if(param2 == 1)
-			g_iList[client] = TL_ITEMS;
-		else if(param2 == 2)
-			g_iList[client] = TL_INV;
-		else if(param2 == 3)
-			g_iList[client] = TL_INV_CREDITS;
+		g_iList[client] = param2;
+		g_iPage[client] = 0;
 		Panel_Credits(client, param2);
 	}
 	else if (action == MenuAction_Cancel)
@@ -200,27 +199,92 @@ public Action Command_InventarAndCreditsWorth(int client, int args)
 	return Plugin_Handled;
 }
 
+public Action Command_EquippedWorth(int client, int args)
+{
+	if (!client)
+	{
+		ReplyToCommand(client, "%s %t", g_sChatPrefix, "Command is in-game only");
+		return Plugin_Handled;
+	}
+
+	if (gc_iUpdateInterval.IntValue < GetTime() - g_iUpdateTime)
+	{
+		TopLists_OnMapStart();
+	}
+
+	g_iList[client] = TL_EQUIP_WORTH;
+	Panel_Credits(client, TL_EQUIP_WORTH);
+
+	return Plugin_Handled;
+}
+
 public void TopLists_OnMapStart()
 {
-	//Query the latest toplists as a transaction
 	Transaction tnx = new Transaction();
 
-	char sBuffer[296];
-	Format(sBuffer, sizeof(sBuffer), "SELECT name, credits FROM store_players ORDER BY credits DESC LIMIT %i;", gc_iMaxShown.IntValue);
+	char sDriver[16];
+	SQL_ReadDriver(g_hDatabase, sDriver, sizeof(sDriver));
+
+	char sBuffer[512];
+	int maxShown = gc_iMaxShown.IntValue;
+
+	Format(sBuffer, sizeof(sBuffer), 
+		"SELECT name, credits FROM store_players ORDER BY credits DESC LIMIT %d;",
+		maxShown);
 	tnx.AddQuery(sBuffer);
 
-	Format(sBuffer, sizeof(sBuffer), "SELECT player.name, COUNT(player_id) AS amount FROM store_players AS player INNER JOIN store_items AS item ON player.id = item.player_id GROUP BY player.name ORDER BY amount DESC LIMIT %i;", gc_iMaxShown.IntValue);
+	Format(sBuffer, sizeof(sBuffer), 
+		"SELECT player.name, COUNT(*) AS amount FROM store_players AS player "
+		... "INNER JOIN store_items AS item ON player.id = item.player_id "
+		... "GROUP BY player.name ORDER BY amount DESC LIMIT %d;",
+		maxShown);
 	tnx.AddQuery(sBuffer);
 
-	Format(sBuffer, sizeof(sBuffer), "SELECT player.name, SUM(item.price_of_purchase) AS worth, COUNT(item.price_of_purchase) AS amount FROM store_players AS player INNER JOIN store_items AS item ON player.id = item.player_id GROUP BY player.name ORDER BY worth DESC LIMIT %i;", gc_iMaxShown.IntValue);
+	Format(sBuffer, sizeof(sBuffer), 
+		"SELECT player.name, SUM(item.price_of_purchase) AS worth, COUNT(*) AS amount "
+		... "FROM store_players AS player "
+		... "INNER JOIN store_items AS item ON player.id = item.player_id "
+		... "GROUP BY player.name ORDER BY worth DESC LIMIT %d;",
+		maxShown);
 	tnx.AddQuery(sBuffer);
 
-	Format(sBuffer, sizeof(sBuffer), "SELECT player.name, (player.credits + SUM(item.price_of_purchase)) AS worth, COUNT(item.price_of_purchase) AS amount  FROM store_players AS player INNER JOIN store_items AS item ON player.id = item.player_id GROUP BY player.name ORDER BY worth DESC LIMIT %i;", gc_iMaxShown.IntValue);
+	if (StrEqual(sDriver, "mysql", false) || StrEqual(sDriver, "sqlite", false))
+	{
+		Format(sBuffer, sizeof(sBuffer), 
+			"SELECT player.name, "
+			... "(player.credits + IFNULL(SUM(item.price_of_purchase), 0)) AS worth, "
+			... "COUNT(item.id) AS amount "
+			... "FROM store_players AS player "
+			... "LEFT JOIN store_items AS item ON player.id = item.player_id "
+			... "GROUP BY player.name, player.credits ORDER BY worth DESC LIMIT %d;",
+			maxShown);
+	}
+	else if (StrEqual(sDriver, "postgresql", false))
+	{
+		Format(sBuffer, sizeof(sBuffer), 
+			"SELECT player.name, "
+			... "(player.credits + COALESCE(SUM(item.price_of_purchase), 0)) AS worth, "
+			... "COUNT(item.id) AS amount "
+			... "FROM store_players AS player "
+			... "LEFT JOIN store_items AS item ON player.id = item.player_id "
+			... "GROUP BY player.name, player.credits ORDER BY worth DESC LIMIT %d;",
+			maxShown);
+	}
 	tnx.AddQuery(sBuffer);
+
+	Format(sBuffer, sizeof(sBuffer),
+        "SELECT player.name, SUM(items.price_of_purchase) AS worth, "
+        ... "COUNT(*) AS amount FROM store_players AS player "
+        ... "INNER JOIN store_items AS items ON player.id = items.player_id "
+        ... "INNER JOIN store_equipment AS equip ON items.player_id = equip.player_id "
+        ... "AND items.type = equip.type AND items.unique_id = equip.unique_id "
+        ... "WHERE items.date_of_expiration = 0 OR items.date_of_expiration > %d "
+        ... "GROUP BY player.name ORDER BY worth DESC LIMIT %d;",
+        GetTime(), maxShown);
+    tnx.AddQuery(sBuffer);
 
 	Store_SQLTransaction(tnx, SQLTXNCallback_Success, 0);
 
-	//Save last update time
 	g_iUpdateTime = GetTime();
 }
 
@@ -248,6 +312,8 @@ public void SQLTXNCallback_Success(Database db, any data, int numQueries, DBResu
 			}
 			g_aTopLists[i].Clear();
 
+			int fieldCount = results[i].FieldCount;
+			
 			//Loop through the result rows and write them into DataPacks
 			while (results[i].FetchRow())
 			{
@@ -256,7 +322,8 @@ public void SQLTXNCallback_Success(Database db, any data, int numQueries, DBResu
 				results[i].FetchString(0, sName, sizeof(sName));
 				pack.WriteCell(results[i].FetchInt(1));
 				pack.WriteString(sName);
-				if (i > 1)
+				
+				if (fieldCount > 2)
 				{
 					pack.WriteCell(results[i].FetchInt(2));
 				}
@@ -275,7 +342,7 @@ void Panel_Credits(int client, int type)
 	char sName[256];
 	char sBuffer[256], sBuffer2[256];
 
-	int i_Credits = Store_GetClientCredits(client); // Get credits
+	int i_Credits = Store_GetClientCredits(client);
 
 	//Choose right Title for toplist
 	switch(type)
@@ -284,6 +351,7 @@ void Panel_Credits(int client, int type)
 		case TL_ITEMS: Format(sBuffer, sizeof(sBuffer), "%t", "Top Most Items");
 		case TL_INV: Format(sBuffer, sizeof(sBuffer), "%t", "Top Inv Worth"); 
 		case TL_INV_CREDITS: Format(sBuffer, sizeof(sBuffer), "%t", "Top Credits Inv Worth");
+		case TL_EQUIP_WORTH: Format(sBuffer, sizeof(sBuffer), "%t", "Top Equipped Worth");
 	}
 
 	//Display title
@@ -306,20 +374,29 @@ void Panel_Credits(int client, int type)
 			case TL_INV, TL_INV_CREDITS:
 			{
 				int items = pack.ReadCell();
+				//Format(sBuffer, sizeof(sBuffer), "%t", "items");
+				//Format(sBuffer, sizeof(sBuffer), "%t", "inv and inv credits", i + 1, sName, credits, g_sCreditsName, items, sBuffer);
 				Format(sBuffer, sizeof(sBuffer), "%t", "items");
-				Format(sBuffer, sizeof(sBuffer), "%t", "inv and inv credits", i + 1, sName, credits, g_sCreditsName, items, sBuffer);
+				Format(sBuffer2, sizeof(sBuffer2), "%t", "creditstoplist", g_sCreditsName);
+				Format(sBuffer, sizeof(sBuffer), "%i. %s:   %i %s", i + 1, sName, credits, type == TL_CREDITS ? sBuffer2 : sBuffer, items, sBuffer);
+			}
+			case TL_EQUIP_WORTH:
+			{
+				int items = pack.ReadCell();				
+				Format(sBuffer, sizeof(sBuffer), "%t", "items");
+				Format(sBuffer2, sizeof(sBuffer2), "%t", "creditstoplist", g_sCreditsName);
+				Format(sBuffer, sizeof(sBuffer), "%i. %s:   %i %s", i + 1, sName, credits, type == TL_CREDITS ? sBuffer2 : sBuffer, items, sBuffer);
 			}
 			case TL_CREDITS, TL_ITEMS:
 			{
 				Format(sBuffer, sizeof(sBuffer), "%t", "items");
 				Format(sBuffer2, sizeof(sBuffer2), "%t", "creditstoplist", g_sCreditsName);
-				Format(sBuffer, sizeof(sBuffer), "    %i. %s:   %i %s", i + 1, sName, credits, type == TL_CREDITS ? sBuffer2 : sBuffer);
+				Format(sBuffer, sizeof(sBuffer), "%i. %s:   %i %s", i + 1, sName, credits, type == TL_CREDITS ? sBuffer2 : sBuffer);
 			}
 		}
 		panel.DrawText(sBuffer);
 	}
 
-	//Panel footer
 	panel.DrawText(" ");
 	panel.CurrentKey = 7;
 	Format(sBuffer, sizeof(sBuffer), "%t", "Back");
@@ -357,42 +434,46 @@ public int Handler_Credits(Menu panel, MenuAction action, int client, int itemNu
 	{
 		switch(itemNum)
 		{
-			//Back
-			case 7:
-			{
-				EmitSoundToClient(client, g_sMenuExit);
-				switch(g_iPage[client])
-				{
-					//On first page? go back to toplists menu
-					case 0:
-					{
-						Menu_TopLists(client);
-					}
-					//Not on first page? go page back
-					default:
-					{
-						g_iPage[client] -= 5;
-						Panel_Credits(client, g_iList[client]);
-					}
-				}
-			}
-			//Display Next page
-			case 8:
-			{
-					g_iPage[client] += 5;
-					Panel_Credits(client, g_iList[client]);
-					EmitSoundToClient(client, g_sMenuItem);
-			}
-			//Close, reset page
 			case 9:
 			{
 				g_iPage[client] = 0;
 				EmitSoundToClient(client, g_sMenuExit);
 			}
+			
+			case 7:
+			{
+				EmitSoundToClient(client, g_sMenuExit);
+				if (g_iPage[client] > 0)
+				{
+					g_iPage[client] -= 5;
+					Panel_Credits(client, g_iList[client]);
+				}
+				else
+				{
+					Menu_TopLists(client);
+				}
+			}
+			
+			case 8:
+			{
+				g_iPage[client] += 5;
+				Panel_Credits(client, g_iList[client]);
+				EmitSoundToClient(client, g_sMenuItem);
+			}
 		}
 	}
-
-	delete panel;
+	else if (action == MenuAction_Cancel)
+	{
+		if (itemNum == MenuCancel_ExitBack)
+		{
+			Store_DisplayPreviousMenu(client);
+		}
+	}
+	else if (action == MenuAction_End)
+	{
+		delete panel;
+	}
+	
 	return 0;
 }
 

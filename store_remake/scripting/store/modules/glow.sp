@@ -138,11 +138,11 @@ public void CreateGlow(int client)
 		SetVariantString("!activator");
 		AcceptEntityInput(m_unEnt, "SetParent", client, m_unEnt, 0);
 		
-		SetVariantString("letthehungergamesbegin");
-		AcceptEntityInput(m_unEnt, "SetParentAttachmentMaintainOffset", m_unEnt, m_unEnt, 0);
+		//SetVariantString("letthehungergamesbegin");
+		//AcceptEntityInput(m_unEnt, "SetParentAttachmentMaintainOffset", m_unEnt, m_unEnt, 0);
 	  
 		g_unClientGlow[client] = EntIndexToEntRef(m_unEnt);
-		// Note: g_unLastAnimation is not defined in this module, возможно нужно убрать эту строку
+		// Note: g_unLastAnimation is not defined in this module
 		// g_unLastAnimation[client] = -1;
 	}
 }

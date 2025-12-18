@@ -1,6 +1,8 @@
 //////////////////////////////
 //			INCLUDES		//
 //////////////////////////////
+// Check after compiling Stack/heap size | 16384 cells * 4 = 65536 bytes
+#pragma dynamic 16384
 #pragma semicolon 1
 #pragma newdecls required
 
@@ -17,16 +19,6 @@
 #tryinclude <clientmod>		  
 #tryinclude <clientmod/multicolors>
 #tryinclude <chat-processor>
-
-//////////////////////////////
-//	CHANGE THIS IF YOU WANT	//
-//////////////////////////////
-
-char g_sChatPrefix[128];/*		=	"\x04[Store] \x01 ";*/
-
-#if defined _clientmod_included
-char g_sChatPrefix_CM[128];/*	=	"{forestgreen}[Store] {snow}";*/
-#endif
 
 //////////////////////////////
 //		GLOBAL VARIABLES	//
@@ -56,14 +48,19 @@ bool g_bInvMode[MAXPLAYERS+1];
 bool g_bIsInRecurringMenu[MAXPLAYERS + 1] = {false, ...};
 
 char g_iPublicChatTrigger;
-//int SilentChatTrigger = 0;
 int hTime;
+
+char g_sChatPrefix[128];
+#if defined _clientmod_included
+char g_sChatPrefix_CM[128];
+#endif
 
 Handle ReloadTimer = INVALID_HANDLE;
 
 //////////////////////////////
 //	Core Dependence Files	//
 //////////////////////////////
+#include "store/stocks.sp"
 #include "store/api.sp"
 #include "store/cvars.sp"
 #include "store/db.sp"
@@ -75,6 +72,7 @@ Handle ReloadTimer = INVALID_HANDLE;
 #include "store/forwards.sp"
 #include "store/store_functions.sp"
 #include "store/natives.sp"
+#include "store/preview.sp"
 
 //////////////////////////////
 //			MODULES			//
@@ -100,6 +98,7 @@ Handle ReloadTimer = INVALID_HANDLE;
 #include "store/modules/jihad.sp"
 #include "store/modules/knife.sp"
 #include "store/modules/lasersight.sp"
+#include "store/modules/link.sp"
 #include "store/modules/paintball.sp"
 #include "store/modules/pets.sp"
 #include "store/modules/playerskins.sp"
@@ -107,7 +106,6 @@ Handle ReloadTimer = INVALID_HANDLE;
 #include "store/modules/sounds.sp"
 #include "store/modules/speed.sp"
 #include "store/modules/sprays.sp"
-#include "store/modules/store_misc_toplists.sp"
 #include "store/modules/trails.sp"
 #include "store/modules/tracers.sp"
 #include "store/modules/watergun.sp"
@@ -123,7 +121,7 @@ public Plugin myinfo =
 	name = "Store - The Resurrection with preview system",
 	author = "Zephyrus, nuclear silo, AiDN, anonim396",
 	description = "A completely new Store system with preview rewritten (v34)",
-	version = "7.2.1",
+	version = "7.2.3",
 	url = "https://github.com/anonim396/store_v34"
 };
 
@@ -135,11 +133,12 @@ public void OnPluginStart()
 {
 	RegPluginLibrary("store_zephyrus");
 	
+	CreateDirectories();
+	
 	HookEvent("player_spawn", PlayerSpawn);
 	HookEvent("player_death", PlayerDeath);
 	HookEvent("player_team", PlayerTeam);
 	
-	// Setting default values
 	for(int i = 1; i <= MaxClients; ++i)
 	{
 		g_eClients[i].iCredits = -1;
@@ -148,21 +147,19 @@ public void OnPluginStart()
 		g_eClients[i].hCreditTimer = INVALID_HANDLE;
 	}
 	
-	// Load the config file
-	Store_Cvars_OnPluginStart(); // store/cvars.sp
-	Store_Admin_AdminMenuOnPluginStart(); // store/admin.sp
-	Store_Commands_OnPluginStart(); // store/commands.sp
-	Store_Events_OnPluginStart(); // store/events.sp
-	Store_Configs_ReloadConfig(); // store/configs.sp
+	Store_Cvars_OnPluginStart();			// store/cvars.sp
+	Store_Admin_AdminMenuOnPluginStart();	// store/admin.sp
+	Store_Commands_OnPluginStart();			// store/commands.sp
+	Store_Events_OnPluginStart();			// store/events.sp
+	Store_Configs_ReloadConfig();			// store/configs.sp
 	
-	// Load the translations file
 	LoadTranslations("store.phrases");
 	LoadTranslations("common.phrases");
 	
-	// Initiaze the fake package handler
 	g_iPackageHandler = Store_RegisterHandler("package", "", _, _, _, _, _);
 	
 	// Initialize the modules
+	
 	AdminGroup_OnPluginStart();
 	Attributes_OnPluginStart();
 	Betting_OnPluginStart();
@@ -184,6 +181,7 @@ public void OnPluginStart()
 	Jihad_OnPluginStart();
 	Knives_OnPluginStart();
 	LaserSight_OnPluginStart();
+	Link_OnPluginStart();
 	Paintball_OnPluginStart();
 	Pets_OnPluginStart();
 	PlayerSkins_OnPluginStart();
@@ -191,18 +189,13 @@ public void OnPluginStart()
 	Sounds_OnPluginStart();
 	Speed_OnPluginStart();
 	Sprays_OnPluginStart();
-	TopLists_OnPluginStart();
 	Trails_OnPluginStart();
 	Tracers_OnPluginStart();
 	Watergun_OnPluginStart();
 	WeaponColors_OnPluginStart();
 	Weapons_OnPluginStart();
 	
-	// Initialize handles
 	g_hCustomCredits = CreateArray(3);
-	
-	// Read core.cfg for chat triggers
-	ReadCoreCFG();
 	
 	LoopIngamePlayers(client)
 	{
@@ -217,59 +210,14 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max
 	Store_Natives_OnNativeInit(); // store/natives.sp
 	Store_Forward_OnForwardInit(); // store/forwards.sp
 	
-	//RegPluginLibrary("store");
+	RegPluginLibrary("store");
 	
 	return APLRes_Success;
-}
-
-public void Store_OnPreviewItem(int client, char[] type, int index)
-{
-	Function fn;
-
-	if (StrEqual(type, "pet"))
-	{
-		fn = GetFunctionByName(INVALID_HANDLE, "Pets_OnPreviewItem");
-		if (fn != INVALID_FUNCTION)
-		{
-			Call_StartFunction(INVALID_HANDLE, fn);
-			Call_PushCell(client);
-			Call_PushString(type);
-			Call_PushCell(index);
-			Call_Finish();
-		}
-	}
-	else if (StrEqual(type, "playerskin"))
-	{
-		fn = GetFunctionByName(INVALID_HANDLE, "PlayerSkin_OnPreviewItem");
-		if (fn != INVALID_FUNCTION)
-		{
-			Call_StartFunction(INVALID_HANDLE, fn);
-			Call_PushCell(client);
-			Call_PushString(type);
-			Call_PushCell(index);
-			Call_Finish();
-		}
-	}
-	else if (StrEqual(type, "hat"))
-	{
-		fn = GetFunctionByName(INVALID_HANDLE, "Hats_OnPreviewItem");
-		if (fn != INVALID_FUNCTION)
-		{
-			Call_StartFunction(INVALID_HANDLE, fn);
-			Call_PushCell(client);
-			Call_PushString(type);
-			Call_PushCell(index);
-			Call_Finish();
-		}
-	}
 }
 
 public void OnAllPluginsLoaded()
 {
 	Store_Configs_OnAllPluginLoaded(); // store/configs.sp
-	
-	//if(GetFeatureStatus(FeatureType_Native, "Donate_RegisterHandler")==FeatureStatus_Available)
-	//Donate_RegisterHandler("Store", Store_OnPaymentReceived);
 }
 
 public void OnPluginEnd()
@@ -277,9 +225,6 @@ public void OnPluginEnd()
 	LoopIngamePlayers(i)
 		if(g_eClients[i].bLoaded)
 			OnClientDisconnect(i);
-	
-	//if(GetFeatureStatus(FeatureType_Native, "Donate_RemoveHandler")==FeatureStatus_Available)
-	//Donate_RemoveHandler("Store");
 }
 
 public void OnLibraryAdded(const char[] name)
@@ -313,13 +258,9 @@ public void OnConfigsExecuted()
 	Jetpack_OnConfigsExecuted();
 	Jihad_OnConfigsExecuted();
 	
-	Store_Cvars_OnConfigsExecuted(); // store/cvars.sp
-	
-	// Call forward Store_OnConfigsExecuted
-	Store_Forward_OnConfigsExecuted(); // store/configs.sp
-	
-	// Connect to the database
-	Store_DB_ConfigsExecuted_ConnectDatabase(); // store/db.sp
+	Store_Cvars_OnConfigsExecuted();			// store/cvars.sp
+	Store_Forward_OnConfigsExecuted();			// store/configs.sp
+	Store_DB_ConfigsExecuted_ConnectDatabase();	// store/db.sp
 }
 
 public void OnGameFrame()
@@ -364,7 +305,6 @@ public void OnClientPostAdminCheck(int client)
 	if(IsFakeClient(client))
 		return;
 	Store_LoadClientInventory(client);
-	//CPSupport_OnClientPostAdminCheck(client);
 }
 
 public void OnClientPutInServer(int client)
@@ -382,7 +322,6 @@ public void OnClientDisconnect(int client)
 	
 	Betting_OnClientDisconnect(client);
 	Pets_OnClientDisconnect(client);
-	//CPSupport_OnClientDisconnect(client);
 	
 	Store_SaveClientData(client);
 	Store_SaveClientInventory(client);
@@ -443,65 +382,4 @@ public void PlayerTeam(Handle hEvent, char[] sEvName, bool bDontBroadcast)
 	{
 		Glow_PlayerTeam(client);
 	}
-}
-
-public void ReadCoreCFG()
-{
-	char m_szFile[PLATFORM_MAX_PATH];
-	BuildPath(Path_SM, m_szFile, sizeof(m_szFile), "configs/core.cfg");
-	
-	Handle hParser = SMC_CreateParser();
-	char error[128];
-	int line = 0;
-	int col = 0;
-	
-	SMC_SetReaders(hParser, Config_NewSection, Config_KeyValue, Config_EndSection);
-	SMC_SetParseEnd(hParser, Config_End);
-	
-	SMCError result = SMC_ParseFile(hParser, m_szFile, line, col);
-	delete hParser;
-	
-	if (result != SMCError_Okay) 
-	{
-		SMC_GetErrorString(result, error, sizeof(error));
-		LogError("%s on line %d, col %d of %s", error, line, col, m_szFile);
-	}
-}
-
-public SMCResult Config_NewSection(Handle parser, const char[] section, bool quotes) 
-{
-	if (StrEqual(section, "Core"))
-	{
-		return SMCParse_Continue;
-	}
-	
-	return SMCParse_Continue;
-}
-
-public SMCResult Config_KeyValue(Handle parser, const char[] key, const char[] value, bool key_quotes, bool value_quotes)
-{
-	if(StrEqual(key, "PublicChatTrigger", false))
-		g_iPublicChatTrigger = value[0];
-	//else if(StrEqual(key, "SilentChatTrigger", false))
-	//	SilentChatTrigger = value[0];
-	
-	return SMCParse_Continue;
-}
-
-public SMCResult Config_EndSection(Handle parser) 
-{
-	return SMCParse_Continue;
-}
-
-public void Config_End(Handle parser, bool halted, bool failed) 
-{
-}
-
-stock bool IsValidClient(int client, bool nobots = true)
-{ 
-	if (client <= 0 || client > MaxClients || !IsClientConnected(client) || (nobots && IsFakeClient(client)))
-	{
-		return false; 
-	}
-	return IsClientInGame(client); 
 }

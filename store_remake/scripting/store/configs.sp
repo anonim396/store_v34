@@ -43,7 +43,7 @@ public void Store_ReloadConfig()
 		FileToKeyValues(m_hKV, m_szFile);
 		if (!KvGotoFirstSubKey(m_hKV))
 		{
-			
+			LogError("Locate \"addons/sourcemod/configs/store/items.txt\" not found or not configured");
 			SetFailState("Failed to read configs/store/items.txt");
 		}
 		Store_WalkConfig(m_hKV);

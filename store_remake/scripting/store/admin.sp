@@ -31,7 +31,11 @@ public void OnAdminMenuReady(Handle topmenu)
 public void CategoryHandler_StoreAdmin(Handle topmenu, TopMenuAction action, TopMenuObject object_id,int param, char[] buffer,int maxlength)
 {
 	if (action == TopMenuAction_DisplayTitle || action == TopMenuAction_DisplayOption)
-		Format(buffer, maxlength, "Store Admin");
+	{
+		char translated[128];
+		Format(translated, sizeof(translated), "%t", "Store Admin Category");
+		strcopy(buffer, maxlength, translated);
+	}
 }
 
 //////////////////////////////
@@ -42,18 +46,24 @@ public void AdminMenu_RealoadConfig(Handle topmenu, TopMenuAction action, TopMen
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Reload store config");
+		char translated[128];
+		Format(translated, sizeof(translated), "%t", "Reload store config");
+		strcopy(buffer, maxlength, translated);
 	}
 	else if (action == TopMenuAction_SelectOption)
 	{
 		g_iMenuNum[client] = 0;
 
-		char sBuffer[128];
+		char sBuffer[256];
 		if(!g_eCvars[gc_iReloadType].aCache)
+		{
 			Format(sBuffer, sizeof(sBuffer), "%t", "confirm_reload_type_0", view_as<int>(g_eCvars[gc_iReloadDelay].aCache));
-		else Format(sBuffer, sizeof(sBuffer), "%t", "confirm_reload_type_1");
+		}
+		else 
+		{
+			Format(sBuffer, sizeof(sBuffer), "%t", "confirm_reload_type_1");
+		}
 		Store_DisplayConfirmMenu(client, sBuffer, FakeMenuHandler_StoreReloadConfig, 0);
-
 	}
 }
 
@@ -65,12 +75,18 @@ public void AdminMenu_ResetDb(Handle topmenu, TopMenuAction action, TopMenuObjec
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Reset database");
+		char translated[128];
+		Format(translated, sizeof(translated), "%t", "Reset database");
+		strcopy(buffer, maxlength, translated);
 	}
 	else if (action == TopMenuAction_SelectOption)
 	{
 		g_iMenuNum[client] = 0;
-		Store_DisplayConfirmMenu(client, "Do you want to reset database?\nServer will be restarted!", FakeMenuHandler_ResetDatabase, 0);
+		
+		char confirmMsg[256];
+		Format(confirmMsg, sizeof(confirmMsg), "%t", "confirm_reset_database");
+		
+		Store_DisplayConfirmMenu(client, confirmMsg, FakeMenuHandler_ResetDatabase, 0);
 	}
 }
 
@@ -90,13 +106,19 @@ public void AdminMenu_ResetPlayer(Handle topmenu, TopMenuAction action, TopMenuO
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Reset player");
+		char translated[128];
+		Format(translated, sizeof(translated), "%t", "Reset player");
+		strcopy(buffer, maxlength, translated);
 	}
 	else if (action == TopMenuAction_SelectOption)
 	{
 		g_iMenuNum[client] = 4;
 		Handle m_hMenu = CreateMenu(MenuHandler_ResetPlayer);
-		SetMenuTitle(m_hMenu, "Choose a player to reset");
+		
+		char menuTitle[128];
+		Format(menuTitle, sizeof(menuTitle), "%t", "choose_player_reset");
+		SetMenuTitle(m_hMenu, menuTitle);
+		
 		SetMenuExitBackButton(m_hMenu, true);
 		LoopAuthorizedPlayers(i)
 		{
@@ -117,7 +139,9 @@ public int MenuHandler_ResetPlayer(Handle menu, MenuAction action,int client,int
 	else if (action == MenuAction_Select)
 	{
 		if(menu == INVALID_HANDLE)
+		{
 			FakeClientCommandEx(client, "sm_resetplayer \"%s\"", g_szClientData[client]);
+		}
 		else
 		{
 			any style;
@@ -125,7 +149,7 @@ public int MenuHandler_ResetPlayer(Handle menu, MenuAction action,int client,int
 			GetMenuItem(menu, param2, g_szClientData[client], sizeof(g_szClientData[]), style, STRING(m_szName));
 
 			char m_szTitle[256];
-			Format(STRING(m_szTitle), "Do you want to reset %s?", m_szName);
+			Format(STRING(m_szTitle), "%t", "confirm_reset_player", m_szName);
 			Store_DisplayConfirmMenu(client, m_szTitle, MenuHandler_ResetPlayer, 0);
 		}
 	}
@@ -143,13 +167,19 @@ public void AdminMenu_GiveCredits(Handle topmenu, TopMenuAction action, TopMenuO
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "Give credits");
+		char translated[128];
+		Format(translated, sizeof(translated), "%t", "Give credits");
+		strcopy(buffer, maxlength, translated);
 	}
 	else if (action == TopMenuAction_SelectOption)
 	{
 		g_iMenuNum[client] = 5;
 		Handle m_hMenu = CreateMenu(MenuHandler_GiveCredits);
-		SetMenuTitle(m_hMenu, "Choose a player to give credits to");
+		
+		char menuTitle[128];
+		Format(menuTitle, sizeof(menuTitle), "%t", "choose_player_credits");
+		SetMenuTitle(m_hMenu, menuTitle);
+		
 		SetMenuExitBackButton(m_hMenu, true);
 		LoopAuthorizedPlayers(i)
 		{
@@ -171,6 +201,7 @@ public int MenuHandler_GiveCredits(Handle menu, MenuAction action,int client,int
 	{
 		if(param2 != -1)
 			GetMenuItem(menu, param2, g_szClientData[client], sizeof(g_szClientData[]));
+		
 		Handle m_hMenu = CreateMenu(MenuHandler_GiveCredits2);
 
 		int target = GetClientBySteamID(g_szClientData[client]);
@@ -180,7 +211,13 @@ public int MenuHandler_GiveCredits(Handle menu, MenuAction action,int client,int
 			return 0;
 		}
 
-		SetMenuTitle(m_hMenu, "Choose the amount of credits\n%N - %d credits", target, g_eClients[target].iCredits);
+		char menuTitle[256];
+		char playerName[MAX_NAME_LENGTH];
+		GetClientName(target, playerName, sizeof(playerName));
+		
+		Format(menuTitle, sizeof(menuTitle), "%t", "choose_credits_amount", playerName, g_eClients[target].iCredits);
+		SetMenuTitle(m_hMenu, menuTitle);
+		
 		SetMenuExitBackButton(m_hMenu, true);
 		AddMenuItem(m_hMenu, "-1000", "-1000");
 		AddMenuItem(m_hMenu, "-100", "-100");
@@ -221,13 +258,19 @@ public void AdminMenu_ViewInventory(Handle topmenu, TopMenuAction action, TopMen
 {
 	if (action == TopMenuAction_DisplayOption)
 	{
-		Format(buffer, maxlength, "View inventory");
+		char translated[128];
+		Format(translated, sizeof(translated), "%t", "View inventory");
+		strcopy(buffer, maxlength, translated);
 	}
 	else if (action == TopMenuAction_SelectOption)
 	{
 		g_iMenuNum[client] = 4;
 		Handle m_hMenu = CreateMenu(MenuHandler_ViewInventory);
-		SetMenuTitle(m_hMenu, "Choose a player");
+		
+		char menuTitle[128];
+		Format(menuTitle, sizeof(menuTitle), "%t", "choose_player_inventory");
+		SetMenuTitle(m_hMenu, menuTitle);
+		
 		SetMenuExitBackButton(m_hMenu, true);
 		LoopAuthorizedPlayers(i)
 		{

@@ -1,5 +1,4 @@
 Handle g_hDatabase = INVALID_HANDLE;
-bool g_bMySQL = false;
 
 #include "store/sql.sp"
 
