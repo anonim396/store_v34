@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"de"		"Admin {1} eröffnete ein Giveaway mit <font color='#15fb00'>{2} Credits"
+		"de"		"Admin {1} eröffnete ein Giveaway mit {2} Credits"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"de"		"Eine Zahl zwischen {1} und {2} wurde für dich ausgewählt, um zu erraten, ob die nächste Zahl höher oder niedriger als die gewählte Zahl sein wird."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"de"		"Es gibt eine Pause von {1} Sekunde(n) zwischen jedem Spiel."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"de"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"de"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"de"		"Admin {1} eröffnete ein Giveaway mit <font color='#15fb00'>{2} Credits"
+		"de"		"Admin {1} eröffnete ein Giveaway mit {2} Credits"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"de"		"Treffer"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"de"		"Eine Zahl zwischen {1} und {2} wurde für dich ausgewählt, um zu erraten, ob die nächste Zahl höher oder niedriger als die gewählte Zahl sein wird."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"de"		"Wenn du das Richtige wählst, gewinnst du das Doppelte deines Einsatzes."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"de"		"Es gibt eine Pause von {1} Sekunde(n) zwischen jedem Spiel."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"de"		"Sie haben {1} {2} erfolgreich platziert."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"de"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"de"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"de"		"Spielerklasse"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"de"	"Top Ausrüstungswert"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"de"		"Spieler {1} hat die Karte beendet und {2} {3} erhalten!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"de"		"Position {1} {2} {3} erfolgreich gesetzt. Laden Sie nun die Konfiguration neu, damit neue Positionen funktionieren!"
+	}
+
+	"SetPosFailed"
+	{
+		"de"		"Positionseinstellung fehlgeschlagen!"
+	}
+
+	"SetPosLimit"
+	{
+		"de"		"Position von 0 bis 64 einstellen!"
+	}
+
+	"NumbersOnly"
+	{
+		"de"		"Nur Zahlen eingeben!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"de"		"{1} {2} für Position {3} erfolgreich gesetzt!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"de"		"{1} {2} für andere Positionen wurden erfolgreich gesetzt!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"de"		"Spieler {1} hat die Karte beendet und {2} {3} erhalten!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"de"		"Position {1} {2} {3} erfolgreich gesetzt. Laden Sie nun die Konfiguration neu, damit neue Positionen funktionieren!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"de"		"Positionseinstellung fehlgeschlagen!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"de"		"Position von 0 bis 64 einstellen!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"de"		"Nur Zahlen eingeben!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"de"		"{1} {2} für Position {3} erfolgreich gesetzt!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"de"			"Konfiguration neu geladen"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"de"			"Konfiguration neu geladen"
+	}
+
+	"Type setcredits CM"
+	{
+		"de"			"Schreibe im Chat: !setcredits <Betrag>"
+	}
+
+	"Credits saved CM"
+	{
+		"de"			"Guthaben in Konfiguration gespeichert"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"de"			"Position gespeichert: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"de"			"Konfiguration neu geladen"
+	}
+
+	"Type setcredits"
+	{
+		"de"			"Schreibe im Chat: !setcredits <Betrag>"
+	}
+
+	"Credits saved"
+	{
+		"de"			"Guthaben in Konfiguration gespeichert"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"de"			"Position gespeichert: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"de"			"Ball-Positions-Editor\n \nAktuelle Position: {1} {2} {3}\nStandard-Guthaben: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"de"			"Ball hier platzieren"
+	}
+
+	"Set Credits Menu"
+	{
+		"de"			"Guthaben festlegen"
+	}
+
+	"Reload Config Menu"
+	{
+		"de"			"Konfig neu laden"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"de"			"Guthaben für Positionen festlegen\n0 = Standard für alle Positionen\n \nAktuelle Werte:\nStandard: {1} Guthaben\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"de"			"Guthaben für Position {1} festlegen\n \nAktuell: {2} Guthaben\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"de"			"Benutzerdefinierter Betrag..."
+	}
+	
+	"Store Admin Category"
+	{
+		"de"			"Shop-Verwaltung"
+	}
+
+	"Reload store config"
+	{
+		"de"			"Konfig neu laden"
+	}
+
+	"Reset database"
+	{
+		"de"			"Datenbank zurücksetzen"
+	}
+
+	"Reset player"
+	{
+		"de"			"Spieler zurücksetzen"
+	}
+
+	"Give credits"
+	{
+		"de"			"Guthaben geben"
+	}
+
+	"View inventory"
+	{
+		"de"			"Inventar anzeigen"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"de"			"Sind Sie sicher, dass Sie die Konfiguration neu laden möchten?\nSpieler müssen sich in {1} Sekunden erneut verbinden."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"de"			"Sind Sie sicher, dass Sie die Konfiguration neu laden möchten?\nSpieler werden getrennt."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"de"			"Sind Sie sicher, dass Sie Spieler {1} zurücksetzen möchten?"
+	}
+
+	"confirm_reset_database"
+	{
+		"de"			"Sind Sie sicher, dass Sie die Datenbank zurücksetzen möchten?\nDer Server wird neu gestartet!"
+	}
+
+	"choose_player_reset"
+	{
+		"de"			"Wählen Sie einen Spieler zum Zurücksetzen aus"
+	}
+
+	"choose_player_credits"
+	{
+		"de"			"Wählen Sie einen Spieler aus, dem Sie Guthaben geben möchten"
+	}
+
+	"choose_player_inventory"
+	{
+		"de"			"Wählen Sie einen Spieler aus"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"de"			"Wählen Sie die Guthabenmenge\n{2} - {1} Guthaben"
 	}
 }

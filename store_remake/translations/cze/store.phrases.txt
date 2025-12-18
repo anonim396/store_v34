@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"cze"		"Administrátor {1} otevřel giveaway s <font color='#15fb00'>{2} kredity"
+		"cze"		"Administrátor {1} otevřel giveaway s {2} kredity"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"cze"		"Bylo vybráno číslo mezi {1} a {2}, abyste hádali, zda bude následující číslo vyšší nebo nižší než vybrané číslo."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"cze"		"Mezi každou hrou je pauza {1} sekundy."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"cze"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"cze"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"cze"		"Administrátor {1} otevřel giveaway s <font color='#15fb00'>{2} kredity"
+		"cze"		"Administrátor {1} otevřel giveaway s {2} kredity"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"cze"		"Úder"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"cze"		"Bylo vybráno číslo mezi {1} a {2}, abyste hádali, zda bude následující číslo vyšší nebo nižší než vybrané číslo."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"cze"		"Pokud vybereš správnou možnost, vyhraješ dvojnásobek své sázky."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"cze"		"Mezi každou hrou je pauza {1} sekundy."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"cze"		"Úspěšně jste umístili {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"cze"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"cze"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"cze"		"třída hráče"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"cze"	"Nejhodnotnější vybavení"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"cze"		"Hráč {1} dokončil mapu a obdržel {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"cze"		"Pozice {1} {2} {3} nastavena úspěšně. Nyní znovu načtěte konfiguraci, aby nové pozice fungovaly!"
+	}
+
+	"SetPosFailed"
+	{
+		"cze"		"Nastavení pozice se nezdařilo!"
+	}
+
+	"SetPosLimit"
+	{
+		"cze"		"Nastavte pozici od 0 do 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"cze"		"Vložte pouze čísla!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"cze"		"{1} {2} pro pozici {3} nastaveny úspěšně!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"cze"		"{1} {2} pro ostatní pozice byly nastaveny úspěšně!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"cze"		"Hráč {1} dokončil mapu a obdržel {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"cze"		"Pozice {1} {2} {3} nastavena úspěšně. Nyní znovu načtěte konfiguraci, aby nové pozice fungovaly!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"cze"		"Nastavení pozice se nezdařilo!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"cze"		"Nastavte pozici od 0 do 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"cze"		"Vložte pouze čísla!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"cze"		"{1} {2} pro pozici {3} nastaveny úspěšně!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"cze"		"{1} {2} pro ostatní pozice byly nastaveny úspěšně!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"cze"			"Konfigurace znovu načtena"
+	}
+
+	"Type setcredits CM"
+	{
+		"cze"			"Napište do chatu: !setcredits <částka>"
+	}
+
+	"Credits saved CM"
+	{
+		"cze"			"Kredity uloženy do konfigurace"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"cze"			"Pozice uložena: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"cze"			"Konfigurace znovu načtena"
+	}
+
+	"Type setcredits"
+	{
+		"cze"			"Napište do chatu: !setcredits <částka>"
+	}
+
+	"Credits saved"
+	{
+		"cze"			"Kredity uloženy do konfigurace"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"cze"			"Pozice uložena: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"cze"			"Editor pozice míče\n \nAktuální pozice: {1} {2} {3}\nVýchozí kredity: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"cze"			"Umístěte míč zde"
+	}
+
+	"Set Credits Menu"
+	{
+		"cze"			"Nastavit kredity"
+	}
+
+	"Reload Config Menu"
+	{
+		"cze"			"Znovu načíst konfiguraci"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"cze"			"Nastavit kredity pro pozice\n0 = Výchozí pro všechny pozice\n \nAktuální hodnoty:\nVýchozí: {1} kreditů\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"cze"			"Nastavit kredity pro pozici {1}\n \nAktuální: {2} kreditů\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"cze"			"Vlastní částka..."
+	}
+	
+	"Store Admin Category"
+	{
+		"cze"			"Správa obchodu"
+	}
+
+	"Reload store config"
+	{
+		"cze"			"Znovu načíst konfiguraci"
+	}
+
+	"Reset database"
+	{
+		"cze"			"Resetovat databázi"
+	}
+
+	"Reset player"
+	{
+		"cze"			"Resetovat hráče"
+	}
+
+	"Give credits"
+	{
+		"cze"			"Dát kredity"
+	}
+
+	"View inventory"
+	{
+		"cze"			"Zobrazit inventář"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"cze"			"Opravdu chcete znovu načíst konfiguraci?\nHráči se budou muset znovu připojit za {1} sekund."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"cze"			"Opravdu chcete znovu načíst konfiguraci?\nHráči budou odpojeni."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"cze"			"Opravdu chcete resetovat hráče {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"cze"			"Opravdu chcete resetovat databázi?\nServer bude restartován!"
+	}
+
+	"choose_player_reset"
+	{
+		"cze"			"Vyberte hráče k resetování"
+	}
+
+	"choose_player_credits"
+	{
+		"cze"			"Vyberte hráče, kterému chcete dát kredity"
+	}
+
+	"choose_player_inventory"
+	{
+		"cze"			"Vyberte hráče"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"cze"			"Vyberte množství kreditů\n{2} - {1} kreditů"
 	}
 }

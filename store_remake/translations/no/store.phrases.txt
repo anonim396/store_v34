@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"no"		"Admin {1} åpnet et giveaway med <font color='#15fb00'>{2} kreditter"
+		"no"		"Admin {1} åpnet et giveaway med {2} kreditter"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"no"		"Et tall mellom {1} og {2} er valgt for deg å gjette om det neste tallet vil være høyere eller lavere enn det valgte tallet."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"no"		"Det er en pause på {1} sekund(er) mellom hvert spill."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"no"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"no"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"no"		"Admin {1} åpnet et giveaway med <font color='#15fb00'>{2} kreditter"
+		"no"		"Admin {1} åpnet et giveaway med {2} kreditter"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"no"		"Treff"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"no"		"Et tall mellom {1} og {2} er valgt for deg å gjette om det neste tallet vil være høyere eller lavere enn det valgte tallet."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"no"		"Hvis du velger den riktige, vinner du dobbelt så mye som innsatsen din."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"no"		"Det er en pause på {1} sekund(er) mellom hvert spill."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"no"		"Du har vellykket plassert {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"no"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"no"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,246 @@
 	"zrclass CM"
 	{
 		"no"		"spillerklasse"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"no"	"Topp Ustyr Verdi"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"no"		"Spiller {1} har fullført banen og har fått {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"no"		"Posisjon {1} {2} {3} satt vellykket. Last nå konfigurasjonen på nytt for å få nye posisjoner til å fungere!"
+	}
+
+	"SetPosFailed"
+	{
+		"no"		"Posisjonsinnstilling mislyktes!"
+	}
+
+	"SetPosLimit"
+	{
+		"no"		"Sett posisjon fra 0 til 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"no"		"Sett inn kun tall!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"no"		"{1} {2} for posisjon {3} satt vellykket!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"no"		"{1} {2} for andre posisjoner er blitt satt vellykket!"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"no"	"Topp Ustyr Verdi"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"no"		"Spiller {1} har fullført banen og har fått {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"no"		"Posisjon {1} {2} {3} satt vellykket. Last nå konfigurasjonen på nytt for å få nye posisjoner til å fungere!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"no"		"Posisjonsinnstilling mislyktes!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"no"		"Sett posisjon fra 0 til 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"no"		"Sett inn kun tall!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"no"		"{1} {2} for posisjon {3} satt vellykket!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"no"		"{1} {2} for andre posisjoner er blitt satt vellykket!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"no"			"Konfigurasjon lastet på nytt"
+	}
+
+	"Type setcredits CM"
+	{
+		"no"			"Skriv i chat: !setcredits <beløp>"
+	}
+
+	"Credits saved CM"
+	{
+		"no"			"Kreditter lagret i konfigurasjon"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"no"			"Posisjon lagret: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"no"			"Konfigurasjon lastet på nytt"
+	}
+
+	"Type setcredits"
+	{
+		"no"			"Skriv i chat: !setcredits <beløp>"
+	}
+
+	"Credits saved"
+	{
+		"no"			"Kreditter lagret i konfigurasjon"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"no"			"Posisjon lagret: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"no"			"Ballposisjon Editor\n \nNåværende posisjon: {1} {2} {3}\nStandardkreditter: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"no"			"Plasser ball her"
+	}
+
+	"Set Credits Menu"
+	{
+		"no"			"Sett kreditter"
+	}
+
+	"Reload Config Menu"
+	{
+		"no"			"Last konfig på nytt"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"no"			"Sett kreditter for posisjoner\n0 = Standard for alle posisjoner\n \nNåværende verdier:\nStandard: {1} kreditter\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"no"			"Sett kreditter for posisjon {1}\n \nNåværende: {2} kreditter\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"no"			"Egendefinert beløp..."
+	}
+	
+	"Store Admin Category"
+	{
+		"no"			"Butikkadministrasjon"
+	}
+
+	"Reload store config"
+	{
+		"no"			"Last konfig på nytt"
+	}
+
+	"Reset database"
+	{
+		"no"			"Tilbakestill database"
+	}
+
+	"Reset player"
+	{
+		"no"			"Tilbakestill spiller"
+	}
+
+	"Give credits"
+	{
+		"no"			"Gi kreditter"
+	}
+
+	"View inventory"
+	{
+		"no"			"Vis inventar"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"no"			"Er du sikker på at du vil laste konfigurasjonen på nytt?\nSpillere må koble til på nytt om {1} sekunder."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"no"			"Er du sikker på at du vil laste konfigurasjonen på nytt?\nSpillere vil bli frakoblet."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"no"			"Er du sikker på at du vil tilbakestille spiller {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"no"			"Er du sikker på at du vil tilbakestille databasen?\nServeren vil starte på nytt!"
+	}
+
+	"choose_player_reset"
+	{
+		"no"			"Velg en spiller å tilbakestille"
+	}
+
+	"choose_player_credits"
+	{
+		"no"			"Velg en spiller å gi kreditter til"
+	}
+
+	"choose_player_inventory"
+	{
+		"no"			"Velg en spiller"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"no"			"Velg antall kreditter\n{2} - {1} kreditter"
 	}
 }

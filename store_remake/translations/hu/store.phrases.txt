@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"hu"		"Admin {1} indított egy ajándékot <font color='#15fb00'>{2} kredittel"
+		"hu"		"Admin {1} indított egy ajándékot {2} kredittel"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"hu"		"Egy szám {1} és {2} között kiválasztásra kerül és neked el kell döntened az a szám nagyobb vagy kisebb a kiválasztott számnál."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"hu"		"Minden játék között {1} másodperc szünet van."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"hu"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"hu"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"hu"		"Admin {1} indított egy ajándékot <font color='#15fb00'>{2} kredittel"
+		"hu"		"Admin {1} indított egy ajándékot {2} kredittel"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"hu"		"Lap kérés"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"hu"		"Egy szám {1} és {2} között kiválasztásra kerül és neked el kell döntened az a szám nagyobb vagy kisebb a kiválasztott számnál."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"hu"		"Ha sikerül a jót kiválasztani, akkor a téted kétszeresét nyered."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"hu"		"Minden játék között {1} másodperc szünet van."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"hu"		"Sikeresen fogadtál {1} kredit összegben."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"hu"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"hu"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"hu"		"játékos típus"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"hu"	"Legértékesebb Felszerelés"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"hu"		"A(z) {1} játékos befejezte a pályát és kapott {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"hu"		"{1} {2} {3} pozíció sikeresen beállítva. Most töltse újra a konfigurációt, hogy az új pozíciók működjenek!"
+	}
+
+	"SetPosFailed"
+	{
+		"hu"		"Pozíció beállítása sikertelen!"
+	}
+
+	"SetPosLimit"
+	{
+		"hu"		"Állítson be pozíciót 0-tól 64-ig!"
+	}
+
+	"NumbersOnly"
+	{
+		"hu"		"Csak számokat írjon be!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"hu"		"{1} {2} a(z) {3}. pozícióhoz sikeresen beállítva!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"hu"		"{1} {2} más pozíciókhoz sikeresen beállítva!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"hu"		"A(z) {1} játékos befejezte a pályát és kapott {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"hu"		"{1} {2} {3} pozíció sikeresen beállítva. Most töltse újra a konfigurációt, hogy az új pozíciók működjenek!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"hu"		"Pozíció beállítása sikertelen!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"hu"		"Állítson be pozíciót 0-tól 64-ig!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"hu"		"Csak számokat írjon be!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"hu"		"{1} {2} a(z) {3}. pozícióhoz sikeresen beállítva!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"hu"		"{1} {2} más pozíciókhoz sikeresen beállítva!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"hu"			"Konfiguráció újratöltve"
+	}
+
+	"Type setcredits CM"
+	{
+		"hu"			"Írja be a chatbe: !setcredits <összeg>"
+	}
+
+	"Credits saved CM"
+	{
+		"hu"			"Kreditek elmentve a konfigurációba"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"hu"			"Pozíció elmentve: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"hu"			"Konfiguráció újratöltve"
+	}
+
+	"Type setcredits"
+	{
+		"hu"			"Írja be a chatbe: !setcredits <összeg>"
+	}
+
+	"Credits saved"
+	{
+		"hu"			"Kreditek elmentve a konfigurációba"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"hu"			"Pozíció elmentve: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"hu"			"Labda pozíció szerkesztő\n \nJelenlegi pozíció: {1} {2} {3}\nAlapértelmezett kreditek: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"hu"			"Helyezze a labdát ide"
+	}
+
+	"Set Credits Menu"
+	{
+		"hu"			"Kreditek beállítása"
+	}
+
+	"Reload Config Menu"
+	{
+		"hu"			"Konfig újratöltése"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"hu"			"Kreditek beállítása pozíciókhoz\n0 = Alapértelmezett minden pozícióhoz\n \nJelenlegi értékek:\nAlapértelmezett: {1} kredit\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"hu"			"Kreditek beállítása {1} pozícióhoz\n \nJelenlegi: {2} kredit\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"hu"			"Egyedi összeg..."
+	}
+	
+	"Store Admin Category"
+	{
+		"hu"			"Bolt adminisztráció"
+	}
+
+	"Reload store config"
+	{
+		"hu"			"Konfig újratöltése"
+	}
+
+	"Reset database"
+	{
+		"hu"			"Adatbázis visszaállítása"
+	}
+
+	"Reset player"
+	{
+		"hu"			"Játékos visszaállítása"
+	}
+
+	"Give credits"
+	{
+		"hu"			"Adj kreditet"
+	}
+
+	"View inventory"
+	{
+		"hu"			"Készlet megtekintése"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"hu"			"Biztosan újra szeretné tölteni a konfigurációt?\nA játékosoknak {1} másodpercen belül újra kell csatlakozniuk."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"hu"			"Biztosan újra szeretné tölteni a konfigurációt?\nA játékosok leválasztásra kerülnek."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"hu"			"Biztosan vissza szeretné állítani a {1} játékost?"
+	}
+
+	"confirm_reset_database"
+	{
+		"hu"			"Biztosan vissza szeretné állítani az adatbázist?\nA szerver újraindul!"
+	}
+
+	"choose_player_reset"
+	{
+		"hu"			"Válasszon egy játékost a visszaállításhoz"
+	}
+
+	"choose_player_credits"
+	{
+		"hu"			"Válasszon egy játékost, akinek kreditet szeretne adni"
+	}
+
+	"choose_player_inventory"
+	{
+		"hu"			"Válasszon egy játékost"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"hu"			"Válassza ki a kreditek számát\n{2} - {1} kredit"
 	}
 }

@@ -649,7 +649,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"pt"		"Admin {1} começou um sorteio com <font color='#15fb00'>{2} créditos"
+		"pt"		"Admin {1} começou um sorteio com {2} créditos"
 	}
 	"Giveaway remaining time"
 	{
@@ -767,6 +767,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"pt"		"Um número entre {1} e {2} foi escolhido para você adivinhar se o próximo número será maior ou menor que o número determinado."
 	}
 	"Hol Info 2"
@@ -775,6 +776,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"pt"		"Existe uma pausa de {1} segundo(s) entre cada jogo."
 	}
 	"Hol placed"
@@ -1934,7 +1936,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"pt"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"pt"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3057,7 +3059,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"pt"		"Admin {1} começou um sorteio com <font color='#15fb00'>{2} créditos"
+		"pt"		"Admin {1} começou um sorteio com {2} créditos"
 	}
 
 	"Giveaway remaining time CM"
@@ -3199,27 +3201,6 @@
 	"Hit CM"
 	{
 		"pt"		"Acerto"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"pt"		"Um número entre {1} e {2} foi escolhido para você adivinhar se o próximo número será maior ou menor que o número determinado."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"pt"		"Se você escolher um bom, você vai ganhar duas vezes a sua aposta."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"pt"		"Existe uma pausa de {1} segundo(s) entre cada jogo."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"pt"		"Você colocou {1} {2} com sucesso."
 	}
 
 	"Inventory CM"
@@ -4629,7 +4610,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"pt"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"pt"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5063,5 +5044,241 @@
 	"zrclass CM"
 	{
 		"pt"		"classe do jogador"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"pt"	"Valor Equipado Top"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"pt"		"Jogador {1} completou o mapa e recebeu {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"pt"		"Posição {1} {2} {3} definida com sucesso. Agora recarregue a configuração para que as novas posições funcionem!"
+	}
+
+	"SetPosFailed"
+	{
+		"pt"		"Falha ao definir posição!"
+	}
+
+	"SetPosLimit"
+	{
+		"pt"		"Defina posição de 0 a 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"pt"		"Insira apenas números!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"pt"		"{1} {2} para a posição {3} definidos com sucesso!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"pt"		"{1} {2} para outras posições foram definidos com sucesso!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"pt"		"Jogador {1} completou o mapa e recebeu {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"pt"		"Posição {1} {2} {3} definida com sucesso. Agora recarregue a configuração para que as novas posições funcionem!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"pt"		"Falha ao definir posição!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"pt"		"Defina posição de 0 a 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"pt"		"Insira apenas números!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"pt"		"{1} {2} para a posição {3} definidos com sucesso!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"pt"		"{1} {2} para outras posições foram definidos com sucesso!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"pt"			"Configuração recarregada"
+	}
+
+	"Type setcredits CM"
+	{
+		"pt"			"Digite no chat: !setcredits <quantidade>"
+	}
+
+	"Credits saved CM"
+	{
+		"pt"			"Créditos salvos na configuração"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"pt"			"Posição salva: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"pt"			"Configuração recarregada"
+	}
+
+	"Type setcredits"
+	{
+		"pt"			"Digite no chat: !setcredits <quantidade>"
+	}
+
+	"Credits saved"
+	{
+		"pt"			"Créditos salvos na configuração"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"pt"			"Posição salva: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"pt"			"Editor de Posição da Bola\n \nPosição atual: {1} {2} {3}\nCréditos padrão: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"pt"			"Coloque a bola aqui"
+	}
+
+	"Set Credits Menu"
+	{
+		"pt"			"Definir créditos"
+	}
+
+	"Reload Config Menu"
+	{
+		"pt"			"Recarregar configuração"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"pt"			"Definir créditos para posições\n0 = Padrão para todas as posições\n \nValores atuais:\nPadrão: {1} créditos\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"pt"			"Definir créditos para posição {1}\n \nAtual: {2} créditos\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"pt"			"Quantidade personalizada..."
+	}
+	
+	"Store Admin Category"
+	{
+		"pt"			"Administração da Loja"
+	}
+
+	"Reload store config"
+	{
+		"pt"			"Recarregar configuração"
+	}
+
+	"Reset database"
+	{
+		"pt"			"Redefinir banco de dados"
+	}
+
+	"Reset player"
+	{
+		"pt"			"Redefinir jogador"
+	}
+
+	"Give credits"
+	{
+		"pt"			"Dê créditos"
+	}
+
+	"View inventory"
+	{
+		"pt"			"Ver inventário"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"pt"			"Tem certeza de que deseja recarregar a configuração?\nOs jogadores precisarão se reconectar em {1} segundos."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"pt"			"Tem certeza de que deseja recarregar a configuração?\nOs jogadores serão desconectados."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"pt"			"Tem certeza de que deseja redefinir o jogador {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"pt"			"Tem certeza de que deseja redefinir o banco de dados?\nO servidor será reiniciado!"
+	}
+
+	"choose_player_reset"
+	{
+		"pt"			"Escolha um jogador para redefinir"
+	}
+
+	"choose_player_credits"
+	{
+		"pt"			"Escolha um jogador para dar créditos"
+	}
+
+	"choose_player_inventory"
+	{
+		"pt"			"Escolha um jogador"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"pt"			"Escolha a quantidade de créditos\n{2} - {1} créditos"
 	}
 }

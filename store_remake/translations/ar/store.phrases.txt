@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"ar"		"المشرف {1} فتح مسابقة مع <font color='#15fb00'>{2} نقاط"
+		"ar"		"المشرف {1} فتح مسابقة مع {2} نقاط"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"ar"		"تم اختيار رقم بين {1} و {2} لتخمين ما إذا كان الرقم التالي سيكون أعلى أو أقل من الرقم المختار."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"ar"		"يوجد توقف لمدة {1} ثانية بين كل لعبة."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"ar"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"ar"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"ar"		"المشرف {1} فتح مسابقة مع <font color='#15fb00'>{2} نقاط"
+		"ar"		"المشرف {1} فتح مسابقة مع {2} نقاط"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"ar"		"ضربة"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"ar"		"تم اختيار رقم بين {1} و {2} لتخمين ما إذا كان الرقم التالي سيكون أعلى أو أقل من الرقم المختار."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"ar"		"إذا اخترت الجيد، ستربح مرتين رهانك."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"ar"		"يوجد توقف لمدة {1} ثانية بين كل لعبة."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"ar"		"لقد وضعت {1} {2} بنجاح."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"ar"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"ar"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"ar"		"فئة اللاعب"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"ar"	"أعلى قيمة معدّلة"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"ar"		"اللاعب {1} أنهى الخريطة وحصل على {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"ar"		"تم تعيين الموضع {1} {2} {3} بنجاح. الآن أعد تحميل التكوين لجعل المواضع الجديدة تعمل!"
+	}
+
+	"SetPosFailed"
+	{
+		"ar"		"فشل تعيين الموضع!"
+	}
+
+	"SetPosLimit"
+	{
+		"ar"		"حدد الموضع من 0 إلى 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"ar"		"أدخل الأرقام فقط!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"ar"		"{1} {2} للموضع {3} تم تعيينه بنجاح!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"ar"		"{1} {2} للمواضع الأخرى تم تعيينها بنجاح!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"ar"		"اللاعب {1} أنهى الخريطة وحصل على {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"ar"		"تم تعيين الموضع {1} {2} {3} بنجاح. الآن أعد تحميل التكوين لجعل المواضع الجديدة تعمل!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"ar"		"فشل تعيين الموضع!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"ar"		"حدد الموضع من 0 إلى 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"ar"		"أدخل الأرقام فقط!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"ar"		"{1} {2} للموضع {3} تم تعيينه بنجاح!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"ar"		"{1} {2} للمواضع الأخرى تم تعيينها بنجاح!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"ar"			"تمت إعادة تحميل التكوين"
+	}
+
+	"Type setcredits CM"
+	{
+		"ar"			"اكتب في الدردشة: !setcredits <المبلغ>"
+	}
+
+	"Credits saved CM"
+	{
+		"ar"			"تم حفظ الاعتمادات في التكوين"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"ar"			"تم حفظ الموقع: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"ar"			"تمت إعادة تحميل التكوين"
+	}
+
+	"Type setcredits"
+	{
+		"ar"			"اكتب في الدردشة: !setcredits <المبلغ>"
+	}
+
+	"Credits saved"
+	{
+		"ar"			"تم حفظ الاعتمادات في التكوين"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"ar"			"تم حفظ الموقع: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"ar"			"محرر موضع الكرة\n \nالموضع الحالي: {1} {2} {3}\nالاعتمادات الافتراضية: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"ar"			"ضع الكرة هنا"
+	}
+
+	"Set Credits Menu"
+	{
+		"ar"			"تعيين الاعتمادات"
+	}
+
+	"Reload Config Menu"
+	{
+		"ar"			"إعادة تحميل التكوين"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"ar"			"تعيين الاعتمادات للمواضع\n0 = الافتراضي لجميع المواضع\n \nالقيم الحالية:\nالافتراضي: {1} اعتماد\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"ar"			"تعيين الاعتمادات للموضع {1}\n \nالحالي: {2} اعتماد\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"ar"			"مبلغ مخصص..."
+	}
+	
+	"Store Admin Category"
+	{
+		"ar"			"إدارة المتجر"
+	}
+
+	"Reload store config"
+	{
+		"ar"			"إعادة تحميل التكوين"
+	}
+
+	"Reset database"
+	{
+		"ar"			"إعادة تعيين قاعدة البيانات"
+	}
+
+	"Reset player"
+	{
+		"ar"			"إعادة تعيين اللاعب"
+	}
+
+	"Give credits"
+	{
+		"ar"			"منح الاعتمادات"
+	}
+
+	"View inventory"
+	{
+		"ar"			"عرض المخزون"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"ar"			"هل أنت متأكد أنك تريد إعادة تحميل التكوين؟\nسيحتاج اللاعبون إلى إعادة الاتصال خلال {1} ثانية."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"ar"			"هل أنت متأكد أنك تريد إعادة تحميل التكوين؟\nسيتم قطع اتصال اللاعبين."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"ar"			"هل أنت متأكد أنك تريد إعادة تعيين اللاعب {1}؟"
+	}
+
+	"confirm_reset_database"
+	{
+		"ar"			"هل أنت متأكد أنك تريد إعادة تعيين قاعدة البيانات؟\nسيتم إعادة تشغيل الخادم!"
+	}
+
+	"choose_player_reset"
+	{
+		"ar"			"اختر لاعب لإعادة تعيين"
+	}
+
+	"choose_player_credits"
+	{
+		"ar"			"اختر لاعبًا لمنحه الاعتمادات"
+	}
+
+	"choose_player_inventory"
+	{
+		"ar"			"اختر لاعب"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"ar"			"اختر مبلغ الاعتمادات\n{2} - {1} ائتمان"
 	}
 }

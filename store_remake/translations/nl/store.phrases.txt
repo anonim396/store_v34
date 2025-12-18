@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"nl"		"Admin {1} opende een giveaway met <font color='#15fb00'>{2} credits"
+		"nl"		"Admin {1} opende een giveaway met {2} credits"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"nl"		"Een getal tussen {1} en {2} is voor jou gekozen, om te raden of het volgende getal hoger of lager zal zijn dan het gekozen getal."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"nl"		"Er is een pauze van {1} seconde tussen elk spel."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"nl"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"nl"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"nl"		"Admin {1} opende een giveaway met <font color='#15fb00'>{2} credits"
+		"nl"		"Admin {1} opende een giveaway met {2} credits"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"nl"		"Hit"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"nl"		"Een getal tussen {1} en {2} is voor jou gekozen, om te raden of het volgende getal hoger of lager zal zijn dan het gekozen getal."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"nl"		"Als je de juiste kiest, win je twee keer je inzet."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"nl"		"Er is een pauze van {1} seconde tussen elk spel."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"nl"		"Je hebt succesvol {1} {2} geplaatst."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"nl"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"nl"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"nl"		"speler klasse"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"nl"	"Top Uitrustingswaarde"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"nl"		"Speler {1} heeft de map voltooid en heeft {2} {3} gekregen!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"nl"		"Positie {1} {2} {3} succesvol ingesteld. Herlaad nu de configuratie om nieuwe posities te laten werken!"
+	}
+
+	"SetPosFailed"
+	{
+		"nl"		"Positie instellen mislukt!"
+	}
+
+	"SetPosLimit"
+	{
+		"nl"		"Stel positie in van 0 tot 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"nl"		"Voer alleen cijfers in!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"nl"		"{1} {2} voor positie {3} succesvol ingesteld!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"nl"		"{1} {2} voor andere posities zijn succesvol ingesteld!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"nl"		"Speler {1} heeft de map voltooid en heeft {2} {3} gekregen!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"nl"		"Positie {1} {2} {3} succesvol ingesteld. Herlaad nu de configuratie om nieuwe posities te laten werken!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"nl"		"Positie instellen mislukt!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"nl"		"Stel positie in van 0 tot 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"nl"		"Voer alleen cijfers in!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"nl"		"{1} {2} voor positie {3} succesvol ingesteld!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"nl"		"{1} {2} voor andere posities zijn succesvol ingesteld!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"nl"			"Configuratie herladen"
+	}
+
+	"Type setcredits CM"
+	{
+		"nl"			"Typ in chat: !setcredits <bedrag>"
+	}
+
+	"Credits saved CM"
+	{
+		"nl"			"Credits opgeslagen in configuratie"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"nl"			"Positie opgeslagen: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"nl"			"Configuratie herladen"
+	}
+
+	"Type setcredits"
+	{
+		"nl"			"Typ in chat: !setcredits <bedrag>"
+	}
+
+	"Credits saved"
+	{
+		"nl"			"Credits opgeslagen in configuratie"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"nl"			"Positie opgeslagen: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"nl"			"Balpositie Editor\n \nHuidige positie: {1} {2} {3}\nStandaard credits: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"nl"			"Plaats bal hier"
+	}
+
+	"Set Credits Menu"
+	{
+		"nl"			"Credits instellen"
+	}
+
+	"Reload Config Menu"
+	{
+		"nl"			"Config herladen"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"nl"			"Credits instellen voor posities\n0 = Standaard voor alle posities\n \nHuidige waarden:\nStandaard: {1} credits\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"nl"			"Credits instellen voor positie {1}\n \nHuidig: {2} credits\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"nl"			"Aangepast bedrag..."
+	}
+	
+	"Store Admin Category"
+	{
+		"nl"			"Winkeladministratie"
+	}
+
+	"Reload store config"
+	{
+		"nl"			"Config herladen"
+	}
+
+	"Reset database"
+	{
+		"nl"			"Database resetten"
+	}
+
+	"Reset player"
+	{
+		"nl"			"Speler resetten"
+	}
+
+	"Give credits"
+	{
+		"nl"			"Geef credits"
+	}
+
+	"View inventory"
+	{
+		"nl"			"Bekijk inventaris"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"nl"			"Weet u zeker dat u de configuratie opnieuw wilt laden?\nSpelers moeten over {1} seconden opnieuw verbinden."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"nl"			"Weet u zeker dat u de configuratie opnieuw wilt laden?\nSpelers worden verbroken."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"nl"			"Weet u zeker dat u speler {1} wilt resetten?"
+	}
+
+	"confirm_reset_database"
+	{
+		"nl"			"Weet u zeker dat u de database wilt resetten?\nDe server wordt opnieuw opgestart!"
+	}
+
+	"choose_player_reset"
+	{
+		"nl"			"Kies een speler om te resetten"
+	}
+
+	"choose_player_credits"
+	{
+		"nl"			"Kies een speler om credits aan te geven"
+	}
+
+	"choose_player_inventory"
+	{
+		"nl"			"Kies een speler"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"nl"			"Kies het aantal credits\n{2} - {1} credits"
 	}
 }

@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"en"		"Admin {1} opened a giveaway with <font color='#15fb00'>{2} credits"
+		"en"		"Admin {1} opened a giveaway with {2} credits"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"en"		"A number between {1} to {2} has been chosen for you guess if the next number will be higher or lower than the chosen number."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"en"		"There is a {1} second(s) pause between each games."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"en"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"en"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"en"		"Admin {1} opened a giveaway with <font color='#15fb00'>{2} credits"
+		"en"		"Admin {1} opened a giveaway with {2} credits"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"en"		"Hit"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"en"		"A number between {1} to {2} has been chosen for you guess if the next number will be higher or lower than the chosen number."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"en"		"If you choose the good one, you will win twice your bet."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"en"		"There is a {1} second(s) pause between each games."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"en"		"You have successfully placed {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"en"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"en"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"en"		"player class"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"en"	"Top Equipped Worth"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"en"		"Player {1} has finished the map and has been given {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"en"		"Position {1} {2} {3} set successfully. Now reload configuration to make new positions to work!"
+	}
+
+	"SetPosFailed"
+	{
+		"en"		"Position set failed!"
+	}
+
+	"SetPosLimit"
+	{
+		"en"		"Set position from 0 to 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"en"		"Insert numbers only!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"en"		"{1} {2} for the position {3} set successfully!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"en"		"{1} {2} for other positions has been set successfully!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"en"		"Player {1} has finished the map and has been given {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"en"		"Position {1} {2} {3} set successfully. Now reload configuration to make new positions to work!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"en"		"Position set failed!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"en"		"Set position from 0 to 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"en"		"Insert numbers only!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"en"		"{1} {2} for the position {3} set successfully!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"en"		"{1} {2} for other positions has been set successfully!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"en"			"Configuration reloaded"
+	}
+
+	"Type setcredits CM"
+	{
+		"en"			"Type in chat: !setcredits <amount>"
+	}
+
+	"Credits saved CM"
+	{
+		"en"			"Credits saved to configuration"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"en"			"Position saved: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"en"			"Configuration reloaded"
+	}
+
+	"Type setcredits"
+	{
+		"en"			"Type in chat: !setcredits <amount>"
+	}
+
+	"Credits saved"
+	{
+		"en"			"Credits saved to configuration"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"en"			"Position saved: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"en"			"Ball Position Editor\n \nCurrent position: {1} {2} {3}\nDefault credits: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"en"			"Place Ball Here"
+	}
+
+	"Set Credits Menu"
+	{
+		"en"			"Set Credits"
+	}
+
+	"Reload Config Menu"
+	{
+		"en"			"Reload Config"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"en"			"Set Credits for Positions\n0 = Default for all positions\n \nCurrent values:\nDefault: {1} credits\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"en"			"Set Credits for Position {1}\n \nCurrent: {2} credits\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"en"			"Custom amount..."
+	}
+	
+	"Store Admin Category"
+	{
+		"en"			"Store Administration"
+	}
+
+	"Reload store config"
+	{
+		"en"			"Reload configuration"
+	}
+
+	"Reset database"
+	{
+		"en"			"Reset database"
+	}
+
+	"Reset player"
+	{
+		"en"			"Reset player"
+	}
+
+	"Give credits"
+	{
+		"en"			"Give credits"
+	}
+
+	"View inventory"
+	{
+		"en"			"View inventory"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"en"			"Are you sure you want to reload configuration?\nPlayers will need to reconnect in {1} seconds."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"en"			"Are you sure you want to reload configuration?\nPlayers will be disconnected."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"en"			"Are you sure you want to reset player {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"en"			"Are you sure you want to reset database?\nServer will be restarted!"
+	}
+
+	"choose_player_reset"
+	{
+		"en"			"Choose a player to reset"
+	}
+
+	"choose_player_credits"
+	{
+		"en"			"Choose a player to give credits to"
+	}
+
+	"choose_player_inventory"
+	{
+		"en"			"Choose a player"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"en"			"Choose the amount of credits\n{2} - {1} credits"
 	}
 }

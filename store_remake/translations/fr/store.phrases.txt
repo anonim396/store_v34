@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"fr"		"L'admin {1} a lancé un giveaway avec <font color='#15fb00'>{2} crédits"
+		"fr"		"L'admin {1} a lancé un giveaway avec {2} crédits"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"fr"		"Un nombre entre {1} et {2} a été choisi pour que vous deviniez si le prochain nombre sera plus grand ou plus petit que le nombre choisi."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"fr"		"Il y a une pause de {1} seconde(s) entre chaque jeu."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"fr"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"fr"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"fr"		"L'admin {1} a lancé un giveaway avec <font color='#15fb00'>{2} crédits"
+		"fr"		"L'admin {1} a lancé un giveaway avec {2} crédits"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"fr"		"Coup"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"fr"		"Un nombre entre {1} et {2} a été choisi pour que vous deviniez si le prochain nombre sera plus grand ou plus petit que le nombre choisi."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"fr"		"Si vous choisissez le bon, vous gagnerez deux fois votre mise."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"fr"		"Il y a une pause de {1} seconde(s) entre chaque jeu."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"fr"		"Vous avez placé avec succès {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"fr"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"fr"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"fr"		"classe du joueur"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"fr"	"Valeur d'Équipement Supérieure"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"fr"		"Le joueur {1} a terminé la carte et a reçu {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"fr"		"Position {1} {2} {3} définie avec succès. Rechargez maintenant la configuration pour que les nouvelles positions fonctionnent!"
+	}
+
+	"SetPosFailed"
+	{
+		"fr"		"Échec de la définition de la position!"
+	}
+
+	"SetPosLimit"
+	{
+		"fr"		"Définir la position de 0 à 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"fr"		"Insérez uniquement des chiffres!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"fr"		"{1} {2} pour la position {3} définis avec succès!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"fr"		"{1} {2} pour d'autres positions ont été définis avec succès!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"fr"		"Le joueur {1} a terminé la carte et a reçu {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"fr"		"Position {1} {2} {3} définie avec succès. Rechargez maintenant la configuration pour que les nouvelles positions fonctionnent!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"fr"		"Échec de la définition de la position!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"fr"		"Définir la position de 0 à 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"fr"		"Insérez uniquement des chiffres!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"fr"		"{1} {2} pour la position {3} définis avec succès!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"fr"		"{1} {2} pour d'autres positions ont été définis avec succès!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"fr"			"Configuration rechargée"
+	}
+
+	"Type setcredits CM"
+	{
+		"fr"			"Tapez dans le chat: !setcredits <montant>"
+	}
+
+	"Credits saved CM"
+	{
+		"fr"			"Crédits enregistrés dans la configuration"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"fr"			"Position enregistrée: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"fr"			"Configuration rechargée"
+	}
+
+	"Type setcredits"
+	{
+		"fr"			"Tapez dans le chat: !setcredits <montant>"
+	}
+
+	"Credits saved"
+	{
+		"fr"			"Crédits enregistrés dans la configuration"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"fr"			"Position enregistrée: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"fr"			"Éditeur de position de balle\n \nPosition actuelle: {1} {2} {3}\nCrédits par défaut: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"fr"			"Placer la balle ici"
+	}
+
+	"Set Credits Menu"
+	{
+		"fr"			"Définir les crédits"
+	}
+
+	"Reload Config Menu"
+	{
+		"fr"			"Recharger la configuration"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"fr"			"Définir les crédits pour les positions\n0 = Par défaut pour toutes les positions\n \nValeurs actuelles:\nPar défaut: {1} crédits\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"fr"			"Définir les crédits pour la position {1}\n \nActuel: {2} crédits\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"fr"			"Montant personnalisé..."
+	}
+	
+	"Store Admin Category"
+	{
+		"fr"			"Administration du Magasin"
+	}
+
+	"Reload store config"
+	{
+		"fr"			"Recharger la configuration"
+	}
+
+	"Reset database"
+	{
+		"fr"			"Réinitialiser la base de données"
+	}
+
+	"Reset player"
+	{
+		"fr"			"Réinitialiser joueur"
+	}
+
+	"Give credits"
+	{
+		"fr"			"Donner des crédits"
+	}
+
+	"View inventory"
+	{
+		"fr"			"Voir l'inventaire"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"fr"			"Voulez-vous vraiment recharger la configuration?\nLes joueurs devront se reconnecter dans {1} secondes."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"fr"			"Voulez-vous vraiment recharger la configuration?\nLes joueurs seront déconnectés."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"fr"			"Voulez-vous vraiment réinitialiser le joueur {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"fr"			"Voulez-vous vraiment réinitialiser la base de données?\nLe serveur sera redémarré!"
+	}
+
+	"choose_player_reset"
+	{
+		"fr"			"Choisissez un joueur à réinitialiser"
+	}
+
+	"choose_player_credits"
+	{
+		"fr"			"Choisissez un joueur à qui donner des crédits"
+	}
+
+	"choose_player_inventory"
+	{
+		"fr"			"Choisissez un joueur"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"fr"			"Choisissez le montant des crédits\n{2} - {1} crédits"
 	}
 }

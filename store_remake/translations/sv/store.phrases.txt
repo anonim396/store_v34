@@ -649,7 +649,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"sv"		"Admin {1} öppnade ett giveaway med <font color='#15fb00'>{2} krediter"
+		"sv"		"Admin {1} öppnade ett giveaway med {2} krediter"
 	}
 	"Giveaway remaining time"
 	{
@@ -767,6 +767,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"sv"		"En siffra mellan {1} och {2} har valts för att du ska gissa om nästa nummer blir högre eller lägre än det valda numret."
 	}
 	"Hol Info 2"
@@ -775,6 +776,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"sv"		"Det finns en paus på {1} sekund(er) mellan varje spel."
 	}
 	"Hol placed"
@@ -1934,7 +1936,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"sv"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"sv"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3057,7 +3059,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"sv"		"Admin {1} öppnade ett giveaway med <font color='#15fb00'>{2} krediter"
+		"sv"		"Admin {1} öppnade ett giveaway med {2} krediter"
 	}
 
 	"Giveaway remaining time CM"
@@ -3199,27 +3201,6 @@
 	"Hit CM"
 	{
 		"sv"		"Slag"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"sv"		"En siffra mellan {1} och {2} har valts för att du ska gissa om nästa nummer blir högre eller lägre än det valda numret."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"sv"		"Om du väljer rätt kommer du att vinna dubbelt så mycket som din insats."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"sv"		"Det finns en paus på {1} sekund(er) mellan varje spel."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"sv"		"Du har framgångsrikt placerat {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4629,7 +4610,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"sv"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"sv"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5063,5 +5044,241 @@
 	"zrclass CM"
 	{
 		"sv"		"spelarklass"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"sv"	"Bästa Utrustningsvärdet"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"sv"		"Spelare {1} har slutfört banen och fått {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"sv"		"Position {1} {2} {3} inställd framgångsrikt. Ladda om konfigurationen nu för att få nya positioner att fungera!"
+	}
+
+	"SetPosFailed"
+	{
+		"sv"		"Position inställning misslyckades!"
+	}
+
+	"SetPosLimit"
+	{
+		"sv"		"Ställ in position från 0 till 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"sv"		"Ange endast siffror!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"sv"		"{1} {2} för position {3} inställda framgångsrikt!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"sv"		"{1} {2} för andra positioner har ställts in framgångsrikt!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"sv"		"Spelare {1} har slutfört banen och fått {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"sv"		"Position {1} {2} {3} inställd framgångsrikt. Ladda om konfigurationen nu för att få nya positioner att fungera!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"sv"		"Position inställning misslyckades!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"sv"		"Ställ in position från 0 till 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"sv"		"Ange endast siffror!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"sv"		"{1} {2} för position {3} inställda framgångsrikt!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"sv"		"{1} {2} för andra positioner har ställts in framgångsrikt!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"sv"			"Konfiguration omladdad"
+	}
+
+	"Type setcredits CM"
+	{
+		"sv"			"Skriv i chatten: !setcredits <belopp>"
+	}
+
+	"Credits saved CM"
+	{
+		"sv"			"Krediter sparade i konfiguration"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"sv"			"Position sparad: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"sv"			"Konfiguration omladdad"
+	}
+
+	"Type setcredits"
+	{
+		"sv"			"Skriv i chatten: !setcredits <belopp>"
+	}
+
+	"Credits saved"
+	{
+		"sv"			"Krediter sparade i konfiguration"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"sv"			"Position sparad: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"sv"			"Bollpositionsredigerare\n \nNuvarande position: {1} {2} {3}\nStandardkrediter: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"sv"			"Placera boll här"
+	}
+
+	"Set Credits Menu"
+	{
+		"sv"			"Ställ in krediter"
+	}
+
+	"Reload Config Menu"
+	{
+		"sv"			"Ladda om konfig"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"sv"			"Ställ in krediter för positioner\n0 = Standard för alla positioner\n \nAktuella värden:\nStandard: {1} krediter\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"sv"			"Ställ in krediter för position {1}\n \nAktuell: {2} krediter\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"sv"			"Anpassat belopp..."
+	}
+	
+	"Store Admin Category"
+	{
+		"sv"			"Affärsadministration"
+	}
+
+	"Reload store config"
+	{
+		"sv"			"Ladda om konfig"
+	}
+
+	"Reset database"
+	{
+		"sv"			"Återställ databas"
+	}
+
+	"Reset player"
+	{
+		"sv"			"Återställ spelare"
+	}
+
+	"Give credits"
+	{
+		"sv"			"Ge krediter"
+	}
+
+	"View inventory"
+	{
+		"sv"			"Visa inventarie"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"sv"			"Är du säker på att du vill ladda om konfigurationen?\nSpelare måste ansluta om {1} sekunder."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"sv"			"Är du säker på att du vill ladda om konfigurationen?\nSpelare kommer att kopplas bort."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"sv"			"Är du säker på att du vill återställa spelare {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"sv"			"Är du säker på att du vill återställa databasen?\nServern kommer att startas om!"
+	}
+
+	"choose_player_reset"
+	{
+		"sv"			"Välj en spelare att återställa"
+	}
+
+	"choose_player_credits"
+	{
+		"sv"			"Välj en spelare att ge krediter till"
+	}
+
+	"choose_player_inventory"
+	{
+		"sv"			"Välj en spelare"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"sv"			"Välj antalet krediter\n{2} - {1} krediter"
 	}
 }

@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"jp"		"あなたが次の数字が選ばれた数字より大きいか小さいかを予想するために、{1} と {2} の間で数字が選ばれました。"
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"jp"		"各ゲームの間に {1} 秒の休憩があります。"
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"jp"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"jp"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"jp"		"ヒット"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"jp"		"あなたが次の数字が選ばれた数字より大きいか小さいかを予想するために、{1} と {2} の間で数字が選ばれました。"
-	}
-
-	"Hol Info 2 CM"
-	{
-		"jp"		"正しい選択をすれば、あなたは賭け金の2倍を獲得します。"
-	}
-
-	"Hol Info 3 CM"
-	{
-		"jp"		"各ゲームの間に {1} 秒の休憩があります。"
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"jp"		"あなたは {1} {2} を正常に配置しました。"
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"jp"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"jp"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"jp"		"プレイヤークラス"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"jp"	"装備済み価値トップ"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"jp"		"プレイヤー {1} がマップをクリアし、{2} {3} を獲得しました！"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"jp"		"位置 {1} {2} {3} が正常に設定されました。新しい位置を有効にするには設定をリロードしてください！"
+	}
+
+	"SetPosFailed"
+	{
+		"jp"		"位置設定に失敗しました！"
+	}
+
+	"SetPosLimit"
+	{
+		"jp"		"0から64までの位置を設定してください！"
+	}
+
+	"NumbersOnly"
+	{
+		"jp"		"数字のみを入力してください！"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"jp"		"位置 {3} の {1} {2} が正常に設定されました！"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"jp"		"他の位置の {1} {2} が正常に設定されました！"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"jp"		"プレイヤー {1} がマップをクリアし、{2} {3} を獲得しました！"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"jp"		"位置 {1} {2} {3} が正常に設定されました。新しい位置を有効にするには設定をリロードしてください！"
+	}
+
+	"SetPosFailed CM"
+	{
+		"jp"		"位置設定に失敗しました！"
+	}
+
+	"SetPosLimit CM"
+	{
+		"jp"		"0から64までの位置を設定してください！"
+	}
+
+	"NumbersOnly CM"
+	{
+		"jp"		"数字のみを入力してください！"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"jp"		"位置 {3} の {1} {2} が正常に設定されました！"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"jp"		"他の位置の {1} {2} が正常に設定されました！"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"jp"			"設定を再読み込みしました"
+	}
+
+	"Type setcredits CM"
+	{
+		"jp"			"チャットで入力: !setcredits <金額>"
+	}
+
+	"Credits saved CM"
+	{
+		"jp"			"クレジットを設定に保存しました"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"jp"			"位置を保存しました: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"jp"			"設定を再読み込みしました"
+	}
+
+	"Type setcredits"
+	{
+		"jp"			"チャットで入力: !setcredits <金額>"
+	}
+
+	"Credits saved"
+	{
+		"jp"			"クレジットを設定に保存しました"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"jp"			"位置を保存しました: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"jp"			"ボール位置エディター\n \n現在の位置: {1} {2} {3}\nデフォルトクレジット: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"jp"			"ボールをここに配置"
+	}
+
+	"Set Credits Menu"
+	{
+		"jp"			"クレジット設定"
+	}
+
+	"Reload Config Menu"
+	{
+		"jp"			"設定再読み込み"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"jp"			"位置ごとのクレジット設定\n0 = すべての位置のデフォルト\n \n現在の値:\nデフォルト: {1} クレジット\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"jp"			"位置 {1} のクレジット設定\n \n現在: {2} クレジット\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"jp"			"カスタム金額..."
+	}
+	
+	"Store Admin Category"
+	{
+		"jp"			"ストア管理"
+	}
+
+	"Reload store config"
+	{
+		"jp"			"設定再読み込み"
+	}
+
+	"Reset database"
+	{
+		"jp"			"データベースをリセット"
+	}
+
+	"Reset player"
+	{
+		"jp"			"プレイヤーをリセット"
+	}
+
+	"Give credits"
+	{
+		"jp"			"クレジットを与える"
+	}
+
+	"View inventory"
+	{
+		"jp"			"インベントリを表示"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"jp"			"設定を再読み込みしますか？\nプレイヤーは {1} 秒後に再接続する必要があります。"
+	}
+
+	"confirm_reload_type_1"
+	{
+		"jp"			"設定を再読み込みしますか？\nプレイヤーは切断されます。"
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"jp"			"プレイヤー {1} をリセットしますか？"
+	}
+
+	"confirm_reset_database"
+	{
+		"jp"			"データベースをリセットしますか？\nサーバーが再起動されます！"
+	}
+
+	"choose_player_reset"
+	{
+		"jp"			"リセットするプレイヤーを選択"
+	}
+
+	"choose_player_credits"
+	{
+		"jp"			"クレジットを与えるプレイヤーを選択"
+	}
+
+	"choose_player_inventory"
+	{
+		"jp"			"プレイヤーを選択"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"jp"			"クレジットの金額を選択\n{2} - {1} クレジット"
 	}
 }

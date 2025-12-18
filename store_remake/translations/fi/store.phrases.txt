@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"fi"		"Admin {1} avasi giveaway:n, jossa oli <font color='#15fb00'>{2} krediittiä"
+		"fi"		"Admin {1} avasi giveaway:n, jossa oli {2} krediittiä"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"fi"		"Numero {1} ja {2} väliltä on valittu, jotta voit arvata, onko seuraava numero suurempi vai pienempi valitusta numerosta."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"fi"		"Jokaisen pelin välillä on {1} sekunnin tauko."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"fi"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"fi"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"fi"		"Admin {1} avasi giveaway:n, jossa oli <font color='#15fb00'>{2} krediittiä"
+		"fi"		"Admin {1} avasi giveaway:n, jossa oli {2} krediittiä"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"fi"		"Isku"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"fi"		"Numero {1} ja {2} väliltä on valittu, jotta voit arvata, onko seuraava numero suurempi vai pienempi valitusta numerosta."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"fi"		"Jos valitset oikean, voitat kaksinkertaisen panoksesi."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"fi"		"Jokaisen pelin välillä on {1} sekunnin tauko."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"fi"		"Olet onnistuneesti asettanut {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"fi"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"fi"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"fi"		"pelihahmon luokka"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"fi"	"Paras Varustusarvo"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"fi"		"Pelaaja {1} on suorittanut kartan ja saanut {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"fi"		"Sijainti {1} {2} {3} asetettu onnistuneesti. Lataa konfiguraatio uudelleen, jotta uudet sijainnit toimivat!"
+	}
+
+	"SetPosFailed"
+	{
+		"fi"		"Sijainnin asetus epäonnistui!"
+	}
+
+	"SetPosLimit"
+	{
+		"fi"		"Aseta sijainti välillä 0-64!"
+	}
+
+	"NumbersOnly"
+	{
+		"fi"		"Syötä vain numeroita!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"fi"		"{1} {2} sijainnille {3} asetettu onnistuneesti!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"fi"		"{1} {2} muille sijainneille on asetettu onnistuneesti!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"fi"		"Pelaaja {1} on suorittanut kartan ja saanut {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"fi"		"Sijainti {1} {2} {3} asetettu onnistuneesti. Lataa konfiguraatio uudelleen, jotta uudet sijainnit toimivat!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"fi"		"Sijainnin asetus epäonnistui!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"fi"		"Aseta sijainti välillä 0-64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"fi"		"Syötä vain numeroita!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"fi"		"{1} {2} sijainnille {3} asetettu onnistuneesti!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"fi"		"{1} {2} muille sijainneille on asetettu onnistuneesti!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"fi"			"Kokoonpano ladattu uudelleen"
+	}
+
+	"Type setcredits CM"
+	{
+		"fi"			"Kirjoita chattiin: !setcredits <määrä>"
+	}
+
+	"Credits saved CM"
+	{
+		"fi"			"Pisteet tallennettu kokoonpanoon"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"fi"			"Sijainti tallennettu: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"fi"			"Kokoonpano ladattu uudelleen"
+	}
+
+	"Type setcredits"
+	{
+		"fi"			"Kirjoita chattiin: !setcredits <määrä>"
+	}
+
+	"Credits saved"
+	{
+		"fi"			"Pisteet tallennettu kokoonpanoon"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"fi"			"Sijainti tallennettu: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"fi"			"Pallon asennon muokkain\n \nNykyinen sijainti: {1} {2} {3}\nOletuspisteet: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"fi"			"Aseta pallo tähän"
+	}
+
+	"Set Credits Menu"
+	{
+		"fi"			"Aseta pisteet"
+	}
+
+	"Reload Config Menu"
+	{
+		"fi"			"Lataa kokoonpano uudelleen"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"fi"			"Aseta pisteet paikoille\n0 = Oletus kaikille paikoille\n \nNykyiset arvot:\nOletus: {1} pistettä\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"fi"			"Aseta pisteet paikalle {1}\n \nNykyinen: {2} pistettä\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"fi"			"Mukautettu määrä..."
+	}
+	
+	"Store Admin Category"
+	{
+		"fi"			"Kaupan hallinta"
+	}
+
+	"Reload store config"
+	{
+		"fi"			"Lataa kokoonpano uudelleen"
+	}
+
+	"Reset database"
+	{
+		"fi"			"Nollaa tietokanta"
+	}
+
+	"Reset player"
+	{
+		"fi"			"Nollaa pelaaja"
+	}
+
+	"Give credits"
+	{
+		"fi"			"Anna pisteitä"
+	}
+
+	"View inventory"
+	{
+		"fi"			"Näytä varasto"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"fi"			"Haluatko varmasti ladata konfiguraation uudelleen?\nPelaajien on yhdistettävä uudelleen {1} sekunnin kuluttua."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"fi"			"Haluatko varmasti ladata konfiguraation uudelleen?\nPelaajat katkaistaan."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"fi"			"Haluatko varmasti nollata pelaajan {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"fi"			"Haluatko varmasti nollata tietokannan?\nPalvelin käynnistetään uudelleen!"
+	}
+
+	"choose_player_reset"
+	{
+		"fi"			"Valitse nollattava pelaaja"
+	}
+
+	"choose_player_credits"
+	{
+		"fi"			"Valitse pelaaja, jolle annat pisteitä"
+	}
+
+	"choose_player_inventory"
+	{
+		"fi"			"Valitse pelaaja"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"fi"			"Valitse pisteiden määrä\n{2} - {1} pistettä"
 	}
 }

@@ -767,6 +767,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"tr"		"{1} ile {2} arasında bir sayı seçildi, bir sonraki sayının seçilen sayıdan yüksek mi yoksa düşük mü olacağını tahmin et."
 	}
 	"Hol Info 2"
@@ -775,6 +776,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"tr"		"Her oyun arasında {1} saniyelik bir ara vardır."
 	}
 	"Hol placed"
@@ -1934,7 +1936,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"tr"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"tr"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3199,27 +3201,6 @@
 	"Hit CM"
 	{
 		"tr"		"Vuruş"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"tr"		"{1} ile {2} arasında bir sayı seçildi, bir sonraki sayının seçilen sayıdan yüksek mi yoksa düşük mü olacağını tahmin et."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"tr"		"Doğruyu seçersen, bahsinin iki katını kazanırsın."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"tr"		"Her oyun arasında {1} saniyelik bir ara vardır."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"tr"		"{1} {2} başarıyla yerleştirildi."
 	}
 
 	"Inventory CM"
@@ -4629,7 +4610,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"tr"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"tr"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5063,5 +5044,241 @@
 	"zrclass CM"
 	{
 		"tr"		"oyuncu sınıfı"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"tr"	"En Değerli Ekipman"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"tr"		"{1} oyuncusu haritayı tamamladı ve {2} {3} aldı!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"tr"		"Konum {1} {2} {3} başarıyla ayarlandı. Şimdi yeni konumların çalışması için yapılandırmayı yeniden yükleyin!"
+	}
+
+	"SetPosFailed"
+	{
+		"tr"		"Konum ayarı başarısız!"
+	}
+
+	"SetPosLimit"
+	{
+		"tr"		"Konumu 0 ile 64 arasında ayarlayın!"
+	}
+
+	"NumbersOnly"
+	{
+		"tr"		"Sadece sayı girin!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"tr"		"{3}. konum için {1} {2} başarıyla ayarlandı!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"tr"		"Diğer konumlar için {1} {2} başarıyla ayarlandı!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"tr"		"{1} oyuncusu haritayı tamamladı ve {2} {3} aldı!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"tr"		"Konum {1} {2} {3} başarıyla ayarlandı. Şimdi yeni konumların çalışması için yapılandırmayı yeniden yükleyin!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"tr"		"Konum ayarı başarısız!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"tr"		"Konumu 0 ile 64 arasında ayarlayın!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"tr"		"Sadece sayı girin!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"tr"		"{3}. konum için {1} {2} başarıyla ayarlandı!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"tr"		"Diğer konumlar için {1} {2} başarıyla ayarlandı!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"tr"			"Yapılandırma yeniden yüklendi"
+	}
+
+	"Type setcredits CM"
+	{
+		"tr"			"Sohbete yazın: !setcredits <miktar>"
+	}
+
+	"Credits saved CM"
+	{
+		"tr"			"Krediler yapılandırmaya kaydedildi"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"tr"			"Konum kaydedildi: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"tr"			"Yapılandırma yeniden yüklendi"
+	}
+
+	"Type setcredits"
+	{
+		"tr"			"Sohbete yazın: !setcredits <miktar>"
+	}
+
+	"Credits saved"
+	{
+		"tr"			"Krediler yapılandırmaya kaydedildi"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"tr"			"Konum kaydedildi: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"tr"			"Top Konumu Düzenleyici\n \nMevcut konum: {1} {2} {3}\nVarsayılan krediler: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"tr"			"Topu Buraya Yerleştir"
+	}
+
+	"Set Credits Menu"
+	{
+		"tr"			"Kredi Ayarla"
+	}
+
+	"Reload Config Menu"
+	{
+		"tr"			"Yapılandırmayı Yeniden Yükle"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"tr"			"Pozisyonlar İçin Kredi Ayarla\n0 = Tüm pozisyonlar için varsayılan\n \nMevcut değerler:\nVarsayılan: {1} kredi\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"tr"			"{1} Pozisyonu İçin Kredi Ayarla\n \nMevcut: {2} kredi\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"tr"			"Özel Miktar..."
+	}
+	
+	"Store Admin Category"
+	{
+		"tr"			"Mağaza Yönetimi"
+	}
+
+	"Reload store config"
+	{
+		"tr"			"Yapılandırmayı Yeniden Yükle"
+	}
+
+	"Reset database"
+	{
+		"tr"			"Veritabanını Sıfırla"
+	}
+
+	"Reset player"
+	{
+		"tr"			"Oyuncuyu Sıfırla"
+	}
+
+	"Give credits"
+	{
+		"tr"			"Kredi Ver"
+	}
+
+	"View inventory"
+	{
+		"tr"			"Envanteri Görüntüle"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"tr"			"Yapılandırmayı yeniden yüklemek istediğinizden emin misiniz?\nOyuncuların {1} saniye içinde yeniden bağlanması gerekecek."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"tr"			"Yapılandırmayı yeniden yüklemek istediğinizden emin misiniz?\nOyuncuların bağlantısı kesilecek."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"tr"			"Oyuncuyu {1} sıfırlamak istediğinizden emin misiniz?"
+	}
+
+	"confirm_reset_database"
+	{
+		"tr"			"Veritabanını sıfırlamak istediğinizden emin misiniz?\nSunucu yeniden başlatılacak!"
+	}
+
+	"choose_player_reset"
+	{
+		"tr"			"Sıfırlanacak bir oyuncu seçin"
+	}
+
+	"choose_player_credits"
+	{
+		"tr"			"Kredi vermek için bir oyuncu seçin"
+	}
+
+	"choose_player_inventory"
+	{
+		"tr"			"Bir oyuncu seçin"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"tr"			"Kredi miktarını seçin\n{2} - {1} kredi"
 	}
 }

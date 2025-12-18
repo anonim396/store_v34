@@ -649,7 +649,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"ro"		"Admin {1} a deschis un giveaway cu <font color='#15fb00'>{2} credite"
+		"ro"		"Admin {1} a deschis un giveaway cu {2} credite"
 	}
 	"Giveaway remaining time"
 	{
@@ -767,6 +767,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"ro"		"A fost ales un număr între {1} și {2} pentru a ghici dacă următorul număr va fi mai mare sau mai mic decât numărul ales."
 	}
 	"Hol Info 2"
@@ -775,6 +776,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"ro"		"Există o pauză de {1} secundă între fiecare joc."
 	}
 	"Hol placed"
@@ -1934,7 +1936,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"ro"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"ro"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3057,7 +3059,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"ro"		"Admin {1} a deschis un giveaway cu <font color='#15fb00'>{2} credite"
+		"ro"		"Admin {1} a deschis un giveaway cu {2} credite"
 	}
 
 	"Giveaway remaining time CM"
@@ -3199,27 +3201,6 @@
 	"Hit CM"
 	{
 		"ro"		"Lovitură"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"ro"		"A fost ales un număr între {1} și {2} pentru a ghici dacă următorul număr va fi mai mare sau mai mic decât numărul ales."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"ro"		"Dacă alegi corectul, vei câștiga de două ori mai mult decât miza ta."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"ro"		"Există o pauză de {1} secundă între fiecare joc."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"ro"		"Ați plasat cu succes {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4629,7 +4610,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"ro"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"ro"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5063,5 +5044,241 @@
 	"zrclass CM"
 	{
 		"ro"		"clasa jucătorului"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"ro"	"Valoarea Echipată de Top"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"ro"		"Jucătorul {1} a terminat harta și a primit {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"ro"		"Poziția {1} {2} {3} setată cu succes. Acum reîncărcați configurația pentru ca noile poziții să funcționeze!"
+	}
+
+	"SetPosFailed"
+	{
+		"ro"		"Setarea poziției a eșuat!"
+	}
+
+	"SetPosLimit"
+	{
+		"ro"		"Setați poziția de la 0 la 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"ro"		"Introduceți doar numere!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"ro"		"{1} {2} pentru poziția {3} setate cu succes!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"ro"		"{1} {2} pentru alte poziții au fost setate cu succes!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"ro"		"Jucătorul {1} a terminat harta și a primit {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"ro"		"Poziția {1} {2} {3} setată cu succes. Acum reîncărcați configurația pentru ca noile poziții să funcționeze!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"ro"		"Setarea poziției a eșuat!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"ro"		"Setați poziția de la 0 la 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"ro"		"Introduceți doar numere!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"ro"		"{1} {2} pentru poziția {3} setate cu succes!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"ro"		"{1} {2} pentru alte poziții au fost setate cu succes!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"ro"			"Configurație reîncărcată"
+	}
+
+	"Type setcredits CM"
+	{
+		"ro"			"Tastați în chat: !setcredits <sumă>"
+	}
+
+	"Credits saved CM"
+	{
+		"ro"			"Credite salvate în configurație"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"ro"			"Poziție salvată: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"ro"			"Configurație reîncărcată"
+	}
+
+	"Type setcredits"
+	{
+		"ro"			"Tastați în chat: !setcredits <sumă>"
+	}
+
+	"Credits saved"
+	{
+		"ro"			"Credite salvate în configurație"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"ro"			"Poziție salvată: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"ro"			"Editor Poziție Minge\n \nPoziție curentă: {1} {2} {3}\nCredite implicite: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"ro"			"Plasați mingea aici"
+	}
+
+	"Set Credits Menu"
+	{
+		"ro"			"Setați credite"
+	}
+
+	"Reload Config Menu"
+	{
+		"ro"			"Reîncarcă configurația"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"ro"			"Setați credite pentru poziții\n0 = Implicit pentru toate pozițiile\n \nValori curente:\nImplicit: {1} credite\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"ro"			"Setați credite pentru poziția {1}\n \nCurent: {2} credite\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"ro"			"Sumă personalizată..."
+	}
+	
+	"Store Admin Category"
+	{
+		"ro"			"Administrare Magazin"
+	}
+
+	"Reload store config"
+	{
+		"ro"			"Reîncarcă configurația"
+	}
+
+	"Reset database"
+	{
+		"ro"			"Resetați baza de date"
+	}
+
+	"Reset player"
+	{
+		"ro"			"Resetați jucător"
+	}
+
+	"Give credits"
+	{
+		"ro"			"Dați credite"
+	}
+
+	"View inventory"
+	{
+		"ro"			"Vizualizați inventarul"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"ro"			"Sunteți sigur că doriți să reîncărcați configurația?\nJucătorii vor trebui să se reconecteze în {1} secunde."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"ro"			"Sunteți sigur că doriți să reîncărcați configurația?\nJucătorii vor fi deconectați."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"ro"			"Sunteți sigur că doriți să resetați jucătorul {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"ro"			"Sunteți sigur că doriți să resetați baza de date?\nServerul va fi repornit!"
+	}
+
+	"choose_player_reset"
+	{
+		"ro"			"Alegeți un jucător pentru resetare"
+	}
+
+	"choose_player_credits"
+	{
+		"ro"			"Alegeți un jucător căruia să-i dați credite"
+	}
+
+	"choose_player_inventory"
+	{
+		"ro"			"Alegeți un jucător"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"ro"			"Alegeți suma creditelor\n{2} - {1} credite"
 	}
 }

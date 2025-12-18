@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"chi"		"管理员 {1} 开启了一次赠送活动，含有 <font color='#15fb00'>{2} 点数"
+		"chi"		"管理员 {1} 开启了一次赠送活动，含有 {2} 点数"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"chi"		"在{1}和{2}之间选择了一个数字，您需要猜测下一个数字是否比选择的数字大或小。"
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"chi"		"每场游戏之间有 {1} 秒的暂停。"
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"chi"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"chi"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"chi"		"管理员 {1} 开启了一次赠送活动，含有 <font color='#15fb00'>{2} 点数"
+		"chi"		"管理员 {1} 开启了一次赠送活动，含有 {2} 点数"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"chi"		"拿牌"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"chi"		"在{1}和{2}之间选择了一个数字，您需要猜测下一个数字是否比选择的数字大或小。"
-	}
-
-	"Hol Info 2 CM"
-	{
-		"chi"		"如果你选择正确，你将赢得你的投注的两倍。"
-	}
-
-	"Hol Info 3 CM"
-	{
-		"chi"		"每场游戏之间有 {1} 秒的暂停。"
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"chi"		"您已成功放置 {1} {2}。"
 	}
 
 	"Inventory CM"
@@ -4643,7 +4624,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"chi"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"chi"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5077,5 +5058,220 @@
 	"zrclass CM"
 	{
 		"chi"		"僵尸-类型"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"chi"	"装备总价值排行"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"chi"		"玩家 {1} 已完成地图并获得 {2} {3}！"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"chi"		"位置 {1} {2} {3} 设置成功。现在重新加载配置以使新位置生效！"
+	}
+
+	"SetPosFailed"
+	{
+		"chi"		"位置设置失败！"
+	}
+
+	"SetPosLimit"
+	{
+		"chi"		"设置位置从0到64！"
+	}
+
+	"NumbersOnly"
+	{
+		"chi"		"只输入数字！"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"chi"		"位置 {3} 的 {1} {2} 设置成功！"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"chi"		"其他位置的 {1} {2} 已设置成功！"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"chi"		"玩家 {1} 已完成地图并获得 {2} {3}！"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"chi"		"位置 {1} {2} {3} 设置成功。现在重新加载配置以使新位置生效！"
+	}
+
+	"SetPosFailed CM"
+	{
+		"chi"		"位置设置失败！"
+	}
+
+	"SetPosLimit CM"
+	{
+		"chi"		"设置位置从0到64！"
+	}
+
+	"NumbersOnly CM"
+	{
+		"chi"		"只输入数字！"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"chi"		"位置 {3} 的 {1} {2} 设置成功！"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"chi"		"其他位置的 {1} {2} 已设置成功！"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"chi"			"配置已重新加载"
+	}
+
+	"Type setcredits CM"
+	{
+		"chi"			"在聊天中输入: !setcredits <金额>"
+	}
+
+	"Credits saved CM"
+	{
+		"chi"			"积分已保存到配置"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"chi"			"位置已保存: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"chi"			"球位置编辑器\n \n当前位置: {1} {2} {3}\n默认积分: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"chi"			"将球放在这里"
+	}
+
+	"Set Credits Menu"
+	{
+		"chi"			"设置积分"
+	}
+
+	"Reload Config Menu"
+	{
+		"chi"			"重新加载配置"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"chi"			"为位置设置积分\n0 = 所有位置的默认值\n \n当前值:\n默认: {1} 积分\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"chi"			"为位置 {1} 设置积分\n \n当前: {2} 积分\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"chi"			"自定义金额..."
+	}
+	
+	"Store Admin Category"
+	{
+		"chi"			"商店管理"
+	}
+
+	"Reload store config"
+	{
+		"chi"			"重新加载配置"
+	}
+
+	"Reset database"
+	{
+		"chi"			"重置数据库"
+	}
+
+	"Reset player"
+	{
+		"chi"			"重置玩家"
+	}
+
+	"Give credits"
+	{
+		"chi"			"给予积分"
+	}
+
+	"View inventory"
+	{
+		"chi"			"查看库存"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"chi"			"您确定要重新加载配置吗？\n玩家需要在 {1} 秒后重新连接。"
+	}
+
+	"confirm_reload_type_1"
+	{
+		"chi"			"您确定要重新加载配置吗？\n玩家将被断开连接。"
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"chi"			"您确定要重置玩家 {1} 吗？"
+	}
+
+	"confirm_reset_database"
+	{
+		"chi"			"您确定要重置数据库吗？\n服务器将重新启动！"
+	}
+
+	"choose_player_reset"
+	{
+		"chi"			"选择要重置的玩家"
+	}
+
+	"choose_player_credits"
+	{
+		"chi"			"选择要给予积分的玩家"
+	}
+
+	"choose_player_inventory"
+	{
+		"chi"			"选择玩家"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"chi"			"选择积分数额\n{2} - {1} 积分"
 	}
 }

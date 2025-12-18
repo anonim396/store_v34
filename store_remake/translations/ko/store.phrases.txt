@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"ko"		"다음 숫자가 선택된 숫자보다 높거나 낮을지를 맞추기 위해 {1}과 {2} 사이에서 숫자가 선택되었습니다."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"ko"		"각 게임 사이에 {1} 초의 휴식이 있습니다."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"ko"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"ko"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"ko"		"히트"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"ko"		"다음 숫자가 선택된 숫자보다 높거나 낮을지를 맞추기 위해 {1}과 {2} 사이에서 숫자가 선택되었습니다."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"ko"		"올바른 선택을 하면, 당신은 배팅한 금액의 두 배를 얻습니다."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"ko"		"각 게임 사이에 {1} 초의 휴식이 있습니다."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"ko"		"당신은 {1} {2}을 성공적으로 배치했습니다."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"ko"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"ko"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,246 @@
 	"zrclass CM"
 	{
 		"ko"		"플레이어 클래스"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"ko"	"장착 아이템 가치 순위"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"ko"		"플레이어 {1} 님이 맵을 완료하고 {2} {3} 를 받았습니다!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"ko"		"위치 {1} {2} {3} 가 성공적으로 설정되었습니다. 이제 새 위치가 작동하도록 구성을 다시 로드하세요!"
+	}
+
+	"SetPosFailed"
+	{
+		"ko"		"위치 설정 실패!"
+	}
+
+	"SetPosLimit"
+	{
+		"ko"		"0에서 64까지 위치 설정!"
+	}
+
+	"NumbersOnly"
+	{
+		"ko"		"숫자만 입력하세요!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"ko"		"위치 {3} 에 대한 {1} {2} 가 성공적으로 설정되었습니다!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"ko"		"다른 위치에 대한 {1} {2} 가 성공적으로 설정되었습니다!"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"ko"	"장착 아이템 가치 순위"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"ko"		"플레이어 {1} 님이 맵을 완료하고 {2} {3} 를 받았습니다!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"ko"		"위치 {1} {2} {3} 가 성공적으로 설정되었습니다. 이제 새 위치가 작동하도록 구성을 다시 로드하세요!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"ko"		"위치 설정 실패!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"ko"		"0에서 64까지 위치 설정!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"ko"		"숫자만 입력하세요!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"ko"		"위치 {3} 에 대한 {1} {2} 가 성공적으로 설정되었습니다!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"ko"		"다른 위치에 대한 {1} {2} 가 성공적으로 설정되었습니다!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"ko"			"구성이 다시 로드되었습니다"
+	}
+
+	"Type setcredits CM"
+	{
+		"ko"			"채팅に 입력: !setcredits <금액>"
+	}
+
+	"Credits saved CM"
+	{
+		"ko"			"크레딧이 구성에 저장되었습니다"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"ko"			"위치 저장됨: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"ko"			"구성이 다시 로드되었습니다"
+	}
+
+	"Type setcredits"
+	{
+		"ko"			"채팅に 입력: !setcredits <금액>"
+	}
+
+	"Credits saved"
+	{
+		"ko"			"크레딧이 구성에 저장되었습니다"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"ko"			"위치 저장됨: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"ko"			"볼 위치 편집기\n \n현재 위치: {1} {2} {3}\n기본 크레딧: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"ko"			"공을 여기에 놓기"
+	}
+
+	"Set Credits Menu"
+	{
+		"ko"			"크레딧 설정"
+	}
+
+	"Reload Config Menu"
+	{
+		"ko"			"구성 다시 로드"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"ko"			"위치별 크레딧 설정\n0 = 모든 위치의 기본값\n \n현재 값:\n기본값: {1} 크레딧\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"ko"			"위치 {1}의 크레딧 설정\n \n현재: {2} 크레딧\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"ko"			"사용자 지정 금액..."
+	}
+	
+	"Store Admin Category"
+	{
+		"ko"			"상점 관리"
+	}
+
+	"Reload store config"
+	{
+		"ko"			"구성 다시 로드"
+	}
+
+	"Reset database"
+	{
+		"ko"			"데이터베이스 재설정"
+	}
+
+	"Reset player"
+	{
+		"ko"			"플레이어 재설정"
+	}
+
+	"Give credits"
+	{
+		"ko"			"크레딧 주기"
+	}
+
+	"View inventory"
+	{
+		"ko"			"인벤토리 보기"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"ko"			"구성을 다시 로드하시겠습니까?\n플레이어는 {1}초 후에 재접속해야 합니다."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"ko"			"구성을 다시 로드하시겠습니까?\n플레이어가 연결이 끊어집니다."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"ko"			"플레이어 {1}을(를) 재설정하시겠습니까?"
+	}
+
+	"confirm_reset_database"
+	{
+		"ko"			"데이터베이스를 재설정하시겠습니까?\n서버가 재시작됩니다!"
+	}
+
+	"choose_player_reset"
+	{
+		"ko"			"재설정할 플레이어 선택"
+	}
+
+	"choose_player_credits"
+	{
+		"ko"			"크레딧을 줄 플레이어 선택"
+	}
+
+	"choose_player_inventory"
+	{
+		"ko"			"플레이어 선택"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"ko"			"크레딧 양 선택\n{2} - {1} 크레딧"
 	}
 }

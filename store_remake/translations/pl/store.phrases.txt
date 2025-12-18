@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"pl"		"Administrator {1} otworzył giveaway z <font color='#15fb00'>{2} kredytami"
+		"pl"		"Administrator {1} otworzył giveaway z {2} kredytami"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"pl"		"Wylosowano liczbę między {1} a {2}, abyś zgadł, czy następna liczba będzie wyższa czy niższa od wybranej liczby."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"pl"		"Między każdą grą jest przerwa trwająca {1} sekund(y)."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"pl"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"pl"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"pl"		"Administrator {1} otworzył giveaway z <font color='#15fb00'>{2} kredytami"
+		"pl"		"Administrator {1} otworzył giveaway z {2} kredytami"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"pl"		"Uderzenie"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"pl"		"Wylosowano liczbę między {1} a {2}, abyś zgadł, czy następna liczba będzie wyższa czy niższa od wybranej liczby."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"pl"		"Jeśli wybierzesz poprawną opcję, wygrasz dwukrotność swojego zakładu."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"pl"		"Między każdą grą jest przerwa trwająca {1} sekund(y)."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"pl"		"Pomyslnie postawiłeś {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"pl"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"pl"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"pl"		"klasa gracza"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"pl"	"Wartość Wyposażenia Top"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"pl"		"Gracz {1} ukończył mapę i otrzymał {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"pl"		"Pozycja {1} {2} {3} ustawiona pomyślnie. Teraz przeładuj konfigurację, aby nowe pozycje działały!"
+	}
+
+	"SetPosFailed"
+	{
+		"pl"		"Ustawienie pozycji nie powiodło się!"
+	}
+
+	"SetPosLimit"
+	{
+		"pl"		"Ustaw pozycję od 0 do 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"pl"		"Wprowadź tylko liczby!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"pl"		"{1} {2} za pozycję {3} ustawione pomyślnie!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"pl"		"{1} {2} dla innych pozycji zostały ustawione pomyślnie!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"pl"		"Gracz {1} ukończył mapę i otrzymał {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"pl"		"Pozycja {1} {2} {3} ustawiona pomyślnie. Teraz przeładuj konfigurację, aby nowe pozycje działały!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"pl"		"Ustawienie pozycji nie powiodło się!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"pl"		"Ustaw pozycję od 0 do 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"pl"		"Wprowadź tylko liczby!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"pl"		"{1} {2} za pozycję {3} ustawione pomyślnie!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"pl"		"{1} {2} dla innych pozycji zostały ustawione pomyślnie!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"pl"			"Konfiguracja przeładowana"
+	}
+
+	"Type setcredits CM"
+	{
+		"pl"			"Wpisz na czacie: !setcredits <kwota>"
+	}
+
+	"Credits saved CM"
+	{
+		"pl"			"Kredyty zapisane w konfiguracji"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"pl"			"Pozycja zapisana: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"pl"			"Konfiguracja przeładowana"
+	}
+
+	"Type setcredits"
+	{
+		"pl"			"Wpisz na czacie: !setcredits <kwota>"
+	}
+
+	"Credits saved"
+	{
+		"pl"			"Kredyty zapisane w konfiguracji"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"pl"			"Pozycja zapisana: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"pl"			"Edytor pozycji piłki\n \nAktualna pozycja: {1} {2} {3}\nDomyślne kredyty: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"pl"			"Umieść piłkę tutaj"
+	}
+
+	"Set Credits Menu"
+	{
+		"pl"			"Ustaw kredyty"
+	}
+
+	"Reload Config Menu"
+	{
+		"pl"			"Przeładuj konfigurację"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"pl"			"Ustaw kredyty dla pozycji\n0 = Domyślne dla wszystkich pozycji\n \nAktualne wartości:\nDomyślne: {1} kredytów\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"pl"			"Ustaw kredyty dla pozycji {1}\n \nAktualne: {2} kredytów\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"pl"			"Niestandardowa kwota..."
+	}
+	
+	"Store Admin Category"
+	{
+		"pl"			"Administracja Sklepu"
+	}
+
+	"Reload store config"
+	{
+		"pl"			"Przeładuj konfigurację"
+	}
+
+	"Reset database"
+	{
+		"pl"			"Zresetuj bazę danych"
+	}
+
+	"Reset player"
+	{
+		"pl"			"Zresetuj gracza"
+	}
+
+	"Give credits"
+	{
+		"pl"			"Daj kredyty"
+	}
+
+	"View inventory"
+	{
+		"pl"			"Zobacz ekwipunek"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"pl"			"Czy na pewno chcesz przeładować konfigurację?\nGracze będą musieli ponownie połączyć się za {1} sekund."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"pl"			"Czy na pewno chcesz przeładować konfigurację?\nGracze zostaną rozłączeni."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"pl"			"Czy na pewno chcesz zresetować gracza {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"pl"			"Czy na pewno chcesz zresetować bazę danych?\nSerwer zostanie zrestartowany!"
+	}
+
+	"choose_player_reset"
+	{
+		"pl"			"Wybierz gracza do zresetowania"
+	}
+
+	"choose_player_credits"
+	{
+		"pl"			"Wybierz gracza, któremu dać kredyty"
+	}
+
+	"choose_player_inventory"
+	{
+		"pl"			"Wybierz gracza"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"pl"			"Wybierz ilość kredytów\n{2} - {1} kredytów"
 	}
 }

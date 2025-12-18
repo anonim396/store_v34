@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"da"		"Admin {1} åbnede et giveaway med <font color='#15fb00'>{2} credits"
+		"da"		"Admin {1} åbnede et giveaway med {2} credits"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"da"		"Et tal mellem {1} og {2} er blevet valgt for dig at gætte, om det næste tal vil være højere eller lavere end det valgte tal."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"da"		"Der er en pause på {1} sekund(er) mellem hvert spil."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"da"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"da"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"da"		"Admin {1} åbnede et giveaway med <font color='#15fb00'>{2} credits"
+		"da"		"Admin {1} åbnede et giveaway med {2} credits"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"da"		"Hit"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"da"		"Et tal mellem {1} og {2} er blevet valgt for dig at gætte, om det næste tal vil være højere eller lavere end det valgte tal."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"da"		"Hvis du vælger den rigtige, vinder du dobbelt så meget som din indsats."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"da"		"Der er en pause på {1} sekund(er) mellem hvert spil."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"da"		"Du har med succes placeret {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"da"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"da"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"da"		"spiller klasse"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"da"	"Top Udstyrs Værdi"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"da"		"Spiller {1} har gennemført banen og har fået {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"da"		"Position {1} {2} {3} sat med succes. Genindlæs nu konfigurationen for at få nye positioner til at virke!"
+	}
+
+	"SetPosFailed"
+	{
+		"da"		"Position indstilling mislykkedes!"
+	}
+
+	"SetPosLimit"
+	{
+		"da"		"Indstil position fra 0 til 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"da"		"Indsæt kun tal!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"da"		"{1} {2} for positionen {3} sat med succes!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"da"		"{1} {2} for andre positioner er blevet sat med succes!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"da"		"Spiller {1} har gennemført banen og har fået {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"da"		"Position {1} {2} {3} sat med succes. Genindlæs nu konfigurationen for at få nye positioner til at virke!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"da"		"Position indstilling mislykkedes!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"da"		"Indstil position fra 0 til 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"da"		"Indsæt kun tal!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"da"		"{1} {2} for positionen {3} sat med succes!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"da"		"{1} {2} for andre positioner er blevet sat med succes!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"da"			"Konfiguration genindlæst"
+	}
+
+	"Type setcredits CM"
+	{
+		"da"			"Skriv i chat: !setcredits <beløb>"
+	}
+
+	"Credits saved CM"
+	{
+		"da"			"Krediter gemt til konfiguration"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"da"			"Position gemt: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"da"			"Konfiguration genindlæst"
+	}
+
+	"Type setcredits"
+	{
+		"da"			"Skriv i chat: !setcredits <beløb>"
+	}
+
+	"Credits saved"
+	{
+		"da"			"Krediter gemt til konfiguration"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"da"			"Position gemt: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"da"			"Boldposition Editor\n \nNuværende position: {1} {2} {3}\nStandardkreditter: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"da"			"Placer bold her"
+	}
+
+	"Set Credits Menu"
+	{
+		"da"			"Indstil kreditter"
+	}
+
+	"Reload Config Menu"
+	{
+		"da"			"Genindlæs konfig"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"da"			"Indstil kreditter for positioner\n0 = Standard for alle positioner\n \nNuværende værdier:\nStandard: {1} kreditter\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"da"			"Indstil kreditter for position {1}\n \nNuværende: {2} kreditter\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"da"			"Brugerdefineret beløb..."
+	}
+	
+	"Store Admin Category"
+	{
+		"da"			"Butiksadministration"
+	}
+
+	"Reload store config"
+	{
+		"da"			"Genindlæs konfig"
+	}
+
+	"Reset database"
+	{
+		"da"			"Nulstil database"
+	}
+
+	"Reset player"
+	{
+		"da"			"Nulstil spiller"
+	}
+
+	"Give credits"
+	{
+		"da"			"Giv kreditter"
+	}
+
+	"View inventory"
+	{
+		"da"			"Vis lager"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"da"			"Er du sikker på, at du vil genindlæse konfigurationen?\nSpillere skal genoprette forbindelse om {1} sekunder."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"da"			"Er du sikker på, at du vil genindlæse konfigurationen?\nSpillere bliver afbrudt."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"da"			"Er du sikker på, at du vil nulstille spiller {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"da"			"Er du sikker på, at du vil nulstille databasen?\nServeren genstartes!"
+	}
+
+	"choose_player_reset"
+	{
+		"da"			"Vælg en spiller at nulstille"
+	}
+
+	"choose_player_credits"
+	{
+		"da"			"Vælg en spiller at give kreditter til"
+	}
+
+	"choose_player_inventory"
+	{
+		"da"			"Vælg en spiller"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"da"			"Vælg mængden af kreditter\n{2} - {1} kreditter"
 	}
 }

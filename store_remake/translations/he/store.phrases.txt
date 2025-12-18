@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"he"		"המנהל {1} פתח הגרלה עם <font color='#15fb00'>{2} קרדיטים"
+		"he"		"המנהל {1} פתח הגרלה עם {2} קרדיטים"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"he"		"נבחר מספר בין {1} ל-{2} כדי שתנחש אם המספר הבא יהיה גבוה יותר או נמוך יותר מהמספר שנבחר."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"he"		"יש הפסקה של {1} שנייה(ות) בין כל משחק."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"he"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"he"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"he"		"המנהל {1} פתח הגרלה עם <font color='#15fb00'>{2} קרדיטים"
+		"he"		"המנהל {1} פתח הגרלה עם {2} קרדיטים"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"he"		"מכה"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"he"		"נבחר מספר בין {1} ל-{2} כדי שתנחש אם המספר הבא יהיה גבוה יותר או נמוך יותר מהמספר שנבחר."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"he"		"אם תבחר את הנכון, תנצח פעמיים את ההימור שלך."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"he"		"יש הפסקה של {1} שנייה(ות) בין כל משחק."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"he"		"יצבת בהצלחה {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"he"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"he"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"he"		"קטגוריית שחקן"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"he"	"שווי ציוד מוביל"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"he"		"שחקן {1} סיים את המפה וקיבל {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"he"		"מיקום {1} {2} {3} הוגדר בהצלחה. כעת טען מחדש את התצורה כדי שהמיקומים החדשים יעבדו!"
+	}
+
+	"SetPosFailed"
+	{
+		"he"		"הגדרת מיקום נכשלה!"
+	}
+
+	"SetPosLimit"
+	{
+		"he"		"הגדר מיקום מ-0 עד 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"he"		"הכנס מספרים בלבד!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"he"		"{1} {2} למיקום {3} הוגדרו בהצלחה!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"he"		"{1} {2} למיקומים אחרים הוגדרו בהצלחה!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"he"		"שחקן {1} סיים את המפה וקיבל {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"he"		"מיקום {1} {2} {3} הוגדר בהצלחה. כעת טען מחדש את התצורה כדי שהמיקומים החדשים יעבדו!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"he"		"הגדרת מיקום נכשלה!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"he"		"הגדר מיקום מ-0 עד 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"he"		"הכנס מספרים בלבד!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"he"		"{1} {2} למיקום {3} הוגדרו בהצלחה!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"he"		"{1} {2} למיקומים אחרים הוגדרו בהצלחה!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"he"			"התצורה נטענה מחדש"
+	}
+
+	"Type setcredits CM"
+	{
+		"he"			"הקלד בצ'אט: !setcredits <כמות>"
+	}
+
+	"Credits saved CM"
+	{
+		"he"			"נקודות נשמרו בתצורה"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"he"			"מיקום נשמר: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"he"			"התצורה נטענה מחדש"
+	}
+
+	"Type setcredits"
+	{
+		"he"			"הקלד בצ'אט: !setcredits <כמות>"
+	}
+
+	"Credits saved"
+	{
+		"he"			"נקודות נשמרו בתצורה"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"he"			"מיקום נשמר: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"he"			"עורך מיקום הכדור\n \nמיקום נוכחי: {1} {2} {3}\nנקודות ברירת מחדל: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"he"			"הנח כדור כאן"
+	}
+
+	"Set Credits Menu"
+	{
+		"he"			"הגדר נקודות"
+	}
+
+	"Reload Config Menu"
+	{
+		"he"			"טען מחדש תצורה"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"he"			"הגדר נקודות עבור מיקומים\n0 = ברירת מחדל לכל המיקומים\n \nערכים נוכחיים:\nברירת מחדל: {1} נקודות\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"he"			"הגדר נקודות עבור מיקום {1}\n \nנוכחי: {2} נקודות\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"he"			"סכום מותאם אישית..."
+	}
+	
+	"Store Admin Category"
+	{
+		"he"			"ניהול חנות"
+	}
+
+	"Reload store config"
+	{
+		"he"			"טען מחדש תצורה"
+	}
+
+	"Reset database"
+	{
+		"he"			"אפס מסד נתונים"
+	}
+
+	"Reset player"
+	{
+		"he"			"אפס שחקן"
+	}
+
+	"Give credits"
+	{
+		"he"			"תן נקודות"
+	}
+
+	"View inventory"
+	{
+		"he"			"הצג מלאי"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"he"			"האם אתה בטוח שברצונך לטעון מחדש את התצורה?\nשחקנים יצטרכו להתחבר מחדש בעוד {1} שניות."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"he"			"האם אתה בטוח שברצונך לטעון מחדש את התצורה?\nשחקנים יתנתקו."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"he"			"האם אתה בטוח שברצונך לאפס את השחקן {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"he"			"האם אתה בטוח שברצונך לאפס את מסד הנתונים?\nהשרת יאופס מחדש!"
+	}
+
+	"choose_player_reset"
+	{
+		"he"			"בחר שחקן לאיפוס"
+	}
+
+	"choose_player_credits"
+	{
+		"he"			"בחר שחקן לתת לו נקודות"
+	}
+
+	"choose_player_inventory"
+	{
+		"he"			"בחר שחקן"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"he"			"בחר את כמות הנקודות\n{2} - {1} נקודות"
 	}
 }

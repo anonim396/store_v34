@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"lt"		"Administratorius {1} pradėjo giveaway su <font color='#15fb00'>{2} kreditais"
+		"lt"		"Administratorius {1} pradėjo giveaway su {2} kreditais"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"lt"		"Tarp pasirinkimą buvo pasirinktas skaičius nuo {1} iki {2}, kad atspėtumėte, ar kitas skaičius bus didesnis ar mažesnis nei pasirinktas."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"lt"		"Tarp kiekvienos žaidimo yra {1} sekundžių pertrauka."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"lt"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"lt"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"lt"		"Administratorius {1} pradėjo giveaway su <font color='#15fb00'>{2} kreditais"
+		"lt"		"Administratorius {1} pradėjo giveaway su {2} kreditais"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"lt"		"Smūgis"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"lt"		"Tarp pasirinkimą buvo pasirinktas skaičius nuo {1} iki {2}, kad atspėtumėte, ar kitas skaičius bus didesnis ar mažesnis nei pasirinktas."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"lt"		"Jei pasirinksite teisingą, laimėsite dvigubai savo statymą."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"lt"		"Tarp kiekvienos žaidimo yra {1} sekundžių pertrauka."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"lt"		"Sėkmingai pastatėte {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"lt"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"lt"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"lt"		"žaidėjo klasė"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"lt"	"Geriausios Įrangos Vertė"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"lt"		"Žaidėjas {1} užbaigė žemėlapį ir gavo {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"lt"		"Pozicija {1} {2} {3} nustatyta sėkmingai. Dabar iš naujo įkelkite konfigūraciją, kad naujos pozicijos veiktų!"
+	}
+
+	"SetPosFailed"
+	{
+		"lt"		"Nepavyko nustatyti pozicijos!"
+	}
+
+	"SetPosLimit"
+	{
+		"lt"		"Nustatykite poziciją nuo 0 iki 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"lt"		"Įveskite tik skaičius!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"lt"		"{1} {2} pozicijai {3} sėkmingai nustatyti!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"lt"		"{1} {2} kitoms pozicijoms sėkmingai nustatyti!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"lt"		"Žaidėjas {1} užbaigė žemėlapį ir gavo {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"lt"		"Pozicija {1} {2} {3} nustatyta sėkmingai. Dabar iš naujo įkelkite konfigūraciją, kad naujos pozicijos veiktų!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"lt"		"Nepavyko nustatyti pozicijos!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"lt"		"Nustatykite poziciją nuo 0 iki 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"lt"		"Įveskite tik skaičius!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"lt"		"{1} {2} pozicijai {3} sėkmingai nustatyti!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"lt"		"{1} {2} kitoms pozicijoms sėkmingai nustatyti!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"lt"			"Konfigūracija perkrauta"
+	}
+
+	"Type setcredits CM"
+	{
+		"lt"			"Įrašykite pokalbyje: !setcredits <suma>"
+	}
+
+	"Credits saved CM"
+	{
+		"lt"			"Kreditai išsaugoti konfigūracijoje"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"lt"			"Pozicija išsaugota: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"lt"			"Konfigūracija perkrauta"
+	}
+
+	"Type setcredits"
+	{
+		"lt"			"Įrašykite pokalbyje: !setcredits <suma>"
+	}
+
+	"Credits saved"
+	{
+		"lt"			"Kreditai išsaugoti konfigūracijoje"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"lt"			"Pozicija išsaugota: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"lt"			"Kamuolio pozicijos redaktorius\n \nDabartinė pozicija: {1} {2} {3}\nNumatytieji kreditai: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"lt"			"Padėkite kamuolį čia"
+	}
+
+	"Set Credits Menu"
+	{
+		"lt"			"Nustatyti kreditus"
+	}
+
+	"Reload Config Menu"
+	{
+		"lt"			"Iš naujo įkelti konfigūraciją"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"lt"			"Nustatyti kreditus pozicijoms\n0 = Numatytoji visoms pozicijoms\n \nDabartinės reikšmės:\nNumatytoji: {1} kreditų\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"lt"			"Nustatyti kreditus {1} pozicijai\n \nDabartinis: {2} kreditų\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"lt"			"Pasirinktinė suma..."
+	}
+	
+	"Store Admin Category"
+	{
+		"lt"			"Parduotuvės administravimas"
+	}
+
+	"Reload store config"
+	{
+		"lt"			"Iš naujo įkelti konfigūraciją"
+	}
+
+	"Reset database"
+	{
+		"lt"			"Iš naujo nustatyti duomenų bazę"
+	}
+
+	"Reset player"
+	{
+		"lt"			"Iš naujo nustatyti žaidėją"
+	}
+
+	"Give credits"
+	{
+		"lt"			"Duoti kreditų"
+	}
+
+	"View inventory"
+	{
+		"lt"			"Peržiūrėti inventorių"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"lt"			"Ar tikrai norite iš naujo įkelti konfigūraciją?\nŽaidėjai turės persijungti per {1} sekundžių."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"lt"			"Ar tikrai norite iš naujo įkelti konfigūraciją?\nŽaidėjai bus atjungti."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"lt"			"Ar tikrai norite iš naujo nustatyti žaidėją {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"lt"			"Ar tikrai norite iš naujo nustatyti duomenų bazę?\nServeris bus perkrautas!"
+	}
+
+	"choose_player_reset"
+	{
+		"lt"			"Pasirinkite žaidėją, kurį norite iš naujo nustatyti"
+	}
+
+	"choose_player_credits"
+	{
+		"lt"			"Pasirinkite žaidėją, kuriam duosite kreditų"
+	}
+
+	"choose_player_inventory"
+	{
+		"lt"			"Pasirinkite žaidėją"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"lt"			"Pasirinkite kreditų sumą\n{2} - {1} kreditų"
 	}
 }

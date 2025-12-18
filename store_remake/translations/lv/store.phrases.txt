@@ -653,7 +653,7 @@
 	"Giveaway announcement"
 	{
 		"#format"	"{1:s},{2:i}"
-		"lv"		"Admins {1} uzsāka giveaway ar <font color='#15fb00'>{2} kredītiem"
+		"lv"		"Admins {1} uzsāka giveaway ar {2} kredītiem"
 	}
 	"Giveaway remaining time"
 	{
@@ -771,6 +771,7 @@
 	}
 	"Hol Info 1"
 	{
+		"#format"    "{1:i},{2:i}"
 		"lv"		"Skaitlis starp {1} un {2} tika izvēlēts, lai uzminētu, vai nākamais skaitlis būs lielāks vai mazāks par izvēlēto skaitli."
 	}
 	"Hol Info 2"
@@ -779,6 +780,7 @@
 	}
 	"Hol Info 3"
 	{
+		"#format"    "{1:f}"
 		"lv"		"Starp katru spēli ir {1} sekunžu pauze."
 	}
 	"Hol placed"
@@ -1938,7 +1940,7 @@
 	"inv and inv credits"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"lv"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"lv"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 	"invisibility"
 	{
@@ -3066,7 +3068,7 @@
 	"Giveaway announcement CM"
 	{
 		"#format"	"{1:s},{2:i}"
-		"lv"		"Admins {1} uzsāka giveaway ar <font color='#15fb00'>{2} kredītiem"
+		"lv"		"Admins {1} uzsāka giveaway ar {2} kredītiem"
 	}
 
 	"Giveaway remaining time CM"
@@ -3208,27 +3210,6 @@
 	"Hit CM"
 	{
 		"lv"		"Trāziens"
-	}
-
-	"Hol Info 1 CM"
-	{
-		"lv"		"Skaitlis starp {1} un {2} tika izvēlēts, lai uzminētu, vai nākamais skaitlis būs lielāks vai mazāks par izvēlēto skaitli."
-	}
-
-	"Hol Info 2 CM"
-	{
-		"lv"		"Ja izvēlies pareizo, tu uzvarēsi divreiz vairāk nekā savu likmi."
-	}
-
-	"Hol Info 3 CM"
-	{
-		"lv"		"Starp katru spēli ir {1} sekunžu pauze."
-	}
-
-	"Hol placed CM"
-	{
-		"#format"	"{1:i},{2:s}"
-		"lv"		"Jūs esat veiksmīgi ievietojis {1} {2}."
 	}
 
 	"Inventory CM"
@@ -4638,7 +4619,7 @@
 	"inv and inv credits CM"
 	{
 		"#format"	"{1:i},{2:s},{3:i},{4:s},{5:i},{6:s}"
-		"lv"		"    {1}. {2}:   {3} {4} ({5} {6})"
+		"lv"		"{1}. {2}:   {3} {4} ({5} {6})"
 	}
 
 	"invisibility CM"
@@ -5072,5 +5053,241 @@
 	"zrclass CM"
 	{
 		"lv"		"spēlētāja klase"
+	}
+	
+	"Top Equipped Worth"
+	{
+		"lv"	"Labākās Aprīkošanas Vērtība"
+	}
+	
+	"PlayerFinished"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"lv"		"Spēlētājs {1} pabeidza karti un saņēma {2} {3}!"
+	}
+
+	"SetPosSuccess"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"lv"		"Pozīcija {1} {2} {3} iestatīta veiksmīgi. Tagad pārlasiet konfigurāciju, lai jaunās pozīcijas darbotos!"
+	}
+
+	"SetPosFailed"
+	{
+		"lv"		"Pozīcijas iestatīšana neizdevās!"
+	}
+
+	"SetPosLimit"
+	{
+		"lv"		"Iestatiet pozīciju no 0 līdz 64!"
+	}
+
+	"NumbersOnly"
+	{
+		"lv"		"Ievadiet tikai ciparus!"
+	}
+
+	"CreditsSetSuccess"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"lv"		"{1} {2} pozīcijai {3} veiksmīgi iestatīti!"
+	}
+	
+	"CreditsSetForOtherSuccess"
+	{
+		"#format" "{1:i},{2:s}"
+		"lv"		"{1} {2} citām pozīcijām veiksmīgi iestatīti!"
+	}
+	
+	"PlayerFinished CM"
+	{
+		"#format" "{1:N},{2:i},{3:s}"
+		"lv"		"Spēlētājs {1} pabeidza karti un saņēma {2} {3}!"
+	}
+
+	"SetPosSuccess CM"
+	{
+		"#format" "{1:f},{2:f},{3:f}"
+		"lv"		"Pozīcija {1} {2} {3} iestatīta veiksmīgi. Tagad pārlasiet konfigurāciju, lai jaunās pozīcijas darbotos!"
+	}
+
+	"SetPosFailed CM"
+	{
+		"lv"		"Pozīcijas iestatīšana neizdevās!"
+	}
+
+	"SetPosLimit CM"
+	{
+		"lv"		"Iestatiet pozīciju no 0 līdz 64!"
+	}
+
+	"NumbersOnly CM"
+	{
+		"lv"		"Ievadiet tikai ciparus!"
+	}
+
+	"CreditsSetSuccess CM"
+	{
+		"#format" "{1:i},{2:s},{3:i}"
+		"lv"		"{1} {2} pozīcijai {3} veiksmīgi iestatīti!"
+	}
+	
+	"CreditsSetForOtherSuccess CM"
+	{
+		"#format" "{1:i},{2:s}"
+		"lv"		"{1} {2} citām pozīcijām veiksmīgi iestatīti!"
+	}
+	
+	"Configuration reloaded CM"
+	{
+		"lv"			"Konfigurācija pārlādēta"
+	}
+
+	"Type setcredits CM"
+	{
+		"lv"			"Ierakstiet tērzēšanā: !setcredits <summa>"
+	}
+
+	"Credits saved CM"
+	{
+		"lv"			"Kredīti saglabāti konfigurācijā"
+	}
+
+	"Position saved CM"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"lv"			"Pozīcija saglabāta: {1} {2} {3}"
+	}
+	
+	"Configuration reloaded"
+	{
+		"lv"			"Konfigurācija pārlādēta"
+	}
+
+	"Type setcredits"
+	{
+		"lv"			"Ierakstiet tērzēšanā: !setcredits <summa>"
+	}
+
+	"Credits saved"
+	{
+		"lv"			"Kredīti saglabāti konfigurācijā"
+	}
+
+	"Position saved"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"lv"			"Pozīcija saglabāta: {1} {2} {3}"
+	}
+	
+	"Ball Position Editor Title"
+	{
+		"#format"		"{1:f},{2:f},{3:f},{4:i}"
+		"lv"			"Bumbas pozīcijas redaktors\n \nPašreizējā pozīcija: {1} {2} {3}\nNoklusējuma kredīti: {4}\n "
+	}
+
+	"Place Ball Here"
+	{
+		"lv"			"Ievietojiet bumbu šeit"
+	}
+
+	"Set Credits Menu"
+	{
+		"lv"			"Iestatīt kredītus"
+	}
+
+	"Reload Config Menu"
+	{
+		"lv"			"Pārlādēt konfigurāciju"
+	}
+
+	"Set Credits for Positions Title"
+	{
+		"#format"		"{1:i}"
+		"lv"			"Iestatīt kredītus pozīcijām\n0 = Noklusējums visām pozīcijām\n \nPašreizējās vērtības:\nNoklusējums: {1} kredīti\n "
+	}
+
+	"Set Credits for Position Title"
+	{
+		"#format"		"{1:i},{2:i}"
+		"lv"			"Iestatīt kredītus {1} pozīcijai\n \nPašreizējais: {2} kredīti\n "
+	}
+
+	"Custom amount Menu"
+	{
+		"lv"			"Pielāgots daudzums..."
+	}
+	
+	"Store Admin Category"
+	{
+		"lv"			"Veikala administrācija"
+	}
+
+	"Reload store config"
+	{
+		"lv"			"Pārlādēt konfigurāciju"
+	}
+
+	"Reset database"
+	{
+		"lv"			"Atiestatīt datu bāzi"
+	}
+
+	"Reset player"
+	{
+		"lv"			"Atiestatīt spēlētāju"
+	}
+
+	"Give credits"
+	{
+		"lv"			"Dod kredītus"
+	}
+
+	"View inventory"
+	{
+		"lv"			"Skatīt inventāru"
+	}
+
+	"confirm_reload_type_0"
+	{
+		"#format"		"{1:i}"
+		"lv"			"Vai tiešām vēlaties pārlādēt konfigurāciju?\nSpēlētājiem būs jāpieslēdzas vēlreiz pēc {1} sekundēm."
+	}
+
+	"confirm_reload_type_1"
+	{
+		"lv"			"Vai tiešām vēlaties pārlādēt konfigurāciju?\nSpēlētāji tiks atvienoti."
+	}
+
+	"confirm_reset_player"
+	{
+		"#format"		"{1:s}"
+		"lv"			"Vai tiešām vēlaties atiestatīt spēlētāju {1}?"
+	}
+
+	"confirm_reset_database"
+	{
+		"lv"			"Vai tiešām vēlaties atiestatīt datu bāzi?\nServeris tiks pārstartēts!"
+	}
+
+	"choose_player_reset"
+	{
+		"lv"			"Izvēlieties spēlētāju, kuru atiestatīt"
+	}
+
+	"choose_player_credits"
+	{
+		"lv"			"Izvēlieties spēlētāju, kam dot kredītus"
+	}
+
+	"choose_player_inventory"
+	{
+		"lv"			"Izvēlieties spēlētāju"
+	}
+
+	"choose_credits_amount"
+	{
+		"#format"		"{1:s},{2:i}"
+		"lv"			"Izvēlieties kredītu daudzumu\n{2} - {1} kredīti"
 	}
 }
