@@ -397,6 +397,25 @@ forward void Store_OnPreviewItem(int client, char[] type, int index);
 forward void Store_OnConfigExecuted(char[] prefix);
 
 /**
+ * Called when credits are about to be added to a client. Modify credits by ref to change the amount.
+ * Only fired when the new balance is greater than the current (positive delta).
+ *
+ * @param client		Client receiving credits.
+ * @param credits		Amount being added (can be modified by ref).
+ * @noreturn
+ */
+forward void Store_OnClientCreditsGiven(int client, int &credits);
+
+/**
+ * Add a callback for Store_OnClientCreditsGiven. Call from OnPluginStart.
+ *
+ * @param plugin		Your plugin handle (GetMyHandle()).
+ * @param fn			Function to call: void MyCallback(int client, int &credits).
+ * @noreturn
+ */
+native void Store_AddCreditsGivenCallback(Handle plugin, Function fn);
+
+/**
  * Check if player is in a recurring menu. (most likely gambling)
  *
  * @param client		Index of client.
