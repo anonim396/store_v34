@@ -1,3 +1,4 @@
+#if STORE_MODULE_DOORS
 char g_szDoors[STORE_MAX_ITEMS][64];
 int g_iDoorsIdx = 0;
 
@@ -52,3 +53,9 @@ public int Doors_Remove(int client)
 {
 	return 0;
 }
+
+#else
+
+void Doors_OnPluginStart() {}
+
+#endif

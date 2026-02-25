@@ -1,3 +1,4 @@
+#if STORE_MODULE_LINK
 int g_iLinkCount = 0;
 char g_sLinkCommand[STORE_MAX_ITEMS][64];
 
@@ -36,3 +37,9 @@ public int Link_Equip(int client, int itemid)
 
 	return 0;
 }
+
+#else
+
+void Link_OnPluginStart() {}
+
+#endif

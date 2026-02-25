@@ -1,13 +1,12 @@
+#if STORE_MODULE_MISC_TOPLISTS
 ConVar gc_iMaxShown;
 ConVar gc_iUpdateInterval;
-
-char g_sCreditsName[128] = "credits";
-char g_sMenuItem[64];
-char g_sMenuExit[64];
 
 int g_iPage[MAXPLAYERS + 1];
 int g_iList[MAXPLAYERS + 1];
 int g_iUpdateTime;
+
+char sDriver[16];
 
 #define TL_CREDITS 0
 #define TL_ITEMS 1
@@ -26,14 +25,12 @@ public void TopLists_OnPluginStart()
 	RegConsoleCmd("sm_toptotal", Command_InventarAndCreditsWorth);
 	RegConsoleCmd("sm_topequipped", Command_EquippedWorth);
 
-	AutoExecConfig_SetFile("toplist", "sourcemod/store");
-	AutoExecConfig_SetCreateFile(true);
-
-	gc_iMaxShown = AutoExecConfig_CreateConVar("store_toplist_max", "10", "", _, true, 1.0);
-	gc_iUpdateInterval = AutoExecConfig_CreateConVar("store_toplist_update_interval", "300.0", "If toplist is older thank x seconds query to database", _, true, 5.0);
-
-	AutoExecConfig_ExecuteFile();
-	AutoExecConfig_CleanFile();
+	gc_iMaxShown = CreateConVar("store_toplist_max", "10", "", _, true, 1.0);
+	gc_iUpdateInterval = CreateConVar("store_toplist_update_interval", "300.0", "If toplist is older thank x seconds query to database", _, true, 5.0);
+	Store_BeginModuleConfig("sourcemod/store", "toplist");
+	STORE_CFG("store_toplist_max", "10");
+	STORE_CFG("store_toplist_update_interval", "300.0");
+	Store_EndModuleConfig("sourcemod/store", "toplist");
 
 	g_aTopLists[TL_CREDITS] = new ArrayList();
 	g_aTopLists[TL_ITEMS] = new ArrayList();
@@ -42,6 +39,12 @@ public void TopLists_OnPluginStart()
 	g_aTopLists[TL_EQUIP_WORTH] = new ArrayList();
 }
 
+void TopLists_OnConfigExecuted()
+{
+	if (g_hDatabase == null || g_hDatabase == INVALID_HANDLE)
+		return;
+	SQL_ReadDriver(g_hDatabase, sDriver, sizeof(sDriver));
+}
 void Menu_TopLists(int client)
 {
 	Menu menu = new Menu(Handler_TopLists, MENU_ACTIONS_ALL);
@@ -220,10 +223,15 @@ public Action Command_EquippedWorth(int client, int args)
 
 public void TopLists_OnMapStart()
 {
+	if (g_hDatabase == null || g_hDatabase == INVALID_HANDLE)
+	{
+		LogMessage("[Store TopLists] Database not ready yet, skipping update");
+		return;
+	}
+	if (sDriver[0] == '\0')
+		SQL_ReadDriver(g_hDatabase, sDriver, sizeof(sDriver));
+	
 	Transaction tnx = new Transaction();
-
-	char sDriver[16];
-	SQL_ReadDriver(g_hDatabase, sDriver, sizeof(sDriver));
 
 	char sBuffer[512];
 	int maxShown = gc_iMaxShown.IntValue;
@@ -273,17 +281,22 @@ public void TopLists_OnMapStart()
 	tnx.AddQuery(sBuffer);
 
 	Format(sBuffer, sizeof(sBuffer),
-        "SELECT player.name, SUM(items.price_of_purchase) AS worth, "
-        ... "COUNT(*) AS amount FROM store_players AS player "
-        ... "INNER JOIN store_items AS items ON player.id = items.player_id "
-        ... "INNER JOIN store_equipment AS equip ON items.player_id = equip.player_id "
-        ... "AND items.type = equip.type AND items.unique_id = equip.unique_id "
-        ... "WHERE items.date_of_expiration = 0 OR items.date_of_expiration > %d "
-        ... "GROUP BY player.name ORDER BY worth DESC LIMIT %d;",
-        GetTime(), maxShown);
-    tnx.AddQuery(sBuffer);
+		"SELECT player.name, SUM(items.price_of_purchase) AS worth, "
+		... "COUNT(*) AS amount FROM store_players AS player "
+		... "INNER JOIN store_items AS items ON player.id = items.player_id "
+		... "INNER JOIN store_equipment AS equip ON items.player_id = equip.player_id "
+		... "AND items.type = equip.type AND items.unique_id = equip.unique_id "
+		... "WHERE items.date_of_expiration = 0 OR items.date_of_expiration > %d "
+		... "GROUP BY player.name ORDER BY worth DESC LIMIT %d;",
+		GetTime(), maxShown);
+	tnx.AddQuery(sBuffer);
 
-	Store_SQLTransaction(tnx, SQLTXNCallback_Success, 0);
+	if (!Store_SQLTransaction(tnx, SQLTXNCallback_Success, 0))
+	{
+		LogMessage("[Store TopLists] Failed to execute transaction");
+		delete tnx;
+		return;
+	}
 
 	g_iUpdateTime = GetTime();
 }
@@ -510,3 +523,11 @@ int SecToTime(int time, char[] buffer, int size)
 	
 	return 0;
 }
+
+#else
+
+void TopLists_OnPluginStart() {}
+void TopLists_OnMapStart() {}
+void TopLists_OnConfigExecuted() {}
+
+#endif

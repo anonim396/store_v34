@@ -1,3 +1,4 @@
+#if STORE_MODULE_BUNNYHOP
 public void Bunnyhop_OnPluginStart()
 {
 	Store_RegisterHandler("bunnyhop", "", Bunnyhop_OnMapStart, Bunnyhop_Reset, Bunnyhop_Config, Bunnyhop_Equip, Bunnyhop_Remove, true);
@@ -45,3 +46,14 @@ public Action Bunnyhop_OnPlayerRunCmd(int client, int &buttons)
 
 	return Plugin_Continue;
 }
+
+#else
+
+void Bunnyhop_OnPluginStart() {}
+void Bunnyhop_OnPlayerRunCmd(int client, int &buttons)
+{
+	#pragma unused client
+	#pragma unused buttons
+}
+
+#endif

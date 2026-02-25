@@ -1,4 +1,28 @@
 //////////////////////////////
+//		SQL HELPERS			//
+//////////////////////////////
+void SQL_TVoid(Handle db, const char[] query)
+{
+	SQL_TQuery(db, SQLCallback_Void_PrintQuery, query);
+}
+
+public void SQLCallback_Void_PrintQuery(Handle owner, Handle hndl, const char[] error, any data)
+{
+	if(hndl == INVALID_HANDLE)
+		LogError("SQL error: %s", error);
+}
+
+public void SQLCallback_NoError(Handle owner, Handle hndl, const char[] error, any data)
+{
+}
+
+public void SQLCallback_Void(Handle owner, Handle hndl, const char[] error, any data)
+{
+	if(hndl == INVALID_HANDLE)
+		LogError("SQL error: %s", error);
+}
+
+//////////////////////////////
 //		SQL CALLBACKS		//
 //////////////////////////////
 public void SQLCallback_Connect(Handle owner, Handle hndl, const char[] error, any data)
@@ -492,12 +516,14 @@ public void SQLCallback_ResetPlayer(Handle owner, Handle hndl, const char[] erro
 			SQL_FetchString(hndl, 1, STRING(m_szAuthId));
 
 			char m_szQuery[512];
-			Format(STRING(m_szQuery), "DELETE FROM store_players WHERE id=%d", id);
+			Format(STRING(m_szQuery), "UPDATE store_players SET credits=0 WHERE id=%d", id);
 			SQL_TVoid(g_hDatabase, m_szQuery);
 			Format(STRING(m_szQuery), "DELETE FROM store_items WHERE player_id=%d", id);
 			SQL_TVoid(g_hDatabase, m_szQuery);
 			Format(STRING(m_szQuery), "DELETE FROM store_equipment WHERE player_id=%d", id);
 			SQL_TVoid(g_hDatabase, m_szQuery);
+
+			Modules_OnPlayerReset(0);
 
 			//ChatAll("%t", "Player Resetted", m_szAuthId);
 			//NotifyToChatAll("%s%t", g_sChatPrefix, "Player Resetted", m_szAuthId);

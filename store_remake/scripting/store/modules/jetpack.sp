@@ -1,3 +1,4 @@
+#if STORE_MODULE_JETPACK
 enum struct JetpackData
 {
 	float fuel;
@@ -215,3 +216,19 @@ public void Jetpack_OnPlayerRunCmd(int client, int &buttons)
 	
 	g_fLastUsage[client] = currentTime;
 }
+
+#else
+
+void Jetpack_OnPluginStart() {}
+void Jetpack_OnConfigsExecuted() {}
+void Jetpack_OnClientConnected(int client)
+{
+	#pragma unused client
+}
+void Jetpack_OnPlayerRunCmd(int client, int &buttons)
+{
+	#pragma unused client
+	#pragma unused buttons
+}
+
+#endif

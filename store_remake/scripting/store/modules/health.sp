@@ -1,3 +1,4 @@
+#if STORE_MODULE_HEALTH
 int g_iHealths[STORE_MAX_ITEMS];
 int g_iHealthIdx = 0;
 int g_iRoundLimit[MAXPLAYERS + 1] = {0, ...};
@@ -41,7 +42,12 @@ public int Health_Equip(int client, int id)
 {
 	if(g_iRoundLimit[client] == g_eCvars[g_cvarHealthRoundLimit].aCache)
 	{
-		Chat(client, "%t", "Health Round Limit");
+		#if defined _clientmod_included
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix, "Health Round Limit CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Health Round Limit");
+		#else
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Health Round Limit");
+		#endif
 		return 1;
 	}
 
@@ -60,3 +66,13 @@ public int Health_Remove(int client)
 {
 	return 0;
 }
+
+#else
+
+void Health_OnPluginStart() {}
+void Health_OnPlayerSpawn(int client)
+{
+	#pragma unused client
+}
+
+#endif

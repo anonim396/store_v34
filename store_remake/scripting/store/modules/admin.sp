@@ -1,3 +1,5 @@
+#if STORE_MODULE_ADMIN
+
 enum struct AdminItem
 {
 	char szFlags[32];
@@ -75,3 +77,9 @@ public int AdminGroup_Remove(int client,int id)
 {
 	return -1;
 }
+
+#else
+
+void AdminGroup_OnPluginStart() {}
+
+#endif

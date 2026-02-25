@@ -1,3 +1,4 @@
+#if STORE_MODULE_GRAVITY
 int g_iGravity[STORE_MAX_ITEMS];
 int g_iGravityIdx = 0;
 float g_fGravityTime[STORE_MAX_ITEMS];
@@ -60,3 +61,9 @@ public Action Timer_RemoveGravity(Handle timer, int userid)
 	SetEntityGravity(client, 1.0);
 	return Plugin_Stop;
 }
+
+#else
+
+void Gravity_OnPluginStart() {}
+
+#endif

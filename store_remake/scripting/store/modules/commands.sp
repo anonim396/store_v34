@@ -1,3 +1,4 @@
+#if STORE_MODULE_COMMANDS
 char g_szCommands[STORE_MAX_ITEMS][256];
 char g_szCommandsOff[STORE_MAX_ITEMS][256];
 int g_unCommandsTime[STORE_MAX_ITEMS];
@@ -115,3 +116,9 @@ public int Commands_Remove(int client)
 {
 	return 0;
 }
+
+#else
+
+void Commands_OnPluginStart() {}
+
+#endif

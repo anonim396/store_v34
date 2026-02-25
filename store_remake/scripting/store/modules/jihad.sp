@@ -1,3 +1,4 @@
+#if STORE_MODULE_JIHAD
 enum struct Jihad
 {
 	float flRadius;
@@ -47,7 +48,7 @@ public void Jihad_OnConfigsExecuted()
 
 public void Jihad_OnMapStart()
 {
-	g_iExplosion = PrecacheModel2("materials/effects/fire_cloud1.vmt", false);
+	g_iExplosion = PrecacheModel("materials/effects/fire_cloud1.vmt", false);
 }
 
 public void Jihad_Reset()
@@ -194,3 +195,10 @@ public Action ExplodePlayer(Handle timer, DataPack data)
 	SDKHooks_TakeDamage(victim, attacker, attacker, damage, DMG_BLAST, -1, vec);
 	return Plugin_Stop;
 }
+
+#else
+
+void Jihad_OnPluginStart() {}
+void Jihad_OnConfigsExecuted() {}
+
+#endif

@@ -1,3 +1,4 @@
+#if STORE_MODULE_HELP
 char g_sInfoTitle[STORE_MAX_ITEMS][256];
 char g_sInfo[STORE_MAX_ITEMS][256];
 
@@ -60,3 +61,9 @@ public int PanelHandler_Info(Handle menu, MenuAction action, int client, int par
 	
 	return 0;
 }
+
+#else
+
+void Help_OnPluginStart() {}
+
+#endif

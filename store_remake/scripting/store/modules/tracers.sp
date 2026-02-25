@@ -1,3 +1,4 @@
+#if STORE_MODULE_TRACERS
 #define MAX_TRACER_COLOR_COMPONENT 255
 
 enum struct TracerData
@@ -29,7 +30,7 @@ public void Tracers_OnPluginStart()
 
 public void Tracers_OnMapStart()
 {
-	g_iBeam = PrecacheModel2(g_eCvars[g_cvarTracerMaterial].sCache, true);
+	g_iBeam = PrecacheModel(g_eCvars[g_cvarTracerMaterial].sCache, true);
 }
 
 public void Tracers_Reset()
@@ -170,3 +171,57 @@ public Action Tracers_BulletImpact(Handle event, const char[] name, bool dontBro
 	TE_Send(clients, numClients, 0.0);
 	return Plugin_Continue;
 }
+
+public void Tracers_OnPreviewItem(int client, const char[] type, int index)
+{
+	if (!StrEqual(type, "tracer") || index < 0 || index >= g_iColors)
+		return;
+	if (!IsClientInGame(client) || !IsPlayerAlive(client))
+	{
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview");
+		return;
+	}
+	float m_fPosition[3], m_fImpact[3];
+	GetClientEyePosition(client, m_fPosition);
+	GetClientSightEnd(client, m_fImpact);
+	float direction[3];
+	MakeVectorFromPoints(m_fPosition, m_fImpact, direction);
+	NormalizeVector(direction, direction);
+	float offset = 25.0;
+	m_fPosition[0] += direction[0] * offset;
+	m_fPosition[1] += direction[1] * offset;
+	m_fPosition[2] += direction[2] * offset;
+	int color[4];
+	if (g_tData[index].rainbow)
+	{
+		color[0] = GetRandomInt(0, 255);
+		color[1] = GetRandomInt(0, 255);
+		color[2] = GetRandomInt(0, 255);
+		color[3] = 255;
+	}
+	else
+	{
+		color[0] = g_tData[index].color[0];
+		color[1] = g_tData[index].color[1];
+		color[2] = g_tData[index].color[2];
+		color[3] = g_tData[index].color[3];
+	}
+	int list[1];
+	list[0] = client;
+	float life = view_as<float>(g_eCvars[g_cvarTracerLife].aCache);
+	float width = view_as<float>(g_eCvars[g_cvarTracerWidth].aCache);
+	TE_SetupBeamPoints(m_fPosition, m_fImpact, g_iBeam, 0, 0, 0, life, width, width, 1, 0.0, color, 0);
+	TE_Send(list, 1, 0.0);
+	#if defined _clientmod_included
+		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Spawn Preview CM");
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview");
+	#else
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview");
+	#endif
+}
+
+#else
+
+void Tracers_OnPluginStart() {}
+
+#endif

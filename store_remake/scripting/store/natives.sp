@@ -34,7 +34,8 @@ void Store_Natives_OnNativeInit()
 	CreateNative("Store_SQLEscape", Native_SQLEscape);
 	CreateNative("Store_SQLQuery", Native_SQLQuery);
 	CreateNative("Store_SQLLogMessage", Native_LogMessage);	
-	CreateNative("Store_SQLTransaction", Native_SQLTransaction);	
+	CreateNative("Store_SQLTransaction", Native_SQLTransaction);
+	CreateNative("Store_AddCreditsGivenCallback", Native_AddCreditsGivenCallback);
 }
 
 //////////////////////////////
@@ -184,10 +185,25 @@ public int Native_SetClientCredits(Handle plugin,int numParams)
 {
 	int client = GetNativeCell(1);
 	int m_iCredits = GetNativeCell(2);
-	Store_LogMessage(client, m_iCredits-g_eClients[client].iCredits, "Set by external plugin");
-	g_eClients[client].iCredits = m_iCredits < 0 ? 0 : m_iCredits;
+	int oldCredits = g_eClients[client].iCredits;
+	int delta = m_iCredits - oldCredits;
+	if (delta > 0)
+	{
+		Store_Forward_CreditsGiven(client, delta);
+		m_iCredits = oldCredits + delta;
+	}
+	m_iCredits = m_iCredits < 0 ? 0 : m_iCredits;
+	Store_LogMessage(client, m_iCredits - oldCredits, "Set by external plugin");
+	g_eClients[client].iCredits = m_iCredits;
 	Store_SaveClientData(client);
 	return 1;
+}
+
+public int Native_AddCreditsGivenCallback(Handle plugin, int numParams)
+{
+	if (gf_hCreditsGiven)
+		AddToForward(gf_hCreditsGiven, GetNativeCell(1), GetNativeFunction(2));
+	return 0;
 }
 
 public any Native_IsClientVIP(Handle plugin,int numParams)

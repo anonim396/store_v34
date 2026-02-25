@@ -1,3 +1,4 @@
+#if STORE_MODULE_RESPAWN
 int g_iRespawnRoundLimit[MAXPLAYERS + 1] = {0, ...};
 
 int g_cvarRespawnRoundLimit;
@@ -51,3 +52,13 @@ public int Respawn_Remove(int client)
 {
 	return 0;
 }
+
+#else
+
+void Respawn_OnPluginStart() {}
+void Respawn_OnPlayerSpawn(int client)
+{
+	#pragma unused client
+}
+
+#endif

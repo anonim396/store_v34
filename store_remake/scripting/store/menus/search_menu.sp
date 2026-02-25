@@ -1,18 +1,53 @@
 void Store_ItemName(int client, char[] sItemName)
 {
 	int iItemCount = 0;
-	//	iItemIndex = -1;
+	
+	char searchLower[256];
+	strcopy(searchLower, sizeof(searchLower), sItemName);
+	
+	#if defined _UTF_8_string_included
+		UTF8CharToLower(searchLower);
+	#else
+		for(int j = 0; j < strlen(searchLower); j++)
+		{
+			searchLower[j] = CharToLower(searchLower[j]);
+		}
+	#endif
 		
-	for(int i = 0; i<g_iItems; i++)
+	for(int i = 0; i < g_iItems; i++)
 	{
-		if(StrContains(g_eItems[i].szName, sItemName, false) != -1 || StrContains(g_eItems[i].szUniqueId, sItemName, false) != -1)
+		char itemNameLower[256];
+		strcopy(itemNameLower, sizeof(itemNameLower), g_eItems[i].szName);
+		
+		#if defined _UTF_8_string_included
+			UTF8CharToLower(itemNameLower);
+		#else
+			for(int j = 0; j < strlen(itemNameLower); j++)
+			{
+				itemNameLower[j] = CharToLower(itemNameLower[j]);
+			}
+		#endif
+		
+		char uniqueIdLower[256];
+		strcopy(uniqueIdLower, sizeof(uniqueIdLower), g_eItems[i].szUniqueId);
+		
+		#if defined _UTF_8_string_included
+			UTF8CharToLower(uniqueIdLower);
+		#else
+			for(int j = 0; j < strlen(uniqueIdLower); j++)
+			{
+				uniqueIdLower[j] = CharToLower(uniqueIdLower[j]);
+			}
+		#endif
+		
+		if(StrContains(itemNameLower, searchLower, false) != -1 || StrContains(uniqueIdLower, searchLower, false) != -1)
 		{
 			iItemCount++;
 		}
 	}
+	
 	if(iItemCount <= 0)
 	{
-		//Not Found
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Item not found CM");
 			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Item not found");
@@ -22,22 +57,46 @@ void Store_ItemName(int client, char[] sItemName)
 	}
 	else
 	{
-		//More than 1 item
 		int m_iFlags = GetUserFlagBits(client);
 		
 		Menu hEdictMenu = CreateMenu(Store_ItemNameMenu_Handler);
 		char sMenuTemp[1024], sIndexTemp[128];
+		
 		FormatEx(sMenuTemp, sizeof(sMenuTemp), "%t", "Search Info Title", sItemName);
 		hEdictMenu.SetTitle(sMenuTemp);
 
-		for(int i = 0; i<g_iItems; i++)
+		for(int i = 0; i < g_iItems; i++)
 		{
-			if((StrContains(g_eItems[i].szName, sItemName, false) != -1 || StrContains(g_eItems[i].szUniqueId, sItemName, false) != -1))
+			char itemNameLower[256];
+			strcopy(itemNameLower, sizeof(itemNameLower), g_eItems[i].szName);
+			
+			#if defined _UTF_8_string_included
+				UTF8CharToLower(itemNameLower);
+			#else
+				for(int j = 0; j < strlen(itemNameLower); j++)
+				{
+					itemNameLower[j] = CharToLower(itemNameLower[j]);
+				}
+			#endif
+			
+			char uniqueIdLower[256];
+			strcopy(uniqueIdLower, sizeof(uniqueIdLower), g_eItems[i].szUniqueId);
+			
+			#if defined _UTF_8_string_included
+				UTF8CharToLower(uniqueIdLower);
+			#else
+				for(int j = 0; j < strlen(uniqueIdLower); j++)
+				{
+					uniqueIdLower[j] = CharToLower(uniqueIdLower[j]);
+				}
+			#endif
+			
+			if((StrContains(itemNameLower, searchLower, false) != -1 || StrContains(uniqueIdLower, searchLower, false) != -1))
 			{
 				FormatEx(sIndexTemp, sizeof(sIndexTemp), "%i", i);
 				int iStyle = ITEMDRAW_DEFAULT;
 
-				if (g_eItems[i].iPlans != 0 /*&& g_eItems[i][bPreview]*/)
+				if (g_eItems[i].iPlans != 0)
 				{
 					if(!Store_HasClientItem(client, i))
 						FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s)", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, client);
@@ -46,14 +105,12 @@ void Store_ItemName(int client, char[] sItemName)
 				
 				else if(!CheckSteamAuth(client, g_eItems[i].szSteam) && !g_eItems[i].bPreview)
 				{
-					FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s) (%t)", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, 
-																			"Cant be bought", client);
+					FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s) (%t)", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, "Cant be bought", client);
 					iStyle = ITEMDRAW_DISABLED;
 				}
 				else if (!GetClientPrivilege(client, g_eItems[i].iFlagBits, m_iFlags) && !g_eItems[i].bPreview)
 				{
-					FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s) (%t)", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, 
-																			"Cant be bought", client);
+					FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s) (%t)", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, "Cant be bought", client);
 					iStyle = ITEMDRAW_DISABLED;
 				}
 				else if(Store_HasClientItem(client, i))
@@ -62,20 +119,17 @@ void Store_ItemName(int client, char[] sItemName)
 				}
 				else if(!g_eItems[i].bBuyable)
 				{
-					FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s) (%t)", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, 
-																			"Cant be bought", client);
+					FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s) (%t)", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, "Cant be bought", client);
 					iStyle = ITEMDRAW_DISABLED;
 				}
-				else if (g_eClients[client].iCredits<g_eItems[i].iPrice)
+				else if (g_eClients[client].iCredits < g_eItems[i].iPrice)
 				{
-					FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s) - %t", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, 
-																					"Price", g_eItems[i].iPrice, client);
+					FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s) - %t", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, "Price", g_eItems[i].iPrice, client);
 					iStyle = ITEMDRAW_DISABLED;
 				}
 				else 
 				{
-					FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s) - %t", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, 
-																					"Price", g_eItems[i].iPrice, client);
+					FormatEx(sMenuTemp, sizeof(sMenuTemp), "%s (%s) - %t", g_eItems[i].szName, g_eTypeHandlers[g_eItems[i].iHandler].szType, "Price", g_eItems[i].iPrice, client);
 				}
 				
 				hEdictMenu.AddItem(sIndexTemp, sMenuTemp, iStyle);

@@ -1,3 +1,4 @@
+#if STORE_MODULE_WEAPONCOLORS
 #define MAX_WEAPONS_IN_INVENTORY 48
 
 int g_eWeaponColors[STORE_MAX_ITEMS][4];
@@ -7,19 +8,19 @@ bool g_bClearColorOnDrop[STORE_MAX_ITEMS];
 
 public void WeaponColors_OnPluginStart()
 {
-    Store_RegisterHandler("weaponcolor", "color", WeaponColors_OnMapStart, WeaponColors_Reset, WeaponColors_Config, WeaponColors_Equip, WeaponColors_Remove, true);
+	Store_RegisterHandler("weaponcolor", "color", WeaponColors_OnMapStart, WeaponColors_Reset, WeaponColors_Config, WeaponColors_Equip, WeaponColors_Remove, true);
 }
 
 public void WeaponColors_OnClientPutInServer(int client)
 {
-    SDKHook(client, SDKHook_WeaponCanUse, WeaponColors_WeaponCanUse);
+	SDKHook(client, SDKHook_WeaponCanUse, WeaponColors_WeaponCanUse);
 }
 
 public void WeaponColors_OnMapStart() {}
 
 public void WeaponColors_Reset()
 {
-    g_iWeaponColors = 0;
+	g_iWeaponColors = 0;
 }
 
 public bool WeaponColors_Config(KeyValues &kv, int itemid)
@@ -128,3 +129,9 @@ public void RequestFrame_ColorWeapon(any data)
 	SetEntityRenderColor(weapon, g_eWeaponColors[m_iData][0], g_eWeaponColors[m_iData][1], g_eWeaponColors[m_iData][2], g_eWeaponColors[m_iData][3]);
 	g_bColored[weapon] = true;
 }
+
+#else
+
+void WeaponColors_OnPluginStart() {}
+
+#endif

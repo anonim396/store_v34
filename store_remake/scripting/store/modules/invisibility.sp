@@ -1,3 +1,4 @@
+#if STORE_MODULE_INVISIBILITY
 float g_fInvisibilityTime[STORE_MAX_ITEMS]; 
 int g_iInvisibility[STORE_MAX_ITEMS];
 int g_iInvisibilityIdx = 0;
@@ -68,3 +69,9 @@ public Action Timer_RemoveInvisibility(Handle timer, any userid)
 	Invisibility_Remove(client);
 	return Plugin_Stop;
 }
+
+#else
+
+void Invisibility_OnPluginStart() {}
+
+#endif

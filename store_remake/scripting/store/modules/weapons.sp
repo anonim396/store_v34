@@ -1,3 +1,4 @@
+#if STORE_MODULE_WEAPONS
 char g_szWeapons[STORE_MAX_ITEMS][64];
 int g_iWeapons = 0;
 
@@ -61,3 +62,9 @@ public int Weapons_Remove(int client)
 {
 	return 0;
 }
+
+#else
+
+void Weapons_OnPluginStart() {}
+
+#endif

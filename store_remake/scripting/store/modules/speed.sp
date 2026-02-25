@@ -1,9 +1,11 @@
+#if STORE_MODULE_SPEED
 int g_iSpeedIdx = 0;
 
 float g_fSpeed[STORE_MAX_ITEMS];
 float g_fSpeedTime[STORE_MAX_ITEMS];
 
-public void Speed_OnPluginStart()
+public void 
+Speed_OnPluginStart()
 {
 	Store_RegisterHandler("speed", "", Speed_OnMapStart, Speed_Reset, Speed_Config, Speed_Equip, Speed_Remove, false);
 }
@@ -52,3 +54,9 @@ public Action Timer_RemoveSpeed(Handle timer, int userid)
 
 	return Plugin_Stop;
 }
+
+#else
+
+void Speed_OnPluginStart() {}
+
+#endif

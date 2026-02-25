@@ -1,3 +1,4 @@
+#if STORE_MODULE_PETS
 enum struct PetData 
 {
 	char model[PLATFORM_MAX_PATH];
@@ -9,7 +10,6 @@ enum struct PetData
 	float position[3];
 	float angles[3];
 	float spawnTimeDelay;
-	bool follow_player;
 	float follow_speed;
 	float follow_distance;
 	float scale;
@@ -24,12 +24,6 @@ enum struct ClientPetData
 	float lastThinkTime;
 }
 
-enum
-{
-	PET_MODE_ATTACHED = 0,
-	PET_MODE_FOLLOWING = 1
-}
-
 PetData g_ePetsData[STORE_MAX_ITEMS];
 ClientPetData g_ClientPets[MAXPLAYERS + 1];
 
@@ -37,48 +31,245 @@ int g_iPetCount = 0;
 int g_bPetEnable;
 
 bool g_bHide[MAXPLAYERS + 1];
+bool g_bFollowMode[MAXPLAYERS + 1] = {false, ...};
 
 int g_iClientPet[MAXPLAYERS + 1] = {INVALID_ENT_REFERENCE, ...};
-int g_iSelectedPet[MAXPLAYERS + 1] = {-1,...};
-int g_iLastAnimation[MAXPLAYERS + 1] = {-1,...};
-static int g_iLastIdleTimes[MAXPLAYERS+1] = {-1,...};
-static int g_iLastSpawnTime[MAXPLAYERS+1] = {-1,...};
+int g_iSelectedPet[MAXPLAYERS + 1] = {-1, ...};
+int g_iLastAnimation[MAXPLAYERS + 1] = {-1, ...};
+static int g_iLastIdleTimes[MAXPLAYERS+1] = {-1, ...};
+static int g_iLastSpawnTime[MAXPLAYERS+1] = {-1, ...};
+
+Handle g_hTimerPreviewPet[MAXPLAYERS + 1];
+int g_iPreviewPetEntity[MAXPLAYERS + 1] = {INVALID_ENT_REFERENCE, ...};
+
+Cookie g_hHidePetCookie;
+Cookie g_hFollowCookie;
 
 public void Pets_OnPluginStart()
-{	
+{   
 	Store_RegisterHandler("pet", "model", Pets_OnMapStart, Pets_Reset, Pets_Config, Pets_Equip, Pets_Remove, true);
 	g_bPetEnable = RegisterConVar("sm_store_pets_enable", "1", "Enable the pet module", TYPE_INT);
 	
 	RegConsoleCmd("sm_hidepet", Command_Hide, "Hides the Pets");
 	RegConsoleCmd("sm_hidepets", Command_Hide, "Hides the Pets");
+	RegConsoleCmd("sm_followpet", Command_FollowPet, "Toggle pet follow mode");
+	RegConsoleCmd("sm_petfollow", Command_FollowPet, "Toggle pet follow mode");
 
 	HookEvent("player_spawn", Pets_PlayerSpawn);
 	HookEvent("player_death", Pets_PlayerDeath);
-}
-
-
-public void Pets_OnMapStart()
-{
-	for (int i = 0; i < g_iPetCount; i++)
+	
+	g_hHidePetCookie = new Cookie("Pets_Hide_Cookie", "Cookie to check if Pets are hidden", CookieAccess_Private);
+	g_hFollowCookie = new Cookie("Pets_Follow_Cookie", "Cookie to check pet follow mode", CookieAccess_Private);
+	
+	SetCookieMenuItem(PrefMenuPets, 0, "");
+	
+	for (int i = 1; i <= MaxClients; i++)
 	{
-		if(g_ePetsData[i].model[0] != '\0')
-		{
-			PrecacheModel2(g_ePetsData[i].model, true);
-			Downloader_AddFileToDownloadsTable(g_ePetsData[i].model);
-		}
+		if (!AreClientCookiesCached(i))
+			continue;
+
+		Pets_OnClientCookiesCached(i);
 	}
 }
 
-public void Pets_Reset()
+public void PrefMenuPets(int client, CookieMenuAction actions, any info, char[] buffer, int maxlen)
 {
-	g_iPetCount = 0;
+	if (actions == CookieMenuAction_DisplayOption)
+	{
+		FormatEx(buffer, maxlen, "[Store] %T", "Pet Settings", client);
+	}
+
+	if (actions == CookieMenuAction_SelectOption)
+	{
+		ShowPetSettingsMenu(client);
+	}
+}
+
+void ShowPetSettingsMenu(int client)
+{
+	Menu menu = new Menu(PetSettingsMenuHandler);
+	
+	char title[128];
+	FormatEx(title, sizeof(title), "%T\n \n", "Pet Settings", client);
+	menu.SetTitle(title);
+	
+	char hideText[64], followText[64], backText[64];
+	
+	if (g_bHide[client])
+		FormatEx(hideText, sizeof(hideText), "%T", "Show Pets", client);
+	else
+		FormatEx(hideText, sizeof(hideText), "%T", "Hide Pets", client);
+	
+	if (g_bFollowMode[client])
+		FormatEx(followText, sizeof(followText), "%T", "Pet Follow Mode: Enabled", client);
+	else
+		FormatEx(followText, sizeof(followText), "%T", "Pet Follow Mode: Disabled", client);
+	
+	FormatEx(backText, sizeof(backText), "%T", "Back", client);
+	
+	menu.AddItem("hide", hideText);
+	menu.AddItem("follow", followText);
+	menu.AddItem("", "", ITEMDRAW_SPACER);
+	menu.AddItem("back", backText);
+	
+	menu.Display(client, MENU_TIME_FOREVER);
+}
+
+public int PetSettingsMenuHandler(Menu menu, MenuAction action, int client, int itemNum)
+{
+	if (action == MenuAction_Select)
+	{
+		char info[32];
+		menu.GetItem(itemNum, info, sizeof(info));
+		
+		if (StrEqual(info, "hide"))
+		{
+			g_bHide[client] = !g_bHide[client];
+			
+			if (g_bHide[client])
+			{
+				g_hHidePetCookie.Set(client, "1");
+				#if defined _clientmod_included
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Item hidden CM", "pet");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Item hidden", "pet");
+				#else
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Item hidden", "pet");
+				#endif
+				ResetPet(client);
+			}
+			else
+			{
+				g_hHidePetCookie.Set(client, "0");
+				#if defined _clientmod_included
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Item visible CM", "pet");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Item visible", "pet");
+				#else
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Item visible", "pet");
+				#endif
+				if (IsPlayerAlive(client) && g_iSelectedPet[client] >= 0)
+				{
+					RequestFrame(RequestFrame_CreatePetPost, client);
+				}
+			}
+			
+			ShowPetSettingsMenu(client);
+		}
+		else if (StrEqual(info, "follow"))
+		{
+			g_bFollowMode[client] = !g_bFollowMode[client];
+			
+			if (g_bFollowMode[client])
+			{
+				g_hFollowCookie.Set(client, "1");
+				#if defined _clientmod_included
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Pet follow mode enabled CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Pet follow mode enabled");
+				#else
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Pet follow mode enabled");
+				#endif
+			}
+			else
+			{
+				g_hFollowCookie.Set(client, "0");
+				#if defined _clientmod_included
+					MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Pet follow mode disabled CM");
+					C_PrintToChat(client, "%s %t", g_sChatPrefix, "Pet follow mode disabled");
+				#else
+					PrintToChat(client, "%s %t", g_sChatPrefix, "Pet follow mode disabled");
+				#endif
+			}
+			
+			if (IsPlayerAlive(client) && g_iSelectedPet[client] >= 0)
+			{
+				ResetPet(client);
+				RequestFrame(RequestFrame_CreatePetPost, client);
+			}
+			
+			ShowPetSettingsMenu(client);
+		}
+		else if (StrEqual(info, "back"))
+		{
+			ShowCookieMenu(client);
+		}
+	}
+	else if (action == MenuAction_End)
+	{
+		delete menu;
+	}
+	
+	return 0;
+}
+
+public void Pets_OnClientCookiesCached(int client)
+{
+	char sValue[4];
+	
+	g_hHidePetCookie.Get(client, sValue, sizeof(sValue));
+	if (sValue[0] == '\0' || sValue[0] == '0')
+		g_bHide[client] = false;
+	else
+		g_bHide[client] = true;
+	
+	g_hFollowCookie.Get(client, sValue, sizeof(sValue));
+	if (sValue[0] == '\0')
+	{
+		g_bFollowMode[client] = false;
+		g_hFollowCookie.Set(client, "0");
+	}
+	else if (sValue[0] == '0')
+		g_bFollowMode[client] = false;
+	else
+		g_bFollowMode[client] = true;
+}
+
+Action Command_FollowPet(int client, int args)
+{
+	if (!IsValidClient(client))
+		return Plugin_Handled;
+	
+	g_bFollowMode[client] = !g_bFollowMode[client];
+	
+	if (g_bFollowMode[client])
+	{
+		g_hFollowCookie.Set(client, "1");
+		#if defined _clientmod_included
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Pet follow mode enabled CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Pet follow mode enabled");
+		#else
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Pet follow mode enabled");
+		#endif
+	}
+	else
+	{
+		g_hFollowCookie.Set(client, "0");
+		#if defined _clientmod_included
+			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Pet follow mode disabled CM");
+			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Pet follow mode disabled");
+		#else
+			PrintToChat(client, "%s %t", g_sChatPrefix, "Pet follow mode disabled");
+		#endif
+	}
+	
+	// Пересоздать питомца с новым режимом
+	if (IsPlayerAlive(client) && g_iSelectedPet[client] >= 0)
+	{
+		ResetPet(client);
+		RequestFrame(RequestFrame_CreatePetPost, client);
+	}
+	
+	return Plugin_Handled;
 }
 
 Action Command_Hide(int client, int args)
 {
+	if (!IsValidClient(client))
+		return Plugin_Handled;
+	
 	g_bHide[client] = !g_bHide[client];
+	
 	if (g_bHide[client])
 	{
+		g_hHidePetCookie.Set(client, "1");
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Item hidden CM", "pet");
 			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Item hidden", "pet");
@@ -89,16 +280,38 @@ Action Command_Hide(int client, int args)
 	}
 	else
 	{
+		g_hHidePetCookie.Set(client, "0");
 		#if defined _clientmod_included
 			MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Item visible CM", "pet");
 			C_PrintToChat(client, "%s %t", g_sChatPrefix, "Item visible", "pet");
 		#else
 			PrintToChat(client, "%s %t", g_sChatPrefix, "Item visible", "pet");
 		#endif
-		RequestFrame(RequestFrame_CreatePetPost, client);
+		
+		if (IsPlayerAlive(client) && g_iSelectedPet[client] >= 0)
+		{
+			RequestFrame(RequestFrame_CreatePetPost, client);
+		}
 	}
-
+	
 	return Plugin_Handled;
+}
+
+public void Pets_OnMapStart()
+{
+	for (int i = 0; i < g_iPetCount; i++)
+	{
+		if(g_ePetsData[i].model[0] != '\0')
+		{
+			PrecacheModel(g_ePetsData[i].model, true);
+			AddFileToDownloadsTable(g_ePetsData[i].model);
+		}
+	}
+}
+
+public void Pets_Reset()
+{
+	g_iPetCount = 0;
 }
 
 public bool Pets_Config(KeyValues &kv, int itemid) 
@@ -144,7 +357,8 @@ public bool Pets_Config(KeyValues &kv, int itemid)
 
 	g_ePetsData[currentIndex].spawnTimeDelay = kv.GetFloat("spawn_delay", 1.0);
 	
-	g_ePetsData[currentIndex].follow_player = kv.GetNum("follow_player", 0) != 0;
+	// Удален параметр follow_player из конфига
+	// Вместо него используем настройки по умолчанию
 	g_ePetsData[currentIndex].follow_speed = kv.GetFloat("follow_speed", 250.0);
 	g_ePetsData[currentIndex].follow_distance = kv.GetFloat("follow_distance", 100.0);
 
@@ -166,13 +380,19 @@ public bool Pets_Config(KeyValues &kv, int itemid)
 
 public int Pets_Equip(int client, int itemid)
 {
-	if(g_eCvars[g_bPetEnable].aCache != 1 || !IsValidClient(client, true))
+	if(!IsValidClient(client))
+		return -1;
+		
+	if(g_eCvars[g_bPetEnable].aCache != 1)
 		return -1;
 
 	g_iSelectedPet[client] = Store_GetDataIndex(itemid);
 	
-	RequestFrame(RequestFrame_CreatePetPost, client);
-
+	if(IsPlayerAlive(client))
+	{
+		RequestFrame(RequestFrame_CreatePetPost, client);
+	}
+	
 	return 0;
 }
 
@@ -191,13 +411,17 @@ public void Pets_OnClientConnected(int client)
 	g_ClientPets[client].entityCM = INVALID_ENT_REFERENCE;
 	g_ClientPets[client].petIndex = -1;
 	g_bHide[client] = false;
+	g_bFollowMode[client] = false;
 }
 
 public void Pets_PlayerSpawn(Event event, const char[] name, bool dontBroadcast)
 {
 	int client = GetClientOfUserId(event.GetInt("userid"));
 	
-	if(!IsValidClient(client, true) || GetClientTeam(client) < 2 || g_eCvars[g_bPetEnable].aCache != 1)
+	if(!IsValidClient(client) || g_eCvars[g_bPetEnable].aCache != 1)
+		return;
+		
+	if(GetClientTeam(client) < 2)
 		return;
 
 	RequestFrame(RequestFrame_CreatePetPost, client);
@@ -205,7 +429,8 @@ public void Pets_PlayerSpawn(Event event, const char[] name, bool dontBroadcast)
 
 public void RequestFrame_CreatePetPost(int client)
 {
-	if(!IsPlayerAlive(client)) return;
+	if(!IsValidClient(client) || !IsPlayerAlive(client)) 
+		return;
 	
 	ResetPet(client);
 	CreatePet(client);
@@ -243,7 +468,7 @@ public Action Pets_OnPlayerRunCmd(int client, int &tickcount)
 			{
 				UpdatePetAnimation(client, entity, time);
 				
-				if (g_iSelectedPet[client] >= 0 && g_ePetsData[g_iSelectedPet[client]].follow_player)
+				if (g_iSelectedPet[client] >= 0 && g_bFollowMode[client])
 				{
 					UpdatePetPosition(client, entity);
 				}
@@ -257,7 +482,7 @@ public Action Pets_OnPlayerRunCmd(int client, int &tickcount)
 			{
 				UpdatePetAnimation(client, entity, time);
 				
-				if (g_iSelectedPet[client] >= 0 && g_ePetsData[g_iSelectedPet[client]].follow_player)
+				if (g_iSelectedPet[client] >= 0 && g_bFollowMode[client])
 				{
 					UpdatePetPosition(client, entity);
 				}
@@ -271,7 +496,7 @@ public Action Pets_OnPlayerRunCmd(int client, int &tickcount)
 			{
 				UpdatePetAnimation(client, entity, time);
 				
-				if (g_iSelectedPet[client] >= 0 && g_ePetsData[g_iSelectedPet[client]].follow_player)
+				if (g_iSelectedPet[client] >= 0 && g_bFollowMode[client])
 				{
 					UpdatePetPosition(client, entity);
 				}
@@ -279,12 +504,9 @@ public Action Pets_OnPlayerRunCmd(int client, int &tickcount)
 		}
 	}
 	
-	if (g_iSelectedPet[client] >= 0)
+	if (g_iSelectedPet[client] >= 0 && g_bFollowMode[client])
 	{
-		if (g_ePetsData[g_iSelectedPet[client]].follow_player)
-		{
-			ManagePetFollowing(client);
-		}
+		ManagePetFollowing(client);
 	}
 	
 	return Plugin_Continue;
@@ -315,7 +537,7 @@ void UpdatePetAnimation(int client, int entity, int time)
 	GetEntPropVector(client, Prop_Data, "m_vecAbsVelocity", fVec);
 	fDist = GetVectorLength(fVec);
 	
-	if (g_ePetsData[petIndex].follow_player)
+	if (g_bFollowMode[client])
 	{
 		float ownerPos[3], petPos[3];
 		GetClientAbsOrigin(client, ownerPos);
@@ -358,7 +580,7 @@ void UpdatePetAnimation(int client, int entity, int time)
 			g_iLastAnimation[client] = 1;
 		}
 		else if (g_iLastAnimation[client] != 2 && fDist == 0.0 && g_ePetsData[petIndex].idle[0] != '\0')
-		{		   
+		{		  
 			if (g_iLastIdleTimes[client] < time && g_ePetsData[petIndex].idle2[0] != '\0')
 			{
 				g_iLastSpawnTime[client] = time + 2;
@@ -475,18 +697,20 @@ public void Hook_OnAnimationDone(const char[] output, int caller, int activator,
 
 void CreatePet(int client)
 {   
+	if(!IsValidClient(client))
+		return;
+		
 	ResetPet(client);
 	
 	if (g_iSelectedPet[client] < 0)
 		return;
 	
-	if (!IsValidClient(client, true) || GetClientTeam(client) < 2)
+	if (!IsPlayerAlive(client) || GetClientTeam(client) < 2)
 		return;
 	
 	int petIndex = g_iSelectedPet[client];
 	
 	char modelToUse[PLATFORM_MAX_PATH];
-	
 	strcopy(modelToUse, sizeof(modelToUse), g_ePetsData[petIndex].model);
 	
 	if (modelToUse[0] == '\0')
@@ -498,7 +722,6 @@ void CreatePet(int client)
 	
 	g_ClientPets[client].entityRegular = EntIndexToEntRef(entity);
 	g_iClientPet[client] = g_ClientPets[client].entityRegular;
-	
 	g_ClientPets[client].petIndex = petIndex;
 }
 
@@ -514,10 +737,10 @@ int CreatePetEntity(int client, int petIndex, const char[] model, bool hideFromO
 	
 	SetEntPropEnt(iEntity, Prop_Send, "m_hOwnerEntity", client);
 	
-	bool followMode = g_ePetsData[petIndex].follow_player;
+	bool followMode = g_bFollowMode[client];
 	
 	if (!followMode)
-	{		
+	{	   
 		float fPos[3], fAng[3], fOri[3], flClientAngles[3];
 		
 		GetClientAbsOrigin(client, fOri);
@@ -539,7 +762,7 @@ int CreatePetEntity(int client, int petIndex, const char[] model, bool hideFromO
 		
 		fAng[1] += flClientAngles[1];
 		
-		DispatchSpawn(iEntity);	
+		DispatchSpawn(iEntity);  
 		AcceptEntityInput(iEntity, "TurnOn", iEntity, iEntity, 0);
 		
 		if (g_ePetsData[petIndex].scale != 1.0)
@@ -598,7 +821,7 @@ int CreatePetEntity(int client, int petIndex, const char[] model, bool hideFromO
 		GetClientAbsOrigin(client, ownerPos);
 		GetClientAbsAngles(client, ownerAng);
 		
-		float offset = 80.0;
+		float offset = g_ePetsData[petIndex].follow_distance;
 
 		spawnPos[0] = ownerPos[0] - (offset * Sine(DegToRad(ownerAng[1])));
 		spawnPos[1] = ownerPos[1] + (offset * Cosine(DegToRad(ownerAng[1])));
@@ -719,7 +942,7 @@ public Action Hook_PetSetTransmit(int entity, int client)
 				else
 				{
 					// В 1 лице - не видит (кроме следующих питомцев)
-					if (g_ePetsData[petIndex].follow_player)
+					if (g_bFollowMode[client])
 					{
 						// Следующие питомцы могут быть видны
 						return hideFromOwner ? Plugin_Handled : Plugin_Continue;
@@ -733,7 +956,7 @@ public Action Hook_PetSetTransmit(int entity, int client)
 		int fov = GetEntProp(client, Prop_Send, "m_iFOV");
 		if (fov == 90 || fov == 0) // Стандартный FOV - 1 лицо
 		{
-			if (g_ePetsData[petIndex].follow_player)
+			if (g_bFollowMode[client])
 			{
 				return hideFromOwner ? Plugin_Handled : Plugin_Continue;
 			}
@@ -782,7 +1005,7 @@ void UpdatePetPosition(int client, int entity)
 	if(petIndex < 0)
 		return;
 	
-	if(g_ePetsData[petIndex].follow_player)
+	if(g_bFollowMode[client])
 		return;
 	
 	if(g_iLastAnimation[client] == 3 || g_iLastAnimation[client] == 0)
@@ -838,7 +1061,7 @@ void ManagePetFollowing(int client)
 	
 	int petIndex = g_iSelectedPet[client];
 	
-	if (!g_ePetsData[petIndex].follow_player)
+	if (!g_bFollowMode[client])
 		return;
 	
 	float currentTime = GetGameTime();
@@ -884,7 +1107,6 @@ void UpdateFollowingPet(int client, int entity, int petIndex)
 	
 	if (distance < minDistance)
 	{
-		//MovePetAwayFromOwner(client, entity, ownerPos, petPos, minDistance);
 		return;
 	}
 	
@@ -922,51 +1144,6 @@ void UpdateFollowingPet(int client, int entity, int petIndex)
 		return;
 	}
 }
-
-// Функция отодвигания питомца от игрока
-/*
-void MovePetAwayFromOwner(int client, int entity, float ownerPos[3], float petPos[3], float minDistance)
-{
-	// Направление ОТ игрока
-	float direction[3];
-	SubtractVectors(petPos, ownerPos, direction);
-	
-	// Если питомец очень близко (на одной точке), выбираем случайное направление
-	if (GetVectorLength(direction) < 1.0)
-	{
-		direction[0] = GetRandomFloat(-1.0, 1.0);
-		direction[1] = GetRandomFloat(-1.0, 1.0);
-		direction[2] = 0.0;
-	}
-	
-	NormalizeVector(direction, direction);
-	
-	// Вычисляем позицию на минимальной дистанции
-	float newPos[3];
-	newPos[0] = ownerPos[0] + direction[0] * minDistance;
-	newPos[1] = ownerPos[1] + direction[1] * minDistance;
-	newPos[2] = ownerPos[2];
-	
-	// Поворачиваем питомца так, чтобы он смотрел на игрока
-	float lookAtDirection[3], lookAtAng[3];
-	SubtractVectors(ownerPos, newPos, lookAtDirection);
-	NormalizeVector(lookAtDirection, lookAtDirection);
-	GetVectorAngles(lookAtDirection, lookAtAng);
-	
-	// Проверяем коллизии
-	if (!CheckCollision(petPos, newPos, client))
-	{
-		TeleportEntity(entity, newPos, lookAtAng, NULL_VECTOR);
-	}
-	else
-	{
-		// Если есть коллизия, ищем альтернативную позицию
-		float alternativePos[3];
-		FindAlternativePath(client, petPos, newPos, minDistance, alternativePos);
-		TeleportEntity(entity, alternativePos, lookAtAng, NULL_VECTOR);
-	}
-}
-*/
 
 void TeleportPetToIdealDistance(int client, int entity, float ownerPos[3], float ownerAng[3], float idealDistance)
 {
@@ -1016,11 +1193,6 @@ void MovePetToIdealDistance(int client, int entity, float ownerPos[3], float pet
 	{
 		// Питомец слишком далеко - двигаем к игроку
 		SubtractVectors(ownerPos, petPos, direction);
-	}
-	else
-	{
-		// Питомец слишком близко - отодвигаем от игрока
-		//SubtractVectors(petPos, ownerPos, direction);
 	}
 	
 	NormalizeVector(direction, direction);
@@ -1240,22 +1412,24 @@ public bool TraceFilter_IgnorePlayers(int entity, int mask, any data)
 
 void ResetPet(int client)
 {
-	int entities[3];
+	int entities[4];
 	entities[0] = g_ClientPets[client].entityRegular;
 	entities[1] = g_ClientPets[client].entityCM;
 	entities[2] = g_iClientPet[client];
+	entities[3] = g_iPreviewPetEntity[client];
 	
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < sizeof(entities); i++)
 	{
 		if (entities[i] != INVALID_ENT_REFERENCE)
 		{
 			int iEntity = EntRefToEntIndex(entities[i]);
 			if (iEntity != INVALID_ENT_REFERENCE && IsValidEntity(iEntity))
 			{
-				if (IsValidEntity(iEntity))
+				SetVariantString("");
+				AcceptEntityInput(iEntity, "ClearParent");
+				
+				if(IsValidEntity(iEntity))
 				{
-					SetVariantString("");
-					AcceptEntityInput(iEntity, "ClearParent");
 					AcceptEntityInput(iEntity, "Kill");
 				}
 			}
@@ -1265,6 +1439,7 @@ void ResetPet(int client)
 				case 0: g_ClientPets[client].entityRegular = INVALID_ENT_REFERENCE;
 				case 1: g_ClientPets[client].entityCM = INVALID_ENT_REFERENCE;
 				case 2: g_iClientPet[client] = INVALID_ENT_REFERENCE;
+				case 3: g_iPreviewPetEntity[client] = INVALID_ENT_REFERENCE;
 			}
 		}
 	}
@@ -1317,28 +1492,44 @@ any Math_Max(any value, any max)
 
 public void Pets_OnClientDisconnect(int client)
 {
+	ResetPet(client);
+	
+	g_iSelectedPet[client] = -1;
+	g_bHide[client] = false;
+	g_bFollowMode[client] = false;
+	g_iLastAnimation[client] = -1;
+	g_iLastSpawnTime[client] = -1;
+	g_iLastIdleTimes[client] = -1;
+	
+	g_ClientPets[client].entityRegular = INVALID_ENT_REFERENCE;
+	g_ClientPets[client].entityCM = INVALID_ENT_REFERENCE;
+	g_ClientPets[client].petIndex = -1;
+	g_ClientPets[client].isFollowing = false;
+	g_ClientPets[client].lastThinkTime = 0.0;
+	
 	if (g_hTimerPreview[client] != null)
 	{
 		TriggerTimer(g_hTimerPreview[client], false);
+		g_hTimerPreview[client] = null;
 	}
 }
 
 public void Pets_OnPreviewItem(int client, char[] type, int index)
 {
-	if (g_hTimerPreview[client] != null)
+	if (g_hTimerPreviewPet[client] != null)
 	{
-		TriggerTimer(g_hTimerPreview[client], false);
+		TriggerTimer(g_hTimerPreviewPet[client], false);
 	}
 
 	if (!StrEqual(type, "pet"))
 		return;
 
-	int iPreview = CreateEntityByName("prop_dynamic_override"); //prop_dynamic_override
+	int iPreview = CreateEntityByName("prop_dynamic_override");
 	
-	if (g_hTimerPreview[client] != null) 
+	if (g_hTimerPreviewPet[client] != null) 
 	{
-		delete g_hTimerPreview[client];
-		g_hTimerPreview[client] = null;
+		delete g_hTimerPreviewPet[client];
+		g_hTimerPreviewPet[client] = null;
 	}
 	
 	char previewModel[PLATFORM_MAX_PATH];
@@ -1383,7 +1574,7 @@ public void Pets_OnPreviewItem(int client, char[] type, int index)
 
 	TeleportEntity(iPreview, fPos, fAng, NULL_VECTOR);
 
-	g_iPreviewEntity[client] = EntIndexToEntRef(iPreview);
+	g_iPreviewPetEntity[client] = EntIndexToEntRef(iPreview);
 
 	int iRotator = CreateEntityByName("func_rotating");
 	DispatchKeyValueVector(iRotator, "origin", fPos);
@@ -1398,7 +1589,7 @@ public void Pets_OnPreviewItem(int client, char[] type, int index)
 
 	SDKHook(iPreview, SDKHook_SetTransmit, Pets_Hook_SetTransmit_Preview);
 
-	g_hTimerPreview[client] = CreateTimer(45.0, Timer_KillPreview, client);
+	g_hTimerPreviewPet[client] = CreateTimer(45.0, Timer_KillPreview, client);
 
 	#if defined _clientmod_included
 		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Spawn Preview CM", client);
@@ -1410,10 +1601,10 @@ public void Pets_OnPreviewItem(int client, char[] type, int index)
 
 public Action Pets_Hook_SetTransmit_Preview(int ent, int client)
 {
-	if (g_iPreviewEntity[client] == INVALID_ENT_REFERENCE)
+	if (g_iPreviewPetEntity[client] == INVALID_ENT_REFERENCE)
 		return Plugin_Handled;
 
-	if (ent == EntRefToEntIndex(g_iPreviewEntity[client]))
+	if (ent == EntRefToEntIndex(g_iPreviewPetEntity[client]))
 		return Plugin_Continue;
 
 	return Plugin_Handled;
@@ -1421,11 +1612,11 @@ public Action Pets_Hook_SetTransmit_Preview(int ent, int client)
 
 public Action Timer_KillPreview(Handle timer, int client)
 {
-	g_hTimerPreview[client] = null;
+	g_hTimerPreviewPet[client] = null;
 
-	if (g_iPreviewEntity[client] != INVALID_ENT_REFERENCE)
+	if (g_iPreviewPetEntity[client] != INVALID_ENT_REFERENCE)
 	{
-		int entity = EntRefToEntIndex(g_iPreviewEntity[client]);
+		int entity = EntRefToEntIndex(g_iPreviewPetEntity[client]);
 
 		if (entity > 0 && IsValidEdict(entity))
 		{
@@ -1433,7 +1624,26 @@ public Action Timer_KillPreview(Handle timer, int client)
 			AcceptEntityInput(entity, "Kill");
 		}
 	}
-	g_iPreviewEntity[client] = INVALID_ENT_REFERENCE;
+	g_iPreviewPetEntity[client] = INVALID_ENT_REFERENCE;
 
 	return Plugin_Stop;
 }
+
+#else
+
+void Pets_OnPluginStart() {}
+void Pets_OnClientConnected(int client)
+{
+	#pragma unused client
+}
+void Pets_OnClientDisconnect(int client)
+{
+	#pragma unused client
+}
+void Pets_OnPlayerRunCmd(int client, int &tickcount)
+{
+	#pragma unused client
+	#pragma unused tickcount
+}
+
+#endif

@@ -27,20 +27,71 @@ public Action Command_Say(int client, const char[] command,int argc)
 {
 	if(argc > 0)
 	{		
-		if(!client || !IsValidClient(client))
+		if(!client || !IsClientInGame(client))
 			return Plugin_Continue;
 		
-		char m_szArg[65];
+		char m_szArg[256];
 		GetCmdArg(1, STRING(m_szArg));
-		if(m_szArg[0] == g_iPublicChatTrigger)
+		
+		// g_iPublicChatTrigger
+		if(m_szArg[0] == '!' || m_szArg[0] == '/')
 		{
-			for(int i=0;i<g_iItems;++i)
-			if(strcmp(g_eItems[i].szShortcut, m_szArg[1])==0 && g_eItems[i].szShortcut[0] != 0)
+			char shortcut[64];
+			strcopy(shortcut, sizeof(shortcut), m_szArg[1]);
+			TrimString(shortcut);
+			
+			int foundCategory = -1;
+			for(int i = 0; i < g_iItems; ++i)
 			{
-				g_bInvMode[client]=false;
-				g_iMenuClient[client]=client;
-				DisplayStoreMenu(client, i);
-				break;
+				if((g_eItems[i].iPrice == -1 || g_eItems[i].iHandler == g_iPackageHandler) &&
+				   strlen(g_eItems[i].szShortcut) > 0 &&
+				   StrEqual(g_eItems[i].szShortcut, shortcut, false))
+				{
+					foundCategory = i;
+					break;
+				}
+			}
+			
+			if(foundCategory == -1)
+			{
+				for(int i = 0; i < g_iItems; ++i)
+				{
+					if(strlen(g_eItems[i].szShortcut) > 0 &&
+					   StrEqual(g_eItems[i].szShortcut, shortcut, false))
+					{
+						foundCategory = i;
+						break;
+					}
+				}
+			}
+			
+			if(foundCategory != -1)
+			{
+				g_bInvMode[client] = false;
+				g_iMenuClient[client] = client;
+				
+				if(g_eItems[foundCategory].iPrice == -1 || 
+				   g_eItems[foundCategory].iHandler == g_iPackageHandler)
+				{
+					DisplayStoreMenu(client, foundCategory);
+				}
+				else
+				{
+					if(g_eItems[foundCategory].iParent != -1)
+					{
+						DisplayStoreMenu(client, g_eItems[foundCategory].iParent);
+					}
+					else
+					{
+						DisplayStoreMenu(client);
+					}
+				}
+				// Plugin_Continue so the chat message (e.g. !shop) stays visible
+				return Plugin_Continue;
+			}
+			else
+			{
+				//PrintToServer("[Store DEBUG] Shortcut '%s' not found", shortcut);
 			}
 		}
 	}
@@ -464,9 +515,22 @@ public Action Command_ResetPlayer(int client,int params)
 	{
 		Store_LogMessage(client, -g_eClients[m_iReceiver].iCredits, "Player resetted");
 		g_eClients[m_iReceiver].iCredits = 0;
-		for(int i=0;i<g_eClients[m_iReceiver].iItems;++i)
-		Store_RemoveItem(m_iReceiver, g_eClientItems[m_iReceiver][i].iUniqueId);
-	
+		for (int i = 0; i < g_eClients[m_iReceiver].iItems; ++i)
+			Store_RemoveItem(m_iReceiver, g_eClientItems[m_iReceiver][i].iUniqueId);
+		g_eClients[m_iReceiver].iItems = 0;
+
+		// Sync DB: zero credits and remove items/equipment so toplists stay correct
+		char m_szQuery[512];
+		int pid = g_eClients[m_iReceiver].iId_Client;
+		Format(STRING(m_szQuery), "UPDATE store_players SET credits=0 WHERE id=%d", pid);
+		SQL_TVoid(g_hDatabase, m_szQuery);
+		Format(STRING(m_szQuery), "DELETE FROM store_items WHERE player_id=%d", pid);
+		SQL_TVoid(g_hDatabase, m_szQuery);
+		Format(STRING(m_szQuery), "DELETE FROM store_equipment WHERE player_id=%d", pid);
+		SQL_TVoid(g_hDatabase, m_szQuery);
+
+		Modules_OnPlayerReset(m_iReceiver);
+
 		for (int i = 1; i <= MaxClients; i++)
 		{
 			if (!IsClientInGame(i))

@@ -1,3 +1,4 @@
+#if STORE_MODULE_HATS
 enum struct Hat
 {
 	char szModel[PLATFORM_MAX_PATH];
@@ -56,16 +57,16 @@ public void Hats_OnMapStart()
 
 	for(int i=0;i<g_iHats;++i)
 	{
-		PrecacheModel2(g_eHats[i].szModel, true);
-		Downloader_AddFileToDownloadsTable(g_eHats[i].szModel);
+		PrecacheModel(g_eHats[i].szModel, true);
+				AddFileToDownloadsTable(g_eHats[i].szModel);
 	}
 		
 	// Just in case...
 	if(FileExists(g_eCvars[g_cvarDefaultT].sCache, true))
 	{
 		g_bTOverride = true;
-		PrecacheModel2(g_eCvars[g_cvarDefaultT].sCache, true);
-		Downloader_AddFileToDownloadsTable(g_eCvars[g_cvarDefaultT].sCache);
+		PrecacheModel(g_eCvars[g_cvarDefaultT].sCache, true);
+				AddFileToDownloadsTable(g_eCvars[g_cvarDefaultT].sCache);
 	}
 	else
 		g_bTOverride = false;
@@ -73,8 +74,8 @@ public void Hats_OnMapStart()
 	if(FileExists(g_eCvars[g_cvarDefaultCT].sCache, true))
 	{
 		g_bCTOverride = true;
-		PrecacheModel2(g_eCvars[g_cvarDefaultCT].sCache, true);
-		Downloader_AddFileToDownloadsTable(g_eCvars[g_cvarDefaultCT].sCache);
+		PrecacheModel(g_eCvars[g_cvarDefaultCT].sCache, true);
+				AddFileToDownloadsTable(g_eCvars[g_cvarDefaultCT].sCache);
 	}
 	else
 		g_bCTOverride = false;
@@ -311,36 +312,35 @@ public void RemoveHat(int client,int slot)
 
 public Action Hook_SetTransmit(int ent, int client)
 {
-	#if defined _thirdperson_included_
-		if(GetFeatureStatus(FeatureType_Native, "IsPlayerInTP")==FeatureStatus_Available)
-			if(IsPlayerInTP(client))
-				return Plugin_Continue;
-			else
-				return Plugin_Handled;
-	#else
-		if (GetEntProp(client, Prop_Send, "m_iObserverMode") != 0)
-			return Plugin_Continue;
-		else
-			return Plugin_Handled;
-	#endif
-
-	for(int i=0;i<STORE_MAX_SLOTS;++i)
+	for(int i = 0; i < STORE_MAX_SLOTS; ++i)
+	{
 		if(ent == g_iClientHats[client][i])
 			return Plugin_Handled;
+	}
 
 	if(client && IsClientInGame(client))
 	{
-		any m_iObserverMode = GetEntProp(client, Prop_Send, "m_iObserverMode");
-		any m_hObserverTarget = GetEntPropEnt(client, Prop_Send, "m_hObserverTarget");
-		if(m_iObserverMode == 4 && m_hObserverTarget>=0)
+		int m_iObserverMode = GetEntProp(client, Prop_Send, "m_iObserverMode");
+		int m_hObserverTarget = GetEntPropEnt(client, Prop_Send, "m_hObserverTarget");
+		
+		if(m_iObserverMode == 4 && m_hObserverTarget >= 0)
 		{
-			for(int i=0;i<STORE_MAX_SLOTS;++i)
+			for(int i = 0; i < STORE_MAX_SLOTS; ++i)
 				if(ent == g_iClientHats[m_hObserverTarget][i])
 					return Plugin_Handled;
 		}
 	}
 	
-	return Plugin_Continue;
+	#if defined _thirdperson_included_
+		if(GetFeatureStatus(FeatureType_Native, "IsPlayerInTP") == FeatureStatus_Available)
+			if(IsPlayerInTP(client))
+				return Plugin_Continue;
+	#else
+		if(GetEntProp(client, Prop_Send, "m_iObserverMode") != 0)
+			return Plugin_Continue;
+	#endif
+	
+	return Plugin_Handled;
 }
 
 public any LookupAttachment(int client, char[] point)
@@ -419,8 +419,8 @@ public void Hats_OnPreviewItem(int client, char[] type, int index)
 	
 	if (g_hTimerPreview[client] != null) 
 	{
-        delete g_hTimerPreview[client];
-        g_hTimerPreview[client] = null;
+		delete g_hTimerPreview[client];
+		g_hTimerPreview[client] = null;
 	} 
 
 	DispatchKeyValue(iPreview, "spawnflags", "64");
@@ -508,3 +508,9 @@ public Action Hats_Timer_KillPreview(Handle timer, int client)
 
 	return Plugin_Stop;
 }
+
+#else
+
+void Hats_OnPluginStart() {}
+
+#endif

@@ -1,3 +1,4 @@
+#if STORE_MODULE_GODMODE
 float g_flGodmodes[STORE_MAX_ITEMS];
 int g_iGodmodes = 0;
 int g_iGodmodeRoundLimit[MAXPLAYERS + 1] = {0, ...};
@@ -92,3 +93,13 @@ public Action Godmode_OnTakeDamage(int victim, int &attacker, int &inflictor, fl
 	damage = 0.0;
 	return Plugin_Changed;
 }
+
+#else
+
+void Godmode_OnPluginStart() {}
+void Godmode_OnPlayerSpawn(int client)
+{
+	#pragma unused client
+}
+
+#endif

@@ -1,3 +1,4 @@
+#if STORE_MODULE_WATERGUN
 public void Watergun_OnPluginStart()
 {
 	Store_RegisterHandler("watergun", "", Watergun_OnMapStart, Watergun_Reset, Watergun_Config, Watergun_Equip, Watergun_Remove, true);
@@ -47,3 +48,9 @@ public Action Watergun_PlayerHurt(Event event, const char[] name, bool dontBroad
 	
 	return Plugin_Continue;
 }
+
+#else
+
+void Watergun_OnPluginStart() {}
+
+#endif

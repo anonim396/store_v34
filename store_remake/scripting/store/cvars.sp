@@ -42,9 +42,6 @@ ConVar g_cvarCenterTag;
 
 void Store_Cvars_OnPluginStart()
 {
-	AutoExecConfig_SetFile("plugin.store", "sourcemod");
-	AutoExecConfig_SetCreateFile(true);
-
 	// Register ConVars
 	g_cvarDatabaseEntry = RegisterConVar("sm_store_database", "storage-local", "Name of the default store database entry", TYPE_STRING);
 	g_cvarDatabaseRetries = RegisterConVar("sm_store_database_retries", "4", "Number of retries if the connection fails to estabilish with timeout", TYPE_INT);
@@ -71,10 +68,10 @@ void Store_Cvars_OnPluginStart()
 	
 	//g_cvarChatTag = RegisterConVar("sm_store_chat_tag", "[Store] ", "The chat tag to use for displaying messages.", TYPE_STRING);
 	#if defined _clientmod_included
-	g_cvarChatTagCM = AutoExecConfig_CreateConVar("sm_store_chat_tag_cm_plugins", "[Store]", "The chat tag to CM Users use for displaying messages.");
+	g_cvarChatTagCM = CreateConVar("sm_store_chat_tag_cm_plugins", "[Store]", "The chat tag to CM Users use for displaying messages.");
 	#endif
-	g_cvarChatTag = AutoExecConfig_CreateConVar("sm_store_chat_tag_plugins", "[Store]", "The chat tag to use for displaying messages.");
-	g_cvarCenterTag = AutoExecConfig_CreateConVar("sm_store_center_tag", "[Store] ", "The chat tag to use for displaying messages in hint text box.");
+	g_cvarChatTag = CreateConVar("sm_store_chat_tag_plugins", "[Store]", "The chat tag to use for displaying messages.");
+	g_cvarCenterTag = CreateConVar("sm_store_center_tag", "[Store] ", "The chat tag to use for displaying messages in hint text box.");
 
 	g_cvarShowSTEAM = RegisterConVar("sm_store_show_steam_items", "0", "If you enable this STEAM items will be shown in grey.", TYPE_INT);
 	g_cvarShowVIP = RegisterConVar("sm_store_show_vip_items", "0", "If you enable this VIP items will be shown in grey.", TYPE_INT);
@@ -84,7 +81,7 @@ void Store_Cvars_OnPluginStart()
 	g_cvarPluginsLogging = RegisterConVar("sm_store_plugins_logging", "2", "Enable Logging for module . 0 = disable, 1 = file log, 2 = SQL log (MySQL only)", TYPE_INT);																																								 
 	g_cvarSilent = RegisterConVar("sm_store_silent_givecredits", "0", "Controls the give credits message visibility. 0 = public 1 = private 2 = no message", TYPE_INT);
 	//g_cvarCredits = RegisterConVar("sm_store_cmd_credits_cooldown", "12", "Control of the spam cooldown time for !credits", TYPE_FLOAT);
-	g_cvarGiveItemBehavior = AutoExecConfig_CreateConVar("sm_store_give_exist_item_behavior", "0", "Controls behavior when Store_GiveItem function gives an item already exists in client's inventory. 0 = create new one (default) , 1 = extend item date.");
+	g_cvarGiveItemBehavior = CreateConVar("sm_store_give_exist_item_behavior", "0", "Controls behavior when Store_GiveItem function gives an item already exists in client's inventory. 0 = create new one (default) , 1 = extend item date.");
 
 	gc_iDescription = RegisterConVar("sm_store_description", "2", "Show item description 1 - only in menu page under item name / 2 - both menu and item page / 3 - only in item page in title", TYPE_INT);
 	gc_iReloadType = RegisterConVar("sm_store_reload_config_type", "0", "Type of reload config: 1 - Change map manually / 0 - Instantly reload current map", TYPE_INT);
@@ -95,11 +92,6 @@ void Store_Cvars_OnPluginStart()
 	g_cvarChatTagCM.AddChangeHook(OnSettingChanged);
 	#endif
 	g_cvarChatTag.AddChangeHook(OnSettingChanged);
-	
-	// After every module was loaded we are ready to generate the cfg
-	//AutoExecConfig();
-	AutoExecConfig_ExecuteFile();
-	AutoExecConfig_CleanFile();
 }
 
 public void OnSettingChanged(ConVar convar, const char[] oldValue, const char[] newValue)
@@ -120,6 +112,9 @@ void Store_Cvars_OnConfigsExecuted()
 {
 	// Needed, because OnSettingChanged isn't called on config execution if the cvar has the default value (as there is no change in the cvar's value)
 	g_cvarChatTag.GetString(g_sChatPrefix, sizeof(g_sChatPrefix));
+	#if defined _clientmod_included
+	g_cvarChatTagCM.GetString(g_sChatPrefix_CM, sizeof(g_sChatPrefix_CM));
+	#endif
 }
 
 //////////////////////////////

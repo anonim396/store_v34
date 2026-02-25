@@ -2,7 +2,7 @@
 //			INCLUDES		//
 //////////////////////////////
 // Check after compiling Stack/heap size | 16384 cells * 4 = 65536 bytes
-#pragma dynamic 16384
+#pragma dynamic 32768
 #pragma semicolon 1
 #pragma newdecls required
 
@@ -12,13 +12,77 @@
 #include <clientprefs>
 #include <cstrike>
 #include <store>
-#include <zephstocks>
 #include <adminmenu>
+
 
 #tryinclude <thirdperson>
 #tryinclude <clientmod>		  
 #tryinclude <clientmod/multicolors>
 #tryinclude <chat-processor>
+#tryinclude <UTF-8-string>
+
+
+// Module flags: set to 0 to disable
+#define STORE_MODULE_ADMIN				1
+#define STORE_MODULE_ATTRIBUTES			1
+#define STORE_MODULE_BETTING			1
+#define STORE_MODULE_BUNNYHOP			1
+#define STORE_MODULE_COMMANDS			1
+#define STORE_MODULE_CPSUPPORT			1
+#define STORE_MODULE_CREDITS_MULTIPLIER	1
+#define STORE_MODULE_DOORS				1
+#define STORE_MODULE_GIFTS				0
+#define STORE_MODULE_GLOW				1
+#define STORE_MODULE_GODMODE			1
+#define STORE_MODULE_GRAVITY			1
+#define STORE_MODULE_GRENSKINS			1
+#define STORE_MODULE_GRENTRAILS			1
+#define STORE_MODULE_HATS				1
+#define STORE_MODULE_HEALTH				1
+#define STORE_MODULE_HELP				1
+#define STORE_MODULE_INVISIBILITY		1
+#define STORE_MODULE_JETPACK			1
+#define STORE_MODULE_JIHAD				1
+#define STORE_MODULE_JUMP_EFFECT		1
+#define STORE_MODULE_KNIFE				1
+#define STORE_MODULE_LASERSIGHT			1
+#define STORE_MODULE_LINK				1
+#define STORE_MODULE_PAINTBALL			1
+#define STORE_MODULE_PETS				1
+#define STORE_MODULE_PLAYERSKINS		1
+#define STORE_MODULE_RAINBOW			1
+#define STORE_MODULE_RESPAWN			1
+#define STORE_MODULE_ROLL				1
+#define STORE_MODULE_SOUNDS				1
+#define STORE_MODULE_SPEED				1
+#define STORE_MODULE_SPRAYS				1
+#define STORE_MODULE_TRACERS			1
+#define STORE_MODULE_TRAILS				1
+#define STORE_MODULE_WATERGUN			1
+#define STORE_MODULE_WEAPONCOLORS		1
+#define STORE_MODULE_WEAPONS			1
+
+#define STORE_MODULE_GAMBLE_BLACKJACK	1
+#define STORE_MODULE_GAMBLE_COINFLIP	1
+#define STORE_MODULE_GAMBLE_CRASH		1
+#define STORE_MODULE_GAMBLE_CROWNS		1
+#define STORE_MODULE_GAMBLE_DICE		1
+#define STORE_MODULE_GAMBLE_HIGHORLOW	1
+#define STORE_MODULE_GAMBLE_JACKPOT		1
+#define STORE_MODULE_GAMBLE_ROULETTE	1
+#define STORE_MODULE_GAMBLE_TEAMBET		1
+
+#define STORE_MODULE_MISC_BALL			1
+#define STORE_MODULE_MISC_DOSH			1
+#define STORE_MODULE_MISC_EARNINGS		1
+#define STORE_MODULE_MISC_GIVEAWAY		1
+#define STORE_MODULE_MISC_LOOTBOX		1
+#define STORE_MODULE_MISC_MATH			1
+#define STORE_MODULE_MISC_PROMO			1
+#define STORE_MODULE_MISC_TOPLISTS		1
+#define STORE_MODULE_MISC_VOUCHER		1
+
+#define STORE_MODULE_TRADE			1
 
 //////////////////////////////
 //		GLOBAL VARIABLES	//
@@ -47,13 +111,17 @@ int g_iDatabaseRetries = 0;
 bool g_bInvMode[MAXPLAYERS+1];
 bool g_bIsInRecurringMenu[MAXPLAYERS + 1] = {false, ...};
 
-char g_iPublicChatTrigger;
 int hTime;
 
 char g_sChatPrefix[128];
 #if defined _clientmod_included
 char g_sChatPrefix_CM[128];
 #endif
+
+char g_sCreditsName[64] = "битс";
+
+char g_sMenuItem[64];
+char g_sMenuExit[64];
 
 Handle ReloadTimer = INVALID_HANDLE;
 
@@ -76,41 +144,10 @@ Handle ReloadTimer = INVALID_HANDLE;
 
 //////////////////////////////
 //			MODULES			//
+// Enable/disable: #define STORE_MODULE_* 1/0 above.
+// Each module checks its define inside; disabled = empty stubs.
 //////////////////////////////
-#include "store/modules/admin.sp"
-#include "store/modules/attributes.sp"
-#include "store/modules/betting.sp"
-#include "store/modules/bunnyhop.sp"
-#include "store/modules/commands.sp"
-#include "store/modules/cpsupport_old.sp"
-#include "store/modules/doors.sp"
-//#include "store/modules/gifts.sp"
-#include "store/modules/glow.sp"
-#include "store/modules/godmode.sp"
-#include "store/modules/gravity.sp"
-#include "store/modules/grentrails.sp"
-#include "store/modules/grenskins.sp"
-#include "store/modules/hats.sp"
-#include "store/modules/health.sp"
-#include "store/modules/help.sp"
-#include "store/modules/invisibility.sp"
-#include "store/modules/jetpack.sp"
-#include "store/modules/jihad.sp"
-#include "store/modules/knife.sp"
-#include "store/modules/lasersight.sp"
-#include "store/modules/link.sp"
-#include "store/modules/paintball.sp"
-#include "store/modules/pets.sp"
-#include "store/modules/playerskins.sp"
-#include "store/modules/respawn.sp"
-#include "store/modules/sounds.sp"
-#include "store/modules/speed.sp"
-#include "store/modules/sprays.sp"
-#include "store/modules/trails.sp"
-#include "store/modules/tracers.sp"
-#include "store/modules/watergun.sp"
-#include "store/modules/weaponcolors.sp"
-#include "store/modules/weapons.sp"
+#include "store/modules.sp"
 
 //////////////////////////////
 //		PLUGIN DEFINITION	//
@@ -121,7 +158,7 @@ public Plugin myinfo =
 	name = "Store - The Resurrection with preview system",
 	author = "Zephyrus, nuclear silo, AiDN, anonim396",
 	description = "A completely new Store system with preview rewritten (v34)",
-	version = "7.2.3",
+	version = "7.2.6",
 	url = "https://github.com/anonim396/store_v34"
 };
 
@@ -153,48 +190,15 @@ public void OnPluginStart()
 	Store_Events_OnPluginStart();			// store/events.sp
 	Store_Configs_ReloadConfig();			// store/configs.sp
 	
+	FixWarnings();
+	
 	LoadTranslations("store.phrases");
 	LoadTranslations("common.phrases");
 	
 	g_iPackageHandler = Store_RegisterHandler("package", "", _, _, _, _, _);
-	
-	// Initialize the modules
-	
-	AdminGroup_OnPluginStart();
-	Attributes_OnPluginStart();
-	Betting_OnPluginStart();
-	Bunnyhop_OnPluginStart();
-	Commands_OnPluginStart();
-	CPSupport_OnPluginStart();
-	Doors_OnPluginStart();
-	//Gifts_OnPluginStart();
-	Glow_OnPluginStart();
-	Godmode_OnPluginStart();
-	Gravity_OnPluginStart();
-	GrenadeTrails_OnPluginStart();
-	GrenadeSkins_OnPluginStart();
-	Hats_OnPluginStart();
-	Health_OnPluginStart();
-	Help_OnPluginStart();
-	Invisibility_OnPluginStart();
-	Jetpack_OnPluginStart();
-	Jihad_OnPluginStart();
-	Knives_OnPluginStart();
-	LaserSight_OnPluginStart();
-	Link_OnPluginStart();
-	Paintball_OnPluginStart();
-	Pets_OnPluginStart();
-	PlayerSkins_OnPluginStart();
-	Respawn_OnPluginStart();
-	Sounds_OnPluginStart();
-	Speed_OnPluginStart();
-	Sprays_OnPluginStart();
-	Trails_OnPluginStart();
-	Tracers_OnPluginStart();
-	Watergun_OnPluginStart();
-	WeaponColors_OnPluginStart();
-	Weapons_OnPluginStart();
-	
+
+	Modules_OnPluginStart();
+
 	g_hCustomCredits = CreateArray(3);
 	
 	LoopIngamePlayers(client)
@@ -218,6 +222,7 @@ public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max
 public void OnAllPluginsLoaded()
 {
 	Store_Configs_OnAllPluginLoaded(); // store/configs.sp
+	Modules_OnAllPluginsLoaded();
 }
 
 public void OnPluginEnd()
@@ -238,6 +243,7 @@ public void OnLibraryAdded(const char[] name)
 
 public void OnMapStart()
 {
+	Modules_OnMapStart();
 	for(int i = 0; i < g_iTypeHandlers; ++i)
 	{
 		if(g_eTypeHandlers[i].fnMapStart != INVALID_FUNCTION)
@@ -251,32 +257,35 @@ public void OnMapStart()
 public void OnMapEnd()
 {
 	ReloadTimer = INVALID_HANDLE;
+	Modules_OnMapEnd();
 }
 
 public void OnConfigsExecuted()
 {
-	Jetpack_OnConfigsExecuted();
-	Jihad_OnConfigsExecuted();
-	
-	Store_Cvars_OnConfigsExecuted();			// store/cvars.sp
-	Store_Forward_OnConfigsExecuted();			// store/configs.sp
-	Store_DB_ConfigsExecuted_ConnectDatabase();	// store/db.sp
+	Modules_OnConfigsExecutedPre();
+	Modules_OnConfigsExecuted();
+	Store_Cvars_OnConfigsExecuted();
+	Store_Forward_OnConfigsExecuted();
+	Store_DB_ConfigsExecuted_ConnectDatabase();
 }
 
 public void OnGameFrame()
 {
-	Trails_OnGameFrame();
+	Modules_OnGameFrame();
 }
 
 public void OnEntityCreated(int entity, const char[] classname)
 {
-	GrenadeSkins_OnEntityCreated(entity, classname);
-	GrenadeTrails_OnEntityCreated(entity, classname);
+	Modules_OnEntityCreated(entity, classname);
 }
 
 //////////////////////////////
 //		CLIENT FORWARDS		//
 //////////////////////////////
+public void OnClientCookiesCached(int client)
+{
+	Modules_OnClientCookiesCached(client);
+}
 
 public void OnClientConnected(int client)
 {
@@ -295,9 +304,12 @@ public void OnClientConnected(int client)
 		}
 	}
 	
-	Jetpack_OnClientConnected(client);
-	Pets_OnClientConnected(client);
-	Sprays_OnClientConnected(client);
+	Modules_OnClientConnected(client);
+}
+
+public void OnClientAuthorized(int client, const char[] auth)
+{
+	Modules_OnClientAuthorized(client, auth);
 }
 
 public void OnClientPostAdminCheck(int client)
@@ -305,24 +317,21 @@ public void OnClientPostAdminCheck(int client)
 	if(IsFakeClient(client))
 		return;
 	Store_LoadClientInventory(client);
+	Modules_OnClientPostAdminCheck(client);
 }
 
 public void OnClientPutInServer(int client)
 {
 	if(IsFakeClient(client))
 		return;
-	
-	Knives_OnClientPutInServer(client);
+	Modules_OnClientPutInServer(client);
 }
 
 public void OnClientDisconnect(int client)
 {
 	if(IsFakeClient(client))
 		return;
-	
-	Betting_OnClientDisconnect(client);
-	Pets_OnClientDisconnect(client);
-	
+	Modules_OnClientDisconnect(client);
 	Store_SaveClientData(client);
 	Store_SaveClientInventory(client);
 	Store_SaveClientEquipment(client);
@@ -341,13 +350,7 @@ public Action OnPlayerRunCmd(int client, int& buttons, int& impulse, float vel[3
 {
 	if(!IsClientInGame(client))
 		return Plugin_Continue;
-	
-	Jetpack_OnPlayerRunCmd(client, buttons);
-	LaserSight_OnPlayerRunCmd(client);
-	Pets_OnPlayerRunCmd(client, tickcount);
-	Sprays_OnPlayerRunCmd(client, buttons);
-	Bunnyhop_OnPlayerRunCmd(client, buttons);
-	
+	Modules_OnPlayerRunCmd(client, buttons, tickcount);
 	return Plugin_Continue;
 }
 
@@ -356,12 +359,7 @@ public void PlayerSpawn(Handle hEvent, char[] sEvName, bool bDontBroadcast)
 	int client = GetClientOfUserId(GetEventInt(hEvent, "userid"));
 	
 	if(IsValidClient(client))
-	{
-		Glow_PlayerSpawn(client);
-		Godmode_OnPlayerSpawn(client);
-		Health_OnPlayerSpawn(client);
-		Respawn_OnPlayerSpawn(client);
-	}
+		Modules_PlayerSpawn(client);
 }
 
 public void PlayerDeath(Handle hEvent, char[] sEvName, bool bDontBroadcast)
@@ -369,9 +367,7 @@ public void PlayerDeath(Handle hEvent, char[] sEvName, bool bDontBroadcast)
 	int client = GetClientOfUserId(GetEventInt(hEvent, "userid"));
 	
 	if(IsValidClient(client))
-	{
-		Glow_PlayerDeath(client);
-	}
+		Modules_PlayerDeath(client);
 }
 
 public void PlayerTeam(Handle hEvent, char[] sEvName, bool bDontBroadcast)
@@ -379,7 +375,13 @@ public void PlayerTeam(Handle hEvent, char[] sEvName, bool bDontBroadcast)
 	int client = GetClientOfUserId(GetEventInt(hEvent, "userid"));
 	
 	if(IsValidClient(client))
+		Modules_PlayerTeam(client);
+}
+
+void FixWarnings()
+{
+	if(g_hTimerPreview[0] || g_iPreviewEntity[0] || g_sCreditsName[0])
 	{
-		Glow_PlayerTeam(client);
+		// If anyone can make it more beautiful, please do.
 	}
 }

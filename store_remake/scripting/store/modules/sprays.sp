@@ -1,3 +1,4 @@
+#if STORE_MODULE_SPRAYS
 char g_szSprays[STORE_MAX_ITEMS][PLATFORM_MAX_PATH];
 int g_iSprayPrecache[STORE_MAX_ITEMS] = {-1,...};
 int g_iSprayCache[MAXPLAYERS+1] = {-1,...};
@@ -26,7 +27,7 @@ public void Sprays_OnMapStart()
 			m_szDecal[strlen(m_szDecal)-4]=0;
 
 			g_iSprayPrecache[i] = PrecacheDecal(m_szDecal, true);
-			Downloader_AddFileToDownloadsTable(g_szSprays[i]);
+			AddFileToDownloadsTable(g_szSprays[i]);
 		}
 	}
 
@@ -113,3 +114,18 @@ stock void GetPlayerEyeViewPoint(int client, float m_fPosition[3])
 	TR_TraceRayFilter(m_flPosition, m_flRotation, MASK_ALL, RayType_Infinite, TraceRayDontHitSelf, client);
 	TR_GetEndPosition(m_fPosition);
 }
+
+#else
+
+void Sprays_OnPluginStart() {}
+void Sprays_OnClientConnected(int client)
+{
+	#pragma unused client
+}
+void Sprays_OnPlayerRunCmd(int client,any buttons)
+{
+	#pragma unused client
+	#pragma unused buttons
+}
+
+#endif

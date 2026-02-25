@@ -1,8 +1,9 @@
+#if STORE_MODULE_GIFTS
 // Если Gifts не найден, выдаем предупреждение
 #include <gifts>
 #if !defined _gifts_included
 	#warning "This module requires Gifts plugin. Please install it from: https://github.com/azalty/sm-zeph-gifts"
-	public void Gifts_OnPluginStart(){}
+	public void Gifts_OnPluginStart() {}
 #else
 
 int g_cvarGiftsEnabled;
@@ -233,4 +234,10 @@ public void Gifts_OnPickUpCredit(int client, int data, int owner)
 
 	Store_LogMessage(client, data, "Picked up a gift containing %d credits", data);
 }
+#endif
+
+#else
+
+public void Gifts_OnPluginStart() {}
+
 #endif

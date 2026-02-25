@@ -1,3 +1,4 @@
+#if STORE_MODULE_GLOW
 enum struct Glow
 {
 	char GlowColor[16];
@@ -11,6 +12,8 @@ Glow g_eGlow[STORE_MAX_ITEMS];
 int g_iGlow = 0;
 int g_unClientGlow[MAXPLAYERS + 1] = {INVALID_ENT_REFERENCE, ...};
 int g_unSelectedGlow[MAXPLAYERS + 1] = {-1, ...};
+int g_unPreviewGlow[MAXPLAYERS + 1] = {INVALID_ENT_REFERENCE, ...};
+Handle g_hGlowPreviewTimer[MAXPLAYERS + 1];
 
 public void Glow_OnPluginStart()
 {
@@ -63,6 +66,76 @@ public void Glow_OnClientConnected(int client)
 public void Glow_OnClientDisconnect(int client)
 {
 	g_unSelectedGlow[client] = -1;
+	if (g_hGlowPreviewTimer[client] != null)
+	{
+		delete g_hGlowPreviewTimer[client];
+		g_hGlowPreviewTimer[client] = null;
+	}
+	Glow_KillPreview(client);
+}
+
+static void Glow_KillPreview(int client)
+{
+	if (g_unPreviewGlow[client] == INVALID_ENT_REFERENCE)
+		return;
+	int ent = EntRefToEntIndex(g_unPreviewGlow[client]);
+	g_unPreviewGlow[client] = INVALID_ENT_REFERENCE;
+	if (ent != INVALID_ENT_REFERENCE && IsValidEntity(ent))
+		AcceptEntityInput(ent, "Kill");
+}
+
+static void Glow_CreatePreview(int client, int index)
+{
+	if (index < 0 || index >= g_iGlow)
+		return;
+	int m_unEnt = CreateEntityByName("light_dynamic");
+	if (m_unEnt == -1 || !IsValidEntity(m_unEnt))
+		return;
+	float m_flClientOrigin[3];
+	GetClientAbsOrigin(client, m_flClientOrigin);
+	m_flClientOrigin[2] += 5.0;
+	DispatchKeyValue(m_unEnt, "_light", g_eGlow[index].GlowColor);
+	DispatchKeyValue(m_unEnt, "brightness", g_eGlow[index].GlowBrightness);
+	DispatchKeyValueFloat(m_unEnt, "spotlight_radius", g_eGlow[index].GlowflRadius);
+	DispatchKeyValueFloat(m_unEnt, "distance", g_eGlow[index].GlowflDistance);
+	DispatchKeyValue(m_unEnt, "style", g_eGlow[index].GlowStyle);
+	DispatchSpawn(m_unEnt);
+	TeleportEntity(m_unEnt, m_flClientOrigin, NULL_VECTOR, NULL_VECTOR);
+	SetVariantString("!activator");
+	AcceptEntityInput(m_unEnt, "SetParent", client, m_unEnt, 0);
+	g_unPreviewGlow[client] = EntIndexToEntRef(m_unEnt);
+}
+
+public Action Glow_Timer_StopPreview(Handle timer, int client)
+{
+	g_hGlowPreviewTimer[client] = null;
+	Glow_KillPreview(client);
+	return Plugin_Stop;
+}
+
+public void Glow_OnPreviewItem(int client, const char[] type, int index)
+{
+	if (!StrEqual(type, "glow") || index < 0 || index >= g_iGlow)
+		return;
+	if (g_hGlowPreviewTimer[client] != null)
+	{
+		delete g_hGlowPreviewTimer[client];
+		g_hGlowPreviewTimer[client] = null;
+	}
+	Glow_KillPreview(client);
+	if (!IsClientInGame(client) || !IsPlayerAlive(client))
+	{
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview");
+		return;
+	}
+	Glow_CreatePreview(client, index);
+	g_hGlowPreviewTimer[client] = CreateTimer(15.0, Glow_Timer_StopPreview, client, TIMER_FLAG_NO_MAPCHANGE);
+	#if defined _clientmod_included
+		MC_PrintToChat(client, "%s %t", g_sChatPrefix_CM, "Spawn Preview CM");
+		C_PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview");
+	#else
+		PrintToChat(client, "%s %t", g_sChatPrefix, "Spawn Preview");
+	#endif
 }
 
 public Action Glow_PlayerSpawn(int client)
@@ -159,3 +232,25 @@ public void ResetGlow(int client)
 
 	AcceptEntityInput(m_unEnt, "Kill");
 }
+
+#else
+
+void Glow_OnPluginStart() {}
+void Glow_OnClientDisconnect(int client)
+{
+	#pragma unused client
+}
+void Glow_PlayerSpawn(int client)
+{
+	#pragma unused client
+}
+void Glow_PlayerDeath(int client)
+{
+	#pragma unused client
+}
+void Glow_PlayerTeam(int client)
+{
+	#pragma unused client
+}
+
+#endif

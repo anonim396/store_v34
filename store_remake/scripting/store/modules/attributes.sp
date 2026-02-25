@@ -1,3 +1,5 @@
+#if STORE_MODULE_ATTRIBUTES
+
 public void Attributes_OnPluginStart()
 {
 	HookEvent("player_spawn", Attributes_PlayerSpawn);
@@ -42,8 +44,8 @@ public Action Attributes_PlayerSpawn(Handle event, const char[] name, bool dontB
 		
 		if(GetTrieString(item.hAttributes, "speed", STRING(m_szValue)))
 		{
-		    SetEntPropFloat(client, Prop_Data, "m_flLaggedMovementValue", 
-		        GetEntPropFloat(client, Prop_Data, "m_flLaggedMovementValue") * StringToFloat(m_szValue));
+			SetEntPropFloat(client, Prop_Data, "m_flLaggedMovementValue", 
+				GetEntPropFloat(client, Prop_Data, "m_flLaggedMovementValue") * StringToFloat(m_szValue));
 		}
 	}
 	
@@ -69,3 +71,7 @@ public Action Attributes_PlayerSpawn(Handle event, const char[] name, bool dontB
 
 	return Plugin_Continue;
 }
+
+#else
+void Attributes_OnPluginStart() {}
+#endif

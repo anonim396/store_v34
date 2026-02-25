@@ -2,6 +2,8 @@
 //			ENUMS			//
 //////////////////////////////
 
+forward void Modules_OnPlayerReset(int client);
+
 enum struct Client_Data
 {
 	int iId_Client;

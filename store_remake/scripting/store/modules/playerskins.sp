@@ -1,3 +1,4 @@
+#if STORE_MODULE_PLAYERSKINS
 enum struct PlayerSkin
 {
 	char szModel[PLATFORM_MAX_PATH];
@@ -24,8 +25,8 @@ public void PlayerSkins_OnMapStart()
 {
 	for(int i=0;i<g_iPlayerSkins;++i)
 	{
-		g_ePlayerSkins[i].nModelIndex = PrecacheModel2(g_ePlayerSkins[i].szModel, true);
-		Downloader_AddFileToDownloadsTable(g_ePlayerSkins[i].szModel);
+		g_ePlayerSkins[i].nModelIndex = PrecacheModel(g_ePlayerSkins[i].szModel, true);
+				AddFileToDownloadsTable(g_ePlayerSkins[i].szModel);
 	}
 }
 
@@ -183,10 +184,10 @@ void Store_SetClientModel(int client, const char[] model, const int skin=0, cons
 	SetEntProp(client, Prop_Send, "m_nSkin", skin);
 	
 	if (body > 0)
-    {
-        // set?
+	{
+		// set?
 		SetEntProp(client, Prop_Send, "m_nBody", body);
-    }
+	}
 }
 
 public void PlayerSkin_OnPreviewItem(int client, char[] type, int index)
@@ -209,8 +210,8 @@ public void PlayerSkin_OnPreviewItem(int client, char[] type, int index)
 	
 	if (g_hTimerPreview[client] != null) 
 	{
-        delete g_hTimerPreview[client];
-        g_hTimerPreview[client] = null;
+		delete g_hTimerPreview[client];
+		g_hTimerPreview[client] = null;
 	} 
 
 	DispatchKeyValue(iPreview, "spawnflags", "64");
@@ -291,19 +292,42 @@ public Action PlayerSkin_Timer_KillPreview(Handle timer, int client)
 	if (g_iPreviewEntity[client] != INVALID_ENT_REFERENCE)
 	{
 		int entity = EntRefToEntIndex(g_iPreviewEntity[client]);
-
-		if (entity > 0 && IsValidEdict(entity))
+		
+		if (entity > MaxClients && IsValidEntity(entity))
 		{
-			SDKUnhook(entity, SDKHook_SetTransmit, PlayerSkin_Hook_SetTransmit_Preview);
-			AcceptEntityInput(entity, "Kill");
+			int parent = GetEntPropEnt(entity, Prop_Data, "m_pParent");
+			if (parent > MaxClients && IsValidEntity(parent))
+			{
+				AcceptEntityInput(parent, "Kill");
+			}
+			
+			if (HasEntProp(entity, Prop_Data, "m_iHealth") || IsValidEdict(entity))
+			{
+				SDKUnhook(entity, SDKHook_SetTransmit, PlayerSkin_Hook_SetTransmit_Preview);
+				AcceptEntityInput(entity, "Kill");
+			}
+			else
+			{
+				g_iPreviewEntity[client] = INVALID_ENT_REFERENCE;
+			}
 		}
 		else
 		{
-			LogError("PlayerSkin_Timer_KillPreview: Invalid or non-existent entity for client %d", client);
-			return Plugin_Stop;
+			g_iPreviewEntity[client] = INVALID_ENT_REFERENCE;
 		}
 	}
+	else
+	{
+		return Plugin_Stop;
+	}
+	
 	g_iPreviewEntity[client] = INVALID_ENT_REFERENCE;
 
 	return Plugin_Stop;
 }
+
+#else
+
+void PlayerSkins_OnPluginStart() {}
+
+#endif
