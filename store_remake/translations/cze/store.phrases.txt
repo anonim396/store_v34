@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"cze"			"Vyberte množství kreditů\n{2} - {1} kreditů"
 	}
+	
+	"Pet Settings"
+	{
+		"cze"			"Nastavení mazlíčka"
+	}
+
+	"Show Pets"
+	{
+		"cze"			"Zobrazit mazlíčky"
+	}
+
+	"Hide Pets"
+	{
+		"cze"			"Skrýt mazlíčky"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"cze"			"Režim sledování mazlíčka: Povoleno"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"cze"			"Režim sledování mazlíčka: Zakázáno"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"cze"			"Režim sledování mazlíčka povolen"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"cze"			"Režim sledování mazlíčka zakázán"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"cze"			"Režim sledování mazlíčka povolen"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"cze"			"Režim sledování mazlíčka zakázán"
+	}
+
+	"Promo usage"
+	{
+		"cze"		"Použití: !storepromo <KÓD> nebo !shoppromo <KÓD>"
+	}
+	"Promo usage CM"
+	{
+		"cze"		"Použití: !storepromo <KÓD> nebo !shoppromo <KÓD>"
+	}
+	"Promo disabled"
+	{
+		"cze"		"Propagační kódy nejsou nakonfigurovány."
+	}
+	"Promo disabled CM"
+	{
+		"cze"		"Propagační kódy nejsou nakonfigurovány."
+	}
+	"Promo invalid"
+	{
+		"cze"		"Neplatný nebo vypršený propagační kód."
+	}
+	"Promo invalid CM"
+	{
+		"cze"		"Neplatný nebo vypršený propagační kód."
+	}
+	"Promo already used"
+	{
+		"cze"		"Tento propagační kód jste již použili."
+	}
+	"Promo already used CM"
+	{
+		"cze"		"Tento propagační kód jste již použili."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Propagační kód uplatněn! Získáno {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"cze"		"Propagační kód uplatněn! Získáno {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Propagační kód uplatněn! Získána položka: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"cze"		"Propagační kód uplatněn! Získána položka: {1}."
+	}
+	"Promo try again"
+	{
+		"cze"		"Zkuste to prosím za chvíli (načítají se vaše data)."
+	}
+	"Promo try again CM"
+	{
+		"cze"		"Zkuste to prosím za chvíli (načítají se vaše data)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Hlasitost\nAktuální: {1}%%"
+	}
+	"Volume increase"
+	{
+		"cze"		"Zvýšit (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"cze"		"Snížit (-10%%)"
+	}
+	"Volume test"
+	{
+		"cze"		"Testovací přehrání"
+	}
+	"Ball sound settings"
+	{
+		"cze"		"Nastavení zvuku dárku"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Hlasitost zvuku dárku: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Hlasitost Say zvuku: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"cze"		"Zadejte počet kreditů pro pozici {1}:"
+	}
 }

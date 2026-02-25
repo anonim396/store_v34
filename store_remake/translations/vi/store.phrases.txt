@@ -574,6 +574,10 @@
 	{
 		"vi"		"Vui lòng nhập số tiền tùy chỉnh của bạn trong cuộc trò chuyện!"
 	}
+	"Enter minimum value"
+	{
+		"vi"        "Vui lòng nhập giá trị tối thiểu của Credits trong chat!"
+	}
 	"Enter maximum value"
 	{
 		"vi"		"Vui lòng nhập giá trị tối đa của tín dụng trong cuộc trò chuyện!"
@@ -2966,6 +2970,10 @@
 	{
 		"vi"		"Vui lòng nhập số tiền tùy chỉnh của bạn trong cuộc trò chuyện!"
 	}
+	"Enter minimum value CM"
+	{
+		"vi"        "Vui lòng nhập giá trị tối thiểu của Credits trong chat!"
+	}
 
 	"Enter maximum value CM"
 	{
@@ -5280,5 +5288,147 @@
 	{
 		"#format"		"{1:s},{2:i}"
 		"vi"			"Chọn số lượng tín dụng\n{2} - {1} tín dụng"
+	}
+	
+	"Pet Settings"
+	{
+		"vi"			"Cài đặt thú cưng"
+	}
+
+	"Show Pets"
+	{
+		"vi"			"Hiển thị thú cưng"
+	}
+
+	"Hide Pets"
+	{
+		"vi"			"Ẩn thú cưng"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"vi"			"Chế độ theo dõi thú cưng: Đã bật"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"vi"			"Chế độ theo dõi thú cưng: Đã tắt"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"vi"			"Chế độ theo dõi thú cưng đã được bật"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"vi"			"Chế độ theo dõi thú cưng đã được tắt"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"vi"			"Chế độ theo dõi thú cưng đã được bật"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"vi"			"Chế độ theo dõi thú cưng đã được tắt"
+	}
+
+	"Promo usage"
+	{
+		"vi"		"Cách dùng: !storepromo <MÃ> hoặc !shoppromo <MÃ>"
+	}
+	"Promo usage CM"
+	{
+		"vi"		"Cách dùng: !storepromo <MÃ> hoặc !shoppromo <MÃ>"
+	}
+	"Promo disabled"
+	{
+		"vi"		"Mã khuyến mãi chưa được cấu hình."
+	}
+	"Promo disabled CM"
+	{
+		"vi"		"Mã khuyến mãi chưa được cấu hình."
+	}
+	"Promo invalid"
+	{
+		"vi"		"Mã khuyến mãi không hợp lệ hoặc đã hết hạn."
+	}
+	"Promo invalid CM"
+	{
+		"vi"		"Mã khuyến mãi không hợp lệ hoặc đã hết hạn."
+	}
+	"Promo already used"
+	{
+		"vi"		"Bạn đã sử dụng mã khuyến mãi này rồi."
+	}
+	"Promo already used CM"
+	{
+		"vi"		"Bạn đã sử dụng mã khuyến mãi này rồi."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Đã đổi mã! Nhận được {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"vi"		"Đã đổi mã! Nhận được {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Đã đổi mã! Nhận được vật phẩm: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"vi"		"Đã đổi mã! Nhận được vật phẩm: {1}."
+	}
+	"Promo try again"
+	{
+		"vi"		"Vui lòng thử lại sau giây lát (đang tải dữ liệu)."
+	}
+	"Promo try again CM"
+	{
+		"vi"		"Vui lòng thử lại sau giây lát (đang tải dữ liệu)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Âm lượng\nHiện tại: {1}%%"
+	}
+	"Volume increase"
+	{
+		"vi"		"Tăng (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"vi"		"Giảm (-10%%)"
+	}
+	"Volume test"
+	{
+		"vi"		"Phát thử"
+	}
+	"Ball sound settings"
+	{
+		"vi"		"Cài đặt âm thanh quà tặng"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Âm lượng âm thanh quà: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Âm lượng âm thanh Say: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"vi"		"Nhập số lượng tín dụng cho vị trí {1}:"
 	}
 }

@@ -5201,6 +5201,32 @@
 		"en"			"Reload Config"
 	}
 
+	"Ball on map at"
+	{
+		"#format"		"{1:f},{2:f},{3:f}"
+		"en"			"Ball on map at: {1} {2} {3}\n "
+	}
+
+	"Ball not on map"
+	{
+		"en"			"Ball not on map\n "
+	}
+
+	"Remove ball from map"
+	{
+		"en"			"Remove ball from map"
+	}
+
+	"Ball removed from map"
+	{
+		"en"			"Ball removed from map"
+	}
+
+	"Ball removed from map CM"
+	{
+		"en"			"Ball removed from map"
+	}
+
 	"Set Credits for Positions Title"
 	{
 		"#format"		"{1:i}"
@@ -5289,5 +5315,147 @@
 	{
 		"#format"		"{1:s},{2:i}"
 		"en"			"Choose the amount of credits\n{2} - {1} credits"
+	}
+	
+	"Pet Settings"
+	{
+		"en"			"Pet Settings"
+	}
+
+	"Show Pets"
+	{
+		"en"			"Show Pets"
+	}
+
+	"Hide Pets"
+	{
+		"en"			"Hide Pets"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"en"			"Pet Follow Mode: Enabled"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"en"			"Pet Follow Mode: Disabled"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"en"			"Pet follow mode enabled"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"en"			"Pet follow mode disabled"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"en"			"Pet follow mode enabled"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"en"			"Pet follow mode disabled"
+	}
+
+	"Promo usage"
+	{
+		"en"		"Usage: !storepromo <CODE> or !shoppromo <CODE>"
+	}
+	"Promo usage CM"
+	{
+		"en"		"Usage: !storepromo <CODE> or !shoppromo <CODE>"
+	}
+	"Promo disabled"
+	{
+		"en"		"Promo codes are not configured."
+	}
+	"Promo disabled CM"
+	{
+		"en"		"Promo codes are not configured."
+	}
+	"Promo invalid"
+	{
+		"en"		"Invalid or expired promo code."
+	}
+	"Promo invalid CM"
+	{
+		"en"		"Invalid or expired promo code."
+	}
+	"Promo already used"
+	{
+		"en"		"You have already used this promo code."
+	}
+	"Promo already used CM"
+	{
+		"en"		"You have already used this promo code."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You redeemed the promo! Received {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"en"		"You redeemed the promo! Received {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"en"		"You redeemed the promo! Received item: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"en"		"You redeemed the promo! Received item: {1}."
+	}
+	"Promo try again"
+	{
+		"en"		"Please try again in a moment (loading your data)."
+	}
+	"Promo try again CM"
+	{
+		"en"		"Please try again in a moment (loading your data)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"en"		"Volume\nCurrent: {1}%%"
+	}
+	"Volume increase"
+	{
+		"en"		"Increase (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"en"		"Decrease (-10%%)"
+	}
+	"Volume test"
+	{
+		"en"		"Test playback"
+	}
+	"Ball sound settings"
+	{
+		"en"		"Gift sound settings"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"en"		"Gift sound volume: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"en"		"Say sound volume: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"en"		"Enter credits amount for position {1}:"
 	}
 }

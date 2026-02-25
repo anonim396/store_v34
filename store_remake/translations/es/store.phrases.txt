@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"es"			"Elige la cantidad de créditos\n{2} - {1} créditos"
 	}
+	
+	"Pet Settings"
+	{
+		"es"			"Configuración de mascota"
+	}
+
+	"Show Pets"
+	{
+		"es"			"Mostrar mascotas"
+	}
+
+	"Hide Pets"
+	{
+		"es"			"Ocultar mascotas"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"es"			"Modo seguimiento mascota: Activado"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"es"			"Modo seguimiento mascota: Desactivado"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"es"			"Modo seguimiento mascota activado"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"es"			"Modo seguimiento mascota desactivado"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"es"			"Modo seguimiento mascota activado"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"es"			"Modo seguimiento mascota desactivado"
+	}
+
+	"Promo usage"
+	{
+		"es"		"Uso: !storepromo <CÓDIGO> o !shoppromo <CÓDIGO>"
+	}
+	"Promo usage CM"
+	{
+		"es"		"Uso: !storepromo <CÓDIGO> o !shoppromo <CÓDIGO>"
+	}
+	"Promo disabled"
+	{
+		"es"		"Los códigos promocionales no están configurados."
+	}
+	"Promo disabled CM"
+	{
+		"es"		"Los códigos promocionales no están configurados."
+	}
+	"Promo invalid"
+	{
+		"es"		"Código promocional inválido o caducado."
+	}
+	"Promo invalid CM"
+	{
+		"es"		"Código promocional inválido o caducado."
+	}
+	"Promo already used"
+	{
+		"es"		"Ya has utilizado este código promocional."
+	}
+	"Promo already used CM"
+	{
+		"es"		"Ya has utilizado este código promocional."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"es"		"¡Promo canjeado! Recibido {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"es"		"¡Promo canjeado! Recibido {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"es"		"¡Promo canjeado! Recibido objeto: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"es"		"¡Promo canjeado! Recibido objeto: {1}."
+	}
+	"Promo try again"
+	{
+		"es"		"Por favor, inténtalo de nuevo en un momento (cargando tus datos)."
+	}
+	"Promo try again CM"
+	{
+		"es"		"Por favor, inténtalo de nuevo en un momento (cargando tus datos)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"es"		"Volumen\nActual: {1}%%"
+	}
+	"Volume increase"
+	{
+		"es"		"Aumentar (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"es"		"Disminuir (-10%%)"
+	}
+	"Volume test"
+	{
+		"es"		"Reproducción de prueba"
+	}
+	"Ball sound settings"
+	{
+		"es"		"Configuración de sonido del regalo"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"es"		"Volumen de sonido del regalo: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"es"		"Volumen de sonido Say: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"es"		"Ingresa la cantidad de créditos para la posición {1}:"
+	}
 }

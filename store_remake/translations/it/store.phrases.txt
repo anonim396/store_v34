@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"it"			"Scegli l'importo dei crediti\n{2} - {1} crediti"
 	}
+	
+	"Pet Settings"
+	{
+		"it"			"Impostazioni animale domestico"
+	}
+
+	"Show Pets"
+	{
+		"it"			"Mostra animali domestici"
+	}
+
+	"Hide Pets"
+	{
+		"it"			"Nascondi animali domestici"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"it"			"Modalità seguito animale: Abilitata"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"it"			"Modalità seguito animale: Disabilitata"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"it"			"Modalità seguito animale abilitata"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"it"			"Modalità seguito animale disabilitata"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"it"			"Modalità seguito animale abilitata"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"it"			"Modalità seguito animale disabilitata"
+	}
+
+	"Promo usage"
+	{
+		"it"		"Uso: !storepromo <CODICE> o !shoppromo <CODICE>"
+	}
+	"Promo usage CM"
+	{
+		"it"		"Uso: !storepromo <CODICE> o !shoppromo <CODICE>"
+	}
+	"Promo disabled"
+	{
+		"it"		"I codici promo non sono configurati."
+	}
+	"Promo disabled CM"
+	{
+		"it"		"I codici promo non sono configurati."
+	}
+	"Promo invalid"
+	{
+		"it"		"Codice promo non valido o scaduto."
+	}
+	"Promo invalid CM"
+	{
+		"it"		"Codice promo non valido o scaduto."
+	}
+	"Promo already used"
+	{
+		"it"		"Hai già utilizzato questo codice promo."
+	}
+	"Promo already used CM"
+	{
+		"it"		"Hai già utilizzato questo codice promo."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Promo riscattato! Ricevuti {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"it"		"Promo riscattato! Ricevuti {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"it"		"Promo riscattato! Ricevuto oggetto: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"it"		"Promo riscattato! Ricevuto oggetto: {1}."
+	}
+	"Promo try again"
+	{
+		"it"		"Riprova tra un momento (caricamento dei tuoi dati)."
+	}
+	"Promo try again CM"
+	{
+		"it"		"Riprova tra un momento (caricamento dei tuoi dati)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"it"		"Volume\nAttuale: {1}%%"
+	}
+	"Volume increase"
+	{
+		"it"		"Aumenta (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"it"		"Diminuisci (-10%%)"
+	}
+	"Volume test"
+	{
+		"it"		"Riproduzione di test"
+	}
+	"Ball sound settings"
+	{
+		"it"		"Impostazioni audio regalo"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"it"		"Volume audio regalo: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"it"		"Volume suono Say: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"it"		"Inserisci importo crediti per posizione {1}:"
+	}
 }

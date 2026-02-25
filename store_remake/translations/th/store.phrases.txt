@@ -574,6 +574,10 @@
 	{
 		"th"		"กรุณาใส่จำนวนเงินที่กำหนดเองของคุณในแชท!"
 	}
+	"Enter minimum value"
+	{
+		"th"        "โปรดป้อนค่าต่ำสุดของเครดิตในแชท!"
+	}
 	"Enter maximum value"
 	{
 		"th"		"กรุณาใส่ค่ามากที่สุดของเครดิตในแชท!"
@@ -2966,6 +2970,11 @@
 	{
 		"th"		"กรุณาใส่จำนวนเงินที่กำหนดเองของคุณในแชท!"
 	}
+	
+	"Enter minimum value CM"
+	{
+		"th"        "โปรดป้อนค่าต่ำสุดของเครดิตในแชท!"
+	}
 
 	"Enter maximum value CM"
 	{
@@ -5286,5 +5295,147 @@
 	{
 		"#format"		"{1:s},{2:i}"
 		"th"			"เลือกจำนวนเครดิต\n{2} - {1} เครดิต"
+	}
+	
+	"Pet Settings"
+	{
+		"th"			"การตั้งค่าสัตว์เลี้ยง"
+	}
+
+	"Show Pets"
+	{
+		"th"			"แสดงสัตว์เลี้ยง"
+	}
+
+	"Hide Pets"
+	{
+		"th"			"ซ่อนสัตว์เลี้ยง"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"th"			"โหมดติดตามสัตว์เลี้ยง: เปิดใช้งาน"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"th"			"โหมดติดตามสัตว์เลี้ยง: ปิดใช้งาน"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"th"			"เปิดใช้งานโหมดติดตามสัตว์เลี้ยงแล้ว"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"th"			"ปิดใช้งานโหมดติดตามสัตว์เลี้ยงแล้ว"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"th"			"เปิดใช้งานโหมดติดตามสัตว์เลี้ยงแล้ว"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"th"			"ปิดใช้งานโหมดติดตามสัตว์เลี้ยงแล้ว"
+	}
+
+	"Promo usage"
+	{
+		"th"		"การใช้งาน: !storepromo <รหัส> หรือ !shoppromo <รหัส>"
+	}
+	"Promo usage CM"
+	{
+		"th"		"การใช้งาน: !storepromo <รหัส> หรือ !shoppromo <รหัส>"
+	}
+	"Promo disabled"
+	{
+		"th"		"ยังไม่ได้กำหนดรหัสโปรโมชั่น"
+	}
+	"Promo disabled CM"
+	{
+		"th"		"ยังไม่ได้กำหนดรหัสโปรโมชั่น"
+	}
+	"Promo invalid"
+	{
+		"th"		"รหัสโปรโมชั่นไม่ถูกต้องหรือหมดอายุ"
+	}
+	"Promo invalid CM"
+	{
+		"th"		"รหัสโปรโมชั่นไม่ถูกต้องหรือหมดอายุ"
+	}
+	"Promo already used"
+	{
+		"th"		"คุณใช้รหัสโปรโมชั่นนี้ไปแล้ว"
+	}
+	"Promo already used CM"
+	{
+		"th"		"คุณใช้รหัสโปรโมชั่นนี้ไปแล้ว"
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"ใช้รหัสโปรโมชั่นแล้ว! ได้รับ {1} {2}"
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"th"		"ใช้รหัสโปรโมชั่นแล้ว! ได้รับ {1} {2}"
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"th"		"ใช้รหัสโปรโมชั่นแล้ว! ได้รับไอเทม: {1}"
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"th"		"ใช้รหัสโปรโมชั่นแล้ว! ได้รับไอเทม: {1}"
+	}
+	"Promo try again"
+	{
+		"th"		"กรุณาลองอีกครั้งในอีกครู่ (กำลังโหลดข้อมูลของคุณ)"
+	}
+	"Promo try again CM"
+	{
+		"th"		"กรุณาลองอีกครั้งในอีกครู่ (กำลังโหลดข้อมูลของคุณ)"
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"th"		"ระดับเสียง\nปัจจุบัน: {1}%%"
+	}
+	"Volume increase"
+	{
+		"th"		"เพิ่ม (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"th"		"ลด (-10%%)"
+	}
+	"Volume test"
+	{
+		"th"		"ทดสอบการเล่น"
+	}
+	"Ball sound settings"
+	{
+		"th"		"การตั้งค่าเสียงของขวัญ"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"th"		"ระดับเสียงของขวัญ: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"th"		"ระดับเสียง Say: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"th"		"ป้อนจำนวนเครดิตสำหรับตำแหน่ง {1}:"
 	}
 }

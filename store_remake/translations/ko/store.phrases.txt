@@ -5295,4 +5295,146 @@
 		"#format"		"{1:s},{2:i}"
 		"ko"			"크레딧 양 선택\n{2} - {1} 크레딧"
 	}
+	
+	"Pet Settings"
+	{
+		"ko"			"펫 설정"
+	}
+
+	"Show Pets"
+	{
+		"ko"			"펫 표시"
+	}
+
+	"Hide Pets"
+	{
+		"ko"			"펫 숨기기"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"ko"			"펫 팔로우 모드: 활성화됨"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"ko"			"펫 팔로우 모드: 비활성화됨"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"ko"			"펫 팔로우 모드가 활성화되었습니다"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"ko"			"펫 팔로우 모드가 비활성화되었습니다"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"ko"			"펫 팔로우 모드가 활성화되었습니다"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"ko"			"펫 팔로우 모드가 비활성화되었습니다"
+	}
+
+	"Promo usage"
+	{
+		"ko"		"사용법: !storepromo <코드> 또는 !shoppromo <코드>"
+	}
+	"Promo usage CM"
+	{
+		"ko"		"사용법: !storepromo <코드> 또는 !shoppromo <코드>"
+	}
+	"Promo disabled"
+	{
+		"ko"		"프로모 코드가 설정되지 않았습니다."
+	}
+	"Promo disabled CM"
+	{
+		"ko"		"프로모 코드가 설정되지 않았습니다."
+	}
+	"Promo invalid"
+	{
+		"ko"		"잘못되었거나 만료된 프로모 코드입니다."
+	}
+	"Promo invalid CM"
+	{
+		"ko"		"잘못되었거나 만료된 프로모 코드입니다."
+	}
+	"Promo already used"
+	{
+		"ko"		"이미 이 프로모 코드를 사용하셨습니다."
+	}
+	"Promo already used CM"
+	{
+		"ko"		"이미 이 프로모 코드를 사용하셨습니다."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"프로모를 사용했습니다! {1} {2}을(를) 받았습니다."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ko"		"프로모를 사용했습니다! {1} {2}을(를) 받았습니다."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"ko"		"프로모를 사용했습니다! 아이템 획득: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"ko"		"프로모를 사용했습니다! 아이템 획득: {1}."
+	}
+	"Promo try again"
+	{
+		"ko"		"잠시 후 다시 시도해 주세요(데이터 로딩 중)."
+	}
+	"Promo try again CM"
+	{
+		"ko"		"잠시 후 다시 시도해 주세요(데이터 로딩 중)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"ko"		"볼륨\n현재: {1}%%"
+	}
+	"Volume increase"
+	{
+		"ko"		"높이기 (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"ko"		"낮추기 (-10%%)"
+	}
+	"Volume test"
+	{
+		"ko"		"테스트 재생"
+	}
+	"Ball sound settings"
+	{
+		"ko"		"선물 소리 설정"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"ko"		"선물 볼륨: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"ko"		"Say 사운드 볼륨: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"ko"		"위치 {1}의 크레딧 수량 입력:"
+	}
 }

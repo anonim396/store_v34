@@ -574,6 +574,10 @@
 	{
 		"ro"		"Vă rugăm să introduceți suma personalizată în chat!"
 	}
+	"Enter minimum value"
+	{
+		"ro"        "Vă rugăm să introduceți valoarea minimă a creditelor în chat!"
+	}
 	"Enter maximum value"
 	{
 		"ro"		"Vă rugăm să introduceți valoarea maximă a creditelor în chat!"
@@ -2966,6 +2970,11 @@
 	{
 		"ro"		"Vă rugăm să introduceți suma personalizată în chat!"
 	}
+	
+	"Enter minimum value CM"
+	{
+		"ro"        "Vă rugăm să introduceți valoarea minimă a creditelor în chat!"
+	}
 
 	"Enter maximum value CM"
 	{
@@ -5280,5 +5289,147 @@
 	{
 		"#format"		"{1:s},{2:i}"
 		"ro"			"Alegeți suma creditelor\n{2} - {1} credite"
+	}
+	
+	"Pet Settings"
+	{
+		"ro"			"Setări animal de companie"
+	}
+
+	"Show Pets"
+	{
+		"ro"			"Afișează animale"
+	}
+
+	"Hide Pets"
+	{
+		"ro"			"Ascunde animale"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"ro"			"Mod urmărire animal: Activat"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"ro"			"Mod urmărire animal: Dezactivat"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"ro"			"Modul de urmărire animal activat"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"ro"			"Modul de urmărire animal dezactivat"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"ro"			"Modul de urmărire animal activat"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"ro"			"Modul de urmărire animal dezactivat"
+	}
+
+	"Promo usage"
+	{
+		"ro"		"Utilizare: !storepromo <COD> sau !shoppromo <COD>"
+	}
+	"Promo usage CM"
+	{
+		"ro"		"Utilizare: !storepromo <COD> sau !shoppromo <COD>"
+	}
+	"Promo disabled"
+	{
+		"ro"		"Codurile promo nu sunt configurate."
+	}
+	"Promo disabled CM"
+	{
+		"ro"		"Codurile promo nu sunt configurate."
+	}
+	"Promo invalid"
+	{
+		"ro"		"Cod promo invalid sau expirat."
+	}
+	"Promo invalid CM"
+	{
+		"ro"		"Cod promo invalid sau expirat."
+	}
+	"Promo already used"
+	{
+		"ro"		"Ai folosit deja acest cod promo."
+	}
+	"Promo already used CM"
+	{
+		"ro"		"Ai folosit deja acest cod promo."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Promo răscumpărat! Primit {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ro"		"Promo răscumpărat! Primit {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Promo răscumpărat! Primit articol: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"ro"		"Promo răscumpărat! Primit articol: {1}."
+	}
+	"Promo try again"
+	{
+		"ro"		"Te rugăm să încerci din nou în câteva momente (se încarcă datele)."
+	}
+	"Promo try again CM"
+	{
+		"ro"		"Te rugăm să încerci din nou în câteva momente (se încarcă datele)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Volum\nCurent: {1}%%"
+	}
+	"Volume increase"
+	{
+		"ro"		"Crește (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"ro"		"Scade (-10%%)"
+	}
+	"Volume test"
+	{
+		"ro"		"Redare test"
+	}
+	"Ball sound settings"
+	{
+		"ro"		"Setări sunet cadou"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Volum sunet cadou: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Volum sunet Say: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"ro"		"Introdu suma de credite pentru poziția {1}:"
 	}
 }

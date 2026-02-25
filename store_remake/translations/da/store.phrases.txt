@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"da"			"Vælg mængden af kreditter\n{2} - {1} kreditter"
 	}
+	
+	"Pet Settings"
+	{
+		"da"			"Kæledyrsindstillinger"
+	}
+
+	"Show Pets"
+	{
+		"da"			"Vis kæledyr"
+	}
+
+	"Hide Pets"
+	{
+		"da"			"Skjul kæledyr"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"da"			"Kæledyrs følge-tilstand: Aktiveret"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"da"			"Kæledyrs følge-tilstand: Deaktiveret"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"da"			"Kæledyrs følge-tilstand aktiveret"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"da"			"Kæledyrs følge-tilstand deaktiveret"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"da"			"Kæledyrs følge-tilstand aktiveret"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"da"			"Kæledyrs følge-tilstand deaktiveret"
+	}
+
+	"Promo usage"
+	{
+		"da"		"Brug: !storepromo <KODE> eller !shoppromo <KODE>"
+	}
+	"Promo usage CM"
+	{
+		"da"		"Brug: !storepromo <KODE> eller !shoppromo <KODE>"
+	}
+	"Promo disabled"
+	{
+		"da"		"Promokoder er ikke konfigureret."
+	}
+	"Promo disabled CM"
+	{
+		"da"		"Promokoder er ikke konfigureret."
+	}
+	"Promo invalid"
+	{
+		"da"		"Ugyldig eller udløbet promokode."
+	}
+	"Promo invalid CM"
+	{
+		"da"		"Ugyldig eller udløbet promokode."
+	}
+	"Promo already used"
+	{
+		"da"		"Du har allerede brugt denne promokode."
+	}
+	"Promo already used CM"
+	{
+		"da"		"Du har allerede brugt denne promokode."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du indløste promoen! Modtaget {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"da"		"Du indløste promoen! Modtaget {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"da"		"Du indløste promoen! Modtaget genstand: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"da"		"Du indløste promoen! Modtaget genstand: {1}."
+	}
+	"Promo try again"
+	{
+		"da"		"Prøv venligst igen om et øjeblik (indlæser dine data)."
+	}
+	"Promo try again CM"
+	{
+		"da"		"Prøv venligst igen om et øjeblik (indlæser dine data)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"da"		"Lydstyrke\nNuværende: {1}%%"
+	}
+	"Volume increase"
+	{
+		"da"		"Forøg (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"da"		"Formindsk (-10%%)"
+	}
+	"Volume test"
+	{
+		"da"		"Testafspilning"
+	}
+	"Ball sound settings"
+	{
+		"da"		"Gave lydindstillinger"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"da"		"Gave lydstyrke: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"da"		"Say lydstyrke: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"da"		"Indtast kreditbeløb for position {1}:"
+	}
 }

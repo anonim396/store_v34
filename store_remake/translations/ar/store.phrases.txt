@@ -355,7 +355,7 @@
 	}
 	"Crash Info 1"
 	{
-		"ar"		"           ما هو/كيف تلعب: كراش"
+		"ar"		"		   ما هو/كيف تلعب: كراش"
 	}
 	"Crash Info 2"
 	{
@@ -465,7 +465,7 @@
 	"Credits and Pot"
 	{
 		"#format"	"{1:d},{2:d}"
-		"ar"		"الائتمان: {1}          الوعاء: {2}"
+		"ar"		"الائتمان: {1}		  الوعاء: {2}"
 	}
 	"Custom Weapon Sound Disabled"
 	{
@@ -521,7 +521,7 @@
 	"Deal+-"
 	{
 		"#format"	"{1:d},{2:d}"
-		"ar"		"             تاجر     +{1}     -{2}"
+		"ar"		"			 تاجر	 +{1}	 -{2}"
 	}
 	"Dealer"
 	{
@@ -552,7 +552,7 @@
 	}
 	"Down2"
 	{
-		"ar"		"                      5 = أسفل"
+		"ar"		"					  5 = أسفل"
 	}
 	"Drop Gift"
 	{
@@ -771,7 +771,7 @@
 	}
 	"Hol Info 1"
 	{
-		"#format"    "{1:i},{2:i}"
+		"#format"	"{1:i},{2:i}"
 		"ar"		"تم اختيار رقم بين {1} و {2} لتخمين ما إذا كان الرقم التالي سيكون أعلى أو أقل من الرقم المختار."
 	}
 	"Hol Info 2"
@@ -780,7 +780,7 @@
 	}
 	"Hol Info 3"
 	{
-		"#format"    "{1:f}"
+		"#format"	"{1:f}"
 		"ar"		"يوجد توقف لمدة {1} ثانية بين كل لعبة."
 	}
 	"Hol placed"
@@ -2701,7 +2701,7 @@
 
 	"Crash Info 1 CM"
 	{
-		"ar"		"           ما هو/كيف تلعب: كراش"
+		"ar"		"		   ما هو/كيف تلعب: كراش"
 	}
 
 	"Crash Info 2 CM"
@@ -2836,7 +2836,7 @@
 	"Credits and Pot CM"
 	{
 		"#format"	"{1:d},{2:d}"
-		"ar"		"الائتمان: {1}          الوعاء: {2}"
+		"ar"		"الائتمان: {1}		  الوعاء: {2}"
 	}
 
 	"Custom Weapon Sound Disabled CM"
@@ -2905,7 +2905,7 @@
 	"Deal+- CM"
 	{
 		"#format"	"{1:d},{2:d}"
-		"ar"		"             تاجر     +{1}     -{2}"
+		"ar"		"			 تاجر	 +{1}	 -{2}"
 	}
 
 	"Dealer CM"
@@ -2943,7 +2943,7 @@
 
 	"Down2 CM"
 	{
-		"ar"		"                      5 = أسفل"
+		"ar"		"					  5 = أسفل"
 	}
 
 	"Drop Gift CM"
@@ -5289,5 +5289,147 @@
 	{
 		"#format"		"{1:s},{2:i}"
 		"ar"			"اختر مبلغ الاعتمادات\n{2} - {1} ائتمان"
+	}
+	
+	"Pet Settings"
+	{
+		"ar"			"إعدادات الرفيق"
+	}
+
+	"Show Pets"
+	{
+		"ar"			"إظهار الرفاق"
+	}
+
+	"Hide Pets"
+	{
+		"ar"			"إخفاء الرفاق"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"ar"			"وضع تتبع الرفيق: مفعل"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"ar"			"وضع تتبع الرفيق: معطل"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"ar"			"تم تفعيل وضع تتبع الرفيق"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"ar"			"تم تعطيل وضع تتبع الرفيق"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"ar"			"تم تفعيل وضع تتبع الرفيق"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"ar"			"تم تعطيل وضع تتبع الرفيق"
+	}
+
+	"Promo usage"
+	{
+		"ar"		"الاستخدام: !storepromo <CODE> أو !shoppromo <CODE>"
+	}
+	"Promo usage CM"
+	{
+		"ar"		"الاستخدام: !storepromo <CODE> أو !shoppromo <CODE>"
+	}
+	"Promo disabled"
+	{
+		"ar"		"رموز الترويج غير مهيأة."
+	}
+	"Promo disabled CM"
+	{
+		"ar"		"رموز الترويج غير مهيأة."
+	}
+	"Promo invalid"
+	{
+		"ar"		"رمز ترويج غير صالح أو منتهي الصلاحية."
+	}
+	"Promo invalid CM"
+	{
+		"ar"		"رمز ترويج غير صالح أو منتهي الصلاحية."
+	}
+	"Promo already used"
+	{
+		"ar"		"لقد استخدمت رمز الترويج هذا بالفعل."
+	}
+	"Promo already used CM"
+	{
+		"ar"		"لقد استخدمت رمز الترويج هذا بالفعل."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"تم استرداد العرض! استلمت {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"ar"		"تم استرداد العرض! استلمت {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"ar"		"تم استرداد العرض! استلمت العنصر: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"ar"		"تم استرداد العرض! استلمت العنصر: {1}."
+	}
+	"Promo try again"
+	{
+		"ar"		"يرجى المحاولة مرة أخرى بعد لحظة (جاري تحميل بياناتك)."
+	}
+	"Promo try again CM"
+	{
+		"ar"		"يرجى المحاولة مرة أخرى بعد لحظة (جاري تحميل بياناتك)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"ar"		"مستوى الصوت\nالحالي: {1}%%"
+	}
+	"Volume increase"
+	{
+		"ar"		"زيادة (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"ar"		"تقليل (-10%%)"
+	}
+	"Volume test"
+	{
+		"ar"		"تشغيل تجريبي"
+	}
+	"Ball sound settings"
+	{
+		"ar"		"إعدادات صوت الهدية"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"ar"		"مستوى صوت الهدية: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"ar"		"مستوى صوت Say: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"ar"		"أدخل مقدار الرصيد للموقع {1}:"
 	}
 }

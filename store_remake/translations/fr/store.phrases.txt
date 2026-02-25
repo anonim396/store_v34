@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"fr"			"Choisissez le montant des crédits\n{2} - {1} crédits"
 	}
+	
+	"Pet Settings"
+	{
+		"fr"			"Paramètres d'animal de compagnie"
+	}
+
+	"Show Pets"
+	{
+		"fr"			"Afficher les animaux"
+	}
+
+	"Hide Pets"
+	{
+		"fr"			"Masquer les animaux"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"fr"			"Mode suivi animal: Activé"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"fr"			"Mode suivi animal: Désactivé"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"fr"			"Mode suivi animal activé"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"fi"			"Lemmikin seuraustila poistettu käytöstä"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"fr"			"Mode suivi animal activé"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"fr"			"Mode suivi animal désactivé"
+	}
+
+	"Promo usage"
+	{
+		"fr"		"Utilisation : !storepromo <CODE> ou !shoppromo <CODE>"
+	}
+	"Promo usage CM"
+	{
+		"fr"		"Utilisation : !storepromo <CODE> ou !shoppromo <CODE>"
+	}
+	"Promo disabled"
+	{
+		"fr"		"Les codes promo ne sont pas configurés."
+	}
+	"Promo disabled CM"
+	{
+		"fr"		"Les codes promo ne sont pas configurés."
+	}
+	"Promo invalid"
+	{
+		"fr"		"Code promo invalide ou expiré."
+	}
+	"Promo invalid CM"
+	{
+		"fr"		"Code promo invalide ou expiré."
+	}
+	"Promo already used"
+	{
+		"fr"		"Vous avez déjà utilisé ce code promo."
+	}
+	"Promo already used CM"
+	{
+		"fr"		"Vous avez déjà utilisé ce code promo."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fr"		"Promo échangé ! Reçu {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fr"		"Promo échangé ! Reçu {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"fr"		"Promo échangé ! Objet reçu : {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"fr"		"Promo échangé ! Objet reçu : {1}."
+	}
+	"Promo try again"
+	{
+		"fr"		"Veuillez réessayer dans un instant (chargement de vos données)."
+	}
+	"Promo try again CM"
+	{
+		"fr"		"Veuillez réessayer dans un instant (chargement de vos données)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"fr"		"Volume\nActuel : {1}%%"
+	}
+	"Volume increase"
+	{
+		"fr"		"Augmenter (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"fr"		"Diminuer (-10%%)"
+	}
+	"Volume test"
+	{
+		"fr"		"Lecture de test"
+	}
+	"Ball sound settings"
+	{
+		"fr"		"Paramètres son du cadeau"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"fr"		"Volume son du cadeau : {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"fr"		"Volume son Say : {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"fr"		"Entrez le montant de crédits pour la position {1} :"
+	}
 }

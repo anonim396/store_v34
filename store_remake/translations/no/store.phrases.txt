@@ -5295,4 +5295,146 @@
 		"#format"		"{1:s},{2:i}"
 		"no"			"Velg antall kreditter\n{2} - {1} kreditter"
 	}
+	
+	"Pet Settings"
+	{
+		"no"			"Kjæledyrinnstillinger"
+	}
+
+	"Show Pets"
+	{
+		"no"			"Vis kjæledyr"
+	}
+
+	"Hide Pets"
+	{
+		"no"			"Skjul kjæledyr"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"no"			"Kjæledyrs følge-modus: Aktivert"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"no"			"Kjæledyrs følge-modus: Deaktivert"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"no"			"Kjæledyrs følge-modus aktivert"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"no"			"Kjæledyrs følge-modus deaktivert"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"no"			"Kjæledyrs følge-modus aktivert"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"no"			"Kjæledyrs følge-modus deaktivert"
+	}
+
+	"Promo usage"
+	{
+		"no"		"Bruk: !storepromo <KODE> eller !shoppromo <KODE>"
+	}
+	"Promo usage CM"
+	{
+		"no"		"Bruk: !storepromo <KODE> eller !shoppromo <KODE>"
+	}
+	"Promo disabled"
+	{
+		"no"		"Promokoder er ikke konfigurert."
+	}
+	"Promo disabled CM"
+	{
+		"no"		"Promokoder er ikke konfigurert."
+	}
+	"Promo invalid"
+	{
+		"no"		"Ugyldig eller utløpt promokode."
+	}
+	"Promo invalid CM"
+	{
+		"no"		"Ugyldig eller utløpt promokode."
+	}
+	"Promo already used"
+	{
+		"no"		"Du har allerede brukt denne promokoden."
+	}
+	"Promo already used CM"
+	{
+		"no"		"Du har allerede brukt denne promokoden."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"no"		"Promo innløst! Mottatt {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"no"		"Promo innløst! Mottatt {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"no"		"Promo innløst! Mottatt gjenstand: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"no"		"Promo innløst! Mottatt gjenstand: {1}."
+	}
+	"Promo try again"
+	{
+		"no"		"Vennligst prøv igjen om litt (laster dine data)."
+	}
+	"Promo try again CM"
+	{
+		"no"		"Vennligst prøv igjen om litt (laster dine data)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"no"		"Volum\nNåværende: {1}%%"
+	}
+	"Volume increase"
+	{
+		"no"		"Øk (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"no"		"Reduser (-10%%)"
+	}
+	"Volume test"
+	{
+		"no"		"Testavspilling"
+	}
+	"Ball sound settings"
+	{
+		"no"		"Gave lydinnstillinger"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"no"		"Gave lydstyrke: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"no"		"Say lydstyrke: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"no"		"Skriv inn kredittbeløp for posisjon {1}:"
+	}
 }

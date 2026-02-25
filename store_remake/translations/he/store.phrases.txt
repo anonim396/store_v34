@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"he"			"בחר את כמות הנקודות\n{2} - {1} נקודות"
 	}
+	
+	"Pet Settings"
+	{
+		"he"			"הגדרות חיית מחמד"
+	}
+
+	"Show Pets"
+	{
+		"he"			"הצג חייות מחמד"
+	}
+
+	"Hide Pets"
+	{
+		"he"			"הסתר חייות מחמד"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"he"			"מצב מעקב חיית מחמד: מופעל"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"he"			"מצב מעקב חיית מחמד: מבוטל"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"he"			"מצב מעקב חיית מחמד הופעל"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"he"			"מצב מעקב חיית מחמד בוטל"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"he"			"מצב מעקב חיית מחמד הופעל"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"he"			"מצב מעקב חיית מחמד בוטל"
+	}
+
+	"Promo usage"
+	{
+		"he"		"שימוש: !storepromo <קוד> או !shoppromo <קוד>"
+	}
+	"Promo usage CM"
+	{
+		"he"		"שימוש: !storepromo <קוד> או !shoppromo <קוד>"
+	}
+	"Promo disabled"
+	{
+		"he"		"קודי הקידום לא מוגדרים."
+	}
+	"Promo disabled CM"
+	{
+		"he"		"קודי הקידום לא מוגדרים."
+	}
+	"Promo invalid"
+	{
+		"he"		"קוד קידום לא תקף או שפג תוקפו."
+	}
+	"Promo invalid CM"
+	{
+		"he"		"קוד קידום לא תקף או שפג תוקפו."
+	}
+	"Promo already used"
+	{
+		"he"		"כבר השתמשת בקוד קידום זה."
+	}
+	"Promo already used CM"
+	{
+		"he"		"כבר השתמשת בקוד קידום זה."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"פדית את הקידום! התקבלו {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"he"		"פדית את הקידום! התקבלו {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"he"		"פדית את הקידום! התקבל פריט: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"he"		"פדית את הקידום! התקבל פריט: {1}."
+	}
+	"Promo try again"
+	{
+		"he"		"נסה שוב בעוד רגע (טוען את הנתונים שלך)."
+	}
+	"Promo try again CM"
+	{
+		"he"		"נסה שוב בעוד רגע (טוען את הנתונים שלך)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"he"		"עוצמה\nנוכחי: {1}%%"
+	}
+	"Volume increase"
+	{
+		"he"		"הגדל (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"he"		"הקטן (-10%%)"
+	}
+	"Volume test"
+	{
+		"he"		"השמעת בדיקה"
+	}
+	"Ball sound settings"
+	{
+		"he"		"הגדרות צליל מתנה"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"he"		"עוצמת צליל מתנה: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"he"		"עוצמת צליל Say: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"he"		"הזן סכום קרדיטים עבור מיקום {1}:"
+	}
 }

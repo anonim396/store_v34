@@ -574,6 +574,10 @@
 	{
 		"sk"		"Prosím, zadajte svoju vlastnú sumu v chate!"
 	}
+	"Enter minimum value"
+	{
+		"sk"        "Prosím, zadajte minimálnu hodnotu kreditov v chate!"
+	}
 	"Enter maximum value"
 	{
 		"sk"		"Prosím, zadajte maximálnu hodnotu kreditov v chate!"
@@ -2966,6 +2970,11 @@
 	{
 		"sk"		"Prosím, zadajte svoju vlastnú sumu v chate!"
 	}
+	
+	"Enter minimum value CM"
+	{
+		"sk"        "Prosím, zadajte minimálnu hodnotu kreditov v chate!"
+	}
 
 	"Enter maximum value CM"
 	{
@@ -5280,5 +5289,147 @@
 	{
 		"#format"		"{1:s},{2:i}"
 		"sk"			"Vyberte množstvo kreditov\n{2} - {1} kreditov"
+	}
+	
+	"Pet Settings"
+	{
+		"sk"			"Nastavenia domáceho maznáčika"
+	}
+
+	"Show Pets"
+	{
+		"sk"			"Zobraziť domáce maznáčiky"
+	}
+
+	"Hide Pets"
+	{
+		"sk"			"Skryť domáce maznáčiky"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"sk"			"Režim sledovania domáceho maznáčika: Povolené"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"sk"			"Režim sledovania domáceho maznáčika: Zakázané"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"sk"			"Režim sledovania domáceho maznáčika povolený"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"sk"			"Režim sledovania domáceho maznáčika zakázaný"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"sk"			"Režim sledovania domáceho maznáčika povolený"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"sk"			"Režim sledovania domáceho maznáčika zakázaný"
+	}
+
+	"Promo usage"
+	{
+		"sk"		"Použitie: !storepromo <KÓD> alebo !shoppromo <KÓD>"
+	}
+	"Promo usage CM"
+	{
+		"sk"		"Použitie: !storepromo <KÓD> alebo !shoppromo <KÓD>"
+	}
+	"Promo disabled"
+	{
+		"sk"		"Propagačné kódy nie sú nakonfigurované."
+	}
+	"Promo disabled CM"
+	{
+		"sk"		"Propagačné kódy nie sú nakonfigurované."
+	}
+	"Promo invalid"
+	{
+		"sk"		"Neplatný alebo expirovaný propagačný kód."
+	}
+	"Promo invalid CM"
+	{
+		"sk"		"Neplatný alebo expirovaný propagačný kód."
+	}
+	"Promo already used"
+	{
+		"sk"		"Tento propagačný kód ste už použili."
+	}
+	"Promo already used CM"
+	{
+		"sk"		"Tento propagačný kód ste už použili."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Propagačný kód uplatnený! Získané {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sk"		"Propagačný kód uplatnený! Získané {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Propagačný kód uplatnený! Získaná položka: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"sk"		"Propagačný kód uplatnený! Získaná položka: {1}."
+	}
+	"Promo try again"
+	{
+		"sk"		"Skúste to prosím o chvíľu (načítavajú sa vaše dáta)."
+	}
+	"Promo try again CM"
+	{
+		"sk"		"Skúste to prosím o chvíľu (načítavajú sa vaše dáta)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Hlasitosť\nAktuálna: {1}%%"
+	}
+	"Volume increase"
+	{
+		"sk"		"Zvýšiť (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"sk"		"Znížiť (-10%%)"
+	}
+	"Volume test"
+	{
+		"sk"		"Testovacie prehrávanie"
+	}
+	"Ball sound settings"
+	{
+		"sk"		"Nastavenia zvuku darčeka"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Hlasitosť zvuku darčeka: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Hlasitosť Say zvuku: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"sk"		"Zadajte výšku kreditov pre pozíciu {1}:"
 	}
 }

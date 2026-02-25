@@ -574,6 +574,10 @@
 	{
 		"tr"		"Lütfen sohbete özel miktarınızı girin!"
 	}
+	"Enter minimum value"
+	{
+		"tr"        "Lütfen sohbette kredilerin minimum değerini girin!"
+	}
 	"Enter maximum value"
 	{
 		"tr"		"Lütfen sohbete kredi maksimum değerini girin!"
@@ -2966,6 +2970,11 @@
 	{
 		"tr"		"Lütfen sohbete özel miktarınızı girin!"
 	}
+	
+	"Enter minimum value CM"
+	{
+		"tr"        "Lütfen sohbette kredilerin minimum değerini girin!"
+	}
 
 	"Enter maximum value CM"
 	{
@@ -5280,5 +5289,147 @@
 	{
 		"#format"		"{1:s},{2:i}"
 		"tr"			"Kredi miktarını seçin\n{2} - {1} kredi"
+	}
+	
+	"Pet Settings"
+	{
+		"tr"			"Evcil Hayvan Ayarları"
+	}
+
+	"Show Pets"
+	{
+		"tr"			"Evcil Hayvanları Göster"
+	}
+
+	"Hide Pets"
+	{
+		"tr"			"Evcil Hayvanları Gizle"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"tr"			"Evcil Hayvan Takip Modu: Etkin"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"tr"			"Evcil Hayvan Takip Modu: Devre Dışı"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"tr"			"Evcil Hayvan Takip Modu etkinleştirildi"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"tr"			"Evcil Hayvan Takip Modu devre dışı bırakıldı"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"tr"			"Evcil Hayvan Takip Modu etkinleştirildi"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"tr"			"Evcil Hayvan Takip Modu devre dışı bırakıldı"
+	}
+
+	"Promo usage"
+	{
+		"tr"		"Kullanım: !storepromo <KOD> veya !shoppromo <KOD>"
+	}
+	"Promo usage CM"
+	{
+		"tr"		"Kullanım: !storepromo <KOD> veya !shoppromo <KOD>"
+	}
+	"Promo disabled"
+	{
+		"tr"		"Promosyon kodları yapılandırılmamış."
+	}
+	"Promo disabled CM"
+	{
+		"tr"		"Promosyon kodları yapılandırılmamış."
+	}
+	"Promo invalid"
+	{
+		"tr"		"Geçersiz veya süresi dolmuş promosyon kodu."
+	}
+	"Promo invalid CM"
+	{
+		"tr"		"Geçersiz veya süresi dolmuş promosyon kodu."
+	}
+	"Promo already used"
+	{
+		"tr"		"Bu promosyon kodunu zaten kullandınız."
+	}
+	"Promo already used CM"
+	{
+		"tr"		"Bu promosyon kodunu zaten kullandınız."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Promosyon kullanıldı! {1} {2} alındı."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"tr"		"Promosyon kullanıldı! {1} {2} alındı."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Promosyon kullanıldı! Eşya alındı: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"tr"		"Promosyon kullanıldı! Eşya alındı: {1}."
+	}
+	"Promo try again"
+	{
+		"tr"		"Lütfen bir dakika sonra tekrar deneyin (verileriniz yükleniyor)."
+	}
+	"Promo try again CM"
+	{
+		"tr"		"Lütfen bir dakika sonra tekrar deneyin (verileriniz yükleniyor)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Ses\nMevcut: {1}%%"
+	}
+	"Volume increase"
+	{
+		"tr"		"Artır (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"tr"		"Azalt (-10%%)"
+	}
+	"Volume test"
+	{
+		"tr"		"Test çalma"
+	}
+	"Ball sound settings"
+	{
+		"tr"		"Hediye ses ayarları"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Hediye ses düzeyi: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"tr"		"Say ses düzeyi: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"tr"		"{1} pozisyonu için kredi miktarını girin:"
 	}
 }

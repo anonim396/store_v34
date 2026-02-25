@@ -5296,4 +5296,146 @@
 		"#format"		"{1:s},{2:i}"
 		"zho"			"选择积分数额\n{2} - {1} 积分"
 	}
+	
+	"Pet Settings"
+	{
+		"zho"			"宠物设置"
+	}
+
+	"Show Pets"
+	{
+		"zho"			"显示宠物"
+	}
+
+	"Hide Pets"
+	{
+		"zho"			"隐藏宠物"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"zho"			"宠物跟随模式：已启用"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"zho"			"宠物跟随模式：已禁用"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"zho"			"宠物跟随模式已启用"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"zho"			"宠物跟随模式已禁用"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"zho"			"宠物跟随模式已启用"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"zho"			"宠物跟随模式已禁用"
+	}
+
+	"Promo usage"
+	{
+		"zho"		"用法：!storepromo <代码> 或 !shoppromo <代码>"
+	}
+	"Promo usage CM"
+	{
+		"zho"		"用法：!storepromo <代码> 或 !shoppromo <代码>"
+	}
+	"Promo disabled"
+	{
+		"zho"		"未配置促销代码。"
+	}
+	"Promo disabled CM"
+	{
+		"zho"		"未配置促销代码。"
+	}
+	"Promo invalid"
+	{
+		"zho"		"无效或已过期的促销代码。"
+	}
+	"Promo invalid CM"
+	{
+		"zho"		"无效或已过期的促销代码。"
+	}
+	"Promo already used"
+	{
+		"zho"		"您已经使用过此促销代码。"
+	}
+	"Promo already used CM"
+	{
+		"zho"		"您已经使用过此促销代码。"
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"zho"		"促销已兑换！获得 {1} {2}。"
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"zho"		"促销已兑换！获得 {1} {2}。"
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"zho"		"促销已兑换！获得物品：{1}。"
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"zho"		"促销已兑换！获得物品：{1}。"
+	}
+	"Promo try again"
+	{
+		"zho"		"请稍后再试（正在加载您的数据）。"
+	}
+	"Promo try again CM"
+	{
+		"zho"		"请稍后再试（正在加载您的数据）。"
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"zho"		"音量\n当前：{1}%%"
+	}
+	"Volume increase"
+	{
+		"zho"		"增加 (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"zho"		"减少 (-10%%)"
+	}
+	"Volume test"
+	{
+		"zho"		"试播"
+	}
+	"Ball sound settings"
+	{
+		"zho"		"礼物声音设置"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"zho"		"礼物音量：{1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"zho"		"Say 语音音量：{1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"zho"		"输入位置 {1} 的积分数量："
+	}
 }

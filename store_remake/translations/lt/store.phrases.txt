@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"lt"			"Pasirinkite kreditų sumą\n{2} - {1} kreditų"
 	}
+	
+	"Pet Settings"
+	{
+		"lt"			"Augintinio nustatymai"
+	}
+
+	"Show Pets"
+	{
+		"lt"			"Rodyti augintinius"
+	}
+
+	"Hide Pets"
+	{
+		"lt"			"Paslėpti augintinius"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"lt"			"Augintinio sekimo režimas: Įjungtas"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"lt"			"Augintinio sekimo režimas: Išjungtas"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"lt"			"Augintinio sekimo režimas įjungtas"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"lt"			"Augintinio sekimo režimas išjungtas"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"lt"			"Augintinio sekimo režimas įjungtas"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"lt"			"Augintinio sekimo režimas išjungtas"
+	}
+
+	"Promo usage"
+	{
+		"lt"		"Naudojimas: !storepromo <KODAS> arba !shoppromo <KODAS>"
+	}
+	"Promo usage CM"
+	{
+		"lt"		"Naudojimas: !storepromo <KODAS> arba !shoppromo <KODAS>"
+	}
+	"Promo disabled"
+	{
+		"lt"		"Promo kodai nesukonfigūruoti."
+	}
+	"Promo disabled CM"
+	{
+		"lt"		"Promo kodai nesukonfigūruoti."
+	}
+	"Promo invalid"
+	{
+		"lt"		"Netinkamas arba pasibaigęs promo kodas."
+	}
+	"Promo invalid CM"
+	{
+		"lt"		"Netinkamas arba pasibaigęs promo kodas."
+	}
+	"Promo already used"
+	{
+		"lt"		"Jūs jau naudojote šį promo kodą."
+	}
+	"Promo already used CM"
+	{
+		"lt"		"Jūs jau naudojote šį promo kodą."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Promo iškeista! Gauta {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lt"		"Promo iškeista! Gauta {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Promo iškeista! Gauta prekė: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"lt"		"Promo iškeista! Gauta prekė: {1}."
+	}
+	"Promo try again"
+	{
+		"lt"		"Bandykite dar kartą po akimirkos (kraunami jūsų duomenys)."
+	}
+	"Promo try again CM"
+	{
+		"lt"		"Bandykite dar kartą po akimirkos (kraunami jūsų duomenys)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Garsas\nDabartinis: {1}%%"
+	}
+	"Volume increase"
+	{
+		"lt"		"Padidinti (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"lt"		"Sumažinti (-10%%)"
+	}
+	"Volume test"
+	{
+		"lt"		"Testuoti atkūrimą"
+	}
+	"Ball sound settings"
+	{
+		"lt"		"Dovanos garso nustatymai"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Dovanos garsumo lygis: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Say garsumo lygis: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"lt"		"Įveskite kreditų sumą pozicijai {1}:"
+	}
 }

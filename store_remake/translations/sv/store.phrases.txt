@@ -574,6 +574,10 @@
 	{
 		"sv"		"Vänligen ange ditt anpassade belopp i chatten!"
 	}
+	"Enter minimum value"
+	{
+		"sv"        "Vänligen ange minimivärdet för krediter i chatten!"
+	}
 	"Enter maximum value"
 	{
 		"sv"		"Vänligen ange det maximala värdet av krediter i chatten!"
@@ -2966,6 +2970,11 @@
 	{
 		"sv"		"Vänligen ange ditt anpassade belopp i chatten!"
 	}
+	
+	"Enter minimum value CM"
+	{
+		"sv"        "Vänligen ange minimivärdet för krediter i chatten!"
+	}
 
 	"Enter maximum value CM"
 	{
@@ -5280,5 +5289,147 @@
 	{
 		"#format"		"{1:s},{2:i}"
 		"sv"			"Välj antalet krediter\n{2} - {1} krediter"
+	}
+	
+	"Pet Settings"
+	{
+		"sv"			"Husdjursinställningar"
+	}
+
+	"Show Pets"
+	{
+		"sv"			"Visa husdjur"
+	}
+
+	"Hide Pets"
+	{
+		"sv"			"Dölj husdjur"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"sv"			"Husdjursföljningsläge: Aktiverat"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"sv"			"Husdjursföljningsläge: Inaktiverat"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"sv"			"Husdjursföljningsläge aktiverat"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"sv"			"Husdjursföljningsläge inaktiverat"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"sv"			"Husdjursföljningsläge aktiverat"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"sv"			"Husdjursföljningsläge inaktiverat"
+	}
+
+	"Promo usage"
+	{
+		"sv"		"Användning: !storepromo <KOD> eller !shoppromo <KOD>"
+	}
+	"Promo usage CM"
+	{
+		"sv"		"Användning: !storepromo <KOD> eller !shoppromo <KOD>"
+	}
+	"Promo disabled"
+	{
+		"sv"		"Promokoder är inte konfigurerade."
+	}
+	"Promo disabled CM"
+	{
+		"sv"		"Promokoder är inte konfigurerade."
+	}
+	"Promo invalid"
+	{
+		"sv"		"Ogiltig eller utgången promokod."
+	}
+	"Promo invalid CM"
+	{
+		"sv"		"Ogiltig eller utgången promokod."
+	}
+	"Promo already used"
+	{
+		"sv"		"Du har redan använt denna promokod."
+	}
+	"Promo already used CM"
+	{
+		"sv"		"Du har redan använt denna promokod."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Promo inlöst! Mottagit {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"sv"		"Promo inlöst! Mottagit {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Promo inlöst! Mottagit föremål: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"sv"		"Promo inlöst! Mottagit föremål: {1}."
+	}
+	"Promo try again"
+	{
+		"sv"		"Försök igen om en stund (laddar dina data)."
+	}
+	"Promo try again CM"
+	{
+		"sv"		"Försök igen om en stund (laddar dina data)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Volym\nAktuell: {1}%%"
+	}
+	"Volume increase"
+	{
+		"sv"		"Öka (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"sv"		"Minska (-10%%)"
+	}
+	"Volume test"
+	{
+		"sv"		"Testuppspelning"
+	}
+	"Ball sound settings"
+	{
+		"sv"		"Present ljudinställningar"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Present ljudstyrka: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Say ljudstyrka: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"sv"		"Ange kreditbelopp för position {1}:"
 	}
 }

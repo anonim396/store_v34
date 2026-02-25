@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"el"			"Επιλέξτε το ποσό των πιστωτικών\n{2} - {1} πιστωτικά"
 	}
+	
+	"Pet Settings"
+	{
+		"el"			"Ρυθμίσεις κατοικίδιου"
+	}
+
+	"Show Pets"
+	{
+		"el"			"Εμφάνιση κατοικίδιων"
+	}
+
+	"Hide Pets"
+	{
+		"el"			"Απόκρυψη κατοικίδιων"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"el"			"Λειτουργία ακολούθησης κατοικίδιου: Ενεργοποιημένη"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"el"			"Λειτουργία ακολούθησης κατοικίδιου: Απενεργοποιημένη"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"el"			"Η λειτουργία ακολούθησης κατοικίδιου ενεργοποιήθηκε"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"el"			"Η λειτουργία ακολούθησης κατοικίδιου απενεργοποιήθηκε"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"el"			"Η λειτουργία ακολούθησης κατοικίδιου ενεργοποιήθηκε"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"el"			"Η λειτουργία ακολούθησης κατοικίδιου απενεργοποιήθηκε"
+	}
+
+	"Promo usage"
+	{
+		"el"		"Χρήση: !storepromo <ΚΩΔΙΚΟΣ> ή !shoppromo <ΚΩΔΙΚΟΣ>"
+	}
+	"Promo usage CM"
+	{
+		"el"		"Χρήση: !storepromo <ΚΩΔΙΚΟΣ> ή !shoppromo <ΚΩΔΙΚΟΣ>"
+	}
+	"Promo disabled"
+	{
+		"el"		"Οι κωδικοί promo δεν έχουν ρυθμιστεί."
+	}
+	"Promo disabled CM"
+	{
+		"el"		"Οι κωδικοί promo δεν έχουν ρυθμιστεί."
+	}
+	"Promo invalid"
+	{
+		"el"		"Μη έγκυρος ή ληγμένος κωδικός promo."
+	}
+	"Promo invalid CM"
+	{
+		"el"		"Μη έγκυρος ή ληγμένος κωδικός promo."
+	}
+	"Promo already used"
+	{
+		"el"		"Έχετε ήδη χρησιμοποιήσει αυτόν τον κωδικό promo."
+	}
+	"Promo already used CM"
+	{
+		"el"		"Έχετε ήδη χρησιμοποιήσει αυτόν τον κωδικό promo."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"el"		"Ανταλλάξατε το promo! Λήφθηκαν {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"el"		"Ανταλλάξατε το promo! Λήφθηκαν {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"el"		"Ανταλλάξατε το promo! Λήφθηκε αντικείμενο: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"el"		"Ανταλλάξατε το promo! Λήφθηκε αντικείμενο: {1}."
+	}
+	"Promo try again"
+	{
+		"el"		"Παρακαλώ δοκιμάστε ξανά σε λίγο (φόρτωση δεδομένων)."
+	}
+	"Promo try again CM"
+	{
+		"el"		"Παρακαλώ δοκιμάστε ξανά σε λίγο (φόρτωση δεδομένων)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"el"		"Ένταση\nΤρέχουσα: {1}%%"
+	}
+	"Volume increase"
+	{
+		"el"		"Αύξηση (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"el"		"Μείωση (-10%%)"
+	}
+	"Volume test"
+	{
+		"el"		"Δοκιμαστική αναπαραγωγή"
+	}
+	"Ball sound settings"
+	{
+		"el"		"Ρυθμίσεις ήχου δώρου"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"el"		"Ένταση ήχου δώρου: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"el"		"Ένταση Say ήχου: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"el"		"Εισάγετε ποσό πιστώσεων για θέση {1}:"
+	}
 }

@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"fi"			"Valitse pisteiden määrä\n{2} - {1} pistettä"
 	}
+	
+	"Pet Settings"
+	{
+		"fi"			"Lemmikkiasetukset"
+	}
+
+	"Show Pets"
+	{
+		"fi"			"Näytä lemmikit"
+	}
+
+	"Hide Pets"
+	{
+		"fi"			"Piilota lemmikit"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"fi"			"Lemmikin seuraustila: Käytössä"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"fi"			"Lemmikin seuraustila: Pois käytöstä"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"fi"			"Lemmikin seuraustila otettu käyttöön"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"fi"			"Lemmikin seuraustila poistettu käytöstä"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"fi"			"Lemmikin seuraustila otettu käyttöön"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"fi"			"Lemmikin seuraustila poistettu käytöstä"
+	}
+
+	"Promo usage"
+	{
+		"fi"		"Käyttö: !storepromo <KOODI> tai !shoppromo <KOODI>"
+	}
+	"Promo usage CM"
+	{
+		"fi"		"Käyttö: !storepromo <KOODI> tai !shoppromo <KOODI>"
+	}
+	"Promo disabled"
+	{
+		"fi"		"Promokoodeja ei ole määritelty."
+	}
+	"Promo disabled CM"
+	{
+		"fi"		"Promokoodeja ei ole määritelty."
+	}
+	"Promo invalid"
+	{
+		"fi"		"Virheellinen tai vanhentunut promokoodi."
+	}
+	"Promo invalid CM"
+	{
+		"fi"		"Virheellinen tai vanhentunut promokoodi."
+	}
+	"Promo already used"
+	{
+		"fi"		"Olet jo käyttänyt tätä promokoodia."
+	}
+	"Promo already used CM"
+	{
+		"fi"		"Olet jo käyttänyt tätä promokoodia."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Promo lunastettu! Saatu {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"fi"		"Promo lunastettu! Saatu {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Promo lunastettu! Saatu esine: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"fi"		"Promo lunastettu! Saatu esine: {1}."
+	}
+	"Promo try again"
+	{
+		"fi"		"Yritä hetken kuluttua uudelleen (tietojesi lataus)."
+	}
+	"Promo try again CM"
+	{
+		"fi"		"Yritä hetken kuluttua uudelleen (tietojesi lataus)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Äänenvoimakkuus\nNykyinen: {1}%%"
+	}
+	"Volume increase"
+	{
+		"fi"		"Lisää (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"fi"		"Vähennä (-10%%)"
+	}
+	"Volume test"
+	{
+		"fi"		"Testitoisto"
+	}
+	"Ball sound settings"
+	{
+		"fi"		"Lahjan ääniasetukset"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Lahjan äänenvoimakkuus: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Say-äänen voimakkuus: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"fi"		"Syötä kredittimäärä sijainnille {1}:"
+	}
 }

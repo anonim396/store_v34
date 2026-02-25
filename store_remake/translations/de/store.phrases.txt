@@ -5201,6 +5201,32 @@
 		"de"			"Konfig neu laden"
 	}
 
+	"Ball on map at"
+	{
+		"#format"		"{1:f},{2:f},{3:f}"
+		"de"			"Ball auf Karte bei: {1} {2} {3}\n "
+	}
+
+	"Ball not on map"
+	{
+		"de"			"Kein Ball auf der Karte\n "
+	}
+
+	"Remove ball from map"
+	{
+		"de"			"Ball von der Karte entfernen"
+	}
+
+	"Ball removed from map"
+	{
+		"de"			"Ball von der Karte entfernt"
+	}
+
+	"Ball removed from map CM"
+	{
+		"de"			"Ball von der Karte entfernt"
+	}
+
 	"Set Credits for Positions Title"
 	{
 		"#format"		"{1:i}"
@@ -5289,5 +5315,147 @@
 	{
 		"#format"		"{1:s},{2:i}"
 		"de"			"Wählen Sie die Guthabenmenge\n{2} - {1} Guthaben"
+	}
+	
+	"Pet Settings"
+	{
+		"de"			"Haustier-Einstellungen"
+	}
+
+	"Show Pets"
+	{
+		"de"			"Haustiere anzeigen"
+	}
+
+	"Hide Pets"
+	{
+		"de"			"Haustiere ausblenden"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"de"			"Haustier-Folgemodus: Aktiviert"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"de"			"Haustier-Folgemodus: Deaktiviert"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"de"			"Haustier-Folgemodus aktiviert"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"de"			"Haustier-Folgemodus deaktiviert"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"de"			"Haustier-Folgemodus aktiviert"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"de"			"Haustier-Folgemodus deaktiviert"
+	}
+
+	"Promo usage"
+	{
+		"de"		"Verwendung: !storepromo <CODE> oder !shoppromo <CODE>"
+	}
+	"Promo usage CM"
+	{
+		"de"		"Verwendung: !storepromo <CODE> oder !shoppromo <CODE>"
+	}
+	"Promo disabled"
+	{
+		"de"		"Promo-Codes sind nicht konfiguriert."
+	}
+	"Promo disabled CM"
+	{
+		"de"		"Promo-Codes sind nicht konfiguriert."
+	}
+	"Promo invalid"
+	{
+		"de"		"Ungültiger oder abgelaufener Promo-Code."
+	}
+	"Promo invalid CM"
+	{
+		"de"		"Ungültiger oder abgelaufener Promo-Code."
+	}
+	"Promo already used"
+	{
+		"de"		"Sie haben diesen Promo-Code bereits verwendet."
+	}
+	"Promo already used CM"
+	{
+		"de"		"Sie haben diesen Promo-Code bereits verwendet."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"de"		"Promo eingelöst! {1} {2} erhalten."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"de"		"Promo eingelöst! {1} {2} erhalten."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"de"		"Promo eingelöst! Gegenstand erhalten: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"de"		"Promo eingelöst! Gegenstand erhalten: {1}."
+	}
+	"Promo try again"
+	{
+		"de"		"Bitte versuchen Sie es in Kürze erneut (Ihre Daten werden geladen)."
+	}
+	"Promo try again CM"
+	{
+		"de"		"Bitte versuchen Sie es in Kürze erneut (Ihre Daten werden geladen)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"de"		"Lautstärke\nAktuell: {1}%%"
+	}
+	"Volume increase"
+	{
+		"de"		"Erhöhen (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"de"		"Verringern (-10%%)"
+	}
+	"Volume test"
+	{
+		"de"		"Testwiedergabe"
+	}
+	"Ball sound settings"
+	{
+		"de"		"Geschenk-Sound-Einstellungen"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"de"		"Geschenk-Lautstärke: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"de"		"Say-Sound-Lautstärke: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"de"		"Kreditbetrag für Position {1} eingeben:"
 	}
 }

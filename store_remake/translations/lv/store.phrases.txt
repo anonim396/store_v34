@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"lv"			"Izvēlieties kredītu daudzumu\n{2} - {1} kredīti"
 	}
+	
+	"Pet Settings"
+	{
+		"lv"			"Mājdzīvnieka iestatījumi"
+	}
+
+	"Show Pets"
+	{
+		"lv"			"Rādīt mājdzīvniekus"
+	}
+
+	"Hide Pets"
+	{
+		"lv"			"Slēpt mājdzīvniekus"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"lv"			"Mājdzīvnieka sekošanas režīms: Ieslēgts"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"lv"			"Mājdzīvnieka sekošanas režīms: Izslēgts"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"lv"			"Mājdzīvnieka sekošanas režīms ieslēgts"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"lv"			"Mājdzīvnieka sekošanas režīms izslēgts"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"lv"			"Mājdzīvnieka sekošanas režīms ieslēgts"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"lv"			"Mājdzīvnieka sekošanas režīms izslēgts"
+	}
+
+	"Promo usage"
+	{
+		"lv"		"Izmanto: !storepromo <KODS> vai !shoppromo <KODS>"
+	}
+	"Promo usage CM"
+	{
+		"lv"		"Izmanto: !storepromo <KODS> vai !shoppromo <KODS>"
+	}
+	"Promo disabled"
+	{
+		"lv"		"Promo kodi nav konfigurēti."
+	}
+	"Promo disabled CM"
+	{
+		"lv"		"Promo kodi nav konfigurēti."
+	}
+	"Promo invalid"
+	{
+		"lv"		"Nederīgs vai beidzies promo kods."
+	}
+	"Promo invalid CM"
+	{
+		"lv"		"Nederīgs vai beidzies promo kods."
+	}
+	"Promo already used"
+	{
+		"lv"		"Jūs jau esat izmantojis šo promo kodu."
+	}
+	"Promo already used CM"
+	{
+		"lv"		"Jūs jau esat izmantojis šo promo kodu."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Promo izpildīts! Saņemts {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"lv"		"Promo izpildīts! Saņemts {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Promo izpildīts! Saņemta vienība: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"lv"		"Promo izpildīts! Saņemta vienība: {1}."
+	}
+	"Promo try again"
+	{
+		"lv"		"Lūdzu, mēģiniet vēlreiz pēc brīža (ielādējot jūsu datus)."
+	}
+	"Promo try again CM"
+	{
+		"lv"		"Lūdzu, mēģiniet vēlreiz pēc brīža (ielādējot jūsu datus)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Skaļums\nPašreizējais: {1}%%"
+	}
+	"Volume increase"
+	{
+		"lv"		"Palielināt (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"lv"		"Samazināt (-10%%)"
+	}
+	"Volume test"
+	{
+		"lv"		"Testa atskaņošana"
+	}
+	"Ball sound settings"
+	{
+		"lv"		"Dāvanas skaņas iestatījumi"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Dāvanas skaņas skaļums: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Say skaņas skaļums: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"lv"		"Ievadiet kredītu summu pozīcijai {1}:"
+	}
 }

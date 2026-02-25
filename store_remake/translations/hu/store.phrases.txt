@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"hu"			"Válassza ki a kreditek számát\n{2} - {1} kredit"
 	}
+	
+	"Pet Settings"
+	{
+		"hu"			"Háziállat beállítások"
+	}
+
+	"Show Pets"
+	{
+		"hu"			"Háziállatok megjelenítése"
+	}
+
+	"Hide Pets"
+	{
+		"hu"			"Háziállatok elrejtése"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"hu"			"Háziállat követési mód: Engedélyezve"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"hu"			"Háziállat követési mód: Letiltva"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"hu"			"Háziállat követési mód engedélyezve"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"hu"			"Háziállat követési mód letiltva"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"hu"			"Háziállat követési mód engedélyezve"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"hu"			"Háziállat követési mód letiltva"
+	}
+
+	"Promo usage"
+	{
+		"hu"		"Használat: !storepromo <KÓD> vagy !shoppromo <KÓD>"
+	}
+	"Promo usage CM"
+	{
+		"hu"		"Használat: !storepromo <KÓD> vagy !shoppromo <KÓD>"
+	}
+	"Promo disabled"
+	{
+		"hu"		"A promóciós kódok nincsenek beállítva."
+	}
+	"Promo disabled CM"
+	{
+		"hu"		"A promóciós kódok nincsenek beállítva."
+	}
+	"Promo invalid"
+	{
+		"hu"		"Érvénytelen vagy lejárt promóciós kód."
+	}
+	"Promo invalid CM"
+	{
+		"hu"		"Érvénytelen vagy lejárt promóciós kód."
+	}
+	"Promo already used"
+	{
+		"hu"		"Ezt a promóciós kódot már használtad."
+	}
+	"Promo already used CM"
+	{
+		"hu"		"Ezt a promóciós kódot már használtad."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Promóció beváltva! Megkapva: {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"hu"		"Promóció beváltva! Megkapva: {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Promóció beváltva! Tárgy megkapva: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"hu"		"Promóció beváltva! Tárgy megkapva: {1}."
+	}
+	"Promo try again"
+	{
+		"hu"		"Kérjük, próbálja újra később (adatok betöltése)."
+	}
+	"Promo try again CM"
+	{
+		"hu"		"Kérjük, próbálja újra később (adatok betöltése)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Hangerő\nJelenlegi: {1}%%"
+	}
+	"Volume increase"
+	{
+		"hu"		"Növelés (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"hu"		"Csökkentés (-10%%)"
+	}
+	"Volume test"
+	{
+		"hu"		"Teszt lejátszás"
+	}
+	"Ball sound settings"
+	{
+		"hu"		"Ajándék hangbeállítások"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Ajándék hangerő: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Say hang hangerő: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"hu"		"Adja meg a kreditszámot a {1} pozícióhoz:"
+	}
 }

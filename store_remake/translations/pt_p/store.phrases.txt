@@ -495,6 +495,36 @@
 	{
 		"pt_p"		"Modelo Customizado de Arma"
 	}
+	"Chat won lootbox item credits"
+	{
+		"#format"	"{1:i}"
+		"pt_p"		"Abriste um contentor e encontraste {1} créditos!"
+	}
+	"Chat won lootbox item credits CM"
+	{
+		"#format"	"{1:i}"
+		"pt_p"		"Abriste um contentor e encontraste {1} créditos!"
+	}
+	"Chat won lootbox item gold"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"pt_p"		"{1} abriu um contentor e encontrou {2} ({3})!"
+	}
+	"Chat won lootbox item gold CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"pt_p"		"{1} abriu um contentor e encontrou {2} ({3})!"
+	}
+	"Chat won lootbox item red"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"pt_p"		"{1} abriu um contentor e encontrou {2} ({3})!"
+	}
+	"Chat won lootbox item red CM"
+	{
+		"#format"	"{1:s},{2:s},{3:t}"
+		"pt_p"		"{1} abriu um contentor e encontrou {2} ({3})!"
+	}
 	"Damage the crate to open"
 	{
 		"pt_p"		"Dano a caixa para abrir!"
@@ -558,6 +588,10 @@
 	"Enter custom amount"
 	{
 		"pt_p"		"Por favor, insira o seu valor personalizado no chat!"
+	}
+	"Enter minimum value"
+	{
+		"pt_p"      "Por favor, digite o valor mínimo de créditos no chat!"
 	}
 	"Enter maximum value"
 	{
@@ -2933,6 +2967,11 @@
 	{
 		"pt_p"		"Por favor, insira o seu valor personalizado no chat!"
 	}
+	
+	"Enter minimum value CM"
+	{
+		"pt_p"      "Por favor, digite o valor mínimo de créditos no chat!"
+	}
 
 	"Enter maximum value CM"
 	{
@@ -5247,5 +5286,149 @@
 	{
 		"#format"		"{1:s},{2:i}"
 		"pt_p"			"Escolha a quantidade de créditos\n{2} - {1} créditos"
+	}
+	
+	"Pet Settings"
+	{
+		"pt_p"			"Configurações de animal de estimação"
+	}
+
+	"Show Pets"
+	{
+		"pt_p"			"Mostrar animais"
+	}
+
+	"Hide Pets"
+	{
+		"pt_p"			"Ocultar animais"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"pt_p"			"Modo seguimento animal: Ativado"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"pt"			"Modo seguimento animal: Desativado"
+		"pt_p"			"Modo seguimento animal: Desativado"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"pt"			"Modo seguimento animal ativado"
+		"pt_p"			"Modo seguimento animal ativado"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"pt_p"			"Modo seguimento animal desativado"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"pt_p"			"Modo seguimento animal ativado"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"pt_p"			"Modo seguimento animal desativado"
+	}
+
+	"Promo usage"
+	{
+		"pt_p"		"Uso: !storepromo <CÓDIGO> ou !shoppromo <CÓDIGO>"
+	}
+	"Promo usage CM"
+	{
+		"pt_p"		"Uso: !storepromo <CÓDIGO> ou !shoppromo <CÓDIGO>"
+	}
+	"Promo disabled"
+	{
+		"pt_p"		"Os códigos promocionais não estão configurados."
+	}
+	"Promo disabled CM"
+	{
+		"pt_p"		"Os códigos promocionais não estão configurados."
+	}
+	"Promo invalid"
+	{
+		"pt_p"		"Código promocional inválido ou expirado."
+	}
+	"Promo invalid CM"
+	{
+		"pt_p"		"Código promocional inválido ou expirado."
+	}
+	"Promo already used"
+	{
+		"pt_p"		"Você já utilizou este código promocional."
+	}
+	"Promo already used CM"
+	{
+		"pt_p"		"Você já utilizou este código promocional."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"pt_p"		"Promo resgatado! Recebido {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"pt_p"		"Promo resgatado! Recebido {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"pt_p"		"Promo resgatado! Recebido item: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"pt_p"		"Promo resgatado! Recebido item: {1}."
+	}
+	"Promo try again"
+	{
+		"pt_p"		"Por favor, tenta novamente daqui a pouco (a carregar os teus dados)."
+	}
+	"Promo try again CM"
+	{
+		"pt_p"		"Por favor, tenta novamente daqui a pouco (a carregar os teus dados)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"pt_p"		"Volume\nAtual: {1}%%"
+	}
+	"Volume increase"
+	{
+		"pt_p"		"Aumentar (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"pt_p"		"Diminuir (-10%%)"
+	}
+	"Volume test"
+	{
+		"pt_p"		"Reprodução de teste"
+	}
+	"Ball sound settings"
+	{
+		"pt_p"		"Definições de som do presente"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"pt_p"		"Volume de som do presente: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"pt_p"		"Volume de som Say: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"pt_p"		"Introduza o valor de créditos para a posição {1}:"
 	}
 }

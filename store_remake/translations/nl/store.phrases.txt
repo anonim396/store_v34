@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"nl"			"Kies het aantal credits\n{2} - {1} credits"
 	}
+	
+	"Pet Settings"
+	{
+		"nl"			"Huisdierinstellingen"
+	}
+
+	"Show Pets"
+	{
+		"nl"			"Huisdieren tonen"
+	}
+
+	"Hide Pets"
+	{
+		"nl"			"Huisdieren verbergen"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"nl"			"Huisdier volgmodus: Ingeschakeld"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"nl"			"Huisdier volgmodus: Uitgeschakeld"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"nl"			"Huisdier volgmodus ingeschakeld"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"nl"			"Huisdier volgmodus uitgeschakeld"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"nl"			"Huisdier volgmodus ingeschakeld"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"nl"			"Huisdier volgmodus uitgeschakeld"
+	}
+
+	"Promo usage"
+	{
+		"nl"		"Gebruik: !storepromo <CODE> of !shoppromo <CODE>"
+	}
+	"Promo usage CM"
+	{
+		"nl"		"Gebruik: !storepromo <CODE> of !shoppromo <CODE>"
+	}
+	"Promo disabled"
+	{
+		"nl"		"Promocodes zijn niet geconfigureerd."
+	}
+	"Promo disabled CM"
+	{
+		"nl"		"Promocodes zijn niet geconfigureerd."
+	}
+	"Promo invalid"
+	{
+		"nl"		"Ongeldige of verlopen promocode."
+	}
+	"Promo invalid CM"
+	{
+		"nl"		"Ongeldige of verlopen promocode."
+	}
+	"Promo already used"
+	{
+		"nl"		"Je hebt deze promocode al gebruikt."
+	}
+	"Promo already used CM"
+	{
+		"nl"		"Je hebt deze promocode al gebruikt."
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Promo ingewisseld! Ontvangen {1} {2}."
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"nl"		"Promo ingewisseld! Ontvangen {1} {2}."
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Promo ingewisseld! Ontvangen item: {1}."
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"nl"		"Promo ingewisseld! Ontvangen item: {1}."
+	}
+	"Promo try again"
+	{
+		"nl"		"Probeer het over een ogenblik opnieuw (uw gegevens laden)."
+	}
+	"Promo try again CM"
+	{
+		"nl"		"Probeer het over een ogenblik opnieuw (uw gegevens laden)."
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Volume\nHuidig: {1}%%"
+	}
+	"Volume increase"
+	{
+		"nl"		"Verhogen (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"nl"		"Verlagen (-10%%)"
+	}
+	"Volume test"
+	{
+		"nl"		"Testafspeling"
+	}
+	"Ball sound settings"
+	{
+		"nl"		"Cadeau geluidsinstellingen"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Cadeau geluidsvolume: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Say geluidsvolume: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"nl"		"Voer kredietbedrag in voor positie {1}:"
+	}
 }

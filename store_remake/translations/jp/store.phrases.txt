@@ -5290,4 +5290,146 @@
 		"#format"		"{1:s},{2:i}"
 		"jp"			"クレジットの金額を選択\n{2} - {1} クレジット"
 	}
+	
+	"Pet Settings"
+	{
+		"jp"			"ペット設定"
+	}
+
+	"Show Pets"
+	{
+		"jp"			"ペットを表示"
+	}
+
+	"Hide Pets"
+	{
+		"jp"			"ペットを非表示"
+	}
+
+	"Pet Follow Mode: Enabled"
+	{
+		"jp"			"ペットフォローモード：有効"
+	}
+
+	"Pet Follow Mode: Disabled"
+	{
+		"jp"			"ペットフォローモード：無効"
+	}
+
+	"Pet follow mode enabled"
+	{
+		"jp"			"ペットフォローモードが有効になりました"
+	}
+
+	"Pet follow mode disabled"
+	{
+		"jp"			"ペットフォローモードが無効になりました"
+	}
+	
+	"Pet follow mode enabled CM"
+	{
+		"jp"			"ペットフォローモードが有効になりました"
+	}
+
+	"Pet follow mode disabled CM"
+	{
+		"jp"			"ペットフォローモードが無効になりました"
+	}
+
+	"Promo usage"
+	{
+		"jp"		"使い方: !storepromo <コード> または !shoppromo <コード>"
+	}
+	"Promo usage CM"
+	{
+		"jp"		"使い方: !storepromo <コード> または !shoppromo <コード>"
+	}
+	"Promo disabled"
+	{
+		"jp"		"プロモコードが設定されていません。"
+	}
+	"Promo disabled CM"
+	{
+		"jp"		"プロモコードが設定されていません。"
+	}
+	"Promo invalid"
+	{
+		"jp"		"無効または期限切れのプロモコードです。"
+	}
+	"Promo invalid CM"
+	{
+		"jp"		"無効または期限切れのプロモコードです。"
+	}
+	"Promo already used"
+	{
+		"jp"		"このプロモコードは既に使用済みです。"
+	}
+	"Promo already used CM"
+	{
+		"jp"		"このプロモコードは既に使用済みです。"
+	}
+	"Promo credits"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"プロモを引き換えました！{1} {2}を獲得しました。"
+	}
+	"Promo credits CM"
+	{
+		"#format"	"{1:i},{2:s}"
+		"jp"		"プロモを引き換えました！{1} {2}を獲得しました。"
+	}
+	"Promo item"
+	{
+		"#format"	"{1:s}"
+		"jp"		"プロモを引き換えました！アイテムを獲得: {1}。"
+	}
+	"Promo item CM"
+	{
+		"#format"	"{1:s}"
+		"jp"		"プロモを引き換えました！アイテムを獲得: {1}。"
+	}
+	"Promo try again"
+	{
+		"jp"		"しばらくしてからもう一度お試しください（データを読み込み中）。"
+	}
+	"Promo try again CM"
+	{
+		"jp"		"しばらくしてからもう一度お試しください（データを読み込み中）。"
+	}
+	"Volume menu title"
+	{
+		"#format"	"{1:i}"
+		"jp"		"音量\n現在: {1}%%"
+	}
+	"Volume increase"
+	{
+		"jp"		"上げる (+10%%)"
+	}
+	"Volume decrease"
+	{
+		"jp"		"下げる (-10%%)"
+	}
+	"Volume test"
+	{
+		"jp"		"テスト再生"
+	}
+	"Ball sound settings"
+	{
+		"jp"		"ギフトの音量設定"
+	}
+	"Ball volume display"
+	{
+		"#format"	"{1:i}"
+		"jp"		"ギフトの音量: {1}%%"
+	}
+	"Say sound volume display"
+	{
+		"#format"	"{1:i}"
+		"jp"		"Say サウンドの音量: {1}%%"
+	}
+	"Ball enter credits position"
+	{
+		"#format"	"{1:i}"
+		"jp"		"位置 {1} のクレジット数を入力："
+	}
 }
